@@ -9,9 +9,27 @@
 <table cellpadding="3" cellspacing="3" witdh="100%">
 <tr class="text"><td>
 <p>
-Here is a list of the supported cameras as of current release.
-Some camera may be supported in the current CVS code, they will 
-be added to the next release.
+On this page, you find list of the supported cameras as of the 
+current release.
+</p>
+<p>
+Support for additional cameras may be in the current 
+libgphoto2 CVS HEAD code.
+They will be added to the next release. 
+A complete (but unofficial) list of the cameras supported in 
+libgphoto2 CVS HEAD can be found on 
+<a href="http://n-dimensional.de/projects/digicam/software/snapshots/SUPPORTED-CAMERAS">n-dimensional.de</a>.
+</p>
+<p>If your camera is neither supported in the current release nor in current CVS HEAD, it is possible that
+<ul>
+<li>it is an old camera for which the original <a href="/proj/gphoto/">gPhoto</a> driver has not been ported yet (mostly due to lack of demand)</li>
+<li>it is a new camera for which there is no support at all</li>
+</ul>
+See the 
+<a href="http://www.teaser.fr/~hfiguiere/linux/digicam.html">Digital
+Camera Support for UN*X</a> page for details about just any camera.
+</p>
+
 <pre>
 ========================================================================
 gphoto2 2.1.1
@@ -326,15 +344,6 @@ Supported cameras:
 	"Yahoo!Cam" (EXPERIMENTAL)
 ========================================================================
 </pre>
-</p>
-<p>
-If your camera is not in that list, then it may be supported in the
-current CVS version. There is also a possibility, for some old cameras, 
-that the original <a href="/proj/gphoto/">gPhoto</a> driver has not been
-ported. Or it may be unsupported at all. See the 
-<a href="http://www.teaser.fr/~hfiguiere/linux/digicam.html">Digital
-Camera Support for UN*X</a> page.
-</p>
 </td></tr>
 </table>
 <?
