@@ -19,9 +19,8 @@
 	 We have moved our mailing-lists to sourceforge (at least temporarily).
 	 You can subscribe to the gphoto-user mailing-list and/or the gphoto-devel
 	 mailing-list by using the sourceforge interface available 
-	 <a href="http://sourceforge.net/mail/?group_id=8874">here</a>.
+	 <a href="http://sourceforge.net/mail/?group_id=8874">here</a>.</p>
 	 <div style="text-align: right;"><b>May 3rd, 2003</b></div>
-	 </p>
 	 
 	 <p>Digital cameras have the balance of quality, features, and 
     price that appeals to users looking for a fast and convenient
