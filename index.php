@@ -15,7 +15,15 @@
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
 
-    <p>Digital cameras have the balance of quality, features, and 
+    <p style="color:red; font-weight: bold;">
+	 We have moved our mailing-lists to sourceforge (at least temporarily).
+	 You can subscribe to the gphoto-user mailing-list and/or the gphoto-devel
+	 mailing-list by using the sourceforge interface available 
+	 <a href="http://sourceforge.net/mail/?group_id=8874">here</a>.
+	 <div style="text-align: right;"><b>May 3rd, 2003</b></div>
+	 </p>
+	 
+	 <p>Digital cameras have the balance of quality, features, and 
     price that appeals to users looking for a fast and convenient
     way to get images into their PC. You can spend a lot more -- or
     a lot less -- for one than the $100 to $3000 (or even more) these cost, 
