@@ -15,6 +15,8 @@
 Debian packages are at <a href="ftp://ufies.org/pub/people/christophe/gphoto2-rc1/">ftp://ufies.org/pub/people/christophe/gphoto2-rc1/</a>. RPMs for SUSE are at <a href="ftp://ftp.suse.com/pub/people/meissner/gphoto/rc1/">ftp://ftp.suse.com/pub/people/meissner/gphoto/rc1/</a>.
 </p>
 
+<hr />
+
 <h2>New website (September 2nd, 2002)</h2>
 	<p>Features a new look.
 	</p>
