@@ -13,7 +13,7 @@ VERBOSE=""
 #VERBOSE=-v
 
 echo "Synchronizing..."
-rsync -az $VERBOSE --exclude=CVS "--exclude=*.sh" "--exclude=*.swp" --exclude=.website_login --exclude=.cvsignore -e ssh . ${SERVER_HOST}:/home/groups/g/gp/gphoto/htdocs
+rsync -az $VERBOSE --exclude=CVS "--exclude=*.sh" "--exclude=*.swp" --exclude="*~" --exclude=.website_login --exclude=.cvsignore -e ssh . ${SERVER_HOST}:/home/groups/g/gp/gphoto/htdocs
 
 echo "Changing perms..."
 ssh ${SERVER_HOST} "cd /home/groups/g/gp/gphoto/htdocs ; chgrp -R gphoto *; chmod -R g+w *"
