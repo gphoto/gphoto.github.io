@@ -9,14 +9,44 @@
 <tr>
 	<td class="text">
 <!-- news headlines -->
-<h2>Upcoming 2.1.1 release (November 17th, 2002)</h2>
-<p>Release date is December 1st, 2002. Features some changes (split gphoto2 command line interface from libgphoto2), new support for a lot of new cameras (almost 300 cameras supported now), improved support for allready supported cameras, and still more.</p>
-<p>You can download</p>
+<h2>2.1.1 release (December 1st, 2002)</h2>
+<p>libgphoto2 2.1.1, gphoto2 2.1.1 and gtkam 0.1.10 finally are released.</p>
+
+<p>libgphoto2 is a user space library providing camera independent access
+to almost 300 digital cameras.</p>
+
+<p>gphoto2 is a command line frontend for libgphoto2.</p>
+
+<p>gtkam is a GTK+ 2.0 based frontend for libgphoto2.</p>
+
+<p>This is the first release in which we split the command line frontend
+gphoto2 from the library libgphoto2.</p>
+
+<p>Since the gphoto2 2.1.0 release, we have added support for a lot of
+cameras:</p>
+
 <ul>
-<li>release candidate source tarballs from <a href="http://n-dimensional.de/releases/">http://n-dimensional.de/releases/</a></li>
-<li>Debian packages from <a href="ftp://ufies.org/pub/people/christophe/">ftp://ufies.org/pub/people/christophe/</a></li>
-<li>RPMs for SUSE from <a href="ftp://ftp.suse.com/pub/people/meissner/gphoto/">ftp://ftp.suse.com/pub/people/meissner/gphoto/</a></li>
+   <li>Ricoh RDC-1, -2, -2E, -100G, -300, -300Z, -4200, -4300, -5000
+     Philips ESP2, ESP50, ESP60, ESP70, ESP80, ESP80SXG</li>
+   <li>Canon PowerShot G3, S230, S45, A100, A200</li>
+   <li>Nikon D100</li>
+   <li>Mustek gSmart mini, mini2, mini3 and So. Show 301</li>
+   <li>USB Jenoptik JD350v</li>
+   <li>RCA CDS1005, FujiFilm @xia ix-100, Oregon Scientific DShot II, 
+     Media-Tech mt-406, and Scott APX 30</li>
+   <li>Aiptek Pencam and Medion MD 5319</li>
+   <li>and probably some more</li>
 </ul>
+
+<p>For a more detailed list of changes, see the CHANGES file.</p>
+
+<p>Have fun using your camera!</p>
+
+<p>
+For the gphoto2 team<br />
+Hans Ulrich Niedermann<br />
+Release Manager for 2.1.1<br />
+</p>
 
 <hr />
 
