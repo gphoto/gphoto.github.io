@@ -22,7 +22,7 @@ device.
 for the GTK+ frontend. It will be removed from major distributions if it
 is not already.</p>
 <p>Some drivers still haven't been ported to <a href="/proj/libgphoto2/">libgphoto2</a>. 
-So if you have some programming skills and the camera, it is good idea to idea
+So if you have some programming skills and the camera, it is a good idea 
 to help porting them.</p>
 </td>
 </tr>
