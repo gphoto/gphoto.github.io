@@ -50,3 +50,13 @@ pre, tt
 {
 	font-size: small;
 }
+
+<!-- the following are the styles for the HTML generated from Docbook XML -->
+
+pre.screen
+{
+	background-color: #E0E0E0;
+	border: thin solid gray;
+	margin-top: 1.33ex;
+	margin-bottom: 1.33ex;
+}
