@@ -10,12 +10,10 @@
 <tr><td>
    <p>Here is a list of useful links for gPhoto users and developers:</p>
    <p>There are many digital camera related
-   resources at <a href="http://www.average.org/digicam/">
-   http://www.average.org/digicam/</a> and <a
-   href="http://www.itojun.org/digi-cam/list/">
-   http://www.itojun.org/digi-cam/list/</a>.<br/>
+   resources at <a href="http://photopc.sourceforge.net/">
+   http://photopc.sourceforge.net/</a>.<br/>
    Also check out the Usenet News discussion
-   group <a href="http://www.dejanews.com/group/rec.photo.digital">
+   group <a href="http://groups.google.com/groups?oi=djq&amp;as_ugroup=rec.photo.digital">
    rec.photo.digital</a></p>
 
    <p>For Linux USB setup information, check the 
@@ -24,11 +22,14 @@
    Also <a href="http://www.harald-schreiber.de/">Using a USB Mass Storage Camera</a>.
    </p>
    
+<?
+/*
    <p>If you have a Connectix QuickCam, then
    check out <a href= 
    "http://www.dkfz-heidelberg.de/Macromol/wedemann/mini-HOWTO-cqcam.html">
     http://www.dkfz-heidelberg.de/Macromol/wedemann/mini-HOWTO-cqcam.html</a></p>
-
+    */
+?>
    <p>OpenDiS, the <a href="http://digitalux.netpedia.net/">Open Digita
    Services</a> project, is an effort to write
    free tools for accessing Digita cameras from
@@ -36,7 +37,7 @@
    Initial targets for support are the Kodak
    DC-220 and DC-260 digital cameras.</p>
 		      
-   <p>Also checkout the <a href="http://www.linuxdoc.org/HOWTO/Kodak-Digitalcam-HOWTO.html">Kodak Digital Camera HOWTO</a>.</p>
+   <p>Also checkout the <a href="http://www.tldp.org/HOWTO/Kodak-Digitalcam-HOWTO/index.html">Kodak Digital Camera HOWTO</a>.</p>
 
    <p><a href="http://www.mostang.com/sane/">
    SANE</a> stands for 'Scanner Access Now Easy'
@@ -44,7 +45,7 @@
    (API) that provides standardized access to
    raster image scanner hardware.</p>
 
-   <p><a href="http://home.jps.net/~koma/">Snoopy</a> an USB snooper
+   <p><a href="http://www.wingmanteam.com/usbsnoopy/">Snoopy</a> an USB snooper
    software for Microsoft Windows. This tool is used to help reverse
    engineering protocols of cameras runing over USB.</p>
 
