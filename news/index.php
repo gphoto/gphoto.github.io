@@ -11,7 +11,7 @@
 <!-- news headlines -->
 <hr />
 
-<h2>2.1.5 release (January 18th, 2004)</h2>
+<h2>2.1.5 release (December 16th, 2004)</h2>
 
 <pre>
 New features:
