@@ -8,7 +8,8 @@
 
 <h2>The gPhoto2 Manual</h2>
 <p>The gPhoto2 Manual, From installation to development.
-Written by Hans-Ulrich Niedermann.</p>
+Edited by Tim Waughn, Hans Ulrich Niedermanni and Michael J. Rensing
+</p>
 <p class="more"><a href="manual">(more...)</a></p>
 <h2>FAQ</h2>
 <p>Answer all that you wanted to know about gphoto2.</p>
