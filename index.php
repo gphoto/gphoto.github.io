@@ -6,12 +6,14 @@
 	printMenu ("home");
 ?>
 <table cellpadding="3" cellspacing="3">
+<tr><td>
+<h2>Freedom from film</h2>
+</td></tr>
 <tr>
 	<td class="text">
 	<!-- title image -->
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
-    <h2>Freedom from film</h2>
 
     <p>Digital cameras have the balance of quality, features, and 
     price that appeals to users looking for a fast and convenient
@@ -44,10 +46,12 @@
     the camera.   It renders the camera quite useless if you don't run 
     one of those proprietary operating systems.
     </p>
-    
+    </td></tr> 
+    <tr><td>
     <h2>Introducing gPhoto</h2>
-    
-    <p><b>gPhoto</b> is a free, redistributable, ready to use set of
+    </td></tr>
+    <tr><td class="text">
+    <p><a href="/proj/"><b>gPhoto</b></a> is a free, redistributable, ready to use set of
     digital camera software
     applications for Unix-like systems, written by a whole team of dedicated
     volunteers around the world.</p>
