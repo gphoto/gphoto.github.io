@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Chapter 4. Setting up your system for use with 
+      libgphoto2
+      and gphoto2
+    </title><meta name="generator" content="DocBook XSL Stylesheets V1.50.0"/><link rel="home" href="index.html" title="The gPhoto2 Manual"/><link rel="up" href="index.html" title="The gPhoto2 Manual"/><link rel="previous" href="ch03.html" title="Chapter 3. Frequently Asked Questions"/><link rel="next" href="ch04s02.html" title="Setting up permissions for serial (RS232) ports"/></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 4. Setting up your system for use with 
+      libgphoto2
+      and gphoto2
+    </th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ch04s02.html">Next</a></td></tr></table><hr/></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a id="setup-perms"/>Chapter 4. Setting up your system for use with 
+      <tt>libgphoto2</tt>
+      and <b>gphoto2</b>
+    </h2></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><a href="ch04.html#id2769480">System Overview</a></dt><dt><a href="ch04s02.html">Setting up permissions for serial (RS232) ports</a></dt><dt><a href="ch04s03.html">Setting up permissions for USB ports</a></dt><dd><dl><dt><a href="ch04s03.html#id2768246">USB ports on Linux</a></dt></dl></dd><dt><a href="ch04s04.html">Specifying the port and camera you use</a></dt><dd><dl><dt><a href="ch04s04.html#port-names">Port names</a></dt><dt><a href="ch04s04.html#camera-names">Camera name</a></dt></dl></dd></dl></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>This chapter aims to help you set up your system such that
+        you can use 
+        <tt>libgphoto2</tt>
+        with any frontend. However, we will have some examples using
+        the <a href="rn01re01.html" title="gphoto2">gphoto2(1)</a> command line frontend, as
+        this is the frontend which is always provided.
+      </p></div><div class="section"><div class="titlepage"><div><h2 class="title" style="clear: both"><a id="id2769480"/>System Overview</h2></div></div><p>
+        gPhoto2 consists of two libraries
+        <tt>libgphoto2</tt> (
+        see <a href="rn01re02.html" title="gphoto2">gphoto2(3)</a>), and
+        <tt>libgphoto2_port</tt>
+        (see <a href="rn01re03.html" title="gphoto2_port">gphoto2_port(3)</a>), which is used by the
+        former, 
+        and a command line frontend (<b>gphoto2</b>, 
+        see <a href="rn01re01.html" title="gphoto2">gphoto2(1)</a>). 
+        Other (GUI) frontends (like e.g. gtkam) are available as
+        separate packages.
+      </p><p>
+        In order to get access to the camera, your frontend process requires
+        write permissions to the respective device special file, e.g. to
+        <tt>/dev/ttyS3</tt> or 
+        <tt>/proc/bus/usb/1/012</tt>. 
+      </p><p>
+        For security reasons, we strongly recommend not to run any 
+        <a href="rn01re02.html" title="gphoto2">gphoto2(3)</a>
+        frontend as root. So you have to set up the permissions of your camera
+        device accordingly. This is described in the following two sections,
+	<a href="ch04s02.html#perms-rs232" title="Setting up permissions for serial (RS232) ports">the section called &#8220;Setting up permissions for serial (RS232) ports&#8221;</a> and <a href="ch04s03.html#perms-usb" title="Setting up permissions for USB ports">the section called &#8220;Setting up permissions for USB ports&#8221;</a>.
+      </p><p>
+        Then you can run your frontend. For the command line 
+        <a href="rn01re02.html" title="gphoto2">gphoto2(3)</a> frontend 
+        <a href="rn01re01.html" title="gphoto2">gphoto2(1)</a>,
+        this is described in the <a href="rn01re01.html" title="gphoto2">gphoto2(1)</a> man
+        page.
+      </p></div></div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="index.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch04s02.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 3. Frequently Asked Questions </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Setting up permissions for serial (RS232) ports</td></tr></table></div></body></html>

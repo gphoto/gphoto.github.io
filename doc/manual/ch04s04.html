@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Specifying the port and camera you use</title><meta name="generator" content="DocBook XSL Stylesheets V1.50.0"/><link rel="home" href="index.html" title="The gPhoto2 Manual"/><link rel="up" href="ch04.html" title="Chapter 4. Setting up your system for use with &#10;      libgphoto2&#10;      and gphoto2&#10;    "/><link rel="previous" href="ch04s03.html" title="Setting up permissions for USB ports"/><link rel="next" href="ch05.html" title="Chapter 5. Developer Documentation: The Inner Workings"/></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Specifying the port and camera you use</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch04s03.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Setting up your system for use with 
+      libgphoto2
+      and gphoto2
+    </th><td width="20%" align="right"> <a accesskey="n" href="ch05.html">Next</a></td></tr></table><hr/></div><div class="section"><div class="titlepage"><div><h2 class="title" style="clear: both"><a id="id2769159"/>Specifying the port and camera you use</h2></div></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
+	  <tt>libgphoto2</tt> 
+	  identifies a camera by two values: the 
+	  <a href="ch04s04.html#port-names" title="Port names">port</a> it is connected to
+	  and the <a href="ch04s04.html#camera-names" title="Camera name">name</a> of the
+	  camera.
+          How these may be specified is discussed in this chapter.
+        </p></div><div class="section"><div class="titlepage"><div><h3 class="title"><a id="port-names"/>Port names</h3></div></div><div class="variablelist"><dl><dt><span class="term">Serial ports</span></dt><dd><p>
+                are named like 
+                <tt>serial:/dev/ttyS2</tt>
+                if you want to use the serial device
+                <tt>/dev/ttyS2</tt>.
+              </p></dd><dt><span class="term">USB ports</span></dt><dd><p>
+                As USB works with auto detection, you do not have to specify a device
+                file. Therefore you just use the gphoto2 port 
+                <tt>usb:</tt>.
+              </p></dd></dl></div></div><div class="section"><div class="titlepage"><div><h3 class="title"><a id="camera-names"/>Camera name</h3></div></div><p>
+          The model name of the camera does not have to be specified when using
+          the <tt>usb:</tt> port. 
+          Otherwise you can specify a camera model like 
+          <tt>Canon PowerShot G2</tt>. 
+          You will be better off choosing the model from
+          the list of supported models rather than just trying to type
+          your camera model. 
+        </p><pre class="screen">
+          <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--camera</tt></i> <i><tt>&quot;<i><tt>Canon PowerShot G2</tt></i>&quot;</tt></i> <i><tt>--list-files</tt></i></b>
+        </pre></div></div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch04s03.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ch04.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch05.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Setting up permissions for USB ports </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 5. Developer Documentation: The Inner Workings</td></tr></table></div></body></html>

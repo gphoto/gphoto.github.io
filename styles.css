@@ -1,0 +1,52 @@
+<!-- $Id$ -->
+<!-- This CSS is not supposed to contain hardcoded font names -->
+body
+{
+	background-color: white;
+}
+
+p, b, blockquote, ul, ol, dl
+{
+	font-family: sans-serif;
+}
+
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+pre, tt
+{
+	font-family: monospace;	
+}
+
+.caption
+{
+	font-family: serif;
+	font-style: italic;
+}
+
+.menu
+{
+	font-weight: bold;
+	font-size: small;
+	background-color: #c0c0c0;
+}
+
+.text
+{
+	background-color: #fff6e6;
+}
+
+.more 
+{
+	font-weight: bold;
+	font-style: italic;
+	text-align: right;
+}
+
+.footer
+{
+	font-size: small;
+}
