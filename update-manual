@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+
+# this should be in update-settings.mk
+SERVER = sf
+HTML_DIR = $(HOME)/web/gphoto2-manual/html/
+
+# include update-settings.mk
+
+# where and how to do things on the web server
+TARGET_DIR = /home/groups/g/gp/gphoto/htdocs/doc/manual/
+FMODE = 0664
+DMODE = 0775
+GROUP = gphoto
+
+.PHONY: all
+all:
+	@echo "########## Synchronizing..."
+	rsync -vz -rtL -C -e ssh "$(HTML_DIR)" "$(SERVER):$(TARGET_DIR)"
+
+	@echo "########## Changing permissions..."
+	-ssh "$(SERVER)" "find $(TARGET_DIR) -name '.*' -or \( -type d -exec chmod $(DMODE) {} \; -exec chgrp $(GROUP) {} \; \) -or \( -type f -exec chmod $(FMODE) {} \; -exec chgrp $(GROUP) {} \; \)"
+
+	@echo "########## Web server update done."
