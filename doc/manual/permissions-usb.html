@@ -68,14 +68,14 @@
 	  as USB keyboards, fingerprint reader or
 	  similar. The following paragraphs thus describe setting up 
           <a href="permissions-usb.html#hotplug">b</a>.
-        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>The fact that we are using the name &#8220;usbcam&#8221; for
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>The fact that we are using the name &#8220;<i><tt>usbcam</tt></i>&#8221; for
 	    setting up permissions for gphoto2 has a reason. In fact,
 	    the permission setup you're doing here has nothing to do
 	    with gphoto2 specifically - any user space software
 	    wanting to access your USB camera will be able to make use
 	    of your camera only if the permissions are correctly set
 	    up. So I (hun) chose the identifier and script name
-	    &#8220;usbcam&#8221; and not &#8220;gphoto2cam&#8221; or
+	    &#8220;<i><tt>usbcam</tt></i>&#8221; and not &#8220;gphoto2cam&#8221; or
 	    somethink similar. 
 	  </p></div><p>
           On Linux systems, from the 2.4 kernel series on, the kernel supports
@@ -101,7 +101,7 @@
           <span class="emphasis"><em>not</em></span> 
           provide absolute security and that you should definitely
 	  know the security implications of the respective
-	  <b>usbcam</b> script you are going to use.
+	  <b><i><tt>usbcam</tt></i></b> script you are going to use.
         </p><div class="orderedlist"><ol type="1"><li><p>
               You must have the files 
               <tt>devices</tt> and 
@@ -110,8 +110,8 @@
               directory. If not, check the following paragraph for
               hints.
             </p><p>
-              Load your USB driver and mount the USB device filesystem,
-              i.e. e.g.
+              Load your USB driver (e.g. OHCI or UHCI) and 
+	      mount the USB device filesystem, i.e. e.g.
               </p><pre class="screen">
 
 <tt>[root@home ~]# </tt><b>modprobe</b> <i><tt>usb-uhci</tt></i>
@@ -124,7 +124,7 @@
               doesn't list any USB hardware.
             </p></li><li><p>
 	      In the file <tt>/etc/hotplug/usb.usermap</tt> 
-	      remove all lines beginning with &#8220;usbcam&#8221;.
+	      remove all lines beginning with &#8220;<i><tt>usbcam</tt></i>&#8221;.
 	      We are going to add new lines there and don't want to
 	      have the old ones get in the way.
             </p><p>
@@ -147,7 +147,7 @@
 		after 2.1.0), the functionality of
 		<tt>packaging/linux-hotplug/print-usb-usermap</tt>
 		was contained in the command 
-		<b>gphoto <i><tt>--print-usb-usermap</tt></i></b>.
+		<b>gphoto2 <i><tt>--print-usb-usermap</tt></i></b>.
 	      </p></div><p><b>Debian peculiarity. </b>
 		Debian uses a well-structured method for setting up
 		linux-hotplug. You should use this mechanism in
@@ -171,12 +171,12 @@
               This makes hotplug recognise all USB cameras which your version 
               of <a href="ref-libgphoto2.html" title="gphoto2">gphoto2(3)</a> supports and makes
               <b>hotplug</b> run the
-              <b>usbcam</b> script you choose in step
-              <a href="permissions-usb.html#chooseusbcamscript">3</a>whenever one of these
+              <b><i><tt>usbcam</tt></i></b> script you choose in step
+              <a href="permissions-usb.html#chooseusbcamscript">3</a> whenever one of these
               cameras is attached.
             </p></li><li><p><a name="chooseusbcamscript"></a>
               Choose the right 
-              <tt>/etc/hotplug/usb/usbcam</tt>
+              <tt>/etc/hotplug/usb/<i><tt>usbcam</tt></i></tt>
               script for you.
 	    </p><p>
               Example scripts are found in 
@@ -187,14 +187,14 @@
               after installation.
 	    </p><p>Choose a script which fits your requirements best,
 	      adapt it for your needs, and copy it to the file
-	      <tt>/etc/hotplug/usb/usbcam</tt>.
+	      <tt>/etc/hotplug/usb/<i><tt>usbcam</tt></i></tt>.
 	      The directory 
               <tt>/etc/hotplug</tt>
               should already exists, whereas it may be that you have
               to create the directory 
               <tt>/etc/hotplug/usb</tt>.
 	      The script <span class="emphasis"><em>must</em></span> be called
-	      <tt>/etc/hotplug/usb/usbcam</tt>, not
+	      <tt>/etc/hotplug/usb/<i><tt>usbcam</tt></i></tt>, not
 	      <tt>/etc/hotplug/usb/usbcam.user</tt> or
 	      something similar.
             </p><p>
@@ -229,20 +229,20 @@
                     There is a specially marked line in
                     the script you have to change.</dd><dt><span class="term"><tt>usbcam.x11-app</tt></span></dt><dd>
                     If you want only one user to have access to the
-		    camera and you favourite X11 libgphoto2 frontend
+		    camera and your favourite X11 libgphoto2 frontend
 		    launched automatically, use
 		    <tt>usbcam.x11-app</tt> and change it 
                     accordingly. There are a few specially marked
 		    lines in the script you have to change.
                   </dd></dl></div></li><li><p>
               Make the script file you just created and possibly adapted
-              (<tt>/etc/hotplug/usb/usbcam</tt>,
+              (<tt>/etc/hotplug/usb/<i><tt>usbcam</tt></i></tt>,
 	      <span class="emphasis"><em>not</em></span>
 	      <tt>/etc/hotplug/usb/usbcam.whatever</tt>!)
               executable:
             </p><pre class="screen">
 
-<tt>[root@home ~]# </tt><b>chmod <i><tt>+x</tt></i> <tt>/etc/hotplug/usb/usbcam</tt></b>
+<tt>[root@home ~]# </tt><b>chmod <i><tt>+x</tt></i> <tt>/etc/hotplug/usb/<i><tt>usbcam</tt></i></tt></b>
 	    </pre></li><li><p>
               Plug in the camera and switch it on. If you already did so, please
               unplug and/or switch off first. The kernel will now notice that
@@ -251,9 +251,9 @@
             </p><p>
               Hotplug will then look into 
               <tt>/etc/hotplug/usb.usermap</tt> and find that
-              the <b>usbcam</b> script is to be called for
+              the <b><i><tt>usbcam</tt></i></b> script is to be called for
               the newly attached device. Thus
-              <b>/etc/hotplug/usb/usbcam</b> is executed,
+              <b>/etc/hotplug/usb/<i><tt>usbcam</tt></i></b> is executed,
               hopefully setting the device permissions correctly. 
             </p><p>Your <tt>/var/log/messages</tt> syslog
               file will contain some messages to that effect.
@@ -274,4 +274,4 @@
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--summary</tt></i></b>
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--list-files</tt></i></b>
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--get-all-images</tt></i></b>
-	    </pre></li></ol></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="permissions-serial.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="permissions.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="port-and-camera.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">4.2. Setting up permissions for serial (RS232) ports </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 4.4. Specifying the port and camera you use</td></tr></table></div></body></html>
+	    </pre></li></ol></div></div><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="id2795579"></a>4.3.2. USB ports on BSD, MacOS X, OS/2</h3></div></div><p>FIXME: Still to be written</p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="permissions-serial.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="permissions.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="port-and-camera.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">4.2. Setting up permissions for serial (RS232) ports </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 4.4. Specifying the port and camera you use</td></tr></table></div></body></html>

@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Chapter 3. Frequently Asked Questions (FAQ)</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.54.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="index.html" title="The gPhoto2 Manual"><link rel="previous" href="using-kde.html" title="2.4. Using kioslave"><link rel="next" href="FAQ-unsorted.html" title="3.2. Unsorted FAQs"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p align="center" class="menu"><a href="/">Home</a> :: 
+      <a href="/news">News</a> :: 
+      <a href="/proj/">Projects</a> :: 
+      <a href="/doc/">Documentation</a> :: 
+      <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
+      <a href="/mailinglists/">Mailing lists</a> :: 
+      <a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">Download</a> :: 
+      <a href="/links/">Links</a><br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 3. Frequently Asked Questions (FAQ)</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="using-kde.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="FAQ-unsorted.html">Next</a></td></tr></table><hr></div><div class="chapter"><div class="titlepage"><div><h2 class="title"><a name="FAQ"></a>Chapter 3. Frequently Asked Questions (FAQ)</h2></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt>3.1. <a href="FAQ.html#FAQ-generic">Generic libgphoto2 FAQs (frontend-independent)</a></dt><dt>3.2. <a href="FAQ-unsorted.html">Unsorted FAQs</a></dt></dl></div><div class="sect1"><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="FAQ-generic"></a>3.1. Generic libgphoto2 FAQs (frontend-independent)</h2></div></div><div class="qandaset"><dl><dt>3.1.1. <a href="FAQ.html#id2796508">What can I do about the error message &quot;Could not find USB device&quot;?</a></dt><dt>3.1.2. <a href="FAQ.html#id2796556">gphoto2 does not find my camera. What shall I do?</a></dt><dt>3.1.3. <a href="FAQ.html#id2796623">Why do I get the error message &quot;Could not claim the USB device&quot;?</a></dt><dt>3.1.4. <a href="FAQ.html#id2796663">
+	Why does my Canon PowerShot G1/Pro 90 IS not work with gphoto2
+	when using the AC adapter?
+      </a></dt><dt>3.1.5. <a href="FAQ.html#id2796735">I've got a serial camera, but gphoto2 doesn't work on SuSE 7.0
+   (or greater). You told me that my camera is supported! Fix
+	it!</a></dt><dt>3.1.6. <a href="FAQ.html#id2796783">Dudes, Windows is the way to go. How do I compile
+	gphoto2 for that environment?</a></dt><dt>3.1.7. <a href="FAQ.html#id2796836">I wanna have CVS write access. How do I get one?</a></dt><dt>3.1.8. <a href="FAQ.html#id2796871">You took away my CVS write access! What did I do
+	wrong?</a></dt></dl><table border="0"><col align="left" width="1%"><tbody><tr class="question"><td align="left" valign="top"><a name="id2796508"></a><a name="id2796514"></a><b>3.1.1. </b></td><td align="left" valign="top"><p>What can I do about the error message &quot;Could not find USB device&quot;?</p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>
+	The exact error message looks like
+      </p><pre class="screen">
+Could not find USB device (vendor 0x0000, product 0x0000). Make
+sure this device is connected to the computer
+      </pre><p>
+	You have to set up the permissions on your USB device correctly.
+	This is described in The gPhoto2 Manual, which is available at
+
+	<a href="http://n-dimensional.de/projects/digicam/The_gPhoto2_Manual/" target="_top">http://n-dimensional.de/projects/digicam/The_gPhoto2_Manual/</a>.
+
+	See especially the section &quot;Setting up permissions for USB ports&quot;.
+      </p></td></tr><tr class="question"><td align="left" valign="top"><a name="id2796556"></a><a name="id2796559"></a><b>3.1.2. </b></td><td align="left" valign="top"><p>gphoto2 does not find my camera. What shall I do?</p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>      
+	First try to run &quot;gphoto2 --list-ports&quot; and look whether the ports 
+	you want to use are listed there:
+      </p><div class="itemizedlist"><ul type="disc"><li>	
+	    For serial devices, the port with the appropriate device must be
+	    listed
+	  </li><li>
+	    For USB devices, you need the &quot;usb:&quot; port in the list. If you
+	    don't see it, check whether you compiled gphoto2 with libusb
+	    support.
+	  </li></ul></div><p>
+	Then try to run &quot;gphoto2 --auto-detect&quot; and look whether the camera
+	is detected.
+      </p><p>
+	If your gphoto2 cannot access the USB device as non-root users, you
+	have to set up hotplugging correctly. See FIXME for details.
+      </p><p>
+	AND DO NOT RUN gphoto2 AS ROOT. And no other libgphoto2 frontend either.
+      </p></td></tr><tr class="question"><td align="left" valign="top"><a name="id2796623"></a><a name="id2796626"></a><b>3.1.3. </b></td><td align="left" valign="top"><p>Why do I get the error message &quot;Could not claim the USB device&quot;?</p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>
+	The exact message looks like
+      </p><pre class="screen">
+*** Error ('Could not claim the USB device') ***
+
+Could not claim interface 0 (Operation not permitted). Make sure no
+other program or kernel module (e.g. dc2xx or stv680) is using the 
+device and you have read/write access to the device. 
+      </pre><p>
+	You have to make sure that no such kernel module is loaded and that
+	you have set up the permissions on your USB device correctly,
+	such that you have (non-root) write access to the camera device.
+	How to set this up, is described at FIXME.
+      </p></td></tr><tr class="question"><td align="left" valign="top"><a name="id2796663"></a><a name="id2796666"></a><b>3.1.4. </b></td><td align="left" valign="top"><p>
+	Why does my Canon PowerShot G1/Pro 90 IS not work with gphoto2
+	when using the AC adapter?
+      </p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>
+	This is a longstanding bug which we cannot fix since none of
+	the active gphoto2 developers own one of these cameras. Your
+	options are as follows, in descending order of preference:
+      </p><div class="itemizedlist"><ul type="disc"><li>
+	    Fix it and send us a patch.
+	  </li><li>Donate a G1 to one of the active Canon driver
+	    developers.</li><li>Run the camera on battery instead of the AC adapter.</li></ul></div><p>
+	There is some more info regarding this at
+	<a href="http://krixor.xy.org/fredrik/gp/canon-g1-ac-problem/" target="_top">http://krixor.xy.org/fredrik/gp/canon-g1-ac-problem/</a>.
+	Good luck.
+      </p></td></tr><tr class="question"><td align="left" valign="top"><a name="id2796735"></a><a name="id2796738"></a><b>3.1.5. </b></td><td align="left" valign="top"><p>I've got a serial camera, but gphoto2 doesn't work on SuSE 7.0
+   (or greater). You told me that my camera is supported! Fix
+	it!</p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>
+	Cool down, Joe, and listen to the wise words of Linda
+	MacPhee-Cobb:
+      </p><p>
+	[
+	  If you are not getting a response from a camera plugged into
+	  the serial port, check your /var/log/boot.msg file for the
+	  following entry near the end:
+	]
+	</p><pre class="screen">
+	    *This package use the ttyS0 device by default.
+	    The installation of this package only makes sense
+	    if you use a braille display.
+	</pre><p>
+	[
+	  This is from blinx, and you will need to turn it off,
+	  or better, uninstall it.
+	]
+      </p></td></tr><tr class="question"><td align="left" valign="top"><a name="id2796783"></a><a name="id2796786"></a><b>3.1.6. </b></td><td align="left" valign="top"><p>Dudes, Windows is the way to go. How do I compile
+	gphoto2 for that environment?</p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>
+	We don't have the money to buy Windows and something like Visual C.
+	Therefore, we can't provide you a gphoto2 for Windows. You have two 
+	choices (at least):
+      </p><div class="itemizedlist"><ul type="disc"><li>
+	    Buy a fast computer, buy Windows and Visual C and some manuals on
+	    how to access USB or serial ports on Windows. Send all that
+	    including a blank cheque to us (ask for the address on
+	    gphoto-devel@gphoto.org).
+	  </li><li>
+	    Try to figure out how to get gphoto2 working on Windows
+	    and send us the patches.
+	  </li></ul></div></td></tr><tr class="question"><td align="left" valign="top"><a name="id2796836"></a><a name="id2796839"></a><b>3.1.7. </b></td><td align="left" valign="top"><p>I wanna have CVS write access. How do I get one?</p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>
+	We provide CVS write access to persons that show 
+	<span class="emphasis"><em>continued</em></span> interest in a 
+	<span class="emphasis"><em>specific part</em></span>
+	of gphoto2. 
+	If there is already a person maintaining this 
+	specific part of gphoto2 (i.e. a camera driver), we prefer you
+	submit patches to the maintainer who will then check them in
+	or request modifications.
+      </p></td></tr><tr class="question"><td align="left" valign="top"><a name="id2796871"></a><a name="id2796874"></a><b>3.1.8. </b></td><td align="left" valign="top"><p>You took away my CVS write access! What did I do
+	wrong?</p></td></tr><tr class="answer"><td align="left" valign="top"><b></b></td><td align="left" valign="top"><p>     
+	If your name is not listed in gphoto2/MAINTAINERS, and if we
+	haven't heard from you lately, we assume that you finished
+	your work on gphoto2 and that you don't need write access any
+	longer. If this is not the case, please contact one of the
+	project admins.
+      </p></td></tr></tbody></table></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="using-kde.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="index.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="FAQ-unsorted.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">2.4. Using kioslave </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.2. Unsorted FAQs</td></tr></table></div></body></html>
