@@ -46,7 +46,9 @@ function printHeader($title, $keywords, $noheading)
 <? 
 	if ($noheading != 0) {
 	?>
-<h1><? print $title; ?></h1>
+<h1>
+<img src="/img/smalllogo.png" alt="[gPhoto logo]" width="125" height="79" border="0" />
+<? print $title; ?></h1>
 <?
 	}
 }

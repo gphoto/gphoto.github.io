@@ -1,7 +1,7 @@
 <?
 	require ("../../include.php");
 
-	printHeader ("gPhoto - Projects :: libgphoto2", "", 1);
+	printHeader ("Projects :: libgphoto2", "", 1);
 
 	printMenu ("proj");
 ?>

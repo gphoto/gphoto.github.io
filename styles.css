@@ -13,7 +13,7 @@ p, b, blockquote, ul, ol, dl
 h1
 {
 	font-family: sans-serif;
-	text-align: center;
+	text-align: left;
 }
 
 pre, tt

@@ -1,7 +1,7 @@
 <?
 	require ("include.php");
 
-	printHeader ("gPhoto", "", 0);
+	printHeader ("gPhoto Home", "", 0);
 
 	printMenu ("home");
 ?>
