@@ -43,6 +43,20 @@
 	<br />Send email to 
 	<a href="mailto:gphoto-devel-unsubscribe@gphoto.org">gphoto-devel-unsubscribe@gphoto.org</a></p>
 
+        <h3>gphoto-cvs@lists.sf.net</h3>
+        <p>
+        CVS commits mailinglist, with announce of commits and diffs.
+        If you would like to get involved in gphoto
+        developments, then you may want to read it.</p>
+                        
+        <p>Subscribing:
+	<br />Send email to 
+	<a href="mailto:gphoto-cvs-subscribe@lists.sf.net">gphoto-cvs-subscribe@lists.sf.net</a></p>
+
+        <p>Unsubscribing:
+	<br />Send email to 
+	<a href="mailto:gphoto-cvs-unsubscribe@lists.sf.net">gphoto-cvs-unsubscribe@lists.sf.net</a></p>
+
 	</td>
 </tr>
 </table>
