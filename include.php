@@ -20,8 +20,9 @@ width="88" height="31" border="0" alt="SourceForge Logo" /></a>
 function printgPhotoLogo ()
 {
 ?>
+	<a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">
 	<img src="/gphotobutton.jpg" width="100" height="42" border="0"
-	alt="Get gPhoto !" />
+	alt="Get gPhoto !" /></a>
 <?
 }
 
@@ -83,7 +84,7 @@ function printMenu($current)
 <a href="/news">News</a> :: 
 <a href="/proj/">Projects</a> :: 
 <a href="/doc/">Documentation</a> :: 
-<a href="http://www.sf.net/projects/gphoto/">Developer</a> :: 
+<a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
 <a href="/mailinglists/">Mailing lists</a> :: 
 <a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">Download</a> :: 
 <a href="/links/">Links</a>
