@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Setting up permissions for USB ports</title><meta name="generator" content="DocBook XSL Stylesheets V1.50.0"/><link rel="home" href="index.html" title="The gPhoto2 Manual"/><link rel="up" href="ch04.html" title="Chapter 4. Setting up your system for use with &#10;      libgphoto2&#10;      and gphoto2&#10;    "/><link rel="previous" href="ch04s02.html" title="Setting up permissions for serial (RS232) ports"/><link rel="next" href="ch04s04.html" title="Specifying the port and camera you use"/></head><body><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Setting up permissions for USB ports</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch04s02.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Setting up your system for use with 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Setting up permissions for USB ports</title><meta name="generator" content="DocBook XSL Stylesheets V1.50.0"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="permissions.html" title="Setting up your system for use with 
       libgphoto2
       and gphoto2
-    </th><td width="20%" align="right"> <a accesskey="n" href="ch04s04.html">Next</a></td></tr></table><hr/></div><div class="section"><div class="titlepage"><div><h2 class="title" style="clear: both"><a id="perms-usb"/>Setting up permissions for USB ports</h2></div></div><p>
+    "><link rel="previous" href="permissions-serial.html" title="Setting up permissions for serial (RS232) ports"><link rel="next" href="port-and-camera.html" title="Specifying the port and camera you use"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Setting up permissions for USB ports</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="permissions-serial.html">Prev</a> </td><th width="60%" align="center">Setting up your system for use with 
+      libgphoto2
+      and gphoto2
+    </th><td width="20%" align="right"> <a accesskey="n" href="port-and-camera.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="permissions-usb"></a>Setting up permissions for USB ports</h2></div></div><p>
         As USB is designed for hotplugging of
 	devices, there is a mechanism that dynamically creates the
 	device files for the devices currently connected and switched
@@ -14,7 +17,7 @@
       </p><p>
         The configuration of these helper applications is explained in the
         following section.
-      </p><div class="section"><div class="titlepage"><div><h3 class="title"><a id="id2768246"/>USB ports on Linux</h3></div></div><p>
+      </p><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="usb-on-linux"></a>USB ports on Linux</h3></div></div><p>
           As gphoto2 provides a user space driver, in order to have gphoto2
           access your camera, you have to disable all kernel drivers which want
           to handle the camera themselves (e.g. the Linux
@@ -35,14 +38,14 @@
           Now that you've got your basic USB system
 	  working, you have basically two options to allow user access
 	  to USB devices on your Linux system:
-        </p><div class="orderedlist"><ol type="a"><li><a id="usbdevfs"/>
+        </p><div class="orderedlist"><ol type="a"><li><a name="usbdevfs"></a>
               allow a certain user and/or group or the whole world
 	      access to <span class="emphasis"><em>all</em></span> USB devices
               by mounting 
               <tt>/proc/bus/usb</tt>
               with adequate user and/or group permissions (default
               is world-readable and root-only-writable, which is good)
-            </li><li><a id="hotplug"/>
+            </li><li><a name="hotplug"></a>
               use hotplug (<a href="http://linux-hotplug.sourceforge.net/" target="_top">http://linux-hotplug.sourceforge.net/</a>)
               and allow access only to the USB
 	      devices you want to be accessible (you need 
@@ -50,21 +53,22 @@
               mounted here as well, but not mounted writable by
               anybody else than root) 
             </li></ol></div><p>    
-          Solution <a href="ch04s03.html#hotplug" title="">b</a> has a huge advantage over 
-          solution <a href="ch04s03.html#usbdevfs" title="">a</a>: It doesn't allow the
+          Solution <a href="permissions-usb.html#hotplug" title="">b</a> has a huge advantage over 
+          solution <a href="permissions-usb.html#usbdevfs" title="">a</a>: It doesn't allow the
           user/group to interfere with or eavesdrop on any other
 	  USB devices which might be attached, such
 	  as USB keyboards, fingerprint reader or
 	  similar. The following paragraphs thus describe setting up 
-          <a href="ch04s03.html#hotplug" title="">b</a>.
-        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>The fact that we are using the name &quot;usbcam&quot; for
+          <a href="permissions-usb.html#hotplug" title="">b</a>.
+        </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>The fact that we are using the name &#8220;usbcam&#8221; for
 	    setting up permissions for gphoto2 has a reason. In fact,
 	    the permission setup you're doing here has nothing to do
 	    with gphoto2 specifically - any user space software
 	    wanting to access your USB camera will be able to make use
 	    of your camera only if the permissions are correctly set
 	    up. So I (hun) chose the identifier and script name
-	    &quot;usbcam&quot; and not &quot;gphoto2cam&quot; or somethink similar.
+	    &#8220;usbcam&#8221; and not &#8220;gphoto2cam&#8221; or
+	    somethink similar. 
 	  </p></div><p>
           On Linux systems, from the 2.4 kernel series on, the kernel supports
           hotplugging. You may have to compile a kernel with hotplug support if
@@ -102,23 +106,35 @@
               <pre class="screen">
 <tt>[root@home ~]# </tt><b>modprobe</b> <i><tt>usb-uhci</tt></i>
 <tt>[root@home ~]# </tt><b>modprobe</b> <i><tt>usb-ohci</tt></i>
-<tt>[root@home ~]# </tt><b>mount <i><tt>-t usbdevfs</tt></i> <i><tt>/proc/bus/usb</tt></i></b>
+		<tt>[root@home ~]# </tt><b>mount <i><tt>-t usbdevfs</tt></i> <i><tt>usb</tt></i> <i><tt>/proc/bus/usb</tt></i></b>
               </pre>
               Modern distributions like Redhat 7.2 handle this
               automatically if you have your USB hardware enabled.
               Check your BIOS settings if <b>lspci</b>
               doesn't list any USB hardware.
-            </p></li><li><p>FIXME: use packaging/linux-hotplug/print-usb-usermap
-	      instead of gphoto2 --print-usb-usermap.
-	    </p><p>
-              Add the output of 
+            </p></li><li><p>
+	      In the file <tt>/etc/hotplug/usb.usermap</tt> 
+	      remove all lines beginning with &#8216;usbcam&#8217;,
+	      as we are going to add new lines there and don't want to
+	      get an inconsistent state.
+            </p><p>
+              Then add the output of
               <pre class="screen">
-<tt>[root@home ~]# </tt><b>gphoto2 <i><tt>--print-usb-usermap</tt></i></b>
+<tt>[root@home ~]# </tt><b>./path/to/libgphoto2-build/packaging/linux-hotplug/print-usb-usermap</b>
               </pre>
-              to the file
-              <tt>/etc/hotplug/usb.usermap</tt> after
-              removing all lines beginning with &quot;usbcam&quot;.
-            </p><p><b>Debian peculiarity. </b>
+	      (this output is installed as
+	      <tt>/usr/share/doc/libgphoto2-VERSION/linux-hotplug/gphoto2-usb.usermap</tt>
+	      since 2.1.1dev5)
+              to that file
+              (<tt>/etc/hotplug/usb.usermap</tt>).
+            </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+		In older versions of gphoto2 (gphoto2 2.0, gphoto2
+		2.1.0, and the CVS versions in between and shortly
+		after 2.1.0), the functionality of
+		<tt>packaging/linux-hotplug/print-usb-usermap</tt>
+		was contained in the command 
+		<b>gphoto <i><tt>--print-usb-usermap</tt></i></b>.
+	      </p></div><p><b>Debian peculiarity. </b>
 		As Debian uses a structured method for setting up
 		linux-hotplug, you should also use this mechanism in
 		order to enjoy its benefits. 
@@ -131,18 +147,20 @@
 		update the
 		<tt>/etc/hotplug/usb.usermap</tt> file:
 		<pre class="screen">
+
 <tt>[root@home ~]# </tt><b>mkdir <i><tt>/usr/lib/hotplug/libgphoto2</tt></i></b>
-<tt>[root@home ~]# </tt><b>gphoto2 <i><tt>--print-usb-usermap</tt></i> &gt; <tt>/usr/lib/hotplug/libgphoto2/usb.usermap</tt></b>
+<tt>[root@home ~]# </tt><b>./path/to/libgphoto2-build/packaging/linux-hotplug/print-usb-usermap &gt; <tt>/usr/lib/hotplug/libgphoto2/usb.usermap</tt></b>
 <tt>[root@home ~]# </tt><b>update-usb.usermap</b>
+
 		</pre>
 	      </p><p>
               This makes hotplug recognise all USB cameras which your version 
-              of <a href="rn01re02.html" title="gphoto2">gphoto2(3)</a> supports and makes
+              of <a href="ref-libgphoto2.html" title="gphoto2">gphoto2(3)</a> supports and makes
               <b>hotplug</b> run the
               <b>usbcam</b> script you choose in step
-              <a href="ch04s03.html#chooseusbcamscript" title="">3</a>whenever one of these
+              <a href="permissions-usb.html#chooseusbcamscript" title="">3</a>whenever one of these
               cameras is attached.
-            </p></li><li><p><a id="chooseusbcamscript"/>
+            </p></li><li><p><a name="chooseusbcamscript"></a>
               Choose the right 
               <tt>/etc/hotplug/usb/usbcam</tt>
               script for you.
@@ -176,7 +194,10 @@
                     <tt>pam_console</tt>
                     access the camera. This works only if you're logging in with
                     <tt>pam_console</tt>, 
-                    i.e. e.g. using <b>gdm</b> on Redhat Linux.
+                    i.e. e.g. using <b>gdm</b> on Redhat
+		    Linux. It won't work on Debian GNU/Linux at all
+		    (they claim security reasons, but I didn't
+		    investigate further into that matter).
                   </dd><dt><span class="term"><tt>usbcam.user</tt></span></dt><dd>
                     If you want only one user to have access to the camera, use
                     <tt>usbcam.user</tt> and change it
@@ -214,13 +235,20 @@
               hopefully setting the device permissions correctly. 
             </p><p>Your <tt>/var/log/messages</tt> syslog
               file will contain some messages to that effect.
-            </p></li><li><p>
-              Run <a href="rn01re01.html" title="gphoto2">gphoto2(1)</a> or any other 
-              <a href="rn01re02.html" title="gphoto2">gphoto2(3)</a> frontend and enjoy:
+            </p><p>You will probably want to check whether the
+	      respective device file has its permissions set up
+	      correctly. Have a look at 
+	      <tt>/proc/bus/usb</tt>
+	      with <b>ls -lR /proc/bus/usb</b>. There
+	      should be at least one device file with the permissions
+	      set according to your wishes.
+	    </p></li><li><p>
+              Run <a href="ref-gphoto2-cli.html" title="gphoto2">gphoto2(1)</a> or any other 
+              <a href="ref-libgphoto2.html" title="gphoto2">gphoto2(3)</a> frontend and enjoy:
             </p><pre class="screen">
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--list-ports</tt></i></b>
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--auto-detect</tt></i></b>
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--summary</tt></i></b>
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--list-files</tt></i></b>
 <tt>[user@home ~]$ </tt><b>gphoto2 <i><tt>--get-all-images</tt></i></b>
-	    </pre></li></ol></div></div></div><div class="navfooter"><hr/><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch04s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ch04.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch04s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Setting up permissions for serial (RS232) ports </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Specifying the port and camera you use</td></tr></table></div></body></html>
+	    </pre></li></ol></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="permissions-serial.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="permissions.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="port-and-camera.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Setting up permissions for serial (RS232) ports </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Specifying the port and camera you use</td></tr></table></div></body></html>
