@@ -1,8 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>4.4. Specifying the port and camera you use</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.50.0"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="permissions.html" title="Chapter 4. Setting up your system for use with 
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>4.4. Specifying the port and camera you use</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.54.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="permissions.html" title="Chapter 4. Setting up your system for use with 
       libgphoto2
       and gphoto2
-    "><link rel="previous" href="permissions-usb.html" title="4.3. Setting up permissions for USB ports"><link rel="next" href="developer-docs.html" title="Chapter 5. Developer Documentation: The Inner Workings"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p align="center" class="menu"><a href="/">Home</a> :: 
+    "><link rel="previous" href="permissions-usb.html" title="4.3. Setting up permissions for USB ports"><link rel="next" href="developer-docs.html" title="Chapter 5. Developer Documentation: The Inner Workings"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p align="center" class="menu"><a href="/">Home</a> :: 
       <a href="/news">News</a> :: 
       <a href="/proj/">Projects</a> :: 
       <a href="/doc/">Documentation</a> :: 
@@ -10,17 +10,17 @@
       <a href="/mailinglists/">Mailing lists</a> :: 
       <a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">Download</a> :: 
       <a href="/links/">Links</a><br><a href="/doc/manual/">User's manual</a> ::
-      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">4.4. Specifying the port and camera you use</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="permissions-usb.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Setting up your system for use with 
+      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">4.4. Specifying the port and camera you use</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="permissions-usb.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Setting up your system for use with 
       libgphoto2
       and gphoto2
-    </th><td width="20%" align="right"> <a accesskey="n" href="developer-docs.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="port-and-camera"></a>4.4. Specifying the port and camera you use</h2></div></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
+    </th><td width="20%" align="right"> <a accesskey="n" href="developer-docs.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="port-and-camera"></a>4.4. Specifying the port and camera you use</h2></div></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
 	  <tt>libgphoto2</tt> 
 	  identifies a camera by two values: the 
-	  <a href="port-and-camera.html#port-names" title="4.4.1. Port names">port</a> it is connected to
-	  and the <a href="port-and-camera.html#camera-names" title="4.4.2. Camera name">name</a> of the
+	  <a href="port-and-camera.html#port-names" title="4.4.1. Port names">port</a> it is connected to
+	  and the <a href="port-and-camera.html#camera-names" title="4.4.2. Camera name">name</a> of the
 	  camera.
           How these may be specified is discussed in this chapter.
-        </p></div><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="port-names"></a>4.4.1. Port names</h3></div></div><div class="variablelist"><dl><dt><span class="term">Serial ports</span></dt><dd><p>
+        </p></div><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="port-names"></a>4.4.1. Port names</h3></div></div><div class="variablelist"><dl><dt><span class="term">Serial ports</span></dt><dd><p>
                 are named like 
                 <tt>serial:/dev/ttyS2</tt>
                 if you want to use the serial device
@@ -34,7 +34,7 @@
 	  <tt>~/.gphoto/settings</tt>, so you won't have
 	  to specify it the second time you run your frontend, if
 	  you're still using the same port.
-	</p></div><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="camera-names"></a>4.4.2. Camera name</h3></div></div><p>
+	</p></div><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="camera-names"></a>4.4.2. Camera name</h3></div></div><p>
           The model name of the camera does not have to be specified when using
           the <tt>usb:</tt> port. 
           Otherwise you can specify a camera model like 
@@ -49,4 +49,4 @@
 	  <tt>~/.gphoto/settings</tt>, so you won't have
 	  to specify it the second time you run your frontend, if
 	  you're still using the same camera.
-	</p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="permissions-usb.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="permissions.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="developer-docs.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">4.3. Setting up permissions for USB ports </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 5. Developer Documentation: The Inner Workings</td></tr></table></div></body></html>
+	</p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="permissions-usb.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="permissions.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="developer-docs.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">4.3. Setting up permissions for USB ports </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 5. Developer Documentation: The Inner Workings</td></tr></table></div></body></html>
