@@ -32,9 +32,9 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Sun Oct 19 17:11:18 UTC 2003
+Sun Feb  8 21:23:57 CET 2004
 ========================================================================
-gphoto2 2.1.3
+gphoto2 2.1.4
 
 Copyright (c) 2000-2003 Lutz Mueller and others
 
@@ -43,11 +43,11 @@ redistribute copies of gphoto2 under the terms of the GNU General Public
 License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
-gphoto2           2.1.3        gcc, popt, exif, cdk, aa, jpeg, readline
-libgphoto2        2.1.3        gcc, EXIF, no ltdl, /proc/meminfo
-libgphoto2_port   0.5.1        gcc, USB, serial without locking, no ltdl
+gphoto2           2.1.4        gcc, popt, exif, cdk, aa, jpeg, readline
+libgphoto2        2.1.4        gcc, EXIF, no ltdl, /proc/meminfo
+libgphoto2_port   0.5.1        gcc, USB, serial resmgr locking, no ltdl
 ========================================================================
-Number of supported cameras: 414
+Number of supported cameras: 433
 Supported cameras:
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
@@ -77,6 +77,7 @@ Supported cameras:
 	"Canon Digital IXUS 330"
 	"Canon Digital IXUS 400"
 	"Canon Digital IXUS 400 (PTP mode)"
+	"Canon Digital IXUS i (PTP mode)"
 	"Canon Digital IXUS II (normal mode)"
 	"Canon DIGITAL IXUS v"
 	"Canon Digital IXUS v2"
@@ -96,12 +97,15 @@ Supported cameras:
 	"Canon IXY DIGITAL 300"
 	"Canon MV630i"
 	"Canon MVX2i"
+	"Canon Optura 10"
+	"Canon Optura 20"
 	"Canon Optura 200 MC"
 	"Canon PowerShot A10"
 	"Canon PowerShot A100"
 	"Canon PowerShot A20"
 	"Canon PowerShot A200"
 	"Canon PowerShot A30"
+	"Canon PowerShot A300"
 	"Canon PowerShot A40"
 	"Canon PowerShot A5"
 	"Canon PowerShot A5 Zoom"
@@ -116,6 +120,7 @@ Supported cameras:
 	"Canon PowerShot G2"
 	"Canon PowerShot G3 (normal mode)"
 	"Canon PowerShot G3 (PTP mode)"
+	"Canon PowerShot G5 (normal mode)"
 	"Canon PowerShot G5 (PTP mode)"
 	"Canon PowerShot Pro70"
 	"Canon PowerShot Pro90 IS"
@@ -132,11 +137,12 @@ Supported cameras:
 	"Canon PowerShot S400"
 	"Canon PowerShot S45 (normal mode)"
 	"Canon PowerShot S45 (PTP mode)"
+	"Canon PowerShot S50 (normal mode)"
 	"Canon PowerShot SD100 (normal mode)"
 	"Canon PowerShot unknown 1"
 	"Canon PowerShot unknown 2"
-	"Canon PowerShot unknown 4"
 	"Canon PowerShot unknown 5"
+	"Canon ZR70MC"
 	"Casio LV 10" (EXPERIMENTAL)
 	"Casio QV10" (EXPERIMENTAL)
 	"Casio QV100" (EXPERIMENTAL)
@@ -149,6 +155,7 @@ Supported cameras:
 	"Chinon ES-1000"
 	"Concord Eye-Q Easy" (EXPERIMENTAL)
 	"Concord EyeQ 4330" (EXPERIMENTAL)
+	"Concord EyeQMini" (EXPERIMENTAL)
 	"CoolCam CP086"
 	"Creative PC-CAM 300" (EXPERIMENTAL)
 	"Creative PC-CAM600" (EXPERIMENTAL)
@@ -212,13 +219,13 @@ Supported cameras:
 	"IOMagic MagicImage 400"
 	"IOMagic MagicImage 420"
 	"Ixla DualCam 640" (EXPERIMENTAL)
-	"Jenoptik JD 350" (EXPERIMENTAL)
 	"Jenoptik JD-3300z3" (EXPERIMENTAL)
 	"Jenoptik JD-4100z3" (EXPERIMENTAL)
 	"Jenoptik JD11"
 	"Jenoptik JD12 800ff"
 	"Jenoptik JD350 entrance" (TESTING)
 	"Jenoptik JD350 video" (TESTING)
+	"Jenoptik JDC 350" (EXPERIMENTAL)
 	"KBGear JamCam"
 	"Kodak CX4200"
 	"Kodak CX4210"
@@ -228,7 +235,7 @@ Supported cameras:
 	"Kodak CX6230"
 	"Kodak CX6330"
 	"Kodak DC120"
-	"Kodak DC210" (EXPERIMENTAL)
+	"Kodak DC210" (TESTING)
 	"Kodak DC220"
 	"Kodak DC240"
 	"Kodak DC240 (PTP mode)"
@@ -264,6 +271,7 @@ Supported cameras:
 	"Largan Lmini" (EXPERIMENTAL)
 	"Leica Digilux Zoom"
 	"Logitech Pocket Digital" (EXPERIMENTAL)
+	"Maginon SX-410z" (EXPERIMENTAL)
 	"Maginon SX330z" (EXPERIMENTAL)
 	"Magpix B350" (EXPERIMENTAL)
 	"Maxell Max Pocket" (TESTING)
@@ -323,6 +331,7 @@ Supported cameras:
 	"Olympus C-3020Z"
 	"Olympus C-3030Z"
 	"Olympus C-3040Z"
+	"Olympus C-350Z"
 	"Olympus C-400"
 	"Olympus C-400L"
 	"Olympus C-4040Z"
@@ -332,6 +341,7 @@ Supported cameras:
 	"Olympus C-420L"
 	"Olympus C-5050Z"
 	"Olympus C-700UZ"
+	"Olympus C-750UZ"
 	"Olympus C-800"
 	"Olympus C-800L"
 	"Olympus C-820"
@@ -354,9 +364,11 @@ Supported cameras:
 	"Olympus D-450Z"
 	"Olympus D-460Z"
 	"Olympus D-500L"
+	"Olympus D-560Z"
 	"Olympus D-600L"
 	"Olympus D-600XL"
 	"Olympus D-620L"
+	"Olympus X-250"
 	"Oregon Scientific DShot II"
 	"Oregon Scientific DShot III"
 	"Panasonic Coolshot KXL-600A"
@@ -383,6 +395,7 @@ Supported cameras:
 	"Polaroid PDC 640"
 	"Praktica QD500"
 	"Praktica QD800"
+	"Precision Mini Digital Camera"
 	"Pretec dc530" (EXPERIMENTAL)
 	"Quark Probe 99"
 	"QuickPix QP1"
@@ -390,6 +403,7 @@ Supported cameras:
 	"RCA CDS1005" (EXPERIMENTAL)
 	"Relisys Dimera 3500"
 	"Ricoh Caplio G3" (TESTING)
+	"Ricoh Caplio G4" (TESTING)
 	"Ricoh Caplio RR30" (TESTING)
 	"Ricoh RDC-1" (EXPERIMENTAL)
 	"Ricoh RDC-100G" (EXPERIMENTAL)
@@ -408,10 +422,10 @@ Supported cameras:
 	"Sanyo VPC-G200EX"
 	"Sanyo VPC-G210"
 	"Sanyo VPC-G250"
-	"ScanHex SX-35" (TESTING)
-	"ScanHex SX-35" (TESTING)
-	"ScanHex SX-35" (TESTING)
-	"ScanHex SX-35" (TESTING)
+	"ScanHex SX-35a" (TESTING)
+	"ScanHex SX-35b" (TESTING)
+	"ScanHex SX-35c" (TESTING)
+	"ScanHex SX-35d" (TESTING)
 	"Scott APX 30"
 	"Sierra Imaging SD640"
 	"SiPix Blink" (EXPERIMENTAL)
@@ -432,8 +446,12 @@ Supported cameras:
 	"Sony DSC-P32 (PTP mode)"
 	"Sony DSC-P5 (PTP mode)"
 	"Sony DSC-P50 (PTP mode)"
+	"Sony DSC-P52 (PTP mode)"
+	"Sony DSC-P72 (PTP mode)"
+	"Sony DSC-P92 (PTP mode)"
 	"Sony DSC-S75 (PTP mode)"
 	"Sony DSC-S85 (PTP mode)"
+	"Sony DSC-U20 (PTP mode)"
 	"Sony DSC-V1 (PTP mode)"
 	"Sony MSAC-SR1"
 	"Sony MVC-CD300 (PTP mode)"
@@ -456,6 +474,7 @@ Supported cameras:
 	"Trust DC-3500"
 	"Trust Familycam 300" (TESTING)
 	"Trust PowerC@m 350FS" (TESTING)
+	"Trust PowerC@m 350FT" (TESTING)
 	"Trust Spyc@m 500F FLASH" (TESTING)
 	"Typhoon StyloCam" (TESTING)
 	"UMAX AstraPen"
