@@ -9,6 +9,68 @@
 <tr>
 	<td class="text">
 <!-- news headlines -->
+<h2>2.1.3 released (Oct 19th, 2003)</h2>
+
+<p>Most important changes are</p>
+
+<ul>
+<li>support for lots of new cameras (more than 400 listed now)</li>
+<li>fixed a few nasty bugs</li>
+<li>general improvements</li>
+</ul>
+
+<pre>
+----------------------------------------------------------------------------
+libgphoto2 2.1.3
+
+   * builtin cache:
+     - use all available RAM on systems without memory size detection
+
+drivers (camlibs):
+
+   * Canon driver:
+     - added support for EOS 300D
+     - fixed ProductID for PowerShot S45
+     - fixed support for serial cameras
+     - fixed thumbnail stuff
+
+   * New driver for Ricoh Caplio G3.
+
+   * Smal driver:
+     - misc improvements
+
+   * PTP2 driver:
+     - added misc cameras
+     - thumbnail hacks (?)
+
+----------------------------------------------------------------------------
+libgphoto2 2.1.2
+
+   * fixed nasty stack overflow/segfault bug
+   * improved/fixed support for Sun
+
+drivers (camlibs):
+
+   * All drivers:
+     - report vendor/model in a new (formatted) fashion
+
+   * Canon driver: 
+     - added support for capturing on consumer class cameras, tested on
+       Canon PowerShot S45, Canon PowerShot G2
+     - G2 works again running from AC adapter
+     - multiple new models added (A60, A70, ...)
+
+   * PTP2 driver:
+     - Next generation PTP driver added, using this as default now.
+
+   * New Agfa CL20 driver from <a href="http://cl20.poeml.de/">http://cl20.poeml.de/</a>.
+
+   * New camera library spca50x for all chips supporting the spca50x bridges
+     (merging the gsmart, benq and spca504_flash driver into one).
+</pre>
+
+<hr />
+
 <h2>2.1.1 release (December 1st, 2002)</h2>
 <p>libgphoto2 2.1.1, gphoto2 2.1.1 and gtkam 0.1.10 finally are released.</p>
 
