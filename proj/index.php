@@ -14,7 +14,7 @@ to gives access to almost <a href="libgphoto2/support.php">300 digital cameras.<
 
 <h2>gphoto2</h2>
 <p>
-gphoto2 is the command line interface to libghoto2. It allows almost 
+gphoto2 is the command line interface to libgphoto2. It allows almost 
 everything that libgphoto2 can do.</p>
 <p class="more"><a href="gphoto2/">(more...)</a></p>
 <h2>gtkam</h2>
