@@ -6,6 +6,7 @@
 	printMenu ("proj");
 ?>
 
+<h2>libgphoto2, the core</h2>
 <table cellpadding="3" cellspacing="3" width="100%">
 <tr class="text"><td>
 
