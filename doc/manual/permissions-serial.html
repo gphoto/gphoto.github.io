@@ -26,31 +26,34 @@
         If you have a serial port reserved for the camera, you can
 	just use <b>chown</b>, <b>chgrp</b>,
 	<b>chmod</b> on its device file to provide a
-	certain user or group or everybody with access to it. You can
-	use the <b>gphoto2 --list-ports</b> command to
-	check whether you have permissions to access a certain device:
+	certain user or group or everybody with access to it.
+      </p><p>
+	You can use the 
+	<b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
+	command to check whether you have permissions to access a
+	certain device:
       </p><pre class="screen">
-<tt>alice@machine:~$ </tt><b><tt>gphoto2 --list-ports</tt></b>
+<tt>alice@host:~$ </tt><b><tt>gphoto2 --list-ports</tt></b>
 <tt>Devices found: 2
 Path                             Description
 --------------------------------------------------------------
 serial:/dev/ttyS0                Serial Port 0                   
 usb:                             Universal Serial Bus            
 </tt>
-<tt>alice@machine:~$ </tt>
+<tt>alice@host:~$ </tt>
       </pre><p>
 	This shows that user alice (who seems to be running the
 	command) has access to the serial device 
 	<tt>/dev/ttyS0</tt>.
-      </p><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="id2806546"></a>4.2.1. A few examples</h3></div></div><p>
+      </p><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="id2801558"></a>4.2.1. A few examples</h3></div></div><p>
 	  Let's make a few examples with the first serial port 
 	  on a Linux system, called 
 	  <tt>/dev/ttyS0</tt>. 
 	  You start with having a look at the device file: 
 	</p><pre class="screen">
-<tt>machine:~# </tt><b><tt>ls -l <tt>/dev/ttyS0</tt></tt></b>
+<tt>host:~# </tt><b><tt>ls -l <tt>/dev/ttyS0</tt></tt></b>
 <tt>crw-rw----    1 root     dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>machine:~# </tt>
+<tt>host:~# </tt>
 	</pre><p>
 	  OK, so user root and all users of the group dialout can access
 	  the device /dev/ttyS0. You now have a few choices of what to
@@ -59,15 +62,15 @@ usb:                             Universal Serial Bus
 	    You want to give user alice exclusive access to the first
 	    serial port on your Linux machine:
 	  </p><pre class="screen">
-<tt>machine:~# </tt># give alice exclusive access to the device file (you must be root)
-<tt>machine:~# </tt><b><tt>chown alice /dev/ttyS0</tt></b>
-<tt>machine:~# </tt><b><tt>chmod 0600 /dev/ttyS0</tt></b>
-<tt>machine:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
+<tt>host:~# </tt># give alice exclusive access to the device file (you must be root)
+<tt>host:~# </tt><b><tt>chown alice /dev/ttyS0</tt></b>
+<tt>host:~# </tt><b><tt>chmod 0600 /dev/ttyS0</tt></b>
+<tt>host:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
 <tt>crw-------    1 alice    dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>machine:~# </tt>
+<tt>host:~# </tt>
 	  </pre><p>
 	    Test for access by running 
-	    <b>gphoto2 --list-ports</b>
+	    <b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
 	    as the respective user. Look for
 	    <tt>/dev/ttyS0</tt>
 	    in the output.
@@ -78,16 +81,16 @@ usb:                             Universal Serial Bus
 	    &quot;camera&quot;, add alice to that group and give the group access
 	    to the camera:
 	  </p><pre class="screen">
-<tt>machine:~# </tt># give users in group &quot;camera&quot; access to this device (you must be root)
-<tt>machine:~# </tt><b><tt>groupadd camera</tt></b>
-<tt>machine:~# </tt><b><tt>chgrp camera /dev/ttyS0</tt></b>
-<tt>machine:~# </tt><b><tt>chmod 0060 /dev/ttyS0</tt></b>
-<tt>machine:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
+<tt>host:~# </tt># give users in group &quot;camera&quot; access to this device (you must be root)
+<tt>host:~# </tt><b><tt>groupadd camera</tt></b>
+<tt>host:~# </tt><b><tt>chgrp camera /dev/ttyS0</tt></b>
+<tt>host:~# </tt><b><tt>chmod 0060 /dev/ttyS0</tt></b>
+<tt>host:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
 <tt>c---rw----    1 root     camera     4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>machine:~# </tt>
+<tt>host:~# </tt>
 	  </pre><p>
 	    Test for access by running 
-	    <b>gphoto2 --list-ports</b>
+	    <b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
 	    as the respective user. Look for
 	    <tt>/dev/ttyS0</tt>
 	    in the output.
@@ -101,14 +104,14 @@ usb:                             Universal Serial Bus
 	    testing or for non-networked single-user systems, this can
 	    also make sense:
 	  </p><pre class="screen">
-<tt>machine:~# </tt># give <span class="emphasis"><em>anybody</em></span> access to this device (you must be root)
-<tt>machine:~# </tt><b><tt>chmod a+rw /dev/ttyS0</tt></b>
-<tt>machine:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
+<tt>host:~# </tt># give <span class="emphasis"><em>anybody</em></span> access to this device (you must be root)
+<tt>host:~# </tt><b><tt>chmod a+rw /dev/ttyS0</tt></b>
+<tt>host:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
 <tt>crw-rw-rw-    1 root     dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>machine:~# </tt>
+<tt>host:~# </tt>
 	  </pre><p>
 	    Test for access by running 
-	    <b>gphoto2 --list-ports</b>
+	    <b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
 	    as the respective user. Look for
 	    <tt>/dev/ttyS0</tt>
 	    in the output.

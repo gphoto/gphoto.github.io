@@ -14,7 +14,7 @@
 	OK, we begin with finding out how you can connect a camera to
 	your computer:
       </p><pre class="screen">
-<tt>$uli@mir:~$ </tt><b>gphoto2 <i><tt>--list-ports</tt></i></b>
+<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
 <tt>Devices found: 4
 Path                             Description
 --------------------------------------------------------------
@@ -22,7 +22,7 @@ serial:/dev/ttyS0                Serial Port 0
 serial:/dev/ttyS2                Serial Port 2                   
 serial:/dev/ttyS3                Serial Port 3                   
 usb:                             Universal Serial Bus	  </tt>
-<tt>uli@mir:~$ </tt>
+<tt>alice@host:~$ </tt>
       </pre><p>
 	In this example, we see that we have the three serial devices
 	<tt>/dev/ttyS0</tt>, 
@@ -40,11 +40,11 @@ usb:                             Universal Serial Bus	  </tt>
 	USB. (FIXME: can any of the people with
 	RS232 cameras help me on this issue?)
       </p><pre class="screen">
-<tt>uli@mir:~$ </tt><b>gphoto2 <i><tt>--auto-detect</tt></i></b>
+<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--auto-detect</tt></i></tt></b>
 <tt>Model                          Port                                             
 ----------------------------------------------------------
 Canon PowerShot G2             usb:            </tt>
-<tt>uli@mir:~$ </tt>
+<tt>alice@host:~$ </tt>
       </pre><p>
 	In this case, a camera called 
 	&#8220;Canon PowerShot G2&#8221; is connected
@@ -52,13 +52,13 @@ Canon PowerShot G2             usb:            </tt>
       </p><p>
 	OK, so now let's see what we can find out about the camera:
       </p><pre class="screen">
-<tt>uli@mir:~$ </tt><b>gphoto2 <i><tt>--summary</tt></i></b>
+<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--summary</tt></i></tt></b>
 <tt>Detected a 'Canon PowerShot G2'.                                                
 Camera Summary:
 
 Camera identification:
   Model: Canon PowerShot G2
-  Owner: Hans Ulrich Niedermann
+  Owner: Alice Smith
 
 Power status: on battery (power OK)
 
@@ -69,10 +69,10 @@ Flash disk information:
 
 Time: 2002-07-09 20:45:15 (host time +0 seconds)
 </tt>
-<tt>uli@mir:~$ </tt>
+<tt>alice@host:~$ </tt>
       </pre><p>
 	The actual result of 
-	<b>gphoto2 <i><tt>--summary</tt></i></b>
+	<b><tt>gphoto2 <i><tt>--summary</tt></i></tt></b>
 	may be different from camera to camera. However, we can see that
 	<b>gphoto2</b> obviously can talk to the camera, and
 	we get some information about the camera.
@@ -81,7 +81,7 @@ Time: 2002-07-09 20:45:15 (host time +0 seconds)
 	the storage medium of the camera, let's have a look at what is
 	stored there:
       </p><pre class="screen">
-<tt>uli@mir:~$ </tt><b>gphoto2 <i><tt>--list-files</tt></i></b>
+<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--list-files</tt></i></tt></b>
 <tt>Detected a 'Canon PowerShot G2'.                                                
 There are no files in folder '/'.
 There are no files in folder '/DCIM'.
@@ -91,7 +91,7 @@ There are 4 files in folder '/DCIM/154CANON':
 #3     IMG_5416.JPG               rd    31 KB image/jpeg
 #4     MVI_5418.AVI               rd   682 KB video/x-msvideo
 There are no files in folder '/DCIM/CANONMSC'.</tt>
-<tt>uli@mir:~$ </tt>
+<tt>alice@host:~$ </tt>
       </pre><p>
 	There are multiple folders on the camera, and there are several
 	files of different types and sizes on stored in one of them. One
@@ -103,7 +103,7 @@ There are no files in folder '/DCIM/CANONMSC'.</tt>
 	actually download the images from the camera, we are going to do
 	that:
       </p><pre class="screen">
-<tt>uli@mir:~/tmp$ </tt><b>gphoto2 <i><tt>--get-all-files</tt></i></b>
+<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--get-all-files</tt></i></tt></b>
 <tt>Detected a 'Canon PowerShot G2'.                                                
 Downloading 'CRW_5417.CRW' from folder '/DCIM/154CANON'...
 Saving file as CRW_5417.CRW                                                     
@@ -113,10 +113,10 @@ Downloading 'IMG_5416.JPG' from folder '/DCIM/154CANON'...
 Saving file as IMG_5416.JPG                                                     
 Downloading 'MVI_5418.AVI' from folder '/DCIM/154CANON'...
 Saving file as MVI_5418.AVI                                                     </tt>
-<tt>uli@mir:~/tmp$ </tt>
+<tt>alice@host:~$ </tt>
       </pre><p>
 	And now we have all the files in our current directory (in
-	this case ~/tmp) and can do something with them.
+	this case in directory <tt>~</tt>) and can do something with them.
       </p><p>
 	Well, that's about it.
 	You may also want to have a look at the
