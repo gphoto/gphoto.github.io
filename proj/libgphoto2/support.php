@@ -16,9 +16,6 @@ current release.
 Support for additional cameras may be in the current 
 libgphoto2 CVS HEAD code.
 They will be added to the next release. 
-A complete (but unofficial) list of the cameras supported in 
-libgphoto2 CVS HEAD can be found on 
-<a href="http://n-dimensional.de/projects/digicam/software/snapshots/SUPPORTED-CAMERAS">n-dimensional.de</a>.
 </p>
 <p>If your camera is neither supported in the current release nor in current CVS HEAD, it is possible that
 <ul>

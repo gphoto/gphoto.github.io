@@ -15,7 +15,7 @@
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
     	<p>
-	<b>gPhoto2 2.1.5</b> has been released for testing. Read <a href="/news/"><b>what's new</b></a>. 
+	<b>gPhoto2 2.1.5</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
 	Download it <a href="/download/"><b>now</b></a>.
     	</p>
 	<div style="text-align: right;"><b>December 15th, 2004</b></div>
@@ -23,15 +23,9 @@
 	<b>gPhoto2 2.1.4</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
 	Download it <a href="/download/"><b>now</b></a>.
     	</p>
+
 	<div style="text-align: right;"><b>January 18th, 2004</b></div>
 
-    <p style="color:red; font-weight: bold;">
-	 We have moved our mailing-lists to sourceforge (at least temporarily).
-	 You can subscribe to the gphoto-user mailing-list and/or the gphoto-devel
-	 mailing-list by using the sourceforge interface available 
-	 <a href="http://sourceforge.net/mail/?group_id=8874">here</a>.</p>
-	 <div style="text-align: right;"><b>May 3rd, 2003</b></div>
-	 
 	 <p>Digital cameras have the balance of quality, features, and 
     price that appeals to users looking for a fast and convenient
     way to get images into their PC. You can spend a lot more -- or
