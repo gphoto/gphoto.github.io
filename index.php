@@ -48,17 +48,17 @@
     </p>
     </td></tr> 
     <tr><td>
-    <h2>Introducing gPhoto</h2>
+    <h2>Introducing gPhoto2</h2>
     </td></tr>
     <tr><td class="text">
-    <p><a href="/proj/"><b>gPhoto</b></a> is a free, redistributable, ready to use set of
+    <p><a href="/proj/"><b>gPhoto2</b></a> is a free, redistributable, ready to use set of
     digital camera software
     applications for Unix-like systems, written by a whole team of dedicated
     volunteers around the world.</p>
-    <p>gPhoto runs on a large range of UNIX-like operating system, including
+    <p>gPhoto2 runs on a large range of UNIX-like operating system, including
     Linux, FreeBSD, NetBSD, etc. gPhoto is provided by major Linux distribution
     like Debian GNU/Linux, RedHat Linux, SuSE Linux, etc.</p>
-    <p>gPhoto is freely available and distributed
+    <p>gPhoto2 is freely available and distributed
     under the terms of the 
     <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL.</a></p>
 

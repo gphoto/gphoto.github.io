@@ -59,7 +59,7 @@ function printFooter()
 ?>
 <hr />
 <p class="footer">
-Web design by <a href="http://www.figuiere.net/">Hubert Figuière</a> 
+Web design and PHP by <a href="http://www.figuiere.net/">Hubert Figuière</a> 
 inspired from design by Avi Bercovich.</p>
 <p><? printXHTMLValid(); printSFLogo(); printgPhotoLogo(); ?></p>
 </body>
@@ -97,7 +97,7 @@ function printMenu($current)
 		<br />
 		<a href="/proj/libgphoto2/">libgphoto2</a> :: 
 		<a href="/proj/gphoto2/">gphoto2-cli</a> :: 
-		<a href="/proj/gtkam">gtkam</a> :: 
+		<a href="/proj/gtkam/">gtkam</a> :: 
 		<a href="/proj/gphoto/">gphoto 0.4.x</a>
 		<?
 		break;

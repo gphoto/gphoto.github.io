@@ -1,7 +1,7 @@
 <?
 	require ("../../include.php");
 
-	printHeader ("gPhoto - Projects :: libgphoto2 :: supported cameras", "", 1);
+	printHeader ("Projects :: libgphoto2 :: supported cameras", "", 1);
 
 	printMenu ("proj");
 ?>
@@ -10,6 +10,8 @@
 <tr class="text"><td>
 <p>
 Here is a list of the supported cameras as of current release.
+Some camera may be supported in the current CVS code, they will 
+be added to the next release.
 <pre>
 ========================================================================
 gphoto2 2.1.1
