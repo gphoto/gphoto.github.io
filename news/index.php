@@ -51,6 +51,8 @@
 	<li>Added SiPix Web2 support.</li>
 	</ul>
 
+	<p>Get it from the <a href="/download/?version=2.1.0">download area</a>
+	and try it out!</p>
 <hr />
 <h2>gPhoto 2.0 released (February 24th, 2002)</h2>
 	<p>The gphoto2 team is proud to introduce its first stable 
@@ -64,7 +66,7 @@
 	or above). Moreover gphoto2 will optionally take advantage
 	of the following libraries: libexif, aalib, libjpeg and
 	libcdk.</p>
-	<p>Get it from the <a href="/download/">download area</a> 
+	<p>Get it from the <a href="/download/?version=2.0">download area</a> 
 	and try it out!</p>
 	<p>Happy downloading!</p>
 	<p>Your gphoto2 team.
