@@ -18,7 +18,7 @@
     <p>Digital cameras have the balance of quality, features, and 
     price that appeals to users looking for a fast and convenient
     way to get images into their PC. You can spend a lot more -- or
-    a lot less -- for one than the $400 to $3000 (or even more) these cost, 
+    a lot less -- for one than the $100 to $3000 (or even more) these cost, 
     but you 
     won't like the quality at the low end or the prices at the high end. 
     With digital cameras, the best place to be is in the middle.</p>
@@ -54,7 +54,8 @@
     <p><a href="/proj/"><b>gPhoto2</b></a> is a free, redistributable, ready to use set of
     digital camera software
     applications for Unix-like systems, written by a whole team of dedicated
-    volunteers around the world.</p>
+    volunteers around the world. It support over 
+    <a href="/proj/libgphoto2/support.php">300 hundred cameras</a></p>
     <p>gPhoto2 runs on a large range of UNIX-like operating system, including
     Linux, FreeBSD, NetBSD, etc. gPhoto is provided by major Linux distribution
     like Debian GNU/Linux, RedHat Linux, SuSE Linux, etc.</p>
