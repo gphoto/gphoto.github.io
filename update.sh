@@ -10,4 +10,4 @@ else
 	SERVER_HOST=gphoto.sourceforge.net
 fi
 
-rsync -n -avz --exclude=CVS "--exclude=*.sh" "--exclude=*.swp" --exclude=.website_login --exclude=.cvsignore -e ssh . ${SERVER_HOST}:/home/groups/g/gp/gphoto/htdocs
+rsync -avz --exclude=CVS "--exclude=*.sh" "--exclude=*.swp" --exclude=.website_login --exclude=.cvsignore -e ssh . ${SERVER_HOST}:/home/groups/g/gp/gphoto/htdocs
