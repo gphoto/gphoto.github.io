@@ -14,8 +14,8 @@
 <p>You can download</p>
 <ul>
 <li>release candidate source tarballs from <a href="http://n-dimensional.de/releases/">http://n-dimensional.de/releases/</a></li>
-<li>Debian packages from <a href="ftp://ufies.org/pub/people/christophe/gphoto2-rc1/">ftp://ufies.org/pub/people/christophe/gphoto2-rc1/</a></li>
-<li>RPMs for SUSE from <a href="ftp://ftp.suse.com/pub/people/meissner/gphoto/rc1/">ftp://ftp.suse.com/pub/people/meissner/gphoto/rc1/</a></li>
+<li>Debian packages from <a href="ftp://ufies.org/pub/people/christophe/">ftp://ufies.org/pub/people/christophe/</a></li>
+<li>RPMs for SUSE from <a href="ftp://ftp.suse.com/pub/people/meissner/gphoto/">ftp://ftp.suse.com/pub/people/meissner/gphoto/</a></li>
 </ul>
 
 <hr />
