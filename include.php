@@ -12,7 +12,7 @@ function printSFLogo ()
 {
 ?>
 <a href="http://sourceforge.net">
-<img src="http://sourceforge.net/sflogo.php?group_id=8874&amp;type=1" 
+<img src="http://sflogo.sourceforge.net/sflogo.php?group_id=8874&amp;type=1" 
 width="88" height="31" border="0" alt="SourceForge Logo" /></a> 
 <?
 }
