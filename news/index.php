@@ -11,6 +11,190 @@
 <!-- news headlines -->
 <hr />
 
+<h2>2.1.5 release (January 18th, 2004)</h2>
+
+<pre>
+New features:
+
+- Detach USB kernel drivers
+- Multiple USB Devices at once support
+- New camlibs
+        - iclick
+        - kodak/ez200
+        - mars
+        - enigma13
+        - aox
+- sonydscf55:
+        - added support for downloading MPEG files
+- canon
+        - Added PowerShot SD20.
+        - Added EOS 20D
+        - Added PowerShot A95
+        - Added PowerShot A85
+        - Added PowerShot A75
+        - Added Powershot S60
+        - Added Powershot A310 (patch #966814)
+        - Added PowerShot S410 / IXUS 430 (patch #963229)
+        - Added IXUS 500
+        - Added MV650i.
+- casio
+        - Make the driver actually works
+- pccam300
+        - Added Intel Pocket PC
+- pccam600
+        - Added PC Cam 350
+        - Added PC Cam 750
+- ptp2
+        - Added Panasonic DMC-FZ20
+        - Added IXUS 40
+        - fix gcc 2.95 build (bug #1055868)
+        - Added Konica-Minolta DiMAGE Z3
+        - Added Canon PowerShot G6.
+        - Added Canon PowerShot A400
+        - Added Canon EOS 20D
+        - Added more config cases from Canon in capture mode.
+                - zoom (working)
+                - auto focus assist light
+                - beep mode
+                - exposure compensation (not fully done)
+        - Can set the following config:
+                - Canon Camera Owner
+                - Canon Time on camera
+        - Added Nikon Coolpix 2200
+        - Added Canon PowerShot A85
+        - Added Kodak LS753 DX7630 CX7300 CX7220
+          CX7330 CX7530 DX7440 CX6445  (bug #982934)
+        - Added Nikon Coolpix 4200
+        - Added EOS 1D Mark II
+        - Added Canon Powershot S60
+        - Added Canon PowerShot A310
+        - Added Ricoh Caplio GX
+        - Added Nikon D70
+        - Added Sony MVC-CD500
+        - Support Nikon extensions
+        - Added Kodak LS-473 (rfe #977619)
+        - Added Canon PowerShot S1 IS
+        - Added Canon PowerShot SD110
+        - Added Canon A75 (PTP mode)
+        - Added Fuji FinePix S7000 (PictBridge mode)
+        - Added Kodak CX4310
+        - Added Canon Digital IXUS 430 / PowerShot S410
+        - Added Nikon Coolpix 3200
+        - Added Kodak CX7430 (patch #934142)
+        - Added HP PhotoSmart 945 (bug #930400)
+        - Added PowerShot S500 (Digital IXUS 500 alias)
+        - Added HP PhotoSmart 635
+        - Added Canon Elura 50
+        - Added Digital IXUS 500
+        - Added Konica-Minolta DiMAGE A2
+        - Added Sony DSC P-10
+        - Added Canon PowerShot S50
+        - Added Nikon Coolpix 3700
+- ricoh
+        - Added Ricoh Caplio RX
+        - Get the modification time without downloading the pictures
+        - Added Medion MD 6126
+        - Added Caplio 300G
+- sierra
+        - Added Toshiba PRD-M60
+        - Added Toshiba PRD-M61
+        - Added Toshiba PRD-M65
+- spca50x
+        - Added support for Dakota disposable cameras
+        - Added support for Pencams without flash via a special camera
+        model
+- sq905
+        - Added ViviCam 5B
+        - Added SY-2107C
+        - Added Argus DC-1730
+        - Added Concord Eye-Q Duo
+        - Added Sakar Kidz Cam
+        - Video clips and capture-preview supported
+        - delete-all-photos supported for those SQ cameras which will do it
+        - thumbnails supported for GUI compatibility
+- stv0680
+        - Added DigitalDream l'espion XS
+        - Added Added Che-ez! BABE and SPYZ
+
+Bug fixes:
+
+- gcc 2.95 compatibility (bug #1055868)
+- sonydscf55
+        - fixed thumbnail downloading
+        - serial communication fixes on fast CPUs
+        - native file names are now used (instead of using the hardcoded
+        "dsc%05d.jpg")
+
+- afga-cl20
+        - fix compactflash detection
+        - fix number of pictures detection
+        - get rid of the heavy stack usage and use the heap instead
+        - fix USB download size
+- canon
+        - Fixed various gp_log / GP_DEBUG problems.
+        - Use largest file size limit
+        - Note improper use of file size limits
+- kodak/dc240
+        - Fix TIMEOUT problem (bug #920532)
+- konica
+        - Fix C99 stuff for Solaris C compiler (bug #923219)
+- lmini
+        - Get the reply in largan_get_pict()
+- ptp2
+        - Fixed a problem with thumbnails download
+        - Better capture support
+        - Improved error messages
+- ricoh
+        - Fix buffer handling
+- sipix
+        - Various fixes
+- spca50x
+        - Fix for gcc 2.95 build (bug #105586)
+- sq905
+        - Fix for gcc 2.95 build (bug #105586)
+        - major rewrite and various bug fixes
+
+
+New translations:
+
+
+Updated translations:
+
+----------------------------------------------------------------------------
+
+Changes since 2.1.4 in gphoto2. See alse release notes for libgphoto2.
+
+New features:
+
+- New command line arguments:
+        --list-config           - dump the configuration tree of the camera
+        --get-config var        - get the configuration entry <var>
+- New capture option:
+                --frames=count
+                --interval=seconds
+
+Bug fixes:
+
+- now build with libexif-0.6.9.
+- allow setting range with decimal values in camera configuration
+- fixed a segfault in shell_command_generator on Alpha processors
+
+New translations:
+
+- nl.po (Dutch)
+- fi.po (Finnish)
+- hu.po (Hungarian)
+- en_GB.po (English Greate-Britain)
+- az.po (Azerbaijani)
+- sr.po (Serbian)
+
+Updated translations:
+
+- uk.po (Ukranian)
+
+
+</pre>
+
 <h2>2.1.4 release (January 18th, 2004)</h2>
 
 As usual, a lot of bug fixes and support for even more cameras.

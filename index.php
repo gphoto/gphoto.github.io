@@ -14,11 +14,16 @@
 	<!-- title image -->
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
-    <p>
+    	<p>
+	<b>gPhoto2 2.1.5</b> has been released for testing. Read <a href="/news/"><b>what's new</b></a>. 
+	Download it <a href="/download/"><b>now</b></a>.
+    	</p>
+	<div style="text-align: right;"><b>December 15th, 2004</b></div>
+    	<p>
 	<b>gPhoto2 2.1.4</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
 	Download it <a href="/download/"><b>now</b></a>.
-    </p>
-	 <div style="text-align: right;"><b>October 19th, 2003</b></div>
+    	</p>
+	<div style="text-align: right;"><b>January 18th, 2004</b></div>
 
     <p style="color:red; font-weight: bold;">
 	 We have moved our mailing-lists to sourceforge (at least temporarily).
