@@ -32,7 +32,9 @@
 
         <h3>gphoto-cvs@lists.sf.net</h3>
         <p>
-        CVS commits mailinglist, with announce of commits and diffs.
+        <em>DO <strong>NOT</strong> SEND MAIL HERE</em> - 
+        CVS commits mailinglist, with announce of commits and diffs, fed by 
+        <a href="https://sourceforge.net/tracker/?group_id=8874&atid=108874">the sf.net bug tracker</a>.
         If you would like to get involved in gphoto
         developments, then you may want to read it.</p>
                         
