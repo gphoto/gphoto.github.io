@@ -89,9 +89,17 @@ function printMenu($current)
 <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
 <a href="/mailinglists/">Mailing lists</a> :: 
 <a href="/download/">Download</a> :: 
+<a href="/feedback/">Feedback</a> :: 
 <a href="/links/">Links</a>
 <?
 	switch ($current) {
+	case "feedback":
+		?>
+		<br />
+		<a href="/bugs/">Bugs</a> :: 
+		<a href="/rfe/">Feature Requests</a>
+		<?
+		break;
 	case "proj":
 		?>
 		<br />
