@@ -51,7 +51,7 @@
    <h3>Digital camera review/resources</h3>
 
    <ul>
-      <li><a href="http://www.dcresource.com/">DCResource</a>
+      <li><a href="http://www.dcresource.com/">DCResource</a></li>
    </ul>
 
    <h3>Free software</h3>

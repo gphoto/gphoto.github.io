@@ -21,13 +21,16 @@
 	<li>repaired "make rpm" target</li>
    	<li>started "real" gphoto2 manual</li>
 	</ul>
-	<ul>gphoto2 command-line interface:
+	<p>gphoto2 command-line interface:</p>
+	<ul>
 	<li>optional readline support</li>
 	</ul>
-	<ul>libgphoto2:
+	<p>libgphoto2:</p>
+	<ul>
 	<li>support for periodic keep-alive-messages</li>
 	</ul>
-	<ul>drivers (camlibs):
+	<p>drivers (camlibs):</p>
+	<ul>
 	<li>improved support for PTP cameras:
 		<ul>
      		<li>multiple storage media</li>
