@@ -9,7 +9,7 @@
 <h2>libgphoto2</h2>
 <p>
 libgphoto2 is the core of gphoto2 software. It is a portable library
-to gives access to more than <a href="libgphoto2/support.php">200 digital cameras.</a></p>
+to gives access to near <a href="libgphoto2/support.php">300 digital cameras.</a></p>
 <p class="more"><a href="libgphoto2/">(more...)</a></p>
 
 <h2>gphoto2</h2>
