@@ -1,59 +1,58 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>2.2. Using the gphoto2 command line
-	interface (CLI)</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.56.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="quickstart.html" title="Chapter 2. Quick start"><link rel="previous" href="quickstart.html" title="Chapter 2. Quick start"><link rel="next" href="using-gnome.html" title="2.3. Using Gnome VFS"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p align="center" class="menu"><a href="/">Home</a> :: 
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968"><title>2.2.&#160;Using the gphoto2 command line
+	interface (CLI)</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.60.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="quickstart.html" title="Chapter&#160;2.&#160;Quick start"><link rel="previous" href="quickstart.html" title="Chapter&#160;2.&#160;Quick start"><link rel="next" href="using-gnome.html" title="2.3.&#160;Using Gnome VFS"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p xmlns="http://www.w3.org/1999/xhtml" align="center" class="menu"><a href="/">Home</a> :: 
       <a href="/news">News</a> :: 
       <a href="/proj/">Projects</a> :: 
       <a href="/doc/">Documentation</a> :: 
       <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
       <a href="/mailinglists/">Mailing lists</a> :: 
       <a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">Download</a> :: 
-      <a href="/links/">Links</a><br><a href="/doc/manual/">User's manual</a> ::
-      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">2.2. Using the gphoto2 command line
-	interface (CLI)</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="quickstart.html">Prev</a> </td><th width="60%" align="center">Chapter 2. Quick start</th><td width="20%" align="right"> <a accesskey="n" href="using-gnome.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="using-gphoto2"></a>2.2. Using the <b>gphoto2</b> command line
-	interface (CLI)</h2></div></div><p>
+      <a href="/links/">Links</a><br></br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">2.2.&#160;Using the gphoto2 command line
+	interface (CLI)</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="quickstart.html">Prev</a>&#160;</td><th width="60%" align="center">Chapter&#160;2.&#160;Quick start</th><td width="20%" align="right">&#160;<a accesskey="n" href="using-gnome.html">Next</a></td></tr></table><hr></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="using-gphoto2"></a>2.2.&#160;Using the <b class="command">gphoto2</b> command line
+	interface (<span class="acronym">CLI</span>)</h2></div></div><div></div></div><p>
 	OK, we begin with finding out how you can connect a camera to
 	your computer:
       </p><pre class="screen">
-<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
-<tt>Devices found: 4
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--list-ports</tt></i></tt></b>
+<tt class="computeroutput">Devices found: 4
 Path                             Description
 --------------------------------------------------------------
 serial:/dev/ttyS0                Serial Port 0                   
 serial:/dev/ttyS2                Serial Port 2                   
 serial:/dev/ttyS3                Serial Port 3                   
 usb:                             Universal Serial Bus	  </tt>
-<tt>alice@host:~$ </tt>
+<tt class="prompt">alice@host:~$ </tt>
       </pre><p>
 	In this example, we see that we have the three serial devices
-	<tt>/dev/ttyS0</tt>, 
-	<tt>/dev/ttyS2</tt> and
-	<tt>/dev/ttyS3</tt> which are
-	configured properly and to which <b>gphoto2</b> has
+	<tt class="filename">/dev/ttyS0</tt>, 
+	<tt class="filename">/dev/ttyS2</tt> and
+	<tt class="filename">/dev/ttyS3</tt> which are
+	configured properly and to which <b class="command">gphoto2</b> has
 	write permissions for.
-	Additionally, there is also a USB
+	Additionally, there is also a <span class="acronym">USB</span>
 	bus. However, we cannot tell yet whether we will have write
-	access to the USB device file your camera
+	access to the <span class="acronym">USB</span> device file your camera
 	will be assigned by your operating system. 
       </p><p>
 	The next step is to connect you camera and find out whether
-	<b>gphoto2</b> can find it. This may only work with
-	USB. (FIXME: can any of the people with
-	RS232 cameras help me on this issue?)
+	<b class="command">gphoto2</b> can find it. This may only work with
+	<span class="acronym">USB</span>. (FIXME: can any of the people with
+	<span class="acronym">RS232</span> cameras help me on this issue?)
       </p><pre class="screen">
-<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--auto-detect</tt></i></tt></b>
-<tt>Model                          Port                                             
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--auto-detect</tt></i></tt></b>
+<tt class="computeroutput">Model                          Port                                             
 ----------------------------------------------------------
 Canon PowerShot G2             usb:            </tt>
-<tt>alice@host:~$ </tt>
+<tt class="prompt">alice@host:~$ </tt>
       </pre><p>
 	In this case, a camera called 
-	&#8220;Canon PowerShot G2&#8221; is connected
-	to your system's USB bus.
+	&#8220;<span class="quote">Canon PowerShot G2</span>&#8221; is connected
+	to your system's <span class="acronym">USB</span> bus.
       </p><p>
 	OK, so now let's see what we can find out about the camera:
       </p><pre class="screen">
-<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--summary</tt></i></tt></b>
-<tt>Detected a 'Canon PowerShot G2'.                                                
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--summary</tt></i></tt></b>
+<tt class="computeroutput">Detected a 'Canon PowerShot G2'.                                                
 Camera Summary:
 
 Camera identification:
@@ -69,20 +68,20 @@ Flash disk information:
 
 Time: 2002-07-09 20:45:15 (host time +0 seconds)
 </tt>
-<tt>alice@host:~$ </tt>
+<tt class="prompt">alice@host:~$ </tt>
       </pre><p>
 	The actual result of 
-	<b><tt>gphoto2 <i><tt>--summary</tt></i></tt></b>
+	<b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--summary</tt></i></tt></b>
 	may be different from camera to camera. However, we can see that
-	<b>gphoto2</b> obviously can talk to the camera, and
+	<b class="command">gphoto2</b> obviously can talk to the camera, and
 	we get some information about the camera.
       </p><p>
 	OK, now that we have seen that there is some space occupied on
 	the storage medium of the camera, let's have a look at what is
 	stored there:
       </p><pre class="screen">
-<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--list-files</tt></i></tt></b>
-<tt>Detected a 'Canon PowerShot G2'.                                                
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--list-files</tt></i></tt></b>
+<tt class="computeroutput">Detected a 'Canon PowerShot G2'.                                                
 There are no files in folder '/'.
 There are no files in folder '/DCIM'.
 There are 4 files in folder '/DCIM/154CANON':
@@ -91,11 +90,11 @@ There are 4 files in folder '/DCIM/154CANON':
 #3     IMG_5416.JPG               rd    31 KB image/jpeg
 #4     MVI_5418.AVI               rd   682 KB video/x-msvideo
 There are no files in folder '/DCIM/CANONMSC'.</tt>
-<tt>alice@host:~$ </tt>
+<tt class="prompt">alice@host:~$ </tt>
       </pre><p>
 	There are multiple folders on the camera, and there are several
 	files of different types and sizes on stored in one of them. One
-	is a raw file of the type this camera produces, two are JPEG
+	is a raw file of the type this camera produces, two are <span class="acronym">JPEG</span>
 	files (one large and one small) and one seems to be a short
 	video sequence.
       </p><p>
@@ -103,8 +102,8 @@ There are no files in folder '/DCIM/CANONMSC'.</tt>
 	actually download the images from the camera, we are going to do
 	that:
       </p><pre class="screen">
-<tt>alice@host:~$ </tt><b><tt>gphoto2 <i><tt>--get-all-files</tt></i></tt></b>
-<tt>Detected a 'Canon PowerShot G2'.                                                
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--get-all-files</tt></i></tt></b>
+<tt class="computeroutput">Detected a 'Canon PowerShot G2'.                                                
 Downloading 'CRW_5417.CRW' from folder '/DCIM/154CANON'...
 Saving file as CRW_5417.CRW                                                     
 Downloading 'IMG_5415.JPG' from folder '/DCIM/154CANON'...
@@ -113,15 +112,13 @@ Downloading 'IMG_5416.JPG' from folder '/DCIM/154CANON'...
 Saving file as IMG_5416.JPG                                                     
 Downloading 'MVI_5418.AVI' from folder '/DCIM/154CANON'...
 Saving file as MVI_5418.AVI                                                     </tt>
-<tt>alice@host:~$ </tt>
+<tt class="prompt">alice@host:~$ </tt>
       </pre><p>
 	And now we have all the files in our current directory (in
-	this case in directory <tt>~</tt>) and can do something with them.
+	this case in directory <tt class="filename">~</tt>) and can do something with them.
       </p><p>
 	Well, that's about it.
 	You may also want to have a look at the
 	<a href="ref-gphoto2-cli.html#cli-examples" title="Examples">command line examples</a> from
-	the <a href="ref-gphoto2-cli.html" title="gphoto2">gphoto2(1)</a> man page and the examples
-	described on 
-	<a href="http://www.gphoto.org/gphoto2/cli.html" target="_top">http://www.gphoto.org/gphoto2/cli.html</a>.
-      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="quickstart.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="quickstart.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="using-gnome.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 2. Quick start </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 2.3. Using Gnome VFS</td></tr></table></div></body></html>
+	the <a href="ref-gphoto2-cli.html" title="gphoto2"><span class="refentrytitle">gphoto2</span>(1)</a> man page.
+      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="quickstart.html">Prev</a>&#160;</td><td width="20%" align="center"><a accesskey="u" href="quickstart.html">Up</a></td><td width="40%" align="right">&#160;<a accesskey="n" href="using-gnome.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter&#160;2.&#160;Quick start&#160;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&#160;2.3.&#160;Using Gnome VFS</td></tr></table></div></body></html>

@@ -1,0 +1,36 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968"><title>Chapter&#160;5.&#160;Compiling and installing</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.60.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="index.html" title="The gPhoto2 Manual"><link rel="previous" href="port-and-camera.html" title="4.4.&#160;Specifying the port and camera you use"><link rel="next" href="compile-gphoto-meta.html" title="5.2.&#160;Using CVS sources via gphoto-meta"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p xmlns="http://www.w3.org/1999/xhtml" align="center" class="menu"><a href="/">Home</a> :: 
+      <a href="/news">News</a> :: 
+      <a href="/proj/">Projects</a> :: 
+      <a href="/doc/">Documentation</a> :: 
+      <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
+      <a href="/mailinglists/">Mailing lists</a> :: 
+      <a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">Download</a> :: 
+      <a href="/links/">Links</a><br></br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter&#160;5.&#160;Compiling and installing</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="port-and-camera.html">Prev</a>&#160;</td><th width="60%" align="center">&#160;</th><td width="20%" align="right">&#160;<a accesskey="n" href="compile-gphoto-meta.html">Next</a></td></tr></table><hr></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="compilation"></a>Chapter&#160;5.&#160;Compiling and installing</h2></div></div><div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt>5.1. <a href="compilation.html#compilation-overview">Overview, requirements and dependencies</a></dt><dt>5.2. <a href="compile-gphoto-meta.html">Using CVS sources via gphoto-meta</a></dt><dt>5.3. <a href="compilation-from-cvs.html">Starting from CVS</a></dt><dt>5.4. <a href="configure-make-install.html">Configuring, building, and installing</a></dt></dl></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="compilation-overview"></a>5.1.&#160;Overview, requirements and dependencies</h2></div></div><div></div></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
+	  This section wants to give you an overview about software
+	  packages, software requirements and the dependencies between
+	  them. It should prepare you for the decision what packages
+	  you want to install and what sequence.
+	</p></div><p>
+	As you can see in 
+	<a href="compilation.html#software-dependencies" title="Figure&#160;5.1.&#160;Software dependencies">Figure&#160;5.1</a>,
+	multiple software packages are required for using digital
+	cameras. If you find this picture a little complicated, then
+	you may want to consider using pre-compiled binary packages.
+      </p><div class="figure"><a name="software-dependencies"></a><p class="title"><b>Figure&#160;5.1.&#160;Software dependencies</b></p><div class="mediaobject"><img src="figures/software-dependencies.png" alt="Software dependencies"></div><pre class="synopsis">
+	  Arrows mean &#8220;<span class="quote">required for</span>&#8221;, dashed lines mean
+	  &#8220;<span class="quote">can optionally be used with</span>&#8221;.
+	</pre></div><p>
+	Nowadays, most people will want to use gphoto2 on the command
+	line and the gtkam GUI with contemporary USB cameras
+	delivering EXIF images. So you'll have to get and compile
+	libexif, libusb, libgphoto2, gphoto2, and gtkam.
+      </p><p>
+	You can see that this quite some work to do. This is why we
+	created gphoto-meta, which lets you build everything in just
+	one step. Continue reading in 
+	<a href="compile-gphoto-meta.html" title="5.2.&#160;Using CVS sources via gphoto-meta">Section&#160;5.2, &#8220;Using CVS sources via gphoto-meta&#8221;</a> 
+	for a quick demonstration of gphoto-meta. If you want to do
+	everything manually, skip that chapter and continue with
+	<a href="compilation-from-cvs.html" title="5.3.&#160;Starting from CVS">Section&#160;5.3, &#8220;Starting from CVS&#8221;</a>.
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="port-and-camera.html">Prev</a>&#160;</td><td width="20%" align="center"><a accesskey="u" href="index.html">Up</a></td><td width="40%" align="right">&#160;<a accesskey="n" href="compile-gphoto-meta.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">4.4.&#160;Specifying the port and camera you use&#160;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&#160;5.2.&#160;Using CVS sources via gphoto-meta</td></tr></table></div></body></html>

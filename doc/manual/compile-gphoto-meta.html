@@ -1,0 +1,97 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968"><title>5.2.&#160;Using CVS sources via gphoto-meta</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.60.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="compilation.html" title="Chapter&#160;5.&#160;Compiling and installing"><link rel="previous" href="compilation.html" title="Chapter&#160;5.&#160;Compiling and installing"><link rel="next" href="compilation-from-cvs.html" title="5.3.&#160;Starting from CVS"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p xmlns="http://www.w3.org/1999/xhtml" align="center" class="menu"><a href="/">Home</a> :: 
+      <a href="/news">News</a> :: 
+      <a href="/proj/">Projects</a> :: 
+      <a href="/doc/">Documentation</a> :: 
+      <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
+      <a href="/mailinglists/">Mailing lists</a> :: 
+      <a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">Download</a> :: 
+      <a href="/links/">Links</a><br></br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">5.2.&#160;Using CVS sources via gphoto-meta</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="compilation.html">Prev</a>&#160;</td><th width="60%" align="center">Chapter&#160;5.&#160;Compiling and installing</th><td width="20%" align="right">&#160;<a accesskey="n" href="compilation-from-cvs.html">Next</a></td></tr></table><hr></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="compile-gphoto-meta"></a>5.2.&#160;Using CVS sources via gphoto-meta</h2></div></div><div></div></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
+	  Fed up with typing 
+	  <b class="command">cvs up &amp;&amp; ./autogen.sh &amp;&amp;
+	    ./configure &amp;&amp; make install</b> 
+	  for each and every package? No problem. Use gphoto-meta.
+	  You just have to run one script which fetches and updates
+	  all required packages from CVS, fetches some build tools if
+	  necessary and then builds and installs all software packages
+	  in the correct sequence.
+	</p></div><pre class="screen">
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>cvs -d :pserver:anonymous@cvs.sourceforge.net:/cvsroot/gphoto login</tt></b>
+<tt class="computeroutput">Logging in to :pserver:anonymous@cvs.sourceforge.net:2401/cvsroot/gphoto
+CVS password:</tt><b class="userinput"><tt><b class="keycap">ENTER</b></tt></b>
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/gphoto co gphoto-meta</tt></b>
+<tt class="computeroutput">co gphoto-meta
+cvs server: Updating gphoto-meta
+U gphoto-meta/.htaccess
+U gphoto-meta/.htfixupload
+U gphoto-meta/AUTHORS
+U gphoto-meta/ChangeLog
+U gphoto-meta/Makefile.am
+U gphoto-meta/NEWS
+U gphoto-meta/README
+U gphoto-meta/autogen.sh
+U gphoto-meta/bootstrap.sh
+U gphoto-meta/build-tool-list
+U gphoto-meta/clean.sh
+U gphoto-meta/compileinstall.sh
+U gphoto-meta/configure.in
+U gphoto-meta/cvs-module-list
+U gphoto-meta/cvs-module-list-candidates
+U gphoto-meta/gettextize.patch
+U gphoto-meta/upload-dist
+cvs server: Updating gphoto-meta/utils
+U gphoto-meta/utils/Makefile.am
+U gphoto-meta/utils/common.sh
+</tt><tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>cd gphoto-meta</tt></b>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>./bootstrap.sh --tools</tt></b>
+<tt class="computeroutput"><i class="replaceable"><tt>a few 10000 lines deleted</tt></i></tt>
+<tt class="computeroutput">##########################################################################
+# Installed test versions of everything into $HOME/gphoto-meta/dist-root
+# You may want to set the following variables to use the gphoto suite
+# installed there:
+##########################################################################
+export PATH="$HOME/gphoto-meta/dist-root/bin:$HOME/gphoto-meta/tool-root/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/gphoto-meta/dist-root/lib:$HOME/gphoto-meta/tool-root/lib:"
+export PKG_CONFIG_PATH="$HOME/gphoto-meta/dist-root/lib/pkgconfig:/usr/lib/pkgconfig"
+########################################################################
+#&gt; cd $HOME/gphoto-meta/dist-files
+Note: To be sure that the packages in $HOME/gphoto-meta/dist-files
+ really work, run
+      $HOME/gphoto-meta/compileinstall.sh</tt>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt>
+      </pre><p>
+	That's it :-) Read the last few lines. If you just want to
+	use what you just compiled, then just execute the three export
+	statements given:
+      </p><pre class="screen">
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>export PATH="$HOME/gphoto-meta/dist-root/bin:$HOME/gphoto-meta/tool-root/bin:$PATH"</tt></b>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>export LD_LIBRARY_PATH="$HOME/gphoto-meta/dist-root/lib:$HOME/gphoto-meta/tool-root/lib:"</tt></b>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>export PKG_CONFIG_PATH="$HOME/gphoto-meta/dist-root/lib/pkgconfig:/usr/lib/pkgconfig"</tt></b>
+      </pre><p>
+	However, if you want to install the software into another
+	directory (called 
+	<tt class="filename"><i class="replaceable"><tt>$HOME/root</tt></i></tt>
+	here), then use <b class="command">compileinstall.sh</b>:
+      </p><pre class="screen">
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>./compileinstall.sh <i class="replaceable"><tt>$HOME/root</tt></i></tt></b>
+<tt class="computeroutput"><i class="replaceable"><tt>another few 10000 lines deleted</tt></i></tt>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>export PATH=<i class="replaceable"><tt>$HOME/root</tt></i>/bin:$PATH</tt></b>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>export LD_LIBRARY_PATH=<i class="replaceable"><tt>$HOME/root</tt></i>/lib:$LD_LIBRARY_PATH</tt></b>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt>
+      </pre><p>
+	You now have installed everything into the 
+	<tt class="filename"><i class="replaceable"><tt>$HOME/root</tt></i></tt>
+	directory.
+      </p><p>
+	If you want to update an existing installation of gphoto-meta,
+	you run the following to update your packages:
+      </p><pre class="screen">
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>cvs up</tt></b>
+<tt class="computeroutput"><i class="replaceable"><tt>output snipped</tt></i></tt>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt><b class="userinput"><tt>./bootstrap.sh --tools --update</tt></b>
+<tt class="computeroutput"><i class="replaceable"><tt>output snipped</tt></i></tt>
+<tt class="prompt">alice@host:~/gphoto-meta$ </tt>
+      </pre><p>
+	Run <b class="command">compileinstall.sh</b> if you want to
+	install the newly created packages somewhere.
+      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="compilation.html">Prev</a>&#160;</td><td width="20%" align="center"><a accesskey="u" href="compilation.html">Up</a></td><td width="40%" align="right">&#160;<a accesskey="n" href="compilation-from-cvs.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter&#160;5.&#160;Compiling and installing&#160;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&#160;5.3.&#160;Starting from CVS</td></tr></table></div></body></html>

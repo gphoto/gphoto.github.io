@@ -1,121 +1,120 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>4.2. Setting up permissions for serial
-	(RS232) ports</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.56.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="permissions.html" title="Chapter 4. Setting up your system for use with 
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ANSI_X3.4-1968"><title>4.2.&#160;Setting up permissions for serial
+	(RS232) ports</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.60.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="permissions.html" title="Chapter&#160;4.&#160;Setting up your system for use with 
       libgphoto2
       and gphoto2
-    "><link rel="previous" href="permissions.html" title="Chapter 4. Setting up your system for use with 
+    "><link rel="previous" href="permissions.html" title="Chapter&#160;4.&#160;Setting up your system for use with 
       libgphoto2
       and gphoto2
-    "><link rel="next" href="permissions-usb.html" title="4.3. Setting up permissions for USB ports"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p align="center" class="menu"><a href="/">Home</a> :: 
+    "><link rel="next" href="permissions-usb.html" title="4.3.&#160;Setting up permissions for USB ports"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p xmlns="http://www.w3.org/1999/xhtml" align="center" class="menu"><a href="/">Home</a> :: 
       <a href="/news">News</a> :: 
       <a href="/proj/">Projects</a> :: 
       <a href="/doc/">Documentation</a> :: 
       <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
       <a href="/mailinglists/">Mailing lists</a> :: 
       <a href="http://sourceforge.net/project/showfiles.php?group_id=8874&amp;release_id=96632">Download</a> :: 
-      <a href="/links/">Links</a><br><a href="/doc/manual/">User's manual</a> ::
-      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">4.2. Setting up permissions for serial
-	(RS232) ports</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="permissions.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Setting up your system for use with 
+      <a href="/links/">Links</a><br></br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/faq/">FAQ</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">4.2.&#160;Setting up permissions for serial
+	(RS232) ports</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="permissions.html">Prev</a>&#160;</td><th width="60%" align="center">Chapter&#160;4.&#160;Setting up your system for use with 
       libgphoto2
       and gphoto2
-    </th><td width="20%" align="right"> <a accesskey="n" href="permissions-usb.html">Next</a></td></tr></table><hr></div><div class="sect1"><div class="titlepage"><div><h2 class="title" style="clear: both"><a name="permissions-serial"></a>4.2. Setting up permissions for serial
-	(RS232) ports</h2></div></div><p>
+    </th><td width="20%" align="right">&#160;<a accesskey="n" href="permissions-usb.html">Next</a></td></tr></table><hr></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="permissions-serial"></a>4.2.&#160;Setting up permissions for serial
+	(<span class="acronym">RS232</span>) ports</h2></div></div><div></div></div><p>
 	On Unix systems, serial ports usually are represented by device files.
 	The serial port device files are e.g.:
-      </p><div class="variablelist"><dl><dt><span class="term">for Linux</span></dt><dd><tt>/dev/ttyS<i><tt>?</tt></i></tt> starting with <tt>/dev/ttyS0</tt></dd><dt><span class="term">for FreeBSD</span></dt><dd><tt>/dev/cuaa<i><tt>?</tt></i></tt> starting with <tt>/dev/cuaa0</tt></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">for Linux</span></dt><dd><tt class="filename">/dev/ttyS<i class="replaceable"><tt>?</tt></i></tt> starting with <tt class="filename">/dev/ttyS0</tt></dd><dt><span class="term">for FreeBSD</span></dt><dd><tt class="filename">/dev/cuaa<i class="replaceable"><tt>?</tt></i></tt> starting with <tt class="filename">/dev/cuaa0</tt></dd></dl></div><p>
         If you have a serial port reserved for the camera, you can
-	just use <b>chown</b>, <b>chgrp</b>,
-	<b>chmod</b> on its device file to provide a
+	just use <b class="command">chown</b>, <b class="command">chgrp</b>,
+	<b class="command">chmod</b> on its device file to provide a
 	certain user or group or everybody with access to it.
       </p><p>
 	You can use the 
-	<b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
+	<b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--list-ports</tt></i></tt></b>
 	command to check whether you have permissions to access a
 	certain device:
       </p><pre class="screen">
-<tt>alice@host:~$ </tt><b><tt>gphoto2 --list-ports</tt></b>
-<tt>Devices found: 2
+<tt class="prompt">alice@host:~$ </tt><b class="userinput"><tt>gphoto2 --list-ports</tt></b>
+<tt class="computeroutput">Devices found: 2
 Path                             Description
 --------------------------------------------------------------
 serial:/dev/ttyS0                Serial Port 0                   
 usb:                             Universal Serial Bus            
 </tt>
-<tt>alice@host:~$ </tt>
+<tt class="prompt">alice@host:~$ </tt>
       </pre><p>
 	This shows that user alice (who seems to be running the
 	command) has access to the serial device 
-	<tt>/dev/ttyS0</tt>.
-      </p><div class="sect2"><div class="titlepage"><div><h3 class="title"><a name="id2801558"></a>4.2.1. A few examples</h3></div></div><p>
+	<tt class="filename">/dev/ttyS0</tt>.
+      </p><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id2873886"></a>4.2.1.&#160;A few examples</h3></div></div><div></div></div><p>
 	  Let's make a few examples with the first serial port 
 	  on a Linux system, called 
-	  <tt>/dev/ttyS0</tt>. 
+	  <tt class="filename">/dev/ttyS0</tt>. 
 	  You start with having a look at the device file: 
 	</p><pre class="screen">
-<tt>host:~# </tt><b><tt>ls -l <tt>/dev/ttyS0</tt></tt></b>
-<tt>crw-rw----    1 root     dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>host:~# </tt>
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>ls -l <tt class="filename">/dev/ttyS0</tt></tt></b>
+<tt class="computeroutput">crw-rw----    1 root     dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
+<tt class="prompt">host:~# </tt>
 	</pre><p>
 	  OK, so user root and all users of the group dialout can access
 	  the device /dev/ttyS0. You now have a few choices of what to
 	  do.
-	</p><div class="example"><a name="ex-serial-exclusive-access"></a><p class="title"><b>Example 4.1. Exclusive access to a serial camera for <span class="emphasis"><em>one</em></span> user</b></p><p>
+	</p><div class="example"><a name="ex-serial-exclusive-access"></a><p class="title"><b>Example&#160;4.1.&#160;Exclusive access to a serial camera for <span class="emphasis"><em>one</em></span> user</b></p><p>
 	    You want to give user alice exclusive access to the first
 	    serial port on your Linux machine:
 	  </p><pre class="screen">
-<tt>host:~# </tt># give alice exclusive access to the device file (you must be root)
-<tt>host:~# </tt><b><tt>chown alice /dev/ttyS0</tt></b>
-<tt>host:~# </tt><b><tt>chmod 0600 /dev/ttyS0</tt></b>
-<tt>host:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
-<tt>crw-------    1 alice    dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>host:~# </tt>
+<tt class="prompt">host:~# </tt># give alice exclusive access to the device file (you must be root)
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>chown alice /dev/ttyS0</tt></b>
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>chmod 0600 /dev/ttyS0</tt></b>
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>ls -l /dev/ttyS0</tt></b>
+<tt class="computeroutput">crw-------    1 alice    dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
+<tt class="prompt">host:~# </tt>
 	  </pre><p>
 	    Test for access by running 
-	    <b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
+	    <b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--list-ports</tt></i></tt></b>
 	    as the respective user. Look for
-	    <tt>/dev/ttyS0</tt>
+	    <tt class="filename">/dev/ttyS0</tt>
 	    in the output.
-	  </p></div><div class="example"><a name="ex-serial-group-access"></a><p class="title"><b>Example 4.2. Access to serial camera for a group of users</b></p><p>
+	  </p></div><div class="example"><a name="ex-serial-group-access"></a><p class="title"><b>Example&#160;4.2.&#160;Access to serial camera for a group of users</b></p><p>
 	    You could just add user alice to the group dialout, but this
 	    will almost certainly cause confusion between dialing and
 	    using the camera. So you'd better create a group named
-	    &quot;camera&quot;, add alice to that group and give the group access
+	    "camera", add alice to that group and give the group access
 	    to the camera:
 	  </p><pre class="screen">
-<tt>host:~# </tt># give users in group &quot;camera&quot; access to this device (you must be root)
-<tt>host:~# </tt><b><tt>groupadd camera</tt></b>
-<tt>host:~# </tt><b><tt>chgrp camera /dev/ttyS0</tt></b>
-<tt>host:~# </tt><b><tt>chmod 0060 /dev/ttyS0</tt></b>
-<tt>host:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
-<tt>c---rw----    1 root     camera     4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>host:~# </tt>
+<tt class="prompt">host:~# </tt># give users in group "camera" access to this device (you must be root)
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>groupadd camera</tt></b>
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>chgrp camera /dev/ttyS0</tt></b>
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>chmod 0060 /dev/ttyS0</tt></b>
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>ls -l /dev/ttyS0</tt></b>
+<tt class="computeroutput">c---rw----    1 root     camera     4,  64 Jul  5 12:05 /dev/ttyS0</tt>
+<tt class="prompt">host:~# </tt>
 	  </pre><p>
 	    Test for access by running 
-	    <b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
+	    <b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--list-ports</tt></i></tt></b>
 	    as the respective user. Look for
-	    <tt>/dev/ttyS0</tt>
+	    <tt class="filename">/dev/ttyS0</tt>
 	    in the output.
 	  </p><p>
 	    BTW, it makes sense to also set the permissions for USB
-	    camera devices to allow the &quot;camera&quot; group access. Then any
-	    user in the &quot;camera&quot; group will have access to any camera.
-	  </p></div><div class="example"><a name="ex-serial-anybody-access"></a><p class="title"><b>Example 4.3. Access to serial camera for <span class="emphasis"><em>anybody</em></span></b></p><p>
+	    camera devices to allow the "camera" group access. Then any
+	    user in the "camera" group will have access to any camera.
+	  </p></div><div class="example"><a name="ex-serial-anybody-access"></a><p class="title"><b>Example&#160;4.3.&#160;Access to serial camera for <span class="emphasis"><em>anybody</em></span></b></p><p>
 	    Allowing <span class="emphasis"><em>anybody</em></span> access to
 	    something is considered bad security. However, for quick
 	    testing or for non-networked single-user systems, this can
 	    also make sense:
 	  </p><pre class="screen">
-<tt>host:~# </tt># give <span class="emphasis"><em>anybody</em></span> access to this device (you must be root)
-<tt>host:~# </tt><b><tt>chmod a+rw /dev/ttyS0</tt></b>
-<tt>host:~# </tt><b><tt>ls -l /dev/ttyS0</tt></b>
-<tt>crw-rw-rw-    1 root     dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
-<tt>host:~# </tt>
+<tt class="prompt">host:~# </tt># give <span class="emphasis"><em>anybody</em></span> access to this device (you must be root)
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>chmod a+rw /dev/ttyS0</tt></b>
+<tt class="prompt">host:~# </tt><b class="userinput"><tt>ls -l /dev/ttyS0</tt></b>
+<tt class="computeroutput">crw-rw-rw-    1 root     dialout    4,  64 Jul  5 12:05 /dev/ttyS0</tt>
+<tt class="prompt">host:~# </tt>
 	  </pre><p>
 	    Test for access by running 
-	    <b><tt>gphoto2 <i><tt>--list-ports</tt></i></tt></b>
+	    <b class="userinput"><tt>gphoto2 <i class="parameter"><tt>--list-ports</tt></i></tt></b>
 	    as the respective user. Look for
-	    <tt>/dev/ttyS0</tt>
+	    <tt class="filename">/dev/ttyS0</tt>
 	    in the output.
-	  </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="permissions.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="permissions.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="permissions-usb.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 4. Setting up your system for use with 
+	  </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="permissions.html">Prev</a>&#160;</td><td width="20%" align="center"><a accesskey="u" href="permissions.html">Up</a></td><td width="40%" align="right">&#160;<a accesskey="n" href="permissions-usb.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter&#160;4.&#160;Setting up your system for use with 
       libgphoto2
       and gphoto2
-     </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 4.3. Setting up permissions for USB ports</td></tr></table></div></body></html>
+    &#160;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&#160;4.3.&#160;Setting up permissions for USB ports</td></tr></table></div></body></html>
