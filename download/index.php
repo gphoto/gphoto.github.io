@@ -1,6 +1,7 @@
 <?
-	$current_release="2.1.3";
+	$current_release="2.1.4";
 
+	$all_releases["2.1.4"]=209817;
 	$all_releases["2.1.3"]=191969;
 	$all_releases["2.1.2"]=174065;
 	$all_releases["2.1.1"]=125403;

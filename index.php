@@ -15,7 +15,7 @@
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
     <p>
-	<b>gPhoto2 2.1.3</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
+	<b>gPhoto2 2.1.4</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
 	Download it <a href="/download/"><b>now</b></a>.
     </p>
 	 <div style="text-align: right;"><b>October 19th, 2003</b></div>

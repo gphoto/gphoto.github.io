@@ -9,6 +9,60 @@
 <tr>
 	<td class="text">
 <!-- news headlines -->
+<hr />
+
+<h2>2.1.4 release (January 18th, 2004)</h2>
+
+As usual, a lot of bug fixes and support for even more cameras.
+
+<pre>
+----------------------------------------------------------------------------
+libgphoto2 2.1.4 
+
+general:
+
+   * fixed recursion problems during capturing
+
+   * Support for multiple USB cameras NOT included yet.
+     Reason: It breaks several applications.
+
+drivers (camlibs):
+
+   * Canon driver:
+     - added support for G5, Optura 20, ZR-70MC
+     - re-added support for A300 and S50
+     - fix erroneous file size limits
+
+   * PTP driver:
+     - enhanced Canon Capture support
+     - added id for Canon Digital IXUS i
+     - added Olympus C-350Z, D-560Z, X-250
+     - added Sony DSC-U20, DSC-P52, DSC-P72, DSC-P92
+     - updates from libptp2
+
+   * ricoh driver:
+     - working G3, G4 support
+
+   * sx330z driver:
+     - added Maginon SX-410z
+
+   * spca50x driver:
+     - do not delete everything and fail to download on Aiptek 1.3
+
+   * polaroid drivers:
+     - fixed support for D-Link 350F, Skanhex SX-35
+     - added support for Trust 350FT PowerC@m FLASH
+
+packaging:
+
+   * linux hotplug scripts:
+     - use correct directories in usbcam.x11-app
+
+libgphoto2_port:
+
+   * serial bug fix with speed 0
+</pre>
+
 <h2>2.1.3 released (Oct 19th, 2003)</h2>
 
 <p>Most important changes are</p>
