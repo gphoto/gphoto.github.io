@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>4.3. Setting up permissions for USB ports</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.54.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="permissions.html" title="Chapter 4. Setting up your system for use with 
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>4.3. Setting up permissions for USB ports</title><link rel="stylesheet" href="../../styles.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.56.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="permissions.html" title="Chapter 4. Setting up your system for use with 
       libgphoto2
       and gphoto2
     "><link rel="previous" href="permissions-serial.html" title="4.2. Setting up permissions for serial (RS232) ports"><link rel="next" href="port-and-camera.html" title="4.4. Specifying the port and camera you use"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p align="center" class="menu"><a href="/">Home</a> :: 
@@ -160,13 +160,13 @@
 		and let Debian's <b>update-usb.usermap</b>
 		script update the
 		<tt>/etc/hotplug/usb.usermap</tt> file:
-		<pre class="screen">
+		</p><pre class="screen">
 
 # This is only for Debian, OK?
 <tt>[root@home ~]# </tt><b>mkdir <i><tt>/usr/lib/hotplug/libgphoto2</tt></i></b>
 <tt>[root@home ~]# </tt><b>./path/to/libgphoto2-build/packaging/linux-hotplug/print-usb-usermap &gt; <tt>/usr/lib/hotplug/libgphoto2/usb.usermap</tt></b>
 <tt>[root@home ~]# </tt><b>update-usb.usermap</b>
-		</pre>
+		</pre><p>
 	      </p><p>
               This makes hotplug recognise all USB cameras which your version 
               of <a href="ref-libgphoto2.html" title="gphoto2">gphoto2(3)</a> supports and makes
