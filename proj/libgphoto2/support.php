@@ -14,7 +14,7 @@ Here is a list of the supported cameras as of current release.
 ========================================================================
 gphoto2 2.1.1
 
-Copyright (C) 2000-2002 Lutz Mueller and others
+Copyright © 2000-2002 Lutz Mueller and others
 
 gphoto2 comes with NO WARRANTY, to the extent permitted by law. You may
 redistribute copies of gphoto2 under the terms of the GNU General Public
