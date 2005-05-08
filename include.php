@@ -37,6 +37,7 @@ function printHeader($title, $keywords, $noheading)
    <title>gPhoto - <? print $title; ?></title>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <meta name="GENERATOR" content="Emacs vim" />
+   <meta name="keywords" content=" <? print $keywords; ?> " />
    <link rel="stylesheet" type="text/css" href="/styles.css" />
 <?
 

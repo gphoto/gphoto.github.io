@@ -1,7 +1,7 @@
 <?
 	require ("include.php");
 
-	printHeader ("gPhoto Home", "", 0);
+	printHeader ("gPhoto Home", "digital camera, camera support, linux, freebsd, ptp, canon, sony, libgphoto2, gphoto2, camera access", 0);
 
 	printMenu ("home");
 ?>
