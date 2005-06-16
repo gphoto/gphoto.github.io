@@ -56,10 +56,21 @@ pre, tt
 
 /* the following are the styles for the HTML generated from Docbook XML */
 
+pre.screen,
+pre.programlisting
+{
+	border: thin solid;
+	margin: 1.33ex;
+}
+
 pre.screen
 {
-	background-color: #E0E0E0;
-	border: thin solid gray;
-	margin-top: 1.33ex;
-	margin-bottom: 1.33ex;
+	background-color: #F0D4D8;
+	border-color: gray;
+}
+
+pre.programlisting
+{
+	background-color: #D8D4F0;
+	border-color: gray;
 }
