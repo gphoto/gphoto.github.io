@@ -59,8 +59,10 @@ pre, tt
 pre.screen,
 pre.programlisting
 {
-	border: thin solid;
-	margin: 1.33ex;
+	border-width: thin;
+	border-style: solid;
+	margin: 1.33ex 0 1.33ex 0;
+	padding: 1ex;
 }
 
 pre.screen
