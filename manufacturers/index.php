@@ -30,8 +30,9 @@ the documentation has been pulled off the website.
 real evidence of their lack of cooperation.</p>
 
 <h4>Canon</h4>
-<p>Canon has also been quite hostile and at the end sent us to gphoto. Their proprietary SDK does
-not have support for Linux, and does not have the required documentation.</p>
+<p>Canon has not provided any help to the gphoto project. Their proprietary SDK does
+not have support for Linux, and does not have the required documentation to implement
+the functionnality.</p>
 
 <p>All their recent cameras support PTP standard protocol and work almost out of the
 box with gphoto. But for advanced control it is another story.</p>
