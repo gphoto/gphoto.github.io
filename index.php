@@ -60,10 +60,10 @@
     digital camera software
     applications for Unix-like systems, written by a whole team of dedicated
     volunteers around the world. It supports more than 
-    <a href="/proj/libgphoto2/support.php">500 cameras</a></p>
+    <a href="/proj/libgphoto2/support.php">600 cameras</a></p>
     <p>gPhoto2 runs on a large range of UNIX-like operating system, including
-    Linux, FreeBSD, NetBSD, etc. gPhoto is provided by major Linux distribution
-    like Debian GNU/Linux, RedHat Linux, SUSE Linux, Mandrake, etc.</p>
+    Linux, FreeBSD, NetBSD, etc. gPhoto is provided by major Linux distributions
+    like Debian GNU/Linux, Gentoo, RedHat Linux, SUSE Linux, Mandriva, etc.</p>
     <p>gPhoto2 is freely available and distributed
     under the terms of the 
     <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL.</a></p>
