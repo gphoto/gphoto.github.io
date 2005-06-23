@@ -15,16 +15,10 @@
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
     	<p>
-	<b>gPhoto2 2.1.5</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
+	<b>gPhoto2 2.1.6</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
 	Download it <a href="/download/"><b>now</b></a>.
     	</p>
-	<div style="text-align: right;"><b>December 15th, 2004</b></div>
-    	<p>
-	<b>gPhoto2 2.1.4</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
-	Download it <a href="/download/"><b>now</b></a>.
-    	</p>
-
-	<div style="text-align: right;"><b>January 18th, 2004</b></div>
+	<div style="text-align: right;"><b>June 23rd, 2005</b></div>
 
 	 <p>Digital cameras have the balance of quality, features, and 
     price that appeals to users looking for a fast and convenient
