@@ -11,6 +11,89 @@
 <!-- news headlines -->
 <hr />
 
+<h2>2.1.6 release (June 23rd, 2005)</h2>
+
+<h3>General libgphoto2 features</h3>
+<ul>
+	<li>Works correctly with kernel 2.6.12 and libusb 0.10.</li>
+	<li>Small bugfixes.</li>
+</ul>
+
+<h3>Drivers (camlibs)</h3>
+<ul>
+<li>ptp2 driver:
+	<ul>
+	<li>Lots of new IDs added:<br>
+		<ul>
+		<li>Canon Digital IXUS 30, IXUS 50, IXUS 700, 
+			PowerShot A510, PowerShot A520, PowerShot S2 IS,
+			PowerShot S70, PowerShot SD200, PowerShot SD500,
+			EOS 1D Mark II
+		<li>Fuji FinePix A330
+		<li>HP Photosmart M307 and R707
+        	<li>Kodak CX7525 and DX7590
+        	<li>Minolta DIMage Z2 (PictBridge)
+        	<li>Nikon CoolPix 4100, D2H SLR, D2Hs SLR
+        	<li>Olympus mju500
+        	<li>Panasonic
+        	<li>Pentax Optio 43WR
+        	<li>Sony DSC-F717, DSC-P120, DSC-P51, DSC-P73, DSC-T3, DSC-W1, DSC-W12
+		</ul>
+	<li>Now supports Canon EOS 20D, EOS 350D, EOS 1D Mark II correctly.
+	<li>EXIF reading using GetPartialObject (making EXIF extraction much faster).
+     	<li>Enhanced property handling for Canon cameras.
+     	<li>Download and upload of themes on Canon cameras.
+     	<li>Enhanced property handling for Nikon cameras.
+     	<li>Fixed timeout issues while downloading movies or big files.
+
+	</ul>
+<li>sierra driver:<br>
+	<ul>
+
+	<li>We now support the hidden Sierra Mode on Nikon and Pentax
+	    cameras (which are otherwise just USB Storage cameras).
+	<li> The USB Storage driver is automatically detached on open.
+
+	     This allows remote image capture with those cameras.
+
+     	<li>Better handling of Camedia C-420L and Epson PhotoPC 650 serial cameras.
+     	<li>Better handling of Sanyo VPC G250
+     	<li>Added Nikon Coolpix 2500, 3500 and 4300.
+   
+	</ul>
+<li>canon driver:<br>
+	<ul>
+	<li>Added PowerShot SD200, S70, SD20, S330.
+	<li>Significant restructuring: there are now only 5 types of camera,
+       so we should be able to add new cameras without modifying canon.h.
+	<li>Advancement in handling EOS 20D and 350D
+	</ul>
+<li>casio driver:<br>
+     Capture support added.
+<li>mars driver:<br>
+     'Precision Mini Model HA513A' and 'Haimei HE-501A' ids added.
+<li>pdc230 driver:<br>
+     Minor fixes.
+<li>ricoh g3 driver:<br>
+	<ul>
+	<li>Added Ricoh Caplio R1, R1v, RZ1 and Sea & Sea 5000G ids.
+     	<li>Fixed crashes.
+	</ul>
+<li>sipix blink2 driver:<br>
+   Added capture and delete-last support.
+
+<li>sq905 driver:<br>
+	<ul>
+	<li>Handle Magpix B350
+	<li>Some improvements.
+	<li>Crash fixes.
+	</ul>
+
+<li>stv0680 driver:<br>
+     Added Create Go Mini id.
+
+<li>localizations:<br> lots of translations updates.
+</ul>
 <h2>2.1.5 release (December 16th, 2004)</h2>
 
 <pre>
