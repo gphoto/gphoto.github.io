@@ -18,11 +18,25 @@ For example RAW files are not documented, that is why
 <p>We just hope to have you help make a good choice to support open source solutions.</p>
 
 <h3>Manufacturers that did provide help</h3>
+
 <p>
-The list is really small. Currently only <b>Kodak</b> has published documentation for protocol they
+The list is quite small:
+</p>
+
+<h4>Kodak</h4>
+<p>Kodak has published documentation for the protocols they
 used in consumer cameras, prior their switch to PTP. Since, due to various company reorganization
 the documentation has been pulled off the website.
 </p>
+
+<h4>Konica</h4>
+<p>Konica has provided reference and partial implementation for the konica driver.</p>
+
+<p>Howerver, Konica has not responded to the request for the QM-150 camera driver in 2003. 
+Developers were just ignored.</p>
+
+<p>Most recent Konica cameras did use USB Mass Storage. Konica is now merged with Konica-Minolta
+and it is a different organization.</p>
 
 <h3>Manufacturers that did NOT provide help</h3>
 
@@ -56,7 +70,13 @@ try the gPhoto project, www.gPhoto.org, who has claimed to reverse engineer
 the interface.
 </pre>
 <p>A reply has been sent, asking about documentation to fix the software (we have issues and al.).
-Waiting for a new reply.</p>
+Got this new reply:</p>
+<pre>
+I'm afraid we do not publicize the interface. That is why gPhoto had to
+reverse engineer it.
+</pre>
+
+<p>Charming ?</p>
 
 <p>Olympus camera support for quite a long time USB Mass Storage, and more recently PTP, making
 gphoto unecessary or work out of the box (for PTP). But for remote control, 
