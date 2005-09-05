@@ -56,8 +56,8 @@
     <h2>Introducing gPhoto2</h2>
     </td></tr>
     <tr><td class="text">
-    <p><a href="/proj/"><b>gPhoto2</b></a> is a free, redistributable, ready to use set of
-    digital camera software
+    <p><a href="/proj/"><b>gPhoto2</b></a> is a free, redistributable,
+    ready to use set of digital camera software
     applications for Unix-like systems, written by a whole team of dedicated
     volunteers around the world. It supports more than 
     <a href="/proj/libgphoto2/support.php">600 cameras</a></p>
@@ -66,7 +66,7 @@
     like Debian GNU/Linux, Gentoo, RedHat Linux, SUSE Linux, Mandriva, etc.</p>
     <p>gPhoto2 is freely available and distributed
     under the terms of the 
-    <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL.</a></p>
+    <a href="http://www.gnu.org/copyleft/lesser.html">GNU LGPL.</a></p>
 
 	</td>
 </tr>
