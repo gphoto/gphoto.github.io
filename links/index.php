@@ -30,8 +30,9 @@
     http://www.dkfz-heidelberg.de/Macromol/wedemann/mini-HOWTO-cqcam.html</a></p>
     */
 ?>
-   <p>OpenDiS, the <a href="http://digitalux.netpedia.net/">Open Digita
-   Services</a> project, is an effort to write
+   <p>OpenDiS, the
+   <a href="http://digitalux.netpedia.net/">Open Digita Services</a>
+   project, is an effort to write
    free tools for accessing Digita cameras from
    Linux and other unix operating systems.
    Initial targets for support are the Kodak
@@ -39,8 +40,8 @@
 		      
    <p>Also checkout the <a href="http://www.tldp.org/HOWTO/Kodak-Digitalcam-HOWTO/index.html">Kodak Digital Camera HOWTO</a>.</p>
 
-   <p><a href="http://www.mostang.com/sane/">
-   SANE</a> stands for 'Scanner Access Now Easy'
+   <p><a href="http://www.sane-project.org/">SANE</a>
+   stands for 'Scanner Access Now Easy'
    and is an application programming interface
    (API) that provides standardized access to
    raster image scanner hardware.</p>
