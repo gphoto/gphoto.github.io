@@ -14,7 +14,21 @@
 	<!-- title image -->
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
+
+	<p>
+	<b>gphotofs 0.1</b>, has been released. Read <a
+	href="/proj/gphotofs/"><b>more about gphotofs</b></a>.
+	Download it <a href="/download/"><b>now</b></a>.
+    	</p>
+	<div style="text-align: right;"><b>December 29th, 2005</b></div>
+
     	<p>
+	<b>libgphoto2 2.1.99</b>, a preview of 2.2.0, has been
+	released. Read <a href="/news/"><b>what's new</b></a>.
+	Download it <a href="/download/"><b>now</b></a>.
+    	</p>
+	<div style="text-align: right;"><b>December 26th, 2005</b></div>
+
 	<b>gPhoto2 2.1.6</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
 	Download it <a href="/download/"><b>now</b></a>.
     	</p>
