@@ -108,6 +108,7 @@ function printMenu($current)
 		<a href="/proj/libgphoto2/">libgphoto2</a> :: 
 		<a href="/proj/gphoto2/">gphoto2-cli</a> :: 
 		<a href="/proj/gtkam/">gtkam</a> :: 
+		<a href="/proj/gphotofs/">gphotofs</a> :: 
 		<a href="/proj/gphoto/">gphoto 0.4.x</a>
 		<?
 		break;
