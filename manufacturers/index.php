@@ -87,27 +87,34 @@ different story.</p>
 <!-- ========================= -->
 
 <h3>Epson</h3>
-<p>Epson advertise us in the 
-<a href="http://www.epsondevelopers.com/ldcam.jsp">Linux developer solution section</a>,
-but never, as far as we remember,
-provided any help or support to the project. We'll try to get more information about that. 
-Their developer support website does not feature any documentation for digital camera. Only printers,
-and scanners, with a <a href="http://www.epsondevelopers.com/noGuide.jsp">long list of exceptions</a>.</p>
+
+<p>Epson advertise us in the <a
+href="http://www.epsondevelopers.com/linux/cameras">Linux developer
+solution section</a>, but never, as far as we remember, provided any
+help or support to the project. We'll try to get more information
+about that.  Their developer support website does not feature any
+documentation for digital camera. Only printers, and scanners, with a
+<a href="http://www.epsondevelopers.com/guides/no_guide">long list of
+exceptions</a> (free registration may be required).</p>
 
 <p>They haven't produced anything recently, and the Epson RD-1 does not feature connectivity.</p>
 
 <!-- ========================= -->
 
 <h3>Olympus</h3>
-<p>When requesting the documentation because their SDK only support Windows, 
-here is the answer I got on June 22, 2005:</p>
+
+<p>When requesting the documentation because their SDK only support
+Windows, here is the answer I got on June 22, 2005:</p>
+
 <pre class="programlisting">
 We have not released the communication specification publically. You can
 try the gPhoto project, www.gPhoto.org, who has claimed to reverse engineer
 the interface.
 </pre>
-<p>A reply has been sent, asking about documentation to fix the software (we have issues and al.).
-Got this new reply:</p>
+
+<p>A reply has been sent, asking about documentation to fix the
+software (we have issues and al.).  Got this new reply:</p>
+
 <pre class="programlisting">
 I'm afraid we do not publicize the interface. That is why gPhoto had to
 reverse engineer it.
@@ -115,19 +122,22 @@ reverse engineer it.
 
 <p>Charming?</p>
 
-<p>Olympus camera supports have been supporting USB Mass Storage for quite some time, and PTP
-more recently. This makes gphoto unecessary (Mass Storage) or work out of the box (for PTP).
-But for remote control, 
-<a href="http://developer.olympus.com/cameras_25.html">supported cameras</a> needs documentation
-and that is what they are currently declining.</p>
+<p>Olympus camera supports have been supporting USB Mass Storage for
+quite some time, and PTP more recently. This makes gphoto unecessary
+(Mass Storage) or work out of the box (for PTP).  But for remote
+control, <a
+href="http://developer.olympus.com/cameras_25.html">supported
+cameras</a> needs documentation and that is what they are currently
+declining.</p>
 
 <!-- ========================= -->
 
 <h3>Nikon</h3>
 
-<p>Documentation has been requested, but require signing a NDA. Nikon has been requested clarifications
-about the NDA (sent June 17 2005) to know if Open Source software can be written from it, no answer so 
-far (June 22 2005)...</p>
+<p>Documentation has been requested, but require signing a NDA. Nikon
+has been requested clarifications about the NDA (sent June 17 2005) to
+know if Open Source software can be written from it, no answer so far
+(June 22 2005)...</p>
 
 
 <!-- ============================================================ --> 
