@@ -18,10 +18,16 @@ which gives access to literally
 gphoto2 is the command line interface to libgphoto2. It allows almost 
 everything that libgphoto2 can do.</p>
 <p class="more"><a href="gphoto2/" title="more about gphoto2">(more...)</a></p>
+
 <h2>gtkam</h2>
 <p class="text">
 gtkam is the GTK2 graphical front-end to libgphoto2.</p>
 <p class="more"><a href="gtkam/" title="more about gtkam">(more...)</a></p>
+
+<h2>gphotofs</h2>
+<p class="text">
+gphotofs allow you no mount your camera on Linux using FUSE.</p>
+<p class="more"><a href="gphotofs/" title="more about gphotofs">(more...)</a></p>
 
 <h2>gphoto 0.4.x</h2>
 <p class="text">
