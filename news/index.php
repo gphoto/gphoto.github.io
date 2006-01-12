@@ -11,6 +11,118 @@
 <!-- news headlines -->
 <hr />
 
+<h2>libgphoto2 2.1.99 (Dec 27th 2005, pre-release of 2.2)</h2>
+<p>
+<h3>Build system (packagers beware!):</h3>
+<ul>
+<li>You can now generate FDI files for HAL via print-usb-usermap --fdi.
+<li>Now requires libltdl (from system or shipped with tarball)
+<li>Works with contemporary build tools
+<li>New ./configure parameter set
+<li>No more accidentally building without libusb (use --without-libusb
+     if you insist on that)
+<li>camlibs and iolibs are now installed into new directories
+<li>libhal 0.5 is currently an option for the disk: port.<br>
+    Distribution that ships it might want to build it with it.
+</ul>
+<p>
+<h3>libgphoto2</h3>
+<ul>
+<li>disk: "port" for USB Mass Storage support
+<li>Memory usage greatly reduced by only keeping last 2 pictures
+    in memory cache
+<li>If set, use environment variable CAMLIBS to find the camera drivers.
+     Ditto for libgphoto2_port, IOLIBS and IO drivers.
+<li>Various USB fixes
+<li>Generate .fdi files for HAL
+</ul>
+<h3>Drivers (camlibs)</h3>
+
+<ul>
+   <li>Basic MTP support for iRiver mp3 players using ptp driver T10, T20, T30, M415
+
+   <li>canon
+   <ul>
+	   <li>IXY Digital 600 fixes
+	   <li>Added A610.
+	   <li>Experimental SD500.
+	   <li>Experimental A620 (not really working).
+   </ul>
+   <li>casio<br>
+   <ul>
+	   <li>Various fixes in QV-10 driver.
+   </ul>
+   <li>digigr8 (NEW)
+   <ul>
+	   <li>support Digigr8, Che-Ez Snap SNAP-U, Soundstar TDC-35
+   </ul>
+   <li>kodak/dc210
+   <ul>
+	   <li>Added DC215
+   </ul>
+   <li>ricoh/g3
+   <ul>
+	   <li>Added Ricoh Caplio GX, GX 8, R2, R3.
+	   <li>Added Rollei dr5.
+   </ul>
+   <li>hp215 (NEW)
+   <ul>
+   	<li>support HP 215
+   </ul>
+   <ul>lg_gsm (NEW)
+	   <li>support LG T5100
+   </ul>
+   <li>mars
+   <ul>
+	   <li>various fixes
+	   <li>Added Argus DC-1620, DC-1610 (experimental)
+	   <li>Added Philips P44417B
+   </ul>
+   <li>pdc640
+   <ul>
+	   <li>Added Clever CAM 360
+   </ul>
+   <li>ptp
+   <ul>
+   <li>For Nikon, handle ISO speed, aperture, exposure program,
+       capture, focus metering mode, flash mode, AF beep toggle
+   <li>Nikon curve
+   <li>Added Kodak Z730, Z7590, C340, LS753, V530, V550, C310, C330
+   <li>Added Nikon D50, D70s, 4600, 4800, 5600, 5900, Coolpix P2
+   <li>Added Canon A410, A520, A610, A620, IXUS 55, SD450, IXUS 750
+   <li>Added HP R817, Photosmart M23
+   <li>Added Olympus D-540z, C-310z, X-100
+   <li>Added Panasonic Lumix FZ5, DMC-LZ2
+   <li>Added Ricoh R3
+   <li>Added Sony DSC-H1, DSC-R1
+   <li>Added MTP devices (mp3 players)
+   </ul>
+   <li>sierra
+   <ul>
+   <li>various fixes
+   <li>Added C-770UZ
+   </ul>
+   <li>sq905
+   <ul>
+   <li>various fixes
+   <li>fix some crashers
+   </ul>
+</ul>
+<h3>Bindings:</h3>
+<ul>
+<li>Added Java (patch# 1108091)
+<li>Added Python (patch# 1152835)
+<li>Added C#
+</ul>
+
+<h3>Translation updates:</h3>
+<ul>
+<li> da
+<li> it
+<li> ru
+<li> vi
+<li> zh_TW
+</ul>
 <h2>2.1.6 release (June 23rd, 2005)</h2>
 
 <h3>General libgphoto2 features</h3>
