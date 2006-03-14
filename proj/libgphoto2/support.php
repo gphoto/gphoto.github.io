@@ -14,10 +14,10 @@ current release.
 </p>
 <p>
 Support for additional cameras may be in the current 
-libgphoto2 CVS HEAD code.
+libgphoto2 SVN trunk code.
 They will be added to the next release. 
 </p>
-<p>If your camera is neither supported in the current release nor in current CVS HEAD, it is possible that
+<p>If your camera is neither supported in the current release nor in current SVN trunk, it is possible that
 <ul>
 <li>it is an old camera for which the original <a href="/proj/gphoto/">gPhoto</a> driver has not been ported yet (mostly due to lack of demand)</li>
 <li>it is a new camera for which there is no support at all</li>
