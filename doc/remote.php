@@ -31,43 +31,43 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 <tr>
 	<td>Canon EOS 300D/Digital Rebel</td>
 	<td>Yes</td>
-	<td>?</td>
+	<td>Unknown</td>
 </tr>
 
 <tr>
 	<td>Canon EOS 350D/Digital Rebel XT</td>
 	<td>No</td>
-	<td>No</td>
+	<td>None</td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A40</td>
 	<td>Yes</td>
-	<td>Yes</td>
+	<td>All</td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A70</td>
 	<td>No</td>
-	<td>No</td>
+	<td>None</td>
 </tr>
 
 <tr>
 	<td>Olympus C750UZ, 3040Z</td>
 	<td>Yes</td>
-	<td>Yes</td>
+	<td>All</td>
 </tr>
 
 <tr>
 	<td>Nikon CoolPix 880</td>
 	<td>Yes</td>
-	<td>Yes</td>
+	<td>All</td>
 </tr>
 
 <tr>
 	<td>Nikon CoolPix 2500</td>
 	<td>Yes</td>
-	<td>Yes</td>
+	<td>All</td>
 </tr>
 
 <tr>
@@ -85,19 +85,19 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 <tr>
 	<td>Nikon D70</td>
 	<td>Yes</td>
-	<td>Yes</td>
+	<td>All</td>
 </tr>
 
 <tr>
 	<td>Nikon D70s</td>
 	<td>Yes</td>
-	<td>Yes</td>
+	<td>All</td>
 </tr>
 
 <tr>
 	<td>Kodak EasyShare CX6230</td>
 	<td>No</td>
-	<td>No</td>
+	<td>None</td>
 </tr>
 
 </table>
