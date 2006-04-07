@@ -1,9 +1,9 @@
 <?
-	require ("../../include.php");
+	require ("../include.php");
 
-	printHeader ("Projects :: libgphoto2 :: PTP/IP documentation", "", 1);
+	printHeader ("Doc :: PTP/IP documentation", "", 1);
 
-	printMenu ("proj");
+	printMenu ("doc");
 ?>
 
 <table cellpadding="3" cellspacing="3" witdh="100%">
