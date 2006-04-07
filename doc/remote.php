@@ -11,7 +11,9 @@
 <h1>Remote controllable cameras</h1>
 <hr>
 This page lists remote controlable cameras. It is meant to be dynamic wiki-like,
-so if you have any additions, please mail them to the gphoto-devel mailinglist.
+so if you have any additions, please mail them to 
+<a href="mailto:gphoto-devel@lists.sourceforge.net">gphoto-devel@lists.sourceforge.net</a> mailinglist
+or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 <p>
 <table border=1>
 <tr>
