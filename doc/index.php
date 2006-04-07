@@ -17,6 +17,9 @@ Edited by Tim Waugh, Hans Ulrich Niedermann and Michael J. Rensing
 <h2>PTP/IP</h2>
 <p class="text">Reverse engineered documentation on PTP/IP.</p>
 <p class="more"><a href="ptpip.php">(more...)</a></p>
+<h2>Remote controllable cameras</h2>
+<p class="text">We are collecting information on remote controllable cameras here.</p>
+<p class="more"><a href="remote.php">(more...)</a></p>
 <h2>Various papers</h2>
 <p class="text">A <a href="http://ufies.org/~christophe/gphoto2/">presentation</a> made
 by Christophe Barbé at the Boston GNOME Summit on July 19th 2002.</p>
