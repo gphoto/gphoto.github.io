@@ -47,6 +47,12 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 </tr>
 
 <tr>
+	<td>Canon PowerShot A70</td>
+	<td>No</td>
+	<td>No</td>
+</tr>
+
+<tr>
 	<td>Olympus C750UZ, 3040Z</td>
 	<td>Yes</td>
 	<td>Yes</td>
@@ -86,6 +92,12 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon D70s</td>
 	<td>Yes</td>
 	<td>Yes</td>
+</tr>
+
+<tr>
+	<td>Kodak EasyShare CX6230</td>
+	<td>No</td>
+	<td>No</td>
 </tr>
 
 </table>
