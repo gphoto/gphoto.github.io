@@ -51,7 +51,37 @@ so if you have any additions, please mail them to the gphoto-devel mailinglist.
 </tr>
 
 <tr>
-	<td>Nikon CoolPix 880, 2500</td>
+	<td>Nikon CoolPix 880</td>
+	<td>Yes</td>
+	<td>Yes</td>
+</tr>
+
+<tr>
+	<td>Nikon CoolPix 2500</td>
+	<td>Yes</td>
+	<td>Yes</td>
+</tr>
+
+<tr>
+	<td>Nikon CoolPix P1</td>
+	<td>Yes</td>
+	<td>Some</td>
+</tr>
+
+<tr>
+	<td>Nikon CoolPix P2</td>
+	<td>Yes</td>
+	<td>Some</td>
+</tr>
+
+<tr>
+	<td>Nikon D70</td>
+	<td>Yes</td>
+	<td>Yes</td>
+</tr>
+
+<tr>
+	<td>Nikon D70s</td>
 	<td>Yes</td>
 	<td>Yes</td>
 </tr>
