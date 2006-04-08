@@ -117,7 +117,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Canon PowerShot A95</td>
 	<td>Yes</td>
 	<td>Unknown</td>
-	<td>?</td>
+	<td>5</td>
 	<td>from capture.sf.net notes</td>
 </tr>
 
@@ -125,8 +125,16 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Canon PowerShot A520</td>
 	<td>Yes</td>
 	<td>All</td>
-	<td>?</td>
+	<td>4</td>
 	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A620</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>7</td>
+	<td></td>
 </tr>
 
 <tr>
@@ -135,6 +143,38 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>All</td>
 	<td>?</td>
 	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S1 IS</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>3</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S2 IS</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>5</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S70</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>7</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S80</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>8</td>
+	<td></td>
 </tr>
 
 <tr>
@@ -162,6 +202,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Canon PowerShot SD110</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>3</td>
+	<td></td>
+</tr>
+
+<tr>
 	<td>Olympus C750UZ, 3040Z</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -186,10 +234,18 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Nikon CoolPix 5000</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>5</td>
+	<td></td>
+</tr>
+
+<tr>
 	<td>Nikon CoolPix 5700</td>
 	<td>Yes</td>
 	<td>All</td>
-	<td>?</td>
+	<td>5</td>
 	<td></td>
 </tr>
 
@@ -197,7 +253,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Nikon CoolPix 5900</td>
 	<td>Yes</td>
 	<td>All</td>
-	<td>?</td>
+	<td>5</td>
 	<td></td>
 </tr>
 
@@ -205,7 +261,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Nikon CoolPix P1</td>
 	<td>Yes</td>
 	<td>Some</td>
-	<td>?</td>
+	<td>8</td>
 	<td>Only over USB, not over PTP/IP.</td>
 </tr>
 
@@ -230,6 +286,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>6</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>Nikon D200</td>
+	<td>Yes</td>
+	<td>Unclear, but I guess all.</td>
+	<td>10</td>
 	<td></td>
 </tr>
 
