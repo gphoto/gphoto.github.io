@@ -90,6 +90,78 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Canon PowerShot A75</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A80</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A85</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A95</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A520</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot G6</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S400</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S410</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S500</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
 	<td>Olympus C750UZ, 3040Z</td>
 	<td>Yes</td>
 	<td>All</td>
