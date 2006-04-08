@@ -31,6 +31,20 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 </tr>
 
 <tr>
+	<td>Canon Digital IXUS 40</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>Canon Digital IXUS 400</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td></td>
+</tr>
+
+<tr>
 	<td>Canon EOS 300D/Digital Rebel</td>
 	<td>Yes</td>
 	<td>Unknown</td>
@@ -52,10 +66,17 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 </tr>
 
 <tr>
+	<td>Canon PowerShot A60</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>(from ptpcanon list)</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot A70</td>
-	<td>No</td>
-	<td>None</td>
-	<td></td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>(from ptpcanon list)</td>
 </tr>
 
 <tr>
@@ -77,6 +98,20 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Yes</td>
 	<td>All</td>
 	<td>In Sierra mode (USB Mass storage pass through)</td>
+</tr>
+
+<tr>
+	<td>Nikon CoolPix 5700</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td></td>
+</tr>
+
+<tr>
+	<td>Nikon CoolPix 5900</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td></td>
 </tr>
 
 <tr>
