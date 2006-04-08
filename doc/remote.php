@@ -10,16 +10,18 @@
 <tr class="text"><td>
 <h1>Remote controllable cameras</h1>
 <hr>
-This page lists remote controlable cameras. It is meant to be dynamic wiki-like,
-so if you have any additions, please mail them to 
-<a href="mailto:gphoto-devel@lists.sourceforge.net">gphoto-devel@lists.sourceforge.net</a> mailinglist
-or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
+This page lists remote controllable cameras.<br>
+It is meant to be wiki-like, so if
+you have any additions, please mail them to <a
+href="mailto:gphoto-devel@lists.sourceforge.net">gphoto-devel@lists.sourceforge.net</a>
+mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 <p>
 <table border=1>
 <tr>
 	<th>Camera Name</th>
 	<th>Remote capture</th>
 	<th>Controllable aspects</th>
+	<th>Megapixel</th>
 	<th>Notes</th>
 </tr>
 
@@ -27,6 +29,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Canon Digital IXUS II/PowerShot SD100</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>3</td>
 	<td></td>
 </tr>
 
@@ -34,6 +37,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Canon Digital IXUS 40</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -41,6 +45,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Canon Digital IXUS 400</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -48,6 +53,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Canon EOS 300D/Digital Rebel</td>
 	<td>Yes</td>
 	<td>Unknown</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -56,12 +62,14 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>No</td>
 	<td>None</td>
 	<td></td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A40</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -69,6 +77,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Canon PowerShot A60</td>
 	<td>Yes</td>
 	<td>Unknown</td>
+	<td>?</td>
 	<td>(from ptpcanon list)</td>
 </tr>
 
@@ -76,6 +85,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Canon PowerShot A70</td>
 	<td>Yes</td>
 	<td>Unknown</td>
+	<td>?</td>
 	<td>(from ptpcanon list)</td>
 </tr>
 
@@ -83,6 +93,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Olympus C750UZ, 3040Z</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -90,6 +101,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon CoolPix 880</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -97,6 +109,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon CoolPix 2500</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>2</td>
 	<td>In Sierra mode (USB Mass storage pass through)</td>
 </tr>
 
@@ -104,6 +117,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon CoolPix 5700</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -111,6 +125,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon CoolPix 5900</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>?</td>
 	<td></td>
 </tr>
 
@@ -118,6 +133,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon CoolPix P1</td>
 	<td>Yes</td>
 	<td>Some</td>
+	<td>?</td>
 	<td>Only over USB, not over PTP/IP.</td>
 </tr>
 
@@ -125,6 +141,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon CoolPix P2</td>
 	<td>Yes</td>
 	<td>Some</td>
+	<td>5</td>
 	<td>Only over USB, not over PTP/IP.</td>
 </tr>
 
@@ -132,6 +149,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon D70</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>6</td>
 	<td></td>
 </tr>
 
@@ -139,6 +157,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Nikon D70s</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>6</td>
 	<td></td>
 </tr>
 
@@ -146,6 +165,7 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<td>Kodak EasyShare CX6230</td>
 	<td>No</td>
 	<td>None</td>
+	<td></td>
 	<td></td>
 </tr>
 
