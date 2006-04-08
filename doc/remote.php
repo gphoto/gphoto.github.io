@@ -20,84 +20,98 @@ or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
 	<th>Camera Name</th>
 	<th>Remote capture</th>
 	<th>Controllable aspects</th>
+	<th>Notes</th>
 </tr>
 
 <tr>
 	<td>Canon Digital IXUS II/PowerShot SD100</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Canon EOS 300D/Digital Rebel</td>
 	<td>Yes</td>
 	<td>Unknown</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Canon EOS 350D/Digital Rebel XT</td>
 	<td>No</td>
 	<td>None</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A40</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A70</td>
 	<td>No</td>
 	<td>None</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Olympus C750UZ, 3040Z</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Nikon CoolPix 880</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Nikon CoolPix 2500</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td>In Sierra mode (USB Mass storage pass through)</td>
 </tr>
 
 <tr>
 	<td>Nikon CoolPix P1</td>
 	<td>Yes</td>
 	<td>Some</td>
+	<td>Only over USB, not over PTP/IP.</td>
 </tr>
 
 <tr>
 	<td>Nikon CoolPix P2</td>
 	<td>Yes</td>
 	<td>Some</td>
+	<td>Only over USB, not over PTP/IP.</td>
 </tr>
 
 <tr>
 	<td>Nikon D70</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Nikon D70s</td>
 	<td>Yes</td>
 	<td>All</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Kodak EasyShare CX6230</td>
 	<td>No</td>
 	<td>None</td>
+	<td></td>
 </tr>
 
 </table>
