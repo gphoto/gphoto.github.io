@@ -210,14 +210,6 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
-	<td>Olympus C750UZ, 3040Z</td>
-	<td>Yes</td>
-	<td>All</td>
-	<td>?</td>
-	<td>&nbsp;</td>
-</tr>
-
-<tr>
 	<td>Nikon CoolPix 880</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -302,6 +294,38 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>Unclear, but I guess all.</td>
 	<td>10</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Olympus C750UZ</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Olympus C-2040Z</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Olympus C-3040Z</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>3</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Olympus C-4040Z</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
 
