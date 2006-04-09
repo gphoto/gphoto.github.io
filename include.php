@@ -117,6 +117,7 @@ function printMenu($current)
 		<br />
 		<a href="/doc/manual/">User's manual</a> ::
 		<a href="/doc/faq/">FAQ</a>
+		<a href="/doc/remote/">Remote control</a>
 		<?
 		break;
 	}
