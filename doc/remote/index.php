@@ -1,5 +1,5 @@
 <?
-	require ("../include.php");
+	require ("../../include.php");
 
 	printHeader ("Doc :: Remote controllable cameras", "", 1);
 
@@ -19,7 +19,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 <table border=1>
 <tr>
 	<th>Camera Name</th>
-	<th>Remote capture</th>
+	<th>Libgphoto2 capture support</th>
 	<th>Controllable aspects</th>
 	<th>Megapixel</th>
 	<th>Notes</th>
