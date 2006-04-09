@@ -30,7 +30,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>3</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -38,7 +38,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>?</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -46,7 +46,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>?</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -54,15 +54,15 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>Unknown</td>
 	<td>?</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
 	<td>Canon EOS 350D/Digital Rebel XT</td>
 	<td>No</td>
 	<td>None</td>
-	<td></td>
-	<td></td>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -70,7 +70,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>?</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -134,7 +134,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>7</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -150,7 +150,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>3</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -158,7 +158,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>5</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -166,7 +166,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>7</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -174,7 +174,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>8</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -206,7 +206,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>3</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -214,7 +214,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>?</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -222,7 +222,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>?</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -238,7 +238,15 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>5</td>
-	<td></td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Nikon CoolPix 5600</td>
+	<td>Yes</td>
+	<td>All,no focus, no aperture</td>
+	<td>5</td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -246,7 +254,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>5</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -254,7 +262,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>5</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -278,7 +286,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>6</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -286,7 +294,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All</td>
 	<td>6</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -294,15 +302,15 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>Unclear, but I guess all.</td>
 	<td>10</td>
-	<td></td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
-	<td>Kodak EasyShare CX6230</td>
+	<td>Kodak EasyShare any</td>
 	<td>No</td>
 	<td>None</td>
-	<td></td>
-	<td></td>
+	<td>&nbsp;</td>
+	<td>No Kodak EasyShare supports capture.</td>
 </tr>
 
 </table>
