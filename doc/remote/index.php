@@ -74,6 +74,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Canon PowerShot A400</td>
+	<td>Yes</td>
+	<td>?</td>
+	<td>?</td>
+	<td>from reporter. Only captures with PTP driver.</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot A60</td>
 	<td>Yes</td>
 	<td>Unknown</td>
