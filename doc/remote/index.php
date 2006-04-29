@@ -338,6 +338,27 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>
+	SQ905 chipset cameras (check <a href="http://svn.sourceforge.net/viewcvs.cgi/gphoto/trunk/libgphoto2/camlibs/sq905/library.c?view=markup">list in C file here</a>)
+	</td>
+	<td>Yes</td>
+	<td>?</td>
+	<td>320x240 px, 160x120 px, some also 640x480 px</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>
+	STV680 chipset cameras (check <a href="http://svn.sourceforge.net/viewcvs.cgi/gphoto/trunk/libgphoto2/camlibs/stv0680/stv0680.c?view=markup">list in C file here</a>)
+	</td>
+	<td>Yes</td>
+	<td>None</td>
+	<td>320x240, 160x120, sometimes also 640x480</td>
+	<td>&nbsp;</td>
+</tr>
+
+
+<tr>
 	<td>Kodak EasyShare any</td>
 	<td>No</td>
 	<td>None</td>
