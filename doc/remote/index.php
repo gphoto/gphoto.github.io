@@ -356,17 +356,25 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>320x240, 160x120, sometimes also 640x480</td>
 	<td>&nbsp;</td>
 </tr>
-
-
-<tr>
-	<td>Kodak EasyShare any</td>
-	<td>No</td>
-	<td>None</td>
-	<td>&nbsp;</td>
-	<td>No Kodak EasyShare supports capture.</td>
-</tr>
-
 </table>
+
+If a camera is not listed, it might still be the case that is able to support capture.<p>
+
+For instance, it is a very good sign if the vendor supplies software that supports remote
+capture for this camera. Those are likely able to be supported by libgphoto2 if not already.
+
+Camera classes known not able to do capture:
+
+<table border=1>
+<tr><th>Name</th><th>Comment</th></tr>
+<tr>
+	<td>Kodak EasyShare Any</td>
+	<td>None of those supports remote capture.</td>
+</tr>
+<tr>
+	<td>Sony PowerShot DSC (PTP)</td>
+	<td>None of those supports remote capture.</td>
+</tr>
 </td></tr>
 </table>
 <?
