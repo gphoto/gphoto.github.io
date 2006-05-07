@@ -234,6 +234,15 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Nikon CoolPix 4500</td>
+	<td>Yes</td>
+	<td>All(?)</td>
+	<td>4</td>
+	<td>Only with updated firmware, see <a href="http://support.nikontech.com/cgi-bin/nikonusa.cfg/php/enduser/std_alp.php?p_prods=1%2C3&p_pv=2.3&p_cats=186&p_cv=1.186
+">here</a></td>
+</tr>
+
+<tr>
 	<td>Nikon CoolPix 5000</td>
 	<td>Yes</td>
 	<td>All</td>
