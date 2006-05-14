@@ -234,6 +234,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Nikon CoolPix 4300</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>4</td>
+	<td>In Sierra mode (USB Mass storage pass through)</td>
+</tr>
+
+<tr>
 	<td>Nikon CoolPix 4500</td>
 	<td>Yes</td>
 	<td>All(?)</td>
