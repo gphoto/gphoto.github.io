@@ -299,6 +299,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Nikon D50</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>6</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D70</td>
 	<td>Yes</td>
 	<td>All</td>
