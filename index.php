@@ -78,9 +78,11 @@
     <p>gPhoto2 runs on a large range of UNIX-like operating system, including
     Linux, FreeBSD, NetBSD, etc. gPhoto is provided by major Linux distributions
     like Debian GNU/Linux, Gentoo, RedHat Linux, SUSE Linux, Mandriva, etc.</p>
-    <p>gPhoto2 is freely available and distributed
+    <p>libgphoto2 is freely available and distributed
     under the terms of the 
-    <a href="http://www.gnu.org/copyleft/lesser.html">GNU LGPL.</a></p>
+    <a href="http://www.gnu.org/copyleft/lesser.html">GNU LGPL.</a>; the other gphoto
+    porgram are freely available and distributed under the terms of the 
+    <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL.</a></p>
 
 	</td>
 </tr>
