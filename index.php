@@ -81,7 +81,7 @@
     <p>libgphoto2 is freely available and distributed
     under the terms of the 
     <a href="http://www.gnu.org/copyleft/lesser.html">GNU LGPL.</a>; the other gphoto
-    porgram are freely available and distributed under the terms of the 
+    programs are freely available and distributed under the terms of the 
     <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL.</a></p>
 
 	</td>
