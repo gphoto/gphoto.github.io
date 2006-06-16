@@ -15,6 +15,13 @@
 	<p><img src="img/logo.png" width="321" height="395" alt="gPhoto2 Logo" 
 		align="left" /></p>
 
+    	<p>
+	<b>libgphoto2 and gphoto2 2.2.0</b>, have been
+	released. Read <a href="/news/"><b>what's new</b></a>.
+	Download it <a href="/download/"><b>now</b></a>.
+    	</p>
+	<div style="text-align: right;"><b>June 16th, 2006</b></div>
+
 	<p>
 	<b>gphotofs 0.1</b>, has been released. Read <a
 	href="/proj/gphotofs/"><b>more about gphotofs</b></a>.
@@ -22,12 +29,6 @@
     	</p>
 	<div style="text-align: right;"><b>December 29th, 2005</b></div>
 
-    	<p>
-	<b>libgphoto2 2.1.99</b>, a preview of 2.2.0, has been
-	released. Read <a href="/news/"><b>what's new</b></a>.
-	Download it <a href="/download/"><b>now</b></a>.
-    	</p>
-	<div style="text-align: right;"><b>December 26th, 2005</b></div>
 
 	<b>gPhoto2 2.1.6</b> has been released. Read <a href="/news/"><b>what's new</b></a>. 
 	Download it <a href="/download/"><b>now</b></a>.
@@ -77,7 +78,7 @@
     <a href="/proj/libgphoto2/support.php">600 cameras</a></p>
     <p>gPhoto2 runs on a large range of UNIX-like operating system, including
     Linux, FreeBSD, NetBSD, etc. gPhoto is provided by major Linux distributions
-    like Debian GNU/Linux, Gentoo, RedHat Linux, SUSE Linux, Mandriva, etc.</p>
+    like Debian GNU/Linux, Ubuntu, Gentoo, Fedora Core, SuSE Linux, Mandriva, etc.</p>
     <p>libgphoto2 is freely available and distributed
     under the terms of the 
     <a href="http://www.gnu.org/copyleft/lesser.html">GNU LGPL.</a>; the other gphoto
