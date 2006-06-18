@@ -11,6 +11,132 @@
 <!-- news headlines -->
 <hr />
 
+----------------------------------------------------------------------------
+<h2>libgphoto2 2.2.0</h2>
+<hr>
+<h3>Build system (packagers beware!)</h3>
+
+<ul>
+<li>You should generate HAL FDI, linux-hotplug usb.usermap, and udev rules
+    now via our program:<p>
+
+<code><pre>
+ 	  ${libdir}/print-camera-list (hal-fdi|usb-usermap|udev-rules)
+</pre></code>
+     During a chrooted build you can use:
+<code><pre>
+	CAMLIBS=$BUILDROOT/usr/lib/libgphoto2/2.2/ print-camera-list hal-fdi
+</pre></code>
+     This obsoletes print-usb-usermap and print-udev-rules.
+<br>
+     The hal FDI file should be put into:<code><pre>
+	/usr/share/hal/fdi/information/10freedesktop/10-camera-libgphoto2.fdi
+</pre></code>
+     If you need to generate different stuff based on the cameras, please add
+     it to the "print-camera-list" helper.
+
+<li>Added C# (csharp) bindings<p>
+
+     Thanks to Patrick van Staveren &lt;trick@vanstaveren.us&gt;'s initiative,
+     we now compile, ship and install the C# bindings.
+     These were originally written for <a href="http://f-spot.org/">f-spot</a>.<br>
+     However, a few things will still change about it, so don't just completely rely on
+     it, its file names and locations, etc. just yet.
+</ul>
+
+<h3>Client programmers (KDE, GNOME, MONO, C....)</h3>
+Programmers with specific character set requirements please observe:
+<ul>
+<li>We added new function gp_message_codeset(const char*) to API.
+   <ul>
+   <li>If you do not call this function, libgphoto2 will give you its
+        messages in the codeset defined by the system locale.
+	(The system locale is defined by the LANG, LANGUAGE, and LC_*
+	environment variables.)
+
+   <li>Call this function with your desired codeset if you require
+        libgphoto2 messages in a fixed codeset independent from the
+        system locale. For example, GTK+ applications always expect UTF-8.
+   <li>gp_message_codeset() propagates the requested charset to
+        libgphoto2_port and then calls gettext's bind_textdomain_codeset()
+        function.
+   </ul>
+<li>Added gp_camera_wait_for_event() API, to wait for
+    specific camera events and return them to the caller.
+</ul>
+
+<h3>libgphoto2 changes</h3>
+
+<ul>
+<li>libgphoto DSO version is now 2.1.0
+
+<li>Lots of bugs were fixed.
+
+<li>New translations were added.
+
+</ul>
+
+<h3>Driver changes</h3>
+<ul>
+<li>PTP
+    <ul>
+    <li>Experimental PTP/IP support has been added.
+
+    <li>On selected Nikon and Canon cameras it is now possible to capture
+       images into the Camera SDRAM and in turn downloading it to libgphoto2
+       internal storage, bypassing the memory card.
+<br>
+       To enable it, use the "capturetarget" setting, also saved in
+       .gphoto/settings.
+<br>
+       This is useful for:<code><pre>
+	   gphoto2 --capture-image -f /store_00010001 -p capt0000.jpg
+</pre></code>
+       Or use the timelapse capture of gphoto2:<code><pre>
+	   gphoto2 --capture-image -F <total frames> -I <seconds interval>
+
+</pre></code>
+       Or for write your own capture client using libgphoto2...
+
+
+     <li>Support of MTP devices has been greatly enhanced.
+       <ul>
+       <li>Creative Zen devices now work.
+       <li>iRiver devices work, but have some protocol subtleties / flaws.
+       <li>Object Property (Meta Data) support now works in a basic way.
+	<br>
+	   GP_FILE_TYPE_METADATA type get and put can be used to retrieve
+	   and set meta data for files.
+<br>
+	   get: Returns all available properties and their contents.
+<br>
+	   put: Set the properties found in the file to the specified content.
+		The non-listed are untouched.
+<br>
+	   The metadata looks like:<code><pre>
+		   &lt;Artist&gt;Elvis Presley&lt;/Artist&gt;
+	   gphoto2 -f /store_00010001/Folder... --get-metadata file.mp3 --stdout > meta_file.mp3
+</pre></code>
+	   ... edit meta_file.mp3 ...
+<code><pre>
+	   gphoto2 -f /store_00010001/Folder... --upload-metadata meta_file.mp3
+
+	   gphoto2 --get-all-metadata	... retrieves metadata of all files, with meta_ prefix.
+</pre><code>
+       </ul>
+       <li>Better --summary output, listing also Storage Devices and Device abilities.
+       <li>Lots of new device ids.
+	<ul>
+         <li> Canon 5D, 30D, A340, A700, S40, S80
+	 <li> Nikon D200
+         <li> Casio EX-Z120
+         <li> Kodak C360, Z700
+         <li> HP M317
+	 <li> Panasonic DMC-LC1
+         <li> Fuji E900
+         </ul>
+    </ul>
+</ul>
 <h2>libgphoto2 2.1.99 (Dec 27th 2005, pre-release of 2.2)</h2>
 <p>
 <h3>Build system (packagers beware!):</h3>
