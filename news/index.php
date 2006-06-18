@@ -59,7 +59,7 @@
 <h3>Client programmers (KDE, GNOME, MONO, C....)</h3>
 Programmers with specific character set requirements please observe:
 <ul>
-<li>We added new function gp_message_codeset(const char*) to API.
+<li>We added new function <code>gp_message_codeset(const char*)</code> to the API.
    <ul>
    <li>If you do not call this function, libgphoto2 will give you its
         messages in the codeset defined by the system locale.
@@ -69,11 +69,11 @@ Programmers with specific character set requirements please observe:
    <li>Call this function with your desired codeset if you require
         libgphoto2 messages in a fixed codeset independent from the
         system locale. For example, GTK+ applications always expect UTF-8.
-   <li>gp_message_codeset() propagates the requested charset to
+   <li><code>gp_message_codeset()</code> propagates the requested charset to
         libgphoto2_port and then calls gettext's bind_textdomain_codeset()
         function.
    </ul>
-<li>Added gp_camera_wait_for_event() API, to wait for
+<li>Added <code>gp_camera_wait_for_event()</code> API, to wait for
     specific camera events and return them to the caller.
 </ul>
 
@@ -110,8 +110,7 @@ Programmers with specific character set requirements please observe:
 	   gphoto2 --capture-image -f /store_00010001 -p capt0000.jpg
 </pre></code>
        Or use the timelapse capture of gphoto2:<code><pre>
-	   gphoto2 --capture-image -F <total frames> -I <seconds interval>
-
+	   gphoto2 --capture-image -F &lt;total frames&gt; -I &lt;seconds interval&gt;
 </pre></code>
        Or for write your own capture client using libgphoto2...
 
@@ -122,8 +121,8 @@ Programmers with specific character set requirements please observe:
        <li>iRiver devices work, but have some protocol subtleties / flaws.
        <li>Object Property (Meta Data) support now works in a basic way.
 	<br>
-	   GP_FILE_TYPE_METADATA type get and put can be used to retrieve
-	   and set meta data for files.
+	   <code>GP_FILE_TYPE_METADATA</code> type get and put can be
+	   used to retrieve and set meta data for files.
 <br>
 	   get: Returns all available properties and their contents.
 <br>
@@ -132,25 +131,24 @@ Programmers with specific character set requirements please observe:
 <br>
 	   The metadata looks like:<code><pre>
 		   &lt;Artist&gt;Elvis Presley&lt;/Artist&gt;
-	   gphoto2 -f /store_00010001/Folder... --get-metadata file.mp3 --stdout > meta_file.mp3
-</pre></code>
+	   gphoto2 -f /store_00010001/Folder... --get-metadata file.mp3 --stdout &gt; meta_file.mp3
 	   ... edit meta_file.mp3 ...
-<code><pre>
 	   gphoto2 -f /store_00010001/Folder... --upload-metadata meta_file.mp3
 
 	   gphoto2 --get-all-metadata	... retrieves metadata of all files, with meta_ prefix.
 </pre><code>
+	   (please see the gphoto2 commandline tool, or ask for help on gphoto-devel).
        </ul>
-       <li>Better --summary output, listing also Storage Devices and Device abilities.
-       <li>Lots of new device ids.
+       <li>Better --summary output, now listing also Storage Devices and Device abilities.
+       <li>Lots of new device ids:
 	<ul>
-         <li> Canon 5D, 30D, A340, A700, S40, S80
-	 <li> Nikon D200
-         <li> Casio EX-Z120
-         <li> Kodak C360, Z700
-         <li> HP M317
-	 <li> Panasonic DMC-LC1
-         <li> Fuji E900
+         <li>Canon 5D, 30D, A340, A700, S40, S80
+	 <li>Nikon D200
+         <li>Casio EX-Z120
+         <li>Kodak C360, Z700
+         <li>HP M317
+	 <li>Panasonic DMC-LC1
+         <li>Fuji E900
          </ul>
     </ul>
 </ul>
