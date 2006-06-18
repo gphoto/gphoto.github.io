@@ -35,6 +35,18 @@
      If you need to generate different stuff based on the cameras, please add
      it to the "print-camera-list" helper.
 
+<li>Mass Storage support<p>
+
+    You can now access Mass Storage cameras via libgphoto2. They will show up
+    with "disk:" port. This mode uses either HAL or direct /etc/fstab reading.
+
+<li>PTP/IP support<p>
+
+    We now can access PTP/IP cameras. They will show up with "ptpip:"
+    port. Automated discovery and detection (for Nikon Px series)
+    requires Apple Bonjour aka mDNSresponder devel packages. (An Avahi
+    port would be welcome, but is not done yet.)
+
 <li>Added C# (csharp) bindings<p>
 
      Thanks to Patrick van Staveren &lt;trick@vanstaveren.us&gt;'s initiative,
@@ -69,6 +81,11 @@ Programmers with specific character set requirements please observe:
 
 <ul>
 <li>libgphoto DSO version is now 2.1.0
+
+<li>Greatly reduced memory consumption on cameras with large images.<p>
+    We now cache only 2 images instead of a lot more.<p>
+    This number can be adjusted in the gphoto2 settings (~/.gphoto/settings,
+    libgphoto=cached-images).
 
 <li>Lots of bugs were fixed.
 
