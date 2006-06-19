@@ -11,9 +11,15 @@
 <!-- news headlines -->
 <hr />
 
-----------------------------------------------------------------------------
+
+<h2>libgphoto2 2.2.1</h2>
+<p>
+Address an issue building 2.2.0 on FreeBSD.
+</p>
+
+<hr />
 <h2>libgphoto2 2.2.0</h2>
-<hr>
+
 <h3>Build system (packagers beware!)</h3>
 
 <ul>
@@ -152,6 +158,8 @@ Programmers with specific character set requirements please observe:
          </ul>
     </ul>
 </ul>
+
+<hr />
 <h2>libgphoto2 2.1.99 (Dec 27th 2005, pre-release of 2.2)</h2>
 <p>
 <h3>Build system (packagers beware!):</h3>
