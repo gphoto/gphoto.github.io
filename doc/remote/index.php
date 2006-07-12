@@ -50,6 +50,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Canon IXY Digital 300</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Canon EOS 300D/Digital Rebel</td>
 	<td>Yes</td>
 	<td>Unknown</td>
@@ -295,6 +303,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>Some</td>
 	<td>5</td>
+	<td>Only over USB, not over PTP/IP.</td>
+</tr>
+
+<tr>
+	<td>Nikon CoolPix P3</td>
+	<td>Yes</td>
+	<td>Some</td>
+	<td>8</td>
 	<td>Only over USB, not over PTP/IP.</td>
 </tr>
 
