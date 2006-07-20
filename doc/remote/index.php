@@ -363,6 +363,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Olympus C-2100Z</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Olympus C-3040Z</td>
 	<td>Yes</td>
 	<td>All</td>
