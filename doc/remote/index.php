@@ -226,6 +226,22 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Canon 20D, 350D/Digital Rebel XT</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>8.2</td>
+	<td>Needs to build TRUNK with experimental features on</td>
+</tr>
+
+<tr>
+	<td>Canon 5D</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>12</td>
+	<td>Needs to build TRUNK with experimental features on</td>
+</tr>
+
+<tr>
 	<td>Nikon CoolPix 880</td>
 	<td>Yes</td>
 	<td>All</td>
