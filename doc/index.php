@@ -11,6 +11,9 @@
 Edited by Tim Waugh, Hans Ulrich Niedermann and Michael J. Rensing
 </p>
 <p class="more"><a href="manual">(more...)</a></p>
+<h2>API</h2>
+<p class="text">All the libgphoto2 API generated from the source code by Doxygen. That documentation is also generated at build time if you have Doxygen installed. The documentation maybe incomplete. Code patches to supplement it are very welcome.</p>
+<p class="more"><a href="api">(more...)</a></p>
 <h2>FAQ</h2>
 <p class="text">Answer all that you wanted to know about gphoto2.</p>
 <p class="more"><a href="faq">(more...)</a></p>
@@ -22,7 +25,7 @@ Edited by Tim Waugh, Hans Ulrich Niedermann and Michael J. Rensing
 <p class="more"><a href="remote/">(more...)</a></p>
 <h2>Various papers</h2>
 <p class="text">A <a href="http://ufies.org/~christophe/gphoto2/">presentation</a> made
-by Christophe Barbé at the Boston GNOME Summit on July 19th 2002.</p>
+by Christophe Barbï¿½at the Boston GNOME Summit on July 19th 2002.</p>
 <?
 	printFooter ();
 ?>

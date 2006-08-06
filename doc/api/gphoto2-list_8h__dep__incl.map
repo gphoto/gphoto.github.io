@@ -1,0 +1,6 @@
+base referer
+rect $gphoto2-abilities-list_8h.html 223,64 439,88
+rect $gphoto2-camera_8h.html 487,61 682,85
+rect $gphoto2_8h.html 730,110 877,134
+rect $gphoto2-filesys_8h.html 238,112 425,136
+rect $gphoto2-list_8c.html 249,210 414,234

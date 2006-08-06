@@ -1,0 +1,6 @@
+base referer
+rect $gphoto2-context_8h.html 286,8 414,32
+rect $gphoto2-list_8h.html 299,56 401,80
+rect $gphoto2-port-info-list_8h-source.html 273,104 427,128
+rect $gphoto2-port_8h-source.html 477,104 586,128
+rect $gphoto2-port-portability_8h-source.html 634,104 805,128

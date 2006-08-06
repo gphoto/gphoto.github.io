@@ -60,7 +60,7 @@ function printFooter()
 ?>
 <hr />
 <p class="footer">
-Web design and PHP by <a href="http://www.figuiere.net/">Hubert Figuière</a> 
+Web design and PHP by <a href="http://www.figuiere.net/">Hubert Figuiï¿½e</a> 
 inspired from design by Avi Bercovich.</p>
 <p><? printXHTMLValid(); printSFLogo(); printgPhotoLogo(); ?></p>
 </body>
@@ -116,6 +116,8 @@ function printMenu($current)
 		?>
 		<br />
 		<a href="/doc/manual/">User's manual</a> ::
+		<a href="/doc/api/">API</a> ::
+		<a href="/doc/ptpip.php">PTP/IP</a> ::
 		<a href="/doc/faq/">FAQ</a> ::
 		<a href="/doc/remote/">Remote control</a>
 		<?
