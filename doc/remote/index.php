@@ -178,6 +178,14 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 </tr>
 
 <tr>
+	<td>Canon PowerShot S40</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>4</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot S70</td>
 	<td>Yes</td>
 	<td>All</td>
