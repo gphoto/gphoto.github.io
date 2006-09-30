@@ -365,7 +365,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 <tr>
 	<td>Nikon D200</td>
 	<td>Yes</td>
-	<td>Unclear, but I guess all.</td>
+	<td>All.</td>
 	<td>10</td>
 	<td>&nbsp;</td>
 </tr>
