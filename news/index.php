@@ -11,6 +11,115 @@
 <!-- news headlines -->
 <hr />
 
+<h2>libgphoto2 2.3.0</h2>
+
+<h3>PTP</h3>
+<ul>
+<li>Improved Nikon remote control</li>
+<li>Improved Canon file download
+      <ul>
+      <li>  - faster directory retrieval (especially on cameras with lots of files)</li>
+      <li>- "new" images are marked (gphoto2 --new, digikam)</li>
+      </ul>
+</li>
+<li>MTP Playlist support (upload and download)</li>
+<li>MTP Metadata support (upload and download, Artist, Title, Playtime ... )</li>
+<li>Lots of other MTP related fixes.</li>
+<li>MTP autodetection on Microsoft OS Descriptor.</li>
+<li>New devices:
+<ul>
+<li>          Canon PowerShot A540, A530, S3 IS, SD430, SD600, SD700, IXUS 800,
+                IXUS 60, A630, SD630, G7, Digital IXUS 65, 710IS, EOS 400D,
+                Digital Rebel XTi, IXUS 850 IS, PowerShot A640,
+                IXUS Wireless (USB support only currently)</li>
+<li>          iRiver T20 FM, iClix</li>
+<li>          Creative Zen Vision W, Vision M, Vplus, V</li>
+<li>          Dell Pocket DJ</li>
+<li>          Nikon Coolpix L4, L3, L1, D80, P3</li>
+<li>          Kodak Easyshare Z740, P850, Z612, C633, C643, C530, Z612, CD33</li>
+<li>          Sony DSC-U10</li>
+<li>          Leica D-LUX 2</li>
+<li>          Olympus IR-300</li>
+<li>          JVC Alneo XA-HD500</li>
+<li>          All currently known HP Photosmarts (sync with Windows Driver .INF files)
+          various Samsung devices</li>
+	  </ul>
+</li>
+</ul>
+
+<h3>Canon</h3>
+<ul>
+<li>5D - 20D experimental capture support (default disabled)</li>
+</ul>
+
+<h3>Kodak DC120</h3>
+<ul>
+<li>Bugfixes to make it work.</li>
+</ul>
+
+<h3>Mars</h3>
+<ul>
+<li>RAW files saved with size information.</li>
+<li>Some new ids, lots of bug fixes.</li>
+</ul>
+
+<h3>Ricoh G3</h3>
+<ul>
+<li>Added Ricoh Caplio R4 id.</li>
+</ul>
+
+<h3>Disk port</h3>
+<ul>
+<li>Addes Solaris filesystem table handling.</li>
+<li>Fixed a crasher.</li>
+<li>Skip "fuse" filesystem.</li>
+</ul>
+
+<h3>SiPix Blink</h3>
+<ul>
+<li>Disabled build, since it cannot the downloaded data to usable images.</li>
+</ul>
+
+<h3>Sonix</h3>
+<ul>
+<li>Bugfixes and support for Sakar Digital Keychain 11999.</li>
+</ul>
+
+<h3>Bindings</h3>
+<ul>
+<li>Removed the Mono/.NET bindings due to unclear license.</li>
+<li>Partial Java bindings</li>
+</ul>
+
+<h3>libgphoto2 API</h3>
+<ul>
+<li>Compiles with <tt>-pedantic</tt> in gcc's c99 and c++98 modes.</li>
+<li>Marked a few definitions as being internal to the gphoto project.</li>
+<li>Added <tt>gp_list_find_by_name()</tt> function.</li>
+<li>Made <tt>_CameraList</tt> details private.</li>
+</ul>
+
+<h3>libgphoto2</h3>
+<ul>
+<li>Fixed some directory handling problems for MTP players.</li>
+<li>Improved error checking and propagation.</li>
+<li>New error code for "fixed limit exceeded" (exceptions would be nice)</li>
+<li>Added a few internal functions.</li>
+</ul>
+
+
+<h2>gphoto2 2.3.0</h2>
+<ul>
+<li>Require popt library to parse command line options.</li>
+<li>Partitioned command line options into groups of related options.</li>
+<li>Added <tt>--debug-logfile=FILENAME</tt> option.</li>
+<li>Only load all camlibs if necessary.</li>
+<li>(Half-)Fix to make <tt>--with-libgphoto2=PREFIX</tt> configure parameter work.</li>
+<li>Preliminary support for lower-case filenames in <tt>--filename</tt> pattern: <tt>%:</tt></li>
+<li>Added "rmdir" command to <tt>gphoto2 --shell</tt>.</li>
+</ul>
+
+<hr />
 
 <h2>libgphoto2 2.2.1</h2>
 <p>
