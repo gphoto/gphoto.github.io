@@ -448,6 +448,13 @@ Camera classes known not able to do capture:
 	<td>Sony PowerShot DSC (PTP)</td>
 	<td>None of those supports remote capture.</td>
 </tr>
+<tr><td>Various Canons:</td>
+<td>
+ Statement from Canon SDK: As a reminder, PowerShots A410, A420, A430, A530, A540, A610, A630,
+ A700, A710 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
+ SD430, SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, and SD900 do
+ not support remote control or video out operation via the SDK.<br>
+ The same goes for libgphoto2 capture support.
 </td></tr>
 </table>
 <?
