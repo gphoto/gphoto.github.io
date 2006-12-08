@@ -60,7 +60,7 @@ function printFooter()
 ?>
 <hr />
 <p class="footer">
-Web design and PHP by <a href="http://www.figuiere.net/">Hubert Figui�e</a> 
+Web design and PHP by <a href="http://www.figuiere.net/">Hubert Figui&egrave;re</a> 
 inspired from design by Avi Bercovich.</p>
 <p><? printXHTMLValid(); printSFLogo(); printgPhotoLogo(); ?></p>
 </body>
