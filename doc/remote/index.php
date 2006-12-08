@@ -412,7 +412,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 
 <tr>
 	<td>
-	SQ905 chipset cameras (check <a href="http://svn.sourceforge.net/viewcvs.cgi/gphoto/trunk/libgphoto2/camlibs/sq905/library.c?view=markup">list in C file here</a>)
+	SQ905 chipset cameras (check <a href="http://gphoto.svn.sourceforge.net/viewcvs.cgi/gphoto/trunk/libgphoto2/camlibs/sq905/library.c?view=markup">list in C file here</a>)
 	</td>
 	<td>Yes</td>
 	<td>?</td>
@@ -422,7 +422,7 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 
 <tr>
 	<td>
-	STV680 chipset cameras (check <a href="http://svn.sourceforge.net/viewcvs.cgi/gphoto/trunk/libgphoto2/camlibs/stv0680/stv0680.c?view=markup">list in C file here</a>)
+	STV680 chipset cameras (check <a href="http://gphoto.svn.sourceforge.net/viewcvs.cgi/gphoto/trunk/libgphoto2/camlibs/stv0680/stv0680.c?view=markup">list in C file here</a>)
 	</td>
 	<td>Yes</td>
 	<td>None</td>
