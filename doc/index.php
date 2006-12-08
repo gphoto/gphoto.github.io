@@ -25,7 +25,7 @@ Edited by Tim Waugh, Hans Ulrich Niedermann and Michael J. Rensing
 <p class="more"><a href="remote/">(more...)</a></p>
 <h2>Various papers</h2>
 <p class="text">A <a href="http://ufies.org/~christophe/gphoto2/">presentation</a> made
-by Christophe Barb�at the Boston GNOME Summit on July 19th 2002.</p>
+by Christophe Barb&eacute; at the Boston GNOME Summit on July 19th 2002.</p>
 <?
 	printFooter ();
 ?>
