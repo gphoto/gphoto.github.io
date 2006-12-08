@@ -6,17 +6,16 @@
 	printMenu ("doc");
 ?>
 
-<table cellpadding="3" cellspacing="3" witdh="100%">
-<tr class="text"><td>
 <h1>Remote controllable cameras</h1>
-<hr>
-This page lists remote controllable cameras.<br>
+<hr />
+<p>
+This page lists remote controllable cameras.<br/>
 It is meant to be wiki-like, so if
 you have any additions, please mail them to <a
 href="mailto:gphoto-devel@lists.sourceforge.net">gphoto-devel@lists.sourceforge.net</a>
 mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
-<p>
-<table border=1>
+</p>
+<table border="1">
 <tr>
 	<th>Camera Name</th>
 	<th>Libgphoto2 capture support</th>
@@ -278,8 +277,8 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>Yes</td>
 	<td>All(?)</td>
 	<td>4</td>
-	<td>Only with updated firmware, see <a href="http://support.nikontech.com/cgi-bin/nikonusa.cfg/php/enduser/std_alp.php?p_prods=1%2C3&p_pv=2.3&p_cats=186&p_cv=1.186
-">here</a></td>
+	<td>Only with updated firmware, see <a href="http://support.nikontech.com/cgi-bin/nikonusa.cfg/php/enduser/std_alp.php?p_prods=1%2C3&amp;p_pv=2.3&amp;p_cats=186&amp;p_cv=1.186">
+here</a></td>
 </tr>
 
 <tr>
@@ -430,15 +429,17 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 	<td>&nbsp;</td>
 </tr>
 </table>
-
-If a camera is not listed, it might still be the case that is able to support capture.<p>
-
+<p>
+If a camera is not listed, it might still be the case that is able to support capture.
+</p>
+<p>
 For instance, it is a very good sign if the vendor supplies software that supports remote
 capture for this camera. Those are likely able to be supported by libgphoto2 if not already.
-
+</p>
+<p>
 Camera classes known not able to do capture:
-
-<table border=1>
+</p>
+<table border="1">
 <tr><th>Name</th><th>Comment</th></tr>
 <tr>
 	<td>Kodak EasyShare Any</td>
@@ -453,9 +454,10 @@ Camera classes known not able to do capture:
  Statement from Canon SDK: As a reminder, PowerShots A410, A420, A430, A530, A540, A610, A630,
  A700, A710 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
  SD430, SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, and SD900 do
- not support remote control or video out operation via the SDK.<br>
+ not support remote control or video out operation via the SDK.<br/>
  The same goes for libgphoto2 capture support.
-</td></tr>
+</td>
+</tr>
 </table>
 <?
 	printFooter ();
