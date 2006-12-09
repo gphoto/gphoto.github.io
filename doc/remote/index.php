@@ -1,20 +1,54 @@
 <?
 	require ("../../include.php");
 
-	printHeader ("Doc :: Remote controllable cameras", "", 1);
+	printHeader ("Doc :: Remote controlling cameras", "", 1);
 
 	printMenu ("doc");
 ?>
 
-<h1>Remote controllable cameras</h1>
+<h1>Remote controlling cameras</h1>
 <hr />
 <p>
-This page lists remote controllable cameras.<br/>
+This page lists cameras remotely controllable for capture.<br/>
 It is meant to be wiki-like, so if
 you have any additions, please mail them to <a
 href="mailto:gphoto-devel@lists.sourceforge.net">gphoto-devel@lists.sourceforge.net</a>
 mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</a>.
+<br/>
+The list is incomplete and might be incorrect.
 </p>
+<hr />
+<h2>Configuring for capture</h2>
+<p>
+When doing remote capture you likely want to modify several on camera parameters.
+</p><p>
+The gphoto2 commandline frontend offers both a ncurses GUI mode (using <code>--config</code>)
+or scriptable commandline options to do configuration:
+<ul>
+<li><code>--list-config</code> - This will list all possible configuration options.</li>
+<li><code>--get-config <b>name</b></code> - This will get the current configuration of <b>name</b> and its possible values.</li>
+<li><code>--set-config <b>name</b>=<b>value</b></code> - This will set the configuration of <b>name</b> to <b>value</b>.</li>
+</ul>
+Most of them are self explaining, but some interesting ones:
+<ul>
+<li>Canon cameras only: <b>capture</b> - setting this to <b>on</b> will extract the lens and make it read for SDRAM based capture.
+Setting it <b>off</b> will retract the lens again.</li>
+<li>Canon and some Nikon cameras only: <b>capturetarget</b> - setting this to <b>sdram</b> will make the camera capture directly into
+the camera RAM and not on the memory card. You need to download the image in the same gphoto2 call, otherwise it will gone
+when the connection is closed. Use continous capture mode to get the images in this case.<br/>
+Set it to <b>card</b> to capture to the memory card.
+</li>
+</ul>
+</p>
+<h2>Continuous / Interval capture</h2>
+<p>
+The options <code>-F <i>frames</i></code> and <code>-I <i>seconds</i></code> can be used to support continuous
+capture. <code>-F 0</code> will capture images ad-infinitum.
+</p><p>
+When used, this option will always download the last captured image and then delete it from the camera.
+</p>
+<h2>List of cameras</h2>
+<hr />
 <table border="1">
 <tr>
 	<th>Camera Name</th>
@@ -436,9 +470,9 @@ If a camera is not listed, it might still be the case that is able to support ca
 For instance, it is a very good sign if the vendor supplies software that supports remote
 capture for this camera. Those are likely able to be supported by libgphoto2 if not already.
 </p>
+<hr/>
+<h2>Cameras not able to do capture</h2>
 <p>
-Camera classes known not able to do capture:
-</p>
 <table border="1">
 <tr><th>Name</th><th>Comment</th></tr>
 <tr>
@@ -449,16 +483,17 @@ Camera classes known not able to do capture:
 	<td>Sony PowerShot DSC (PTP)</td>
 	<td>None of those supports remote capture.</td>
 </tr>
-<tr><td>Various Canons:</td>
+<tr><td>Various Canon cameras:</td>
 <td>
- Statement from Canon SDK: As a reminder, PowerShots A410, A420, A430, A530, A540, A610, A630,
+ Statement from Canon SDK: <i>As a reminder, PowerShots A410, A420, A430, A530, A540, A610, A630,
  A700, A710 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
  SD430, SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, and SD900 do
- not support remote control or video out operation via the SDK.<br/>
- The same goes for libgphoto2 capture support.
+ not support remote control or video out operation via the SDK.</i><br/>
+ The same applies for libgphoto2 capture support.
 </td>
 </tr>
 </table>
+</p>
 <?
 	printFooter ();
 ?>
