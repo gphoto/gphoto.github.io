@@ -1,7 +1,7 @@
 <?
 	require ("include.php");
 
-	printHeader ("gPhoto Home", "digital camera, camera support, linux, freebsd, ptp, canon, sony, libgphoto2, gphoto2, camera access", 0);
+	printHeader ("gPhoto Home", "digital camera, camera support, linux, freebsd, mtp, ptp, canon, sony, libgphoto2, gphoto2, camera access, media transfer protocol, mtp support, ptp support", 0);
 
 	printMenu ("home");
 ?>
@@ -99,7 +99,11 @@
     <a href="http://www.gnu.org/copyleft/lesser.html">GNU LGPL.</a>; the other gphoto
     programs are freely available and distributed under the terms of the 
     <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL.</a></p>
-
+    <p>
+    Newer libgphoto2 versions also support Media Transfer Protocol (MTP)
+    based media players since their communications protocol is based on
+    the Picture Transfer Protocol (PTP).
+    </p>
 	</td>
 </tr>
 </table>
