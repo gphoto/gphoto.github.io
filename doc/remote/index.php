@@ -21,15 +21,19 @@ The list is incomplete and might be incorrect.
 <h2>Configuring for capture</h2>
 <p>
 When doing remote capture you likely want to modify several on camera parameters.
-</p><p>
+</p>
+<p>
 The gphoto2 commandline frontend offers both a ncurses GUI mode (using <code>--config</code>)
 or scriptable commandline options to do configuration:
+</p>
 <ul>
 <li><code>--list-config</code> - This will list all possible configuration options.</li>
 <li><code>--get-config <b>name</b></code> - This will get the current configuration of <b>name</b> and its possible values.</li>
 <li><code>--set-config <b>name</b>=<b>value</b></code> - This will set the configuration of <b>name</b> to <b>value</b>.</li>
 </ul>
+<p>
 Most of them are self explaining, but some interesting ones:
+</p>
 <ul>
 <li>Canon cameras only: <b>capture</b> - setting this to <b>on</b> will extract the lens and make it read for SDRAM based capture.
 Setting it <b>off</b> will retract the lens again.</li>
@@ -39,7 +43,8 @@ when the connection is closed. Use continous capture mode to get the images in t
 Set it to <b>card</b> to capture to the memory card.
 </li>
 </ul>
-</p>
+
+
 <h2>Continuous / Interval capture</h2>
 <p>
 The options <code>-F <i>frames</i></code> and <code>-I <i>seconds</i></code> can be used to support continuous
@@ -472,7 +477,6 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 </p>
 <hr/>
 <h2>Cameras not able to do capture</h2>
-<p>
 <table border="1">
 <tr><th>Name</th><th>Comment</th></tr>
 <tr>
@@ -493,7 +497,7 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 </td>
 </tr>
 </table>
-</p>
+
 <?
 	printFooter ();
 ?>
