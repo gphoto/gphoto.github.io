@@ -26,6 +26,6 @@
 		$release_id=$all_releases["$current_release"];
 	}
 	
-	Header("Location: http://sourceforge.net/project/showfiles.php?group_id=8874&release_id=$release_id");
+	Header("Location: http://sourceforge.net/project/showfiles.php?group_id=8874");
 
 ?>
