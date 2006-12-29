@@ -48,7 +48,7 @@
 	</p>
         <p>Subscribing and unsubscribing:
 	<br />Go to 
-	<a href="https://lists.sourceforge.net/lists/listinfo/gphoto-translation">http://lists.sourceforge.net/lists/listinfo/gphoto-cvs</a></p>
+	<a href="https://lists.sourceforge.net/lists/listinfo/gphoto-translation">http://lists.sourceforge.net/lists/listinfo/gphoto-translation</a></p>
 
 	<h3>The sf.net tracker lists</h3>
 	<p>
