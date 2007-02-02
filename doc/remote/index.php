@@ -329,6 +329,13 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon CoolPix 5400</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>5</td>
+	<td>&nbsp;</td>
+</tr>
+<tr>
 	<td>Nikon CoolPix 5600</td>
 	<td>Yes</td>
 	<td>All,no focus, no aperture</td>
