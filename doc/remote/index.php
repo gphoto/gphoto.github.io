@@ -503,6 +503,10 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
  The same applies for libgphoto2 capture support.
 </td>
 </tr>
+<tr>
+	<td>Minolta Dimage Z2</td>
+	<td>Do not support remote control. See <a href="http://ca.konicaminolta.com/support/americas/digital_cameras/dimage-z/dimage-z2/faq/071.html">Konica-Minolta FAQ</a></td>
+</tr>
 </table>
 
 <?
