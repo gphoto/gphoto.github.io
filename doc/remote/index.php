@@ -272,6 +272,15 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot SD430</td>
+	<td>Yes, but only over WLAN</td>
+	<td>All</td>
+	<td>5</td>
+	<td>Unfortunately the wireless (PTP/IP) mode to connect to this camera is not working yet.</td>
+</tr>
+
+
+<tr>
 	<td>Canon 20D, 350D/Digital Rebel XT</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -498,7 +507,7 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 <td>
  Statement from Canon SDK: <i>As a reminder, PowerShots A410, A420, A430, A530, A540, A610, A630,
  A700, A710 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
- SD430, SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, and SD900 do
+ SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, and SD900 do
  not support remote control or video out operation via the SDK.</i><br/>
  The same applies for libgphoto2 capture support.
 </td>
