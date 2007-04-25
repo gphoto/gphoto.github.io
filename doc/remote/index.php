@@ -104,14 +104,6 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
-	<td>Canon EOS 350D/Digital Rebel XT</td>
-	<td>No</td>
-	<td>None</td>
-	<td>&nbsp;</td>
-	<td>&nbsp;</td>
-</tr>
-
-<tr>
 	<td>Canon PowerShot A40</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -136,10 +128,18 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot A640</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>10td>
+	<td>confirmed by Canon</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot A70</td>
 	<td>Yes</td>
 	<td>Unknown</td>
-	<td>?</td>
+	<td>3</td>
 	<td>(from ptpcanon list)</td>
 </tr>
 
@@ -147,7 +147,7 @@ When used, this option will always download the last captured image and then del
 	<td>Canon PowerShot A75</td>
 	<td>Yes</td>
 	<td>Unknown</td>
-	<td>?</td>
+	<td>3</td>
 	<td>from capture.sf.net notes</td>
 </tr>
 
@@ -155,7 +155,7 @@ When used, this option will always download the last captured image and then del
 	<td>Canon PowerShot A80</td>
 	<td>Yes</td>
 	<td>Unknown</td>
-	<td>?</td>
+	<td>4</td>
 	<td>from capture.sf.net notes</td>
 </tr>
 
@@ -163,7 +163,7 @@ When used, this option will always download the last captured image and then del
 	<td>Canon PowerShot A85</td>
 	<td>Yes</td>
 	<td>Unknown</td>
-	<td>?</td>
+	<td>4</td>
 	<td>from capture.sf.net notes</td>
 </tr>
 
@@ -213,6 +213,14 @@ When used, this option will always download the last captured image and then del
 	<td>All</td>
 	<td>5</td>
 	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S3 IS</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>6</td>
+	<td>confirmed by Canon</td>
 </tr>
 
 <tr>
@@ -276,7 +284,7 @@ When used, this option will always download the last captured image and then del
 	<td>Yes, but only over WLAN</td>
 	<td>All</td>
 	<td>5</td>
-	<td>Unfortunately the wireless (PTP/IP) mode to connect to this camera is not working yet.</td>
+	<td>Unfortunately the WLAN (PTP/IP) mode to connect to this camera is not working yet.</td>
 </tr>
 
 
