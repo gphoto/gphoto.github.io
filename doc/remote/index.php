@@ -35,8 +35,10 @@ or scriptable commandline options to do configuration:
 Most of them are self explaining, but some interesting ones:
 </p>
 <ul>
-<li>Canon cameras only: <b>capture</b> - setting this to <b>on</b> will extract the lens and make it read for SDRAM based capture.
-Setting it <b>off</b> will retract the lens again.</li>
+<li>	Canon cameras only: <b>capture</b> - setting this to <b>on</b> will extract the lens and make it read for SDRAM based capture.
+	Setting it <b>off</b> will retract the lens again.<br>
+	<code>gphoto2 --set-config capture=on</code>
+</li>
 <li>Canon and some Nikon cameras only: <b>capturetarget</b> - setting this to <b>sdram</b> will make the camera capture directly into
 the camera RAM and not on the memory card. You need to download the image in the same gphoto2 call, otherwise it will gone
 when the connection is closed. Use continous capture mode to get the images in this case.<br/>
