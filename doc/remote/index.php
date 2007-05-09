@@ -27,7 +27,8 @@ The gphoto2 commandline frontend offers both a ncurses GUI mode (using <code>--c
 or scriptable commandline options to do configuration:
 </p>
 <ul>
-<li><code>--list-config</code> - This will list all possible configuration options.</li>
+<li><code>--list-config</code> - This will list all possible configuration options.<br>Please note that for some Canon cameras
+the complete list will only show after <code>gphoto2 --set-config capture=on</code> is run.</li>
 <li><code>--get-config <b>name</b></code> - This will get the current configuration of <b>name</b> and its possible values.</li>
 <li><code>--set-config <b>name</b>=<b>value</b></code> - This will set the configuration of <b>name</b> to <b>value</b>.</li>
 </ul>
@@ -36,8 +37,7 @@ Most of them are self explaining, but some interesting ones:
 </p>
 <ul>
 <li>	Canon cameras only: <b>capture</b> - setting this to <b>on</b> will extract the lens and make it read for SDRAM based capture.
-	Setting it <b>off</b> will retract the lens again.<br>
-	<code>gphoto2 --set-config capture=on</code>
+	Setting it <b>off</b> will retract the lens again.
 </li>
 <li>Canon and some Nikon cameras only: <b>capturetarget</b> - setting this to <b>sdram</b> will make the camera capture directly into
 the camera RAM and not on the memory card. You need to download the image in the same gphoto2 call, otherwise it will gone
