@@ -1,0 +1,6 @@
+base referer
+rect $gphoto2-port_8h.html 608,488 768,515
+rect $gphoto2-port-info-list_8h.html 817,463 1025,490
+rect $gphoto2-port-result_8h.html 359,412 556,439
+rect $gphoto2-port-library_8h.html 357,463 557,490
+rect $gphoto2-port-log_8h.html 367,159 548,186

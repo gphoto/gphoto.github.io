@@ -1,6 +1,6 @@
 base referer
-rect $gphoto2-file_8h.html 258,55 359,79
-rect $gphoto2-port-log_8h-source.html 243,445 374,469
-rect $gphoto2-port-portability_8h-source.html 223,301 394,325
-rect $gphoto2-result_8h.html 250,493 367,517
-rect $gphoto2-port-result_8h-source.html 442,493 589,517
+rect $gphoto2-file_8h.html 260,57 415,84
+rect $gphoto2-port-log_8h.html 247,513 428,540
+rect $gphoto2-port-portability_8h.html 227,159 448,185
+rect $gphoto2-result_8h.html 252,564 423,591
+rect $gphoto2-port-result_8h.html 497,564 695,591

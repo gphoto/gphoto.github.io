@@ -1,12 +1,4 @@
 base referer
-rect $gphoto2-abilities-list_8h.html 422,306 572,330
-rect $gphoto2-context_8h.html 636,158 764,182
-rect $gphoto2-camera_8h.html 242,231 373,255
-rect $gphoto2-list_8h.html 649,257 750,281
-rect $gphoto2-port-info-list_8h-source.html 622,355 777,379
-rect $gphoto2-port_8h-source.html 826,355 936,379
-rect $gphoto2-widget_8h.html 436,157 558,181
-rect $gphoto2-file_8h.html 649,59 750,83
-rect $gphoto2-filesys_8h.html 436,109 558,133
-rect $gphoto2-result_8h.html 438,405 556,429
-rect $gphoto2-port-result_8h-source.html 626,405 773,429
+rect $gphoto2-abilities-list_8h.html 461,57 664,84
+rect $gphoto2-context_8h.html 713,57 895,84
+rect $gphoto2-camera_8h.html 229,108 411,135

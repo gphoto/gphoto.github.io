@@ -1,0 +1,4 @@
+base referer
+rect $struct__CameraFileInfoAudio.html 7,7 164,34
+rect $struct__CameraFileInfoPreview.html 188,7 359,34
+rect $struct__CameraFileInfoFile.html 383,7 527,34

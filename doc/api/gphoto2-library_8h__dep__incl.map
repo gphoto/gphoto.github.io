@@ -1,5 +1,5 @@
 base referer
-rect $gphoto2-abilities-list_8c.html 244,8 457,32
-rect $gphoto2-camera_8c.html 253,56 448,80
-rect $gphoto2_8h.html 277,104 424,128
-rect $template_8c.html 257,152 444,176
+rect $gphoto2-abilities-list_8c.html 229,7 445,33
+rect $gphoto2-camera_8c.html 240,57 435,84
+rect $gphoto2_8h.html 271,108 404,135
+rect $template_8c.html 243,159 432,185

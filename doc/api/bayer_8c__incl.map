@@ -1,0 +1,4 @@
+base referer
+rect $bayer_8h.html 237,57 304,84
+rect $gphoto2-result_8h.html 185,108 356,135
+rect $gphoto2-port-result_8h.html 404,108 601,135

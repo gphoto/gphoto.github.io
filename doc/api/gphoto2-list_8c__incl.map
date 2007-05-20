@@ -1,5 +1,5 @@
 base referer
-rect $gphoto2-list_8h.html 238,56 339,80
-rect $gphoto2-port-log_8h-source.html 223,104 354,128
-rect $gphoto2-result_8h.html 230,296 347,320
-rect $gphoto2-port-result_8h-source.html 402,296 549,320
+rect $gphoto2-list_8h.html 238,57 392,84
+rect $gphoto2-port-log_8h.html 224,108 406,135
+rect $gphoto2-result_8h.html 230,311 400,337
+rect $gphoto2-port-result_8h.html 455,311 652,337

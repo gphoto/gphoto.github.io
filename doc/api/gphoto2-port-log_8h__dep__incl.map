@@ -1,0 +1,14 @@
+base referer
+rect $gphoto2-abilities-list_8c.html 733,243 949,269
+rect $gphoto2-camera_8c.html 412,91 607,117
+rect $gphoto2-context_8c.html 412,141 607,168
+rect $gphoto2-file_8c.html 425,192 593,219
+rect $gphoto2-filesys_8c.html 416,243 603,269
+rect $gphoto2-list_8c.html 425,293 593,320
+rect $gphoto2-setting_8c.html 415,344 604,371
+rect $gphoto2-widget_8c.html 415,395 604,421
+rect $gphoto2-abilities-list_8h.html 408,445 611,472
+rect $gphoto2_8h.html 443,496 576,523
+rect $gphoto2-port-info-list_8c.html 336,547 683,573
+rect $gphoto2-port-log_8c.html 348,597 671,624
+rect $gphoto2-port_8c.html 360,648 659,675
