@@ -21,67 +21,66 @@
 <div class="nav">
 <a class="el" href="dir_5c4c792d31159dd39ef299fd4873157d.html">libgphoto2_port</a>&nbsp;&raquo&nbsp;<a class="el" href="dir_9106ddd285a583e85616b4f1f274dc9a.html">gphoto2</a></div>
 <h1>gphoto2-port-library.h</h1><a href="gphoto2-port-library_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00021"></a>00021 <span class="preprocessor">#ifndef __GPHOTO2_PORT_LIBRARY_H__</span>
-<a name="l00022"></a>00022 <span class="preprocessor"></span><span class="preprocessor">#define __GPHOTO2_PORT_LIBRARY_H__</span>
-<a name="l00023"></a>00023 <span class="preprocessor"></span>
-<a name="l00024"></a>00024 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port-info-list_8h.html">gphoto2/gphoto2-port-info-list.h</a>&gt;</span>
-<a name="l00025"></a>00025 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port_8h.html">gphoto2/gphoto2-port.h</a>&gt;</span>
-<a name="l00026"></a>00026 
-<a name="l00027"></a>00027 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPortOperations GPPortOperations;
-<a name="l00028"></a>00028 <span class="keyword">struct </span>_GPPortOperations {
-<a name="l00029"></a>00029         int (*init)     (GPPort *);
-<a name="l00030"></a>00030         int (*exit)     (GPPort *);
-<a name="l00031"></a>00031         int (*open)     (GPPort *);
-<a name="l00032"></a>00032         int (*close)    (GPPort *);
-<a name="l00033"></a>00033         int (*read)     (GPPort *,       <span class="keywordtype">char</span> *, int);
-<a name="l00034"></a>00034         int (*check_int)(GPPort *,      <span class="keywordtype">char</span> *, int, int);
-<a name="l00035"></a>00035         int (*write)    (GPPort *, <span class="keyword">const</span> <span class="keywordtype">char</span> *, int);
-<a name="l00036"></a>00036         int (*update)   (GPPort *);
-<a name="l00037"></a>00037 
-<a name="l00038"></a>00038         <span class="comment">/* Pointers to devices. Please note these are stubbed so there is</span>
-<a name="l00039"></a>00039 <span class="comment">         no need to #ifdef GP_PORT_* anymore. */</span>
-<a name="l00040"></a>00040 
-<a name="l00041"></a>00041         <span class="comment">/* for serial devices */</span>
-<a name="l00042"></a>00042         int (*get_pin)   (GPPort *, GPPin, GPLevel*);
-<a name="l00043"></a>00043         int (*set_pin)   (GPPort *, GPPin, GPLevel);
-<a name="l00044"></a>00044         int (*send_break)(GPPort *, int);
-<a name="l00045"></a>00045         int (*flush)     (GPPort *, int);
-<a name="l00046"></a>00046 
-<a name="l00047"></a>00047         <span class="comment">/* for USB devices */</span>
-<a name="l00048"></a>00048         int (*find_device)(GPPort * dev, <span class="keywordtype">int</span> idvendor, <span class="keywordtype">int</span> idproduct);
-<a name="l00049"></a>00049         int (*find_device_by_class)(GPPort * dev, <span class="keywordtype">int</span> <span class="keyword">class</span>, <span class="keywordtype">int</span> subclass, <span class="keywordtype">int</span> protocol);
-<a name="l00050"></a>00050         int (*clear_halt) (GPPort * dev, <span class="keywordtype">int</span> ep);
-<a name="l00051"></a>00051         int (*msg_write)  (GPPort * dev, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index,
-<a name="l00052"></a>00052                                 <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00053"></a>00053         int (*msg_read)   (GPPort * dev, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index,
-<a name="l00054"></a>00054                                 <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00055"></a>00055         int (*msg_interface_write)  (GPPort * dev, <span class="keywordtype">int</span> request, 
-<a name="l00056"></a>00056                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00057"></a>00057         int (*msg_interface_read)  (GPPort * dev, <span class="keywordtype">int</span> request, 
-<a name="l00058"></a>00058                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00059"></a>00059         int (*msg_class_write) (GPPort * dev, <span class="keywordtype">int</span> request, 
-<a name="l00060"></a>00060                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00061"></a>00061         int (*msg_class_read) (GPPort * dev, <span class="keywordtype">int</span> request, 
-<a name="l00062"></a>00062                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00063"></a>00063 };
-<a name="l00064"></a>00064 
-<a name="l00065"></a>00065 <span class="keyword">typedef</span> GPPortType (* GPPortLibraryType) (void);
-<a name="l00066"></a>00066 <span class="keyword">typedef</span> int (* GPPortLibraryList)       (<a class="code" href="struct__GPPortInfoList.html">GPPortInfoList</a> *list);
-<a name="l00067"></a>00067 
-<a name="l00068"></a>00068 <span class="keyword">typedef</span> GPPortOperations *(* GPPortLibraryOperations) (void);
-<a name="l00069"></a>00069 
-<a name="l00070"></a>00070 <span class="comment">/*</span>
-<a name="l00071"></a>00071 <span class="comment"> * If you want to write an io library, you need to implement the following</span>
-<a name="l00072"></a>00072 <span class="comment"> * functions. Everything else in your io library should be declared static.</span>
-<a name="l00073"></a>00073 <span class="comment"> */</span>
-<a name="l00074"></a>00074 
-<a name="l00075"></a>00075 GPPortType gp_port_library_type       (<span class="keywordtype">void</span>);
-<a name="l00076"></a>00076 <span class="keywordtype">int</span> gp_port_library_list       (<a class="code" href="struct__GPPortInfoList.html">GPPortInfoList</a> *list);
-<a name="l00077"></a>00077 
-<a name="l00078"></a>00078 GPPortOperations *gp_port_library_operations (<span class="keywordtype">void</span>);
-<a name="l00079"></a>00079 
-<a name="l00080"></a>00080 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_PORT_LIBRARY_H__ */</span>
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a name="l00024"></a>00024 <span class="preprocessor">#ifndef __GPHOTO2_PORT_LIBRARY_H__</span>
+<a name="l00025"></a>00025 <span class="preprocessor"></span><span class="preprocessor">#define __GPHOTO2_PORT_LIBRARY_H__</span>
+<a name="l00026"></a>00026 <span class="preprocessor"></span>
+<a name="l00027"></a>00027 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port-info-list_8h.html">gphoto2/gphoto2-port-info-list.h</a>&gt;</span>
+<a name="l00028"></a>00028 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port_8h.html">gphoto2/gphoto2-port.h</a>&gt;</span>
+<a name="l00029"></a>00029 
+<a name="l00039"></a><a class="code" href="struct__GPPortOperations.html">00039</a> <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__GPPortOperations.html">_GPPortOperations</a> {
+<a name="l00040"></a>00040         int (*init)     (<a class="code" href="struct__GPPort.html">GPPort</a> *);
+<a name="l00041"></a>00041         int (*exit)     (<a class="code" href="struct__GPPort.html">GPPort</a> *);
+<a name="l00042"></a>00042         int (*open)     (<a class="code" href="struct__GPPort.html">GPPort</a> *);
+<a name="l00043"></a>00043         int (*close)    (<a class="code" href="struct__GPPort.html">GPPort</a> *);
+<a name="l00044"></a>00044         int (*read)     (<a class="code" href="struct__GPPort.html">GPPort</a> *,       <span class="keywordtype">char</span> *, int);
+<a name="l00045"></a>00045         int (*check_int)(<a class="code" href="struct__GPPort.html">GPPort</a> *,      <span class="keywordtype">char</span> *, int, int);
+<a name="l00046"></a>00046         int (*write)    (<a class="code" href="struct__GPPort.html">GPPort</a> *, <span class="keyword">const</span> <span class="keywordtype">char</span> *, int);
+<a name="l00047"></a>00047         int (*update)   (<a class="code" href="struct__GPPort.html">GPPort</a> *);
+<a name="l00048"></a>00048 
+<a name="l00049"></a>00049         <span class="comment">/* Pointers to devices. Please note these are stubbed so there is</span>
+<a name="l00050"></a>00050 <span class="comment">         no need to #ifdef GP_PORT_* anymore. */</span>
+<a name="l00051"></a>00051 
+<a name="l00052"></a>00052         <span class="comment">/* for serial devices */</span>
+<a name="l00053"></a>00053         int (*get_pin)   (<a class="code" href="struct__GPPort.html">GPPort</a> *, <a class="code" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a>, <a class="code" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a>*);
+<a name="l00054"></a>00054         int (*set_pin)   (<a class="code" href="struct__GPPort.html">GPPort</a> *, <a class="code" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a>, <a class="code" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a>);
+<a name="l00055"></a>00055         int (*send_break)(<a class="code" href="struct__GPPort.html">GPPort</a> *, int);
+<a name="l00056"></a>00056         int (*flush)     (<a class="code" href="struct__GPPort.html">GPPort</a> *, int);
+<a name="l00057"></a>00057 
+<a name="l00058"></a>00058         <span class="comment">/* for USB devices */</span>
+<a name="l00059"></a>00059         int (*find_device)(<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> idvendor, <span class="keywordtype">int</span> idproduct);
+<a name="l00060"></a>00060         int (*find_device_by_class)(<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> <span class="keyword">class</span>, <span class="keywordtype">int</span> subclass, <span class="keywordtype">int</span> protocol);
+<a name="l00061"></a>00061         int (*clear_halt) (<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> ep);
+<a name="l00062"></a>00062         int (*msg_write)  (<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index,
+<a name="l00063"></a>00063                                 <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00064"></a>00064         int (*msg_read)   (<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index,
+<a name="l00065"></a>00065                                 <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00066"></a>00066         int (*msg_interface_write)  (<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> request, 
+<a name="l00067"></a>00067                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00068"></a>00068         int (*msg_interface_read)  (<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> request, 
+<a name="l00069"></a>00069                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00070"></a>00070         int (*msg_class_write) (<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> request, 
+<a name="l00071"></a>00071                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00072"></a>00072         int (*msg_class_read) (<a class="code" href="struct__GPPort.html">GPPort</a> * dev, <span class="keywordtype">int</span> request, 
+<a name="l00073"></a>00073                                 <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00074"></a>00074 } <a class="code" href="struct__GPPortOperations.html">GPPortOperations</a>;
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076 <span class="keyword">typedef</span> <a class="code" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39">GPPortType</a> (* GPPortLibraryType) (void);
+<a name="l00077"></a>00077 <span class="keyword">typedef</span> int (* GPPortLibraryList)       (GPPortInfoList *list);
+<a name="l00078"></a>00078 
+<a name="l00079"></a>00079 <span class="keyword">typedef</span> <a class="code" href="struct__GPPortOperations.html">GPPortOperations</a> *(* GPPortLibraryOperations) (void);
+<a name="l00080"></a>00080 
+<a name="l00081"></a>00081 <span class="comment">/*</span>
+<a name="l00082"></a>00082 <span class="comment"> * If you want to write an io library, you need to implement the following</span>
+<a name="l00083"></a>00083 <span class="comment"> * functions. Everything else in your io library should be declared static.</span>
+<a name="l00084"></a>00084 <span class="comment"> */</span>
+<a name="l00085"></a>00085 
+<a name="l00086"></a>00086 <a class="code" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39">GPPortType</a> gp_port_library_type       (<span class="keywordtype">void</span>);
+<a name="l00087"></a>00087 <span class="keywordtype">int</span> gp_port_library_list       (GPPortInfoList *list);
+<a name="l00088"></a>00088 
+<a name="l00089"></a>00089 <a class="code" href="struct__GPPortOperations.html">GPPortOperations</a> *gp_port_library_operations (<span class="keywordtype">void</span>);
+<a name="l00090"></a>00090 
+<a name="l00091"></a>00091 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_PORT_LIBRARY_H__ */</span>
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

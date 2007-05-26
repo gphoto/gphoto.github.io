@@ -1,3 +1,5 @@
 base referer
 rect $gphoto2-library_8h.html 244,108 417,135
-rect $gphoto2-result_8h.html 245,159 416,185
+rect $gphoto2-result_8h.html 715,133 885,160
+rect $gphoto2-abilities-list_8h.html 699,83 901,109
+rect $gphoto2-camera_8h.html 467,108 648,135

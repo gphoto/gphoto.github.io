@@ -21,177 +21,167 @@
 <div class="nav">
 <a class="el" href="dir_5c4c792d31159dd39ef299fd4873157d.html">libgphoto2_port</a>&nbsp;&raquo&nbsp;<a class="el" href="dir_9106ddd285a583e85616b4f1f274dc9a.html">gphoto2</a></div>
 <h1>gphoto2-port.h</h1><a href="gphoto2-port_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
-<a name="l00021"></a>00021 <span class="preprocessor">#ifndef __GPHOTO2_PORT_H__</span>
-<a name="l00022"></a>00022 <span class="preprocessor"></span><span class="preprocessor">#define __GPHOTO2_PORT_H__</span>
-<a name="l00023"></a>00023 <span class="preprocessor"></span>
-<a name="l00024"></a>00024 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port-info-list_8h.html">gphoto2/gphoto2-port-info-list.h</a>&gt;</span>
-<a name="l00025"></a>00025 
-<a name="l00026"></a>00026 <span class="comment">/* For portability */</span>
-<a name="l00027"></a>00027 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port-portability_8h.html">gphoto2/gphoto2-port-portability.h</a>&gt;</span>
-<a name="l00028"></a>00028 <span class="preprocessor">#ifdef OS2</span>
-<a name="l00029"></a>00029 <span class="preprocessor"></span><span class="preprocessor">#include &lt;gphoto2/gphoto2-port-portability-os2.h&gt;</span>
-<a name="l00030"></a>00030 <span class="preprocessor">#include &lt;os2.h&gt;</span>
-<a name="l00031"></a>00031 <span class="preprocessor">#endif</span>
-<a name="l00032"></a>00032 <span class="preprocessor"></span>
-<a name="l00033"></a>00033 <span class="preprocessor">#ifdef __cplusplus</span>
-<a name="l00034"></a>00034 <span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">"C"</span> {
-<a name="l00035"></a>00035 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
-<a name="l00036"></a>00036 
-<a name="l00037"></a>00037 <span class="preprocessor">#ifndef TRUE</span>
-<a name="l00038"></a>00038 <span class="preprocessor"></span><span class="preprocessor">#define TRUE (0==0)</span>
-<a name="l00039"></a>00039 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
-<a name="l00040"></a>00040 <span class="preprocessor"></span>
-<a name="l00041"></a>00041 <span class="preprocessor">#ifndef FALSE</span>
-<a name="l00042"></a>00042 <span class="preprocessor"></span><span class="preprocessor">#define FALSE (1==0)</span>
-<a name="l00043"></a>00043 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
-<a name="l00044"></a>00044 <span class="preprocessor"></span>
-<a name="l00049"></a><a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">00049</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">_GPPortSerialParity</a>
-<a name="l00050"></a>00050 {
-<a name="l00051"></a>00051     GP_PORT_SERIAL_PARITY_OFF = 0,
-<a name="l00052"></a>00052     GP_PORT_SERIAL_PARITY_EVEN,
-<a name="l00053"></a>00053     GP_PORT_SERIAL_PARITY_ODD
-<a name="l00054"></a>00054 } <a class="code" href="gphoto2-port_8h.html#3994af97208c5e703e0cfc3d1a0cf9ba">GPPortSerialParity</a>;
-<a name="l00055"></a>00055 
-<a name="l00056"></a>00056 
-<a name="l00057"></a>00057 <span class="preprocessor">#define GP_PORT_MAX_BUF_LEN 4096             </span><span class="comment">/* max length of receive buffer */</span>
-<a name="l00058"></a>00058 
-<a name="l00059"></a>00059 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPortSettingsSerial GPPortSettingsSerial;
-<a name="l00060"></a>00060 <span class="keyword">struct </span>_GPPortSettingsSerial {
-<a name="l00061"></a>00061         <span class="keywordtype">char</span> port[128];         
-<a name="l00062"></a>00062         <span class="keywordtype">int</span> speed;              
-<a name="l00063"></a>00063         <span class="keywordtype">int</span> bits;               
-<a name="l00064"></a>00064         GPPortSerialParity parity;      
-<a name="l00066"></a>00066         <span class="keywordtype">int</span> stopbits;           
-<a name="l00067"></a>00067 };
-<a name="l00068"></a>00068 
-<a name="l00069"></a>00069 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPortSettingsUSB GPPortSettingsUSB;
-<a name="l00070"></a>00070 <span class="keyword">struct </span>_GPPortSettingsUSB {
-<a name="l00071"></a>00071         <span class="keywordtype">int</span> inep, outep, intep;
-<a name="l00072"></a>00072         <span class="keywordtype">int</span> config, interface, altsetting;
-<a name="l00073"></a>00073 
-<a name="l00074"></a>00074         <span class="keywordtype">int</span> maxpacketsize; <span class="comment">/* r/o */</span>
-<a name="l00075"></a>00075 
-<a name="l00076"></a>00076         <span class="comment">/* must be last to avoid binary incompatibility.</span>
-<a name="l00077"></a>00077 <span class="comment">         * luckily we just need to make sure this struct does not </span>
-<a name="l00078"></a>00078 <span class="comment">         * get larger than _GPPortSettingsSerial. */</span>
-<a name="l00079"></a>00079         <span class="keywordtype">char</span> port[64];
-<a name="l00080"></a>00080 };
-<a name="l00081"></a>00081 
-<a name="l00082"></a>00082 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPortSettingsDisk GPPortSettingsDisk;
-<a name="l00083"></a>00083 <span class="keyword">struct </span>_GPPortSettingsDisk {
-<a name="l00084"></a>00084         <span class="keywordtype">char</span> mountpoint[128];
-<a name="l00085"></a>00085 };
-<a name="l00086"></a>00086 
-<a name="l00087"></a>00087 <span class="keyword">typedef</span> <span class="keyword">union </span>_GPPortSettings GPPortSettings;
-<a name="l00088"></a>00088 <span class="keyword">union </span>_GPPortSettings {
-<a name="l00089"></a>00089         GPPortSettingsSerial serial;
-<a name="l00090"></a>00090         GPPortSettingsUSB usb;
-<a name="l00091"></a>00091         GPPortSettingsDisk disk;
-<a name="l00092"></a>00092 };
+<a name="l00024"></a>00024 <span class="preprocessor">#ifndef __GPHOTO2_PORT_H__</span>
+<a name="l00025"></a>00025 <span class="preprocessor"></span><span class="preprocessor">#define __GPHOTO2_PORT_H__</span>
+<a name="l00026"></a>00026 <span class="preprocessor"></span>
+<a name="l00027"></a>00027 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port-info-list_8h.html">gphoto2/gphoto2-port-info-list.h</a>&gt;</span>
+<a name="l00028"></a>00028 
+<a name="l00029"></a>00029 <span class="comment">/* For portability */</span>
+<a name="l00030"></a>00030 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-port-portability_8h.html">gphoto2/gphoto2-port-portability.h</a>&gt;</span>
+<a name="l00031"></a>00031 <span class="preprocessor">#ifdef OS2</span>
+<a name="l00032"></a>00032 <span class="preprocessor"></span><span class="preprocessor">#include &lt;gphoto2/gphoto2-port-portability-os2.h&gt;</span>
+<a name="l00033"></a>00033 <span class="preprocessor">#include &lt;os2.h&gt;</span>
+<a name="l00034"></a>00034 <span class="preprocessor">#endif</span>
+<a name="l00035"></a>00035 <span class="preprocessor"></span>
+<a name="l00036"></a>00036 <span class="preprocessor">#ifdef __cplusplus</span>
+<a name="l00037"></a>00037 <span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">"C"</span> {
+<a name="l00038"></a>00038 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
+<a name="l00039"></a>00039 
+<a name="l00040"></a>00040 <span class="preprocessor">#ifndef TRUE</span>
+<a name="l00041"></a>00041 <span class="preprocessor"></span><span class="preprocessor">#define TRUE (0==0)</span>
+<a name="l00042"></a>00042 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
+<a name="l00043"></a>00043 <span class="preprocessor"></span>
+<a name="l00044"></a>00044 <span class="preprocessor">#ifndef FALSE</span>
+<a name="l00045"></a>00045 <span class="preprocessor"></span><span class="preprocessor">#define FALSE (1==0)</span>
+<a name="l00046"></a>00046 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
+<a name="l00047"></a>00047 <span class="preprocessor"></span>
+<a name="l00053"></a><a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">00053</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">_GPPortSerialParity</a>
+<a name="l00054"></a>00054 {
+<a name="l00055"></a>00055     <a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908aed98b354e1e5aa82562dd18ef95ac9176">GP_PORT_SERIAL_PARITY_OFF</a> = 0,      
+<a name="l00056"></a>00056     <a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae48c6aa1084feb87fe227f5521df67776">GP_PORT_SERIAL_PARITY_EVEN</a>,         
+<a name="l00057"></a><a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908aeca571bbba6b231adc42820564a557801">00057</a>     <a class="code" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908aeca571bbba6b231adc42820564a557801">GP_PORT_SERIAL_PARITY_ODD</a>           
+<a name="l00058"></a>00058 } <a class="code" href="gphoto2-port_8h.html#3994af97208c5e703e0cfc3d1a0cf9ba">GPPortSerialParity</a>;
+<a name="l00059"></a>00059 
+<a name="l00061"></a><a class="code" href="gphoto2-port_8h.html#beb236857253fd3d91d562b2b493a22b">00061</a> <span class="preprocessor">#define GP_PORT_MAX_BUF_LEN 4096             </span>
+<a name="l00062"></a>00062 <span class="preprocessor"></span>
+<a name="l00066"></a><a class="code" href="struct__GPPortSettingsSerial.html">00066</a> <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__GPPortSettingsSerial.html">_GPPortSettingsSerial</a> {
+<a name="l00067"></a><a class="code" href="struct__GPPortSettingsSerial.html#c0551b9eaedbf6449f2fa684e5e3e7fc">00067</a>         <span class="keywordtype">char</span> <a class="code" href="struct__GPPortSettingsSerial.html#c0551b9eaedbf6449f2fa684e5e3e7fc">port</a>[128];         
+<a name="l00068"></a><a class="code" href="struct__GPPortSettingsSerial.html#47c9585cb35ef7c2ebe20dee1eb8859f">00068</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsSerial.html#47c9585cb35ef7c2ebe20dee1eb8859f">speed</a>;              
+<a name="l00069"></a><a class="code" href="struct__GPPortSettingsSerial.html#31d7dde104d07e27577883d41a03fb79">00069</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsSerial.html#31d7dde104d07e27577883d41a03fb79">bits</a>;               
+<a name="l00070"></a><a class="code" href="struct__GPPortSettingsSerial.html#c146f0bc527d87d74b554685ea673a62">00070</a>         GPPortSerialParity <a class="code" href="struct__GPPortSettingsSerial.html#c146f0bc527d87d74b554685ea673a62">parity</a>;      
+<a name="l00072"></a><a class="code" href="struct__GPPortSettingsSerial.html#614e4e10a853127f19a235296b3833a9">00072</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsSerial.html#614e4e10a853127f19a235296b3833a9">stopbits</a>;           
+<a name="l00073"></a>00073 } <a class="code" href="struct__GPPortSettingsSerial.html">GPPortSettingsSerial</a>;
+<a name="l00074"></a>00074 
+<a name="l00078"></a><a class="code" href="struct__GPPortSettingsUSB.html">00078</a> <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__GPPortSettingsUSB.html">_GPPortSettingsUSB</a> {
+<a name="l00079"></a><a class="code" href="struct__GPPortSettingsUSB.html#40e7c2eb3ee6ccdaab16ea0cc800a688">00079</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsUSB.html#40e7c2eb3ee6ccdaab16ea0cc800a688">inep</a>;               
+<a name="l00080"></a><a class="code" href="struct__GPPortSettingsUSB.html#b99eeb2f654580c625397887986bf43e">00080</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsUSB.html#b99eeb2f654580c625397887986bf43e">outep</a>;              
+<a name="l00081"></a><a class="code" href="struct__GPPortSettingsUSB.html#5a85b86df0d535d20dca2b7b0d85a596">00081</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsUSB.html#5a85b86df0d535d20dca2b7b0d85a596">intep</a>;              
+<a name="l00082"></a><a class="code" href="struct__GPPortSettingsUSB.html#73da1583e8d46ee82f137aa14249f228">00082</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsUSB.html#73da1583e8d46ee82f137aa14249f228">config</a>;             
+<a name="l00083"></a><a class="code" href="struct__GPPortSettingsUSB.html#60672aadac8bea3e0e133f485c0617c0">00083</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsUSB.html#60672aadac8bea3e0e133f485c0617c0">interface</a>;          
+<a name="l00084"></a><a class="code" href="struct__GPPortSettingsUSB.html#140c38b02c3cdc8f1a64078900e89240">00084</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsUSB.html#140c38b02c3cdc8f1a64078900e89240">altsetting</a>;         
+<a name="l00086"></a><a class="code" href="struct__GPPortSettingsUSB.html#ad3cad3044fd0f57d1991b80426d5799">00086</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPortSettingsUSB.html#ad3cad3044fd0f57d1991b80426d5799">maxpacketsize</a>;      
+<a name="l00088"></a>00088         <span class="comment">/* must be last to avoid binary incompatibility.</span>
+<a name="l00089"></a>00089 <span class="comment">         * luckily we just need to make sure this struct does not </span>
+<a name="l00090"></a>00090 <span class="comment">         * get larger than _GPPortSettingsSerial. */</span>
+<a name="l00091"></a><a class="code" href="struct__GPPortSettingsUSB.html#83c9c7917bec3264dace7f0d25a8f7d5">00091</a>         <span class="keywordtype">char</span> <a class="code" href="struct__GPPortSettingsUSB.html#83c9c7917bec3264dace7f0d25a8f7d5">port</a>[64];          
+<a name="l00092"></a>00092 } <a class="code" href="struct__GPPortSettingsUSB.html">GPPortSettingsUSB</a>;
 <a name="l00093"></a>00093 
-<a name="l00094"></a>00094 <span class="keyword">enum</span> {
-<a name="l00095"></a>00095         GP_PORT_USB_ENDPOINT_IN,
-<a name="l00096"></a>00096         GP_PORT_USB_ENDPOINT_OUT,
-<a name="l00097"></a>00097         GP_PORT_USB_ENDPOINT_INT
-<a name="l00098"></a>00098 };
-<a name="l00099"></a>00099 
-<a name="l00100"></a>00100 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPortPrivateLibrary GPPortPrivateLibrary;
-<a name="l00101"></a>00101 <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__GPPortPrivateCore.html">_GPPortPrivateCore</a>    GPPortPrivateCore;
-<a name="l00102"></a>00102 
-<a name="l00103"></a>00103 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPort           GPPort;
-<a name="l00104"></a>00104 <span class="keyword">struct </span>_GPPort {
-<a name="l00105"></a>00105 
-<a name="l00106"></a>00106         <span class="comment">/* For your convenience */</span>
-<a name="l00107"></a>00107         GPPortType type;
-<a name="l00108"></a>00108 
-<a name="l00109"></a>00109         GPPortSettings settings;
-<a name="l00110"></a>00110         GPPortSettings settings_pending;
-<a name="l00111"></a>00111 
-<a name="l00112"></a>00112         <span class="keywordtype">int</span> timeout; <span class="comment">/* in milliseconds */</span>
-<a name="l00113"></a>00113 
-<a name="l00114"></a>00114         GPPortPrivateLibrary *pl;
-<a name="l00115"></a>00115         GPPortPrivateCore    *pc;
-<a name="l00116"></a>00116 };
-<a name="l00117"></a>00117 
-<a name="l00118"></a>00118 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#8417b7e901fefb27ab4aeae10136697d">gp_port_new</a>         (GPPort **port);
-<a name="l00119"></a>00119 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#8d8815fc2041524490225d8de0f6d904">gp_port_free</a>        (GPPort *port);
-<a name="l00120"></a>00120 
-<a name="l00121"></a>00121 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info</a>    (GPPort *port, GPPortInfo  info);
-<a name="l00122"></a>00122 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#dc2f5e1e5c9e2482bd972840a4b6f8b5">gp_port_get_info</a>    (GPPort *port, GPPortInfo *info);
-<a name="l00123"></a>00123 
-<a name="l00124"></a>00124 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#86f420cf4f77848600e982ce51aafa45">gp_port_open</a>        (GPPort *port);
-<a name="l00125"></a>00125 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#4b4aaca4ad306f7572567b10072e0ba9">gp_port_close</a>       (GPPort *port);
-<a name="l00126"></a>00126 
-<a name="l00127"></a>00127 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#10c9eb67f356e1967001795466eb08f4">gp_port_write</a>       (GPPort *port, <span class="keyword">const</span> <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
-<a name="l00128"></a>00128 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#f7aa149494cc5ba3fe99c31a01b2bf16">gp_port_read</a>        (GPPort *port,       <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
-<a name="l00129"></a>00129 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#5751d127e002931547575ddc30764158">gp_port_check_int</a>   (GPPort *port,       <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
-<a name="l00130"></a>00130 <span class="keywordtype">int</span> gp_port_check_int_fast (GPPort *port,    <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
-<a name="l00131"></a>00131 
-<a name="l00132"></a>00132 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#99d075e933b1f5b50cdc06f7aaf6cac8">gp_port_get_timeout</a>  (GPPort *port, <span class="keywordtype">int</span> *timeout);
-<a name="l00133"></a>00133 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#ea760bec3c5abe24160c1f51cd65a691">gp_port_set_timeout</a>  (GPPort *port, <span class="keywordtype">int</span>  timeout);
-<a name="l00134"></a>00134 
-<a name="l00135"></a>00135 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#9d8d152320d11d5ddc8a1d8fea26beb7">gp_port_set_settings</a> (GPPort *port, GPPortSettings  settings);
-<a name="l00136"></a>00136 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#eb68e49a4a8d513f6e183120da4e4232">gp_port_get_settings</a> (GPPort *port, GPPortSettings *settings);
-<a name="l00137"></a>00137 
-<a name="l00138"></a>00138 <span class="keyword">enum</span> _GPPin {
-<a name="l00139"></a>00139         GP_PIN_RTS,
-<a name="l00140"></a>00140         GP_PIN_DTR,
-<a name="l00141"></a>00141         GP_PIN_CTS,
-<a name="l00142"></a>00142         GP_PIN_DSR,
-<a name="l00143"></a>00143         GP_PIN_CD,
-<a name="l00144"></a>00144         GP_PIN_RING
-<a name="l00145"></a>00145 };
-<a name="l00146"></a>00146 <span class="keyword">typedef</span> <span class="keyword">enum</span> _GPPin GPPin;
+<a name="l00097"></a><a class="code" href="struct__GPPortSettingsDisk.html">00097</a> <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__GPPortSettingsDisk.html">_GPPortSettingsDisk</a> {
+<a name="l00098"></a><a class="code" href="struct__GPPortSettingsDisk.html#08aa6574e5cab5e677774e107158c6b3">00098</a>         <span class="keywordtype">char</span> <a class="code" href="struct__GPPortSettingsDisk.html#08aa6574e5cab5e677774e107158c6b3">mountpoint</a>[128];   
+<a name="l00099"></a>00099 } <a class="code" href="struct__GPPortSettingsDisk.html">GPPortSettingsDisk</a>;
+<a name="l00100"></a>00100 
+<a name="l00107"></a><a class="code" href="union__GPPortSettings.html">00107</a> <span class="keyword">typedef</span> <span class="keyword">union </span><a class="code" href="union__GPPortSettings.html">_GPPortSettings</a> {
+<a name="l00108"></a><a class="code" href="union__GPPortSettings.html#df4b256a838b497c7f498abd4b2a120d">00108</a>         <a class="code" href="struct__GPPortSettingsSerial.html">GPPortSettingsSerial</a> <a class="code" href="union__GPPortSettings.html#df4b256a838b497c7f498abd4b2a120d">serial</a>;    
+<a name="l00109"></a><a class="code" href="union__GPPortSettings.html#fde75da3fb45d8a4934f114e6cf808c7">00109</a>         <a class="code" href="struct__GPPortSettingsUSB.html">GPPortSettingsUSB</a> <a class="code" href="union__GPPortSettings.html#fde75da3fb45d8a4934f114e6cf808c7">usb</a>;          
+<a name="l00110"></a><a class="code" href="union__GPPortSettings.html#0065689952afa077c4f8b84c9bf94036">00110</a>         <a class="code" href="struct__GPPortSettingsDisk.html">GPPortSettingsDisk</a> <a class="code" href="union__GPPortSettings.html#0065689952afa077c4f8b84c9bf94036">disk</a>;        
+<a name="l00111"></a>00111 } <a class="code" href="union__GPPortSettings.html">GPPortSettings</a>;
+<a name="l00112"></a>00112 
+<a name="l00113"></a>00113 <span class="keyword">enum</span> {
+<a name="l00114"></a>00114         <a class="code" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea8ed92fa19e1ce408f8b066438b6c0dcb8">GP_PORT_USB_ENDPOINT_IN</a>,        
+<a name="l00115"></a>00115         <a class="code" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea83f22d44e7354357dcf7d6b66c74f87ef">GP_PORT_USB_ENDPOINT_OUT</a>,       
+<a name="l00116"></a><a class="code" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea8d44d36b9cadfae7217ccdd24dc79ffdc">00116</a>         <a class="code" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea8d44d36b9cadfae7217ccdd24dc79ffdc">GP_PORT_USB_ENDPOINT_INT</a>        
+<a name="l00117"></a>00117 };
+<a name="l00118"></a>00118 
+<a name="l00119"></a>00119 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPortPrivateLibrary GPPortPrivateLibrary;
+<a name="l00120"></a>00120 <span class="keyword">typedef</span> <span class="keyword">struct </span>_GPPortPrivateCore    GPPortPrivateCore;
+<a name="l00121"></a>00121 
+<a name="l00135"></a><a class="code" href="struct__GPPort.html">00135</a> <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__GPPort.html">_GPPort</a> {
+<a name="l00136"></a>00136         <span class="comment">/* For your convenience */</span>
+<a name="l00137"></a><a class="code" href="struct__GPPort.html#f1801db8a26dc437200bc5e05def4558">00137</a>         <a class="code" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39">GPPortType</a> <a class="code" href="struct__GPPort.html#f1801db8a26dc437200bc5e05def4558">type</a>;                
+<a name="l00139"></a><a class="code" href="struct__GPPort.html#1714b04e353800a35c3df54c06c36cf6">00139</a>         <a class="code" href="union__GPPortSettings.html">GPPortSettings</a> <a class="code" href="struct__GPPort.html#1714b04e353800a35c3df54c06c36cf6">settings</a>;        
+<a name="l00140"></a><a class="code" href="struct__GPPort.html#0a90d24567c8590287a434e4a5d6d586">00140</a>         <a class="code" href="union__GPPortSettings.html">GPPortSettings</a> <a class="code" href="struct__GPPort.html#0a90d24567c8590287a434e4a5d6d586">settings_pending</a>;
+<a name="l00142"></a><a class="code" href="struct__GPPort.html#93ae2d0bdf4588d22e82d19b89756927">00142</a>         <span class="keywordtype">int</span> <a class="code" href="struct__GPPort.html#93ae2d0bdf4588d22e82d19b89756927">timeout</a>;                    
+<a name="l00144"></a><a class="code" href="struct__GPPort.html#f0b6c8f7ae2d586ade19d4166eb4958e">00144</a>         GPPortPrivateLibrary *<a class="code" href="struct__GPPort.html#f0b6c8f7ae2d586ade19d4166eb4958e">pl</a>;       
+<a name="l00145"></a><a class="code" href="struct__GPPort.html#52b6a7c502efdc59024fd807aed271e7">00145</a>         GPPortPrivateCore    *<a class="code" href="struct__GPPort.html#52b6a7c502efdc59024fd807aed271e7">pc</a>;       
+<a name="l00146"></a>00146 } <a class="code" href="struct__GPPort.html">GPPort</a>;
 <a name="l00147"></a>00147 
-<a name="l00148"></a>00148 <span class="keyword">enum</span> _GPLevel {
-<a name="l00149"></a>00149         GP_LEVEL_LOW  = 0,
-<a name="l00150"></a>00150         GP_LEVEL_HIGH = 1
-<a name="l00151"></a>00151 };
-<a name="l00152"></a>00152 <span class="keyword">typedef</span> <span class="keyword">enum</span> _GPLevel GPLevel;
+<a name="l00148"></a>00148 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#8417b7e901fefb27ab4aeae10136697d">gp_port_new</a>         (<a class="code" href="struct__GPPort.html">GPPort</a> **port);
+<a name="l00149"></a>00149 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#8d8815fc2041524490225d8de0f6d904">gp_port_free</a>        (<a class="code" href="struct__GPPort.html">GPPort</a> *port);
+<a name="l00150"></a>00150 
+<a name="l00151"></a>00151 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info</a>    (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <a class="code" href="struct__GPPortInfo.html">GPPortInfo</a>  info);
+<a name="l00152"></a>00152 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#dc2f5e1e5c9e2482bd972840a4b6f8b5">gp_port_get_info</a>    (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <a class="code" href="struct__GPPortInfo.html">GPPortInfo</a> *info);
 <a name="l00153"></a>00153 
-<a name="l00154"></a>00154 <span class="keywordtype">int</span> gp_port_get_pin   (GPPort *port, GPPin pin, GPLevel *level);
-<a name="l00155"></a>00155 <span class="keywordtype">int</span> gp_port_set_pin   (GPPort *port, GPPin pin, GPLevel level);
+<a name="l00154"></a>00154 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#86f420cf4f77848600e982ce51aafa45">gp_port_open</a>        (<a class="code" href="struct__GPPort.html">GPPort</a> *port);
+<a name="l00155"></a>00155 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#4b4aaca4ad306f7572567b10072e0ba9">gp_port_close</a>       (<a class="code" href="struct__GPPort.html">GPPort</a> *port);
 <a name="l00156"></a>00156 
-<a name="l00157"></a>00157 <span class="keywordtype">int</span> gp_port_send_break (GPPort *port, <span class="keywordtype">int</span> duration);
-<a name="l00158"></a>00158 <span class="keywordtype">int</span> gp_port_flush      (GPPort *port, <span class="keywordtype">int</span> direction);
-<a name="l00159"></a>00159 
-<a name="l00160"></a>00160 <span class="keywordtype">int</span> gp_port_usb_find_device (GPPort *port, <span class="keywordtype">int</span> idvendor, <span class="keywordtype">int</span> idproduct);
-<a name="l00161"></a>00161 <span class="keywordtype">int</span> gp_port_usb_find_device_by_class (GPPort *port, <span class="keywordtype">int</span> mainclass, <span class="keywordtype">int</span> subclass, <span class="keywordtype">int</span> protocol);
-<a name="l00162"></a>00162 <span class="keywordtype">int</span> gp_port_usb_clear_halt  (GPPort *port, <span class="keywordtype">int</span> ep);
-<a name="l00163"></a>00163 <span class="keywordtype">int</span> gp_port_usb_msg_write   (GPPort *port, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value,
-<a name="l00164"></a>00164                              <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00165"></a>00165 <span class="keywordtype">int</span> gp_port_usb_msg_read    (GPPort *port, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value,
-<a name="l00166"></a>00166                              <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00167"></a>00167 <span class="keywordtype">int</span> gp_port_usb_msg_interface_write    (GPPort *port, <span class="keywordtype">int</span> request, 
-<a name="l00168"></a>00168                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00169"></a>00169 <span class="keywordtype">int</span> gp_port_usb_msg_interface_read    (GPPort *port, <span class="keywordtype">int</span> request, 
-<a name="l00170"></a>00170                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00171"></a>00171 <span class="keywordtype">int</span> gp_port_usb_msg_class_write    (GPPort *port, <span class="keywordtype">int</span> request, 
-<a name="l00172"></a>00172                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00173"></a>00173 <span class="keywordtype">int</span> gp_port_usb_msg_class_read    (GPPort *port, <span class="keywordtype">int</span> request, 
-<a name="l00174"></a>00174                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
-<a name="l00175"></a>00175 
-<a name="l00176"></a>00176 <span class="comment">/* Error reporting */</span>
-<a name="l00177"></a>00177 <span class="keywordtype">int</span>         <a class="code" href="gphoto2-port_8h.html#69380af5e94572d0dc8680e961503b8c">gp_port_set_error</a> (GPPort *port, <span class="keyword">const</span> <span class="keywordtype">char</span> *format, ...)
-<a name="l00178"></a>00178 <span class="preprocessor">#ifdef __GNUC__</span>
-<a name="l00179"></a>00179 <span class="preprocessor"></span>        __attribute__((__format__(printf,2,3)))
-<a name="l00180"></a>00180 <span class="preprocessor">#endif</span>
-<a name="l00181"></a>00181 <span class="preprocessor"></span>;
-<a name="l00182"></a>00182 <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="gphoto2-port_8h.html#4d33874931a49925bd9299345bba7e17">gp_port_get_error</a> (GPPort *port);
-<a name="l00183"></a>00183 
-<a name="l00184"></a>00184 <span class="comment">/* DEPRECATED */</span>
-<a name="l00185"></a>00185 <span class="keyword">typedef</span> GPPort gp_port;
-<a name="l00186"></a>00186 <span class="keyword">typedef</span> GPPortSettings gp_port_settings;
-<a name="l00187"></a>00187 <span class="preprocessor">#define PIN_CTS GP_PIN_CTS</span>
-<a name="l00188"></a>00188 <span class="preprocessor"></span>
-<a name="l00189"></a>00189 <span class="preprocessor">#ifdef __cplusplus</span>
-<a name="l00190"></a>00190 <span class="preprocessor"></span>}
-<a name="l00191"></a>00191 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
+<a name="l00157"></a>00157 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#10c9eb67f356e1967001795466eb08f4">gp_port_write</a>       (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keyword">const</span> <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
+<a name="l00158"></a>00158 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#f7aa149494cc5ba3fe99c31a01b2bf16">gp_port_read</a>        (<a class="code" href="struct__GPPort.html">GPPort</a> *port,       <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
+<a name="l00159"></a>00159 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#5751d127e002931547575ddc30764158">gp_port_check_int</a>   (<a class="code" href="struct__GPPort.html">GPPort</a> *port,       <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
+<a name="l00160"></a>00160 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#25504bbee9dd3cb575b13ef4b12a2f2f">gp_port_check_int_fast</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port,    <span class="keywordtype">char</span> *data, <span class="keywordtype">int</span> size);
+<a name="l00161"></a>00161 
+<a name="l00162"></a>00162 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#99d075e933b1f5b50cdc06f7aaf6cac8">gp_port_get_timeout</a>  (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> *timeout);
+<a name="l00163"></a>00163 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#ea760bec3c5abe24160c1f51cd65a691">gp_port_set_timeout</a>  (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span>  timeout);
+<a name="l00164"></a>00164 
+<a name="l00165"></a>00165 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#9d8d152320d11d5ddc8a1d8fea26beb7">gp_port_set_settings</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <a class="code" href="union__GPPortSettings.html">GPPortSettings</a>  settings);
+<a name="l00166"></a>00166 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#eb68e49a4a8d513f6e183120da4e4232">gp_port_get_settings</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <a class="code" href="union__GPPortSettings.html">GPPortSettings</a> *settings);
+<a name="l00167"></a>00167 
+<a name="l00174"></a><a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9">00174</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9">_GPPin</a> {
+<a name="l00175"></a>00175         <a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c970385db972461b8c4cc0086f1759485d">GP_PIN_RTS</a>,     
+<a name="l00176"></a>00176         <a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c98633b9eba2b27d2c2e67b4d68ade754e">GP_PIN_DTR</a>,     
+<a name="l00177"></a>00177         <a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9cbe4848730cda4ab6aefc61cd1d3492c">GP_PIN_CTS</a>,     
+<a name="l00178"></a>00178         <a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9e1f748b57e926cfda9257ebff30bfe3c">GP_PIN_DSR</a>,     
+<a name="l00179"></a>00179         <a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c910dcab6fa5edd8ca1429d27348eb91f0">GP_PIN_CD</a>,      
+<a name="l00180"></a><a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9c21f9523a7ae6b59ca9eb7ce4c2f320a">00180</a>         <a class="code" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9c21f9523a7ae6b59ca9eb7ce4c2f320a">GP_PIN_RING</a>     
+<a name="l00181"></a>00181 } <a class="code" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a>;
+<a name="l00182"></a>00182 
+<a name="l00188"></a><a class="code" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b">00188</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b">_GPLevel</a> {
+<a name="l00189"></a>00189         <a class="code" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b01f42810fc4df948d74dfb73b72476b3">GP_LEVEL_LOW</a>  = 0,      
+<a name="l00190"></a><a class="code" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b7ced6e57b56e6cb417aa5b75d95df3ef">00190</a>         <a class="code" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b7ced6e57b56e6cb417aa5b75d95df3ef">GP_LEVEL_HIGH</a> = 1       
+<a name="l00191"></a>00191 } <a class="code" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a>;
 <a name="l00192"></a>00192 
-<a name="l00193"></a>00193 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_PORT_H__ */</span>
-<a name="l00194"></a>00194 
+<a name="l00193"></a>00193 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#498716d65b2966a4c33e6ef69db22bfd">gp_port_get_pin</a>   (<a class="code" href="struct__GPPort.html">GPPort</a> *port, GPPin pin, <a class="code" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a> *level);
+<a name="l00194"></a>00194 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#009d0ab0d3551340365bebe918a913b0">gp_port_set_pin</a>   (<a class="code" href="struct__GPPort.html">GPPort</a> *port, GPPin pin, <a class="code" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a> level);
 <a name="l00195"></a>00195 
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a name="l00196"></a>00196 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#8c3028d821fc87f67b7858509a4ed12e">gp_port_send_break</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> duration);
+<a name="l00197"></a>00197 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#6fbcbc267b59e3f3b695b756cc116837">gp_port_flush</a>      (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> direction);
+<a name="l00198"></a>00198 
+<a name="l00199"></a>00199 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#eee7d4100408092c68109926abf1581e">gp_port_usb_find_device</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> idvendor, <span class="keywordtype">int</span> idproduct);
+<a name="l00200"></a>00200 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#6994efe46c1b7cc2927f36f2097c727b">gp_port_usb_find_device_by_class</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> mainclass, <span class="keywordtype">int</span> subclass, <span class="keywordtype">int</span> protocol);
+<a name="l00201"></a>00201 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#0584a7774ce1ae6ef2f704c46859a13c">gp_port_usb_clear_halt</a>  (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> ep);
+<a name="l00202"></a>00202 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#449a2f3892474fc7920e9675cf779495">gp_port_usb_msg_write</a>   (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value,
+<a name="l00203"></a>00203                              <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00204"></a>00204 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#f78af4489f7e0611b178c45f3f99c4d7">gp_port_usb_msg_read</a>    (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> request, <span class="keywordtype">int</span> value,
+<a name="l00205"></a>00205                              <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00206"></a>00206 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#060ddc710c76dc885a78d3ba17ffdcbe">gp_port_usb_msg_interface_write</a>    (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> request, 
+<a name="l00207"></a>00207                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00208"></a>00208 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#32927678ac6cc36802a1ac663df3fe54">gp_port_usb_msg_interface_read</a>    (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> request, 
+<a name="l00209"></a>00209                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00210"></a>00210 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#e07af1213ddf18735fc5abe22d4efc89">gp_port_usb_msg_class_write</a>    (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> request, 
+<a name="l00211"></a>00211                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00212"></a>00212 <span class="keywordtype">int</span> <a class="code" href="gphoto2-port_8h.html#f15cb58fb4f05d4e02aceecedc6d72cf">gp_port_usb_msg_class_read</a>    (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keywordtype">int</span> request, 
+<a name="l00213"></a>00213                             <span class="keywordtype">int</span> value, <span class="keywordtype">int</span> index, <span class="keywordtype">char</span> *bytes, <span class="keywordtype">int</span> size);
+<a name="l00214"></a>00214 
+<a name="l00215"></a>00215 <span class="comment">/* Error reporting */</span>
+<a name="l00216"></a>00216 <span class="keywordtype">int</span>         <a class="code" href="gphoto2-port_8h.html#69380af5e94572d0dc8680e961503b8c">gp_port_set_error</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port, <span class="keyword">const</span> <span class="keywordtype">char</span> *format, ...)
+<a name="l00217"></a>00217 <span class="preprocessor">#ifdef __GNUC__</span>
+<a name="l00218"></a>00218 <span class="preprocessor"></span>        __attribute__((__format__(printf,2,3)))
+<a name="l00219"></a>00219 <span class="preprocessor">#endif</span>
+<a name="l00220"></a>00220 <span class="preprocessor"></span>;
+<a name="l00221"></a>00221 <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="gphoto2-port_8h.html#4d33874931a49925bd9299345bba7e17">gp_port_get_error</a> (<a class="code" href="struct__GPPort.html">GPPort</a> *port);
+<a name="l00222"></a>00222 
+<a name="l00223"></a>00223 <span class="comment">/* DEPRECATED */</span>
+<a name="l00225"></a><a class="code" href="gphoto2-port_8h.html#8b530a1527df3e45aa9252fafde1f271">00225</a> <span class="keyword">typedef</span> <a class="code" href="struct__GPPort.html">GPPort</a> <a class="code" href="struct__GPPort.html">gp_port</a>;
+<a name="l00227"></a><a class="code" href="gphoto2-port_8h.html#4dc7af822c9365063dd279b499d09267">00227</a> <span class="keyword">typedef</span> <a class="code" href="union__GPPortSettings.html">GPPortSettings</a> <a class="code" href="union__GPPortSettings.html">gp_port_settings</a>;
+<a name="l00229"></a><a class="code" href="gphoto2-port_8h.html#242f6336c184db08708b65b6900ffd33">00229</a> <span class="preprocessor">#define PIN_CTS GP_PIN_CTS</span>
+<a name="l00230"></a>00230 <span class="preprocessor"></span>
+<a name="l00231"></a>00231 <span class="preprocessor">#ifdef __cplusplus</span>
+<a name="l00232"></a>00232 <span class="preprocessor"></span>}
+<a name="l00233"></a>00233 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
+<a name="l00234"></a>00234 
+<a name="l00235"></a>00235 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_PORT_H__ */</span>
+<a name="l00236"></a>00236 
+<a name="l00237"></a>00237 
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

@@ -26,20 +26,25 @@
 <p>
 Include dependency graph for gphoto2-widget.h:<p><center><img src="gphoto2-widget_8h__incl.png" border="0" usemap="#gphoto2/gphoto2-widget.h_map" alt=""></center>
 <map name="gphoto2/gphoto2-widget.h_map">
-<area href="gphoto2-context_8h.html" shape="rect" coords="463,32,644,59" alt="">
-<area href="gphoto2-camera_8h.html" shape="rect" coords="232,58,414,84" alt="">
+<area href="gphoto2-context_8h.html" shape="rect" coords="716,58,897,84" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="232,108,413,135" alt="">
+<area href="gphoto2-abilities-list_8h.html" shape="rect" coords="464,58,667,84" alt="">
+<area href="gphoto2-port_8h.html" shape="rect" coords="485,108,645,135" alt="">
+<area href="gphoto2-filesys_8h.html" shape="rect" coords="479,159,652,186" alt="">
+<area href="gphoto2-result_8h.html" shape="rect" coords="480,210,651,236" alt="">
 </map>
 
 <p>
 This graph shows which files directly or indirectly include this file:<p><center><img src="gphoto2-widget_8h__dep__incl.png" border="0" usemap="#gphoto2/gphoto2-widget.hdep_map" alt=""></center>
 <map name="gphoto2/gphoto2-widget.hdep_map">
-<area href="gphoto2-widget_8c.html" shape="rect" coords="231,7,420,33" alt="">
-<area href="gphoto2-camera_8h.html" shape="rect" coords="235,57,416,84" alt="">
-<area href="gphoto2-camera_8c.html" shape="rect" coords="702,32,896,59" alt="">
-<area href="gphoto2-library_8h.html" shape="rect" coords="468,83,642,109" alt="">
-<area href="gphoto2-abilities-list_8c.html" shape="rect" coords="691,83,907,109" alt="">
-<area href="gphoto2_8h.html" shape="rect" coords="732,133,866,160" alt="">
-<area href="template_8c.html" shape="rect" coords="704,184,894,211" alt="">
+<area href="gphoto2-widget_8c.html" shape="rect" coords="231,8,420,35" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="235,59,416,86" alt="">
+<area href="gphoto2-camera_8c.html" shape="rect" coords="702,7,896,34" alt="">
+<area href="gphoto2-library_8h.html" shape="rect" coords="468,96,642,123" alt="">
+<area href="gphoto2-abilities-list_8c.html" shape="rect" coords="691,58,907,84" alt="">
+<area href="gphoto2-library_8c.html" shape="rect" coords="706,108,892,135" alt="">
+<area href="gphoto2_8h.html" shape="rect" coords="732,159,866,186" alt="">
+<area href="template_8c.html" shape="rect" coords="704,210,894,236" alt="">
 </map>
 
 <p>
@@ -47,10 +52,11 @@ This graph shows which files directly or indirectly include this file:<p><center
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>Typedefs</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="715637c6eac88f45266096205ae69334"></a><!-- doxytag: member="gphoto2-widget.h::CameraWidget" ref="715637c6eac88f45266096205ae69334" args="" -->
-typedef <a class="el" href="struct__CameraWidget.html">_CameraWidget</a>&nbsp;</td><td class="memItemRight" valign="bottom"><b>CameraWidget</b></td></tr>
+typedef _CameraWidget&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a></td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">internal structure please use the accessors. <br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="5358f9eda84f252285691b3cca60f5c2"></a><!-- doxytag: member="gphoto2-widget.h::CameraWidgetCallback" ref="5358f9eda84f252285691b3cca60f5c2" args="(Camera *, CameraWidget *, GPContext *)" -->
-typedef int(*)&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#5358f9eda84f252285691b3cca60f5c2">CameraWidgetCallback</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> *, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *)</td></tr>
+typedef int(*)&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#5358f9eda84f252285691b3cca60f5c2">CameraWidgetCallback</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Callback handler for Button widgets. <br></td></tr>
 <tr><td colspan="2"><br><h2>Enumerations</h2></td></tr>
@@ -71,66 +77,93 @@ typedef int(*)&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" 
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Type of the widget to be created.  <a href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">More...</a><br></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#3ebf0d5f5e821e9f48cd6d5a06e3eaf7">gp_widget_new</a> (<a class="el" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> type, const char *label, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **widget)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#3ebf0d5f5e821e9f48cd6d5a06e3eaf7">gp_widget_new</a> (<a class="el" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> type, const char *label, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **widget)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#0602633cf53000649696a641491a30c1">gp_widget_free</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Create a new widget.  <a href="#3ebf0d5f5e821e9f48cd6d5a06e3eaf7"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#0602633cf53000649696a641491a30c1">gp_widget_free</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#c4e9caa7f36af89379d9bdc470103842">gp_widget_ref</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Frees a CameraWidget.  <a href="#0602633cf53000649696a641491a30c1"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#c4e9caa7f36af89379d9bdc470103842">gp_widget_ref</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#04eb60576b1a7cae1f5b8ddf2ab50ba1">gp_widget_unref</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Increments the reference count for the CameraWidget.  <a href="#c4e9caa7f36af89379d9bdc470103842"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#04eb60576b1a7cae1f5b8ddf2ab50ba1">gp_widget_unref</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#8d98c9354b8effd19fe2bc0a03ffa382">gp_widget_append</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> *child)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Decrements the reference count for the CameraWidget.  <a href="#04eb60576b1a7cae1f5b8ddf2ab50ba1"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#8d98c9354b8effd19fe2bc0a03ffa382">gp_widget_append</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *child)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#a7208369805a4ab854d798be58281c91">gp_widget_prepend</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> *child)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Appends a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> to a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#8d98c9354b8effd19fe2bc0a03ffa382"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#a7208369805a4ab854d798be58281c91">gp_widget_prepend</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *child)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#45d910d1b073720cde11cc40983f6d61">gp_widget_count_children</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Prepends a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> to a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#a7208369805a4ab854d798be58281c91"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#45d910d1b073720cde11cc40983f6d61">gp_widget_count_children</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#b22d1b38698bf9bdb466dec12dd0fa9f">gp_widget_get_child</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, int child_number, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **child)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Counts the children of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#45d910d1b073720cde11cc40983f6d61"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#b22d1b38698bf9bdb466dec12dd0fa9f">gp_widget_get_child</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, int child_number, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#0aae3673c6d5c45613a3ea8d3964df00">gp_widget_get_child_by_label</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char *label, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **child)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the child number <code>child_number</code> of the parent.  <a href="#b22d1b38698bf9bdb466dec12dd0fa9f"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#0aae3673c6d5c45613a3ea8d3964df00">gp_widget_get_child_by_label</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char *label, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#a2fbb2a0674d0e0df1600b2f8ae84fc1">gp_widget_get_child_by_id</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, int id, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **child)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the child with label <code>label</code> of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#0aae3673c6d5c45613a3ea8d3964df00"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#a2fbb2a0674d0e0df1600b2f8ae84fc1">gp_widget_get_child_by_id</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, int id, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#f3ba777c231da187a6b4cbb8e1a1ec0f">gp_widget_get_child_by_name</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char *name, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **child)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the child with id <code>id</code> of the widget.  <a href="#a2fbb2a0674d0e0df1600b2f8ae84fc1"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#f3ba777c231da187a6b4cbb8e1a1ec0f">gp_widget_get_child_by_name</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char *name, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#6a7615b3fdf877fd72fa7f1a489ee0bb">gp_widget_get_root</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **root)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the child with name <code>name</code> of the widget.  <a href="#f3ba777c231da187a6b4cbb8e1a1ec0f"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#6a7615b3fdf877fd72fa7f1a489ee0bb">gp_widget_get_root</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **root)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3188a406c8a0b9915efcf54e852e880f"></a><!-- doxytag: member="gphoto2-widget.h::gp_widget_get_parent" ref="3188a406c8a0b9915efcf54e852e880f" args="(CameraWidget *widget, CameraWidget **parent)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_widget_get_parent</b> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **parent)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the root of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#6a7615b3fdf877fd72fa7f1a489ee0bb"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#3188a406c8a0b9915efcf54e852e880f">gp_widget_get_parent</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **parent)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#66bc9591d93b24d7264661d5b9a08167">gp_widget_set_value</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const void *value)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the parent of a CameraWidget.  <a href="#3188a406c8a0b9915efcf54e852e880f"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#66bc9591d93b24d7264661d5b9a08167">gp_widget_set_value</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const void *value)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#5a5b95809b2a44e62891044ab13b620c">gp_widget_get_value</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, void *value)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sets the value of the widget.  <a href="#66bc9591d93b24d7264661d5b9a08167"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#5a5b95809b2a44e62891044ab13b620c">gp_widget_get_value</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, void *value)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#27793f4d23525d73d0e06c2446662766">gp_widget_set_name</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char *name)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the value of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#5a5b95809b2a44e62891044ab13b620c"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#27793f4d23525d73d0e06c2446662766">gp_widget_set_name</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char *name)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#3e9d004e2112576c8f7b831f5aa0ba24">gp_widget_get_name</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char **name)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sets the name of the widget.  <a href="#27793f4d23525d73d0e06c2446662766"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#3e9d004e2112576c8f7b831f5aa0ba24">gp_widget_get_name</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char **name)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#160e5a9b8fb23d5dd13a945272830de5">gp_widget_set_info</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char *info)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gets the name of the widget.  <a href="#3e9d004e2112576c8f7b831f5aa0ba24"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#160e5a9b8fb23d5dd13a945272830de5">gp_widget_set_info</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char *info)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#9d73819d2801594aa41ede47098d6a1f">gp_widget_get_info</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char **info)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sets the information about the widget.  <a href="#160e5a9b8fb23d5dd13a945272830de5"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#9d73819d2801594aa41ede47098d6a1f">gp_widget_get_info</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char **info)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#c4ae3aa4a7815c0dd10f9dbb174125b7">gp_widget_get_id</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, int *id)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the information about the widget.  <a href="#9d73819d2801594aa41ede47098d6a1f"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#c4ae3aa4a7815c0dd10f9dbb174125b7">gp_widget_get_id</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, int *id)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#962eecbd0d2f48a9d0ebcbe53939f5e1">gp_widget_get_type</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, <a class="el" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> *type)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the unique id of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#c4ae3aa4a7815c0dd10f9dbb174125b7"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#962eecbd0d2f48a9d0ebcbe53939f5e1">gp_widget_get_type</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="el" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> *type)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#428d260fac33941c4e521f507d6c7912">gp_widget_get_label</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char **label)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the type of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#962eecbd0d2f48a9d0ebcbe53939f5e1"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#428d260fac33941c4e521f507d6c7912">gp_widget_get_label</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char **label)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#35209ab3ac97553ba8c894044a45b6c3">gp_widget_set_range</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *range, float low, float high, float increment)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the label of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#428d260fac33941c4e521f507d6c7912"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#35209ab3ac97553ba8c894044a45b6c3">gp_widget_set_range</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *range, float low, float high, float increment)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#01956f7e8258928b409d3bface0134e2">gp_widget_get_range</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *range, float *min, float *max, float *increment)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sets some range parameters of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#35209ab3ac97553ba8c894044a45b6c3"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#01956f7e8258928b409d3bface0134e2">gp_widget_get_range</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *range, float *min, float *max, float *increment)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#9613719bbe12dab747ee66dfa90f0c21">gp_widget_add_choice</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, const char *choice)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves some range parameters of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#01956f7e8258928b409d3bface0134e2"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#9613719bbe12dab747ee66dfa90f0c21">gp_widget_add_choice</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, const char *choice)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#722ed8d04420fa329915b5bce16b6479">gp_widget_count_choices</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Adds a choice to the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#9613719bbe12dab747ee66dfa90f0c21"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#722ed8d04420fa329915b5bce16b6479">gp_widget_count_choices</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#f571c3e5105f93b1aaebad646c97268e">gp_widget_get_choice</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, int choice_number, const char **choice)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Counts the choices of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>.  <a href="#722ed8d04420fa329915b5bce16b6479"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#f571c3e5105f93b1aaebad646c97268e">gp_widget_get_choice</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, int choice_number, const char **choice)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#1aeebf2744cacc0a9d8337c43ec3bafb">gp_widget_changed</a> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves the choice number <code>choice_number</code>.  <a href="#f571c3e5105f93b1aaebad646c97268e"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#1aeebf2744cacc0a9d8337c43ec3bafb">gp_widget_changed</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3c0b35f3388530da758926ac78fac06b"></a><!-- doxytag: member="gphoto2-widget.h::gp_widget_set_changed" ref="3c0b35f3388530da758926ac78fac06b" args="(CameraWidget *widget, int changed)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_widget_set_changed</b> (<a class="el" href="struct__CameraWidget.html">CameraWidget</a> *widget, int changed)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Tells if the widget has been changed.  <a href="#1aeebf2744cacc0a9d8337c43ec3bafb"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-widget_8h.html#3c0b35f3388530da758926ac78fac06b">gp_widget_set_changed</a> (<a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, int changed)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Tells that the widget has been changed.  <a href="#3c0b35f3388530da758926ac78fac06b"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 <dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2000 Scott Fritzinger</dd></dl>
@@ -155,7 +188,7 @@ Type of the widget to be created.
 The actual widget type we want to create. The type of the value it supports depends on this type. <dl compact><dt><b>Enumerator: </b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
 <tr><td valign="top"><em><a class="anchor" name="7cd148c282ae2f271804a654a99b1de0b9980ddc80aa1351dbe91ffedfbf9a78"></a><!-- doxytag: member="GP_WIDGET_WINDOW" ref="7cd148c282ae2f271804a654a99b1de0b9980ddc80aa1351dbe91ffedfbf9a78" args="" -->GP_WIDGET_WINDOW</em>&nbsp;</td><td>
-Window widget. </td></tr>
+Window widget This is the toplevel configuration widget. It should likely contain multiple <a class="el" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0c7639664196f645d330fbb13b28b3e0b">GP_WIDGET_SECTION</a> entries. </td></tr>
 <tr><td valign="top"><em><a class="anchor" name="7cd148c282ae2f271804a654a99b1de0c7639664196f645d330fbb13b28b3e0b"></a><!-- doxytag: member="GP_WIDGET_SECTION" ref="7cd148c282ae2f271804a654a99b1de0c7639664196f645d330fbb13b28b3e0b" args="" -->GP_WIDGET_SECTION</em>&nbsp;</td><td>
 Section widget (think Tab). </td></tr>
 <tr><td valign="top"><em><a class="anchor" name="7cd148c282ae2f271804a654a99b1de0da60ee00319cf75ce1d753e6330ed9a5"></a><!-- doxytag: member="GP_WIDGET_TEXT" ref="7cd148c282ae2f271804a654a99b1de0da60ee00319cf75ce1d753e6330ed9a5" args="" -->GP_WIDGET_TEXT</em>&nbsp;</td><td>
@@ -185,7 +218,7 @@ Date entering widget. </td></tr>
         <tr>
           <td class="memname">int gp_widget_add_choice           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -204,10 +237,11 @@ Date entering widget. </td></tr>
 <div class="memdoc">
 
 <p>
-Adds a choice to the CameraWidget<p>
+Adds a choice to the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget of type GP_WIDGET_RADIO or GP_WIDGET_MENU </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> of type GP_WIDGET_RADIO or GP_WIDGET_MENU </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>choice</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -222,13 +256,13 @@ Adds a choice to the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_append           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>child</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -241,11 +275,12 @@ Adds a choice to the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Appends a CameraWidget to a CameraWidget<p>
+Appends a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> to a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>child</em>&nbsp;</td><td>the CameraWidget you would like to append to above </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>child</em>&nbsp;</td><td>the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> you would like to append to above </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -259,7 +294,7 @@ Appends a CameraWidget to a CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_changed           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -269,14 +304,15 @@ Appends a CameraWidget to a CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Tells if the widget has been changed<p>
+Tells if the widget has been changed. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code or changed flag.</dd></dl>
-Returns 1 if the state of the CameraWidget has been changed or 0 if not. In addition, it resets the changed flag to 0. 
+Returns 1 if the state of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> has been changed or 0 if not. In addition, it resets the changed flag to 0. 
 </div>
 </div><p>
 <a class="anchor" name="45d910d1b073720cde11cc40983f6d61"></a><!-- doxytag: member="gphoto2-widget.h::gp_widget_count_children" ref="45d910d1b073720cde11cc40983f6d61" args="(CameraWidget *widget)" -->
@@ -286,7 +322,7 @@ Returns 1 if the state of the CameraWidget has been changed or 0 if not. In addi
         <tr>
           <td class="memname">int gp_widget_count_children           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -296,10 +332,11 @@ Returns 1 if the state of the CameraWidget has been changed or 0 if not. In addi
 <div class="memdoc">
 
 <p>
-Counts the children of the CameraWidget<p>
+Counts the children of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code or number of children </dd></dl>
@@ -313,7 +350,7 @@ Counts the children of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_count_choices           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -323,10 +360,11 @@ Counts the children of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Counts the choices of the CameraWidget<p>
+Counts the choices of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget of type GP_WIDGET_RADIO or GP_WIDGET_MENU </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> of type GP_WIDGET_RADIO or GP_WIDGET_MENU </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code or number of choices. </dd></dl>
@@ -340,7 +378,7 @@ Counts the choices of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_free           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -350,10 +388,11 @@ Counts the choices of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Frees a CameraWidget<p>
+Frees a CameraWidget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>the CameraWidget to be freed </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> to be freed </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -367,7 +406,7 @@ Frees a CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_get_child           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -379,7 +418,7 @@ Frees a CameraWidget<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
           <td class="paramname"> <em>child</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -392,10 +431,11 @@ Frees a CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the child number <code>child_number</code> of the parent<p>
+Retrieves the child number <code>child_number</code> of the parent. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>child_number</em>&nbsp;</td><td>the number of the child </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>child</em>&nbsp;</td><td></td></tr>
   </table>
@@ -411,7 +451,7 @@ Retrieves the child number <code>child_number</code> of the parent<p>
         <tr>
           <td class="memname">int gp_widget_get_child_by_id           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -423,7 +463,7 @@ Retrieves the child number <code>child_number</code> of the parent<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
           <td class="paramname"> <em>child</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -436,10 +476,11 @@ Retrieves the child number <code>child_number</code> of the parent<p>
 <div class="memdoc">
 
 <p>
-Retrieves the child with id <code>id</code> of the widget<p>
+Retrieves the child with id <code>id</code> of the widget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>the id of the child </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>child</em>&nbsp;</td><td></td></tr>
   </table>
@@ -455,7 +496,7 @@ Retrieves the child with id <code>id</code> of the widget<p>
         <tr>
           <td class="memname">int gp_widget_get_child_by_label           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -467,7 +508,7 @@ Retrieves the child with id <code>id</code> of the widget<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
           <td class="paramname"> <em>child</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -480,10 +521,11 @@ Retrieves the child with id <code>id</code> of the widget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the child with label <code>label</code> of the CameraWidget<p>
+Retrieves the child with label <code>label</code> of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>label</em>&nbsp;</td><td>the label of the child </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>child</em>&nbsp;</td><td></td></tr>
   </table>
@@ -499,7 +541,7 @@ Retrieves the child with label <code>label</code> of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_get_child_by_name           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -511,7 +553,7 @@ Retrieves the child with label <code>label</code> of the CameraWidget<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
           <td class="paramname"> <em>child</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -524,10 +566,11 @@ Retrieves the child with label <code>label</code> of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the child with name <code>name</code> of the widget<p>
+Retrieves the child with name <code>name</code> of the widget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>the name of the child </td></tr>
   </table>
 </dl>
@@ -542,7 +585,7 @@ Retrieves the child with name <code>name</code> of the widget<p>
         <tr>
           <td class="memname">int gp_widget_get_choice           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -567,10 +610,11 @@ Retrieves the child with name <code>name</code> of the widget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the choice number <code>choice_number</code> <p>
+Retrieves the choice number <code>choice_number</code>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget of type GP_WIDGET_RADIO or GP_WIDGET_MENU </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> of type GP_WIDGET_RADIO or GP_WIDGET_MENU </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>choice_number</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>choice</em>&nbsp;</td><td></td></tr>
   </table>
@@ -586,7 +630,7 @@ Retrieves the choice number <code>choice_number</code> <p>
         <tr>
           <td class="memname">int gp_widget_get_id           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -605,10 +649,11 @@ Retrieves the choice number <code>choice_number</code> <p>
 <div class="memdoc">
 
 <p>
-Retrieves the unique id of the CameraWidget<p>
+Retrieves the unique id of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -623,7 +668,7 @@ Retrieves the unique id of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_get_info           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -642,10 +687,11 @@ Retrieves the unique id of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the information about the widget<p>
+Retrieves the information about the widget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>info</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -660,7 +706,7 @@ Retrieves the information about the widget<p>
         <tr>
           <td class="memname">int gp_widget_get_label           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -679,10 +725,11 @@ Retrieves the information about the widget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the label of the CameraWidget<p>
+Retrieves the label of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>label</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -697,7 +744,7 @@ Retrieves the label of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_get_name           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -716,11 +763,50 @@ Retrieves the label of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Gets the name of the widget<p>
+Gets the name of the widget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>Name of above widget </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="3188a406c8a0b9915efcf54e852e880f"></a><!-- doxytag: member="gphoto2-widget.h::gp_widget_get_parent" ref="3188a406c8a0b9915efcf54e852e880f" args="(CameraWidget *widget, CameraWidget **parent)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_widget_get_parent           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
+          <td class="paramname"> <em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
+          <td class="paramname"> <em>parent</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Retrieves the parent of a CameraWidget. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>parent</em>&nbsp;</td><td>the pointer to the parent to return </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -734,7 +820,7 @@ Gets the name of the widget<p>
         <tr>
           <td class="memname">int gp_widget_get_range           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>range</em>, </td>
         </tr>
         <tr>
@@ -765,10 +851,11 @@ Gets the name of the widget<p>
 <div class="memdoc">
 
 <p>
-Retrieves some range parameters of the CameraWidget<p>
+Retrieves some range parameters of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>range</em>&nbsp;</td><td>a CameraWidget of type GP_WIDGET_RANGE </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>range</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> of type GP_WIDGET_RANGE </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>min</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>max</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>increment</em>&nbsp;</td><td></td></tr>
@@ -785,13 +872,13 @@ Retrieves some range parameters of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_get_root           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
           <td class="paramname"> <em>root</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -804,10 +891,11 @@ Retrieves some range parameters of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the root of the CameraWidget<p>
+Retrieves the root of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>root</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -822,7 +910,7 @@ Retrieves the root of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_get_type           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -841,10 +929,11 @@ Retrieves the root of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the type of the CameraWidget<p>
+Retrieves the type of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>type</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -859,7 +948,7 @@ Retrieves the type of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_get_value           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -878,10 +967,11 @@ Retrieves the type of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Retrieves the value of the CameraWidget<p>
+Retrieves the value of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -908,7 +998,7 @@ Retrieves the value of the CameraWidget<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
           <td class="paramname"> <em>widget</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -921,7 +1011,9 @@ Retrieves the value of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-The function creates a new CameraWidget of specified type and with given label.<p>
+Create a new widget. 
+<p>
+The function creates a new <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> of specified type and with given label.<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>type</em>&nbsp;</td><td>the type </td></tr>
@@ -940,13 +1032,13 @@ The function creates a new CameraWidget of specified type and with given label.<
         <tr>
           <td class="memname">int gp_widget_prepend           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>child</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -959,11 +1051,12 @@ The function creates a new CameraWidget of specified type and with given label.<
 <div class="memdoc">
 
 <p>
-Prepends a CameraWidget to a CameraWidget<p>
+Prepends a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> to a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>child</em>&nbsp;</td><td>the CameraWidget you would like to prepend to above </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>child</em>&nbsp;</td><td>the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> you would like to prepend to above </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -977,7 +1070,7 @@ Prepends a CameraWidget to a CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_ref           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -987,14 +1080,53 @@ Prepends a CameraWidget to a CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Increments the reference count for the CameraWidget<p>
+Increments the reference count for the CameraWidget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget you want to ref-count </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> you want to ref-count </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
 
+</div>
+</div><p>
+<a class="anchor" name="3c0b35f3388530da758926ac78fac06b"></a><!-- doxytag: member="gphoto2-widget.h::gp_widget_set_changed" ref="3c0b35f3388530da758926ac78fac06b" args="(CameraWidget *widget, int changed)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_widget_set_changed           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
+          <td class="paramname"> <em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>changed</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Tells that the widget has been changed. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>changed</em>&nbsp;</td><td>a boolean whether we changed or not </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code</dd></dl>
+Sets the changed of the CameraWidget depending on the changed parameter. 
 </div>
 </div><p>
 <a class="anchor" name="160e5a9b8fb23d5dd13a945272830de5"></a><!-- doxytag: member="gphoto2-widget.h::gp_widget_set_info" ref="160e5a9b8fb23d5dd13a945272830de5" args="(CameraWidget *widget, const char *info)" -->
@@ -1004,7 +1136,7 @@ Increments the reference count for the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_set_info           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -1023,10 +1155,11 @@ Increments the reference count for the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Sets the information about the widget<p>
+Sets the information about the widget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>info</em>&nbsp;</td><td>Information about above widget </td></tr>
   </table>
 </dl>
@@ -1041,7 +1174,7 @@ Sets the information about the widget<p>
         <tr>
           <td class="memname">int gp_widget_set_name           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -1060,10 +1193,11 @@ Sets the information about the widget<p>
 <div class="memdoc">
 
 <p>
-Sets the name of the widget<p>
+Sets the name of the widget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>Name of above widget </td></tr>
   </table>
 </dl>
@@ -1078,7 +1212,7 @@ Sets the name of the widget<p>
         <tr>
           <td class="memname">int gp_widget_set_range           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>range</em>, </td>
         </tr>
         <tr>
@@ -1109,10 +1243,11 @@ Sets the name of the widget<p>
 <div class="memdoc">
 
 <p>
-Sets some range parameters of the CameraWidget<p>
+Sets some range parameters of the <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>range</em>&nbsp;</td><td>a CameraWidget of type GP_WIDGET_RANGE </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>range</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> of type GP_WIDGET_RANGE </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>min</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>max</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>increment</em>&nbsp;</td><td></td></tr>
@@ -1129,7 +1264,7 @@ Sets some range parameters of the CameraWidget<p>
         <tr>
           <td class="memname">int gp_widget_set_value           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>, </td>
         </tr>
         <tr>
@@ -1148,10 +1283,11 @@ Sets some range parameters of the CameraWidget<p>
 <div class="memdoc">
 
 <p>
-Sets the value of the widget<p>
+Sets the value of the widget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -1166,7 +1302,7 @@ Please pass (char*) for GP_WIDGET_MENU, GP_WIDGET_TEXT, (float) for GP_WIDGET_RA
         <tr>
           <td class="memname">int gp_widget_unref           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>widget</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -1176,7 +1312,8 @@ Please pass (char*) for GP_WIDGET_MENU, GP_WIDGET_TEXT, (float) for GP_WIDGET_RA
 <div class="memdoc">
 
 <p>
-Decrements the reference count for the CameraWidget<p>
+Decrements the reference count for the CameraWidget. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>widget</em>&nbsp;</td><td>a CameraWidget you want to unref </td></tr>
@@ -1186,7 +1323,7 @@ Decrements the reference count for the CameraWidget<p>
 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:30 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

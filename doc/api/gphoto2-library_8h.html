@@ -24,23 +24,22 @@
 <p>
 <code>#include &lt;<a class="el" href="gphoto2-abilities-list_8h-source.html">gphoto2/gphoto2-abilities-list.h</a>&gt;</code><br>
 <code>#include &lt;<a class="el" href="gphoto2-camera_8h-source.html">gphoto2/gphoto2-camera.h</a>&gt;</code><br>
-<code>#include &lt;<a class="el" href="gphoto2-context_8h-source.html">gphoto2/gphoto2-context.h</a>&gt;</code><br>
 
 <p>
 Include dependency graph for gphoto2-library.h:<p><center><img src="gphoto2-library_8h__incl.png" border="0" usemap="#gphoto2/gphoto2-library.h_map" alt=""></center>
 <map name="gphoto2/gphoto2-library.h_map">
-<area href="gphoto2-abilities-list_8h.html" shape="rect" coords="461,57,664,84" alt="">
-<area href="gphoto2-context_8h.html" shape="rect" coords="713,57,895,84" alt="">
-<area href="gphoto2-camera_8h.html" shape="rect" coords="229,108,411,135" alt="">
+<area href="gphoto2-abilities-list_8h.html" shape="rect" coords="461,32,664,59" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="229,58,411,84" alt="">
 </map>
 
 <p>
 This graph shows which files directly or indirectly include this file:<p><center><img src="gphoto2-library_8h__dep__incl.png" border="0" usemap="#gphoto2/gphoto2-library.hdep_map" alt=""></center>
 <map name="gphoto2/gphoto2-library.hdep_map">
-<area href="gphoto2-abilities-list_8c.html" shape="rect" coords="229,7,445,33" alt="">
-<area href="gphoto2-camera_8c.html" shape="rect" coords="240,57,435,84" alt="">
-<area href="gphoto2_8h.html" shape="rect" coords="271,108,404,135" alt="">
-<area href="template_8c.html" shape="rect" coords="243,159,432,185" alt="">
+<area href="gphoto2-abilities-list_8c.html" shape="rect" coords="229,7,445,34" alt="">
+<area href="gphoto2-camera_8c.html" shape="rect" coords="240,58,435,84" alt="">
+<area href="gphoto2-library_8c.html" shape="rect" coords="244,108,431,135" alt="">
+<area href="gphoto2_8h.html" shape="rect" coords="271,159,404,186" alt="">
+<area href="template_8c.html" shape="rect" coords="243,210,432,236" alt="">
 </map>
 
 <p>
@@ -56,8 +55,10 @@ This graph shows which files directly or indirectly include this file:<p><center
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8h.html#d9b006ebc1e76e7142dfad1a52bb5e13">camera_id</a> (<a class="el" href="structCameraText.html">CameraText</a> *id)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get a unique camera id.  <a href="#d9b006ebc1e76e7142dfad1a52bb5e13"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8h.html#a557fac6fbfd62f693452008a23518e9">camera_abilities</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get a list of abilities of all supported cameras.  <a href="#a557fac6fbfd62f693452008a23518e9"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8h.html#791b7f0818524951418d7c0ff0b81929">camera_init</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 </table>
@@ -154,6 +155,8 @@ The camera driver will establish a first connection to the camera and configure 
 <div class="memdoc">
 
 <p>
+Get a list of abilities of all supported cameras. 
+<p>
 Fill list with abilities of the cameras supported by this camlib.<p>
 For each camera, fill a <a class="el" href="structCameraAbilities.html">CameraAbilities</a> structure with data about that camera and append it to the list.<p>
 The job of this function is basically to extract data from a camlib specific database and insert it into the libgphoto2 camera database. Due to redundant data and other issues, we may decide to revise that database mechanism and replace it by something more flexible and efficient.<p>
@@ -176,6 +179,8 @@ This is a camlib API function.
 </div>
 <div class="memdoc">
 
+<p>
+Get a unique camera id. 
 <p>
 Set library ID string.<p>
 Probably redundant and to be removed shortly, being replaced by the libtool module name defined in the build system.<p>
@@ -213,7 +218,7 @@ Sets up all the proper object function pointers, initialize camlib internal data
 This is a camlib API function. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:29 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

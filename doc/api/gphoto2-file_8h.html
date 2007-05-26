@@ -30,13 +30,13 @@ Include dependency graph for gphoto2-file.h:<p><center><img src="gphoto2-file_8h
 <p>
 This graph shows which files directly or indirectly include this file:<p><center><img src="gphoto2-file_8h__dep__incl.png" border="0" usemap="#gphoto2/gphoto2-file.hdep_map" alt=""></center>
 <map name="gphoto2/gphoto2-file.hdep_map">
-<area href="gphoto2-file_8c.html" shape="rect" coords="216,7,384,33" alt="">
-<area href="gphoto2-filesys_8c.html" shape="rect" coords="437,172,624,199" alt="">
-<area href="jpeg_8h.html" shape="rect" coords="239,57,361,84" alt="">
-<area href="jpeg_8c.html" shape="rect" coords="469,83,592,109" alt="">
-<area href="gphoto2-camera_8h.html" shape="rect" coords="440,248,621,275" alt="">
-<area href="gphoto2-filesys_8h.html" shape="rect" coords="213,209,387,236" alt="">
-<area href="gphoto2_8h.html" shape="rect" coords="233,311,367,337" alt="">
+<area href="gphoto2-file_8c.html" shape="rect" coords="216,7,384,34" alt="">
+<area href="jpeg_8h.html" shape="rect" coords="239,58,361,84" alt="">
+<area href="jpeg_8c.html" shape="rect" coords="469,83,592,110" alt="">
+<area href="gphoto2-filesys_8h.html" shape="rect" coords="213,159,387,186" alt="">
+<area href="gphoto2_8h.html" shape="rect" coords="233,210,367,236" alt="">
+<area href="gphoto2-filesys_8c.html" shape="rect" coords="437,134,624,160" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="440,184,621,211" alt="">
 </map>
 
 <p>
@@ -102,7 +102,7 @@ This graph shows which files directly or indirectly include this file:<p><center
 
 <tr><td colspan="2"><br><h2>Typedefs</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="39b00d3c7c9123823718225948af9ae4"></a><!-- doxytag: member="gphoto2-file.h::CameraFile" ref="39b00d3c7c9123823718225948af9ae4" args="" -->
-typedef <a class="el" href="struct__CameraFile.html">_CameraFile</a>&nbsp;</td><td class="memItemRight" valign="bottom"><b>CameraFile</b></td></tr>
+typedef _CameraFile&nbsp;</td><td class="memItemRight" valign="bottom"><b>CameraFile</b></td></tr>
 
 <tr><td colspan="2"><br><h2>Enumerations</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> { <br>
@@ -123,54 +123,54 @@ typedef <a class="el" href="struct__CameraFile.html">_CameraFile</a>&nbsp;</td><
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">File storage type.  <a href="gphoto2-file_8h.html#11ca90674476cc62c622cb15bdb25b0d">More...</a><br></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#08dce5c38499b064d9eead1799c1aad3">gp_file_new</a> (<a class="el" href="classCameraFile.html">CameraFile</a> **file)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#08dce5c38499b064d9eead1799c1aad3">gp_file_new</a> (<a class="el" href="structCameraFile.html">CameraFile</a> **file)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#7f4c79e3678d1a33d385bc021f462401">gp_file_new_from_fd</a> (<a class="el" href="classCameraFile.html">CameraFile</a> **file, int fd)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#7f4c79e3678d1a33d385bc021f462401">gp_file_new_from_fd</a> (<a class="el" href="structCameraFile.html">CameraFile</a> **file, int fd)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#30804b314517b5363db0b923f7bd31b8">gp_file_ref</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#30804b314517b5363db0b923f7bd31b8">gp_file_ref</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Increase reference counter for <a class="el" href="classCameraFile.html">CameraFile</a> object.  <a href="#30804b314517b5363db0b923f7bd31b8"></a><br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#e91ac95b6d3e742512aeb6121f3fb68c">gp_file_unref</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Increase reference counter for <a class="el" href="structCameraFile.html">CameraFile</a> object.  <a href="#30804b314517b5363db0b923f7bd31b8"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#e91ac95b6d3e742512aeb6121f3fb68c">gp_file_unref</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Decrease reference counter for <a class="el" href="classCameraFile.html">CameraFile</a> object.  <a href="#e91ac95b6d3e742512aeb6121f3fb68c"></a><br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#8cba0320839c9fcb7ce691b4d3d9103e">gp_file_free</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Decrease reference counter for <a class="el" href="structCameraFile.html">CameraFile</a> object.  <a href="#e91ac95b6d3e742512aeb6121f3fb68c"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#8cba0320839c9fcb7ce691b4d3d9103e">gp_file_free</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file)</td></tr>
 
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">descruct a <a class="el" href="classCameraFile.html">CameraFile</a> object.  <a href="#8cba0320839c9fcb7ce691b4d3d9103e"></a><br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#0afadaffd0f1f2d1dc8cecc16039bc88">gp_file_open</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, const char *filename)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">descruct a <a class="el" href="structCameraFile.html">CameraFile</a> object.  <a href="#8cba0320839c9fcb7ce691b4d3d9103e"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#0afadaffd0f1f2d1dc8cecc16039bc88">gp_file_open</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, const char *filename)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#2ccbdaaa714f362cedbfe8e1043af208">gp_file_save</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, const char *filename)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#2ccbdaaa714f362cedbfe8e1043af208">gp_file_save</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, const char *filename)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#4e886ba4aa08e8c4dbb9e08f69985807">gp_file_clean</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#4e886ba4aa08e8c4dbb9e08f69985807">gp_file_clean</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#d0eb8f9db4844598c1a05e5b4da32778">gp_file_copy</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *destination, <a class="el" href="classCameraFile.html">CameraFile</a> *source)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#d0eb8f9db4844598c1a05e5b4da32778">gp_file_copy</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *destination, <a class="el" href="structCameraFile.html">CameraFile</a> *source)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#7a5451f2389b29f722b3f0c040588a30">gp_file_set_name</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, const char *name)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#7a5451f2389b29f722b3f0c040588a30">gp_file_set_name</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, const char *name)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#5eeef36ceb66e7e5699998a8c791dc37">gp_file_get_name</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, const char **name)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#5eeef36ceb66e7e5699998a8c791dc37">gp_file_get_name</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, const char **name)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#a1c508dd121b566688fa63688c10b004">gp_file_set_mime_type</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, const char *mime_type)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#a1c508dd121b566688fa63688c10b004">gp_file_set_mime_type</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, const char *mime_type)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#0d4d49a8162d15bfd771f274bcb8effc">gp_file_get_mime_type</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, const char **mime_type)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#0d4d49a8162d15bfd771f274bcb8effc">gp_file_get_mime_type</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, const char **mime_type)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#cfcf7f102431bb8758ad2991dcbdc958">gp_file_set_type</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> type)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#cfcf7f102431bb8758ad2991dcbdc958">gp_file_set_type</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> type)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#ceb8851e2105504966bd638a38a6e791">gp_file_get_type</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> *type)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#ceb8851e2105504966bd638a38a6e791">gp_file_get_type</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> *type)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#4c2dbee235096d5fad714e3985e54d8a">gp_file_set_mtime</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, time_t mtime)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#4c2dbee235096d5fad714e3985e54d8a">gp_file_set_mtime</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, time_t mtime)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#82fe80dd01d16708fd4863b392e3d57f">gp_file_get_mtime</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file, time_t *mtime)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#82fe80dd01d16708fd4863b392e3d57f">gp_file_get_mtime</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file, time_t *mtime)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#92cf73702babbd2d0e9f3417f64daff3">gp_file_detect_mime_type</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#92cf73702babbd2d0e9f3417f64daff3">gp_file_detect_mime_type</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#c913ee66ad38f5d8c6a7cc84b8ac2669">gp_file_adjust_name_for_mime_type</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *file)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#c913ee66ad38f5d8c6a7cc84b8ac2669">gp_file_adjust_name_for_mime_type</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *file)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#422d6bbfaf2f2d4d81d2acaeb63e3846">gp_file_append</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *, const char *data, unsigned long int size)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#422d6bbfaf2f2d4d81d2acaeb63e3846">gp_file_append</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *, const char *data, unsigned long int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#e22bab71caed9c2af704bfe8780743be">gp_file_slurp</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *, char *data, size_t size, size_t *readlen)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#e22bab71caed9c2af704bfe8780743be">gp_file_slurp</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *, char *data, size_t size, size_t *readlen)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#d26bf29033cb07a5c6e4aebef1673bd9">gp_file_set_data_and_size</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *, char *data, unsigned long int size)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#d26bf29033cb07a5c6e4aebef1673bd9">gp_file_set_data_and_size</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *, char *data, unsigned long int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#e61dbb771ff58d73bc632a7d49b244d3">gp_file_get_data_and_size</a> (<a class="el" href="classCameraFile.html">CameraFile</a> *, const char **data, unsigned long int *size)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-file_8h.html#e61dbb771ff58d73bc632a7d49b244d3">gp_file_get_data_and_size</a> (<a class="el" href="structCameraFile.html">CameraFile</a> *, const char **data, unsigned long int *size)</td></tr>
 
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
@@ -247,7 +247,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
         <tr>
           <td class="memname">int gp_file_adjust_name_for_mime_type           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -259,7 +259,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -273,7 +273,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
         <tr>
           <td class="memname">int gp_file_append           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -300,7 +300,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td></td></tr>
   </table>
@@ -316,7 +316,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
         <tr>
           <td class="memname">int gp_file_clean           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -328,7 +328,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -342,13 +342,13 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
         <tr>
           <td class="memname">int gp_file_copy           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>destination</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>source</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -363,8 +363,8 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>destination</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>source</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>destination</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>source</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -378,7 +378,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
         <tr>
           <td class="memname">int gp_file_detect_mime_type           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -390,7 +390,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -404,7 +404,7 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
         <tr>
           <td class="memname">int gp_file_free           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -414,11 +414,11 @@ The metadata of a file, like Metadata of files on MTP devices. </td></tr>
 <div class="memdoc">
 
 <p>
-descruct a <a class="el" href="classCameraFile.html">CameraFile</a> object. 
+descruct a <a class="el" href="structCameraFile.html">CameraFile</a> object. 
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -432,7 +432,7 @@ descruct a <a class="el" href="classCameraFile.html">CameraFile</a> object.
         <tr>
           <td class="memname">int gp_file_get_data_and_size           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -460,7 +460,7 @@ descruct a <a class="el" href="classCameraFile.html">CameraFile</a> object.
 Get a pointer to the data and the file's size.<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td></td></tr>
   </table>
@@ -476,7 +476,7 @@ Both data and size can be NULL and will then be ignored.
         <tr>
           <td class="memname">int gp_file_get_mime_type           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -497,7 +497,7 @@ Both data and size can be NULL and will then be ignored.
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>mime_type</em>&nbsp;</td><td>a pointer to a MIME type string </td></tr>
   </table>
 </dl>
@@ -512,7 +512,7 @@ Both data and size can be NULL and will then be ignored.
         <tr>
           <td class="memname">int gp_file_get_mtime           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -533,7 +533,7 @@ Both data and size can be NULL and will then be ignored.
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>mtime</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -548,7 +548,7 @@ Both data and size can be NULL and will then be ignored.
         <tr>
           <td class="memname">int gp_file_get_name           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -569,7 +569,7 @@ Both data and size can be NULL and will then be ignored.
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>a pointer to a name string </td></tr>
   </table>
 </dl>
@@ -584,7 +584,7 @@ Both data and size can be NULL and will then be ignored.
         <tr>
           <td class="memname">int gp_file_get_type           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -605,7 +605,7 @@ Both data and size can be NULL and will then be ignored.
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>type</em>&nbsp;</td><td>a <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> </td></tr>
   </table>
 </dl>
@@ -620,7 +620,7 @@ Both data and size can be NULL and will then be ignored.
         <tr>
           <td class="memname">int gp_file_new           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> **&nbsp;</td>
           <td class="paramname"> <em>file</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -630,10 +630,10 @@ Both data and size can be NULL and will then be ignored.
 <div class="memdoc">
 
 <p>
-Create new <a class="el" href="classCameraFile.html">CameraFile</a> object.<p>
+Create new <a class="el" href="structCameraFile.html">CameraFile</a> object.<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a pointer to a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a pointer to a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -647,7 +647,7 @@ Create new <a class="el" href="classCameraFile.html">CameraFile</a> object.<p>
         <tr>
           <td class="memname">int gp_file_new_from_fd           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> **&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -666,10 +666,10 @@ Create new <a class="el" href="classCameraFile.html">CameraFile</a> object.<p>
 <div class="memdoc">
 
 <p>
-Create new <a class="el" href="classCameraFile.html">CameraFile</a> object from a UNIX filedescriptor.<p>
+Create new <a class="el" href="structCameraFile.html">CameraFile</a> object from a UNIX filedescriptor.<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a pointer to a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a pointer to a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>fd</em>&nbsp;</td><td>a UNIX filedescriptor </td></tr>
   </table>
 </dl>
@@ -684,7 +684,7 @@ Create new <a class="el" href="classCameraFile.html">CameraFile</a> object from 
         <tr>
           <td class="memname">int gp_file_open           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -705,7 +705,7 @@ Create new <a class="el" href="classCameraFile.html">CameraFile</a> object from 
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -720,7 +720,7 @@ Create new <a class="el" href="classCameraFile.html">CameraFile</a> object from 
         <tr>
           <td class="memname">int gp_file_ref           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -730,11 +730,11 @@ Create new <a class="el" href="classCameraFile.html">CameraFile</a> object from 
 <div class="memdoc">
 
 <p>
-Increase reference counter for <a class="el" href="classCameraFile.html">CameraFile</a> object. 
+Increase reference counter for <a class="el" href="structCameraFile.html">CameraFile</a> object. 
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
@@ -748,7 +748,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
         <tr>
           <td class="memname">int gp_file_save           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -769,7 +769,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -784,7 +784,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
         <tr>
           <td class="memname">int gp_file_set_data_and_size           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -811,7 +811,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td></td></tr>
   </table>
@@ -827,7 +827,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
         <tr>
           <td class="memname">int gp_file_set_mime_type           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -848,7 +848,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>mime_type</em>&nbsp;</td><td>a MIME type string </td></tr>
   </table>
 </dl>
@@ -863,7 +863,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
         <tr>
           <td class="memname">int gp_file_set_mtime           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -884,7 +884,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>mtime</em>&nbsp;</td><td></td></tr>
   </table>
 </dl>
@@ -899,7 +899,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
         <tr>
           <td class="memname">int gp_file_set_name           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -920,7 +920,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>a pointer to a MIME type string </td></tr>
   </table>
 </dl>
@@ -935,7 +935,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
         <tr>
           <td class="memname">int gp_file_set_type           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -956,7 +956,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>type</em>&nbsp;</td><td>a <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> </td></tr>
   </table>
 </dl>
@@ -971,7 +971,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
         <tr>
           <td class="memname">int gp_file_slurp           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -1004,7 +1004,7 @@ Increase reference counter for <a class="el" href="classCameraFile.html">CameraF
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td></td></tr>
     <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td></td></tr>
   </table>
@@ -1020,7 +1020,7 @@ Internal.
         <tr>
           <td class="memname">int gp_file_unref           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -1030,18 +1030,18 @@ Internal.
 <div class="memdoc">
 
 <p>
-Decrease reference counter for <a class="el" href="classCameraFile.html">CameraFile</a> object. 
+Decrease reference counter for <a class="el" href="structCameraFile.html">CameraFile</a> object. 
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:28 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

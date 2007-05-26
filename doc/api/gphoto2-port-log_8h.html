@@ -50,27 +50,33 @@ This graph shows which files directly or indirectly include this file:<p><center
 <tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#a26109fad9527e5445ebbd002f8ab590">GP_LOG_ALL</a>&nbsp;&nbsp;&nbsp;GP_LOG_DATA</td></tr>
 
 <tr><td colspan="2"><br><h2>Typedefs</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="68479eab20e745bbf4e2b09b2f6abfb9"></a><!-- doxytag: member="gphoto2-port-log.h::GPLogFunc" ref="68479eab20e745bbf4e2b09b2f6abfb9" args="(GPLogLevel level, const char *domain, const char *format, va_list args, void *data)" -->
-typedef void(*)&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPLogFunc</b> (GPLogLevel level, const char *domain, const char *format, va_list args, void *data)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef void(*)&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a> (<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, const char *domain, const char *format, va_list args, void *data)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Logging function hook.  <a href="#68479eab20e745bbf4e2b09b2f6abfb9"></a><br></td></tr>
 <tr><td colspan="2"><br><h2>Enumerations</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><b>GPLogLevel</b> { <b>GP_LOG_ERROR</b> =  0, 
-<b>GP_LOG_VERBOSE</b> =  1, 
-<b>GP_LOG_DEBUG</b> =  2, 
-<b>GP_LOG_DATA</b> =  3
+<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> { <a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406e1b948a74aa83341add82d0a4d67b5a3">GP_LOG_ERROR</a> =  0, 
+<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406c9f0f36e68354c35b863a93e2e22e1c7">GP_LOG_VERBOSE</a> =  1, 
+<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406af08742d60a2294ae19a7dfa1a38f5f1">GP_LOG_DEBUG</a> =  2, 
+<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406f2eae7b917e0b5f2903bb9ad6cd6bc5d">GP_LOG_DATA</a> =  3
  }</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Logging level Specifies the logging severity level.  <a href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">More...</a><br></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a> (GPLogLevel level, GPLogFunc func, void *data)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a> (<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, <a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a> func, void *data)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Add a function to get logging information.  <a href="#93c15da75612eccac26bf835e5ee75ca"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#2c6a91e6adb2ae7ad15bb523c2034efe">gp_log_remove_func</a> (int id)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> (GPLogLevel level, const char *domain, const char *format,...)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Remove a logging receiving function.  <a href="#2c6a91e6adb2ae7ad15bb523c2034efe"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> (<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, const char *domain, const char *format,...)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#d9adb5be970eb84f617de76716b9943b">gp_logv</a> (GPLogLevel level, const char *domain, const char *format, va_list args)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log a debug or error message.  <a href="#e7ac6c05095d63ac5643a6ef66b3b479"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#d9adb5be970eb84f617de76716b9943b">gp_logv</a> (<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, const char *domain, const char *format, va_list args)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log a debug or error message with va_list.  <a href="#d9adb5be970eb84f617de76716b9943b"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8h.html#1f19a6a04565c8ef4cc573ea32362d38">gp_log_data</a> (const char *domain, const char *data, unsigned int size)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log data domain the domain data the data to be logged size the size of the data.  <a href="#1f19a6a04565c8ef4cc573ea32362d38"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 Copyright © 2001 Lutz Müller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt;<p>
@@ -93,6 +99,64 @@ GP_LOG_ALL:<p>
 Used by frontends if they want to be sure their callback function receives all messages. Defined as the highest debug level. Can make frontend code more understandable and extension of log levels easier. 
 </div>
 </div><p>
+<hr><h2>Typedef Documentation</h2>
+<a class="anchor" name="68479eab20e745bbf4e2b09b2f6abfb9"></a><!-- doxytag: member="gphoto2-port-log.h::GPLogFunc" ref="68479eab20e745bbf4e2b09b2f6abfb9" args="(GPLogLevel level, const char *domain, const char *format, va_list args, void *data)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* ) <a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a>(<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, const char *domain, const char *format, va_list args, void *data)          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Logging function hook. 
+<p>
+This is the function frontends can use to receive logging information from the libgphoto2 framework. It is set using <a class="el" href="gphoto2-port-log_8h.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func()</a> and removed using <a class="el" href="gphoto2-port-log_8h.html#2c6a91e6adb2ae7ad15bb523c2034efe">gp_log_remove_func()</a> and will then receive the logging messages of the level specified.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>the log level of the passed message, as set by the camera driver or libgphoto2 </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>domain</em>&nbsp;</td><td>the logging domain as set by the camera driver, or libgphoto2 function </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>the printf style format string of the logmessage, without linefeed </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>args</em>&nbsp;</td><td>the arguments as va_list, depending on the format string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>the caller private data that was passed to <a class="el" href="gphoto2-port-log_8h.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func()</a> </td></tr>
+  </table>
+</dl>
+
+</div>
+</div><p>
+<hr><h2>Enumeration Type Documentation</h2>
+<a class="anchor" name="44be275dbb77a9d89914b889ecb31406"></a><!-- doxytag: member="gphoto2-port-log.h::GPLogLevel" ref="44be275dbb77a9d89914b889ecb31406" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Logging level Specifies the logging severity level. 
+<p>
+<dl compact><dt><b>Enumerator: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" name="44be275dbb77a9d89914b889ecb31406e1b948a74aa83341add82d0a4d67b5a3"></a><!-- doxytag: member="GP_LOG_ERROR" ref="44be275dbb77a9d89914b889ecb31406e1b948a74aa83341add82d0a4d67b5a3" args="" -->GP_LOG_ERROR</em>&nbsp;</td><td>
+Log message is an error infomation. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="44be275dbb77a9d89914b889ecb31406c9f0f36e68354c35b863a93e2e22e1c7"></a><!-- doxytag: member="GP_LOG_VERBOSE" ref="44be275dbb77a9d89914b889ecb31406c9f0f36e68354c35b863a93e2e22e1c7" args="" -->GP_LOG_VERBOSE</em>&nbsp;</td><td>
+Log message is an verbose debug infomation. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="44be275dbb77a9d89914b889ecb31406af08742d60a2294ae19a7dfa1a38f5f1"></a><!-- doxytag: member="GP_LOG_DEBUG" ref="44be275dbb77a9d89914b889ecb31406af08742d60a2294ae19a7dfa1a38f5f1" args="" -->GP_LOG_DEBUG</em>&nbsp;</td><td>
+Log message is an debug infomation. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="44be275dbb77a9d89914b889ecb31406f2eae7b917e0b5f2903bb9ad6cd6bc5d"></a><!-- doxytag: member="GP_LOG_DATA" ref="44be275dbb77a9d89914b889ecb31406f2eae7b917e0b5f2903bb9ad6cd6bc5d" args="" -->GP_LOG_DATA</em>&nbsp;</td><td>
+Log message is a data hex dump. </td></tr>
+</table>
+</dl>
+
+</div>
+</div><p>
 <hr><h2>Function Documentation</h2>
 <a class="anchor" name="e7ac6c05095d63ac5643a6ef66b3b479"></a><!-- doxytag: member="gphoto2-port-log.h::gp_log" ref="e7ac6c05095d63ac5643a6ef66b3b479" args="(GPLogLevel level, const char *domain, const char *format,...)" -->
 <div class="memitem">
@@ -101,7 +165,7 @@ Used by frontends if they want to be sure their callback function receives all m
         <tr>
           <td class="memname">void gp_log           </td>
           <td>(</td>
-          <td class="paramtype">GPLogLevel&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a>&nbsp;</td>
           <td class="paramname"> <em>level</em>, </td>
         </tr>
         <tr>
@@ -132,8 +196,17 @@ Used by frontends if they want to be sure their callback function receives all m
 <div class="memdoc">
 
 <p>
-gp_log: : gphoto2 log level : the domain : the format @...:<p>
-Logs a message at the given log . You would normally use this function to log strings. 
+Log a debug or error message. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>gphoto2 log level </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>domain</em>&nbsp;</td><td>the log domain </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>a printf style format string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>...</em>&nbsp;</td><td>the variable argumentlist for above format string</td></tr>
+  </table>
+</dl>
+Logs a message at the given log level. You would normally use this function to log general debug output in a printf way. 
 </div>
 </div><p>
 <a class="anchor" name="93c15da75612eccac26bf835e5ee75ca"></a><!-- doxytag: member="gphoto2-port-log.h::gp_log_add_func" ref="93c15da75612eccac26bf835e5ee75ca" args="(GPLogLevel level, GPLogFunc func, void *data)" -->
@@ -143,13 +216,13 @@ Logs a message at the given log . You would normally use this function to log st
         <tr>
           <td class="memname">int gp_log_add_func           </td>
           <td>(</td>
-          <td class="paramtype">GPLogLevel&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a>&nbsp;</td>
           <td class="paramname"> <em>level</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GPLogFunc&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a>&nbsp;</td>
           <td class="paramname"> <em>func</em>, </td>
         </tr>
         <tr>
@@ -168,9 +241,18 @@ Logs a message at the given log . You would normally use this function to log st
 <div class="memdoc">
 
 <p>
-gp_log_add_func: : a GPLogLevel : a GPLogFunc : data<p>
-Adds a log function that will be called for each log message that is flagged with a log level that appears in given log . This function returns an id that you can use for removing the log function again (using <a class="el" href="gphoto2-port-log_8c.html#2c6a91e6adb2ae7ad15bb523c2034efe">gp_log_remove_func</a>).<p>
-Return value: an id or a gphoto2 error code 
+Add a function to get logging information. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>the maximum level of logging it will get, up to and including the passed value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>func</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>data</td></tr>
+  </table>
+</dl>
+Adds a log function that will be called for each log message that is flagged with a log level that appears in given log level. This function returns an id that you can use for removing the log function again (using <a class="el" href="gphoto2-port-log_8c.html#2c6a91e6adb2ae7ad15bb523c2034efe">gp_log_remove_func</a>).<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>an id or a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="1f19a6a04565c8ef4cc573ea32362d38"></a><!-- doxytag: member="gphoto2-port-log.h::gp_log_data" ref="1f19a6a04565c8ef4cc573ea32362d38" args="(const char *domain, const char *data, unsigned int size)" -->
@@ -205,8 +287,9 @@ Return value: an id or a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_log_data: : the domain : the data to be logged : the size of the <p>
-Takes the  and creates a formatted hexdump string. If you would like to log text messages, use <a class="el" href="gphoto2-port-log_8c.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> instead. 
+Log data domain the domain data the data to be logged size the size of the data. 
+<p>
+Takes the data and creates a formatted hexdump string. If you would like to log text messages, use <a class="el" href="gphoto2-port-log_8c.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> instead. 
 </div>
 </div><p>
 <a class="anchor" name="2c6a91e6adb2ae7ad15bb523c2034efe"></a><!-- doxytag: member="gphoto2-port-log.h::gp_log_remove_func" ref="2c6a91e6adb2ae7ad15bb523c2034efe" args="(int id)" -->
@@ -226,9 +309,16 @@ Takes the  and creates a formatted hexdump string. If you would like to log text
 <div class="memdoc">
 
 <p>
-gp_log_remove_func: : an id (return value of <a class="el" href="gphoto2-port-log_8c.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a>)<p>
-Removes the log function with given .<p>
-Return value: a gphoto2 error code 
+Remove a logging receiving function. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>an id (return value of <a class="el" href="gphoto2-port-log_8c.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a>)</td></tr>
+  </table>
+</dl>
+Removes the log function with given id.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="d9adb5be970eb84f617de76716b9943b"></a><!-- doxytag: member="gphoto2-port-log.h::gp_logv" ref="d9adb5be970eb84f617de76716b9943b" args="(GPLogLevel level, const char *domain, const char *format, va_list args)" -->
@@ -238,7 +328,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">void gp_logv           </td>
           <td>(</td>
-          <td class="paramtype">GPLogLevel&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a>&nbsp;</td>
           <td class="paramname"> <em>level</em>, </td>
         </tr>
         <tr>
@@ -269,11 +359,20 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_logv: : gphoto2 log level : the domain : the format : the va_list corresponding to <p>
-Logs a message at the given log . You would normally use this function to log as yet unformatted strings. 
+Log a debug or error message with va_list. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>gphoto2 log level </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>domain</em>&nbsp;</td><td>the domain </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>the format </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>args</em>&nbsp;</td><td>the va_list corresponding to format</td></tr>
+  </table>
+</dl>
+Logs a message at the given log level. You would normally use this function to log as yet unformatted strings. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:38 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

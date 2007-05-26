@@ -31,36 +31,136 @@ This graph shows which files directly or indirectly include this file:<p><center
 <a href="bayer_8h-source.html">Go to the source code of this file.</a><table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>Enumerations</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><b>BayerTile</b> { <br>
-&nbsp;&nbsp;<b>BAYER_TILE_RGGB</b> =  0, 
-<b>BAYER_TILE_GRBG</b> =  1, 
-<b>BAYER_TILE_BGGR</b> =  2, 
-<b>BAYER_TILE_GBRG</b> =  3, 
+<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a> { <br>
+&nbsp;&nbsp;<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f1aa8bbf47ef8246508b82e0ee252a8f5">BAYER_TILE_RGGB</a> =  0, 
+<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f334368389be8a95a2c35bb4686cb52c7">BAYER_TILE_GRBG</a> =  1, 
+<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f37e98c63717910f9b50520d2dfa1970b">BAYER_TILE_BGGR</a> =  2, 
+<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931fcf39cd31fd2a371758027301fd9f79b9">BAYER_TILE_GBRG</a> =  3, 
 <br>
-&nbsp;&nbsp;<b>BAYER_TILE_RGGB_INTERLACED</b> =  4, 
-<b>BAYER_TILE_GRBG_INTERLACED</b> =  5, 
-<b>BAYER_TILE_BGGR_INTERLACED</b> =  6, 
-<b>BAYER_TILE_GBRG_INTERLACED</b> =  7
+&nbsp;&nbsp;<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931fb820aa85d4b37a00b7a37d193c501712">BAYER_TILE_RGGB_INTERLACED</a> =  4, 
+<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931fb8d8a371c7a4b64f85f7bf3e99866746">BAYER_TILE_GRBG_INTERLACED</a> =  5, 
+<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931ff0e85bf41f62ccaaf0a3cf64d90ec97c">BAYER_TILE_BGGR_INTERLACED</a> =  6, 
+<a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f5728d7fdb9e2a6ecf504b9f88e463172">BAYER_TILE_GBRG_INTERLACED</a> =  7
 <br>
  }</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">how the bayer CCD array is layed out  <a href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">More...</a><br></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="bayer_8h.html#d20bfabe144929379d01a65c832a3604">gp_bayer_expand</a> (unsigned char *input, int w, int h, unsigned char *output, BayerTile tile)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="bayer_8h.html#d20bfabe144929379d01a65c832a3604">gp_bayer_expand</a> (unsigned char *input, int w, int h, unsigned char *output, <a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a> tile)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Expand a bayer raster style image to a RGB raster.  <a href="#d20bfabe144929379d01a65c832a3604"></a><br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="b32dbfcb75cdd74a0a1e538ccb427754"></a><!-- doxytag: member="bayer.h::gp_bayer_decode" ref="b32dbfcb75cdd74a0a1e538ccb427754" args="(unsigned char *input, int w, int h, unsigned char *output, BayerTile tile)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_bayer_decode</b> (unsigned char *input, int w, int h, unsigned char *output, BayerTile tile)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="bayer_8h.html#b32dbfcb75cdd74a0a1e538ccb427754">gp_bayer_decode</a> (unsigned char *input, int w, int h, unsigned char *output, <a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a> tile)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="fee387ceca248fe4228fb15a37917a64"></a><!-- doxytag: member="bayer.h::gp_bayer_interpolate" ref="fee387ceca248fe4228fb15a37917a64" args="(unsigned char *image, int w, int h, BayerTile tile)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_bayer_interpolate</b> (unsigned char *image, int w, int h, BayerTile tile)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Convert a bayer raster style image to a RGB raster.  <a href="#b32dbfcb75cdd74a0a1e538ccb427754"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="bayer_8h.html#fee387ceca248fe4228fb15a37917a64">gp_bayer_interpolate</a> (unsigned char *image, int w, int h, <a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a> tile)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Interpolate a expanded bayer array into an RGB image.  <a href="#fee387ceca248fe4228fb15a37917a64"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 <dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2001 Lutz Müller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt;</dd></dl>
 <dl class="note" compact><dt><b>Note:</b></dt><dd>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.<p>
 This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.<p>
 You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. </dd></dl>
+<hr><h2>Enumeration Type Documentation</h2>
+<a class="anchor" name="a90c2af86543d839fdbd73231d3b931f"></a><!-- doxytag: member="bayer.h::BayerTile" ref="a90c2af86543d839fdbd73231d3b931f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+how the bayer CCD array is layed out 
+<p>
+This enumeration defines how the CCD bayer array is laid out. <dl compact><dt><b>Enumerator: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931f1aa8bbf47ef8246508b82e0ee252a8f5"></a><!-- doxytag: member="BAYER_TILE_RGGB" ref="a90c2af86543d839fdbd73231d3b931f1aa8bbf47ef8246508b82e0ee252a8f5" args="" -->BAYER_TILE_RGGB</em>&nbsp;</td><td>
+raster is RG,GN </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931f334368389be8a95a2c35bb4686cb52c7"></a><!-- doxytag: member="BAYER_TILE_GRBG" ref="a90c2af86543d839fdbd73231d3b931f334368389be8a95a2c35bb4686cb52c7" args="" -->BAYER_TILE_GRBG</em>&nbsp;</td><td>
+raster is GR,BG </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931f37e98c63717910f9b50520d2dfa1970b"></a><!-- doxytag: member="BAYER_TILE_BGGR" ref="a90c2af86543d839fdbd73231d3b931f37e98c63717910f9b50520d2dfa1970b" args="" -->BAYER_TILE_BGGR</em>&nbsp;</td><td>
+raster is BG,GR </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931fcf39cd31fd2a371758027301fd9f79b9"></a><!-- doxytag: member="BAYER_TILE_GBRG" ref="a90c2af86543d839fdbd73231d3b931fcf39cd31fd2a371758027301fd9f79b9" args="" -->BAYER_TILE_GBRG</em>&nbsp;</td><td>
+raster is RG,GB </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931fb820aa85d4b37a00b7a37d193c501712"></a><!-- doxytag: member="BAYER_TILE_RGGB_INTERLACED" ref="a90c2af86543d839fdbd73231d3b931fb820aa85d4b37a00b7a37d193c501712" args="" -->BAYER_TILE_RGGB_INTERLACED</em>&nbsp;</td><td>
+scanline order: R1,G1,R2,G2,...,G1,B1,G2,B2,... </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931fb8d8a371c7a4b64f85f7bf3e99866746"></a><!-- doxytag: member="BAYER_TILE_GRBG_INTERLACED" ref="a90c2af86543d839fdbd73231d3b931fb8d8a371c7a4b64f85f7bf3e99866746" args="" -->BAYER_TILE_GRBG_INTERLACED</em>&nbsp;</td><td>
+scanline order: G1,R1,R2,G2,...,B1,G1,B2,G2,... </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931ff0e85bf41f62ccaaf0a3cf64d90ec97c"></a><!-- doxytag: member="BAYER_TILE_BGGR_INTERLACED" ref="a90c2af86543d839fdbd73231d3b931ff0e85bf41f62ccaaf0a3cf64d90ec97c" args="" -->BAYER_TILE_BGGR_INTERLACED</em>&nbsp;</td><td>
+scanline order: B1,G1,R2,G2,...,G1,R1,G2,R2,... </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="a90c2af86543d839fdbd73231d3b931f5728d7fdb9e2a6ecf504b9f88e463172"></a><!-- doxytag: member="BAYER_TILE_GBRG_INTERLACED" ref="a90c2af86543d839fdbd73231d3b931f5728d7fdb9e2a6ecf504b9f88e463172" args="" -->BAYER_TILE_GBRG_INTERLACED</em>&nbsp;</td><td>
+scanline order: G1,B1,G2,B2,...,R1,G1,R2,G2,... </td></tr>
+</table>
+</dl>
+
+</div>
+</div><p>
 <hr><h2>Function Documentation</h2>
+<a class="anchor" name="b32dbfcb75cdd74a0a1e538ccb427754"></a><!-- doxytag: member="bayer.h::gp_bayer_decode" ref="b32dbfcb75cdd74a0a1e538ccb427754" args="(unsigned char *input, int w, int h, unsigned char *output, BayerTile tile)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_bayer_decode           </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char *&nbsp;</td>
+          <td class="paramname"> <em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char *&nbsp;</td>
+          <td class="paramname"> <em>output</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a>&nbsp;</td>
+          <td class="paramname"> <em>tile</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Convert a bayer raster style image to a RGB raster. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>input</em>&nbsp;</td><td>the bayer CCD array as linear input </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>w</em>&nbsp;</td><td>width of the above array </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>h</em>&nbsp;</td><td>height of the above array </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>output</em>&nbsp;</td><td>RGB output array (linear, 3 bytes of R,G,B for every pixel) </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>tile</em>&nbsp;</td><td>how the 2x2 bayer array is layed out</td></tr>
+  </table>
+</dl>
+A regular CCD uses a raster of 2 green, 1 blue and 1 red components to cover a 2x2 pixel area. The camera or the driver then interpolates a 2x2 RGB pixel set out of this data.<p>
+This function expands and interpolates the bayer array to 3 times larger bitmap with RGB values interpolated.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code </dd></dl>
+
+</div>
+</div><p>
 <a class="anchor" name="d20bfabe144929379d01a65c832a3604"></a><!-- doxytag: member="bayer.h::gp_bayer_expand" ref="d20bfabe144929379d01a65c832a3604" args="(unsigned char *input, int w, int h, unsigned char *output, BayerTile tile)" -->
 <div class="memitem">
 <div class="memproto">
@@ -92,7 +192,7 @@ You should have received a copy of the GNU Lesser General Public License along w
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">BayerTile&nbsp;</td>
+          <td class="paramtype"><a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a>&nbsp;</td>
           <td class="paramname"> <em>tile</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -107,11 +207,75 @@ You should have received a copy of the GNU Lesser General Public License along w
 <p>
 Expand a bayer raster style image to a RGB raster. 
 <p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>input</em>&nbsp;</td><td>the bayer CCD array as linear input </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>w</em>&nbsp;</td><td>width of the above array </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>h</em>&nbsp;</td><td>height of the above array </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>output</em>&nbsp;</td><td>RGB output array (linear, 3 bytes of R,G,B for every pixel) </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>tile</em>&nbsp;</td><td>how the 2x2 bayer array is layed out</td></tr>
+  </table>
+</dl>
 A regular CCD uses a raster of 2 green, 1 blue and 1 red components to cover a 2x2 pixel area. The camera or the driver then interpolates a 2x2 RGB pixel set out of this data.<p>
-This function expands the bayer array to 3 times larger bitmap with RGB values copied as-is. Pixels were no sensor was there are 0. The data is supposed to be processed further by for instance gp_bayer_interpolate(). 
+This function expands the bayer array to 3 times larger bitmap with RGB values copied as-is. Pixels were no sensor was there are 0. The data is supposed to be processed further by for instance <a class="el" href="bayer_8c.html#fee387ceca248fe4228fb15a37917a64">gp_bayer_interpolate()</a>.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code </dd></dl>
+
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a class="anchor" name="fee387ceca248fe4228fb15a37917a64"></a><!-- doxytag: member="bayer.h::gp_bayer_interpolate" ref="fee387ceca248fe4228fb15a37917a64" args="(unsigned char *image, int w, int h, BayerTile tile)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_bayer_interpolate           </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char *&nbsp;</td>
+          <td class="paramname"> <em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a>&nbsp;</td>
+          <td class="paramname"> <em>tile</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Interpolate a expanded bayer array into an RGB image. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>image</em>&nbsp;</td><td>the linear RGB array as both input and output </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>w</em>&nbsp;</td><td>width of the above array </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>h</em>&nbsp;</td><td>height of the above array </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>tile</em>&nbsp;</td><td>how the 2x2 bayer array is layed out</td></tr>
+  </table>
+</dl>
+This function interpolates a bayer array which has been pre-expanded by <a class="el" href="bayer_8c.html#d20bfabe144929379d01a65c832a3604">gp_bayer_expand()</a> to an RGB image. It uses various interpolation methods, also see gp_bayer_accrue().<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code </dd></dl>
+
+</div>
+</div><p>
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:30 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

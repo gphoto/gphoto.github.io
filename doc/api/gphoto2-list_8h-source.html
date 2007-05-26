@@ -28,54 +28,35 @@
 <a name="l00030"></a>00030 <span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">"C"</span> {
 <a name="l00031"></a>00031 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
 <a name="l00032"></a>00032 
-<a name="l00033"></a>00033 <span class="comment">/* Usage pattern for CameraList for users external of</span>
-<a name="l00034"></a>00034 <span class="comment"> * libgphoto2, such as libgphoto2 frontends:</span>
-<a name="l00035"></a>00035 <span class="comment"> *</span>
-<a name="l00036"></a>00036 <span class="comment"> *    CameraList *list;</span>
-<a name="l00037"></a>00037 <span class="comment"> *    gp_list_new (&amp;list);</span>
-<a name="l00038"></a>00038 <span class="comment"> *    init_list_somehow (list);</span>
-<a name="l00039"></a>00039 <span class="comment"> *    for (i=0; i &lt; gp_list_count(list); i++) {</span>
-<a name="l00040"></a>00040 <span class="comment"> *        char *name, *value;</span>
-<a name="l00041"></a>00041 <span class="comment"> *        gp_list_get_name (list, i, &amp;name);</span>
-<a name="l00042"></a>00042 <span class="comment"> *        gp_list_get_name (list, i, &amp;value);</span>
-<a name="l00043"></a>00043 <span class="comment"> *        do_something_with (name, value);</span>
-<a name="l00044"></a>00044 <span class="comment"> *    }</span>
-<a name="l00045"></a>00045 <span class="comment"> *    gp_list_free (list);</span>
-<a name="l00046"></a>00046 <span class="comment"> *</span>
-<a name="l00047"></a>00047 <span class="comment"> * Please do NOT directly instantiate a CameraList object like this:</span>
-<a name="l00048"></a>00048 <span class="comment"> *               CameraList foo;     // DO NOT DO THIS</span>
-<a name="l00049"></a>00049 <span class="comment"> * Please do NOT directly access the structure members like this:</span>
-<a name="l00050"></a>00050 <span class="comment"> *               list-&gt;entry[i].name // DO NOT DO THIS</span>
-<a name="l00051"></a>00051 <span class="comment"> */</span>
-<a name="l00052"></a>00052 <span class="keyword">typedef</span> <span class="keyword">struct </span>_CameraList CameraList;
-<a name="l00053"></a>00053 
-<a name="l00054"></a>00054 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#1c3677928c47773afed06791c661e328">gp_list_new</a>   (CameraList **list);
-<a name="l00055"></a>00055 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#a60f2b2ea159f9e4e8b3fb4dcd2c77c5">gp_list_ref</a>   (CameraList *list);
-<a name="l00056"></a>00056 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#058d127d54f874edf8dc6f1f3e77fd23">gp_list_unref</a> (CameraList *list);
-<a name="l00057"></a>00057 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#236a043f3e942c40176f37ecb0fee0a3">gp_list_free</a>  (CameraList *list);
-<a name="l00058"></a>00058 
-<a name="l00059"></a>00059 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#fbc29fc1f89df2086f0920c293b1cc69">gp_list_count</a>      (CameraList *list);
-<a name="l00060"></a>00060 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#3d43cc610982c361da63022c14c2f0a3">gp_list_append</a>     (CameraList *list,
-<a name="l00061"></a>00061                             <span class="keyword">const</span> <span class="keywordtype">char</span> *name, <span class="keyword">const</span> <span class="keywordtype">char</span> *value);
-<a name="l00062"></a>00062 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#76e5201c77cbc2260647c2da7e0dda72">gp_list_reset</a>      (CameraList *list);
-<a name="l00063"></a>00063 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#64a8c6a4b928745d311c910965550ba9">gp_list_sort</a>       (CameraList *list);
-<a name="l00064"></a>00064 
-<a name="l00065"></a>00065 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#96c7f3f8118ed67a6b1d028da0f13cb8">gp_list_find_by_name</a> (CameraList *list, <span class="keywordtype">int</span> *index, <span class="keyword">const</span> <span class="keywordtype">char</span> *name);
-<a name="l00066"></a>00066 
-<a name="l00067"></a>00067 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#3da1daa1e8d556a2421d78ebc5b91c7f">gp_list_get_name</a>  (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> **name);
-<a name="l00068"></a>00068 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#852f3edb698c97aa057442c499f1e65f">gp_list_get_value</a> (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> **value);
-<a name="l00069"></a>00069 
-<a name="l00070"></a>00070 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#940c0438c42b571bcd165c517318e5ce">gp_list_set_name</a>  (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> *name);
-<a name="l00071"></a>00071 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#9572050d9821af062a822fe00181aa5c">gp_list_set_value</a> (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> *value);
+<a name="l00066"></a><a class="code" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">00066</a> <span class="keyword">typedef</span> <span class="keyword">struct </span>_CameraList CameraList;
+<a name="l00067"></a>00067 
+<a name="l00068"></a>00068 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#1c3677928c47773afed06791c661e328">gp_list_new</a>   (CameraList **list);
+<a name="l00069"></a>00069 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#a60f2b2ea159f9e4e8b3fb4dcd2c77c5">gp_list_ref</a>   (CameraList *list);
+<a name="l00070"></a>00070 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#058d127d54f874edf8dc6f1f3e77fd23">gp_list_unref</a> (CameraList *list);
+<a name="l00071"></a>00071 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#236a043f3e942c40176f37ecb0fee0a3">gp_list_free</a>  (CameraList *list);
 <a name="l00072"></a>00072 
-<a name="l00073"></a>00073 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#0c81063e625f03941429955210314f36">gp_list_populate</a>  (CameraList *list, <span class="keyword">const</span> <span class="keywordtype">char</span> *format, <span class="keywordtype">int</span> count);
-<a name="l00074"></a>00074 
-<a name="l00075"></a>00075 <span class="preprocessor">#ifdef __cplusplus</span>
-<a name="l00076"></a>00076 <span class="preprocessor"></span>}
-<a name="l00077"></a>00077 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
+<a name="l00073"></a>00073 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#fbc29fc1f89df2086f0920c293b1cc69">gp_list_count</a>      (CameraList *list);
+<a name="l00074"></a>00074 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#3d43cc610982c361da63022c14c2f0a3">gp_list_append</a>     (CameraList *list,
+<a name="l00075"></a>00075                             <span class="keyword">const</span> <span class="keywordtype">char</span> *name, <span class="keyword">const</span> <span class="keywordtype">char</span> *value);
+<a name="l00076"></a>00076 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#76e5201c77cbc2260647c2da7e0dda72">gp_list_reset</a>      (CameraList *list);
+<a name="l00077"></a>00077 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-list_8c.html#64a8c6a4b928745d311c910965550ba9">gp_list_sort</a>       (CameraList *list);
 <a name="l00078"></a>00078 
-<a name="l00079"></a>00079 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_LIST_H__ */</span>
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a name="l00079"></a>00079 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#96c7f3f8118ed67a6b1d028da0f13cb8">gp_list_find_by_name</a> (CameraList *list, <span class="keywordtype">int</span> *index, <span class="keyword">const</span> <span class="keywordtype">char</span> *name);
+<a name="l00080"></a>00080 
+<a name="l00081"></a>00081 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#3da1daa1e8d556a2421d78ebc5b91c7f">gp_list_get_name</a>  (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> **name);
+<a name="l00082"></a>00082 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#852f3edb698c97aa057442c499f1e65f">gp_list_get_value</a> (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> **value);
+<a name="l00083"></a>00083 
+<a name="l00084"></a>00084 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#940c0438c42b571bcd165c517318e5ce">gp_list_set_name</a>  (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> *name);
+<a name="l00085"></a>00085 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#9572050d9821af062a822fe00181aa5c">gp_list_set_value</a> (CameraList *list, <span class="keywordtype">int</span> index, <span class="keyword">const</span> <span class="keywordtype">char</span> *value);
+<a name="l00086"></a>00086 
+<a name="l00087"></a>00087 <span class="keywordtype">int</span> <a class="code" href="gphoto2-list_8c.html#0c81063e625f03941429955210314f36">gp_list_populate</a>  (CameraList *list, <span class="keyword">const</span> <span class="keywordtype">char</span> *format, <span class="keywordtype">int</span> count);
+<a name="l00088"></a>00088 
+<a name="l00089"></a>00089 <span class="preprocessor">#ifdef __cplusplus</span>
+<a name="l00090"></a>00090 <span class="preprocessor"></span>}
+<a name="l00091"></a>00091 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
+<a name="l00092"></a>00092 
+<a name="l00093"></a>00093 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_LIST_H__ */</span>
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

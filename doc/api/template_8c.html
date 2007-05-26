@@ -31,15 +31,19 @@
 Include dependency graph for template.c:<p><center><img src="template_8c__incl.png" border="0" usemap="#camlibs/template/template.c_map" alt=""></center>
 <map name="camlibs/template/template.c_map">
 <area href="gphoto2-library_8h.html" shape="rect" coords="244,108,417,135" alt="">
-<area href="gphoto2-result_8h.html" shape="rect" coords="245,159,416,185" alt="">
+<area href="gphoto2-result_8h.html" shape="rect" coords="715,133,885,160" alt="">
+<area href="gphoto2-abilities-list_8h.html" shape="rect" coords="699,83,901,109" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="467,108,648,135" alt="">
 </map>
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>camlib API functions</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#d9b006ebc1e76e7142dfad1a52bb5e13">camera_id</a> (<a class="el" href="structCameraText.html">CameraText</a> *id)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get a unique camera id.  <a href="#d9b006ebc1e76e7142dfad1a52bb5e13"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#a557fac6fbfd62f693452008a23518e9">camera_abilities</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get a list of abilities of all supported cameras.  <a href="#a557fac6fbfd62f693452008a23518e9"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#791b7f0818524951418d7c0ff0b81929">camera_init</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td colspan="2"><br><h2>Defines</h2></td></tr>
@@ -86,6 +90,8 @@ We do not define the object member functions as static in this template in order
 <div class="memdoc">
 
 <p>
+Get a list of abilities of all supported cameras. 
+<p>
 Fill list with abilities of the cameras supported by this camlib.<p>
 For each camera, fill a <a class="el" href="structCameraAbilities.html">CameraAbilities</a> structure with data about that camera and append it to the list.<p>
 The job of this function is basically to extract data from a camlib specific database and insert it into the libgphoto2 camera database. Due to redundant data and other issues, we may decide to revise that database mechanism and replace it by something more flexible and efficient.<p>
@@ -108,6 +114,8 @@ This is a camlib API function.
 </div>
 <div class="memdoc">
 
+<p>
+Get a unique camera id. 
 <p>
 Set library ID string.<p>
 Probably redundant and to be removed shortly, being replaced by the libtool module name defined in the build system.<p>
@@ -145,7 +153,7 @@ Sets up all the proper object function pointers, initialize camlib internal data
 This is a camlib API function. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

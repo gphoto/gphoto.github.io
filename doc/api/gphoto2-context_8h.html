@@ -31,11 +31,9 @@ Include dependency graph for gphoto2-context.h:<p><center><img src="gphoto2-cont
 This graph shows which files directly or indirectly include this file:<p><center><img src="gphoto2-context_8h__dep__incl.png" border="0" usemap="#gphoto2/gphoto2-context.hdep_map" alt=""></center>
 <map name="gphoto2/gphoto2-context.hdep_map">
 <area href="gphoto2-context_8c.html" shape="rect" coords="241,7,436,33" alt="">
-<area href="gphoto2-abilities-list_8h.html" shape="rect" coords="237,108,440,135" alt="">
-<area href="gphoto2-camera_8h.html" shape="rect" coords="491,159,672,185" alt="">
-<area href="gphoto2-library_8h.html" shape="rect" coords="723,108,896,135" alt="">
-<area href="gphoto2-widget_8h.html" shape="rect" coords="721,159,897,185" alt="">
-<area href="gphoto2-filesys_8h.html" shape="rect" coords="252,159,425,185" alt="">
+<area href="gphoto2-abilities-list_8h.html" shape="rect" coords="237,57,440,84" alt="">
+<area href="gphoto2-filesys_8h.html" shape="rect" coords="252,108,425,135" alt="">
+<area href="gphoto2-widget_8h.html" shape="rect" coords="251,159,427,185" alt="">
 </map>
 
 <p>
@@ -84,10 +82,12 @@ typedef void(*)&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPContextP
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#62dd2dc04049b7e3b1de740fceac7818">gp_context_new</a> (void)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Creates a new context.  <a href="#62dd2dc04049b7e3b1de740fceac7818"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#6bfb9e1acf0c3f0da6d439bad9ac4743">gp_context_ref</a> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#9f13732c7678045cce5022256d7dc1d2">gp_context_unref</a> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Decrements reference count of a context.  <a href="#9f13732c7678045cce5022256d7dc1d2"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="4915fbb8931103fabff91df55e924c4d"></a><!-- doxytag: member="gphoto2-context.h::gp_context_set_idle_func" ref="4915fbb8931103fabff91df55e924c4d" args="(GPContext *context, GPContextIdleFunc func, void *data)" -->
 void&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_context_set_idle_func</b> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, GPContextIdleFunc func, void *data)</td></tr>
 
@@ -111,22 +111,24 @@ void&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_context_set_messag
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#ea865c1302b2ad96ce362f426497b1bb">gp_context_idle</a> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Notify frontend of a brief idle time.  <a href="#ea865c1302b2ad96ce362f426497b1bb"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="8da05556d352b2e3a7b58daeb6060d40"></a><!-- doxytag: member="gphoto2-context.h::gp_context_error" ref="8da05556d352b2e3a7b58daeb6060d40" args="(GPContext *context, const char *format,...)" -->
 void&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_context_error</b> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, const char *format,...)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="a5041cda59a7230ed241d5f8afd35d17"></a><!-- doxytag: member="gphoto2-context.h::gp_context_status" ref="a5041cda59a7230ed241d5f8afd35d17" args="(GPContext *context, const char *format,...)" -->
 void&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_context_status</b> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, const char *format,...)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="6388e0b3258d86949a08618e51650546"></a><!-- doxytag: member="gphoto2-context.h::gp_context_message" ref="6388e0b3258d86949a08618e51650546" args="(GPContext *context, const char *format,...)" -->
-void&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_context_message</b> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, const char *format,...)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#6388e0b3258d86949a08618e51650546">gp_context_message</a> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, const char *format,...)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Print a message to the context.  <a href="#6388e0b3258d86949a08618e51650546"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="el" href="gphoto2-context_8h.html#fc3b82e6734a47a6d70fa8cfed2abe8e">GPContextFeedback</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#596ad3389f46f6544697fb32c9987bf1">gp_context_question</a> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, const char *format,...)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Ask frontend user a question.  <a href="#596ad3389f46f6544697fb32c9987bf1"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="el" href="gphoto2-context_8h.html#fc3b82e6734a47a6d70fa8cfed2abe8e">GPContextFeedback</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#a5b605d8ed6c9f82315af4b108d3df6c">gp_context_cancel</a> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="d04254573b832c3079f1568b5ce54f10"></a><!-- doxytag: member="gphoto2-context.h::gp_context_progress_start" ref="d04254573b832c3079f1568b5ce54f10" args="(GPContext *context, float target, const char *format,...)" -->
-unsigned int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_context_progress_start</b> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, float target, const char *format,...)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">unsigned int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-context_8h.html#d04254573b832c3079f1568b5ce54f10">gp_context_progress_start</a> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, float target, const char *format,...)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Start progress tracking.  <a href="#d04254573b832c3079f1568b5ce54f10"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="6f3f431bdcad15df0ad28f2e4ec68a95"></a><!-- doxytag: member="gphoto2-context.h::gp_context_progress_update" ref="6f3f431bdcad15df0ad28f2e4ec68a95" args="(GPContext *context, unsigned int id, float current)" -->
 void&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_context_progress_update</b> (<a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context, unsigned int id, float current)</td></tr>
 
@@ -242,8 +244,61 @@ Return value: a <a class="el" href="gphoto2-context_8h.html#fc3b82e6734a47a6d70f
 <div class="memdoc">
 
 <p>
-gp_context_idle: : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Tells the frontend that it can do other processing at this moment. Backends should call this function every time when an interruption of the transfer is possible. 
+Notify frontend of a brief idle time. 
+<p>
+Tells the frontend that it can do other processing at this moment, like refresh the UI. Backends should call this function every time when an interruption of the transfer is possible.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a GPContext </td></tr>
+  </table>
+</dl>
+
+</div>
+</div><p>
+<a class="anchor" name="6388e0b3258d86949a08618e51650546"></a><!-- doxytag: member="gphoto2-context.h::gp_context_message" ref="6388e0b3258d86949a08618e51650546" args="(GPContext *context, const char *format,...)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gp_context_message           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&nbsp;</td>
+          <td class="paramname"> <em>...</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Print a message to the context. 
+<p>
+This sends a message to the passed context, to be printed by it in some kind of way, but do no other action.<p>
+To be used by camera drivers.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>A GPContext </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>A sprintf style format string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>...</em>&nbsp;</td><td>variable argument list depending on format string </td></tr>
+  </table>
+</dl>
+
 </div>
 </div><p>
 <a class="anchor" name="62dd2dc04049b7e3b1de740fceac7818"></a><!-- doxytag: member="gphoto2-context.h::gp_context_new" ref="62dd2dc04049b7e3b1de740fceac7818" args="(void)" -->
@@ -263,9 +318,62 @@ Tells the frontend that it can do other processing at this moment. Backends shou
 <div class="memdoc">
 
 <p>
-gp_context_new:<p>
-Creates a new context.<p>
-Return value: a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a>. 
+Creates a new context. 
+<p>
+To be used by the frontend.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a GPContext. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="d04254573b832c3079f1568b5ce54f10"></a><!-- doxytag: member="gphoto2-context.h::gp_context_progress_start" ref="d04254573b832c3079f1568b5ce54f10" args="(GPContext *context, float target, const char *format,...)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int gp_context_progress_start           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&nbsp;</td>
+          <td class="paramname"> <em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&nbsp;</td>
+          <td class="paramname"> <em>...</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Start progress tracking. 
+<p>
+This function starts up a new progress tracking for a specified context. Several nested progress reports can happen at once, depending on the backend.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>The context in which to start the progress. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>target</em>&nbsp;</td><td>The 100% value. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>A sprintf style string to print out, including the following variable arguments. </td></tr>
+  </table>
+</dl>
+
 </div>
 </div><p>
 <a class="anchor" name="596ad3389f46f6544697fb32c9987bf1"></a><!-- doxytag: member="gphoto2-context.h::gp_context_question" ref="596ad3389f46f6544697fb32c9987bf1" args="(GPContext *context, const char *format,...)" -->
@@ -300,9 +408,19 @@ Return value: a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff8
 <div class="memdoc">
 
 <p>
-gp_context_question: : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> : @...:<p>
+Ask frontend user a question. 
+<p>
 Asks the user a question that he must answer either with "Ok" or "Cancel".<p>
-Return value: The user's answer in form of a <a class="el" href="gphoto2-context_8h.html#fc3b82e6734a47a6d70fa8cfed2abe8e">GPContextFeedback</a>. 
+To be used by a camera driver. (So far no camera driver is using it, but this might change later.)<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a GPContext </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>a sprintf format string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>...</em>&nbsp;</td><td>variable arguments for format string </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>The user's answer in form of a GPContextFeedback. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="6bfb9e1acf0c3f0da6d439bad9ac4743"></a><!-- doxytag: member="gphoto2-context.h::gp_context_ref" ref="6bfb9e1acf0c3f0da6d439bad9ac4743" args="(GPContext *context)" -->
@@ -322,8 +440,13 @@ Return value: The user's answer in form of a <a class="el" href="gphoto2-context
 <div class="memdoc">
 
 <p>
-gp_context_ref: : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Increments the reference count of the . 
+Increments the reference count of the context.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>The context to bump the reference </td></tr>
+  </table>
+</dl>
+
 </div>
 </div><p>
 <a class="anchor" name="9f13732c7678045cce5022256d7dc1d2"></a><!-- doxytag: member="gphoto2-context.h::gp_context_unref" ref="9f13732c7678045cce5022256d7dc1d2" args="(GPContext *context)" -->
@@ -343,11 +466,18 @@ Increments the reference count of the .
 <div class="memdoc">
 
 <p>
-gp_context_unref (GPContext *context) : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Decrements the reference count of the . 
+Decrements reference count of a context. 
+<p>
+Decrement the reference count of a context and free if it goes to 0.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>The context to drop the reference count. </td></tr>
+  </table>
+</dl>
+
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:28 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

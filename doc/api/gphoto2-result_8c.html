@@ -42,12 +42,14 @@ Include dependency graph for gphoto2-result.c:<p><center><img src="gphoto2-resul
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">const char *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-result_8c.html#3ca104b71bde7ed45d9879e181435d7c">gp_result_as_string</a> (int result)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Translate a gphoto error code into a localized string.  <a href="#3ca104b71bde7ed45d9879e181435d7c"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
-Copyright 2000 Scott Fritzinger<p>
-This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.<p>
-This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.<p>
-You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. <hr><h2>Function Documentation</h2>
+<dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2000 Scott Fritzinger</dd></dl>
+<dl class="user" compact><dt><b>License</b></dt><dd>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. </dd></dl>
+<hr><h2>Function Documentation</h2>
 <a class="anchor" name="3ca104b71bde7ed45d9879e181435d7c"></a><!-- doxytag: member="gphoto2-result.c::gp_result_as_string" ref="3ca104b71bde7ed45d9879e181435d7c" args="(int result)" -->
 <div class="memitem">
 <div class="memproto">
@@ -65,12 +67,19 @@ You should have received a copy of the GNU Lesser General Public License along w
 <div class="memdoc">
 
 <p>
-gp_result_as_string: <dl class="return" compact><dt><b>Returns:</b></dt><dd>: a gphoto2 error code</dd></dl>
+Translate a gphoto error code into a localized string. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>result</em>&nbsp;</td><td>a gphoto2 error code</td></tr>
+  </table>
+</dl>
 Translates a gphoto2 error code into a human readable string. If the error occurred in combination with a camera, gp_camera_get_result_as_string should be used instead.<p>
-Return value: A string representation of a gphoto2 error code 
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>A string representation of a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:34 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

@@ -1,0 +1,4 @@
+base referer
+rect $struct__GPPortSettingsSerial.html 7,7 164,34
+rect $struct__GPPortSettingsDisk.html 188,7 337,34
+rect $struct__GPPortSettingsUSB.html 361,7 511,34

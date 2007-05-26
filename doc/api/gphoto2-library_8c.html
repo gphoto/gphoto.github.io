@@ -21,22 +21,27 @@
 <div class="nav">
 <a class="el" href="dir_cf0d933c131aa2f184339b33dd0a337d.html">libgphoto2</a></div>
 <h1>gphoto2-library.c File Reference</h1><code>#include &quot;config.h&quot;</code><br>
-<code>#include &lt;<a class="el" href="gphoto2-library_8c.html">gphoto2/gphoto2-library.c</a>&gt;</code><br>
+<code>#include &lt;<a class="el" href="gphoto2-library_8h-source.html">gphoto2/gphoto2-library.h</a>&gt;</code><br>
 
 <p>
 Include dependency graph for gphoto2-library.c:<p><center><img src="gphoto2-library_8c__incl.png" border="0" usemap="#libgphoto2/gphoto2-library.c_map" alt=""></center>
-
-<p>
-This graph shows which files directly or indirectly include this file:<p><center><img src="gphoto2-library_8c__dep__incl.png" border="0" usemap="#libgphoto2/gphoto2-library.cdep_map" alt=""></center>
+<map name="libgphoto2/gphoto2-library.c_map">
+<area href="gphoto2-library_8h.html" shape="rect" coords="242,57,415,84" alt="">
+<area href="gphoto2-abilities-list_8h.html" shape="rect" coords="696,57,899,84" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="464,83,646,109" alt="">
+</map>
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8c.html#d9b006ebc1e76e7142dfad1a52bb5e13">camera_id</a> (<a class="el" href="structCameraText.html">CameraText</a> *id)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get a unique camera id.  <a href="#d9b006ebc1e76e7142dfad1a52bb5e13"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8c.html#a557fac6fbfd62f693452008a23518e9">camera_abilities</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get a list of abilities of all supported cameras.  <a href="#a557fac6fbfd62f693452008a23518e9"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8c.html#bb2452e504921af915067b0458d4347c">camera_init</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initialize the camera.  <a href="#bb2452e504921af915067b0458d4347c"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 <dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2001 Lutz Müller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt;</dd></dl>
@@ -61,9 +66,16 @@ This graph shows which files directly or indirectly include this file:<p><center
 <div class="memdoc">
 
 <p>
-camera_abilities: : a <a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a><p>
-This function should use <a class="el" href="gphoto2-abilities-list_8h.html#7a2437331ae3f94a8860fcc3d53f95c3">gp_abilities_list_append</a> as many times as the number of models the camera driver supports. That is, fill out (in a loop) the <a class="el" href="structCameraAbilities.html">CameraAbilities</a> for each model and append each of those to the supplied  using <a class="el" href="gphoto2-abilities-list_8h.html#7a2437331ae3f94a8860fcc3d53f95c3">gp_abilities_list_append</a>. Then, return GP_OK.<p>
-Return value: a gphoto2 error code 
+Get a list of abilities of all supported cameras. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a></td></tr>
+  </table>
+</dl>
+This function should use <a class="el" href="gphoto2-abilities-list_8h.html#7a2437331ae3f94a8860fcc3d53f95c3">gp_abilities_list_append</a> as many times as the number of models the camera driver supports. That is, fill out (in a loop) the <a class="el" href="structCameraAbilities.html">CameraAbilities</a> for each model and append each of those to the supplied list using <a class="el" href="gphoto2-abilities-list_8h.html#7a2437331ae3f94a8860fcc3d53f95c3">gp_abilities_list_append</a>. Then, return GP_OK.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="d9b006ebc1e76e7142dfad1a52bb5e13"></a><!-- doxytag: member="gphoto2-library.c::camera_id" ref="d9b006ebc1e76e7142dfad1a52bb5e13" args="(CameraText *id)" -->
@@ -83,9 +95,16 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-camera_id: : a <a class="el" href="structCameraText.html">CameraText</a><p>
-This function should write a unique id into  and return GP_OK. That is, choose a unique id, use strncpy in order to copy it into the id, and return GP_OK.<p>
-Return value: a gphoto2 error code 
+Get a unique camera id. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>a <a class="el" href="structCameraText.html">CameraText</a> that receives the id string</td></tr>
+  </table>
+</dl>
+This function should write a unique id into id and return GP_OK. That is, choose a unique id, use strncpy in order to copy it into the id, and return GP_OK. The driver name should suffice.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="bb2452e504921af915067b0458d4347c"></a><!-- doxytag: member="gphoto2-library.c::camera_init" ref="bb2452e504921af915067b0458d4347c" args="(Camera *camera)" -->
@@ -105,12 +124,19 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-camera_init: : a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a><p>
-This is the most interesting function in your library. Here, you tell gphoto2 what operations your camera supports and you try to connect to the camera. That is, access -&gt;functions directly and set them to your implementation (if you have any). Then, tell the CameraFilesystem (available in -&gt;fs) how to retrieve lists (<a class="el" href="gphoto2-filesys_8h.html#0c4b009ef34bc576d61e74f5d0e76000">gp_filesystem_set_list_funcs</a>), how to retrieve or set file information (<a class="el" href="gphoto2-filesys_8h.html#5ea72193c948bffb3da1ca9e6bb4f773">gp_filesystem_set_info_funcs</a>), how to get or delete files (<a class="el" href="gphoto2-filesys_8h.html#03413f752ec7bac7539ecaef67090eae">gp_filesystem_set_file_funcs</a>), or how to put files or delete all files in a folder (<a class="el" href="gphoto2-filesys_8h.html#f15123d3ad76c611b5d29a2a83c582b3">gp_filesystem_set_folder_funcs</a>). After that, configure the port (camera-&gt;port) which is already opened by gphoto2. You just have to call gp_port_settings_get, adjust the settings, call gp_port_settings_set, and try to write to and read from the port. If the camera responds, return GP_OK. If not, return some meaningful error code.<p>
-Return value: a gphoto2 error code 
+Initialize the camera. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a></td></tr>
+  </table>
+</dl>
+This is the most interesting function in your library. Here, you tell gphoto2 what operations your camera supports and you try to connect to the camera. That is, access camera-&gt;functions directly and set them to your implementation (if you have any). Then, tell the <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> (available in camera-&gt;fs) how to retrieve lists (<a class="el" href="gphoto2-filesys_8h.html#0c4b009ef34bc576d61e74f5d0e76000">gp_filesystem_set_list_funcs</a>), how to retrieve or set file information (<a class="el" href="gphoto2-filesys_8h.html#5ea72193c948bffb3da1ca9e6bb4f773">gp_filesystem_set_info_funcs</a>), how to get or delete files (<a class="el" href="gphoto2-filesys_8h.html#03413f752ec7bac7539ecaef67090eae">gp_filesystem_set_file_funcs</a>), or how to put files or delete all files in a folder (<a class="el" href="gphoto2-filesys_8h.html#f15123d3ad76c611b5d29a2a83c582b3">gp_filesystem_set_folder_funcs</a>). After that, configure the port (camera-&gt;port) which is already opened by gphoto2. You just have to call <a class="el" href="gphoto2-port_8c.html#8e425dc15820c0e745ceceda40f77452">gp_port_settings_get</a>, adjust the settings, call <a class="el" href="gphoto2-port_8c.html#9402f0e59b71d4dd9174e67eff21e438">gp_port_settings_set</a>, and try to write to and read from the port. If the camera responds, return GP_OK. If not, return some meaningful error code.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:33 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

@@ -41,9 +41,6 @@ Include dependency graph for gphoto2-setting.c:<p><center><img src="gphoto2-sett
 </map>
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
-<tr><td colspan="2"><br><h2>Data Structures</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>Setting</b></td></tr>
-
 <tr><td colspan="2"><br><h2>Defines</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="e02edb76bd8e6201ecc65faa303ef425"></a><!-- doxytag: member="gphoto2-setting.c::GP_MODULE" ref="e02edb76bd8e6201ecc65faa303ef425" args="" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>GP_MODULE</b>&nbsp;&nbsp;&nbsp;&quot;setting&quot;</td></tr>
@@ -55,19 +52,110 @@ Include dependency graph for gphoto2-setting.c:<p><center><img src="gphoto2-sett
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>CHECK_RESULT</b>(result)&nbsp;&nbsp;&nbsp;{int r = (result); if (r &lt; 0) return (r);}</td></tr>
 
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="80b31ca58f8b6bcdb2d64f57dfc5df97"></a><!-- doxytag: member="gphoto2-setting.c::gp_setting_get" ref="80b31ca58f8b6bcdb2d64f57dfc5df97" args="(char *id, char *key, char *value)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_setting_get</b> (char *id, char *key, char *value)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-setting_8c.html#80b31ca58f8b6bcdb2d64f57dfc5df97">gp_setting_get</a> (char *id, char *key, char *value)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="8daee8891949984adcb4fe7f46f45280"></a><!-- doxytag: member="gphoto2-setting.c::gp_setting_set" ref="8daee8891949984adcb4fe7f46f45280" args="(char *id, char *key, char *value)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_setting_set</b> (char *id, char *key, char *value)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieve a specific gphoto setting.  <a href="#80b31ca58f8b6bcdb2d64f57dfc5df97"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-setting_8c.html#8daee8891949984adcb4fe7f46f45280">gp_setting_set</a> (char *id, char *key, char *value)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set a specific gphoto setting.  <a href="#8daee8891949984adcb4fe7f46f45280"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
 <dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2000 Scott Fritzinger</dd></dl>
 <dl class="user" compact><dt><b>License</b></dt><dd>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</dd></dl>
 <dl class="user" compact><dt><b></b></dt><dd>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</dd></dl>
 <dl class="user" compact><dt><b></b></dt><dd>You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. </dd></dl>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr><h2>Function Documentation</h2>
+<a class="anchor" name="80b31ca58f8b6bcdb2d64f57dfc5df97"></a><!-- doxytag: member="gphoto2-setting.c::gp_setting_get" ref="80b31ca58f8b6bcdb2d64f57dfc5df97" args="(char *id, char *key, char *value)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_setting_get           </td>
+          <td>(</td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>value</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Retrieve a specific gphoto setting. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>the frontend id of the caller </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>key</em>&nbsp;</td><td>the key the frontend queries </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>retrieved value </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>GPhoto error code</dd></dl>
+This function retrieves the setting key for a specific frontend id and copies the value into the passed value pointer. 
+</div>
+</div><p>
+<a class="anchor" name="8daee8891949984adcb4fe7f46f45280"></a><!-- doxytag: member="gphoto2-setting.c::gp_setting_set" ref="8daee8891949984adcb4fe7f46f45280" args="(char *id, char *key, char *value)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_setting_set           </td>
+          <td>(</td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>value</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Set a specific gphoto setting. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>the frontend id of the caller </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>key</em>&nbsp;</td><td>the key the frontend queries </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>retrieved value </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>GPhoto error code</dd></dl>
+This function sets the setting key for a specific frontend id to the value. 
+</div>
+</div><p>
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:36 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

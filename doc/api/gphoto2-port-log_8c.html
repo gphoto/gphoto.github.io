@@ -36,9 +36,6 @@ Include dependency graph for gphoto2-port-log.c:<p><center><img src="gphoto2-por
 </map>
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
-<tr><td colspan="2"><br><h2>Data Structures</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>LogFunc</b></td></tr>
-
 <tr><td colspan="2"><br><h2>Defines</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="709240620a80c25aca1c4e2576c3cba8"></a><!-- doxytag: member="gphoto2-port-log.c::_" ref="709240620a80c25aca1c4e2576c3cba8" args="(String)" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>_</b>(String)&nbsp;&nbsp;&nbsp;(String)</td></tr>
@@ -46,43 +43,58 @@ Include dependency graph for gphoto2-port-log.c:<p><center><img src="gphoto2-por
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3a5ebfb532ab1a97cf24a0c0320b9c58"></a><!-- doxytag: member="gphoto2-port-log.c::N_" ref="3a5ebfb532ab1a97cf24a0c0320b9c58" args="(String)" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>N_</b>(String)&nbsp;&nbsp;&nbsp;(String)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="d3b7ff63651d18d6ba5938a05c61dc5c"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_OFFSET_WIDTH" ref="d3b7ff63651d18d6ba5938a05c61dc5c" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>HEXDUMP_OFFSET_WIDTH</b>&nbsp;&nbsp;&nbsp;4</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#d3b7ff63651d18d6ba5938a05c61dc5c">HEXDUMP_OFFSET_WIDTH</a>&nbsp;&nbsp;&nbsp;4</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="840fb3cc7897795c0781978dcf0c9155"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_BLOCK_DISTANCE" ref="840fb3cc7897795c0781978dcf0c9155" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>HEXDUMP_BLOCK_DISTANCE</b>&nbsp;&nbsp;&nbsp;2</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#840fb3cc7897795c0781978dcf0c9155">HEXDUMP_BLOCK_DISTANCE</a>&nbsp;&nbsp;&nbsp;2</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="7be1ce6115bc0ce3454844904bccbb47"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_INIT_X" ref="7be1ce6115bc0ce3454844904bccbb47" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>HEXDUMP_INIT_X</b>&nbsp;&nbsp;&nbsp;(HEXDUMP_OFFSET_WIDTH + HEXDUMP_BLOCK_DISTANCE)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#7be1ce6115bc0ce3454844904bccbb47">HEXDUMP_INIT_X</a>&nbsp;&nbsp;&nbsp;(HEXDUMP_OFFSET_WIDTH + HEXDUMP_BLOCK_DISTANCE)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="4039bedfa5330d0f1f9283baa6698b38"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_INIT_Y" ref="4039bedfa5330d0f1f9283baa6698b38" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>HEXDUMP_INIT_Y</b>&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_X + 3 * 16 - 1 + HEXDUMP_BLOCK_DISTANCE)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#4039bedfa5330d0f1f9283baa6698b38">HEXDUMP_INIT_Y</a>&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_X + 3 * 16 - 1 + HEXDUMP_BLOCK_DISTANCE)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="0bdd3cfaa9b459289fd35702a746217b"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_LINE_WIDTH" ref="0bdd3cfaa9b459289fd35702a746217b" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>HEXDUMP_LINE_WIDTH</b>&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_Y + 16)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#0bdd3cfaa9b459289fd35702a746217b">HEXDUMP_LINE_WIDTH</a>&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_Y + 16)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="a5ad22c2dc2d929d4f6c7f72fbd4fb2a"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_MIDDLE" ref="a5ad22c2dc2d929d4f6c7f72fbd4fb2a" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>HEXDUMP_MIDDLE</b>&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_X + 3 * 8 - 1)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#a5ad22c2dc2d929d4f6c7f72fbd4fb2a">HEXDUMP_MIDDLE</a>&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_X + 3 * 8 - 1)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>HEXDUMP_COMPLETE_LINE</b></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#eba2f78a47e235bce2365fa7f5c4e32e">HEXDUMP_COMPLETE_LINE</a></td></tr>
 
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a> (GPLogLevel level, GPLogFunc func, void *data)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a> (<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, <a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a> func, void *data)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Add a function to get logging information.  <a href="#93c15da75612eccac26bf835e5ee75ca"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#2c6a91e6adb2ae7ad15bb523c2034efe">gp_log_remove_func</a> (int id)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Remove a logging receiving function.  <a href="#2c6a91e6adb2ae7ad15bb523c2034efe"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#1f19a6a04565c8ef4cc573ea32362d38">gp_log_data</a> (const char *domain, const char *data, unsigned int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#d9adb5be970eb84f617de76716b9943b">gp_logv</a> (GPLogLevel level, const char *domain, const char *format, va_list args)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log data domain the domain data the data to be logged size the size of the data.  <a href="#1f19a6a04565c8ef4cc573ea32362d38"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#d9adb5be970eb84f617de76716b9943b">gp_logv</a> (<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, const char *domain, const char *format, va_list args)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> (GPLogLevel level, const char *domain, const char *format,...)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log a debug or error message with va_list.  <a href="#d9adb5be970eb84f617de76716b9943b"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-log_8c.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> (<a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a> level, const char *domain, const char *format,...)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log a debug or error message.  <a href="#e7ac6c05095d63ac5643a6ef66b3b479"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
-Copyright © 2001 Lutz Müller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt;<p>
-This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.<p>
-This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.<p>
-You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. <hr><h2>Define Documentation</h2>
+<dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2001 Lutz Müller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt;</dd></dl>
+<dl class="user" compact><dt><b>License</b></dt><dd>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. </dd></dl>
+<hr><h2>Define Documentation</h2>
+<a class="anchor" name="840fb3cc7897795c0781978dcf0c9155"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_BLOCK_DISTANCE" ref="840fb3cc7897795c0781978dcf0c9155" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HEXDUMP_BLOCK_DISTANCE&nbsp;&nbsp;&nbsp;2          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Distance between offset, hexdump and ascii blocks. Note that HEXDUMP_COMPLETE_LINE needs to be changed when this value is changed. 
+</div>
+</div><p>
 <a class="anchor" name="eba2f78a47e235bce2365fa7f5c4e32e"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_COMPLETE_LINE" ref="eba2f78a47e235bce2365fa7f5c4e32e" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -96,18 +108,93 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 <p>
 <b>Value:</b><div class="fragment"><pre class="fragment">{\
-        curline[HEXDUMP_OFFSET_WIDTH - 4] = hexchars[(index &gt;&gt; 12) &amp; 0xf]; \
-        curline[HEXDUMP_OFFSET_WIDTH - 3] = hexchars[(index &gt;&gt;  8) &amp; 0xf]; \
-        curline[HEXDUMP_OFFSET_WIDTH - 2] = hexchars[(index &gt;&gt;  4) &amp; 0xf]; \
-        curline[HEXDUMP_OFFSET_WIDTH - 1] = <span class="charliteral">'0'</span>; \
-        curline[HEXDUMP_OFFSET_WIDTH + 0] = <span class="charliteral">' '</span>; \
-        curline[HEXDUMP_OFFSET_WIDTH + 1] = <span class="charliteral">' '</span>; \
-        curline[HEXDUMP_MIDDLE] = <span class="charliteral">'-'</span>; \
-        curline[HEXDUMP_INIT_Y-2] = <span class="charliteral">' '</span>; \
-        curline[HEXDUMP_INIT_Y-1] = <span class="charliteral">' '</span>; \
-        curline[HEXDUMP_LINE_WIDTH] = <span class="charliteral">'\n'</span>; \
-        curline = curline + (HEXDUMP_LINE_WIDTH + 1);}
-</pre></div>
+        curline[<a class="code" href="gphoto2-port-log_8c.html#d3b7ff63651d18d6ba5938a05c61dc5c">HEXDUMP_OFFSET_WIDTH</a> - 4] = hexchars[(index &gt;&gt; 12) &amp; 0xf]; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#d3b7ff63651d18d6ba5938a05c61dc5c">HEXDUMP_OFFSET_WIDTH</a> - 3] = hexchars[(index &gt;&gt;  8) &amp; 0xf]; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#d3b7ff63651d18d6ba5938a05c61dc5c">HEXDUMP_OFFSET_WIDTH</a> - 2] = hexchars[(index &gt;&gt;  4) &amp; 0xf]; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#d3b7ff63651d18d6ba5938a05c61dc5c">HEXDUMP_OFFSET_WIDTH</a> - 1] = <span class="charliteral">'0'</span>; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#d3b7ff63651d18d6ba5938a05c61dc5c">HEXDUMP_OFFSET_WIDTH</a> + 0] = <span class="charliteral">' '</span>; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#d3b7ff63651d18d6ba5938a05c61dc5c">HEXDUMP_OFFSET_WIDTH</a> + 1] = <span class="charliteral">' '</span>; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#a5ad22c2dc2d929d4f6c7f72fbd4fb2a">HEXDUMP_MIDDLE</a>] = <span class="charliteral">'-'</span>; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#4039bedfa5330d0f1f9283baa6698b38">HEXDUMP_INIT_Y</a>-2] = <span class="charliteral">' '</span>; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#4039bedfa5330d0f1f9283baa6698b38">HEXDUMP_INIT_Y</a>-1] = <span class="charliteral">' '</span>; \
+        curline[<a class="code" href="gphoto2-port-log_8c.html#0bdd3cfaa9b459289fd35702a746217b">HEXDUMP_LINE_WIDTH</a>] = <span class="charliteral">'\n'</span>; \
+        curline = curline + (<a class="code" href="gphoto2-port-log_8c.html#0bdd3cfaa9b459289fd35702a746217b">HEXDUMP_LINE_WIDTH</a> + 1);}
+</pre></div>We are lazy and do our typing only once. Please note that you have to add/remove some lines when increasing/decreasing the values of HEXDUMP_BLOCK_DISTANCE and/or HEXDUMP_OFFSET_WIDTH. 
+</div>
+</div><p>
+<a class="anchor" name="7be1ce6115bc0ce3454844904bccbb47"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_INIT_X" ref="7be1ce6115bc0ce3454844904bccbb47" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HEXDUMP_INIT_X&nbsp;&nbsp;&nbsp;(HEXDUMP_OFFSET_WIDTH + HEXDUMP_BLOCK_DISTANCE)          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Initial value for x "pointer" (for hexdump) 
+</div>
+</div><p>
+<a class="anchor" name="4039bedfa5330d0f1f9283baa6698b38"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_INIT_Y" ref="4039bedfa5330d0f1f9283baa6698b38" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HEXDUMP_INIT_Y&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_X + 3 * 16 - 1 + HEXDUMP_BLOCK_DISTANCE)          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Initial value for y "pointer" (for ascii values) 
+</div>
+</div><p>
+<a class="anchor" name="0bdd3cfaa9b459289fd35702a746217b"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_LINE_WIDTH" ref="0bdd3cfaa9b459289fd35702a746217b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HEXDUMP_LINE_WIDTH&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_Y + 16)          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Used to switch to next line 
+</div>
+</div><p>
+<a class="anchor" name="a5ad22c2dc2d929d4f6c7f72fbd4fb2a"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_MIDDLE" ref="a5ad22c2dc2d929d4f6c7f72fbd4fb2a" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HEXDUMP_MIDDLE&nbsp;&nbsp;&nbsp;(HEXDUMP_INIT_X + 3 * 8 - 1)          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Used to put the '-' character in the middle of the hexdumps 
+</div>
+</div><p>
+<a class="anchor" name="d3b7ff63651d18d6ba5938a05c61dc5c"></a><!-- doxytag: member="gphoto2-port-log.c::HEXDUMP_OFFSET_WIDTH" ref="d3b7ff63651d18d6ba5938a05c61dc5c" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HEXDUMP_OFFSET_WIDTH&nbsp;&nbsp;&nbsp;4          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Width of offset field in characters. Note that HEXDUMP_COMPLETE_LINE needs to be changed when this value is changed. 
 </div>
 </div><p>
 <hr><h2>Function Documentation</h2>
@@ -118,7 +205,7 @@ You should have received a copy of the GNU Lesser General Public License along w
         <tr>
           <td class="memname">void gp_log           </td>
           <td>(</td>
-          <td class="paramtype">GPLogLevel&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a>&nbsp;</td>
           <td class="paramname"> <em>level</em>, </td>
         </tr>
         <tr>
@@ -149,8 +236,17 @@ You should have received a copy of the GNU Lesser General Public License along w
 <div class="memdoc">
 
 <p>
-gp_log: : gphoto2 log level : the domain : the format @...:<p>
-Logs a message at the given log . You would normally use this function to log strings. 
+Log a debug or error message. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>gphoto2 log level </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>domain</em>&nbsp;</td><td>the log domain </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>a printf style format string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>...</em>&nbsp;</td><td>the variable argumentlist for above format string</td></tr>
+  </table>
+</dl>
+Logs a message at the given log level. You would normally use this function to log general debug output in a printf way. 
 </div>
 </div><p>
 <a class="anchor" name="93c15da75612eccac26bf835e5ee75ca"></a><!-- doxytag: member="gphoto2-port-log.c::gp_log_add_func" ref="93c15da75612eccac26bf835e5ee75ca" args="(GPLogLevel level, GPLogFunc func, void *data)" -->
@@ -160,13 +256,13 @@ Logs a message at the given log . You would normally use this function to log st
         <tr>
           <td class="memname">int gp_log_add_func           </td>
           <td>(</td>
-          <td class="paramtype">GPLogLevel&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a>&nbsp;</td>
           <td class="paramname"> <em>level</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GPLogFunc&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a>&nbsp;</td>
           <td class="paramname"> <em>func</em>, </td>
         </tr>
         <tr>
@@ -185,9 +281,18 @@ Logs a message at the given log . You would normally use this function to log st
 <div class="memdoc">
 
 <p>
-gp_log_add_func: : a GPLogLevel : a GPLogFunc : data<p>
-Adds a log function that will be called for each log message that is flagged with a log level that appears in given log . This function returns an id that you can use for removing the log function again (using <a class="el" href="gphoto2-port-log_8c.html#2c6a91e6adb2ae7ad15bb523c2034efe">gp_log_remove_func</a>).<p>
-Return value: an id or a gphoto2 error code 
+Add a function to get logging information. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>the maximum level of logging it will get, up to and including the passed value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>func</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">GPLogFunc</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>data</td></tr>
+  </table>
+</dl>
+Adds a log function that will be called for each log message that is flagged with a log level that appears in given log level. This function returns an id that you can use for removing the log function again (using <a class="el" href="gphoto2-port-log_8c.html#2c6a91e6adb2ae7ad15bb523c2034efe">gp_log_remove_func</a>).<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>an id or a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="1f19a6a04565c8ef4cc573ea32362d38"></a><!-- doxytag: member="gphoto2-port-log.c::gp_log_data" ref="1f19a6a04565c8ef4cc573ea32362d38" args="(const char *domain, const char *data, unsigned int size)" -->
@@ -222,8 +327,9 @@ Return value: an id or a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_log_data: : the domain : the data to be logged : the size of the <p>
-Takes the  and creates a formatted hexdump string. If you would like to log text messages, use <a class="el" href="gphoto2-port-log_8c.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> instead. 
+Log data domain the domain data the data to be logged size the size of the data. 
+<p>
+Takes the data and creates a formatted hexdump string. If you would like to log text messages, use <a class="el" href="gphoto2-port-log_8c.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> instead. 
 </div>
 </div><p>
 <a class="anchor" name="2c6a91e6adb2ae7ad15bb523c2034efe"></a><!-- doxytag: member="gphoto2-port-log.c::gp_log_remove_func" ref="2c6a91e6adb2ae7ad15bb523c2034efe" args="(int id)" -->
@@ -243,9 +349,16 @@ Takes the  and creates a formatted hexdump string. If you would like to log text
 <div class="memdoc">
 
 <p>
-gp_log_remove_func: : an id (return value of <a class="el" href="gphoto2-port-log_8c.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a>)<p>
-Removes the log function with given .<p>
-Return value: a gphoto2 error code 
+Remove a logging receiving function. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>an id (return value of <a class="el" href="gphoto2-port-log_8c.html#93c15da75612eccac26bf835e5ee75ca">gp_log_add_func</a>)</td></tr>
+  </table>
+</dl>
+Removes the log function with given id.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="d9adb5be970eb84f617de76716b9943b"></a><!-- doxytag: member="gphoto2-port-log.c::gp_logv" ref="d9adb5be970eb84f617de76716b9943b" args="(GPLogLevel level, const char *domain, const char *format, va_list args)" -->
@@ -255,7 +368,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">void gp_logv           </td>
           <td>(</td>
-          <td class="paramtype">GPLogLevel&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406">GPLogLevel</a>&nbsp;</td>
           <td class="paramname"> <em>level</em>, </td>
         </tr>
         <tr>
@@ -286,11 +399,20 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_logv: : gphoto2 log level : the domain : the format : the va_list corresponding to <p>
-Logs a message at the given log . You would normally use this function to log as yet unformatted strings. 
+Log a debug or error message with va_list. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>gphoto2 log level </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>domain</em>&nbsp;</td><td>the domain </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>the format </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>args</em>&nbsp;</td><td>the va_list corresponding to format</td></tr>
+  </table>
+</dl>
+Logs a message at the given log level. You would normally use this function to log as yet unformatted strings. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

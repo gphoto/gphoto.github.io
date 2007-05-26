@@ -1,7 +1,5 @@
 base referer
 rect $gphoto2-context_8c.html 241,7 436,33
-rect $gphoto2-abilities-list_8h.html 237,108 440,135
-rect $gphoto2-camera_8h.html 491,159 672,185
-rect $gphoto2-library_8h.html 723,108 896,135
-rect $gphoto2-widget_8h.html 721,159 897,185
-rect $gphoto2-filesys_8h.html 252,159 425,185
+rect $gphoto2-abilities-list_8h.html 237,57 440,84
+rect $gphoto2-filesys_8h.html 252,108 425,135
+rect $gphoto2-widget_8h.html 251,159 427,185

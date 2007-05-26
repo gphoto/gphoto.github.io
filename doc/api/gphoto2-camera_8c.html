@@ -41,9 +41,6 @@ Include dependency graph for gphoto2-camera.c:<p><center><img src="gphoto2-camer
 </map>
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
-<tr><td colspan="2"><br><h2>Data Structures</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>_CameraPrivateCore</b></td></tr>
-
 <tr><td colspan="2"><br><h2>Defines</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="27cf200fa4b3d53c7cf6e0357eb066b7"></a><!-- doxytag: member="gphoto2-camera.c::textdomain" ref="27cf200fa4b3d53c7cf6e0357eb066b7" args="(String)" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>textdomain</b>(String)&nbsp;&nbsp;&nbsp;(String)</td></tr>
@@ -92,13 +89,14 @@ Include dependency graph for gphoto2-camera.c:<p><center><img src="gphoto2-camer
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#9a2c8ebd603fb993f38b0d768a565764">gp_camera_set_abilities</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraAbilities.html">CameraAbilities</a> abilities)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Sets the camera abilities.  <a href="#9a2c8ebd603fb993f38b0d768a565764"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#ddbf47ded1b18d7b68f89fd65bff4261">gp_camera_get_abilities</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraAbilities.html">CameraAbilities</a> *abilities)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3bc3e9132e36e649d46900147088acb1"></a><!-- doxytag: member="gphoto2-camera.c::gp_camera_get_port_info" ref="3bc3e9132e36e649d46900147088acb1" args="(Camera *camera, GPPortInfo *info)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_camera_get_port_info</b> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, GPPortInfo *info)</td></tr>
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_camera_get_port_info</b> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="struct__GPPortInfo.html">GPPortInfo</a> *info)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="012d61b2382dcf5eb0fcf50d8ebc7599"></a><!-- doxytag: member="gphoto2-camera.c::gp_camera_set_port_info" ref="012d61b2382dcf5eb0fcf50d8ebc7599" args="(Camera *camera, GPPortInfo info)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_camera_set_port_info</b> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, GPPortInfo info)</td></tr>
+int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_camera_set_port_info</b> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="struct__GPPortInfo.html">GPPortInfo</a> info)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#c47ab4719cc093bbc9158c7e025a2c37">gp_camera_set_port_speed</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, int speed)</td></tr>
 
@@ -112,9 +110,9 @@ int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_camera_set_port_inf
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#cefb74af0eaf56d6d8e222d26e271253">gp_camera_init</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#e5c9f9da2a2f5526949250dccf13d5fe">gp_camera_get_config</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> **window, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#e5c9f9da2a2f5526949250dccf13d5fe">gp_camera_get_config</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **window, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#a3ff7fbcdda7f2a9d5b108a3b046b61a">gp_camera_set_config</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="struct__CameraWidget.html">CameraWidget</a> *window, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#a3ff7fbcdda7f2a9d5b108a3b046b61a">gp_camera_set_config</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *window, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#66d48c31ce192cbfcf23e1fbc6ef69b6">gp_camera_get_summary</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraText.html">CameraText</a> *summary, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
@@ -124,23 +122,23 @@ int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_camera_set_port_inf
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#18f80edec2cee40510051bb18605ed52">gp_camera_capture</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-camera_8h.html#9eb0c8236a6a4346c5b0410f98d4e5c8">CameraCaptureType</a> type, <a class="el" href="structCameraFilePath.html">CameraFilePath</a> *path, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#3d61db44a4cab4d52e07b48c3449c55a">gp_camera_capture_preview</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="classCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#3d61db44a4cab4d52e07b48c3449c55a">gp_camera_capture_preview</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#c8fa3a4c7a170e68327662d91bbfbfce">gp_camera_wait_for_event</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, int timeout, <a class="el" href="gphoto2-camera_8h.html#24cb9a0c49540e95045203424ab38373">CameraEventType</a> *eventtype, void **eventdata, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#8c519a03a5fd1c705388b07d2a041617">gp_camera_folder_list_files</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, CameraList *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#8c519a03a5fd1c705388b07d2a041617">gp_camera_folder_list_files</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#bff6f654f5bfa08efa3021607704d061">gp_camera_folder_list_folders</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, CameraList *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#bff6f654f5bfa08efa3021607704d061">gp_camera_folder_list_folders</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#14266b3bd50742fecc5785c288967696">gp_camera_folder_delete_all</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#67d535b42659ac4f575b7f944b2ee241">gp_camera_folder_put_file</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, <a class="el" href="classCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#67d535b42659ac4f575b7f944b2ee241">gp_camera_folder_put_file</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, <a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#e50907eb98fab6cfc9d0a18627777657">gp_camera_file_get_info</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, const char *file, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> *info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#fbf358f33604421988fa2f630825babb">gp_camera_file_set_info</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, const char *file, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#b83372e00bef6f7c6e370c7b7ac3bc38">gp_camera_file_get</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, const char *file, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> type, <a class="el" href="classCameraFile.html">CameraFile</a> *camera_file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#b83372e00bef6f7c6e370c7b7ac3bc38">gp_camera_file_get</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, const char *file, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> type, <a class="el" href="structCameraFile.html">CameraFile</a> *camera_file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-camera_8c.html#97e83138594021b83e7ab461f8f1cc3d">gp_camera_file_delete</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, const char *folder, const char *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
@@ -321,7 +319,7 @@ You should have received a copy of the GNU Lesser General Public License along w
         r6 = (result);                                                  \
         <span class="keywordflow">if</span> (r6 &lt; 0) {                                                   \
                 CHECK_CLOSE (c,ctx);                                    \
-                <a class="code" href="gphoto2-port-log_8h.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> (GP_LOG_DEBUG, <span class="stringliteral">"gphoto2-camera"</span>, <span class="stringliteral">"Operation failed!"</span>);\
+                <a class="code" href="gphoto2-port-log_8h.html#e7ac6c05095d63ac5643a6ef66b3b479">gp_log</a> (<a class="code" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406af08742d60a2294ae19a7dfa1a38f5f1">GP_LOG_DEBUG</a>, <span class="stringliteral">"gphoto2-camera"</span>, <span class="stringliteral">"Operation failed!"</span>);\
                 CAMERA_UNUSED (c,ctx);                                  \
                 <span class="keywordflow">return</span> (r6);                                            \
         }                                                               \
@@ -511,7 +509,7 @@ The resulting file will be stored on the camera. The location gets stored in <co
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -534,7 +532,7 @@ Captures a preview that won't be stored on the camera but returned in supplied f
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> </td></tr>
   </table>
 </dl>
@@ -662,7 +660,7 @@ Deletes the file from <code></code> .<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>camera_file</em>, </td>
         </tr>
         <tr>
@@ -688,7 +686,7 @@ Retrieves a file from the <a class="el" href="gphoto2-camera_8h.html#311d64c8627
     <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>the name of a file </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>type</em>&nbsp;</td><td>the <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>camera_file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>camera_file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> </td></tr>
   </table>
 </dl>
@@ -875,7 +873,7 @@ Deletes all files in a given <code>folder</code>.<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CameraList *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *&nbsp;</td>
           <td class="paramname"> <em>list</em>, </td>
         </tr>
         <tr>
@@ -899,7 +897,7 @@ Lists the files in supplied <code>folder</code>.<p>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a CameraList </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> </td></tr>
   </table>
 </dl>
@@ -926,7 +924,7 @@ Lists the files in supplied <code>folder</code>.<p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CameraList *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *&nbsp;</td>
           <td class="paramname"> <em>list</em>, </td>
         </tr>
         <tr>
@@ -950,7 +948,7 @@ Lists the folders in supplied <code>folder</code>.<p>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a CameraList </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> </td></tr>
   </table>
 </dl>
@@ -1028,7 +1026,7 @@ Creates a new directory called <code>name</code> in the given <code>folder</code
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
           <td class="paramname"> <em>file</em>, </td>
         </tr>
         <tr>
@@ -1052,7 +1050,7 @@ Uploads a file into given <code>folder</code>.<p>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="classCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> </td></tr>
   </table>
 </dl>
@@ -1233,7 +1231,7 @@ Typically, this information contains name and address of the author, acknowledge
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
           <td class="paramname"> <em>window</em>, </td>
         </tr>
         <tr>
@@ -1256,7 +1254,7 @@ Retrieve a configuration <code>window</code> for the <code>camera</code>.<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>window</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>window</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> </td></tr>
   </table>
 </dl>
@@ -1547,7 +1545,8 @@ Increment the reference count of a <code>camera</code>.<p>
 <div class="memdoc">
 
 <p>
-Sets the camera abilities.<p>
+Sets the camera abilities. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
@@ -1571,7 +1570,7 @@ You need to call this function before calling <a class="el" href="gphoto2-camera
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__CameraWidget.html">CameraWidget</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
           <td class="paramname"> <em>window</em>, </td>
         </tr>
         <tr>
@@ -1594,7 +1593,7 @@ Sets the configuration.<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>window</em>&nbsp;</td><td>a CameraWidget </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>window</em>&nbsp;</td><td>a <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> </td></tr>
   </table>
 </dl>
@@ -1853,7 +1852,7 @@ Wait for an event from the camera.<p>
 This function blocks and waits for an event to come from the camera. If timeout occurs before an event is received then *eventtype==GP_EVENT_TIMEOUT and eventdata is left unchanged. If an event is received then eventtype is set to the type of event, and eventdata is set to event specific data. See the CameraEventType enum to see which eventtype's match to which types of eventdata. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:32 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

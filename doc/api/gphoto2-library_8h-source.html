@@ -26,33 +26,32 @@
 <a name="l00027"></a>00027 <span class="preprocessor"></span>
 <a name="l00028"></a>00028 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-abilities-list_8h.html">gphoto2/gphoto2-abilities-list.h</a>&gt;</span>
 <a name="l00029"></a>00029 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-camera_8h.html">gphoto2/gphoto2-camera.h</a>&gt;</span>
-<a name="l00030"></a>00030 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-context_8h.html">gphoto2/gphoto2-context.h</a>&gt;</span>
-<a name="l00031"></a>00031 
-<a name="l00032"></a>00032 <span class="preprocessor">#ifdef __cplusplus</span>
-<a name="l00033"></a>00033 <span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">"C"</span> {
-<a name="l00034"></a>00034 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
-<a name="l00035"></a>00035 
-<a name="l00043"></a><a class="code" href="gphoto2-library_8h.html#94f8f2af7b79fe558af19c2f6572b5ac">00043</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-library_8h.html#94f8f2af7b79fe558af19c2f6572b5ac">CameraLibraryIdFunc</a>)        (<a class="code" href="structCameraText.html">CameraText</a> *id);
-<a name="l00044"></a>00044 
-<a name="l00052"></a><a class="code" href="gphoto2-library_8h.html#161b4d8040a5f6506b639c71ac5eaa46">00052</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-library_8h.html#161b4d8040a5f6506b639c71ac5eaa46">CameraLibraryAbilitiesFunc</a>) (<a class="code" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list);
-<a name="l00053"></a>00053 
-<a name="l00066"></a><a class="code" href="gphoto2-library_8h.html#6e98aa8cf1a7c0f175da3331d59a1f33">00066</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-library_8h.html#6e98aa8cf1a7c0f175da3331d59a1f33">CameraLibraryInitFunc</a>)      (<a class="code" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
-<a name="l00067"></a>00067 
-<a name="l00068"></a>00068 <span class="comment">/*</span>
-<a name="l00069"></a>00069 <span class="comment"> * If you want to write a camera library, you need to implement </span>
-<a name="l00070"></a>00070 <span class="comment"> * the following three functions. Everything else should be declared</span>
-<a name="l00071"></a>00071 <span class="comment"> * as static.</span>
-<a name="l00072"></a>00072 <span class="comment"> */</span>
-<a name="l00073"></a>00073 <span class="keywordtype">int</span> <a class="code" href="gphoto2-library_8c.html#d9b006ebc1e76e7142dfad1a52bb5e13">camera_id</a>           (<a class="code" href="structCameraText.html">CameraText</a> *<span class="keywordtype">id</span>);
-<a name="l00074"></a>00074 <span class="keywordtype">int</span> <a class="code" href="gphoto2-library_8c.html#a557fac6fbfd62f693452008a23518e9">camera_abilities</a>    (<a class="code" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list);
-<a name="l00075"></a>00075 <span class="keywordtype">int</span> <a class="code" href="gphoto2-library_8c.html#bb2452e504921af915067b0458d4347c">camera_init</a>         (<a class="code" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
-<a name="l00076"></a>00076 
-<a name="l00077"></a>00077 <span class="preprocessor">#ifdef __cplusplus</span>
-<a name="l00078"></a>00078 <span class="preprocessor"></span>}
-<a name="l00079"></a>00079 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
-<a name="l00080"></a>00080 
-<a name="l00081"></a>00081 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_LIBRARY_H__ */</span>
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a name="l00030"></a>00030 
+<a name="l00031"></a>00031 <span class="preprocessor">#ifdef __cplusplus</span>
+<a name="l00032"></a>00032 <span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">"C"</span> {
+<a name="l00033"></a>00033 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
+<a name="l00034"></a>00034 
+<a name="l00042"></a><a class="code" href="gphoto2-library_8h.html#94f8f2af7b79fe558af19c2f6572b5ac">00042</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-library_8h.html#94f8f2af7b79fe558af19c2f6572b5ac">CameraLibraryIdFunc</a>)        (<a class="code" href="structCameraText.html">CameraText</a> *id);
+<a name="l00043"></a>00043 
+<a name="l00051"></a><a class="code" href="gphoto2-library_8h.html#161b4d8040a5f6506b639c71ac5eaa46">00051</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-library_8h.html#161b4d8040a5f6506b639c71ac5eaa46">CameraLibraryAbilitiesFunc</a>) (<a class="code" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list);
+<a name="l00052"></a>00052 
+<a name="l00065"></a><a class="code" href="gphoto2-library_8h.html#6e98aa8cf1a7c0f175da3331d59a1f33">00065</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-library_8h.html#6e98aa8cf1a7c0f175da3331d59a1f33">CameraLibraryInitFunc</a>)      (<a class="code" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
+<a name="l00066"></a>00066 
+<a name="l00067"></a>00067 <span class="comment">/*</span>
+<a name="l00068"></a>00068 <span class="comment"> * If you want to write a camera library, you need to implement </span>
+<a name="l00069"></a>00069 <span class="comment"> * the following three functions. Everything else should be declared</span>
+<a name="l00070"></a>00070 <span class="comment"> * as static.</span>
+<a name="l00071"></a>00071 <span class="comment"> */</span>
+<a name="l00072"></a>00072 <span class="keywordtype">int</span> <a class="code" href="gphoto2-library_8c.html#d9b006ebc1e76e7142dfad1a52bb5e13">camera_id</a>           (<a class="code" href="structCameraText.html">CameraText</a> *<span class="keywordtype">id</span>);
+<a name="l00073"></a>00073 <span class="keywordtype">int</span> <a class="code" href="gphoto2-library_8c.html#a557fac6fbfd62f693452008a23518e9">camera_abilities</a>    (<a class="code" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list);
+<a name="l00074"></a>00074 <span class="keywordtype">int</span> <a class="code" href="gphoto2-library_8c.html#bb2452e504921af915067b0458d4347c">camera_init</a>         (<a class="code" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076 <span class="preprocessor">#ifdef __cplusplus</span>
+<a name="l00077"></a>00077 <span class="preprocessor"></span>}
+<a name="l00078"></a>00078 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
+<a name="l00079"></a>00079 
+<a name="l00080"></a>00080 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_LIBRARY_H__ */</span>
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

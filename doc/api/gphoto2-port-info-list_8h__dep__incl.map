@@ -1,7 +1,5 @@
 base referer
-rect $gphoto2-abilities-list_8h.html 387,60 589,87
-rect $gphoto2-camera_8h.html 724,60 905,87
-rect $gphoto2-port-library_8h.html 667,162 963,188
-rect $gphoto2-port-info-list_8c.html 1013,136 1360,163
-rect $gphoto2-port_8c.html 1037,212 1336,239
-rect $gphoto2-port_8h.html 360,212 616,239
+rect $gphoto2-abilities-list_8h.html 387,7 589,33
+rect $gphoto2-port-library_8h.html 667,108 963,135
+rect $gphoto2-port-info-list_8c.html 1013,133 1360,160
+rect $gphoto2-port_8h.html 360,108 616,135

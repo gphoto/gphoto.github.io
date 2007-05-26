@@ -41,14 +41,15 @@ Include dependency graph for gphoto2-abilities-list.h:<p><center><img src="gphot
 <p>
 This graph shows which files directly or indirectly include this file:<p><center><img src="gphoto2-abilities-list_8h__dep__incl.png" border="0" usemap="#gphoto2/gphoto2-abilities-list.hdep_map" alt=""></center>
 <map name="gphoto2/gphoto2-abilities-list.hdep_map">
-<area href="gphoto2-abilities-list_8c.html" shape="rect" coords="717,7,933,34" alt="">
-<area href="gphoto2-camera_8h.html" shape="rect" coords="261,159,443,186" alt="">
-<area href="gphoto2-library_8h.html" shape="rect" coords="493,108,667,135" alt="">
-<area href="gphoto2-camera_8c.html" shape="rect" coords="728,159,923,186" alt="">
-<area href="gphoto2-widget_8h.html" shape="rect" coords="492,210,668,236" alt="">
+<area href="gphoto2-abilities-list_8c.html" shape="rect" coords="717,7,933,33" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="261,184,443,211" alt="">
+<area href="gphoto2-library_8h.html" shape="rect" coords="493,133,667,160" alt="">
+<area href="gphoto2-camera_8c.html" shape="rect" coords="728,209,923,236" alt="">
+<area href="gphoto2-widget_8h.html" shape="rect" coords="492,235,668,261" alt="">
+<area href="gphoto2-library_8c.html" shape="rect" coords="732,57,919,84" alt="">
 <area href="gphoto2_8h.html" shape="rect" coords="759,108,892,135" alt="">
-<area href="template_8c.html" shape="rect" coords="731,58,920,84" alt="">
-<area href="gphoto2-widget_8c.html" shape="rect" coords="731,210,920,236" alt="">
+<area href="template_8c.html" shape="rect" coords="731,159,920,185" alt="">
+<area href="gphoto2-widget_8c.html" shape="rect" coords="731,260,920,287" alt="">
 </map>
 
 <p>
@@ -118,7 +119,7 @@ This graph shows which files directly or indirectly include this file:<p><center
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-abilities-list_8h.html#e2ae1310db90ebadf1def78033687478">gp_abilities_list_reset</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Reset the list.  <a href="#e2ae1310db90ebadf1def78033687478"></a><br></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-abilities-list_8h.html#c0da0e3866fdf49b605fd427a72033af">gp_abilities_list_detect</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list, <a class="el" href="struct__GPPortInfoList.html">GPPortInfoList</a> *info_list, CameraList *l, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-abilities-list_8h.html#c0da0e3866fdf49b605fd427a72033af">gp_abilities_list_detect</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list, GPPortInfoList *info_list, <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *l, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-abilities-list_8h.html#7a2437331ae3f94a8860fcc3d53f95c3">gp_abilities_list_append</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list, <a class="el" href="structCameraAbilities.html">CameraAbilities</a> abilities)</td></tr>
 
@@ -363,7 +364,7 @@ Count the entries in the supplied list.
 <p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
-    <tr><td valign="top"></td><td valign="top"><em>a</em>&nbsp;</td><td>CameraAbilitiesList </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> </td></tr>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>The number of entries or a gphoto2 error code </dd></dl>
@@ -383,13 +384,13 @@ Count the entries in the supplied list.
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct__GPPortInfoList.html">GPPortInfoList</a> *&nbsp;</td>
+          <td class="paramtype">GPPortInfoList *&nbsp;</td>
           <td class="paramname"> <em>info_list</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CameraList *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *&nbsp;</td>
           <td class="paramname"> <em>l</em>, </td>
         </tr>
         <tr>
@@ -411,12 +412,14 @@ Count the entries in the supplied list.
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a CameraAbilitiesList </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>info_list</em>&nbsp;</td><td>a GPPortInfoList </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>l</em>&nbsp;</td><td>a CameraList </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>info_list</em>&nbsp;</td><td>the GPPortInfoList of ports to use for detection </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>l</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> that contains the autodetected cameras after the call </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
   </table>
 </dl>
-<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code</dd></dl>
-Tries to detect any camera connected to the computer using the supplied list of supported cameras and the supplied info_list of ports. 
+Tries to detect any camera connected to the computer using the supplied list of supported cameras and the supplied info_list of ports.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="44316e686ccc22fe4f93ff469ed7865e"></a><!-- doxytag: member="gphoto2-abilities-list.h::gp_abilities_list_free" ref="44316e686ccc22fe4f93ff469ed7865e" args="(CameraAbilitiesList *list)" -->
@@ -489,7 +492,7 @@ Retrieve the camera abilities of entry with supplied index number.
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code</dd></dl>
-Retrieves the camera  of entry with supplied index number. Typically, you would call <a class="el" href="gphoto2-camera_8c.html#9a2c8ebd603fb993f38b0d768a565764">gp_camera_set_abilities()</a> afterwards in order to prepare the initialization of a camera. 
+Retrieves the camera abilities of entry with supplied index number. Typically, you would call <a class="el" href="gphoto2-camera_8c.html#9a2c8ebd603fb993f38b0d768a565764">gp_camera_set_abilities()</a> afterwards in order to prepare the initialization of a camera. 
 </div>
 </div><p>
 <a class="anchor" name="4d2f0ba8554c97bf8f300dc1005ea64e"></a><!-- doxytag: member="gphoto2-abilities-list.h::gp_abilities_list_load" ref="4d2f0ba8554c97bf8f300dc1005ea64e" args="(CameraAbilitiesList *list, GPContext *context)" -->
@@ -652,7 +655,7 @@ Set the codeset for all messages returned by libgphoto2. <dl compact><dt><b>Para
 You would then call <a class="el" href="gphoto2-abilities-list_8c.html#4d2f0ba8554c97bf8f300dc1005ea64e">gp_abilities_list_load()</a> in order to populate it. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

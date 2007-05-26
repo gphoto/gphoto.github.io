@@ -20,7 +20,9 @@
   </ul></div>
 <div class="nav">
 <a class="el" href="dir_5c4c792d31159dd39ef299fd4873157d.html">libgphoto2_port</a>&nbsp;&raquo&nbsp;<a class="el" href="dir_bd8bb35657cbabddd2c7cf4a5578801b.html">libgphoto2_port</a></div>
-<h1>gphoto2-port-portability.c File Reference</h1><code>#include &quot;config.h&quot;</code><br>
+<h1>gphoto2-port-portability.c File Reference</h1>Various portability functions. <a href="#_details">More...</a>
+<p>
+<code>#include &quot;config.h&quot;</code><br>
 <code>#include &lt;stdio.h&gt;</code><br>
 <code>#include &lt;<a class="el" href="gphoto2-port_8h-source.html">gphoto2/gphoto2-port.h</a>&gt;</code><br>
 <code>#include &lt;<a class="el" href="gphoto2-port-result_8h-source.html">gphoto2/gphoto2-port-result.h</a>&gt;</code><br>
@@ -36,33 +38,268 @@ Include dependency graph for gphoto2-port-portability.c:<p><center><img src="gph
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="94dcc1529c1c77d0b7da267a60bbae7a"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_mkdir" ref="94dcc1529c1c77d0b7da267a60bbae7a" args="(const char *dirname)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_mkdir</b> (const char *dirname)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#94dcc1529c1c77d0b7da267a60bbae7a">gp_system_mkdir</a> (const char *dirname)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="c11ba9f4921d970941448b52d2f3359a"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_rmdir" ref="c11ba9f4921d970941448b52d2f3359a" args="(const char *dirname)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_rmdir</b> (const char *dirname)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">mkdir UNIX functionality  <a href="#94dcc1529c1c77d0b7da267a60bbae7a"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#c11ba9f4921d970941448b52d2f3359a">gp_system_rmdir</a> (const char *dirname)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="af3ac366ffa066bbed7f25744ccd51f4"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_opendir" ref="af3ac366ffa066bbed7f25744ccd51f4" args="(const char *dirname)" -->
-gp_system_dir&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_opendir</b> (const char *dirname)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">rmdir UNIX functionality  <a href="#c11ba9f4921d970941448b52d2f3359a"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">gp_system_dir&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#af3ac366ffa066bbed7f25744ccd51f4">gp_system_opendir</a> (const char *dirname)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="45b8b44e93f072875dfec2d6b0ae5b19"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_readdir" ref="45b8b44e93f072875dfec2d6b0ae5b19" args="(gp_system_dir d)" -->
-gp_system_dirent&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_readdir</b> (gp_system_dir d)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">opendir UNIX functionality  <a href="#af3ac366ffa066bbed7f25744ccd51f4"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">gp_system_dirent&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#45b8b44e93f072875dfec2d6b0ae5b19">gp_system_readdir</a> (gp_system_dir d)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="783798dd11acaaf5045d34048805ed0d"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_filename" ref="783798dd11acaaf5045d34048805ed0d" args="(gp_system_dirent de)" -->
-const char *&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_filename</b> (gp_system_dirent de)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">readdir UNIX functionality  <a href="#45b8b44e93f072875dfec2d6b0ae5b19"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">const char *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#783798dd11acaaf5045d34048805ed0d">gp_system_filename</a> (gp_system_dirent de)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="b32dc396a2f0701200b4a736a33b4db7"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_closedir" ref="b32dc396a2f0701200b4a736a33b4db7" args="(gp_system_dir dir)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_closedir</b> (gp_system_dir dir)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">retrieve UNIX filename out of a directory entry  <a href="#783798dd11acaaf5045d34048805ed0d"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#b32dc396a2f0701200b4a736a33b4db7">gp_system_closedir</a> (gp_system_dir dir)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="2bf1889d181aaee724be11f039e96dfa"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_is_file" ref="2bf1889d181aaee724be11f039e96dfa" args="(const char *filename)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_is_file</b> (const char *filename)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">closedir UNIX functionality  <a href="#b32dc396a2f0701200b4a736a33b4db7"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#2bf1889d181aaee724be11f039e96dfa">gp_system_is_file</a> (const char *filename)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="8d00f9750623d211459314d89769fce8"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_is_dir" ref="8d00f9750623d211459314d89769fce8" args="(const char *dirname)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_system_is_dir</b> (const char *dirname)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">check if passed filename is a file  <a href="#2bf1889d181aaee724be11f039e96dfa"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port-portability_8c.html#8d00f9750623d211459314d89769fce8">gp_system_is_dir</a> (const char *dirname)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">check if passed filename is a directory  <a href="#8d00f9750623d211459314d89769fce8"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+Various portability functions. 
+<p>
+This file contains various portability functions that make non UNIX (Windows) ports easier. <hr><h2>Function Documentation</h2>
+<a class="anchor" name="b32dc396a2f0701200b4a736a33b4db7"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_closedir" ref="b32dc396a2f0701200b4a736a33b4db7" args="(gp_system_dir dir)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_system_closedir           </td>
+          <td>(</td>
+          <td class="paramtype">gp_system_dir&nbsp;</td>
+          <td class="paramname"> <em>dir</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+closedir UNIX functionality 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dir</em>&nbsp;</td><td>directory to close</td></tr>
+  </table>
+</dl>
+Closes a directory after readdir operations.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="783798dd11acaaf5045d34048805ed0d"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_filename" ref="783798dd11acaaf5045d34048805ed0d" args="(gp_system_dirent de)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* gp_system_filename           </td>
+          <td>(</td>
+          <td class="paramtype">gp_system_dirent&nbsp;</td>
+          <td class="paramname"> <em>de</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+retrieve UNIX filename out of a directory entry 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>de</em>&nbsp;</td><td>directory entry as returned from <a class="el" href="gphoto2-port-portability_8h.html#45b8b44e93f072875dfec2d6b0ae5b19">gp_system_readdir()</a></td></tr>
+  </table>
+</dl>
+Extracts a filename out of the passed directory entry.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>the filename of the directory entry </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="8d00f9750623d211459314d89769fce8"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_is_dir" ref="8d00f9750623d211459314d89769fce8" args="(const char *dirname)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_system_is_dir           </td>
+          <td>(</td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>dirname</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+check if passed filename is a directory 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dirname</em>&nbsp;</td><td>file name to check</td></tr>
+  </table>
+</dl>
+Checks whether the passed in dirname is a directory and returns this as boolean.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>boolean flag whether passed filename is a directory. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="2bf1889d181aaee724be11f039e96dfa"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_is_file" ref="2bf1889d181aaee724be11f039e96dfa" args="(const char *filename)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_system_is_file           </td>
+          <td>(</td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>filename</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+check if passed filename is a file 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>file name to check</td></tr>
+  </table>
+</dl>
+Checks whether the passed in filename is a file and returns this as boolean.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>boolean flag whether passed filename is a file. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="94dcc1529c1c77d0b7da267a60bbae7a"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_mkdir" ref="94dcc1529c1c77d0b7da267a60bbae7a" args="(const char *dirname)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_system_mkdir           </td>
+          <td>(</td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>dirname</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+mkdir UNIX functionality 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dirname</em>&nbsp;</td><td>directory to create</td></tr>
+  </table>
+</dl>
+Creates a new directory.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="af3ac366ffa066bbed7f25744ccd51f4"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_opendir" ref="af3ac366ffa066bbed7f25744ccd51f4" args="(const char *dirname)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gp_system_dir gp_system_opendir           </td>
+          <td>(</td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>dirname</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+opendir UNIX functionality 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dirname</em>&nbsp;</td><td>directory to open</td></tr>
+  </table>
+</dl>
+Opens a directory for readdir and later closedir operations, to enumerate its contents.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a directory handle for use in <a class="el" href="gphoto2-port-portability_8h.html#45b8b44e93f072875dfec2d6b0ae5b19">gp_system_readdir()</a> and <a class="el" href="gphoto2-port-portability_8h.html#b32dc396a2f0701200b4a736a33b4db7">gp_system_closedir()</a> </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="45b8b44e93f072875dfec2d6b0ae5b19"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_readdir" ref="45b8b44e93f072875dfec2d6b0ae5b19" args="(gp_system_dir d)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gp_system_dirent gp_system_readdir           </td>
+          <td>(</td>
+          <td class="paramtype">gp_system_dir&nbsp;</td>
+          <td class="paramname"> <em>d</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+readdir UNIX functionality 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>d</em>&nbsp;</td><td>directory to enumerate</td></tr>
+  </table>
+</dl>
+Reads one directory entry from the specified directory handle as returned from <a class="el" href="gphoto2-port-portability_8h.html#af3ac366ffa066bbed7f25744ccd51f4">gp_system_opendir()</a>. Use <a class="el" href="gphoto2-port-portability_8h.html#783798dd11acaaf5045d34048805ed0d">gp_system_filename()</a> to extract the filename from the returned value.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a new gp_system_dirent or NULL </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="c11ba9f4921d970941448b52d2f3359a"></a><!-- doxytag: member="gphoto2-port-portability.c::gp_system_rmdir" ref="c11ba9f4921d970941448b52d2f3359a" args="(const char *dirname)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_system_rmdir           </td>
+          <td>(</td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>dirname</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+rmdir UNIX functionality 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dirname</em>&nbsp;</td><td>directory to remove</td></tr>
+  </table>
+</dl>
+Removes a empty directory.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code </dd></dl>
+
+</div>
+</div><p>
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

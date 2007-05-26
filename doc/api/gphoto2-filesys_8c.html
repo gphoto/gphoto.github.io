@@ -27,7 +27,6 @@
 <code>#include &lt;stdio.h&gt;</code><br>
 <code>#include &lt;unistd.h&gt;</code><br>
 <code>#include &lt;<a class="el" href="gphoto2-result_8h-source.html">gphoto2/gphoto2-result.h</a>&gt;</code><br>
-<code>#include &lt;<a class="el" href="gphoto2-file_8h-source.html">gphoto2/gphoto2-file.h</a>&gt;</code><br>
 <code>#include &lt;<a class="el" href="gphoto2-port-log_8h-source.html">gphoto2/gphoto2-port-log.h</a>&gt;</code><br>
 <code>#include &lt;<a class="el" href="gphoto2-setting_8h-source.html">gphoto2/gphoto2-setting.h</a>&gt;</code><br>
 <code>#include &lt;limits.h&gt;</code><br>
@@ -35,24 +34,17 @@
 <p>
 Include dependency graph for gphoto2-filesys.c:<p><center><img src="gphoto2-filesys_8c__incl.png" border="0" usemap="#libgphoto2/gphoto2-filesys.c_map" alt=""></center>
 <map name="libgphoto2/gphoto2-filesys.c_map">
-<area href="gphoto2-filesys_8h.html" shape="rect" coords="247,108,420,135" alt="">
-<area href="gphoto2-file_8h.html" shape="rect" coords="492,58,647,84" alt="">
-<area href="gphoto2-result_8h.html" shape="rect" coords="248,412,419,439" alt="">
-<area href="gphoto2-port-log_8h.html" shape="rect" coords="479,336,660,363" alt="">
-<area href="gphoto2-setting_8h.html" shape="rect" coords="246,463,422,490" alt="">
-<area href="gphoto2-context_8h.html" shape="rect" coords="479,260,660,287" alt="">
-<area href="gphoto2-list_8h.html" shape="rect" coords="492,159,647,186" alt="">
-<area href="gphoto2-port-result_8h.html" shape="rect" coords="471,412,668,439" alt="">
+<area href="gphoto2-filesys_8h.html" shape="rect" coords="247,57,420,84" alt="">
+<area href="gphoto2-result_8h.html" shape="rect" coords="248,311,419,337" alt="">
+<area href="gphoto2-port-log_8h.html" shape="rect" coords="479,361,660,388" alt="">
+<area href="gphoto2-setting_8h.html" shape="rect" coords="246,412,422,439" alt="">
+<area href="gphoto2-context_8h.html" shape="rect" coords="479,159,660,185" alt="">
+<area href="gphoto2-list_8h.html" shape="rect" coords="492,7,647,33" alt="">
+<area href="gphoto2-file_8h.html" shape="rect" coords="492,57,647,84" alt="">
+<area href="gphoto2-port-result_8h.html" shape="rect" coords="471,311,668,337" alt="">
 </map>
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
-<tr><td colspan="2"><br><h2>Data Structures</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>_CameraFilesystemFile</b></td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>CameraFilesystemFolder</b></td></tr>
-
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__CameraFilesystem.html">_CameraFilesystem</a></td></tr>
-
 <tr><td colspan="2"><br><h2>Defines</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3cac9fa09cb0e1397aa82d98623a8c41"></a><!-- doxytag: member="gphoto2-filesys.c::_BSD_SOURCE" ref="3cac9fa09cb0e1397aa82d98623a8c41" args="" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>_BSD_SOURCE</b></td></tr>
@@ -84,8 +76,7 @@ Include dependency graph for gphoto2-filesys.c:<p><center><img src="gphoto2-file
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="f02ca694ebdaa75cfc709b15be1653ad"></a><!-- doxytag: member="gphoto2-filesys.c::PATH_MAX" ref="f02ca694ebdaa75cfc709b15be1653ad" args="" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>PATH_MAX</b>&nbsp;&nbsp;&nbsp;4096</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="fec6200a4e6298ff146f4dfbb0f5cdb2"></a><!-- doxytag: member="gphoto2-filesys.c::PICTURES_TO_KEEP" ref="fec6200a4e6298ff146f4dfbb0f5cdb2" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>PICTURES_TO_KEEP</b>&nbsp;&nbsp;&nbsp;2</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#fec6200a4e6298ff146f4dfbb0f5cdb2">PICTURES_TO_KEEP</a>&nbsp;&nbsp;&nbsp;2</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="9b073a1e97ac8f23636b9d2d443525a5"></a><!-- doxytag: member="gphoto2-filesys.c::MIN" ref="9b073a1e97ac8f23636b9d2d443525a5" args="(a, b)" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>MIN</b>(a, b)&nbsp;&nbsp;&nbsp;(((a) &lt; (b)) ? (a) : (b))</td></tr>
@@ -114,78 +105,98 @@ Include dependency graph for gphoto2-filesys.c:<p><center><img src="gphoto2-file
 typedef _CameraFilesystemFile&nbsp;</td><td class="memItemRight" valign="bottom"><b>CameraFilesystemFile</b></td></tr>
 
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#f536c0bc57fe5933488c1685ca576b2d">gp_filesystem_reset</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#f536c0bc57fe5933488c1685ca576b2d">gp_filesystem_reset</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#cb993a480eb2484c7f5ff73b9d2707f0">gp_filesystem_new</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> **fs)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Clear the filesystem.  <a href="#f536c0bc57fe5933488c1685ca576b2d"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#cb993a480eb2484c7f5ff73b9d2707f0">gp_filesystem_new</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> **fs)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#db84b656af9648fc5ddda841a68f4e61">gp_filesystem_free</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Create a new filesystem struct.  <a href="#cb993a480eb2484c7f5ff73b9d2707f0"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#db84b656af9648fc5ddda841a68f4e61">gp_filesystem_free</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#8ce1a2c4c4272ceccae32768d9ed70f2">gp_filesystem_append</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Free filesystem struct.  <a href="#db84b656af9648fc5ddda841a68f4e61"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#8ce1a2c4c4272ceccae32768d9ed70f2">gp_filesystem_append</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="5cadc8fe89bab46f80c3869a7aca35a6"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_dump" ref="5cadc8fe89bab46f80c3869a7aca35a6" args="(CameraFilesystem *fs)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_dump</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Append a file to a folder in a filesystem.  <a href="#8ce1a2c4c4272ceccae32768d9ed70f2"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#5cadc8fe89bab46f80c3869a7aca35a6">gp_filesystem_dump</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#20fd238627e81472f956351f836d00de">gp_filesystem_delete_all</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Dump the current filesystem.  <a href="#5cadc8fe89bab46f80c3869a7aca35a6"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#20fd238627e81472f956351f836d00de">gp_filesystem_delete_all</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#d24ba98b6bffdf65b4f6be08769161b8">gp_filesystem_list_files</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, CameraList *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Delete all files in specified folder.  <a href="#20fd238627e81472f956351f836d00de"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#d24ba98b6bffdf65b4f6be08769161b8">gp_filesystem_list_files</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#5c173795c10cfd83e8eabb5f03b6c83d">gp_filesystem_list_folders</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, CameraList *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the list of files in a folder.  <a href="#d24ba98b6bffdf65b4f6be08769161b8"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#5c173795c10cfd83e8eabb5f03b6c83d">gp_filesystem_list_folders</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#b67a4c5e305f51ccb62975b9fc948101">gp_filesystem_count</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">List all subfolders within a filesystem folder.  <a href="#5c173795c10cfd83e8eabb5f03b6c83d"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#b67a4c5e305f51ccb62975b9fc948101">gp_filesystem_count</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#ed3533cfe21a4cb2b3f0d6b6c51bbb56">gp_filesystem_delete_file</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Count files a folder of a filesystem.  <a href="#b67a4c5e305f51ccb62975b9fc948101"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#ed3533cfe21a4cb2b3f0d6b6c51bbb56">gp_filesystem_delete_file</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="9ad059059feb29ad8bc11ac071dbf821"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_delete_file_noop" ref="9ad059059feb29ad8bc11ac071dbf821" args="(CameraFilesystem *fs, const char *folder, const char *filename, GPContext *context)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_delete_file_noop</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Delete a file from a folder.  <a href="#ed3533cfe21a4cb2b3f0d6b6c51bbb56"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#9ad059059feb29ad8bc11ac071dbf821">gp_filesystem_delete_file_noop</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td colspan="2"><div class="groupHeader">in given @folder.</div></td></tr>
-<tr><td colspan="2"><div class="groupText">Return value: a gphoto2 error code <br><br></div></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="7feb8ea0012dd35376a243e2e32aa3de"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_make_dir" ref="7feb8ea0012dd35376a243e2e32aa3de" args="(CameraFilesystem *fs, const char *folder, const char *name, GPContext *context)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_make_dir</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *name, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Delete a virtal file from a folder in the filesystem.  <a href="#9ad059059feb29ad8bc11ac071dbf821"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#7feb8ea0012dd35376a243e2e32aa3de">gp_filesystem_make_dir</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *name, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="50638167afaa633243acbcacfe269141"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_remove_dir" ref="50638167afaa633243acbcacfe269141" args="(CameraFilesystem *fs, const char *folder, const char *name, GPContext *context)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_remove_dir</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *name, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Create a subfolder within a folder.  <a href="#7feb8ea0012dd35376a243e2e32aa3de"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#50638167afaa633243acbcacfe269141">gp_filesystem_remove_dir</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *name, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="cbab896da934b6c4034f744099b61e31"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_put_file" ref="cbab896da934b6c4034f744099b61e31" args="(CameraFilesystem *fs, const char *folder, CameraFile *file, GPContext *context)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_put_file</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="classCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Remove a subfolder from within a folder.  <a href="#50638167afaa633243acbcacfe269141"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#cbab896da934b6c4034f744099b61e31">gp_filesystem_put_file</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#6744191bcfab9801f49fe14f920a5aaa">gp_filesystem_name</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, int filenumber, const char **filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Upload a file to a folder on the device filesystem.  <a href="#cbab896da934b6c4034f744099b61e31"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#6744191bcfab9801f49fe14f920a5aaa">gp_filesystem_name</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, int filenumber, const char **filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#7b516d0cc574e349aeee7d27c96b3ac1">gp_filesystem_number</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Lookup the filename of an indexed file within a folder.  <a href="#6744191bcfab9801f49fe14f920a5aaa"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#7b516d0cc574e349aeee7d27c96b3ac1">gp_filesystem_number</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#3710ec92c29e7e6fded95b2fd5c02cf7">gp_filesystem_get_folder</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *filename, const char **folder, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the index of a file in specified folder.  <a href="#7b516d0cc574e349aeee7d27c96b3ac1"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#3710ec92c29e7e6fded95b2fd5c02cf7">gp_filesystem_get_folder</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *filename, const char **folder, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#0c4b009ef34bc576d61e74f5d0e76000">gp_filesystem_set_list_funcs</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, CameraFilesystemListFunc file_list_func, CameraFilesystemListFunc folder_list_func, void *data)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Search a folder that contains a given filename.  <a href="#3710ec92c29e7e6fded95b2fd5c02cf7"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#0c4b009ef34bc576d61e74f5d0e76000">gp_filesystem_set_list_funcs</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, CameraFilesystemListFunc file_list_func, CameraFilesystemListFunc folder_list_func, void *data)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#03413f752ec7bac7539ecaef67090eae">gp_filesystem_set_file_funcs</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, CameraFilesystemGetFileFunc get_file_func, CameraFilesystemDeleteFileFunc del_file_func, void *data)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set the functions to list folders and files.  <a href="#0c4b009ef34bc576d61e74f5d0e76000"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#03413f752ec7bac7539ecaef67090eae">gp_filesystem_set_file_funcs</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, CameraFilesystemGetFileFunc get_file_func, CameraFilesystemDeleteFileFunc del_file_func, void *data)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#f15123d3ad76c611b5d29a2a83c582b3">gp_filesystem_set_folder_funcs</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, CameraFilesystemPutFileFunc put_file_func, CameraFilesystemDeleteAllFunc delete_all_func, CameraFilesystemDirFunc make_dir_func, CameraFilesystemDirFunc remove_dir_func, void *data)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set camera filesystem file related functions.  <a href="#03413f752ec7bac7539ecaef67090eae"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#f15123d3ad76c611b5d29a2a83c582b3">gp_filesystem_set_folder_funcs</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, CameraFilesystemPutFileFunc put_file_func, CameraFilesystemDeleteAllFunc delete_all_func, CameraFilesystemDirFunc make_dir_func, CameraFilesystemDirFunc remove_dir_func, void *data)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="9708e9ea7b23f5303ae4a5dcd99d24c1"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_get_file" ref="9708e9ea7b23f5303ae4a5dcd99d24c1" args="(CameraFilesystem *fs, const char *folder, const char *filename, CameraFileType type, CameraFile *file, GPContext *context)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_get_file</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> type, <a class="el" href="classCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set folder related functions of the filesystem.  <a href="#f15123d3ad76c611b5d29a2a83c582b3"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#9708e9ea7b23f5303ae4a5dcd99d24c1">gp_filesystem_get_file</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> type, <a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#5ea72193c948bffb3da1ca9e6bb4f773">gp_filesystem_set_info_funcs</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, CameraFilesystemGetInfoFunc get_info_func, CameraFilesystemSetInfoFunc set_info_func, void *data)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get file data from the filesystem.  <a href="#9708e9ea7b23f5303ae4a5dcd99d24c1"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#5ea72193c948bffb3da1ca9e6bb4f773">gp_filesystem_set_info_funcs</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, CameraFilesystemGetInfoFunc get_info_func, CameraFilesystemSetInfoFunc set_info_func, void *data)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#cec6513b6dfbd4f495b69750f38e9c4b">gp_filesystem_set_funcs</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, CameraFilesystemFuncs *funcs, void *data)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set file information functions.  <a href="#5ea72193c948bffb3da1ca9e6bb4f773"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#cec6513b6dfbd4f495b69750f38e9c4b">gp_filesystem_set_funcs</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, CameraFilesystemFuncs *funcs, void *data)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#6dbe4b636d58eddda2254b791039a343">gp_filesystem_get_info</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> *info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set all filesystem related function pointers.  <a href="#cec6513b6dfbd4f495b69750f38e9c4b"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#6dbe4b636d58eddda2254b791039a343">gp_filesystem_get_info</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> *info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="a728636b31591f901d2fa9502df6ce7a"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_file_noop" ref="a728636b31591f901d2fa9502df6ce7a" args="(CameraFilesystem *fs, const char *folder, CameraFile *file, GPContext *context)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_set_file_noop</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="classCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get information about the specified file.  <a href="#6dbe4b636d58eddda2254b791039a343"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#a728636b31591f901d2fa9502df6ce7a">gp_filesystem_set_file_noop</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#182ec63fe034ee25302425f5f2f7702c">gp_filesystem_set_info_noop</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Attach file content to a specified file.  <a href="#a728636b31591f901d2fa9502df6ce7a"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#182ec63fe034ee25302425f5f2f7702c">gp_filesystem_set_info_noop</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#506d0d1d121773c54157287544d806af">gp_filesystem_set_info</a> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Store the file information in the virtual fs.  <a href="#182ec63fe034ee25302425f5f2f7702c"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#506d0d1d121773c54157287544d806af">gp_filesystem_set_info</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> info, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="9c34c9297e1472199ada406d96d2cd0c"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_get_storageinfo" ref="9c34c9297e1472199ada406d96d2cd0c" args="(CameraFilesystem *fs, CameraStorageInformation **storageinfo, int *nrofstorageinfos, GPContext *context)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_filesystem_get_storageinfo</b> (<a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *fs, <a class="el" href="struct__CameraStorageInformation.html">CameraStorageInformation</a> **storageinfo, int *nrofstorageinfos, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set information about a file.  <a href="#506d0d1d121773c54157287544d806af"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-filesys_8c.html#9c34c9297e1472199ada406d96d2cd0c">gp_filesystem_get_storageinfo</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, <a class="el" href="struct__CameraStorageInformation.html">CameraStorageInformation</a> **storageinfo, int *nrofstorageinfos, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the storage information about this filesystem.  <a href="#9c34c9297e1472199ada406d96d2cd0c"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
-gp_filesystem_get_file: : a CameraFilesystem : the folder in which the file can be found : the name of the file to download : the type of the file<p>
-: a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Downloads the file called  from the  using the get_file_func if such a function has been previously supplied. If the file has been previously downloaded, the file is retrieved from cache.<p>
-Return value: a gphoto2 error code. <hr><h2>Define Documentation</h2>
+<dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2000 Scott Fritzinger <p>
+Contributions Lutz Müller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt; (2001)</dd></dl>
+<dl class="user" compact><dt><b>License</b></dt><dd>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. </dd></dl>
+<hr><h2>Define Documentation</h2>
 <a class="anchor" name="9c54deba795b3f787fac40213a4babc3"></a><!-- doxytag: member="gphoto2-filesys.c::CA" ref="9c54deba795b3f787fac40213a4babc3" args="(f, c)" -->
 <div class="memitem">
 <div class="memproto">
@@ -336,6 +347,21 @@ Return value: a gphoto2 error code. <hr><h2>Define Documentation</h2>
 </pre></div>
 </div>
 </div><p>
+<a class="anchor" name="fec6200a4e6298ff146f4dfbb0f5cdb2"></a><!-- doxytag: member="gphoto2-filesys.c::PICTURES_TO_KEEP" ref="fec6200a4e6298ff146f4dfbb0f5cdb2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PICTURES_TO_KEEP&nbsp;&nbsp;&nbsp;2          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+The default number of pictures to keep in the internal cache, can be overriden by settings. 
+</div>
+</div><p>
 <hr><h2>Function Documentation</h2>
 <a class="anchor" name="8ce1a2c4c4272ceccae32768d9ed70f2"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_append" ref="8ce1a2c4c4272ceccae32768d9ed70f2" args="(CameraFilesystem *fs, const char *folder, const char *filename, GPContext *context)" -->
 <div class="memitem">
@@ -344,7 +370,7 @@ Return value: a gphoto2 error code. <hr><h2>Define Documentation</h2>
         <tr>
           <td class="memname">int gp_filesystem_append           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -375,9 +401,19 @@ Return value: a gphoto2 error code. <hr><h2>Define Documentation</h2>
 <div class="memdoc">
 
 <p>
-gp_filesystem_append: : a CameraFilesystem : the folder where to put the file in : filename of the file : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Tells the  that there is a file called  in folder called . Usually, camera drivers will call this function after capturing an image in order to tell the  about the new file. A front-end should not use this function.<p>
-Return value: a gphoto2 error code. 
+Append a file to a folder in a filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder where to put the file in </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>filename of the file </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Tells the fs that there is a file called filename in folder called folder. Usually camera drivers will call this function after capturing an image in order to tell the fs about the new file. A front-end should not use this function.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="b67a4c5e305f51ccb62975b9fc948101"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_count" ref="b67a4c5e305f51ccb62975b9fc948101" args="(CameraFilesystem *fs, const char *folder, GPContext *context)" -->
@@ -387,7 +423,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_count           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -412,9 +448,18 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_count: : a CameraFilesystem : a folder in which to count the files : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Counts the files in the .<p>
-Return value: The number of files in the  or a gphoto2 error code. 
+Count files a folder of a filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder in which to count the files </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Counts the files in the folder.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>The number of files in the folder or a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="20fd238627e81472f956351f836d00de"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_delete_all" ref="20fd238627e81472f956351f836d00de" args="(CameraFilesystem *fs, const char *folder, GPContext *context)" -->
@@ -424,7 +469,7 @@ Return value: The number of files in the  or a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_delete_all           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -449,9 +494,18 @@ Return value: The number of files in the  or a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_delete_all : a CameraFilesystem : the folder in which to delete all files : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Deletes all files in the given  from the . If the  has not been supplied with a delete_all_func, it tries to delete the files one by one using the delete_file_func. If that function has not been supplied neither, an error is returned.<p>
-Return value: a gphoto2 error code. 
+Delete all files in specified folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder in which to delete all files </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Deletes all files in the given folder from the fs. If the fs has not been supplied with a delete_all_func, it tries to delete the files one by one using the delete_file_func. If that function has not been supplied neither, an error is returned.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="ed3533cfe21a4cb2b3f0d6b6c51bbb56"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_delete_file" ref="ed3533cfe21a4cb2b3f0d6b6c51bbb56" args="(CameraFilesystem *fs, const char *folder, const char *filename, GPContext *context)" -->
@@ -461,7 +515,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_delete_file           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -492,19 +546,82 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_delete_file: : a CameraFilesystem : a folder in which to delete the file : the name of the file to delete : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-If a delete_file_func has been supplied to the , this function will be called and, if this function returns without error, the file will be removed from the .<p>
-Return value: a gphoto2 error code. 
+Delete a file from a folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder in which to delete the file </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>the name of the file to delete </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+If a delete_file_func has been supplied to the fs, this function will be called and, if this function returns without error, the file will be removed from the fs.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
-<a class="anchor" name="db84b656af9648fc5ddda841a68f4e61"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_free" ref="db84b656af9648fc5ddda841a68f4e61" args="(CameraFilesystem *fs)" -->
+<a class="anchor" name="9ad059059feb29ad8bc11ac071dbf821"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_delete_file_noop" ref="9ad059059feb29ad8bc11ac071dbf821" args="(CameraFilesystem *fs, const char *folder, const char *filename, GPContext *context)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int gp_filesystem_free           </td>
+          <td class="memname">int gp_filesystem_delete_file_noop           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Delete a virtal file from a folder in the filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder in which to delete the file </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>the name of the file to delete </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Remove a file from the filesystem. Compared to <a class="el" href="gphoto2-filesys_8c.html#ed3533cfe21a4cb2b3f0d6b6c51bbb56">gp_filesystem_delete_file()</a> this just removes the file from the libgphoto2 view of the filesystem, but does not call the camera driver to delete it from the physical device.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="5cadc8fe89bab46f80c3869a7aca35a6"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_dump" ref="5cadc8fe89bab46f80c3869a7aca35a6" args="(CameraFilesystem *fs)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_dump           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -514,9 +631,111 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_free: : a CameraFilesystem<p>
-Frees the CameraFilesystem<p>
-Return value: a gphoto2 error code. 
+Dump the current filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>the <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code</dd></dl>
+Internal function to dump the current filesystem. 
+</div>
+</div><p>
+<a class="anchor" name="db84b656af9648fc5ddda841a68f4e61"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_free" ref="db84b656af9648fc5ddda841a68f4e61" args="(CameraFilesystem *fs)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_free           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>          </td>
+          <td>&nbsp;)&nbsp;</td>
+          <td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Free filesystem struct. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a></td></tr>
+  </table>
+</dl>
+Frees the <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a><p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="9708e9ea7b23f5303ae4a5dcd99d24c1"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_get_file" ref="9708e9ea7b23f5303ae4a5dcd99d24c1" args="(CameraFilesystem *fs, const char *folder, const char *filename, CameraFileType type, CameraFile *file, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_get_file           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a>&nbsp;</td>
+          <td class="paramname"> <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramname"> <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get file data from the filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder in which the file can be found </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>the name of the file to download </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>type</em>&nbsp;</td><td>the type of the file </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>the file that receives the data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Downloads the file called filename from the folder using the get_file_func if such a function has been previously supplied. If the file has been previously downloaded, the file is retrieved from cache. The result is stored in the passed file structure.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="3710ec92c29e7e6fded95b2fd5c02cf7"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_get_folder" ref="3710ec92c29e7e6fded95b2fd5c02cf7" args="(CameraFilesystem *fs, const char *filename, const char **folder, GPContext *context)" -->
@@ -526,7 +745,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_get_folder           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -557,9 +776,20 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_get_folder: : a CameraFilesystem : the name of the file to search in the  : : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Searches a file called  in the  and returns the first occurrency. This functionality is needed for camera drivers that cannot figure out where a file gets created after capturing an image although the name of the image is known. Usually, those drivers will call gp_filesystem_reset in order to tell the  that something has changed and then gp_filesystem_get_folder in order to find the file.<p>
-Return value: a gphoto2 error code. 
+Search a folder that contains a given filename. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>the name of the file to search in the fs </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>pointer to value where the string is stored in </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Searches a file called filename in the fs and returns the first occurrency. This functionality is needed for camera drivers that cannot figure out where a file gets created after capturing an image although the name of the image is known. Usually, those drivers will call gp_filesystem_reset in order to tell the fs that something has changed and then gp_filesystem_get_folder in order to find the file.<p>
+Note that you get a reference to the string stored in the filesystem structure, so do not free it yourself.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="6dbe4b636d58eddda2254b791039a343"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_get_info" ref="6dbe4b636d58eddda2254b791039a343" args="(CameraFilesystem *fs, const char *folder, const char *filename, CameraFileInfo *info, GPContext *context)" -->
@@ -569,7 +799,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_get_info           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -606,8 +836,72 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_get_info: : a CameraFilesystem : : : : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Return value: a gphoto2 error code. 
+Get information about the specified file. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder that contains the file </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>the filename </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>info</em>&nbsp;</td><td>pointer to <a class="el" href="gphoto2-filesys_8h.html#001923e5a01c8b60858a66cc6842e781">CameraFileInfo</a> that receives the information </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="9c34c9297e1472199ada406d96d2cd0c"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_get_storageinfo" ref="9c34c9297e1472199ada406d96d2cd0c" args="(CameraFilesystem *fs, CameraStorageInformation **storageinfo, int *nrofstorageinfos, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_get_storageinfo           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct__CameraStorageInformation.html">CameraStorageInformation</a> **&nbsp;</td>
+          <td class="paramname"> <em>storageinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&nbsp;</td>
+          <td class="paramname"> <em>nrofstorageinfos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get the storage information about this filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>the filesystem </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>storageinfo</em>&nbsp;</td><td>pointer to receive the array of informations </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>nrofstorageinfos</em>&nbsp;</td><td>pointer to receive number of array entries </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Retrieves the storage information, like maximum and free space, for the specified filesystem, if supported by the device.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="d24ba98b6bffdf65b4f6be08769161b8"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_list_files" ref="d24ba98b6bffdf65b4f6be08769161b8" args="(CameraFilesystem *fs, const char *folder, CameraList *list, GPContext *context)" -->
@@ -617,7 +911,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_list_files           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -629,7 +923,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CameraList *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *&nbsp;</td>
           <td class="paramname"> <em>list</em>, </td>
         </tr>
         <tr>
@@ -648,9 +942,19 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_list_files: : a CameraFilesystem : a folder of which a file list should be generated : a CameraList where to put the list of files into : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Lists the files in  using either cached values or (if there aren't any) the file_list_func which (hopefully) has been previously supplied.<p>
-Return value: a gphoto2 error code. 
+Get the list of files in a folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder of which a file list should be generated </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> where to put the list of files into </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Lists the files in folder using either cached values or (if there aren't any) the file_list_func which (hopefully) has been previously supplied.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="5c173795c10cfd83e8eabb5f03b6c83d"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_list_folders" ref="5c173795c10cfd83e8eabb5f03b6c83d" args="(CameraFilesystem *fs, const char *folder, CameraList *list, GPContext *context)" -->
@@ -660,7 +964,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_list_folders           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -672,7 +976,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CameraList *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *&nbsp;</td>
           <td class="paramname"> <em>list</em>, </td>
         </tr>
         <tr>
@@ -691,9 +995,72 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_list_folders: : a CameraFilesystem : a folder : a CameraList where subfolders should be listed : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Generates a list of subfolders of the supplied  either using cached values (if there are any) or the folder_list_func if it has been supplied previously. If not, it is assumed that only a root folder exists (which is the case for many cameras).<p>
-Return value: a gphoto2 error code. 
+List all subfolders within a filesystem folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> where subfolders should be listed </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Generates a list of subfolders of the supplied folder either using cached values (if there are any) or the folder_list_func if it has been supplied previously. If not, it is assumed that only a root folder exists (which is the case for many cameras).<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="7feb8ea0012dd35376a243e2e32aa3de"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_make_dir" ref="7feb8ea0012dd35376a243e2e32aa3de" args="(CameraFilesystem *fs, const char *folder, const char *name, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_make_dir           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Create a subfolder within a folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder in which the directory should be created </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>the name of the directory to be created </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Creates a new directory called name in given folder.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="6744191bcfab9801f49fe14f920a5aaa"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_name" ref="6744191bcfab9801f49fe14f920a5aaa" args="(CameraFilesystem *fs, const char *folder, int filenumber, const char **filename, GPContext *context)" -->
@@ -703,7 +1070,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_name           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -740,9 +1107,20 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_name: : a CameraFilesystem : the folder where to look up the file with the  : the number of the file : : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Looks up the  of file with given  in given . See gp_filesystem_number for exactly the opposite functionality.<p>
-Return value: a gphoto2 error code. 
+Lookup the filename of an indexed file within a folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder where to look up the file with the filenumber </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filenumber</em>&nbsp;</td><td>the number of the file </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>pointer to a filename where the result is stored </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Looks up the filename of file with given filenumber in given folder. See gp_filesystem_number for exactly the opposite functionality.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="cb993a480eb2484c7f5ff73b9d2707f0"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_new" ref="cb993a480eb2484c7f5ff73b9d2707f0" args="(CameraFilesystem **fs)" -->
@@ -752,7 +1130,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_new           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> **&nbsp;</td>
           <td class="paramname"> <em>fs</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -762,9 +1140,16 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_new: : a pointer to a CameraFilesystem<p>
-Creates a new empty CameraFilesystem<p>
-Return value: a gphoto2 error code. 
+Create a new filesystem struct. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a pointer to a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a></td></tr>
+  </table>
+</dl>
+Creates a new empty <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a><p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="7b516d0cc574e349aeee7d27c96b3ac1"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_number" ref="7b516d0cc574e349aeee7d27c96b3ac1" args="(CameraFilesystem *fs, const char *folder, const char *filename, GPContext *context)" -->
@@ -774,7 +1159,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_number           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -805,9 +1190,125 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_number: : a CameraFilesystem : the folder where to look for file called  : the file to look for : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Looks for a file called  in the given . See gp_filesystem_name for exactly the opposite functionality.<p>
-Return value: a gphoto2 error code. 
+Get the index of a file in specified folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder where to look for file called filename </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>the file to look for </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Looks for a file called filename in the given folder. See gp_filesystem_name for exactly the opposite functionality.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="cbab896da934b6c4034f744099b61e31"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_put_file" ref="cbab896da934b6c4034f744099b61e31" args="(CameraFilesystem *fs, const char *folder, CameraFile *file, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_put_file           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramname"> <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Upload a file to a folder on the device filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder where to put the file into </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>the file </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Uploads a file to the camera if a put_file_func has been previously supplied to the fs. If the upload is successful, the file will get cached in the fs.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="50638167afaa633243acbcacfe269141"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_remove_dir" ref="50638167afaa633243acbcacfe269141" args="(CameraFilesystem *fs, const char *folder, const char *name, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_remove_dir           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Remove a subfolder from within a folder. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the folder in which the directory should be created </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>name</em>&nbsp;</td><td>the name of the directory to be created </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Removes a directory called name from the given folder.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="f536c0bc57fe5933488c1685ca576b2d"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_reset" ref="f536c0bc57fe5933488c1685ca576b2d" args="(CameraFilesystem *fs)" -->
@@ -817,7 +1318,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_reset           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -827,9 +1328,16 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_reset: : a CameraFilesystem<p>
+Clear the filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>the filesystem to be cleared</td></tr>
+  </table>
+</dl>
 Resets the filesystem. All cached information including the folder tree will get lost and will be queried again on demand.<p>
-Return value: a gphoto2 error code. 
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="03413f752ec7bac7539ecaef67090eae"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_file_funcs" ref="03413f752ec7bac7539ecaef67090eae" args="(CameraFilesystem *fs, CameraFilesystemGetFileFunc get_file_func, CameraFilesystemDeleteFileFunc del_file_func, void *data)" -->
@@ -839,7 +1347,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_set_file_funcs           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -870,9 +1378,72 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_set_file_funcs: : a CameraFilesystem : the function downloading files : the function deleting files :<p>
-Tells the  which functions to use for file download or file deletion. Typically, a camera driver would call this function on initialization. A function can be NULL indicating that this functionality is not supported. For example, if a camera does not support file deletion, you would supply NULL for del_file_func.<p>
-Return value: a gphoto2 error code. 
+Set camera filesystem file related functions. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>get_file_func</em>&nbsp;</td><td>the function downloading files </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>del_file_func</em>&nbsp;</td><td>the function deleting files </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>private data structure</td></tr>
+  </table>
+</dl>
+Tells the fs which functions to use for file download or file deletion. Typically, a camera driver would call this function on initialization. A function can be NULL indicating that this functionality is not supported. For example, if a camera does not support file deletion, you would supply NULL for del_file_func.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="a728636b31591f901d2fa9502df6ce7a"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_file_noop" ref="a728636b31591f901d2fa9502df6ce7a" args="(CameraFilesystem *fs, const char *folder, CameraFile *file, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_filesystem_set_file_noop           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramname"> <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Attach file content to a specified file. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>a folder in the filesystem </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file</em>&nbsp;</td><td>a <a class="el" href="structCameraFile.html">CameraFile</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context,:</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Tells the fs about a file. Typically, camera drivers will call this function in case they get information about a file (i.e. preview) "for free" on <a class="el" href="gphoto2-camera_8c.html#18f80edec2cee40510051bb18605ed52">gp_camera_capture()</a> or <a class="el" href="gphoto2-camera_8c.html#8c519a03a5fd1c705388b07d2a041617">gp_camera_folder_list_files()</a>.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="f15123d3ad76c611b5d29a2a83c582b3"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_folder_funcs" ref="f15123d3ad76c611b5d29a2a83c582b3" args="(CameraFilesystem *fs, CameraFilesystemPutFileFunc put_file_func, CameraFilesystemDeleteAllFunc delete_all_func, CameraFilesystemDirFunc make_dir_func, CameraFilesystemDirFunc remove_dir_func, void *data)" -->
@@ -882,7 +1453,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_set_folder_funcs           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -925,10 +1496,22 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_set_folder_funcs: : a CameraFilesystem : function used to upload files : function used to delete all files in a folder : function used to create a new directory : function used to remove an existing directory : a data object that will passed to all called functions<p>
-Tells the filesystem which functions to call for file upload, deletion of all files in a given folder, creation or removal of a folder. Typically, a camera driver would call this function on initialization. If one functionality is not supported, NULL can be supplied. If you don't call this function, the  will assume that neither of these features is supported.<p>
-The  will try to compensate missing  functionality with the delete_file_func if such a function has been supplied.<p>
-Return value: a gphoto2 error code. 
+Set folder related functions of the filesystem. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>put_file_func</em>&nbsp;</td><td>function used to upload files </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>delete_all_func</em>&nbsp;</td><td>function used to delete all files in a folder </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>make_dir_func</em>&nbsp;</td><td>function used to create a new directory </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>remove_dir_func</em>&nbsp;</td><td>function used to remove an existing directory </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>a data object that will passed to all called functions</td></tr>
+  </table>
+</dl>
+Tells the filesystem which functions to call for file upload, deletion of all files in a given folder, creation or removal of a folder. Typically, a camera driver would call this function on initialization. If one functionality is not supported, NULL can be supplied. If you don't call this function, the fs will assume that neither of these features is supported.<p>
+The fs will try to compensate missing delete_all_func functionality with the delete_file_func if such a function has been supplied.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="cec6513b6dfbd4f495b69750f38e9c4b"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_funcs" ref="cec6513b6dfbd4f495b69750f38e9c4b" args="(CameraFilesystem *fs, CameraFilesystemFuncs *funcs, void *data)" -->
@@ -938,7 +1521,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_set_funcs           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -963,9 +1546,18 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_set_funcs: : a CameraFilesystem : pointer to a struct of filesystem functions :<p>
-Tells the filesystem which functions to call for camera/filesystem specific functions.<p>
-Return value: a gphoto2 error code. 
+Set all filesystem related function pointers. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>funcs</em>&nbsp;</td><td>pointer to a struct of filesystem functions </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>private data</td></tr>
+  </table>
+</dl>
+Tells the filesystem which functions to call for camera/filesystem specific functions, like listing, retrieving, uploading files and so on.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="506d0d1d121773c54157287544d806af"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_info" ref="506d0d1d121773c54157287544d806af" args="(CameraFilesystem *fs, const char *folder, const char *filename, CameraFileInfo info, GPContext *context)" -->
@@ -975,7 +1567,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_set_info           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -1012,8 +1604,20 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_set_info: : a CameraFilesystem : : : : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-Return value: a gphoto2 error code. 
+Set information about a file. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>foldername where the file resides </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>filename</em>&nbsp;</td><td>the files name </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>info</em>&nbsp;</td><td>the <a class="el" href="gphoto2-filesys_8h.html#001923e5a01c8b60858a66cc6842e781">CameraFileInfo</a> to set </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+Sets information about a file in the camera.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="5ea72193c948bffb3da1ca9e6bb4f773"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_info_funcs" ref="5ea72193c948bffb3da1ca9e6bb4f773" args="(CameraFilesystem *fs, CameraFilesystemGetInfoFunc get_info_func, CameraFilesystemSetInfoFunc set_info_func, void *data)" -->
@@ -1023,7 +1627,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_set_info_funcs           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -1054,9 +1658,19 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_set_info_funcs: : a CameraFilesystem : the function to retrieve file information : the function to set file information :<p>
+Set file information functions. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>get_info_func</em>&nbsp;</td><td>the function to retrieve file information </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>set_info_func</em>&nbsp;</td><td>the function to set file information </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>private data</td></tr>
+  </table>
+</dl>
 Tells the filesystem which functions to call when file information about a file should be retrieved or set. Typically, this function will get called by the camera driver on initialization.<p>
-Return value: a gphoto2 error code. 
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="182ec63fe034ee25302425f5f2f7702c"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_info_noop" ref="182ec63fe034ee25302425f5f2f7702c" args="(CameraFilesystem *fs, const char *folder, CameraFileInfo info, GPContext *context)" -->
@@ -1066,7 +1680,7 @@ Return value: a gphoto2 error code.
         <tr>
           <td class="memname">int gp_filesystem_set_info_noop           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -1097,9 +1711,19 @@ Return value: a gphoto2 error code.
 <div class="memdoc">
 
 <p>
-gp_filesystem_set_info_noop: : a CameraFilesystem : : : a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a><p>
-In contrast to <a class="el" href="gphoto2-filesys_8h.html#506d0d1d121773c54157287544d806af">gp_filesystem_set_info</a>, <a class="el" href="gphoto2-filesys_8h.html#182ec63fe034ee25302425f5f2f7702c">gp_filesystem_set_info_noop</a> will only change the file information in the . Typically, camera drivers will use this function in case they get file information "for free" on <a class="el" href="gphoto2-camera_8h.html#18f80edec2cee40510051bb18605ed52">gp_camera_capture</a> or <a class="el" href="gphoto2-camera_8h.html#8c519a03a5fd1c705388b07d2a041617">gp_camera_folder_list_files</a>.<p>
-Return value: a gphoto2 error code 
+Store the file information in the virtual fs. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder</em>&nbsp;</td><td>the foldername </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>info</em>&nbsp;</td><td>the <a class="el" href="gphoto2-filesys_8h.html#001923e5a01c8b60858a66cc6842e781">CameraFileInfo</a> to store </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>context</em>&nbsp;</td><td>a <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a></td></tr>
+  </table>
+</dl>
+In contrast to <a class="el" href="gphoto2-filesys_8h.html#506d0d1d121773c54157287544d806af">gp_filesystem_set_info</a>, <a class="el" href="gphoto2-filesys_8h.html#182ec63fe034ee25302425f5f2f7702c">gp_filesystem_set_info_noop</a> will only change the file information in the fs. Typically, camera drivers will use this function in case they get file information "for free" on <a class="el" href="gphoto2-camera_8h.html#18f80edec2cee40510051bb18605ed52">gp_camera_capture</a> or <a class="el" href="gphoto2-camera_8h.html#8c519a03a5fd1c705388b07d2a041617">gp_camera_folder_list_files</a>.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="0c4b009ef34bc576d61e74f5d0e76000"></a><!-- doxytag: member="gphoto2-filesys.c::gp_filesystem_set_list_funcs" ref="0c4b009ef34bc576d61e74f5d0e76000" args="(CameraFilesystem *fs, CameraFilesystemListFunc file_list_func, CameraFilesystemListFunc folder_list_func, void *data)" -->
@@ -1109,7 +1733,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_filesystem_set_list_funcs           </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct__CameraFilesystem.html">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
           <td class="paramname"> <em>fs</em>, </td>
         </tr>
         <tr>
@@ -1140,12 +1764,22 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_filesystem_set_list_funcs: : a CameraFilesystem : the function that will return listings of files : the function that will return listings of folders :<p>
-Tells the  which functions to use to retrieve listings of folders and/or files. Typically, a camera driver would call this function on initialization. Each function can be NULL indicating that this functionality is not supported. For example, many cameras don't support folders. In this case, you would supply NULL for folder_list_func. Then, the  assumes that there is only a root folder.<p>
-Return value: a gphoto2 error code. 
+Set the functions to list folders and files. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>fs</em>&nbsp;</td><td>a <a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>file_list_func</em>&nbsp;</td><td>the function that will return listings of files </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>folder_list_func</em>&nbsp;</td><td>the function that will return listings of folders </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>private data structure</td></tr>
+  </table>
+</dl>
+Tells the fs which functions to use to retrieve listings of folders and/or files. Typically, a camera driver would call this function on initialization. Each function can be NULL indicating that this functionality is not supported. For example, many cameras don't support folders. In this case, you would supply NULL for folder_list_func. Then, the fs assumes that there is only a root folder.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code. </dd></dl>
+
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:33 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

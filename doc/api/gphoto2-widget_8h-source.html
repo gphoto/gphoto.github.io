@@ -26,79 +26,79 @@
 <a name="l00026"></a>00026 <span class="preprocessor"></span>
 <a name="l00027"></a>00027 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-context_8h.html">gphoto2/gphoto2-context.h</a>&gt;</span>
 <a name="l00028"></a>00028 
-<a name="l00030"></a>00030 <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct__CameraWidget.html">_CameraWidget</a> CameraWidget;
+<a name="l00030"></a><a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">00030</a> <span class="keyword">typedef</span> <span class="keyword">struct </span>_CameraWidget <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a>;
 <a name="l00031"></a>00031 
 <a name="l00032"></a>00032 <span class="preprocessor">#include &lt;<a class="code" href="gphoto2-camera_8h.html">gphoto2/gphoto2-camera.h</a>&gt;</span>
 <a name="l00033"></a>00033 
 <a name="l00040"></a><a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">00040</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> {                                                                  <span class="comment">/* Value (get/set):     */</span>
 <a name="l00041"></a>00041         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0b9980ddc80aa1351dbe91ffedfbf9a78">GP_WIDGET_WINDOW</a>,       
-<a name="l00042"></a>00042         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0c7639664196f645d330fbb13b28b3e0b">GP_WIDGET_SECTION</a>,      
-<a name="l00043"></a>00043         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0da60ee00319cf75ce1d753e6330ed9a5">GP_WIDGET_TEXT</a>,                                 <span class="comment">/* char *               */</span>
-<a name="l00044"></a>00044         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0e4a8ab25390a56a2905dc80deb4e90ce">GP_WIDGET_RANGE</a>,                                <span class="comment">/* float                */</span>
-<a name="l00045"></a>00045         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de075cd63cf333ee69f426e0c9b16c9c636">GP_WIDGET_TOGGLE</a>,               <span class="comment">/* int                  */</span>
-<a name="l00046"></a>00046         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de09a2babe0198428d1e407ab7fe3593579">GP_WIDGET_RADIO</a>,                        <span class="comment">/* char *               */</span>
-<a name="l00047"></a>00047         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0c1281d11fecef5b7d9635c712559f4f1">GP_WIDGET_MENU</a>,                 <span class="comment">/* char *               */</span>
-<a name="l00048"></a>00048         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de000a749496ed02d0d0f0875e26ad7f40d">GP_WIDGET_BUTTON</a>,                       <span class="comment">/* CameraWidgetCallback */</span>
-<a name="l00049"></a><a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de03714ba8f007368a0f1746f4f0e2227f6">00049</a>         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de03714ba8f007368a0f1746f4f0e2227f6">GP_WIDGET_DATE</a>                          <span class="comment">/* int                  */</span>
-<a name="l00050"></a>00050 } <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a>;
-<a name="l00051"></a>00051 
-<a name="l00055"></a><a class="code" href="gphoto2-widget_8h.html#5358f9eda84f252285691b3cca60f5c2">00055</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-widget_8h.html#5358f9eda84f252285691b3cca60f5c2">CameraWidgetCallback</a>) (<a class="code" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *, CameraWidget *, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *);
-<a name="l00056"></a>00056 
-<a name="l00057"></a>00057 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#3ebf0d5f5e821e9f48cd6d5a06e3eaf7">gp_widget_new</a>   (<a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> type, <span class="keyword">const</span> <span class="keywordtype">char</span> *label, 
-<a name="l00058"></a>00058                          CameraWidget **widget);
-<a name="l00059"></a>00059 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#0602633cf53000649696a641491a30c1">gp_widget_free</a>  (CameraWidget *widget);
-<a name="l00060"></a>00060 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#c4e9caa7f36af89379d9bdc470103842">gp_widget_ref</a>   (CameraWidget *widget);
-<a name="l00061"></a>00061 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#04eb60576b1a7cae1f5b8ddf2ab50ba1">gp_widget_unref</a> (CameraWidget *widget);
-<a name="l00062"></a>00062 
-<a name="l00063"></a>00063 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#8d98c9354b8effd19fe2bc0a03ffa382">gp_widget_append</a>        (CameraWidget *widget, CameraWidget *child);
-<a name="l00064"></a>00064 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#a7208369805a4ab854d798be58281c91">gp_widget_prepend</a>       (CameraWidget *widget, CameraWidget *child);
-<a name="l00065"></a>00065 
-<a name="l00066"></a>00066 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#45d910d1b073720cde11cc40983f6d61">gp_widget_count_children</a>     (CameraWidget *widget);
-<a name="l00067"></a>00067 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#b22d1b38698bf9bdb466dec12dd0fa9f">gp_widget_get_child</a>          (CameraWidget *widget, <span class="keywordtype">int</span> child_number, 
-<a name="l00068"></a>00068                                       CameraWidget **child);
-<a name="l00069"></a>00069 
-<a name="l00070"></a>00070 <span class="comment">/* Retrieve Widgets */</span>
-<a name="l00071"></a>00071 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#0aae3673c6d5c45613a3ea8d3964df00">gp_widget_get_child_by_label</a> (CameraWidget *widget,
-<a name="l00072"></a>00072                                       <span class="keyword">const</span> <span class="keywordtype">char</span> *label,
-<a name="l00073"></a>00073                                       CameraWidget **child);
-<a name="l00074"></a>00074 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#a2fbb2a0674d0e0df1600b2f8ae84fc1">gp_widget_get_child_by_id</a>    (CameraWidget *widget, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, 
-<a name="l00075"></a>00075                                       CameraWidget **child);
-<a name="l00076"></a>00076 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#f3ba777c231da187a6b4cbb8e1a1ec0f">gp_widget_get_child_by_name</a>  (CameraWidget *widget,
-<a name="l00077"></a>00077                                       <span class="keyword">const</span> <span class="keywordtype">char</span> *name,
-<a name="l00078"></a>00078                                       CameraWidget **child);
-<a name="l00079"></a>00079 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#6a7615b3fdf877fd72fa7f1a489ee0bb">gp_widget_get_root</a>           (CameraWidget *widget,
-<a name="l00080"></a>00080                                       CameraWidget **root);
-<a name="l00081"></a>00081 <span class="keywordtype">int</span>     gp_widget_get_parent         (CameraWidget *widget,
-<a name="l00082"></a>00082                                       CameraWidget **parent);
-<a name="l00083"></a>00083 
-<a name="l00084"></a>00084 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#66bc9591d93b24d7264661d5b9a08167">gp_widget_set_value</a>     (CameraWidget *widget, <span class="keyword">const</span> <span class="keywordtype">void</span> *value);
-<a name="l00085"></a>00085 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#5a5b95809b2a44e62891044ab13b620c">gp_widget_get_value</a>     (CameraWidget *widget, <span class="keywordtype">void</span> *value);
-<a name="l00086"></a>00086 
-<a name="l00087"></a>00087 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#27793f4d23525d73d0e06c2446662766">gp_widget_set_name</a>      (CameraWidget *widget, <span class="keyword">const</span> <span class="keywordtype">char</span>  *name);
-<a name="l00088"></a>00088 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#3e9d004e2112576c8f7b831f5aa0ba24">gp_widget_get_name</a>      (CameraWidget *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> **name);
-<a name="l00089"></a>00089 
-<a name="l00090"></a>00090 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#160e5a9b8fb23d5dd13a945272830de5">gp_widget_set_info</a>      (CameraWidget *widget, <span class="keyword">const</span> <span class="keywordtype">char</span>  *info);
-<a name="l00091"></a>00091 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#9d73819d2801594aa41ede47098d6a1f">gp_widget_get_info</a>      (CameraWidget *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> **info);
-<a name="l00092"></a>00092 
-<a name="l00093"></a>00093 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#c4ae3aa4a7815c0dd10f9dbb174125b7">gp_widget_get_id</a>        (CameraWidget *widget, <span class="keywordtype">int</span> *<span class="keywordtype">id</span>);
-<a name="l00094"></a>00094 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#962eecbd0d2f48a9d0ebcbe53939f5e1">gp_widget_get_type</a>      (CameraWidget *widget, <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> *type);
-<a name="l00095"></a>00095 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#428d260fac33941c4e521f507d6c7912">gp_widget_get_label</a>     (CameraWidget *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> **label);
-<a name="l00096"></a>00096 
-<a name="l00097"></a>00097 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#23c779de5e5bd2b1a1c844fa2aea85f9">gp_widget_set_range</a>     (CameraWidget *range, 
-<a name="l00098"></a>00098                                  <span class="keywordtype">float</span>  low, <span class="keywordtype">float</span>  high, <span class="keywordtype">float</span>  increment);
-<a name="l00099"></a>00099 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#01956f7e8258928b409d3bface0134e2">gp_widget_get_range</a>     (CameraWidget *range, 
-<a name="l00100"></a>00100                                  <span class="keywordtype">float</span> *min, <span class="keywordtype">float</span> *max, <span class="keywordtype">float</span> *increment);
-<a name="l00101"></a>00101 
-<a name="l00102"></a>00102 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#9613719bbe12dab747ee66dfa90f0c21">gp_widget_add_choice</a>     (CameraWidget *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> *choice);
-<a name="l00103"></a>00103 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#722ed8d04420fa329915b5bce16b6479">gp_widget_count_choices</a>  (CameraWidget *widget);
-<a name="l00104"></a>00104 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#f571c3e5105f93b1aaebad646c97268e">gp_widget_get_choice</a>     (CameraWidget *widget, <span class="keywordtype">int</span> choice_number, 
-<a name="l00105"></a>00105                                   <span class="keyword">const</span> <span class="keywordtype">char</span> **choice);
-<a name="l00106"></a>00106 
-<a name="l00107"></a>00107 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#1aeebf2744cacc0a9d8337c43ec3bafb">gp_widget_changed</a>        (CameraWidget *widget);
-<a name="l00108"></a>00108 <span class="keywordtype">int</span>     gp_widget_set_changed    (CameraWidget *widget, <span class="keywordtype">int</span> changed);
-<a name="l00109"></a>00109 
-<a name="l00110"></a>00110 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_WIDGET_H__ */</span>
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a name="l00044"></a>00044         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0c7639664196f645d330fbb13b28b3e0b">GP_WIDGET_SECTION</a>,      
+<a name="l00045"></a>00045         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0da60ee00319cf75ce1d753e6330ed9a5">GP_WIDGET_TEXT</a>,                                 <span class="comment">/* char *               */</span>
+<a name="l00046"></a>00046         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0e4a8ab25390a56a2905dc80deb4e90ce">GP_WIDGET_RANGE</a>,                                <span class="comment">/* float                */</span>
+<a name="l00047"></a>00047         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de075cd63cf333ee69f426e0c9b16c9c636">GP_WIDGET_TOGGLE</a>,               <span class="comment">/* int                  */</span>
+<a name="l00048"></a>00048         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de09a2babe0198428d1e407ab7fe3593579">GP_WIDGET_RADIO</a>,                        <span class="comment">/* char *               */</span>
+<a name="l00049"></a>00049         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0c1281d11fecef5b7d9635c712559f4f1">GP_WIDGET_MENU</a>,                 <span class="comment">/* char *               */</span>
+<a name="l00050"></a>00050         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de000a749496ed02d0d0f0875e26ad7f40d">GP_WIDGET_BUTTON</a>,                       <span class="comment">/* CameraWidgetCallback */</span>
+<a name="l00051"></a><a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de03714ba8f007368a0f1746f4f0e2227f6">00051</a>         <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de03714ba8f007368a0f1746f4f0e2227f6">GP_WIDGET_DATE</a>                          <span class="comment">/* int                  */</span>
+<a name="l00052"></a>00052 } <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a>;
+<a name="l00053"></a>00053 
+<a name="l00057"></a><a class="code" href="gphoto2-widget_8h.html#5358f9eda84f252285691b3cca60f5c2">00057</a> <span class="keyword">typedef</span> int (* <a class="code" href="gphoto2-widget_8h.html#5358f9eda84f252285691b3cca60f5c2">CameraWidgetCallback</a>) (<a class="code" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *, <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *);
+<a name="l00058"></a>00058 
+<a name="l00059"></a>00059 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#3ebf0d5f5e821e9f48cd6d5a06e3eaf7">gp_widget_new</a>   (<a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> type, <span class="keyword">const</span> <span class="keywordtype">char</span> *label, 
+<a name="l00060"></a>00060                          <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **widget);
+<a name="l00061"></a>00061 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#0602633cf53000649696a641491a30c1">gp_widget_free</a>  (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget);
+<a name="l00062"></a>00062 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#c4e9caa7f36af89379d9bdc470103842">gp_widget_ref</a>   (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget);
+<a name="l00063"></a>00063 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#04eb60576b1a7cae1f5b8ddf2ab50ba1">gp_widget_unref</a> (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget);
+<a name="l00064"></a>00064 
+<a name="l00065"></a>00065 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#8d98c9354b8effd19fe2bc0a03ffa382">gp_widget_append</a>        (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *child);
+<a name="l00066"></a>00066 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#a7208369805a4ab854d798be58281c91">gp_widget_prepend</a>       (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *child);
+<a name="l00067"></a>00067 
+<a name="l00068"></a>00068 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#45d910d1b073720cde11cc40983f6d61">gp_widget_count_children</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget);
+<a name="l00069"></a>00069 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#b22d1b38698bf9bdb466dec12dd0fa9f">gp_widget_get_child</a>          (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keywordtype">int</span> child_number, 
+<a name="l00070"></a>00070                                       <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child);
+<a name="l00071"></a>00071 
+<a name="l00072"></a>00072 <span class="comment">/* Retrieve Widgets */</span>
+<a name="l00073"></a>00073 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#0aae3673c6d5c45613a3ea8d3964df00">gp_widget_get_child_by_label</a> (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget,
+<a name="l00074"></a>00074                                       <span class="keyword">const</span> <span class="keywordtype">char</span> *label,
+<a name="l00075"></a>00075                                       <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child);
+<a name="l00076"></a>00076 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#a2fbb2a0674d0e0df1600b2f8ae84fc1">gp_widget_get_child_by_id</a>    (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, 
+<a name="l00077"></a>00077                                       <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child);
+<a name="l00078"></a>00078 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#f3ba777c231da187a6b4cbb8e1a1ec0f">gp_widget_get_child_by_name</a>  (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget,
+<a name="l00079"></a>00079                                       <span class="keyword">const</span> <span class="keywordtype">char</span> *name,
+<a name="l00080"></a>00080                                       <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **child);
+<a name="l00081"></a>00081 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#6a7615b3fdf877fd72fa7f1a489ee0bb">gp_widget_get_root</a>           (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget,
+<a name="l00082"></a>00082                                       <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **root);
+<a name="l00083"></a>00083 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#3188a406c8a0b9915efcf54e852e880f">gp_widget_get_parent</a>         (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget,
+<a name="l00084"></a>00084                                       <a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **parent);
+<a name="l00085"></a>00085 
+<a name="l00086"></a>00086 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#66bc9591d93b24d7264661d5b9a08167">gp_widget_set_value</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keyword">const</span> <span class="keywordtype">void</span> *value);
+<a name="l00087"></a>00087 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#5a5b95809b2a44e62891044ab13b620c">gp_widget_get_value</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keywordtype">void</span> *value);
+<a name="l00088"></a>00088 
+<a name="l00089"></a>00089 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#27793f4d23525d73d0e06c2446662766">gp_widget_set_name</a>      (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keyword">const</span> <span class="keywordtype">char</span>  *name);
+<a name="l00090"></a>00090 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#3e9d004e2112576c8f7b831f5aa0ba24">gp_widget_get_name</a>      (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> **name);
+<a name="l00091"></a>00091 
+<a name="l00092"></a>00092 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#160e5a9b8fb23d5dd13a945272830de5">gp_widget_set_info</a>      (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keyword">const</span> <span class="keywordtype">char</span>  *info);
+<a name="l00093"></a>00093 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#9d73819d2801594aa41ede47098d6a1f">gp_widget_get_info</a>      (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> **info);
+<a name="l00094"></a>00094 
+<a name="l00095"></a>00095 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#c4ae3aa4a7815c0dd10f9dbb174125b7">gp_widget_get_id</a>        (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keywordtype">int</span> *<span class="keywordtype">id</span>);
+<a name="l00096"></a>00096 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#962eecbd0d2f48a9d0ebcbe53939f5e1">gp_widget_get_type</a>      (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <a class="code" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0">CameraWidgetType</a> *type);
+<a name="l00097"></a>00097 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#428d260fac33941c4e521f507d6c7912">gp_widget_get_label</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> **label);
+<a name="l00098"></a>00098 
+<a name="l00099"></a>00099 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#23c779de5e5bd2b1a1c844fa2aea85f9">gp_widget_set_range</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *range, 
+<a name="l00100"></a>00100                                  <span class="keywordtype">float</span>  low, <span class="keywordtype">float</span>  high, <span class="keywordtype">float</span>  increment);
+<a name="l00101"></a>00101 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#01956f7e8258928b409d3bface0134e2">gp_widget_get_range</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *range, 
+<a name="l00102"></a>00102                                  <span class="keywordtype">float</span> *min, <span class="keywordtype">float</span> *max, <span class="keywordtype">float</span> *increment);
+<a name="l00103"></a>00103 
+<a name="l00104"></a>00104 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#9613719bbe12dab747ee66dfa90f0c21">gp_widget_add_choice</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keyword">const</span> <span class="keywordtype">char</span> *choice);
+<a name="l00105"></a>00105 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#722ed8d04420fa329915b5bce16b6479">gp_widget_count_choices</a>  (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget);
+<a name="l00106"></a>00106 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#f571c3e5105f93b1aaebad646c97268e">gp_widget_get_choice</a>     (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keywordtype">int</span> choice_number, 
+<a name="l00107"></a>00107                                   <span class="keyword">const</span> <span class="keywordtype">char</span> **choice);
+<a name="l00108"></a>00108 
+<a name="l00109"></a>00109 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#1aeebf2744cacc0a9d8337c43ec3bafb">gp_widget_changed</a>        (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget);
+<a name="l00110"></a>00110 <span class="keywordtype">int</span>     <a class="code" href="gphoto2-widget_8c.html#3c0b35f3388530da758926ac78fac06b">gp_widget_set_changed</a>    (<a class="code" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *widget, <span class="keywordtype">int</span> changed);
+<a name="l00111"></a>00111 
+<a name="l00112"></a>00112 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_WIDGET_H__ */</span>
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

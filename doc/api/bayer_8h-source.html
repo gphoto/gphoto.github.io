@@ -24,24 +24,24 @@
 <a name="l00024"></a>00024 <span class="preprocessor">#ifndef __BAYER_H__</span>
 <a name="l00025"></a>00025 <span class="preprocessor"></span><span class="preprocessor">#define __BAYER_H__</span>
 <a name="l00026"></a>00026 <span class="preprocessor"></span>
-<a name="l00027"></a>00027 <span class="keyword">typedef</span> <span class="keyword">enum</span> {
-<a name="l00028"></a>00028         BAYER_TILE_RGGB = 0,
-<a name="l00029"></a>00029         BAYER_TILE_GRBG = 1,
-<a name="l00030"></a>00030         BAYER_TILE_BGGR = 2,
-<a name="l00031"></a>00031         BAYER_TILE_GBRG = 3,
-<a name="l00032"></a>00032         BAYER_TILE_RGGB_INTERLACED = 4,         <span class="comment">/* scanline order: R1,G1,R2,G2,...,G1,B1,G2,B2,... */</span>
-<a name="l00033"></a>00033         BAYER_TILE_GRBG_INTERLACED = 5,
-<a name="l00034"></a>00034         BAYER_TILE_BGGR_INTERLACED = 6,
-<a name="l00035"></a>00035         BAYER_TILE_GBRG_INTERLACED = 7,
-<a name="l00036"></a>00036 } BayerTile;
-<a name="l00037"></a>00037 
-<a name="l00038"></a>00038 <span class="keywordtype">int</span> <a class="code" href="bayer_8c.html#d20bfabe144929379d01a65c832a3604">gp_bayer_expand</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *input, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *output,
-<a name="l00039"></a>00039                      BayerTile tile);
-<a name="l00040"></a>00040 <span class="keywordtype">int</span> gp_bayer_decode (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *input, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *output,
-<a name="l00041"></a>00041                      BayerTile tile);
-<a name="l00042"></a>00042 <span class="keywordtype">int</span> gp_bayer_interpolate (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *image, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, BayerTile tile);
-<a name="l00043"></a>00043 <span class="preprocessor">#endif </span><span class="comment">/* __BAYER_H__ */</span>
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:40 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a name="l00032"></a><a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">00032</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> {
+<a name="l00033"></a>00033         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f1aa8bbf47ef8246508b82e0ee252a8f5">BAYER_TILE_RGGB</a> = 0,                    
+<a name="l00034"></a>00034         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f334368389be8a95a2c35bb4686cb52c7">BAYER_TILE_GRBG</a> = 1,                    
+<a name="l00035"></a>00035         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f37e98c63717910f9b50520d2dfa1970b">BAYER_TILE_BGGR</a> = 2,                    
+<a name="l00036"></a>00036         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931fcf39cd31fd2a371758027301fd9f79b9">BAYER_TILE_GBRG</a> = 3,                    
+<a name="l00037"></a>00037         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931fb820aa85d4b37a00b7a37d193c501712">BAYER_TILE_RGGB_INTERLACED</a> = 4,         
+<a name="l00038"></a>00038         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931fb8d8a371c7a4b64f85f7bf3e99866746">BAYER_TILE_GRBG_INTERLACED</a> = 5,         
+<a name="l00039"></a>00039         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931ff0e85bf41f62ccaaf0a3cf64d90ec97c">BAYER_TILE_BGGR_INTERLACED</a> = 6,         
+<a name="l00040"></a>00040         <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f5728d7fdb9e2a6ecf504b9f88e463172">BAYER_TILE_GBRG_INTERLACED</a> = 7,         
+<a name="l00041"></a>00041 } <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a>;
+<a name="l00042"></a>00042 
+<a name="l00043"></a>00043 <span class="keywordtype">int</span> <a class="code" href="bayer_8c.html#d20bfabe144929379d01a65c832a3604">gp_bayer_expand</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *input, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *output,
+<a name="l00044"></a>00044                      <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a> tile);
+<a name="l00045"></a>00045 <span class="keywordtype">int</span> <a class="code" href="bayer_8c.html#b32dbfcb75cdd74a0a1e538ccb427754">gp_bayer_decode</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *input, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *output,
+<a name="l00046"></a>00046                      <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a> tile);
+<a name="l00047"></a>00047 <span class="keywordtype">int</span> <a class="code" href="bayer_8c.html#fee387ceca248fe4228fb15a37917a64">gp_bayer_interpolate</a> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *image, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <a class="code" href="bayer_8h.html#a90c2af86543d839fdbd73231d3b931f">BayerTile</a> tile);
+<a name="l00048"></a>00048 <span class="preprocessor">#endif </span><span class="comment">/* __BAYER_H__ */</span>
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

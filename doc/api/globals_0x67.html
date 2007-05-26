@@ -28,7 +28,8 @@
 </div>
 <div class="tabs">
   <ul>
-    <li><a href="globals.html#index_c"><span>c</span></a></li>
+    <li><a href="globals.html#index_b"><span>b</span></a></li>
+    <li><a href="globals_0x63.html#index_c"><span>c</span></a></li>
     <li id="current"><a href="globals_0x67.html#index_g"><span>g</span></a></li>
   </ul>
 </div>
@@ -55,8 +56,12 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-abilities-list_8c.html#865eb81205793100c901dccc9de8eb07">gphoto2-abilities-list.c</a>
 <li>gp_abilities_list_reset()
 : <a class="el" href="gphoto2-abilities-list_8c.html#e2ae1310db90ebadf1def78033687478">gphoto2-abilities-list.c</a>
+<li>gp_bayer_decode()
+: <a class="el" href="bayer_8c.html#b32dbfcb75cdd74a0a1e538ccb427754">bayer.c</a>
 <li>gp_bayer_expand()
 : <a class="el" href="bayer_8c.html#d20bfabe144929379d01a65c832a3604">bayer.c</a>
+<li>gp_bayer_interpolate()
+: <a class="el" href="bayer_8c.html#fee387ceca248fe4228fb15a37917a64">bayer.c</a>
 <li>gp_camera_capture()
 : <a class="el" href="gphoto2-camera_8c.html#18f80edec2cee40510051bb18605ed52">gphoto2-camera.c</a>
 <li>gp_camera_capture_preview()
@@ -102,8 +107,8 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 <li>gp_camera_init()
 : <a class="el" href="gphoto2-camera_8c.html#cefb74af0eaf56d6d8e222d26e271253">gphoto2-camera.c</a>
 <li>gp_camera_new()
-: <a class="el" href="gphoto2-camera_8c.html#a34f54a290d83399407fbe44d270c0ca">gphoto2-camera.c</a>
-, <a class="el" href="gphoto2-camera_8h.html#a34f54a290d83399407fbe44d270c0ca">gphoto2-camera.h</a>
+: <a class="el" href="gphoto2-camera_8h.html#a34f54a290d83399407fbe44d270c0ca">gphoto2-camera.h</a>
+, <a class="el" href="gphoto2-camera_8c.html#a34f54a290d83399407fbe44d270c0ca">gphoto2-camera.c</a>
 <li>gp_camera_ref()
 : <a class="el" href="gphoto2-camera_8c.html#cbcee18f4b14c8a062f5c28b02c18c06">gphoto2-camera.c</a>
 <li>gp_camera_set_abilities()
@@ -136,8 +141,12 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-context_8h.html#823fd7656be3979c80c106467c6e82bedefba8bee223efd4f7ef0dbeb479d556">gphoto2-context.h</a>
 <li>gp_context_idle()
 : <a class="el" href="gphoto2-context_8c.html#ea865c1302b2ad96ce362f426497b1bb">gphoto2-context.c</a>
+<li>gp_context_message()
+: <a class="el" href="gphoto2-context_8c.html#6388e0b3258d86949a08618e51650546">gphoto2-context.c</a>
 <li>gp_context_new()
 : <a class="el" href="gphoto2-context_8c.html#62dd2dc04049b7e3b1de740fceac7818">gphoto2-context.c</a>
+<li>gp_context_progress_start()
+: <a class="el" href="gphoto2-context_8c.html#d04254573b832c3079f1568b5ce54f10">gphoto2-context.c</a>
 <li>gp_context_question()
 : <a class="el" href="gphoto2-context_8c.html#596ad3389f46f6544697fb32c9987bf1">gphoto2-context.c</a>
 <li>gp_context_ref()
@@ -278,26 +287,42 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-filesys_8c.html#20fd238627e81472f956351f836d00de">gphoto2-filesys.c</a>
 <li>gp_filesystem_delete_file()
 : <a class="el" href="gphoto2-filesys_8c.html#ed3533cfe21a4cb2b3f0d6b6c51bbb56">gphoto2-filesys.c</a>
+<li>gp_filesystem_delete_file_noop()
+: <a class="el" href="gphoto2-filesys_8c.html#9ad059059feb29ad8bc11ac071dbf821">gphoto2-filesys.c</a>
+<li>gp_filesystem_dump()
+: <a class="el" href="gphoto2-filesys_8c.html#5cadc8fe89bab46f80c3869a7aca35a6">gphoto2-filesys.c</a>
 <li>gp_filesystem_free()
 : <a class="el" href="gphoto2-filesys_8c.html#db84b656af9648fc5ddda841a68f4e61">gphoto2-filesys.c</a>
+<li>gp_filesystem_get_file()
+: <a class="el" href="gphoto2-filesys_8c.html#9708e9ea7b23f5303ae4a5dcd99d24c1">gphoto2-filesys.c</a>
 <li>gp_filesystem_get_folder()
 : <a class="el" href="gphoto2-filesys_8c.html#3710ec92c29e7e6fded95b2fd5c02cf7">gphoto2-filesys.c</a>
 <li>gp_filesystem_get_info()
 : <a class="el" href="gphoto2-filesys_8c.html#6dbe4b636d58eddda2254b791039a343">gphoto2-filesys.c</a>
+<li>gp_filesystem_get_storageinfo()
+: <a class="el" href="gphoto2-filesys_8c.html#9c34c9297e1472199ada406d96d2cd0c">gphoto2-filesys.c</a>
 <li>gp_filesystem_list_files()
 : <a class="el" href="gphoto2-filesys_8c.html#d24ba98b6bffdf65b4f6be08769161b8">gphoto2-filesys.c</a>
 <li>gp_filesystem_list_folders()
 : <a class="el" href="gphoto2-filesys_8c.html#5c173795c10cfd83e8eabb5f03b6c83d">gphoto2-filesys.c</a>
+<li>gp_filesystem_make_dir()
+: <a class="el" href="gphoto2-filesys_8c.html#7feb8ea0012dd35376a243e2e32aa3de">gphoto2-filesys.c</a>
 <li>gp_filesystem_name()
 : <a class="el" href="gphoto2-filesys_8c.html#6744191bcfab9801f49fe14f920a5aaa">gphoto2-filesys.c</a>
 <li>gp_filesystem_new()
 : <a class="el" href="gphoto2-filesys_8c.html#cb993a480eb2484c7f5ff73b9d2707f0">gphoto2-filesys.c</a>
 <li>gp_filesystem_number()
 : <a class="el" href="gphoto2-filesys_8c.html#7b516d0cc574e349aeee7d27c96b3ac1">gphoto2-filesys.c</a>
+<li>gp_filesystem_put_file()
+: <a class="el" href="gphoto2-filesys_8c.html#cbab896da934b6c4034f744099b61e31">gphoto2-filesys.c</a>
+<li>gp_filesystem_remove_dir()
+: <a class="el" href="gphoto2-filesys_8c.html#50638167afaa633243acbcacfe269141">gphoto2-filesys.c</a>
 <li>gp_filesystem_reset()
 : <a class="el" href="gphoto2-filesys_8c.html#f536c0bc57fe5933488c1685ca576b2d">gphoto2-filesys.c</a>
 <li>gp_filesystem_set_file_funcs()
 : <a class="el" href="gphoto2-filesys_8c.html#03413f752ec7bac7539ecaef67090eae">gphoto2-filesys.c</a>
+<li>gp_filesystem_set_file_noop()
+: <a class="el" href="gphoto2-filesys_8c.html#a728636b31591f901d2fa9502df6ce7a">gphoto2-filesys.c</a>
 <li>gp_filesystem_set_folder_funcs()
 : <a class="el" href="gphoto2-filesys_8c.html#f15123d3ad76c611b5d29a2a83c582b3">gphoto2-filesys.c</a>
 <li>gp_filesystem_set_funcs()
@@ -320,6 +345,10 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-abilities-list_8h.html#bb559036006b85091ff375b32be67bcf645ac10b5c23223e6704661db066aacf">gphoto2-abilities-list.h</a>
 <li>GP_FOLDER_OPERATION_REMOVE_DIR
 : <a class="el" href="gphoto2-abilities-list_8h.html#bb559036006b85091ff375b32be67bcf11509378e37a2e06cf0dc331153dc70c">gphoto2-abilities-list.h</a>
+<li>GP_LEVEL_HIGH
+: <a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b7ced6e57b56e6cb417aa5b75d95df3ef">gphoto2-port.h</a>
+<li>GP_LEVEL_LOW
+: <a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b01f42810fc4df948d74dfb73b72476b3">gphoto2-port.h</a>
 <li>gp_list_append()
 : <a class="el" href="gphoto2-list_8c.html#3d43cc610982c361da63022c14c2f0a3">gphoto2-list.c</a>
 <li>gp_list_count()
@@ -354,8 +383,16 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-port-log_8c.html#93c15da75612eccac26bf835e5ee75ca">gphoto2-port-log.c</a>
 <li>gp_log_data()
 : <a class="el" href="gphoto2-port-log_8c.html#1f19a6a04565c8ef4cc573ea32362d38">gphoto2-port-log.c</a>
+<li>GP_LOG_DATA
+: <a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406f2eae7b917e0b5f2903bb9ad6cd6bc5d">gphoto2-port-log.h</a>
+<li>GP_LOG_DEBUG
+: <a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406af08742d60a2294ae19a7dfa1a38f5f1">gphoto2-port-log.h</a>
+<li>GP_LOG_ERROR
+: <a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406e1b948a74aa83341add82d0a4d67b5a3">gphoto2-port-log.h</a>
 <li>gp_log_remove_func()
 : <a class="el" href="gphoto2-port-log_8c.html#2c6a91e6adb2ae7ad15bb523c2034efe">gphoto2-port-log.c</a>
+<li>GP_LOG_VERBOSE
+: <a class="el" href="gphoto2-port-log_8h.html#44be275dbb77a9d89914b889ecb31406c9f0f36e68354c35b863a93e2e22e1c7">gphoto2-port-log.h</a>
 <li>gp_logv()
 : <a class="el" href="gphoto2-port-log_8c.html#d9adb5be970eb84f617de76716b9943b">gphoto2-port-log.c</a>
 <li>gp_message_codeset()
@@ -372,16 +409,38 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-abilities-list_8h.html#18d69c401dbc80f15a2089d316a507cfd582c9a8b46a75e777947398f39f4d10">gphoto2-abilities-list.h</a>
 <li>GP_OPERATION_NONE
 : <a class="el" href="gphoto2-abilities-list_8h.html#18d69c401dbc80f15a2089d316a507cf9586cc136d288c91f42f7c3a106738b3">gphoto2-abilities-list.h</a>
+<li>GP_PIN_CD
+: <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c910dcab6fa5edd8ca1429d27348eb91f0">gphoto2-port.h</a>
+<li>GP_PIN_CTS
+: <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9cbe4848730cda4ab6aefc61cd1d3492c">gphoto2-port.h</a>
+<li>GP_PIN_DSR
+: <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9e1f748b57e926cfda9257ebff30bfe3c">gphoto2-port.h</a>
+<li>GP_PIN_DTR
+: <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c98633b9eba2b27d2c2e67b4d68ade754e">gphoto2-port.h</a>
+<li>GP_PIN_RING
+: <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9c21f9523a7ae6b59ca9eb7ce4c2f320a">gphoto2-port.h</a>
+<li>GP_PIN_RTS
+: <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c970385db972461b8c4cc0086f1759485d">gphoto2-port.h</a>
+<li>gp_port
+: <a class="el" href="gphoto2-port_8h.html#8b530a1527df3e45aa9252fafde1f271">gphoto2-port.h</a>
 <li>gp_port_check_int()
 : <a class="el" href="gphoto2-port_8c.html#5751d127e002931547575ddc30764158">gphoto2-port.c</a>
+<li>gp_port_check_int_fast()
+: <a class="el" href="gphoto2-port_8c.html#25504bbee9dd3cb575b13ef4b12a2f2f">gphoto2-port.c</a>
 <li>gp_port_close()
 : <a class="el" href="gphoto2-port_8c.html#4b4aaca4ad306f7572567b10072e0ba9">gphoto2-port.c</a>
+<li>GP_PORT_DISK
+: <a class="el" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39d2299eac247f3cf46d74439d0c510115">gphoto2-port-info-list.h</a>
+<li>gp_port_flush()
+: <a class="el" href="gphoto2-port_8c.html#6fbcbc267b59e3f3b695b756cc116837">gphoto2-port.c</a>
 <li>gp_port_free()
 : <a class="el" href="gphoto2-port_8c.html#8d8815fc2041524490225d8de0f6d904">gphoto2-port.c</a>
 <li>gp_port_get_error()
 : <a class="el" href="gphoto2-port_8c.html#4d33874931a49925bd9299345bba7e17">gphoto2-port.c</a>
 <li>gp_port_get_info()
 : <a class="el" href="gphoto2-port_8c.html#dc2f5e1e5c9e2482bd972840a4b6f8b5">gphoto2-port.c</a>
+<li>gp_port_get_pin()
+: <a class="el" href="gphoto2-port_8c.html#498716d65b2966a4c33e6ef69db22bfd">gphoto2-port.c</a>
 <li>gp_port_get_settings()
 : <a class="el" href="gphoto2-port_8c.html#eb68e49a4a8d513f6e183120da4e4232">gphoto2-port.c</a>
 <li>gp_port_get_timeout()
@@ -396,30 +455,90 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-port-info-list_8c.html#e4e0d423f68a6e2fa16afd5d19fd3702">gphoto2-port-info-list.c</a>
 <li>gp_port_info_list_load()
 : <a class="el" href="gphoto2-port-info-list_8c.html#868dd93b1214828708b496b3a87c2b93">gphoto2-port-info-list.c</a>
+<li>gp_port_info_list_lookup_name()
+: <a class="el" href="gphoto2-port-info-list_8c.html#05036f3fd9034ef9b50dd0ad1e49daa6">gphoto2-port-info-list.c</a>
 <li>gp_port_info_list_lookup_path()
 : <a class="el" href="gphoto2-port-info-list_8c.html#a00d2c7f0171c810f110e2ccce185996">gphoto2-port-info-list.c</a>
 <li>gp_port_info_list_new()
 : <a class="el" href="gphoto2-port-info-list_8c.html#1060d9738600838ca78e875ccc4a41cc">gphoto2-port-info-list.c</a>
+<li>gp_port_message_codeset()
+: <a class="el" href="gphoto2-port-info-list_8c.html#01e1473731c32fe1b6b94cd2e66f953a">gphoto2-port-info-list.c</a>
 <li>gp_port_new()
 : <a class="el" href="gphoto2-port_8c.html#8417b7e901fefb27ab4aeae10136697d">gphoto2-port.c</a>
+<li>GP_PORT_NONE
+: <a class="el" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39efe4f830980d2d301114ece2a211a45c">gphoto2-port-info-list.h</a>
 <li>gp_port_open()
 : <a class="el" href="gphoto2-port_8c.html#86f420cf4f77848600e982ce51aafa45">gphoto2-port.c</a>
+<li>GP_PORT_PTPIP
+: <a class="el" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39515e79aadca89b1c9e2fe2ca0b476253">gphoto2-port-info-list.h</a>
 <li>gp_port_read()
 : <a class="el" href="gphoto2-port_8c.html#f7aa149494cc5ba3fe99c31a01b2bf16">gphoto2-port.c</a>
 <li>gp_port_result_as_string()
 : <a class="el" href="gphoto2-port-result_8c.html#f1f6c9470bae9f2706b8eed5a8ba9f14">gphoto2-port-result.c</a>
+<li>gp_port_send_break()
+: <a class="el" href="gphoto2-port_8c.html#8c3028d821fc87f67b7858509a4ed12e">gphoto2-port.c</a>
+<li>GP_PORT_SERIAL
+: <a class="el" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39420e00722ba924e6a4d5529134bcea0c">gphoto2-port-info-list.h</a>
+<li>GP_PORT_SERIAL_PARITY_EVEN
+: <a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae48c6aa1084feb87fe227f5521df67776">gphoto2-port.h</a>
+<li>GP_PORT_SERIAL_PARITY_ODD
+: <a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908aeca571bbba6b231adc42820564a557801">gphoto2-port.h</a>
+<li>GP_PORT_SERIAL_PARITY_OFF
+: <a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908aed98b354e1e5aa82562dd18ef95ac9176">gphoto2-port.h</a>
 <li>gp_port_set_error()
 : <a class="el" href="gphoto2-port_8c.html#69380af5e94572d0dc8680e961503b8c">gphoto2-port.c</a>
 <li>gp_port_set_info()
 : <a class="el" href="gphoto2-port_8c.html#23c6e40c46ff77b34ecc50d7495a4d7f">gphoto2-port.c</a>
+<li>gp_port_set_pin()
+: <a class="el" href="gphoto2-port_8c.html#009d0ab0d3551340365bebe918a913b0">gphoto2-port.c</a>
 <li>gp_port_set_settings()
 : <a class="el" href="gphoto2-port_8c.html#9d8d152320d11d5ddc8a1d8fea26beb7">gphoto2-port.c</a>
 <li>gp_port_set_timeout()
 : <a class="el" href="gphoto2-port_8c.html#ea760bec3c5abe24160c1f51cd65a691">gphoto2-port.c</a>
+<li>gp_port_settings
+: <a class="el" href="gphoto2-port_8h.html#4dc7af822c9365063dd279b499d09267">gphoto2-port.h</a>
+<li>gp_port_settings_get()
+: <a class="el" href="gphoto2-port_8c.html#8e425dc15820c0e745ceceda40f77452">gphoto2-port.c</a>
+<li>gp_port_settings_set()
+: <a class="el" href="gphoto2-port_8c.html#9402f0e59b71d4dd9174e67eff21e438">gphoto2-port.c</a>
+<li>gp_port_timeout_get()
+: <a class="el" href="gphoto2-port_8c.html#9659aabe8a662301913af7f6d708851f">gphoto2-port.c</a>
+<li>gp_port_timeout_set()
+: <a class="el" href="gphoto2-port_8c.html#37b107c5149009659e701747a96cecc2">gphoto2-port.c</a>
+<li>GP_PORT_USB
+: <a class="el" href="gphoto2-port-info-list_8h.html#ecbe22015b38e6d0f9f8677a2c9eec39feec80a596367dd91c277482771aec7d">gphoto2-port-info-list.h</a>
+<li>gp_port_usb_clear_halt()
+: <a class="el" href="gphoto2-port_8c.html#0584a7774ce1ae6ef2f704c46859a13c">gphoto2-port.c</a>
+<li>GP_PORT_USB_ENDPOINT_IN
+: <a class="el" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea8ed92fa19e1ce408f8b066438b6c0dcb8">gphoto2-port.h</a>
+<li>GP_PORT_USB_ENDPOINT_INT
+: <a class="el" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea8d44d36b9cadfae7217ccdd24dc79ffdc">gphoto2-port.h</a>
+<li>GP_PORT_USB_ENDPOINT_OUT
+: <a class="el" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea83f22d44e7354357dcf7d6b66c74f87ef">gphoto2-port.h</a>
+<li>gp_port_usb_find_device()
+: <a class="el" href="gphoto2-port_8c.html#eee7d4100408092c68109926abf1581e">gphoto2-port.c</a>
+<li>gp_port_usb_find_device_by_class()
+: <a class="el" href="gphoto2-port_8c.html#6994efe46c1b7cc2927f36f2097c727b">gphoto2-port.c</a>
+<li>gp_port_usb_msg_class_read()
+: <a class="el" href="gphoto2-port_8c.html#f15cb58fb4f05d4e02aceecedc6d72cf">gphoto2-port.c</a>
+<li>gp_port_usb_msg_class_write()
+: <a class="el" href="gphoto2-port_8c.html#e07af1213ddf18735fc5abe22d4efc89">gphoto2-port.c</a>
+<li>gp_port_usb_msg_interface_read()
+: <a class="el" href="gphoto2-port_8c.html#32927678ac6cc36802a1ac663df3fe54">gphoto2-port.c</a>
+<li>gp_port_usb_msg_interface_write()
+: <a class="el" href="gphoto2-port_8c.html#060ddc710c76dc885a78d3ba17ffdcbe">gphoto2-port.c</a>
+<li>gp_port_usb_msg_read()
+: <a class="el" href="gphoto2-port_8c.html#f78af4489f7e0611b178c45f3f99c4d7">gphoto2-port.c</a>
+<li>gp_port_usb_msg_write()
+: <a class="el" href="gphoto2-port_8c.html#449a2f3892474fc7920e9675cf779495">gphoto2-port.c</a>
 <li>gp_port_write()
 : <a class="el" href="gphoto2-port_8c.html#10c9eb67f356e1967001795466eb08f4">gphoto2-port.c</a>
 <li>gp_result_as_string()
 : <a class="el" href="gphoto2-result_8c.html#3ca104b71bde7ed45d9879e181435d7c">gphoto2-result.c</a>
+<li>gp_setting_get()
+: <a class="el" href="gphoto2-setting_8c.html#80b31ca58f8b6bcdb2d64f57dfc5df97">gphoto2-setting.c</a>
+<li>gp_setting_set()
+: <a class="el" href="gphoto2-setting_8c.html#8daee8891949984adcb4fe7f46f45280">gphoto2-setting.c</a>
 <li>GP_STORAGEINFO_AC_READONLY
 : <a class="el" href="gphoto2-filesys_8h.html#9a90295688dc57c8fcdf95217b1ff6feb3d9b449f8844117145e3820f30932a0">gphoto2-filesys.h</a>
 <li>GP_STORAGEINFO_AC_READONLY_WITH_DELETE
@@ -462,6 +581,22 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-filesys_8h.html#e16204320e8930983dcddf625b7b71dae751deafae6110475fff8a134a7a0947">gphoto2-filesys.h</a>
 <li>GP_STORAGEINFO_STORAGETYPE
 : <a class="el" href="gphoto2-filesys_8h.html#082ceb4f94bd8bea4d11bb9335db3264dfc2f36b44e20711223009ba85f1e031">gphoto2-filesys.h</a>
+<li>gp_system_closedir()
+: <a class="el" href="gphoto2-port-portability_8c.html#b32dc396a2f0701200b4a736a33b4db7">gphoto2-port-portability.c</a>
+<li>gp_system_filename()
+: <a class="el" href="gphoto2-port-portability_8c.html#783798dd11acaaf5045d34048805ed0d">gphoto2-port-portability.c</a>
+<li>gp_system_is_dir()
+: <a class="el" href="gphoto2-port-portability_8c.html#8d00f9750623d211459314d89769fce8">gphoto2-port-portability.c</a>
+<li>gp_system_is_file()
+: <a class="el" href="gphoto2-port-portability_8c.html#2bf1889d181aaee724be11f039e96dfa">gphoto2-port-portability.c</a>
+<li>gp_system_mkdir()
+: <a class="el" href="gphoto2-port-portability_8c.html#94dcc1529c1c77d0b7da267a60bbae7a">gphoto2-port-portability.c</a>
+<li>gp_system_opendir()
+: <a class="el" href="gphoto2-port-portability_8c.html#af3ac366ffa066bbed7f25744ccd51f4">gphoto2-port-portability.c</a>
+<li>gp_system_readdir()
+: <a class="el" href="gphoto2-port-portability_8c.html#45b8b44e93f072875dfec2d6b0ae5b19">gphoto2-port-portability.c</a>
+<li>gp_system_rmdir()
+: <a class="el" href="gphoto2-port-portability_8c.html#c11ba9f4921d970941448b52d2f3359a">gphoto2-port-portability.c</a>
 <li>gp_widget_add_choice()
 : <a class="el" href="gphoto2-widget_8c.html#9613719bbe12dab747ee66dfa90f0c21">gphoto2-widget.c</a>
 <li>gp_widget_append()
@@ -496,6 +631,8 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-widget_8c.html#428d260fac33941c4e521f507d6c7912">gphoto2-widget.c</a>
 <li>gp_widget_get_name()
 : <a class="el" href="gphoto2-widget_8c.html#3e9d004e2112576c8f7b831f5aa0ba24">gphoto2-widget.c</a>
+<li>gp_widget_get_parent()
+: <a class="el" href="gphoto2-widget_8c.html#3188a406c8a0b9915efcf54e852e880f">gphoto2-widget.c</a>
 <li>gp_widget_get_range()
 : <a class="el" href="gphoto2-widget_8c.html#01956f7e8258928b409d3bface0134e2">gphoto2-widget.c</a>
 <li>gp_widget_get_root()
@@ -518,6 +655,8 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-widget_8c.html#c4e9caa7f36af89379d9bdc470103842">gphoto2-widget.c</a>
 <li>GP_WIDGET_SECTION
 : <a class="el" href="gphoto2-widget_8h.html#7cd148c282ae2f271804a654a99b1de0c7639664196f645d330fbb13b28b3e0b">gphoto2-widget.h</a>
+<li>gp_widget_set_changed()
+: <a class="el" href="gphoto2-widget_8c.html#3c0b35f3388530da758926ac78fac06b">gphoto2-widget.c</a>
 <li>gp_widget_set_info()
 : <a class="el" href="gphoto2-widget_8c.html#160e5a9b8fb23d5dd13a945272830de5">gphoto2-widget.c</a>
 <li>gp_widget_set_name()
@@ -538,10 +677,30 @@ Here is a list of all documented functions, variables, defines, enums, and typed
 : <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">gphoto2-context.h</a>
 <li>GPContextFeedback
 : <a class="el" href="gphoto2-context_8h.html#fc3b82e6734a47a6d70fa8cfed2abe8e">gphoto2-context.h</a>
+<li>GPLevel
+: <a class="el" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">gphoto2-port.h</a>
+<li>GPLogFunc
+: <a class="el" href="gphoto2-port-log_8h.html#68479eab20e745bbf4e2b09b2f6abfb9">gphoto2-port-log.h</a>
+<li>GPPin
+: <a class="el" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">gphoto2-port.h</a>
+<li>GPPort
+: <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">gphoto2-port.h</a>
+<li>GPPortInfo
+: <a class="el" href="gphoto2-port-info-list_8h.html#f6ed4bd76990a97aba3edab5e078361e">gphoto2-port-info-list.h</a>
+<li>GPPortOperations
+: <a class="el" href="gphoto2-port-library_8h.html#f44135350b439901599f4fbd9d8ff753">gphoto2-port-library.h</a>
 <li>GPPortSerialParity
 : <a class="el" href="gphoto2-port_8h.html#3994af97208c5e703e0cfc3d1a0cf9ba">gphoto2-port.h</a>
+<li>GPPortSettings
+: <a class="el" href="gphoto2-port_8h.html#daa9cd5277ad4c89f2c814516fd6b642">gphoto2-port.h</a>
+<li>GPPortSettingsDisk
+: <a class="el" href="gphoto2-port_8h.html#820239c0ded24126c6ed81d5ed703c53">gphoto2-port.h</a>
+<li>GPPortSettingsSerial
+: <a class="el" href="gphoto2-port_8h.html#f7b986a8caa7327427d610bb292b1552">gphoto2-port.h</a>
+<li>GPPortSettingsUSB
+: <a class="el" href="gphoto2-port_8h.html#205d9e3a47aba604efe80bf69b3262d3">gphoto2-port.h</a>
 </ul>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:44 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:43 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

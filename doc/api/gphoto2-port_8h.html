@@ -33,28 +33,32 @@ Include dependency graph for gphoto2-port.h:<p><center><img src="gphoto2-port_8h
 <p>
 This graph shows which files directly or indirectly include this file:<p><center><img src="gphoto2-port_8h__dep__incl.png" border="0" usemap="#libgphoto2_port/gphoto2/gphoto2-port.hdep_map" alt=""></center>
 <map name="libgphoto2_port/gphoto2/gphoto2-port.hdep_map">
-<area href="gphoto2-camera_8h.html" shape="rect" coords="783,32,964,59" alt="">
-<area href="gphoto2_8h.html" shape="rect" coords="428,57,562,84" alt="">
+<area href="gphoto2-camera_8h.html" shape="rect" coords="404,7,585,34" alt="">
+<area href="gphoto2_8h.html" shape="rect" coords="428,58,561,84" alt="">
 <area href="gphoto2-port-info-list_8h.html" shape="rect" coords="343,108,647,135" alt="">
-<area href="gphoto2-port-library_8h.html" shape="rect" coords="726,159,1022,185" alt="">
-<area href="gphoto2-port_8c.html" shape="rect" coords="1072,159,1371,185" alt="">
-<area href="gphoto2-port-portability_8c.html" shape="rect" coords="315,260,675,287" alt="">
+<area href="gphoto2-port-library_8h.html" shape="rect" coords="725,134,1021,160" alt="">
+<area href="gphoto2-port-portability_8c.html" shape="rect" coords="315,210,675,236" alt="">
 </map>
 
 <p>
 <a href="gphoto2-port_8h-source.html">Go to the source code of this file.</a><table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>Data Structures</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>_GPPortSettingsSerial</b></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__GPPortSettingsSerial.html">_GPPortSettingsSerial</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>_GPPortSettingsUSB</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Port settings for serial ports.  <a href="struct__GPPortSettingsSerial.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__GPPortSettingsUSB.html">_GPPortSettingsUSB</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>_GPPortSettingsDisk</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Port settings for USB ports.  <a href="struct__GPPortSettingsUSB.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__GPPortSettingsDisk.html">_GPPortSettingsDisk</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">union &nbsp;</td><td class="memItemRight" valign="bottom"><b>_GPPortSettings</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Port settings for the local disk (directories) port.  <a href="struct__GPPortSettingsDisk.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">union &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="union__GPPortSettings.html">_GPPortSettings</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><b>_GPPort</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Union of port settings.  <a href="union__GPPortSettings.html#_details">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">struct &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__GPPort.html">_GPPort</a></td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">The GPhoto port structure.  <a href="struct__GPPort.html#_details">More...</a><br></td></tr>
 <tr><td colspan="2"><br><h2>Defines</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="528a67cfb212764fdec08c7c065a04f8"></a><!-- doxytag: member="gphoto2-port.h::TRUE" ref="528a67cfb212764fdec08c7c065a04f8" args="" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>TRUE</b>&nbsp;&nbsp;&nbsp;(0==0)</td></tr>
@@ -63,152 +67,275 @@ This graph shows which files directly or indirectly include this file:<p><center
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>FALSE</b>&nbsp;&nbsp;&nbsp;(1==0)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="beb236857253fd3d91d562b2b493a22b"></a><!-- doxytag: member="gphoto2-port.h::GP_PORT_MAX_BUF_LEN" ref="beb236857253fd3d91d562b2b493a22b" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>GP_PORT_MAX_BUF_LEN</b>&nbsp;&nbsp;&nbsp;4096</td></tr>
+#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#beb236857253fd3d91d562b2b493a22b">GP_PORT_MAX_BUF_LEN</a>&nbsp;&nbsp;&nbsp;4096</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="242f6336c184db08708b65b6900ffd33"></a><!-- doxytag: member="gphoto2-port.h::PIN_CTS" ref="242f6336c184db08708b65b6900ffd33" args="" -->
-#define&nbsp;</td><td class="memItemRight" valign="bottom"><b>PIN_CTS</b>&nbsp;&nbsp;&nbsp;GP_PIN_CTS</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Maximum length of receive buffer. <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">#define&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#242f6336c184db08708b65b6900ffd33">PIN_CTS</a>&nbsp;&nbsp;&nbsp;GP_PIN_CTS</td></tr>
 
 <tr><td colspan="2"><br><h2>Typedefs</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">typedef enum <a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">_GPPortSerialParity</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#3994af97208c5e703e0cfc3d1a0cf9ba">GPPortSerialParity</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="838f55f406c2b6c0093cce52e8b32e64"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettingsSerial" ref="838f55f406c2b6c0093cce52e8b32e64" args="" -->
-typedef _GPPortSettingsSerial&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPortSettingsSerial</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Serial parity.  <a href="#3994af97208c5e703e0cfc3d1a0cf9ba"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="f7b986a8caa7327427d610bb292b1552"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettingsSerial" ref="f7b986a8caa7327427d610bb292b1552" args="" -->
+typedef <a class="el" href="struct__GPPortSettingsSerial.html">_GPPortSettingsSerial</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#f7b986a8caa7327427d610bb292b1552">GPPortSettingsSerial</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3812ea595e4680caaf6bbb4bcf9fc801"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettingsUSB" ref="3812ea595e4680caaf6bbb4bcf9fc801" args="" -->
-typedef _GPPortSettingsUSB&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPortSettingsUSB</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Port settings for serial ports. <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="205d9e3a47aba604efe80bf69b3262d3"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettingsUSB" ref="205d9e3a47aba604efe80bf69b3262d3" args="" -->
+typedef <a class="el" href="struct__GPPortSettingsUSB.html">_GPPortSettingsUSB</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#205d9e3a47aba604efe80bf69b3262d3">GPPortSettingsUSB</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="8a7597e7f73f6f1761faa706df907287"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettingsDisk" ref="8a7597e7f73f6f1761faa706df907287" args="" -->
-typedef _GPPortSettingsDisk&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPortSettingsDisk</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Port settings for USB ports. <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="820239c0ded24126c6ed81d5ed703c53"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettingsDisk" ref="820239c0ded24126c6ed81d5ed703c53" args="" -->
+typedef <a class="el" href="struct__GPPortSettingsDisk.html">_GPPortSettingsDisk</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#820239c0ded24126c6ed81d5ed703c53">GPPortSettingsDisk</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="9a74b25c8f7022a33678b4ac500d9d41"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettings" ref="9a74b25c8f7022a33678b4ac500d9d41" args="" -->
-typedef _GPPortSettings&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPortSettings</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Port settings for the local disk (directories) port. <br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef <a class="el" href="union__GPPortSettings.html">_GPPortSettings</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#daa9cd5277ad4c89f2c814516fd6b642">GPPortSettings</a></td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Union of port settings.  <a href="#daa9cd5277ad4c89f2c814516fd6b642"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="fb421cb352738791868262dcdcfcdcf6"></a><!-- doxytag: member="gphoto2-port.h::GPPortPrivateLibrary" ref="fb421cb352738791868262dcdcfcdcf6" args="" -->
 typedef _GPPortPrivateLibrary&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPortPrivateLibrary</b></td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="d29c9e3723377baf51f8106c88d26c54"></a><!-- doxytag: member="gphoto2-port.h::GPPortPrivateCore" ref="d29c9e3723377baf51f8106c88d26c54" args="" -->
-typedef <a class="el" href="struct__GPPortPrivateCore.html">_GPPortPrivateCore</a>&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPortPrivateCore</b></td></tr>
+typedef _GPPortPrivateCore&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPortPrivateCore</b></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="e489287014b93f14bd2c457e6caf950f"></a><!-- doxytag: member="gphoto2-port.h::GPPort" ref="e489287014b93f14bd2c457e6caf950f" args="" -->
-typedef _GPPort&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPort</b></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef <a class="el" href="struct__GPPort.html">_GPPort</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="298a43a07f6be88117eff076118a10f0"></a><!-- doxytag: member="gphoto2-port.h::GPPin" ref="298a43a07f6be88117eff076118a10f0" args="" -->
-typedef enum _GPPin&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPPin</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">The GPhoto port structure.  <a href="#2dee18ceb2677b3b07f4811ac10bfe55"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef enum <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9">_GPPin</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="c4afa134baf005920cdc7e4791d0fe46"></a><!-- doxytag: member="gphoto2-port.h::GPLevel" ref="c4afa134baf005920cdc7e4791d0fe46" args="" -->
-typedef enum _GPLevel&nbsp;</td><td class="memItemRight" valign="bottom"><b>GPLevel</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Serial pins.  <a href="#4d89af71753a149c77188f0debb90e8a"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef enum <a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b">_GPLevel</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="8b530a1527df3e45aa9252fafde1f271"></a><!-- doxytag: member="gphoto2-port.h::gp_port" ref="8b530a1527df3e45aa9252fafde1f271" args="" -->
-typedef GPPort&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port</b></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Level to pull specific lines.  <a href="#ebf5aefcf4c70b13feb5b5e8fd26b6a0"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef <a class="el" href="struct__GPPort.html">GPPort</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#8b530a1527df3e45aa9252fafde1f271">gp_port</a></td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="4dc7af822c9365063dd279b499d09267"></a><!-- doxytag: member="gphoto2-port.h::gp_port_settings" ref="4dc7af822c9365063dd279b499d09267" args="" -->
-typedef GPPortSettings&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_settings</b></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">typedef <a class="el" href="union__GPPortSettings.html">GPPortSettings</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#4dc7af822c9365063dd279b499d09267">gp_port_settings</a></td></tr>
 
 <tr><td colspan="2"><br><h2>Enumerations</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">_GPPortSerialParity</a> { <b>GP_PORT_SERIAL_PARITY_OFF</b> =  0, 
-<b>GP_PORT_SERIAL_PARITY_EVEN</b>, 
-<b>GP_PORT_SERIAL_PARITY_ODD</b>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">_GPPortSerialParity</a> { <a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908aed98b354e1e5aa82562dd18ef95ac9176">GP_PORT_SERIAL_PARITY_OFF</a> =  0, 
+<a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae48c6aa1084feb87fe227f5521df67776">GP_PORT_SERIAL_PARITY_EVEN</a>, 
+<a class="el" href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908aeca571bbba6b231adc42820564a557801">GP_PORT_SERIAL_PARITY_ODD</a>
  }</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom">{ <b>GP_PORT_USB_ENDPOINT_IN</b>, 
-<b>GP_PORT_USB_ENDPOINT_OUT</b>, 
-<b>GP_PORT_USB_ENDPOINT_INT</b>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Serial parity.  <a href="gphoto2-port_8h.html#22cb3cbf27908723a5b480ccae3908ae">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea8ed92fa19e1ce408f8b066438b6c0dcb8">GP_PORT_USB_ENDPOINT_IN</a>, 
+<a class="el" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea83f22d44e7354357dcf7d6b66c74f87ef">GP_PORT_USB_ENDPOINT_OUT</a>, 
+<a class="el" href="gphoto2-port_8h.html#d3ad298af5d072057b84f2f0e1bd8ea8d44d36b9cadfae7217ccdd24dc79ffdc">GP_PORT_USB_ENDPOINT_INT</a>
  }</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><b>_GPPin</b> { <br>
-&nbsp;&nbsp;<b>GP_PIN_RTS</b>, 
-<b>GP_PIN_DTR</b>, 
-<b>GP_PIN_CTS</b>, 
-<b>GP_PIN_DSR</b>, 
+<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9">_GPPin</a> { <br>
+&nbsp;&nbsp;<a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c970385db972461b8c4cc0086f1759485d">GP_PIN_RTS</a>, 
+<a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c98633b9eba2b27d2c2e67b4d68ade754e">GP_PIN_DTR</a>, 
+<a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9cbe4848730cda4ab6aefc61cd1d3492c">GP_PIN_CTS</a>, 
+<a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9e1f748b57e926cfda9257ebff30bfe3c">GP_PIN_DSR</a>, 
 <br>
-&nbsp;&nbsp;<b>GP_PIN_CD</b>, 
-<b>GP_PIN_RING</b>
+&nbsp;&nbsp;<a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c910dcab6fa5edd8ca1429d27348eb91f0">GP_PIN_CD</a>, 
+<a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9c21f9523a7ae6b59ca9eb7ce4c2f320a">GP_PIN_RING</a>
 <br>
  }</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><b>_GPLevel</b> { <b>GP_LEVEL_LOW</b> =  0, 
-<b>GP_LEVEL_HIGH</b> =  1
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Serial pins.  <a href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9">More...</a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">enum &nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b">_GPLevel</a> { <a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b01f42810fc4df948d74dfb73b72476b3">GP_LEVEL_LOW</a> =  0, 
+<a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b7ced6e57b56e6cb417aa5b75d95df3ef">GP_LEVEL_HIGH</a> =  1
  }</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Level to pull specific lines.  <a href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b">More...</a><br></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#8417b7e901fefb27ab4aeae10136697d">gp_port_new</a> (GPPort **port)</td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#8417b7e901fefb27ab4aeae10136697d">gp_port_new</a> (<a class="el" href="struct__GPPort.html">GPPort</a> **port)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#8d8815fc2041524490225d8de0f6d904">gp_port_free</a> (GPPort *port)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Create new GPPort.  <a href="#8417b7e901fefb27ab4aeae10136697d"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#8d8815fc2041524490225d8de0f6d904">gp_port_free</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info</a> (GPPort *port, GPPortInfo info)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Free the port structure.  <a href="#8d8815fc2041524490225d8de0f6d904"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, <a class="el" href="struct__GPPortInfo.html">GPPortInfo</a> info)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#dc2f5e1e5c9e2482bd972840a4b6f8b5">gp_port_get_info</a> (GPPort *port, GPPortInfo *info)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Configure a port.  <a href="#23c6e40c46ff77b34ecc50d7495a4d7f"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#dc2f5e1e5c9e2482bd972840a4b6f8b5">gp_port_get_info</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, <a class="el" href="struct__GPPortInfo.html">GPPortInfo</a> *info)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#86f420cf4f77848600e982ce51aafa45">gp_port_open</a> (GPPort *port)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retreives information about the port.  <a href="#dc2f5e1e5c9e2482bd972840a4b6f8b5"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#86f420cf4f77848600e982ce51aafa45">gp_port_open</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#4b4aaca4ad306f7572567b10072e0ba9">gp_port_close</a> (GPPort *port)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Open a port.  <a href="#86f420cf4f77848600e982ce51aafa45"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#4b4aaca4ad306f7572567b10072e0ba9">gp_port_close</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#10c9eb67f356e1967001795466eb08f4">gp_port_write</a> (GPPort *port, const char *data, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Close a port.  <a href="#4b4aaca4ad306f7572567b10072e0ba9"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#10c9eb67f356e1967001795466eb08f4">gp_port_write</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, const char *data, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#f7aa149494cc5ba3fe99c31a01b2bf16">gp_port_read</a> (GPPort *port, char *data, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Writes a specified amount of data to a port.  <a href="#10c9eb67f356e1967001795466eb08f4"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#f7aa149494cc5ba3fe99c31a01b2bf16">gp_port_read</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, char *data, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#5751d127e002931547575ddc30764158">gp_port_check_int</a> (GPPort *port, char *data, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Read data from port.  <a href="#f7aa149494cc5ba3fe99c31a01b2bf16"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#5751d127e002931547575ddc30764158">gp_port_check_int</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, char *data, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="25504bbee9dd3cb575b13ef4b12a2f2f"></a><!-- doxytag: member="gphoto2-port.h::gp_port_check_int_fast" ref="25504bbee9dd3cb575b13ef4b12a2f2f" args="(GPPort *port, char *data, int size)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_check_int_fast</b> (GPPort *port, char *data, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Check for intterupt.  <a href="#5751d127e002931547575ddc30764158"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#25504bbee9dd3cb575b13ef4b12a2f2f">gp_port_check_int_fast</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, char *data, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#99d075e933b1f5b50cdc06f7aaf6cac8">gp_port_get_timeout</a> (GPPort *port, int *timeout)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Check for interrupt without wait.  <a href="#25504bbee9dd3cb575b13ef4b12a2f2f"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#99d075e933b1f5b50cdc06f7aaf6cac8">gp_port_get_timeout</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int *timeout)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#ea760bec3c5abe24160c1f51cd65a691">gp_port_set_timeout</a> (GPPort *port, int timeout)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the current port timeout.  <a href="#99d075e933b1f5b50cdc06f7aaf6cac8"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#ea760bec3c5abe24160c1f51cd65a691">gp_port_set_timeout</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int timeout)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#9d8d152320d11d5ddc8a1d8fea26beb7">gp_port_set_settings</a> (GPPort *port, GPPortSettings settings)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set timeout of port.  <a href="#ea760bec3c5abe24160c1f51cd65a691"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#9d8d152320d11d5ddc8a1d8fea26beb7">gp_port_set_settings</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, <a class="el" href="union__GPPortSettings.html">GPPortSettings</a> settings)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#eb68e49a4a8d513f6e183120da4e4232">gp_port_get_settings</a> (GPPort *port, GPPortSettings *settings)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set port settings.  <a href="#9d8d152320d11d5ddc8a1d8fea26beb7"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#eb68e49a4a8d513f6e183120da4e4232">gp_port_get_settings</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, <a class="el" href="union__GPPortSettings.html">GPPortSettings</a> *settings)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="498716d65b2966a4c33e6ef69db22bfd"></a><!-- doxytag: member="gphoto2-port.h::gp_port_get_pin" ref="498716d65b2966a4c33e6ef69db22bfd" args="(GPPort *port, GPPin pin, GPLevel *level)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_get_pin</b> (GPPort *port, GPPin pin, GPLevel *level)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get the current port settings.  <a href="#eb68e49a4a8d513f6e183120da4e4232"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#498716d65b2966a4c33e6ef69db22bfd">gp_port_get_pin</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, <a class="el" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a> pin, <a class="el" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a> *level)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="009d0ab0d3551340365bebe918a913b0"></a><!-- doxytag: member="gphoto2-port.h::gp_port_set_pin" ref="009d0ab0d3551340365bebe918a913b0" args="(GPPort *port, GPPin pin, GPLevel level)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_set_pin</b> (GPPort *port, GPPin pin, GPLevel level)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get setting of specific serial PIN.  <a href="#498716d65b2966a4c33e6ef69db22bfd"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#009d0ab0d3551340365bebe918a913b0">gp_port_set_pin</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, <a class="el" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a> pin, <a class="el" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a> level)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="8c3028d821fc87f67b7858509a4ed12e"></a><!-- doxytag: member="gphoto2-port.h::gp_port_send_break" ref="8c3028d821fc87f67b7858509a4ed12e" args="(GPPort *port, int duration)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_send_break</b> (GPPort *port, int duration)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set specified serial PIN to value.  <a href="#009d0ab0d3551340365bebe918a913b0"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#8c3028d821fc87f67b7858509a4ed12e">gp_port_send_break</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int duration)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="6fbcbc267b59e3f3b695b756cc116837"></a><!-- doxytag: member="gphoto2-port.h::gp_port_flush" ref="6fbcbc267b59e3f3b695b756cc116837" args="(GPPort *port, int direction)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_flush</b> (GPPort *port, int direction)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Send a break over a serial port.  <a href="#8c3028d821fc87f67b7858509a4ed12e"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#6fbcbc267b59e3f3b695b756cc116837">gp_port_flush</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int direction)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="eee7d4100408092c68109926abf1581e"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_find_device" ref="eee7d4100408092c68109926abf1581e" args="(GPPort *port, int idvendor, int idproduct)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_find_device</b> (GPPort *port, int idvendor, int idproduct)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Flush data on serial port.  <a href="#6fbcbc267b59e3f3b695b756cc116837"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#eee7d4100408092c68109926abf1581e">gp_port_usb_find_device</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int idvendor, int idproduct)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="6994efe46c1b7cc2927f36f2097c727b"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_find_device_by_class" ref="6994efe46c1b7cc2927f36f2097c727b" args="(GPPort *port, int mainclass, int subclass, int protocol)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_find_device_by_class</b> (GPPort *port, int mainclass, int subclass, int protocol)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Find USB device by vendor/product.  <a href="#eee7d4100408092c68109926abf1581e"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#6994efe46c1b7cc2927f36f2097c727b">gp_port_usb_find_device_by_class</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int mainclass, int subclass, int protocol)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="0584a7774ce1ae6ef2f704c46859a13c"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_clear_halt" ref="0584a7774ce1ae6ef2f704c46859a13c" args="(GPPort *port, int ep)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_clear_halt</b> (GPPort *port, int ep)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Find USB device by interface class.  <a href="#6994efe46c1b7cc2927f36f2097c727b"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#0584a7774ce1ae6ef2f704c46859a13c">gp_port_usb_clear_halt</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int ep)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="449a2f3892474fc7920e9675cf779495"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_write" ref="449a2f3892474fc7920e9675cf779495" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_msg_write</b> (GPPort *port, int request, int value, int index, char *bytes, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Clear USB endpoint HALT condition.  <a href="#0584a7774ce1ae6ef2f704c46859a13c"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#449a2f3892474fc7920e9675cf779495">gp_port_usb_msg_write</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int request, int value, int index, char *bytes, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="f78af4489f7e0611b178c45f3f99c4d7"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_read" ref="f78af4489f7e0611b178c45f3f99c4d7" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_msg_read</b> (GPPort *port, int request, int value, int index, char *bytes, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Send a USB control message with output data.  <a href="#449a2f3892474fc7920e9675cf779495"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#f78af4489f7e0611b178c45f3f99c4d7">gp_port_usb_msg_read</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int request, int value, int index, char *bytes, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="060ddc710c76dc885a78d3ba17ffdcbe"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_interface_write" ref="060ddc710c76dc885a78d3ba17ffdcbe" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_msg_interface_write</b> (GPPort *port, int request, int value, int index, char *bytes, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Send a USB control message with input data.  <a href="#f78af4489f7e0611b178c45f3f99c4d7"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#060ddc710c76dc885a78d3ba17ffdcbe">gp_port_usb_msg_interface_write</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int request, int value, int index, char *bytes, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="32927678ac6cc36802a1ac663df3fe54"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_interface_read" ref="32927678ac6cc36802a1ac663df3fe54" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_msg_interface_read</b> (GPPort *port, int request, int value, int index, char *bytes, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Send a USB interface control message with output data.  <a href="#060ddc710c76dc885a78d3ba17ffdcbe"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#32927678ac6cc36802a1ac663df3fe54">gp_port_usb_msg_interface_read</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int request, int value, int index, char *bytes, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="e07af1213ddf18735fc5abe22d4efc89"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_class_write" ref="e07af1213ddf18735fc5abe22d4efc89" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_msg_class_write</b> (GPPort *port, int request, int value, int index, char *bytes, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Send a USB interface control message with input data.  <a href="#32927678ac6cc36802a1ac663df3fe54"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#e07af1213ddf18735fc5abe22d4efc89">gp_port_usb_msg_class_write</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int request, int value, int index, char *bytes, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="f15cb58fb4f05d4e02aceecedc6d72cf"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_class_read" ref="f15cb58fb4f05d4e02aceecedc6d72cf" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
-int&nbsp;</td><td class="memItemRight" valign="bottom"><b>gp_port_usb_msg_class_read</b> (GPPort *port, int request, int value, int index, char *bytes, int size)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Send a USB class control message with output data.  <a href="#e07af1213ddf18735fc5abe22d4efc89"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#f15cb58fb4f05d4e02aceecedc6d72cf">gp_port_usb_msg_class_read</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, int request, int value, int index, char *bytes, int size)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#69380af5e94572d0dc8680e961503b8c">gp_port_set_error</a> (GPPort *port, const char *format,...)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Send a USB class control message with input data.  <a href="#f15cb58fb4f05d4e02aceecedc6d72cf"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#69380af5e94572d0dc8680e961503b8c">gp_port_set_error</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port, const char *format,...)</td></tr>
 
-<tr><td class="memItemLeft" nowrap align="right" valign="top">const char *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#4d33874931a49925bd9299345bba7e17">gp_port_get_error</a> (GPPort *port)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set verbose port error message.  <a href="#69380af5e94572d0dc8680e961503b8c"></a><br></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">const char *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-port_8h.html#4d33874931a49925bd9299345bba7e17">gp_port_get_error</a> (<a class="el" href="struct__GPPort.html">GPPort</a> *port)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get verbose port error message.  <a href="#4d33874931a49925bd9299345bba7e17"></a><br></td></tr>
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
-Copyright © 2001 Lutz Müller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt;<p>
-This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.<p>
-This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.<p>
-You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. <hr><h2>Typedef Documentation</h2>
+<dl class="author" compact><dt><b>Author:</b></dt><dd>Copyright 2001 Lutz Mueller &lt;<a href="mailto:lutz@users.sf.net">lutz@users.sf.net</a>&gt;</dd></dl>
+<dl class="user" compact><dt><b>License</b></dt><dd>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</dd></dl>
+<dl class="user" compact><dt><b></b></dt><dd>You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. </dd></dl>
+<hr><h2>Define Documentation</h2>
+<a class="anchor" name="242f6336c184db08708b65b6900ffd33"></a><!-- doxytag: member="gphoto2-port.h::PIN_CTS" ref="242f6336c184db08708b65b6900ffd33" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PIN_CTS&nbsp;&nbsp;&nbsp;GP_PIN_CTS          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+<dl compact><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>internal define </dd></dl>
+
+</div>
+</div><p>
+<hr><h2>Typedef Documentation</h2>
+<a class="anchor" name="8b530a1527df3e45aa9252fafde1f271"></a><!-- doxytag: member="gphoto2-port.h::gp_port" ref="8b530a1527df3e45aa9252fafde1f271" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="struct__GPPort.html">GPPort</a> <a class="el" href="struct__GPPort.html">gp_port</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+<dl compact><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>internal typedef </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="4dc7af822c9365063dd279b499d09267"></a><!-- doxytag: member="gphoto2-port.h::gp_port_settings" ref="4dc7af822c9365063dd279b499d09267" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="union__GPPortSettings.html">GPPortSettings</a> <a class="el" href="union__GPPortSettings.html">gp_port_settings</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+<dl compact><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>internal typedef </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="ebf5aefcf4c70b13feb5b5e8fd26b6a0"></a><!-- doxytag: member="gphoto2-port.h::GPLevel" ref="ebf5aefcf4c70b13feb5b5e8fd26b6a0" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b">_GPLevel</a>  <a class="el" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Level to pull specific lines. 
+<p>
+The level on which to pull some of the serial lines. 
+</div>
+</div><p>
+<a class="anchor" name="4d89af71753a149c77188f0debb90e8a"></a><!-- doxytag: member="gphoto2-port.h::GPPin" ref="4d89af71753a149c77188f0debb90e8a" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9">_GPPin</a>  <a class="el" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Serial pins. 
+<p>
+A number of serial pins to trigger and pull. This is necessary for some devices that have more than just the regular 3 or 4 wires. 
+</div>
+</div><p>
+<a class="anchor" name="2dee18ceb2677b3b07f4811ac10bfe55"></a><!-- doxytag: member="gphoto2-port.h::GPPort" ref="2dee18ceb2677b3b07f4811ac10bfe55" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct__GPPort.html">_GPPort</a>  <a class="el" href="struct__GPPort.html">GPPort</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+The GPhoto port structure. 
+<p>
+This structure tracks the physical connection of the device. It can correspond the various methods of lowlevel access, serial usb and others and abstracts them as much as possible.<p>
+Frontends should consider this structure opaque and only use accessor functions.<p>
+Camera drivers should only access the type and pl members directly, and use accessor functions for the rest. 
+</div>
+</div><p>
 <a class="anchor" name="3994af97208c5e703e0cfc3d1a0cf9ba"></a><!-- doxytag: member="gphoto2-port.h::GPPortSerialParity" ref="3994af97208c5e703e0cfc3d1a0cf9ba" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -221,10 +348,112 @@ You should have received a copy of the GNU Lesser General Public License along w
 <div class="memdoc">
 
 <p>
-Use Parity. Enable/Disable, and Odd/Even. 
+Serial parity. 
+<p>
+Parity of the serial port. 
+</div>
+</div><p>
+<a class="anchor" name="daa9cd5277ad4c89f2c814516fd6b642"></a><!-- doxytag: member="gphoto2-port.h::GPPortSettings" ref="daa9cd5277ad4c89f2c814516fd6b642" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef union <a class="el" href="union__GPPortSettings.html">_GPPortSettings</a>  <a class="el" href="union__GPPortSettings.html">GPPortSettings</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Union of port settings. 
+<p>
+This contains a shared union of possible settings for ports needing them. 
 </div>
 </div><p>
 <hr><h2>Enumeration Type Documentation</h2>
+<a class="anchor" name="d3ad298af5d072057b84f2f0e1bd8ea8"></a><!-- doxytag: member="gphoto2-port.h::@2" ref="d3ad298af5d072057b84f2f0e1bd8ea8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+<dl compact><dt><b>Enumerator: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" name="d3ad298af5d072057b84f2f0e1bd8ea8ed92fa19e1ce408f8b066438b6c0dcb8"></a><!-- doxytag: member="GP_PORT_USB_ENDPOINT_IN" ref="d3ad298af5d072057b84f2f0e1bd8ea8ed92fa19e1ce408f8b066438b6c0dcb8" args="" -->GP_PORT_USB_ENDPOINT_IN</em>&nbsp;</td><td>
+USB bulk IN ep. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="d3ad298af5d072057b84f2f0e1bd8ea83f22d44e7354357dcf7d6b66c74f87ef"></a><!-- doxytag: member="GP_PORT_USB_ENDPOINT_OUT" ref="d3ad298af5d072057b84f2f0e1bd8ea83f22d44e7354357dcf7d6b66c74f87ef" args="" -->GP_PORT_USB_ENDPOINT_OUT</em>&nbsp;</td><td>
+USB bulk OUT ep. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="d3ad298af5d072057b84f2f0e1bd8ea8d44d36b9cadfae7217ccdd24dc79ffdc"></a><!-- doxytag: member="GP_PORT_USB_ENDPOINT_INT" ref="d3ad298af5d072057b84f2f0e1bd8ea8d44d36b9cadfae7217ccdd24dc79ffdc" args="" -->GP_PORT_USB_ENDPOINT_INT</em>&nbsp;</td><td>
+USB Interrupt ep. </td></tr>
+</table>
+</dl>
+
+</div>
+</div><p>
+<a class="anchor" name="369614b99a5aeef9a9a11ce32965bf5b"></a><!-- doxytag: member="gphoto2-port.h::_GPLevel" ref="369614b99a5aeef9a9a11ce32965bf5b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="gphoto2-port_8h.html#369614b99a5aeef9a9a11ce32965bf5b">_GPLevel</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Level to pull specific lines. 
+<p>
+The level on which to pull some of the serial lines. <dl compact><dt><b>Enumerator: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" name="369614b99a5aeef9a9a11ce32965bf5b01f42810fc4df948d74dfb73b72476b3"></a><!-- doxytag: member="GP_LEVEL_LOW" ref="369614b99a5aeef9a9a11ce32965bf5b01f42810fc4df948d74dfb73b72476b3" args="" -->GP_LEVEL_LOW</em>&nbsp;</td><td>
+Pull to low (0V). </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="369614b99a5aeef9a9a11ce32965bf5b7ced6e57b56e6cb417aa5b75d95df3ef"></a><!-- doxytag: member="GP_LEVEL_HIGH" ref="369614b99a5aeef9a9a11ce32965bf5b7ced6e57b56e6cb417aa5b75d95df3ef" args="" -->GP_LEVEL_HIGH</em>&nbsp;</td><td>
+Pull to high (nV). </td></tr>
+</table>
+</dl>
+
+</div>
+</div><p>
+<a class="anchor" name="d19047f4933fd2ff8e19872959c114c9"></a><!-- doxytag: member="gphoto2-port.h::_GPPin" ref="d19047f4933fd2ff8e19872959c114c9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="gphoto2-port_8h.html#d19047f4933fd2ff8e19872959c114c9">_GPPin</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Serial pins. 
+<p>
+A number of serial pins to trigger and pull. This is necessary for some devices that have more than just the regular 3 or 4 wires. <dl compact><dt><b>Enumerator: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" name="d19047f4933fd2ff8e19872959c114c970385db972461b8c4cc0086f1759485d"></a><!-- doxytag: member="GP_PIN_RTS" ref="d19047f4933fd2ff8e19872959c114c970385db972461b8c4cc0086f1759485d" args="" -->GP_PIN_RTS</em>&nbsp;</td><td>
+RTS line. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="d19047f4933fd2ff8e19872959c114c98633b9eba2b27d2c2e67b4d68ade754e"></a><!-- doxytag: member="GP_PIN_DTR" ref="d19047f4933fd2ff8e19872959c114c98633b9eba2b27d2c2e67b4d68ade754e" args="" -->GP_PIN_DTR</em>&nbsp;</td><td>
+DTR line. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="d19047f4933fd2ff8e19872959c114c9cbe4848730cda4ab6aefc61cd1d3492c"></a><!-- doxytag: member="GP_PIN_CTS" ref="d19047f4933fd2ff8e19872959c114c9cbe4848730cda4ab6aefc61cd1d3492c" args="" -->GP_PIN_CTS</em>&nbsp;</td><td>
+CTS line. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="d19047f4933fd2ff8e19872959c114c9e1f748b57e926cfda9257ebff30bfe3c"></a><!-- doxytag: member="GP_PIN_DSR" ref="d19047f4933fd2ff8e19872959c114c9e1f748b57e926cfda9257ebff30bfe3c" args="" -->GP_PIN_DSR</em>&nbsp;</td><td>
+DSR line. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="d19047f4933fd2ff8e19872959c114c910dcab6fa5edd8ca1429d27348eb91f0"></a><!-- doxytag: member="GP_PIN_CD" ref="d19047f4933fd2ff8e19872959c114c910dcab6fa5edd8ca1429d27348eb91f0" args="" -->GP_PIN_CD</em>&nbsp;</td><td>
+Carrier Detect line. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="d19047f4933fd2ff8e19872959c114c9c21f9523a7ae6b59ca9eb7ce4c2f320a"></a><!-- doxytag: member="GP_PIN_RING" ref="d19047f4933fd2ff8e19872959c114c9c21f9523a7ae6b59ca9eb7ce4c2f320a" args="" -->GP_PIN_RING</em>&nbsp;</td><td>
+RING (Modem) line. </td></tr>
+</table>
+</dl>
+
+</div>
+</div><p>
 <a class="anchor" name="22cb3cbf27908723a5b480ccae3908ae"></a><!-- doxytag: member="gphoto2-port.h::_GPPortSerialParity" ref="22cb3cbf27908723a5b480ccae3908ae" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +466,19 @@ Use Parity. Enable/Disable, and Odd/Even.
 <div class="memdoc">
 
 <p>
-Use Parity. Enable/Disable, and Odd/Even. 
+Serial parity. 
+<p>
+Parity of the serial port. <dl compact><dt><b>Enumerator: </b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" name="22cb3cbf27908723a5b480ccae3908aed98b354e1e5aa82562dd18ef95ac9176"></a><!-- doxytag: member="GP_PORT_SERIAL_PARITY_OFF" ref="22cb3cbf27908723a5b480ccae3908aed98b354e1e5aa82562dd18ef95ac9176" args="" -->GP_PORT_SERIAL_PARITY_OFF</em>&nbsp;</td><td>
+Parity is off (disabled). </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="22cb3cbf27908723a5b480ccae3908ae48c6aa1084feb87fe227f5521df67776"></a><!-- doxytag: member="GP_PORT_SERIAL_PARITY_EVEN" ref="22cb3cbf27908723a5b480ccae3908ae48c6aa1084feb87fe227f5521df67776" args="" -->GP_PORT_SERIAL_PARITY_EVEN</em>&nbsp;</td><td>
+Parity is even. </td></tr>
+<tr><td valign="top"><em><a class="anchor" name="22cb3cbf27908723a5b480ccae3908aeca571bbba6b231adc42820564a557801"></a><!-- doxytag: member="GP_PORT_SERIAL_PARITY_ODD" ref="22cb3cbf27908723a5b480ccae3908aeca571bbba6b231adc42820564a557801" args="" -->GP_PORT_SERIAL_PARITY_ODD</em>&nbsp;</td><td>
+Parity is odd. </td></tr>
+</table>
+</dl>
+
 </div>
 </div><p>
 <hr><h2>Function Documentation</h2>
@@ -248,7 +489,7 @@ Use Parity. Enable/Disable, and Odd/Even.
         <tr>
           <td class="memname">int gp_port_check_int           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
@@ -273,9 +514,64 @@ Use Parity. Enable/Disable, and Odd/Even.
 <div class="memdoc">
 
 <p>
-gp_port_check_int: : a GPPort : a pointer to an allocated buffer : the number of bytes that should be read<p>
-Reads a specified number of bytes from the inerrupt endpoint into the supplied buffer. Function waits port-&gt;timeout miliseconds for data on interrupt endpoint.<p>
-Return value: a gphoto2 error code 
+Check for intterupt. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>a pointer to an allocated buffer </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>the number of bytes that should be read</td></tr>
+  </table>
+</dl>
+Reads a specified number of bytes from the interrupt endpoint into the supplied buffer. Function waits port-&gt;timeout miliseconds for data on interrupt endpoint.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="25504bbee9dd3cb575b13ef4b12a2f2f"></a><!-- doxytag: member="gphoto2-port.h::gp_port_check_int_fast" ref="25504bbee9dd3cb575b13ef4b12a2f2f" args="(GPPort *port, char *data, int size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_check_int_fast           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Check for interrupt without wait. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>a pointer to an allocated buffer </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>the number of bytes that should be read</td></tr>
+  </table>
+</dl>
+Reads a specified number of bytes from the inerrupt endpoint into the supplied buffer. Function waits 50 miliseconds for data on interrupt endpoint.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="4b4aaca4ad306f7572567b10072e0ba9"></a><!-- doxytag: member="gphoto2-port.h::gp_port_close" ref="4b4aaca4ad306f7572567b10072e0ba9" args="(GPPort *port)" -->
@@ -285,7 +581,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_close           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -295,9 +591,55 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_close: : a GPPort<p>
-Closes a  temporarily. It can afterwards be reopened using <a class="el" href="gphoto2-port_8c.html#86f420cf4f77848600e982ce51aafa45">gp_port_open</a>.<p>
-Return value: a gphoto2 error code 
+Close a port. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a></td></tr>
+  </table>
+</dl>
+Closes a port temporarily. It can afterwards be reopened using <a class="el" href="gphoto2-port_8c.html#86f420cf4f77848600e982ce51aafa45">gp_port_open</a>.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="6fbcbc267b59e3f3b695b756cc116837"></a><!-- doxytag: member="gphoto2-port.h::gp_port_flush" ref="6fbcbc267b59e3f3b695b756cc116837" args="(GPPort *port, int direction)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_flush           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>direction</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Flush data on serial port. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>direction</em>&nbsp;</td><td>the direction of the flush</td></tr>
+  </table>
+</dl>
+Flushes the serial output or input (depending on direction) of the serial port.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="8d8815fc2041524490225d8de0f6d904"></a><!-- doxytag: member="gphoto2-port.h::gp_port_free" ref="8d8815fc2041524490225d8de0f6d904" args="(GPPort *port)" -->
@@ -307,7 +649,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_free           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -317,9 +659,16 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_free: : a GPPort<p>
-Closes the  and frees the memory.<p>
-Return value: a gphoto2 error code 
+Free the port structure. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a></td></tr>
+  </table>
+</dl>
+Closes the port and frees the memory.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="4d33874931a49925bd9299345bba7e17"></a><!-- doxytag: member="gphoto2-port.h::gp_port_get_error" ref="4d33874931a49925bd9299345bba7e17" args="(GPPort *port)" -->
@@ -329,7 +678,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">const char* gp_port_get_error           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -339,9 +688,16 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_get_error: : a GPPort<p>
-Retrieves an error message from a . If you want to make sure that you get correct error messages, you need to call <a class="el" href="gphoto2-port_8c.html#69380af5e94572d0dc8680e961503b8c">gp_port_set_error</a> with an error message of NULL each time before calling another port-related function of which you want to check the return value.<p>
-Return value: an error message 
+Get verbose port error message. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a></td></tr>
+  </table>
+</dl>
+Retrieves an error message from a port. If you want to make sure that you get correct error messages, you need to call <a class="el" href="gphoto2-port_8c.html#69380af5e94572d0dc8680e961503b8c">gp_port_set_error</a> with an error message of NULL each time before calling another port-related function of which you want to check the return value.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a translated error message </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="dc2f5e1e5c9e2482bd972840a4b6f8b5"></a><!-- doxytag: member="gphoto2-port.h::gp_port_get_info" ref="dc2f5e1e5c9e2482bd972840a4b6f8b5" args="(GPPort *port, GPPortInfo *info)" -->
@@ -351,13 +707,13 @@ Return value: an error message
         <tr>
           <td class="memname">int gp_port_get_info           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GPPortInfo *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPortInfo.html">GPPortInfo</a> *&nbsp;</td>
           <td class="paramname"> <em>info</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -370,9 +726,62 @@ Return value: an error message
 <div class="memdoc">
 
 <p>
-gp_port_get_info: : a GPPort : a GPPortInfo<p>
-Retreives  about the port.<p>
-Return value: a gphoto2 error code 
+Retreives information about the port. 
+<p>
+Retrieves the informations set by <a class="el" href="gphoto2-port_8h.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info()</a>.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>info</em>&nbsp;</td><td>GPPortInfo </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="498716d65b2966a4c33e6ef69db22bfd"></a><!-- doxytag: member="gphoto2-port.h::gp_port_get_pin" ref="498716d65b2966a4c33e6ef69db22bfd" args="(GPPort *port, GPPin pin, GPLevel *level)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_get_pin           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a>&nbsp;</td>
+          <td class="paramname"> <em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a> *&nbsp;</td>
+          <td class="paramname"> <em>level</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get setting of specific serial PIN. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>pin</em>&nbsp;</td><td>the serial pin to be retrieved </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>the setting of the pin</td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="eb68e49a4a8d513f6e183120da4e4232"></a><!-- doxytag: member="gphoto2-port.h::gp_port_get_settings" ref="eb68e49a4a8d513f6e183120da4e4232" args="(GPPort *port, GPPortSettings *settings)" -->
@@ -382,13 +791,13 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_get_settings           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GPPortSettings *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="union__GPPortSettings.html">GPPortSettings</a> *&nbsp;</td>
           <td class="paramname"> <em>settings</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -401,9 +810,17 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_get_settings: : a GPPort :<p>
-Retreives the current  of a .<p>
-Return value: a gphoto2 error code 
+Get the current port settings. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>settings</em>&nbsp;</td><td>pointer to the retrieved settings</td></tr>
+  </table>
+</dl>
+Retreives the current settings of a port.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="99d075e933b1f5b50cdc06f7aaf6cac8"></a><!-- doxytag: member="gphoto2-port.h::gp_port_get_timeout" ref="99d075e933b1f5b50cdc06f7aaf6cac8" args="(GPPort *port, int *timeout)" -->
@@ -413,7 +830,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_get_timeout           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
@@ -432,9 +849,17 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_get_timeout: : a GPPort :<p>
+Get the current port timeout. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>timeout</em>&nbsp;</td><td>pointer to timeout</td></tr>
+  </table>
+</dl>
 Retreives the current timeout of the port.<p>
-Return value: a gphoto2 error code 
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="8417b7e901fefb27ab4aeae10136697d"></a><!-- doxytag: member="gphoto2-port.h::gp_port_new" ref="8417b7e901fefb27ab4aeae10136697d" args="(GPPort **port)" -->
@@ -444,7 +869,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_new           </td>
           <td>(</td>
-          <td class="paramtype">GPPort **&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> **&nbsp;</td>
           <td class="paramname"> <em>port</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -454,9 +879,17 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_new: :<p>
-Allocates the memory for a new GPPort. After you called this function, you probably want to call <a class="el" href="gphoto2-port_8c.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info</a> in order to make the newly created  functional.<p>
-Return value: a gphoto2 error code 
+Create new GPPort. 
+<p>
+Allocate and initialize the memory for a new <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a>.<p>
+After you called this function, you probably want to call <a class="el" href="gphoto2-port_8c.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info</a> in order to make the newly created port functional.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>Pointer the <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a>* pointer </td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="86f420cf4f77848600e982ce51aafa45"></a><!-- doxytag: member="gphoto2-port.h::gp_port_open" ref="86f420cf4f77848600e982ce51aafa45" args="(GPPort *port)" -->
@@ -466,7 +899,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_open           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>          </td>
           <td>&nbsp;)&nbsp;</td>
           <td width="100%"></td>
@@ -476,9 +909,16 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_open: : a GPPort<p>
+Open a port. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a></td></tr>
+  </table>
+</dl>
 Opens a port which should have been created with <a class="el" href="gphoto2-port_8c.html#8417b7e901fefb27ab4aeae10136697d">gp_port_new</a> and configured with <a class="el" href="gphoto2-port_8c.html#23c6e40c46ff77b34ecc50d7495a4d7f">gp_port_set_info</a> and <a class="el" href="gphoto2-port_8c.html#9d8d152320d11d5ddc8a1d8fea26beb7">gp_port_set_settings</a><p>
-Return value: a gphoto2 error code 
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="f7aa149494cc5ba3fe99c31a01b2bf16"></a><!-- doxytag: member="gphoto2-port.h::gp_port_read" ref="f7aa149494cc5ba3fe99c31a01b2bf16" args="(GPPort *port, char *data, int size)" -->
@@ -488,7 +928,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_read           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
@@ -513,9 +953,57 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_read: : a GPPort : a pointer to an allocated buffer : the number of bytes that should be read<p>
-Reads a specified number of bytes from the port into the supplied buffer.<p>
-Return value: a gphoto2 error code 
+Read data from port. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>a pointer to an allocated buffer </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>the number of bytes that should be read</td></tr>
+  </table>
+</dl>
+Reads a specified number of bytes from the port into the supplied buffer. It returns the number of bytes read or a negative error code.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code or the amount of data read </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="8c3028d821fc87f67b7858509a4ed12e"></a><!-- doxytag: member="gphoto2-port.h::gp_port_send_break" ref="8c3028d821fc87f67b7858509a4ed12e" args="(GPPort *port, int duration)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_send_break           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>duration</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Send a break over a serial port. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>duration</em>&nbsp;</td><td>duration of break in milliseconds</td></tr>
+  </table>
+</dl>
+Sends a break with the specified duration in milliseconds.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="69380af5e94572d0dc8680e961503b8c"></a><!-- doxytag: member="gphoto2-port.h::gp_port_set_error" ref="69380af5e94572d0dc8680e961503b8c" args="(GPPort *port, const char *format,...)" -->
@@ -525,7 +1013,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_set_error           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
@@ -550,9 +1038,18 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_set_error: : a GPPort : @...:<p>
+Set verbose port error message. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>printf style format string </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>...</em>&nbsp;</td><td>variable arguments depending on format string</td></tr>
+  </table>
+</dl>
 Sets an error message that can later be retrieved using <a class="el" href="gphoto2-port_8c.html#4d33874931a49925bd9299345bba7e17">gp_port_get_error</a>.<p>
-Return value: a gphoto2 error code 
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="23c6e40c46ff77b34ecc50d7495a4d7f"></a><!-- doxytag: member="gphoto2-port.h::gp_port_set_info" ref="23c6e40c46ff77b34ecc50d7495a4d7f" args="(GPPort *port, GPPortInfo info)" -->
@@ -562,13 +1059,13 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_set_info           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GPPortInfo&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPortInfo.html">GPPortInfo</a>&nbsp;</td>
           <td class="paramname"> <em>info</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -581,9 +1078,63 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_set_info: : a GPPort : the GPPortInfo<p>
-Makes a  functional. After calling this function, you can access the port using for example <a class="el" href="gphoto2-port_8c.html#86f420cf4f77848600e982ce51aafa45">gp_port_open</a>.<p>
-Return value: a gphoto2 error code 
+Configure a port. 
+<p>
+Makes a port functional by passing in the necessary path information (from the serial:/dev/ttyS0 or similar variables). After calling this function, you can access the port using for example <a class="el" href="gphoto2-port_8h.html#86f420cf4f77848600e982ce51aafa45">gp_port_open()</a>.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>info</em>&nbsp;</td><td>the GPPortInfo to set</td></tr>
+  </table>
+</dl>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="009d0ab0d3551340365bebe918a913b0"></a><!-- doxytag: member="gphoto2-port.h::gp_port_set_pin" ref="009d0ab0d3551340365bebe918a913b0" args="(GPPort *port, GPPin pin, GPLevel level)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_set_pin           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-port_8h.html#4d89af71753a149c77188f0debb90e8a">GPPin</a>&nbsp;</td>
+          <td class="paramname"> <em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-port_8h.html#ebf5aefcf4c70b13feb5b5e8fd26b6a0">GPLevel</a>&nbsp;</td>
+          <td class="paramname"> <em>level</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Set specified serial PIN to value. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>pin</em>&nbsp;</td><td>the serial pin to be retrieved </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>level</em>&nbsp;</td><td>the setting of the pin</td></tr>
+  </table>
+</dl>
+Pulls the specified pin of a serial port to the specified level.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="9d8d152320d11d5ddc8a1d8fea26beb7"></a><!-- doxytag: member="gphoto2-port.h::gp_port_set_settings" ref="9d8d152320d11d5ddc8a1d8fea26beb7" args="(GPPort *port, GPPortSettings settings)" -->
@@ -593,13 +1144,13 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_set_settings           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GPPortSettings&nbsp;</td>
+          <td class="paramtype"><a class="el" href="union__GPPortSettings.html">GPPortSettings</a>&nbsp;</td>
           <td class="paramname"> <em>settings</em></td><td>&nbsp;</td>
         </tr>
         <tr>
@@ -612,9 +1163,17 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_set_settings: : a GPPort : the GPPortSettings to be set<p>
+Set port settings. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>settings</em>&nbsp;</td><td>the <a class="el" href="gphoto2-port_8h.html#daa9cd5277ad4c89f2c814516fd6b642">GPPortSettings</a> to be set</td></tr>
+  </table>
+</dl>
 Adjusts the settings of a port. You should always call <a class="el" href="gphoto2-port_8c.html#eb68e49a4a8d513f6e183120da4e4232">gp_port_get_settings</a>, adjust the values depending on the type of the port, and then call <a class="el" href="gphoto2-port_8c.html#9d8d152320d11d5ddc8a1d8fea26beb7">gp_port_set_settings</a>.<p>
-Return value: a gphoto2 error code 
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="ea760bec3c5abe24160c1f51cd65a691"></a><!-- doxytag: member="gphoto2-port.h::gp_port_set_timeout" ref="ea760bec3c5abe24160c1f51cd65a691" args="(GPPort *port, int timeout)" -->
@@ -624,7 +1183,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_set_timeout           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
@@ -643,9 +1202,557 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_set_timeout: : a GPPort : the timeout<p>
-Sets the  of a . <a class="el" href="gphoto2-port_8c.html#f7aa149494cc5ba3fe99c31a01b2bf16">gp_port_read</a> will wait  milliseconds for data. If no data will be received in that period, GP_ERROR_TIMEOUT will be returned.<p>
-Return value: a gphoto2 error code 
+Set timeout of port. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>timeout</em>&nbsp;</td><td>the timeout</td></tr>
+  </table>
+</dl>
+Sets the timeout of a port. <a class="el" href="gphoto2-port_8c.html#f7aa149494cc5ba3fe99c31a01b2bf16">gp_port_read</a> will wait timeout milliseconds for data. If no data will be received in that period, GP_ERROR_TIMEOUT will be returned.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="0584a7774ce1ae6ef2f704c46859a13c"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_clear_halt" ref="0584a7774ce1ae6ef2f704c46859a13c" args="(GPPort *port, int ep)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_clear_halt           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>ep</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Clear USB endpoint HALT condition. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>ep</em>&nbsp;</td><td>endpoint to clear HALT</td></tr>
+  </table>
+</dl>
+Clears the HALT (stall?) endpoint condition of the specified endpoint.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="eee7d4100408092c68109926abf1581e"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_find_device" ref="eee7d4100408092c68109926abf1581e" args="(GPPort *port, int idvendor, int idproduct)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_find_device           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>idvendor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>idproduct</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Find USB device by vendor/product. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>idvendor</em>&nbsp;</td><td>USB vendor id </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>idproduct</em>&nbsp;</td><td>USB product id</td></tr>
+  </table>
+</dl>
+Find the USB device with the specified vendor:product id pair.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="6994efe46c1b7cc2927f36f2097c727b"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_find_device_by_class" ref="6994efe46c1b7cc2927f36f2097c727b" args="(GPPort *port, int mainclass, int subclass, int protocol)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_find_device_by_class           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>mainclass</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>subclass</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>protocol</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Find USB device by interface class. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>mainclass</em>&nbsp;</td><td>the USB interface class </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>subclass</em>&nbsp;</td><td>the USB interface subclass </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>protocol</em>&nbsp;</td><td>the USB interface protocol</td></tr>
+  </table>
+</dl>
+Find the USB device with the specified vendor:product id pair.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="f15cb58fb4f05d4e02aceecedc6d72cf"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_class_read" ref="f15cb58fb4f05d4e02aceecedc6d72cf" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_msg_class_read           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Send a USB class control message with input data. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>request</em>&nbsp;</td><td>control request code </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>control value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>index</em>&nbsp;</td><td>control index </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>bytes</em>&nbsp;</td><td>pointer to data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>size of the data</td></tr>
+  </table>
+</dl>
+Sends a specific USB class control command and read associated data.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="e07af1213ddf18735fc5abe22d4efc89"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_class_write" ref="e07af1213ddf18735fc5abe22d4efc89" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_msg_class_write           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Send a USB class control message with output data. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>request</em>&nbsp;</td><td>control request code </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>control value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>index</em>&nbsp;</td><td>control index </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>bytes</em>&nbsp;</td><td>pointer to data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>size of the data</td></tr>
+  </table>
+</dl>
+Sends a specific USB class control command and write associated data.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="32927678ac6cc36802a1ac663df3fe54"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_interface_read" ref="32927678ac6cc36802a1ac663df3fe54" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_msg_interface_read           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Send a USB interface control message with input data. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>request</em>&nbsp;</td><td>control request code </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>control value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>index</em>&nbsp;</td><td>control index </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>bytes</em>&nbsp;</td><td>pointer to data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>size of the data</td></tr>
+  </table>
+</dl>
+Sends a specific USB control command and read associated data.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="060ddc710c76dc885a78d3ba17ffdcbe"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_interface_write" ref="060ddc710c76dc885a78d3ba17ffdcbe" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_msg_interface_write           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Send a USB interface control message with output data. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>request</em>&nbsp;</td><td>control request code </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>control value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>index</em>&nbsp;</td><td>control index </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>bytes</em>&nbsp;</td><td>pointer to data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>size of the data</td></tr>
+  </table>
+</dl>
+Sends a specific USB interface control command and write associated data.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="f78af4489f7e0611b178c45f3f99c4d7"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_read" ref="f78af4489f7e0611b178c45f3f99c4d7" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_msg_read           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Send a USB control message with input data. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>request</em>&nbsp;</td><td>control request code </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>control value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>index</em>&nbsp;</td><td>control index </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>bytes</em>&nbsp;</td><td>pointer to data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>size of the data</td></tr>
+  </table>
+</dl>
+Sends a specific USB interface control command and read associated data.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
+</div>
+</div><p>
+<a class="anchor" name="449a2f3892474fc7920e9675cf779495"></a><!-- doxytag: member="gphoto2-port.h::gp_port_usb_msg_write" ref="449a2f3892474fc7920e9675cf779495" args="(GPPort *port, int request, int value, int index, char *bytes, int size)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gp_port_usb_msg_write           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
+          <td class="paramname"> <em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Send a USB control message with output data. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a GPPort </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>request</em>&nbsp;</td><td>control request code </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>value</em>&nbsp;</td><td>control value </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>index</em>&nbsp;</td><td>control index </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>bytes</em>&nbsp;</td><td>pointer to data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>size of the data</td></tr>
+  </table>
+</dl>
+Sends a specific USB control command and write associated data.<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code </dd></dl>
+
 </div>
 </div><p>
 <a class="anchor" name="10c9eb67f356e1967001795466eb08f4"></a><!-- doxytag: member="gphoto2-port.h::gp_port_write" ref="10c9eb67f356e1967001795466eb08f4" args="(GPPort *port, const char *data, int size)" -->
@@ -655,7 +1762,7 @@ Return value: a gphoto2 error code
         <tr>
           <td class="memname">int gp_port_write           </td>
           <td>(</td>
-          <td class="paramtype">GPPort *&nbsp;</td>
+          <td class="paramtype"><a class="el" href="struct__GPPort.html">GPPort</a> *&nbsp;</td>
           <td class="paramname"> <em>port</em>, </td>
         </tr>
         <tr>
@@ -680,12 +1787,21 @@ Return value: a gphoto2 error code
 <div class="memdoc">
 
 <p>
-gp_port_write: : a GPPort : the data to write to the port : the number of bytes to write to the port<p>
-Writes a specified amount of  to a .<p>
-Return value: a gphoto2 error code 
+Writes a specified amount of data to a port. 
+<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>port</em>&nbsp;</td><td>a <a class="el" href="gphoto2-port_8h.html#2dee18ceb2677b3b07f4811ac10bfe55">GPPort</a> </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>data</em>&nbsp;</td><td>the data to write to the port </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>size</em>&nbsp;</td><td>the number of bytes to write to the port</td></tr>
+  </table>
+</dl>
+Writes data to the port. On non-serial ports the amount of data written is returned (and not just GP_OK).<p>
+<dl class="return" compact><dt><b>Returns:</b></dt><dd>a negative gphoto2 error code or the amount of data written. </dd></dl>
+
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sun May 20 23:03:41 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:39 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

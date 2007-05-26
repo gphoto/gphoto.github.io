@@ -1,6 +1,6 @@
 base referer
 rect $gphoto2-widget_8h.html 248,57 424,84
-rect $gphoto2-result_8h.html 713,96 884,123
+rect $gphoto2-result_8h.html 708,83 879,109
 rect $gphoto2-port-log_8h.html 245,260 427,287
-rect $gphoto2-context_8h.html 708,20 889,47
+rect $gphoto2-context_8h.html 477,7 659,33
 rect $gphoto2-camera_8h.html 477,57 659,84

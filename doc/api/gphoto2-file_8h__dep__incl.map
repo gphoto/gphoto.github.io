@@ -1,8 +1,8 @@
 base referer
-rect $gphoto2-file_8c.html 216,7 384,33
-rect $gphoto2-filesys_8c.html 437,172 624,199
-rect $jpeg_8h.html 239,57 361,84
-rect $jpeg_8c.html 469,83 592,109
-rect $gphoto2-camera_8h.html 440,248 621,275
-rect $gphoto2-filesys_8h.html 213,209 387,236
-rect $gphoto2_8h.html 233,311 367,337
+rect $gphoto2-file_8c.html 216,7 384,34
+rect $jpeg_8h.html 239,58 361,84
+rect $jpeg_8c.html 469,83 592,110
+rect $gphoto2-filesys_8h.html 213,159 387,186
+rect $gphoto2_8h.html 233,210 367,236
+rect $gphoto2-filesys_8c.html 437,134 624,160
+rect $gphoto2-camera_8h.html 440,184 621,211
