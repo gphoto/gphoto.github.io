@@ -85,6 +85,14 @@
       <li><a href="http://www.freshmeat.net/">Freshmeat</a></li>
    </ul>
 
+   <h3>Vendor packages</h3>
+   <ul>
+     <li>SUSE, Fedora and Mandriva RPM
+       <a href="http://build.opensuse.org/project/show?project=GPhoto">gphoto packages courtesy of the opensuse build service</a></li>
+     <li><a href="http://packages.debian.org/gphoto2">Debian gphoto2 package page</a></li>
+     <li><a href="http://packages.ubuntulinux.org/gphoto2">Ubuntu gphoto2 package page</a></li>
+   </ul>
+
 </td></tr>
 </table>
 
