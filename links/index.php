@@ -87,8 +87,7 @@
 
    <h3>Vendor packages</h3>
    <ul>
-     <li>SUSE, Fedora and Mandriva RPM
-       <a href="http://build.opensuse.org/project/show?project=GPhoto">gphoto packages courtesy of the opensuse build service</a></li>
+     <li>SUSE, Fedora and Mandriva <a href="http://software.opensuse.org/download/GPhoto">gphoto RPM packages courtesy of the opensuse build service</a> (<a href="http://build.opensuse.org/project/show?project=GPhoto">internal opensuse build service page for gphoto</a>)</li>
      <li><a href="http://packages.debian.org/gphoto2">Debian gphoto2 package page</a></li>
      <li><a href="http://packages.ubuntulinux.org/gphoto2">Ubuntu gphoto2 package page</a></li>
    </ul>
