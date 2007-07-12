@@ -295,7 +295,7 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>8.2</td>
-	<td>Needs to build TRUNK with experimental features on</td>
+	<td>Needs TRUNK currently</td>
 </tr>
 
 <tr>
@@ -303,7 +303,7 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>12</td>
-	<td>Needs to build TRUNK with experimental features on</td>
+	<td>Needs TRUNK currently</td>
 </tr>
 
 <tr>
