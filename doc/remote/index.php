@@ -480,7 +480,17 @@ here</a></td>
 	</td>
 	<td>Yes</td>
 	<td>?</td>
-	<td>320x240 px, 160x120 px, some also 640x480 px</td>
+	<td>320x240 pixel, 160x120 pixel, some also 640x480 pixel</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>
+	Digigr8 chipset cameras (check <a href="http://gphoto.svn.sourceforge.net/viewcvs.cgi/gphoto/trunk/libgphoto2/camlibs/digigr8/library.c?view=markup">list in C file here</a>)
+	</td>
+	<td>Yes</td>
+	<td>?</td>
+	<td>320x240 pixel</td>
 	<td>&nbsp;</td>
 </tr>
 
@@ -490,7 +500,7 @@ here</a></td>
 	</td>
 	<td>Yes</td>
 	<td>None</td>
-	<td>320x240, 160x120, sometimes also 640x480</td>
+	<td>320x240, 160x120, sometimes also 640x480 pixel</td>
 	<td>&nbsp;</td>
 </tr>
 </table>
