@@ -171,8 +171,8 @@
 <a name="l00264"></a>00264                                          <span class="keyword">const</span> <span class="keywordtype">char</span> *folder, <a class="code" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list,
 <a name="l00265"></a>00265                                          <span class="keywordtype">void</span> *data, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
 <a name="l00266"></a>00266 <span class="keywordtype">int</span> <a class="code" href="gphoto2-filesys_8c.html#0c4b009ef34bc576d61e74f5d0e76000">gp_filesystem_set_list_funcs</a> (CameraFilesystem *fs,
-<a name="l00267"></a>00267                                   CameraFilesystemListFunc file_list_func,
-<a name="l00268"></a>00268                                   CameraFilesystemListFunc folder_list_func,
+<a name="l00267"></a>00267                                   CameraFilesystemListFunc <a class="code" href="template_8c.html#1c16983439717cf50c3906900f9c8469">file_list_func</a>,
+<a name="l00268"></a>00268                                   CameraFilesystemListFunc <a class="code" href="template_8c.html#9190db64d769c207fcb8e252ea76f4b3">folder_list_func</a>,
 <a name="l00269"></a>00269                                   <span class="keywordtype">void</span> *data);
 <a name="l00270"></a>00270 <span class="keywordtype">int</span> <a class="code" href="gphoto2-filesys_8c.html#d24ba98b6bffdf65b4f6be08769161b8">gp_filesystem_list_files</a>     (CameraFilesystem *fs, <span class="keyword">const</span> <span class="keywordtype">char</span> *folder,
 <a name="l00271"></a>00271                                   <a class="code" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
@@ -191,8 +191,8 @@
 <a name="l00284"></a>00284                                             <a class="code" href="struct__CameraFileInfo.html">CameraFileInfo</a> *info, <span class="keywordtype">void</span> *data,
 <a name="l00285"></a>00285                                             <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
 <a name="l00286"></a>00286 <span class="keywordtype">int</span> <a class="code" href="gphoto2-filesys_8c.html#5ea72193c948bffb3da1ca9e6bb4f773">gp_filesystem_set_info_funcs</a> (CameraFilesystem *fs,
-<a name="l00287"></a>00287                                   CameraFilesystemGetInfoFunc get_info_func,
-<a name="l00288"></a>00288                                   CameraFilesystemSetInfoFunc set_info_func,
+<a name="l00287"></a>00287                                   CameraFilesystemGetInfoFunc <a class="code" href="template_8c.html#1f9bb0f5bb28d39e47e1b65c69475bb3">get_info_func</a>,
+<a name="l00288"></a>00288                                   CameraFilesystemSetInfoFunc <a class="code" href="template_8c.html#45d855cdd29931672dbb61e9f0677776">set_info_func</a>,
 <a name="l00289"></a>00289                                   <span class="keywordtype">void</span> *data);
 <a name="l00290"></a>00290 <span class="keywordtype">int</span> <a class="code" href="gphoto2-filesys_8c.html#6dbe4b636d58eddda2254b791039a343">gp_filesystem_get_info</a>       (CameraFilesystem *fs, <span class="keyword">const</span> <span class="keywordtype">char</span> *folder,
 <a name="l00291"></a>00291                                   <span class="keyword">const</span> <span class="keywordtype">char</span> *filename, <a class="code" href="struct__CameraFileInfo.html">CameraFileInfo</a> *info,
@@ -213,7 +213,7 @@
 <a name="l00306"></a>00306                                                <span class="keyword">const</span> <span class="keywordtype">char</span> *filename,
 <a name="l00307"></a>00307                                                <span class="keywordtype">void</span> *data, <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
 <a name="l00308"></a>00308 <span class="keywordtype">int</span> <a class="code" href="gphoto2-filesys_8c.html#03413f752ec7bac7539ecaef67090eae">gp_filesystem_set_file_funcs</a> (CameraFilesystem *fs,
-<a name="l00309"></a>00309                                   CameraFilesystemGetFileFunc get_file_func,
+<a name="l00309"></a>00309                                   CameraFilesystemGetFileFunc <a class="code" href="template_8c.html#460ea726b78affdb81517697e0776238">get_file_func</a>,
 <a name="l00310"></a>00310                                   CameraFilesystemDeleteFileFunc del_file_func,
 <a name="l00311"></a>00311                                   <span class="keywordtype">void</span> *data);
 <a name="l00312"></a>00312 <span class="keywordtype">int</span> <a class="code" href="gphoto2-filesys_8c.html#9708e9ea7b23f5303ae4a5dcd99d24c1">gp_filesystem_get_file</a>       (CameraFilesystem *fs, <span class="keyword">const</span> <span class="keywordtype">char</span> *folder,
@@ -235,8 +235,8 @@
 <a name="l00328"></a>00328                                               <span class="keyword">const</span> <span class="keywordtype">char</span> *name, <span class="keywordtype">void</span> *data,
 <a name="l00329"></a>00329                                               <a class="code" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context);
 <a name="l00330"></a>00330 <span class="keywordtype">int</span> <a class="code" href="gphoto2-filesys_8c.html#f15123d3ad76c611b5d29a2a83c582b3">gp_filesystem_set_folder_funcs</a> (CameraFilesystem *fs,
-<a name="l00331"></a>00331                                   CameraFilesystemPutFileFunc put_file_func,
-<a name="l00332"></a>00332                                   CameraFilesystemDeleteAllFunc delete_all_func,
+<a name="l00331"></a>00331                                   CameraFilesystemPutFileFunc <a class="code" href="template_8c.html#787627a0bb237ad94052daa9d9fc8ea6">put_file_func</a>,
+<a name="l00332"></a>00332                                   CameraFilesystemDeleteAllFunc <a class="code" href="template_8c.html#71f61e4649d9e87fe96a15022985da6c">delete_all_func</a>,
 <a name="l00333"></a>00333                                   CameraFilesystemDirFunc make_dir_func,
 <a name="l00334"></a>00334                                   CameraFilesystemDirFunc remove_dir_func,
 <a name="l00335"></a>00335                                   <span class="keywordtype">void</span> *data);
@@ -253,18 +253,18 @@
 <a name="l00346"></a>00346 
 <a name="l00347"></a>00347 <span class="keyword">typedef</span> <span class="keyword">struct </span>_CameraFilesystemFuncs CameraFilesystemFuncs;
 <a name="l00348"></a>00348 <span class="keyword">struct </span>_CameraFilesystemFuncs {
-<a name="l00349"></a>00349         CameraFilesystemListFunc        file_list_func;
-<a name="l00350"></a>00350         CameraFilesystemListFunc        folder_list_func;
-<a name="l00351"></a>00351         CameraFilesystemPutFileFunc     put_file_func;
-<a name="l00352"></a>00352         CameraFilesystemDeleteAllFunc   delete_all_func;
-<a name="l00353"></a>00353         CameraFilesystemGetInfoFunc     get_info_func;
-<a name="l00354"></a>00354         CameraFilesystemSetInfoFunc     set_info_func;
+<a name="l00349"></a>00349         CameraFilesystemListFunc        <a class="code" href="template_8c.html#1c16983439717cf50c3906900f9c8469">file_list_func</a>;
+<a name="l00350"></a>00350         CameraFilesystemListFunc        <a class="code" href="template_8c.html#9190db64d769c207fcb8e252ea76f4b3">folder_list_func</a>;
+<a name="l00351"></a>00351         CameraFilesystemPutFileFunc     <a class="code" href="template_8c.html#787627a0bb237ad94052daa9d9fc8ea6">put_file_func</a>;
+<a name="l00352"></a>00352         CameraFilesystemDeleteAllFunc   <a class="code" href="template_8c.html#71f61e4649d9e87fe96a15022985da6c">delete_all_func</a>;
+<a name="l00353"></a>00353         CameraFilesystemGetInfoFunc     <a class="code" href="template_8c.html#1f9bb0f5bb28d39e47e1b65c69475bb3">get_info_func</a>;
+<a name="l00354"></a>00354         CameraFilesystemSetInfoFunc     <a class="code" href="template_8c.html#45d855cdd29931672dbb61e9f0677776">set_info_func</a>;
 <a name="l00355"></a>00355         CameraFilesystemDirFunc         make_dir_func;
 <a name="l00356"></a>00356         CameraFilesystemDirFunc         remove_dir_func;
-<a name="l00357"></a>00357         CameraFilesystemGetFileFunc     get_file_func;
+<a name="l00357"></a>00357         CameraFilesystemGetFileFunc     <a class="code" href="template_8c.html#460ea726b78affdb81517697e0776238">get_file_func</a>;
 <a name="l00358"></a>00358         CameraFilesystemDeleteFileFunc  del_file_func;
 <a name="l00359"></a>00359 
-<a name="l00360"></a>00360         CameraFilesystemStorageInfoFunc storage_info_func;
+<a name="l00360"></a>00360         CameraFilesystemStorageInfoFunc <a class="code" href="template_8c.html#d28576df8635fdbc15ddb4d67ee57b27">storage_info_func</a>;
 <a name="l00361"></a>00361 
 <a name="l00362"></a>00362         <span class="comment">/* for later use. Remove one if you add a new function */</span>
 <a name="l00363"></a>00363         <span class="keywordtype">void</span>                            *unused[31];
@@ -289,7 +289,7 @@
 <a name="l00382"></a>00382 <span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span>
 <a name="l00383"></a>00383 
 <a name="l00384"></a>00384 <span class="preprocessor">#endif </span><span class="comment">/* __GPHOTO2_FILESYS_H__ */</span>
-</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+</pre></div><hr size="1"><address style="align: right;"><small>Generated on Sun Jul 22 19:29:31 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

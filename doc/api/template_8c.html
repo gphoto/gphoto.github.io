@@ -38,6 +38,8 @@ Include dependency graph for template.c:<p><center><img src="template_8c__incl.p
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td></td></tr>
 <tr><td colspan="2"><br><h2>camlib API functions</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">CameraFilesystemFuncs&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#ec4e9bd2b42829cf79bd277ca85d8876">fsfuncs</a></td></tr>
+
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#d9b006ebc1e76e7142dfad1a52bb5e13">camera_id</a> (<a class="el" href="structCameraText.html">CameraText</a> *id)</td></tr>
 
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Get a unique camera id.  <a href="#d9b006ebc1e76e7142dfad1a52bb5e13"></a><br></td></tr>
@@ -52,6 +54,44 @@ Include dependency graph for template.c:<p><center><img src="template_8c__incl.p
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3a5ebfb532ab1a97cf24a0c0320b9c58"></a><!-- doxytag: member="template.c::N_" ref="3a5ebfb532ab1a97cf24a0c0320b9c58" args="(String)" -->
 #define&nbsp;</td><td class="memItemRight" valign="bottom"><b>N_</b>(String)&nbsp;&nbsp;&nbsp;(String)</td></tr>
+
+<tr><td colspan="2"><br><h2>Functions</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Camera object member functions</div></td></tr>
+<tr><td colspan="2"><div class="groupText">The prototypes for these functions are defined in <a class="el" href="gphoto2-camera_8h.html">gphoto2-camera.h</a> <br><br></div></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#4ce8939d2e4ac79d5d2b7e58e10f6e91">camera_exit</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#c28c580987f2c6d177ab4de0cdf5229a">camera_config_get</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **window, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#9cffbff217076151983728dd875e28d9">camera_config_set</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *window, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#3b69831b894b897d53e65b7a9bcf16bb">camera_capture_preview</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraFile.html">CameraFile</a> *file, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#5d2bc9a471fe9de48028b6b52982724d">camera_capture</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-camera_8h.html#9eb0c8236a6a4346c5b0410f98d4e5c8">CameraCaptureType</a> type, <a class="el" href="structCameraFilePath.html">CameraFilePath</a> *path, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#3c69bfc4879dd9474df3d68206860265">camera_summary</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraText.html">CameraText</a> *summary, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#b08ddd118ea62e3f90641770e31a2d5a">camera_manual</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraText.html">CameraText</a> *manual, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#e48f94b54633c90a572f5cb6df3887d8">camera_about</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="structCameraText.html">CameraText</a> *about, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td colspan="2"><div class="groupHeader">CameraFilesystem member functions</div></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#460ea726b78affdb81517697e0776238">get_file_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a> type, <a class="el" href="structCameraFile.html">CameraFile</a> *file, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#787627a0bb237ad94052daa9d9fc8ea6">put_file_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="structCameraFile.html">CameraFile</a> *file, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#4f97202c2d738adf901aee0e72f1fe08">delete_file_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#71f61e4649d9e87fe96a15022985da6c">delete_all_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#1f9bb0f5bb28d39e47e1b65c69475bb3">get_info_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *filename, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> *info, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#45d855cdd29931672dbb61e9f0677776">set_info_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, const char *file, <a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> info, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#9190db64d769c207fcb8e252ea76f4b3">folder_list_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#1c16983439717cf50c3906900f9c8469">file_list_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, const char *folder, <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="template_8c.html#d28576df8635fdbc15ddb4d67ee57b27">storage_info_func</a> (<a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *fs, <a class="el" href="struct__CameraStorageInformation.html">CameraStorageInformation</a> **storageinformations, int *nrofstorageinformations, void *data, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
 </table>
 <hr><a name="_details"></a><h2>Detailed Description</h2>
@@ -96,6 +136,222 @@ Fill list with abilities of the cameras supported by this camlib.<p>
 For each camera, fill a <a class="el" href="structCameraAbilities.html">CameraAbilities</a> structure with data about that camera and append it to the list.<p>
 The job of this function is basically to extract data from a camlib specific database and insert it into the libgphoto2 camera database. Due to redundant data and other issues, we may decide to revise that database mechanism and replace it by something more flexible and efficient.<p>
 This is a camlib API function. 
+</div>
+</div><p>
+<a class="anchor" name="e48f94b54633c90a572f5cb6df3887d8"></a><!-- doxytag: member="template.c::camera_about" ref="e48f94b54633c90a572f5cb6df3887d8" args="(Camera *camera, CameraText *about, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_about           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraText.html">CameraText</a> *&nbsp;</td>
+          <td class="paramname"> <em>about</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Return "About" content as textual description. Will be translated.<p>
+This function is a method of the Camera object. 
+</div>
+</div><p>
+<a class="anchor" name="5d2bc9a471fe9de48028b6b52982724d"></a><!-- doxytag: member="template.c::camera_capture" ref="5d2bc9a471fe9de48028b6b52982724d" args="(Camera *camera, CameraCaptureType type, CameraFilePath *path, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_capture           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#9eb0c8236a6a4346c5b0410f98d4e5c8">CameraCaptureType</a>&nbsp;</td>
+          <td class="paramname"> <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraFilePath.html">CameraFilePath</a> *&nbsp;</td>
+          <td class="paramname"> <em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Capture an image and tell libgphoto2 where to find it by filling out the path.<p>
+This function is a method of the Camera object. 
+</div>
+</div><p>
+<a class="anchor" name="3b69831b894b897d53e65b7a9bcf16bb"></a><!-- doxytag: member="template.c::camera_capture_preview" ref="3b69831b894b897d53e65b7a9bcf16bb" args="(Camera *camera, CameraFile *file, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_capture_preview           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramname"> <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Capture a preview and return the data in the given file (again, use gp_file_set_data_and_size, gp_file_set_mime_type, etc.). libgphoto2 assumes that previews are NOT stored on the camera's disk. If your camera does, please delete it from the camera.<p>
+This function is a method of the Camera object. 
+</div>
+</div><p>
+<a class="anchor" name="c28c580987f2c6d177ab4de0cdf5229a"></a><!-- doxytag: member="template.c::camera_config_get" ref="c28c580987f2c6d177ab4de0cdf5229a" args="(Camera *camera, CameraWidget **window, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_config_get           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> **&nbsp;</td>
+          <td class="paramname"> <em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get the full configuration tree of the camera.<p>
+This function is a method of the Camera object. 
+</div>
+</div><p>
+<a class="anchor" name="9cffbff217076151983728dd875e28d9"></a><!-- doxytag: member="template.c::camera_config_set" ref="9cffbff217076151983728dd875e28d9" args="(Camera *camera, CameraWidget *window, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_config_set           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-widget_8h.html#715637c6eac88f45266096205ae69334">CameraWidget</a> *&nbsp;</td>
+          <td class="paramname"> <em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Set parts of the configuration tree. Note that you get back the whole tree, but should only set the modified values.<p>
+This function is a method of the Camera object. 
+</div>
+</div><p>
+<a class="anchor" name="4ce8939d2e4ac79d5d2b7e58e10f6e91"></a><!-- doxytag: member="template.c::camera_exit" ref="4ce8939d2e4ac79d5d2b7e58e10f6e91" args="(Camera *camera, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_exit           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Finish up the camera communication and free private data. You do not need to close the port.<p>
+This function is a method of the Camera object. 
 </div>
 </div><p>
 <a class="anchor" name="d9b006ebc1e76e7142dfad1a52bb5e13"></a><!-- doxytag: member="template.c::camera_id" ref="d9b006ebc1e76e7142dfad1a52bb5e13" args="(CameraText *id)" -->
@@ -153,7 +409,557 @@ Sets up all the proper object function pointers, initialize camlib internal data
 This is a camlib API function. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:27 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<a class="anchor" name="b08ddd118ea62e3f90641770e31a2d5a"></a><!-- doxytag: member="template.c::camera_manual" ref="b08ddd118ea62e3f90641770e31a2d5a" args="(Camera *camera, CameraText *manual, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_manual           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraText.html">CameraText</a> *&nbsp;</td>
+          <td class="paramname"> <em>manual</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Return the camera drivers manual. If you would like to tell the user some information about how to use the camera or the driver, this is the place to do.<p>
+This function is a method of the Camera object. 
+</div>
+</div><p>
+<a class="anchor" name="3c69bfc4879dd9474df3d68206860265"></a><!-- doxytag: member="template.c::camera_summary" ref="3c69bfc4879dd9474df3d68206860265" args="(Camera *camera, CameraText *summary, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int camera_summary           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *&nbsp;</td>
+          <td class="paramname"> <em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraText.html">CameraText</a> *&nbsp;</td>
+          <td class="paramname"> <em>summary</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Fill out the summary with textual information about the current state of the camera (like pictures taken, etc.).<p>
+This function is a method of the Camera object. 
+</div>
+</div><p>
+<a class="anchor" name="71f61e4649d9e87fe96a15022985da6c"></a><!-- doxytag: member="template.c::delete_all_func" ref="71f61e4649d9e87fe96a15022985da6c" args="(CameraFilesystem *fs, const char *folder, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int delete_all_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Delete all files from the camera.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="4f97202c2d738adf901aee0e72f1fe08"></a><!-- doxytag: member="template.c::delete_file_func" ref="4f97202c2d738adf901aee0e72f1fe08" args="(CameraFilesystem *fs, const char *folder, const char *filename, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int delete_file_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Delete a file from the camera.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="1c16983439717cf50c3906900f9c8469"></a><!-- doxytag: member="template.c::file_list_func" ref="1c16983439717cf50c3906900f9c8469" args="(CameraFilesystem *fs, const char *folder, CameraList *list, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int file_list_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *&nbsp;</td>
+          <td class="paramname"> <em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+List available files in the specified folder.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="9190db64d769c207fcb8e252ea76f4b3"></a><!-- doxytag: member="template.c::folder_list_func" ref="9190db64d769c207fcb8e252ea76f4b3" args="(CameraFilesystem *fs, const char *folder, CameraList *list, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int folder_list_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *&nbsp;</td>
+          <td class="paramname"> <em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+List available folders in the specified folder.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="460ea726b78affdb81517697e0776238"></a><!-- doxytag: member="template.c::get_file_func" ref="460ea726b78affdb81517697e0776238" args="(CameraFilesystem *fs, const char *folder, const char *filename, CameraFileType type, CameraFile *file, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_file_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-file_8h.html#21d304ef7f81cd20983969d4adb220ce">CameraFileType</a>&nbsp;</td>
+          <td class="paramname"> <em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramname"> <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get the file from the camera.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="1f9bb0f5bb28d39e47e1b65c69475bb3"></a><!-- doxytag: member="template.c::get_info_func" ref="1f9bb0f5bb28d39e47e1b65c69475bb3" args="(CameraFilesystem *fs, const char *folder, const char *filename, CameraFileInfo *info, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_info_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a> *&nbsp;</td>
+          <td class="paramname"> <em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get the file info here and write it into &lt;info&gt;<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="787627a0bb237ad94052daa9d9fc8ea6"></a><!-- doxytag: member="template.c::put_file_func" ref="787627a0bb237ad94052daa9d9fc8ea6" args="(CameraFilesystem *fs, const char *folder, CameraFile *file, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int put_file_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCameraFile.html">CameraFile</a> *&nbsp;</td>
+          <td class="paramname"> <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Put a file onto the camera.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="45d855cdd29931672dbb61e9f0677776"></a><!-- doxytag: member="template.c::set_info_func" ref="45d855cdd29931672dbb61e9f0677776" args="(CameraFilesystem *fs, const char *folder, const char *file, CameraFileInfo info, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int set_info_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>folder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&nbsp;</td>
+          <td class="paramname"> <em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct__CameraFileInfo.html">CameraFileInfo</a>&nbsp;</td>
+          <td class="paramname"> <em>info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+FIXME.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<a class="anchor" name="d28576df8635fdbc15ddb4d67ee57b27"></a><!-- doxytag: member="template.c::storage_info_func" ref="d28576df8635fdbc15ddb4d67ee57b27" args="(CameraFilesystem *fs, CameraStorageInformation **storageinformations, int *nrofstorageinformations, void *data, GPContext *context)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int storage_info_func           </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gphoto2-filesys_8h.html#2c55da4b623e5dbbbd5e5afd56326258">CameraFilesystem</a> *&nbsp;</td>
+          <td class="paramname"> <em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct__CameraStorageInformation.html">CameraStorageInformation</a> **&nbsp;</td>
+          <td class="paramname"> <em>storageinformations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&nbsp;</td>
+          <td class="paramname"> <em>nrofstorageinformations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&nbsp;</td>
+          <td class="paramname"> <em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *&nbsp;</td>
+          <td class="paramname"> <em>context</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Get information on all available storages in the camera.<p>
+This function is a CameraFilesystem method. 
+</div>
+</div><p>
+<hr><h2>Variable Documentation</h2>
+<a class="anchor" name="ec4e9bd2b42829cf79bd277ca85d8876"></a><!-- doxytag: member="template.c::fsfuncs" ref="ec4e9bd2b42829cf79bd277ca85d8876" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CameraFilesystemFuncs <a class="el" href="template_8c.html#ec4e9bd2b42829cf79bd277ca85d8876">fsfuncs</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> {
+        .file_list_func = <a class="code" href="template_8c.html#1c16983439717cf50c3906900f9c8469">file_list_func</a>,
+        .folder_list_func = <a class="code" href="template_8c.html#9190db64d769c207fcb8e252ea76f4b3">folder_list_func</a>,
+        .get_info_func = <a class="code" href="template_8c.html#1f9bb0f5bb28d39e47e1b65c69475bb3">get_info_func</a>,
+        .set_info_func = <a class="code" href="template_8c.html#45d855cdd29931672dbb61e9f0677776">set_info_func</a>,
+        .get_file_func = <a class="code" href="template_8c.html#460ea726b78affdb81517697e0776238">get_file_func</a>,
+        .del_file_func = <a class="code" href="template_8c.html#4f97202c2d738adf901aee0e72f1fe08">delete_file_func</a>,
+        .put_file_func = <a class="code" href="template_8c.html#787627a0bb237ad94052daa9d9fc8ea6">put_file_func</a>,
+        .delete_all_func = <a class="code" href="template_8c.html#71f61e4649d9e87fe96a15022985da6c">delete_all_func</a>,
+        .storage_info_func = <a class="code" href="template_8c.html#d28576df8635fdbc15ddb4d67ee57b27">storage_info_func</a>
+}
+</pre></div>All filesystem accessor functions.<p>
+This should contain all filesystem accessor functions available in the camera library. Non-present fields are NULL. 
+</div>
+</div><p>
+<hr size="1"><address style="align: right;"><small>Generated on Sun Jul 22 19:29:31 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

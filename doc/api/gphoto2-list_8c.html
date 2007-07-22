@@ -59,10 +59,13 @@ Include dependency graph for gphoto2-list.c:<p><center><img src="gphoto2-list_8c
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-list_8c.html#1c3677928c47773afed06791c661e328">gp_list_new</a> (<a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> **list)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Creates a new <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a>.  <a href="#1c3677928c47773afed06791c661e328"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-list_8c.html#a60f2b2ea159f9e4e8b3fb4dcd2c77c5">gp_list_ref</a> (<a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Increments the reference count of the list.  <a href="#a60f2b2ea159f9e4e8b3fb4dcd2c77c5"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-list_8c.html#058d127d54f874edf8dc6f1f3e77fd23">gp_list_unref</a> (<a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Decrements the reference count of the <code>list</code>.  <a href="#058d127d54f874edf8dc6f1f3e77fd23"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-list_8c.html#236a043f3e942c40176f37ecb0fee0a3">gp_list_free</a> (<a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list)</td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-list_8c.html#76e5201c77cbc2260647c2da7e0dda72">gp_list_reset</a> (<a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> *list)</td></tr>
@@ -131,7 +134,7 @@ Binary compatibility and problems: * fixed string size for name and value * fixe
 <p>
 <b>Value:</b><div class="fragment"><pre class="fragment"><span class="keywordflow">do</span> {                                                    \
     <span class="keywordflow">if</span> (index &lt; 0 || index &gt;= list-&gt;count) {            \
-      <span class="keywordflow">return</span> (GP_ERROR_BAD_PARAMETERS);                 \
+      <span class="keywordflow">return</span> (<a class="code" href="gphoto2-port-result_8h.html#8cf501eb3d7764fbc9c96bac6478e553">GP_ERROR_BAD_PARAMETERS</a>);                 \
     }                                                   \
   } <span class="keywordflow">while</span> (0)
 </pre></div>
@@ -156,10 +159,10 @@ Binary compatibility and problems: * fixed string size for name and value * fixe
 <p>
 <b>Value:</b><div class="fragment"><pre class="fragment"><span class="keywordflow">do</span> {                                                    \
     <span class="keywordflow">if</span> (NULL == list) {                                 \
-      <span class="keywordflow">return</span> (GP_ERROR_BAD_PARAMETERS);                 \
+      <span class="keywordflow">return</span> (<a class="code" href="gphoto2-port-result_8h.html#8cf501eb3d7764fbc9c96bac6478e553">GP_ERROR_BAD_PARAMETERS</a>);                 \
     } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (list-&gt;ref_count == 0) {                  \
       <span class="comment">/* catch calls to already freed list */</span>           \
-      <span class="keywordflow">return</span> (GP_ERROR_BAD_PARAMETERS);                 \
+      <span class="keywordflow">return</span> (<a class="code" href="gphoto2-port-result_8h.html#8cf501eb3d7764fbc9c96bac6478e553">GP_ERROR_BAD_PARAMETERS</a>);                 \
     }                                                   \
   } <span class="keywordflow">while</span> (0)
 </pre></div>check that the list is valid 
@@ -428,7 +431,8 @@ Retrieves the value of entry with <code>index</code>.<p>
 <div class="memdoc">
 
 <p>
-Creates a new <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a>.<p>
+Creates a new <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td></td></tr>
@@ -475,10 +479,9 @@ Adds <code>count</code> entries to the list.<p>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> </td></tr>
     <tr><td valign="top"></td><td valign="top"><em>format</em>&nbsp;</td><td>the format </td></tr>
-    <tr><td valign="top"></td><td valign="top"><em>count</em>&nbsp;</td><td>number of entries to be added to the  </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>count</em>&nbsp;</td><td>number of entries to be added to the list return a gphoto2 error code</td></tr>
   </table>
 </dl>
-<dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code</dd></dl>
 Typically, this function is called by a camera driver when there is no way of retrieving the real name of a picture. In this case, when asked for a file list (see CameraFilesystemListFunc), the list is populated with dummy names generated by this function. 
 </div>
 </div><p>
@@ -499,7 +502,8 @@ Typically, this function is called by a camera driver when there is no way of re
 <div class="memdoc">
 
 <p>
-Increments the reference count of the .<p>
+Increments the reference count of the list. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> </td></tr>
@@ -668,7 +672,8 @@ Sorts the <code>list</code> entries with respect to the names.<p>
 <div class="memdoc">
 
 <p>
-Decrements the reference count of the <code>list</code>.<p>
+Decrements the reference count of the <code>list</code>. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-list_8h.html#71ba9696594526423559c79f67403f1f">CameraList</a> </td></tr>
@@ -678,7 +683,7 @@ Decrements the reference count of the <code>list</code>.<p>
 If there are no references left, the <code>list</code> will be freed. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:34 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sun Jul 22 19:29:37 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>

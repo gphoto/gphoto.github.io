@@ -48,10 +48,13 @@ This graph shows which files directly or indirectly include this file:<p><center
 <tr><td colspan="2"><br><h2>Typedefs</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">typedef int(*)&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8h.html#94f8f2af7b79fe558af19c2f6572b5ac">CameraLibraryIdFunc</a> (<a class="el" href="structCameraText.html">CameraText</a> *id)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Returns a unique id for the camera driver.  <a href="#94f8f2af7b79fe558af19c2f6572b5ac"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">typedef int(*)&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8h.html#161b4d8040a5f6506b639c71ac5eaa46">CameraLibraryAbilitiesFunc</a> (<a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> *list)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Adds the abilities of the supported models to the supplied list.  <a href="#161b4d8040a5f6506b639c71ac5eaa46"></a><br></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">typedef int(*)&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8h.html#6e98aa8cf1a7c0f175da3331d59a1f33">CameraLibraryInitFunc</a> (<a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> *camera, <a class="el" href="gphoto2-context_8h.html#338049aef70b9b01dff88ada889605d3">GPContext</a> *context)</td></tr>
 
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Initializes the camera.  <a href="#6e98aa8cf1a7c0f175da3331d59a1f33"></a><br></td></tr>
 <tr><td colspan="2"><br><h2>Functions</h2></td></tr>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="gphoto2-library_8h.html#d9b006ebc1e76e7142dfad1a52bb5e13">camera_id</a> (<a class="el" href="structCameraText.html">CameraText</a> *id)</td></tr>
 
@@ -82,7 +85,8 @@ You should have received a copy of the GNU Lesser General Public License along w
 <div class="memdoc">
 
 <p>
-Adds the abilities of the supported models to the supplied .<p>
+Adds the abilities of the supported models to the supplied list. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>list</em>&nbsp;</td><td>a <a class="el" href="gphoto2-abilities-list_8h.html#e8bcce0c5ea45cda67d80447d79413e4">CameraAbilitiesList</a> </td></tr>
@@ -104,7 +108,8 @@ Adds the abilities of the supported models to the supplied .<p>
 <div class="memdoc">
 
 <p>
-Returns a unique  for the camera driver.<p>
+Returns a unique id for the camera driver. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>id</em>&nbsp;</td><td>a <a class="el" href="structCameraText.html">CameraText</a> </td></tr>
@@ -126,7 +131,8 @@ Returns a unique  for the camera driver.<p>
 <div class="memdoc">
 
 <p>
-Initializes the camera.<p>
+Initializes the camera. 
+<p>
 <dl compact><dt><b>Parameters:</b></dt><dd>
   <table border="0" cellspacing="2" cellpadding="0">
     <tr><td valign="top"></td><td valign="top"><em>camera</em>&nbsp;</td><td>a <a class="el" href="gphoto2-camera_8h.html#311d64c86274cbb258a5d69dad3b506d">Camera</a> </td></tr>
@@ -134,7 +140,7 @@ Initializes the camera.<p>
   </table>
 </dl>
 <dl class="return" compact><dt><b>Returns:</b></dt><dd>a gphoto2 error code</dd></dl>
-The camera driver will establish a first connection to the camera and configure the  variable (i.e. using <a class="el" href="gphoto2-filesys_8h.html#0c4b009ef34bc576d61e74f5d0e76000">gp_filesystem_set_list_funcs</a> or <a class="el" href="gphoto2-port_8c.html#eb68e49a4a8d513f6e183120da4e4232">gp_port_get_settings</a>). 
+The camera driver will establish a first connection to the camera and configure the camera variable (i.e. using <a class="el" href="gphoto2-filesys_8h.html#0c4b009ef34bc576d61e74f5d0e76000">gp_filesystem_set_list_funcs</a> or <a class="el" href="gphoto2-port_8c.html#eb68e49a4a8d513f6e183120da4e4232">gp_port_get_settings</a>). 
 </div>
 </div><p>
 <hr><h2>Function Documentation</h2>
@@ -218,7 +224,7 @@ Sets up all the proper object function pointers, initialize camlib internal data
 This is a camlib API function. 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on Sat May 26 22:47:29 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on Sun Jul 22 19:29:33 2007 for libgphoto2 photo camera library (libgphoto2) by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.0 </small></address>
 </body>
