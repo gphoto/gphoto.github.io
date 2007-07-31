@@ -57,11 +57,15 @@
 </ul>
 
 <h3>disk port:</h3>
-   handle automounter properly.
+   <ul>
+   <li>handle automounter properly.
+   </ul>
 
 <h3>directory driver:</h3>
-   ignore anything not starting by '.' because it is not DCF compliant
+   <ul>
+   <li>ignore anything not starting by '.' because it is not DCF compliant
    and it is used for things like Trash of metadata...
+   </ul>
 
 <h3>PTP2 driver:</h3>
 <ul>
@@ -73,6 +77,8 @@
      on small devices).
 
 <li>Enhanced MTP protocol handling.
+
+<li>Canon EOS 400D capture support.
 
 <li>Cleanups and bugfixes.
 
