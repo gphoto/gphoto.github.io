@@ -10,6 +10,129 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.4.0</h2>
+
+<h3>Build:</h3>
+<ul>
+<li>Non-recursive camlib build: Makes "make -j2" useful.
+     <code>"./configure --with-drivers=..."</code> still works. Selective camlib
+     rebuild is <code>"make -C camlibs agfa_cl20.la"</code> now. Selective camlib
+     install is <code>"make DRIVERS='canon.la ptp2.la' install-drivers"</code>.
+<li>Fix sierra and canon drivers picking up old gphoto2 headers.
+<li>libiconv linking fix for PTP2 driver.
+<li>Require external libltdl.
+<li>Ditched autogen.sh, use standard autoreconf from stock autoconf.
+<li>Put auto* files into auto-aux/ and auto-m4/.
+<li>Accept utilsdir and udevscriptdir set by user (#1646520).
+<li>Introduce libgphoto2-uninstalled.pc pkgconfig file (#1643245).
+<li>Remove make dependency on $(LIBLTDL) aka "-lltdl" (#1548195).
+</ul>
+
+<h3>libgphoto2 API:</h3>
+<ul>
+<li>New <code>gp_file_new_from_fd()</code> ... Which allows mapping CameraFile to
+     UNIX filedescriptors for both reading and writing.
+<li>New <code>gp_file_slurp()</code> function (for camlib use) to sequentially
+     read out CameraFiles.
+<li>New <code>gp_camera_get_storageinfo()</code> API added to get programmatically
+     the storage information(s), like capability, free space and labels.
+	<br>
+     On cameras not supporting it returns GP_ERROR_NOT_SUPPORTED.
+<li>Enhanced Bayer algorithm added globally.
+</ul>
+
+<h3>Package / System integration:</h3>
+<ul>
+<li>New syntax for print-camera-list's udev output. See help output.
+     	<br>
+     Note that we generate udev >= 0.98 output by default.
+	<br>
+     Use "version pre-0.98" on the commandline to generate the old version.
+
+<li>Add new permission setup binary doing Microsoft OS Descriptor
+     retrieval for MTP devices not explicitly listed.
+     This binary (check-mtp-device) is used by the generated UDEV rules.
+     (Not working currently since udev does not create the device before
+     calling it.)
+</ul>
+
+<h3>disk port:</h3>
+   handle automounter properly.
+
+<h3>directory driver:</h3>
+   ignore anything not starting by '.' because it is not DCF compliant
+   and it is used for things like Trash of metadata...
+
+<h3>PTP2 driver:</h3>
+<ul>
+<li>For Canon capture capable cameras, enable shutter and aperture control
+     using "shootingmode" property (PTP d00c), and focuslock mode.
+
+<li>New dataflow engine, making it possible to upload/download images
+     or songs without taking up any system memory. (think multi GB movies
+     on small devices).
+
+<li>Enhanced MTP protocol handling.
+
+<li>Cleanups and bugfixes.
+
+<li>New USB IDs for cameras:
+    <ul>
+    <li>Canon PowerShot SD1000, SD900, A450, A550, A560, A570, A420, SD40, SD750
+    <li>Canon PowerShot S5 IS, SD1000
+    <li>Canon Digitial IXUS 70, 75, 900Ti
+    <li>Canon MV750i
+    <li>Nikon CoolPix S4, S6, P4, L10
+    <li>Nikon DSC D40, 
+    <li>Kodak EasyShare C433, C613, C653, C743, C875, V570, V610, V705, P880, V603
+    <li>HP Photosmart R967
+    <li>Minolta DiMAGE x21
+    <li>Fuji FinePix F20, F40, S9500
+    <li>Casio EX-Z700
+    <li>Sony DSC N2, W35, W200
+    <li>Apple iPhone
+    </ul>
+
+<li>Several new USB IDs for MTP players, including
+     all from libmtp: <ul>
+     <li>iRiver T20, N12, iFP-800, T20 2, Clix2
+     <li>Archos 504, Toshiba Gigabeat P20
+     <li>Philips PSA235, SA9200
+     <li>Samsung YH-925GS
+     <li>SanDisk Sansa c250
+     </ul>
+</ul>
+
+<h3>Canon driver:</h3>
+<ul>
+<li>Enable formerly experimental 20D support code by default.
+
+<li>Moved handling of some cameras to PTP2 driver, since they cause
+    as yet unidentified errors.
+</ul>
+
+<h2>gphoto2 2.4.0</h2>
+<ul>
+<li>Add contrib/ directory with scripts and things contributed by users.
+<li>New --storage-info function to get direct storage information
+   from the camera via API.
+<li>Use SIGUSR1 to trigger premature image capture in --interval mode.
+<li>New --reset-interval parameter makes SIGUSR1 reset the capture interval.
+ 
+<li>New --capture-tethered command to wait for presses of the camera shutter
+   button and download. Confirmed working only with Nikon DSC.
+</ul>
+
+<h2>gphotofs 0.4.0.</h2>
+<ul>
+<li>Write support
+<li>Statfs support
+<li>mkdir/rmdir
+<li>FUSE 2.6 API
+<li>Single threaded main loop
+</ul>
+
+<hr />
 
 <h2>libgphoto2 2.3.0</h2>
 
