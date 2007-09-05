@@ -90,6 +90,14 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon Digital IXUS 430 / ELPH S410</td>
+	<td>Yes</td>
+	<td>?</td>
+	<td>4.0</td>
+	<td>In PTP mode</td>
+</tr>
+
+<tr>
 	<td>Canon IXY Digital 300</td>
 	<td>Yes</td>
 	<td>All</td>
