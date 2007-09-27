@@ -202,7 +202,23 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot G5</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot G6</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>?</td>
+	<td>from capture.sf.net notes</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot G7</td>
 	<td>Yes</td>
 	<td>All</td>
 	<td>?</td>
