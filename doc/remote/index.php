@@ -427,6 +427,14 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon D40</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>6</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D50</td>
 	<td>Yes</td>
 	<td>All</td>
