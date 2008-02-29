@@ -114,6 +114,22 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon EOS 40D</td>
+	<td>Yes</td>
+	<td>limited level of configurability</td>
+	<td>?</td>
+	<td>support is very fresh and might be unstable</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 400D</td>
+	<td>Yes</td>
+	<td>limited level of configurability</td>
+	<td>?</td>
+	<td>support is very fresh and might be unstable</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot A40</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -164,9 +180,9 @@ When used, this option will always download the last captured image and then del
 <tr>
 	<td>Canon PowerShot A80</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>All</td>
 	<td>4</td>
-	<td>from capture.sf.net notes</td>
+	<td>capture.sf.net and user reported</td>
 </tr>
 
 <tr>
