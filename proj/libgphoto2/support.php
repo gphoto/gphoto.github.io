@@ -29,9 +29,9 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Mon Jul 30 12:52:52 CEST 2007
+Fri Mar 28 23:00:15 CET 2008
 ========================================================================
-gphoto2 2.4.0
+gphoto2 2.4.1
 
 Copyright (c) 2000-2006 Lutz Mueller and others
 
@@ -40,13 +40,12 @@ redistribute copies of gphoto2 under the terms of the GNU General Public
 License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
-gphoto2         2.4.0          gcc, popt(m), exif, no cdk, aa, jpeg, readline
-libgphoto2      2.4.0          gcc, ltdl, EXIF
+gphoto2         2.4.1          gcc, popt(m), exif, cdk, aa, jpeg, readline
+libgphoto2      2.4.1          gcc, ltdl, EXIF
 libgphoto2_port 0.8.0          gcc, ltdl, USB, serial resmgr locking
 ========================================================================
-Number of supported cameras: 914
+Number of supported cameras: 967
 Supported cameras:
-	"Achiever Digital Adc65"
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
 	"Agfa ePhoto 1680"
@@ -101,15 +100,19 @@ Supported cameras:
 	"Canon Digital IXUS 700 (PTP mode)"
 	"Canon Digital IXUS 75 (PTP mode)"
 	"Canon Digital IXUS 750 (PTP mode)"
+	"Canon Digital IXUS 80 IS"
 	"Canon Digital IXUS 800 (PTP mode)"
 	"Canon Digital IXUS 850 IS (PTP mode)"
+	"Canon Digital IXUS 860 IS"
 	"Canon Digital IXUS 900Ti (PTP mode)"
+	"Canon Digital IXUS 950 IS (PTP mode)"
 	"Canon Digital IXUS i (normal mode)"
 	"Canon Digital IXUS i (PTP mode)"
 	"Canon Digital IXUS i5 (normal mode)"
 	"Canon Digital IXUS II (PTP mode)"
 	"Canon Digital IXUS IIs"
 	"Canon Digital IXUS IIs (PTP mode)"
+	"Canon Digital IXUS iZ (PTP mode)"
 	"Canon Digital IXUS v"
 	"Canon Digital IXUS v2"
 	"Canon Digital IXUS v3 (normal mode)"
@@ -131,6 +134,7 @@ Supported cameras:
 	"Canon EOS 350D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 350D (PTP mode)"
 	"Canon EOS 400D (PTP mode)"
+	"Canon EOS 40D (PTP mode)"
 	"Canon EOS 5D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 5D (PTP mode)"
 	"Canon EOS D30"
@@ -160,6 +164,7 @@ Supported cameras:
 	"Canon MVX150i (normal mode)"
 	"Canon MVX25i (normal mode)"
 	"Canon MVX2i"
+	"Canon MVX3i (PTP mode)"
 	"Canon Optura 10"
 	"Canon Optura 10"
 	"Canon Optura 20"
@@ -185,6 +190,7 @@ Supported cameras:
 	"Canon PowerShot A420 (PTP mode)"
 	"Canon PowerShot A430 (PTP mode)"
 	"Canon PowerShot A450 (PTP mode)"
+	"Canon PowerShot A460 (PTP mode)"
 	"Canon PowerShot A5"
 	"Canon PowerShot A5 Zoom"
 	"Canon PowerShot A50"
@@ -196,6 +202,7 @@ Supported cameras:
 	"Canon PowerShot A550 (PTP mode)"
 	"Canon PowerShot A560 (PTP mode)"
 	"Canon PowerShot A570 IS (PTP mode)"
+	"Canon PowerShot A590 IS"
 	"Canon PowerShot A60"
 	"Canon PowerShot A60 (PTP)"
 	"Canon PowerShot A610 (PTP mode)"
@@ -205,6 +212,7 @@ Supported cameras:
 	"Canon PowerShot A70 (PTP)"
 	"Canon PowerShot A700 (PTP mode)"
 	"Canon PowerShot A710 IS (PTP mode)"
+	"Canon PowerShot A720 IS (PTP mode)"
 	"Canon PowerShot A75"
 	"Canon PowerShot A75 (PTP mode)"
 	"Canon PowerShot A80 (PTP)"
@@ -220,6 +228,7 @@ Supported cameras:
 	"Canon PowerShot G6 (normal mode)"
 	"Canon Powershot G6 (PTP mode)"
 	"Canon PowerShot G7 (PTP mode)"
+	"Canon PowerShot G9 (PTP mode)"
 	"Canon PowerShot IXY Digital L (normal mode)"
 	"Canon PowerShot Pro70"
 	"Canon PowerShot Pro90 IS"
@@ -269,9 +278,11 @@ Supported cameras:
 	"Canon PowerShot SD700 (PTP mode)"
 	"Canon PowerShot SD750 (PTP mode)"
 	"Canon PowerShot SD900 (PTP mode)"
+	"Canon Powershot SX100 IS (PTP mode)"
 	"Canon PowerShot unknown 1"
 	"Canon PowerShot unknown 2"
 	"Canon ZR70MC (normal mode)"
+	"Casio EX-S770"
 	"Casio EX-Z120"
 	"Casio EX-Z700"
 	"Casio LV 10" (EXPERIMENTAL)
@@ -356,11 +367,15 @@ Supported cameras:
 	"Fuji DX-5"
 	"Fuji DX-7"
 	"Fuji FinePix A330"
+	"Fuji FinePix A800"
+	"Fuji FinePix A820"
 	"Fuji FinePix E900"
 	"Fuji FinePix F20"
 	"Fuji FinePix F30"
 	"Fuji FinePix F31fd"
 	"Fuji FinePix F40fd"
+	"Fuji FinePix F50fd"
+	"Fuji FinePix S5700"
 	"Fuji FinePix S6500fd"
 	"Fuji FinePix S7000"
 	"Fuji FinePix S9500"
@@ -375,6 +390,7 @@ Supported cameras:
 	"FujiFilm @xia ix-100"
 	"Gear to go" (EXPERIMENTAL)
 	"Generic SoundVision Clarity2"
+	"Genius Smart 300, version 2" (EXPERIMENTAL)
 	"GrandTek ScopeCam" (TESTING)
 	"GTW Electronics" (EXPERIMENTAL)
 	"Haimei Electronics HE-501A" (EXPERIMENTAL)
@@ -421,12 +437,16 @@ Supported cameras:
 	"HP PhotoSmart M22 (PTP mode)"
 	"HP PhotoSmart M23 (PTP mode)"
 	"HP PhotoSmart M307 (PTP mode)"
+	"HP PhotoSmart M407 (PTP mode)"
 	"HP PhotoSmart M415 (PTP mode)"
 	"HP PhotoSmart M425 (PTP mode)"
 	"HP PhotoSmart M525 (PTP mode)"
 	"HP PhotoSmart M527 (PTP mode)"
+	"HP PhotoSmart M547 (PTP mode)"
 	"HP PhotoSmart M725 (PTP mode)"
 	"HP PhotoSmart M727 (PTP mode)"
+	"HP PhotoSmart M737 (PTP mode)"
+	"HP PhotoSmart R742 (PTP mode)"
 	"HP PhotoSmart R927 (PTP mode)"
 	"HP PhotoSmart R967 (PTP mode)"
 	"iClick 5X" (EXPERIMENTAL)
@@ -455,6 +475,7 @@ Supported cameras:
 	"iRiver U10"
 	"iRiver X20"
 	"Ixla DualCam 640" (EXPERIMENTAL)
+	"Jazz JDC9" (EXPERIMENTAL)
 	"Jenoptik JD-3300z3" (EXPERIMENTAL)
 	"Jenoptik JD-4100z3" (EXPERIMENTAL)
 	"Jenoptik JD11"
@@ -529,6 +550,8 @@ Supported cameras:
 	"Kodak LS663"
 	"Kodak LS743"
 	"Kodak LS753"
+	"Kodak M753"
+	"Kodak M883"
 	"Kodak MC3"
 	"Kodak P850"
 	"Kodak P880"
@@ -545,6 +568,8 @@ Supported cameras:
 	"Kodak Z730"
 	"Kodak Z740"
 	"Kodak Z7590"
+	"Kodak Z812 IS"
+	"Kodak ZD710"
 	"Konica e-mini"
 	"Konica Q-EZ"
 	"Konica Q-M100"
@@ -552,6 +577,7 @@ Supported cameras:
 	"Konica Q-M150" (EXPERIMENTAL)
 	"Konica Q-M200"
 	"Konica-Minolta DiMAGE A2 (PTP mode)"
+	"Konica-Minolta DiMAGE A200 (PictBridge mode)"
 	"Konica-Minolta DiMAGE X21 (PictBridge mode)"
 	"Konica-Minolta DiMAGE Z2 (PictBridge mode)"
 	"Konica-Minolta DiMAGE Z3 (PictBridge mode)"
@@ -620,6 +646,7 @@ Supported cameras:
 	"Nikon Coolpix 5900 (PTP mode)"
 	"Nikon CoolPix 600"
 	"Nikon CoolPix 700"
+	"Nikon Coolpix 7900 (PTP mode)"
 	"Nikon CoolPix 800"
 	"Nikon CoolPix 880"
 	"Nikon Coolpix 885 (PTP mode)"
@@ -632,22 +659,30 @@ Supported cameras:
 	"Nikon CoolPix 995"
 	"Nikon Coolpix L1 (PTP mode)"
 	"Nikon Coolpix L10 (PTP mode)"
+	"Nikon Coolpix L11 (PTP mode)"
+	"Nikon Coolpix L12 (PTP mode)"
 	"Nikon Coolpix L3 (PTP mode)"
 	"Nikon Coolpix L4 (PTP mode)"
 	"Nikon Coolpix P1 (PTP mode)"
 	"Nikon Coolpix P2 (PTP mode)"
 	"Nikon Coolpix P4 (PTP mode)"
+	"Nikon Coolpix P5000 (PTP mode)"
 	"Nikon Coolpix S2 (PTP mode)"
+	"Nikon Coolpix S200 (PTP mode)"
 	"Nikon Coolpix S4 (PTP mode)"
+	"Nikon Coolpix S500 (PTP mode)"
 	"Nikon Coolpix S6 (PTP mode)"
 	"Nikon Coolpix SQ (PTP mode)"
 	"Nikon D100 (Sierra Mode)"
 	"Nikon D2H SLR (PTP mode)"
 	"Nikon D2X SLR (PTP mode)"
+	"Nikon D3 (PTP mode)"
 	"Nikon D50 (PTP mode)"
 	"Nikon DSC D100 (PTP mode)"
 	"Nikon DSC D200 (PTP mode)"
+	"Nikon DSC D300 (PTP mode)"
 	"Nikon DSC D40 (PTP mode)"
+	"Nikon DSC D40x (PTP mode)"
 	"Nikon DSC D70 (PTP mode)"
 	"Nikon DSC D70s (PTP mode)"
 	"Nikon DSC D80 (PTP mode)"
@@ -729,7 +764,7 @@ Supported cameras:
 	"Panasonic DC1000"
 	"Panasonic DC1580"
 	"Panasonic DMC-FZ20"
-	"Panasonic DMC-FZ20 (alternate id)"
+	"Panasonic DMC-FZ50"
 	"Panasonic DMC-LC1"
 	"Panasonic DMC-LS3"
 	"Panasonic DMC-LZ2"
@@ -756,7 +791,9 @@ Supported cameras:
 	"Philips PSA235"
 	"Philips PSA610"
 	"Phoebe Smartcam"
+	"Pioneer DVR-LX60D"
 	"Pixart Gemini Keychain Camera" (TESTING)
+	"Pixie Princess Jelly-Soft" (EXPERIMENTAL)
 	"PockCam" (EXPERIMENTAL)
 	"Polaroid 640SE" (EXPERIMENTAL)
 	"Polaroid DC700"
@@ -789,6 +826,7 @@ Supported cameras:
 	"Ricoh Caplio GX 8 (PTP mode)"
 	"Ricoh Caplio R1"
 	"Ricoh Caplio R1v"
+	"Ricoh Caplio R1v (PTP mode)"
 	"Ricoh Caplio R2"
 	"Ricoh Caplio R3"
 	"Ricoh Caplio R3 (PTP mode)"
@@ -796,6 +834,7 @@ Supported cameras:
 	"Ricoh Caplio R5"
 	"Ricoh Caplio R5 (PTP mode)"
 	"Ricoh Caplio RR30"
+	"Ricoh Caplio RR750 (PTP mode)"
 	"Ricoh Caplio RZ1"
 	"Ricoh RDC-1" (EXPERIMENTAL)
 	"Ricoh RDC-100G" (EXPERIMENTAL)
@@ -808,10 +847,17 @@ Supported cameras:
 	"Ricoh RDC-5000" (EXPERIMENTAL)
 	"Rollei dr5"
 	"Rollei dr5 (PTP mode)"
+	"Sakar 23070  Crayola Digital Camera" (EXPERIMENTAL)
+	"Sakar 28290 and 28292  Digital Concepts Styleshot" (EXPERIMENTAL)
+	"Sakar 92045  Spiderman" (EXPERIMENTAL)
 	"Sakar Digital Keychain 11199" (EXPERIMENTAL)
+	"Sakar Digital no, 6637x" (EXPERIMENTAL)
+	"Sakar Digital no, 67480" (EXPERIMENTAL)
 	"Sakar Digital no. 56379 Spyshot" (TESTING)
 	"Sakar Digital no. 77379" (EXPERIMENTAL)
 	"Sakar Kidz Cam" (EXPERIMENTAL)
+	"Sakar Micro Digital 2428x" (EXPERIMENTAL)
+	"Sakar no. 1638x CyberPix" (EXPERIMENTAL)
 	"Samsung digimax 800k"
 	"Samsung Kenox SSC-350N"
 	"Samsung U600 Mobile Phone"
@@ -854,6 +900,7 @@ Supported cameras:
 	"ScanHex SX-35d" (TESTING)
 	"Scott APX 30"
 	"Sea & Sea 5000G"
+	"Sea & Sea 5000G (PTP mode)"
 	"Second generation Dell DJ"
 	"Shark 2-in-1 Mini" (EXPERIMENTAL)
 	"Shark SDC-513" (EXPERIMENTAL)
@@ -912,6 +959,7 @@ Supported cameras:
 	"Sony DSC-W12 (PTP mode)"
 	"Sony DSC-W200 (PTP mode)"
 	"Sony DSC-W35 (PTP mode)"
+	"Sony DSC-W55 (PTP mode)"
 	"Sony MSAC-SR1"
 	"Sony MVC-CD300 (PTP mode)"
 	"Sony MVC-CD500 (PTP mode)"
@@ -927,6 +975,7 @@ Supported cameras:
 	"StarCam CP086"
 	"STM USB Dual-mode camera"
 	"STV0680"
+	"Suprema Digital Keychain Camera" (EXPERIMENTAL)
 	"SY-2107C" (EXPERIMENTAL)
 	"Thomson Opal"
 	"Tiger Fast Flicks"
@@ -948,6 +997,7 @@ Supported cameras:
 	"Trust Familycam 300" (TESTING)
 	"Trust PowerC@m 350FS" (TESTING)
 	"Trust PowerC@m 350FT" (TESTING)
+	"Trust Spyc@m 100" (TESTING)
 	"Trust Spyc@m 500F FLASH" (TESTING)
 	"Typhoon StyloCam" (TESTING)
 	"UMAX AstraPen"
@@ -955,11 +1005,14 @@ Supported cameras:
 	"USB PTP Class Camera" (TESTING)
 	"ViviCam3350" (EXPERIMENTAL)
 	"ViviCam5B" (EXPERIMENTAL)
+	"Vivitar Mini Digital Camera" (TESTING)
 	"Vivitar Vivicam 55" (EXPERIMENTAL)
 	"Vivitar Vivicam3350B" (EXPERIMENTAL)
 	"Vivitar Vivicam35" (EXPERIMENTAL)
+	"Wild Planet Digital Spy Camera 70137" (EXPERIMENTAL)
 	"WWF"
 	"Yahoo!Cam" (EXPERIMENTAL)
+	"ZINA Mini Digital Keychain Camera" (EXPERIMENTAL)
 ========================================================================
 </pre>
 </td></tr>
