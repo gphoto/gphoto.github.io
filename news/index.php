@@ -34,14 +34,14 @@
 <li> Various small bugfixes.
 </ul>
 
-Canon driver:
+<h3>Canon driver:</h3>
 <ul>
 <li> Increased the event timeout, so operations work again.
 <li> Fixed a bug in interval capture
 <li> some additional configuration values for newer cameras
 </ul>
 
-Mars driver:
+<h3>Mars driver:</h3>
 <ul>
 <li> Synced with SVN TRUNK (1:1 copy).
 	<ul>
@@ -51,7 +51,7 @@ Mars driver:
 	</ul>
 </ul>
 
-Digigr8 driver:
+<h3>Digigr8 driver:</h3>
 <ul>
 <li> Synced with SVN TRUNK (1:1 copy).
 	<ul>
@@ -59,7 +59,7 @@ Digigr8 driver:
 	</ul>
 </ul>
 
-Sonix driver:
+<h3>Sonix driver:</h3>
 <ul>
 <li> Synced with SVN TRUNK (1:1 copy).
 	<ul>
