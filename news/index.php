@@ -10,6 +10,71 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.4.1</h2>
+
+<h3>Package / System integration:</h3>
+<ul>
+<li> HAL FDI files now use "info.subsystem" instead of "info.bus", required
+     by hal after March 2008.
+
+<li> Suppress another Olympus camera in FDI file that is better of done
+     using Mass Storage only.
+</ul>
+<h3>libgphoto2_port:</h3>
+<ul>
+<li> Suppress more known network filesystems in "disk" autodetection
+<li> disabled usb_reset for Canon cameras in "usb", broke EOS cameras.
+</ul>
+
+<h3>PTP2 driver:</h3>
+<ul>
+<li> Merged all new Camera IDs from TRUNK.
+<li> Configuration bugfix for multiple options with the same name.
+<li> Capture bugfix for Nikon Coolpix
+<li> Various small bugfixes.
+</ul>
+
+Canon driver:
+<ul>
+<li> Increased the event timeout, so operations work again.
+<li> Fixed a bug in interval capture
+<li> some additional configuration values for newer cameras
+</ul>
+
+Mars driver:
+<ul>
+<li> Synced with SVN TRUNK (1:1 copy).
+	<ul>
+        <li> Better whitebalance postprocessing
+        <li> Camera ids added
+        <li> Decompression fixes
+	</ul>
+</ul>
+
+Digigr8 driver:
+<ul>
+<li> Synced with SVN TRUNK (1:1 copy).
+	<ul>
+        <li> bugfixes
+	</ul>
+</ul>
+
+Sonix driver:
+<ul>
+<li> Synced with SVN TRUNK (1:1 copy).
+	<ul>
+        <li> bugfixes
+	</ul>
+</ul>
+
+<h2>gphoto2 2.4.1</h2>
+<ul>
+<li> Made capture preview that saves to files work
+<li> capture-image has no arguments
+<li> version check for libgphoto2 fixed
+<li> cs,da,it,vi translations updated
+</ul>
+<hr>
 <h2>libgphoto2 2.4.0</h2>
 
 <h3>Build:</h3>
