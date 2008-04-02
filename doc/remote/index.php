@@ -74,14 +74,6 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
-	<td>Canon Digital IXUS 40</td>
-	<td>Yes</td>
-	<td>All</td>
-	<td>?</td>
-	<td>&nbsp;</td>
-</tr>
-
-<tr>
 	<td>Canon Digital IXUS 400</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -123,6 +115,14 @@ When used, this option will always download the last captured image and then del
 
 <tr>
 	<td>Canon EOS 400D</td>
+	<td>Yes</td>
+	<td>limited level of configurability</td>
+	<td>?</td>
+	<td>support is very fresh and might be unstable</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 450D</td>
 	<td>Yes</td>
 	<td>limited level of configurability</td>
 	<td>?</td>
