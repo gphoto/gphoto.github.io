@@ -274,6 +274,14 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot S60</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>5</td>
+	<td>See <a href="http://www.escursionisticivatesi.it/webcam/">sample installation</a></td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot S70</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -335,7 +343,7 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>8.2</td>
-	<td>Needs TRUNK currently</td>
+	<td>Needs 2.4.0 or newer</td>
 </tr>
 
 <tr>
@@ -343,7 +351,7 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>12</td>
-	<td>Needs TRUNK currently</td>
+	<td>Needs 2.4.0 or newer</td>
 </tr>
 
 <tr>
