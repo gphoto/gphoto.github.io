@@ -157,7 +157,7 @@ When used, this option will always download the last captured image and then del
 	<td>Canon PowerShot A640</td>
 	<td>Yes</td>
 	<td>All</td>
-	<td>10td>
+	<td>10</td>
 	<td>confirmed by Canon</td>
 </tr>
 
@@ -335,6 +335,14 @@ When used, this option will always download the last captured image and then del
 	<td>All</td>
 	<td>5</td>
 	<td>Unfortunately the WLAN (PTP/IP) mode to connect to this camera is not working yet.</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot SX100 IS</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>8</td>
+	<td>&nbsp;</td>
 </tr>
 
 
