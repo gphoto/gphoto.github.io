@@ -592,7 +592,7 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 	<td>None of those supports remote capture.</td>
 </tr>
 <tr>
-	<td>Sony PowerShot DSC (PTP)</td>
+	<td>Sony Cybershot DSC (PTP)</td>
 	<td>None of those supports remote capture.</td>
 </tr>
 <tr><td>Various Canon cameras:</td>
