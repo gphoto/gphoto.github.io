@@ -601,7 +601,9 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
  A700, A710 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
  SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, and SD900 do
  not support remote control or video out operation via the SDK.</i><br/>
- The same applies for libgphoto2 capture support.
+ The same applies for libgphoto2 capture support.<p>
+
+Also see <a href="http://www.usa.canon.com/consumer/controller?act=SDKHomePageAct&keycode=Sdk_Lic&fcategoryid=314&modelid=7474&id=3464">this Canon page</a> for a overview of which cameras are supported and which are not as of April 1st 2008.
 </td>
 </tr>
 <tr>
