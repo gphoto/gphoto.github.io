@@ -10,6 +10,68 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>gphoto2 2.4.2</h2>
+
+<ul>
+<li>Updated translations.
+<li>Major change in behaviour:<br>
+   --capture-image split into:
+   <ul>
+   <li>  --capture-image                : Just captures image, no download.
+   <li>  --capture-image-and-download   : captures image and downloads it.
+   </ul>
+</ul>
+
+<h2>libgphoto2 2.4.2</h2>
+
+<h3>libgphoto2</h3>
+<ul>
+<li> Camera abilities list sorting now uses qsort(),
+     bringing startup speedups by seconds. (0.4 seconds on 2GHz machine).
+
+<li> On large files, do not try to retrieve thumbnails.
+
+<li> Updated lots of translations.
+</ul>
+<h3>PTP2 driver</h3>
+<ul>
+<li> Full merge of TRUNK ptp2 camlib.
+
+<li> Lots of new IDs added. Also changed MTP id handling to share devices
+     with current libmtp.
+<li> Canon now can capture to both CF/SD Card and internal memory
+     with extract/retracting the lens. "capturetarget" config option
+     determines which ones used.
+
+<li> EOS capture support made working with newer Canon EOS models,
+     now reported working for EOS 400D, 450D, 40D.
+
+<li> Handle MTP to Canon/Nikon vendor id transitions better.
+<li> Download cancellation support.
+<li> Handle canon cameras with shorter timeouts on startup (hopefully
+     does not break) to avoid very long second startup delays.
+
+<li> Lots of bugfixes.
+</ul>
+
+<h3>Canon driver</h3>
+<ul>
+<li> Configuration of Flash, Beep and Zoom added.
+<li> Enable/disable remote mode only once per session (on demand)
+<li> Fixed a CR2 thumbnail download problem.
+<li> Fixed a THM download problem (for movies).
+<li> Moved some more cameras over to PTP2 driver.
+</ul>
+<h3>Topfield driver</h3>
+<ul>
+<li> New driver for Topfield PVR5000 device(s).
+</ul>
+
+<h3>Sony DSC F1 (old serial) driver</h3>
+<ul>
+<li>Merged bugfixes from TRUNK, working now.
+</ul>
+<hr>
 <h2>libgphoto2 2.4.1</h2>
 
 <h3>Package / System integration:</h3>
