@@ -29,23 +29,24 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Fri Mar 28 23:00:15 CET 2008
+Sun Jul 13 23:58:07 CEST 2008
 ========================================================================
-gphoto2 2.4.1
+gphoto2 2.4.2
 
-Copyright (c) 2000-2006 Lutz Mueller and others
+Copyright (c) 2000-2008 Lutz Mueller and others
 
 gphoto2 comes with NO WARRANTY, to the extent permitted by law. You may
 redistribute copies of gphoto2 under the terms of the GNU General Public
 License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
-gphoto2         2.4.1          gcc, popt(m), exif, cdk, aa, jpeg, readline
-libgphoto2      2.4.1          gcc, ltdl, EXIF
+gphoto2         2.4.2          gcc, popt(m), exif, cdk, aa, jpeg, readline
+libgphoto2      2.4.2          gcc, ltdl, EXIF
 libgphoto2_port 0.8.0          gcc, ltdl, USB, serial resmgr locking
 ========================================================================
-Number of supported cameras: 967
+Number of supported cameras: 1033
 Supported cameras:
+	"Achiever Digital Adc65"
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
 	"Agfa ePhoto 1680"
@@ -64,8 +65,11 @@ Supported cameras:
 	"Apple iPhone (PTP mode)"
 	"Apple QuickTake 200"
 	"Apple QuickTake 200"
-	"Archos 104"
-	"Archos 504"
+	"Archos 104 (MTP mode)"
+	"Archos 404 (MTP mode)"
+	"Archos 504 (MTP mode)"
+	"Archos 605 (MTP mode)"
+	"Archos 704 mobile dvr"
 	"Archos Gmini XS100"
 	"Archos XS202 (MTP mode)"
 	"Argus DC-100"
@@ -80,18 +84,15 @@ Supported cameras:
 	"Barbie"
 	"Benq DC1300" (TESTING)
 	"Canon Digital IXUS"
-	"Canon Digital IXUS 30 (normal mode)" (EXPERIMENTAL)
 	"Canon Digital IXUS 30 (PTP mode)"
 	"Canon Digital IXUS 300"
 	"Canon Digital IXUS 330"
 	"Canon Digital IXUS 40 (PTP mode)"
-	"Canon Digital IXUS 400"
 	"Canon Digital IXUS 400 (PTP mode)"
 	"Canon Digital IXUS 430 (normal mode)"
 	"Canon Digital IXUS 430 (PTP mode)"
 	"Canon Digital IXUS 50 (normal mode)"
 	"Canon Digital IXUS 50 (PTP mode)"
-	"Canon Digital IXUS 500 (normal mode)"
 	"Canon Digital IXUS 500 (PTP mode)"
 	"Canon Digital IXUS 55 (PTP mode)"
 	"Canon Digital IXUS 60 (PTP mode)"
@@ -106,6 +107,7 @@ Supported cameras:
 	"Canon Digital IXUS 860 IS"
 	"Canon Digital IXUS 900Ti (PTP mode)"
 	"Canon Digital IXUS 950 IS (PTP mode)"
+	"Canon Digital IXUS 970 IS"
 	"Canon Digital IXUS i (normal mode)"
 	"Canon Digital IXUS i (PTP mode)"
 	"Canon Digital IXUS i5 (normal mode)"
@@ -135,6 +137,7 @@ Supported cameras:
 	"Canon EOS 350D (PTP mode)"
 	"Canon EOS 400D (PTP mode)"
 	"Canon EOS 40D (PTP mode)"
+	"Canon EOS 450D (PTP mode)"
 	"Canon EOS 5D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 5D (PTP mode)"
 	"Canon EOS D30"
@@ -147,9 +150,7 @@ Supported cameras:
 	"Canon FV M1 (normal mode)"
 	"Canon IXY DIGITAL"
 	"Canon IXY DIGITAL 300"
-	"Canon IXY Digital 40 (normal mode)" (EXPERIMENTAL)
 	"Canon IXY Digital 430 (normal mode)"
-	"Canon IXY Digital 500 (normal mode)"
 	"Canon IXY Digital 55 (normal mode)"
 	"Canon IXY Digital L2 (normal mode)"
 	"Canon IXY DV M"
@@ -209,6 +210,7 @@ Supported cameras:
 	"Canon PowerShot A620 (PTP mode)"
 	"Canon PowerShot A630 (PTP mode)"
 	"Canon PowerShot A640 (PTP mode)"
+	"Canon PowerShot A640 (PTP/MTP mode)"
 	"Canon PowerShot A70 (PTP)"
 	"Canon PowerShot A700 (PTP mode)"
 	"Canon PowerShot A710 IS (PTP mode)"
@@ -246,7 +248,7 @@ Supported cameras:
 	"Canon PowerShot S300"
 	"Canon PowerShot S330"
 	"Canon PowerShot S40"
-	"Canon PowerShot S400"
+	"Canon PowerShot S400 (PTP mode)"
 	"Canon PowerShot S410 (PTP mode)"
 	"Canon PowerShot S410 Digital ELPH (normal mode)"
 	"Canon PowerShot S45 (normal mode)"
@@ -254,7 +256,6 @@ Supported cameras:
 	"Canon PowerShot S5 IS (PTP mode)"
 	"Canon PowerShot S50 (PTP mode)"
 	"Canon PowerShot S500 (PTP mode)"
-	"Canon PowerShot S500 Digital ELPH (normal mode)"
 	"Canon PowerShot S60 (normal mode)"
 	"Canon Powershot S60 (PTP mode)"
 	"Canon PowerShot S70 (normal mode)"
@@ -266,7 +267,6 @@ Supported cameras:
 	"Canon PowerShot SD110 (PTP mode)"
 	"Canon PowerShot SD110 Digital ELPH"
 	"Canon PowerShot SD20 (normal mode)"
-	"Canon PowerShot SD200 (normal mode)" (EXPERIMENTAL)
 	"Canon PowerShot SD200 (PTP mode)"
 	"Canon PowerShot SD40 (PTP mode)"
 	"Canon PowerShot SD400 (normal mode)"
@@ -277,6 +277,7 @@ Supported cameras:
 	"Canon PowerShot SD630 (PTP mode)"
 	"Canon PowerShot SD700 (PTP mode)"
 	"Canon PowerShot SD750 (PTP mode)"
+	"Canon PowerShot SD850 (PTP mode)"
 	"Canon PowerShot SD900 (PTP mode)"
 	"Canon Powershot SX100 IS (PTP mode)"
 	"Canon PowerShot unknown 1"
@@ -306,32 +307,38 @@ Supported cameras:
 	"Concord EyeQMini_1" (EXPERIMENTAL)
 	"Concord EyeQMini_2" (EXPERIMENTAL)
 	"CoolCam CP086"
+	"Cowon iAudio 7 (MTP mode)"
+	"Cowon iAudio D2 (MTP mode)"
+	"Cowon iAudio U3 (MTP mode)"
 	"Creative Go Mini"
 	"Creative PC-CAM 300" (EXPERIMENTAL)
 	"Creative PC-CAM350" (EXPERIMENTAL)
 	"Creative PC-CAM600" (EXPERIMENTAL)
 	"Creative PC-CAM750" (EXPERIMENTAL)
 	"Creative Portable Media Center"
-	"Creative Zen Micro"
-	"Creative Zen MicroPhoto"
-	"Creative Zen Sleek"
-	"Creative Zen Sleek Photo"
-	"Creative Zen Touch"
-	"Creative Zen V"
-	"Creative Zen V plus"
-	"Creative Zen Vision"
-	"Creative Zen Vision M"
-	"Creative Zen Vision W"
-	"Creative Zen Vision:M"
-	"Creative Zen Xtra"
+	"Creative ZEN"
+	"Creative ZEN Micro (MTP mode)"
+	"Creative ZEN MicroPhoto"
+	"Creative ZEN Sleek (MTP mode)"
+	"Creative ZEN Sleek Photo"
+	"Creative ZEN Touch (MTP mode)"
+	"Creative ZEN V"
+	"Creative ZEN V 2GB"
+	"Creative ZEN V Plus"
+	"Creative ZEN Vision"
+	"Creative ZEN Vision W"
+	"Creative ZEN Vision:M"
+	"Creative ZEN Vision:M (DVP-HD0004)"
+	"Creative ZEN Xtra (MTP mode)"
 	"D-Link DSC 350+" (TESTING)
 	"D-Link DSC 350F" (TESTING)
 	"D-MAX DM3588" (EXPERIMENTAL)
 	"DC-N130t" (EXPERIMENTAL)
 	"DC-N130t" (EXPERIMENTAL)
 	"DC31VC" (EXPERIMENTAL)
-	"Dell DJ Itty"
-	"Dell Pocket DJ"
+	"Dell Dell Pocket DJ (MTP mode)"
+	"Dell DJ (2nd generation)"
+	"Dell, Inc DJ Itty"
 	"Digigr8" (EXPERIMENTAL)
 	"Digital camera, CD302N" (EXPERIMENTAL)
 	"Digitaldream DIGITAL 2000"
@@ -346,9 +353,8 @@ Supported cameras:
 	"Directory Browse"
 	"Disney MixMax"
 	"Disney pix micro" (EXPERIMENTAL)
-	"Dunlop MP3 player 1GB"
+	"Dunlop MP3 player 1GB / EGOMAN MD223AFD"
 	"Dynatron Dynacam 800"
-	"EGOMAN MD223AFD"
 	"Elta Medi@ digi-cam" (EXPERIMENTAL)
 	"Emprex PCD3600" (EXPERIMENTAL)
 	"Epson PhotoPC 3000z"
@@ -359,6 +365,7 @@ Supported cameras:
 	"Epson PhotoPC 700"
 	"Epson PhotoPC 800"
 	"Epson PhotoPC 850z"
+	"FOMA D905i"
 	"FOMA F903iX HIGH-SPEED"
 	"Fuji Axia Eyeplate" (EXPERIMENTAL)
 	"Fuji Axia Slimshot" (EXPERIMENTAL)
@@ -375,10 +382,12 @@ Supported cameras:
 	"Fuji FinePix F31fd"
 	"Fuji FinePix F40fd"
 	"Fuji FinePix F50fd"
+	"Fuji FinePix S100fs"
 	"Fuji FinePix S5700"
 	"Fuji FinePix S6500fd"
 	"Fuji FinePix S7000"
 	"Fuji FinePix S9500"
+	"Fuji FinePix Z100fd"
 	"Fuji IX-1"
 	"Fuji MX-1200"
 	"Fuji MX-1700"
@@ -393,6 +402,8 @@ Supported cameras:
 	"Genius Smart 300, version 2" (EXPERIMENTAL)
 	"GrandTek ScopeCam" (TESTING)
 	"GTW Electronics" (EXPERIMENTAL)
+	"Haier Ibiza Rhapsody"
+	"Haier Ibiza Rhapsody"
 	"Haimei Electronics HE-501A" (EXPERIMENTAL)
 	"Hawking DC120 Pocketcam"
 	"Hot Wheels"
@@ -452,6 +463,9 @@ Supported cameras:
 	"iClick 5X" (EXPERIMENTAL)
 	"iConcepts digital camera"
 	"INNOVAGE Mini Digital, CD302N" (TESTING)
+	"Insignia NS-DV45"
+	"Insignia Pilot 4GB"
+	"Insignia Sport Player"
 	"Intel Bandon Portable Media Center"
 	"Intel Pocket PC Camera" (EXPERIMENTAL)
 	"IOMagic MagicImage 400"
@@ -461,19 +475,21 @@ Supported cameras:
 	"iRiver Clix2"
 	"iRiver H10"
 	"iRiver H10 20GB"
-	"iRiver iFP-800"
+	"iRiver iFP-880"
 	"iRiver N12"
 	"iRiver Portable Media Center"
-	"iRiver Portable Media Center 2"
+	"iRiver Portable Media Center"
 	"iRiver T10"
-	"iRiver T10 (alternate)"
 	"iRiver T10 2GB"
+	"iRiver T10a"
 	"iRiver T20"
-	"iRiver T20 2"
+	"iRiver T20"
 	"iRiver T20 FM"
 	"iRiver T30"
+	"iRiver T60"
 	"iRiver U10"
 	"iRiver X20"
+	"Isabella Her Prototype"
 	"Ixla DualCam 640" (EXPERIMENTAL)
 	"Jazz JDC9" (EXPERIMENTAL)
 	"Jenoptik JD-3300z3" (EXPERIMENTAL)
@@ -485,6 +501,7 @@ Supported cameras:
 	"Jenoptik JDC 350" (EXPERIMENTAL)
 	"JVC Alneo XA-HD500"
 	"KBGear JamCam"
+	"Kenwood Media Keg HD10GB7 Sport Player"
 	"Kodak C300"
 	"Kodak C310"
 	"Kodak C330"
@@ -586,6 +603,7 @@ Supported cameras:
 	"Leica D-LUX 2"
 	"Leica Digilux Zoom"
 	"LG T5100" (EXPERIMENTAL)
+	"LG UP3"
 	"Lifetec LT 5995" (EXPERIMENTAL)
 	"Logik LOG DAX MP3 and DAB Player"
 	"Logitech Clicksmart 310" (TESTING)
@@ -600,6 +618,7 @@ Supported cameras:
 	"Medion MD 6000" (EXPERIMENTAL)
 	"Medion MD 6126"
 	"Medion MD 9700" (EXPERIMENTAL)
+	"Micro-Star International P610/Model MS-5557"
 	"Micromaxx Digital Camera"
 	"Microsoft Zune"
 	"Mini Shotz ms-350" (EXPERIMENTAL)
@@ -607,7 +626,10 @@ Supported cameras:
 	"Minton S-Cam F5" (TESTING)
 	"Mitek CD10" (EXPERIMENTAL)
 	"Mitek CD30P" (EXPERIMENTAL)
-	"Motorola A1200 (MTP mode)"
+	"Motorola A1200"
+	"Motorola K1"
+	"Motorola RAZR2 V8/U9"
+	"Motorola V3m verizon"
 	"MTP Device" (TESTING)
 	"Mustek gSmart 300" (EXPERIMENTAL)
 	"Mustek gSmart 350" (EXPERIMENTAL)
@@ -667,6 +689,8 @@ Supported cameras:
 	"Nikon Coolpix P2 (PTP mode)"
 	"Nikon Coolpix P4 (PTP mode)"
 	"Nikon Coolpix P5000 (PTP mode)"
+	"Nikon Coolpix P5100 (PTP mode)"
+	"Nikon Coolpix P60 (PTP mode)"
 	"Nikon Coolpix S2 (PTP mode)"
 	"Nikon Coolpix S200 (PTP mode)"
 	"Nikon Coolpix S4 (PTP mode)"
@@ -683,13 +707,21 @@ Supported cameras:
 	"Nikon DSC D300 (PTP mode)"
 	"Nikon DSC D40 (PTP mode)"
 	"Nikon DSC D40x (PTP mode)"
+	"Nikon DSC D60 (PTP mode)"
 	"Nikon DSC D70 (PTP mode)"
 	"Nikon DSC D70s (PTP mode)"
 	"Nikon DSC D80 (PTP mode)"
 	"nisis Quickpix Qp3" (TESTING)
-	"Nokia 5300 Mobile Phone (MTP mode)"
-	"Nokia Mobile Phones"
-	"Nokia N80 Internet Edition"
+	"Nokia 3109c Mobile Phone"
+	"Nokia 3110c Mobile Phone"
+	"Nokia 5300 Mobile Phone"
+	"Nokia 5700 XpressMusic Mobile Phone"
+	"Nokia N73 Mobile Phone"
+	"Nokia N75 Mobile Phone"
+	"Nokia N80 Internet Edition (Media Player)"
+	"Nokia N81 Mobile Phone"
+	"Nokia N95 Mobile Phone"
+	"Nokia N95 Mobile Phone 8GB"
 	"Novatech Digital Camera CC30" (EXPERIMENTAL)
 	"Olympus C-1000L"
 	"Olympus C-1400L"
@@ -757,7 +789,8 @@ Supported cameras:
 	"Olympus X-450"
 	"Oregon Scientific DShot II"
 	"Oregon Scientific DShot III"
-	"Palm Handspring Pocket Tunes"
+	"Palm / Handspring Pocket Tunes"
+	"Palm Handspring Pocket Tunes 4"
 	"Panasonic Coolshot KXL-600A"
 	"Panasonic Coolshot KXL-601A"
 	"Panasonic Coolshot NV-DCF5E"
@@ -782,14 +815,20 @@ Supported cameras:
 	"Philips ESP80" (EXPERIMENTAL)
 	"Philips ESP80SXG" (EXPERIMENTAL)
 	"Philips GoGear Audio"
+	"Philips GoGear SA3345"
+	"Philips GoGear SA5145"
+	"Philips GoGear SA6014/SA6015/SA6024/SA6025/SA6044/SA6045"
+	"Philips GoGear SA6125/SA6145/SA6185"
 	"Philips GoGear SA9200"
-	"Philips HDD085/00"
-	"Philips HDD6130/17"
+	"Philips HDD085/00 or HDD082/17"
+	"Philips HDD1630/17"
 	"Philips HDD6320"
-	"Philips HDD6320 2"
+	"Philips HDD6320/00 or HDD6330/17"
 	"Philips P44417B keychain camera" (TESTING)
 	"Philips PSA235"
 	"Philips PSA610"
+	"Philips SA1115/55"
+	"Philips Shoqbox"
 	"Phoebe Smartcam"
 	"Pioneer DVR-LX60D"
 	"Pixart Gemini Keychain Camera" (TESTING)
@@ -813,7 +852,6 @@ Supported cameras:
 	"QuickPix QP1"
 	"Radioshack Flatfoto" (EXPERIMENTAL)
 	"RCA CDS1005" (EXPERIMENTAL)
-	"RCA Lyra MC4002"
 	"Relisys Dimera 3500"
 	"Request Ultra Slim" (EXPERIMENTAL)
 	"Ricoh Capilo RX"
@@ -859,34 +897,41 @@ Supported cameras:
 	"Sakar Micro Digital 2428x" (EXPERIMENTAL)
 	"Sakar no. 1638x CyberPix" (EXPERIMENTAL)
 	"Samsung digimax 800k"
+	"Samsung Juke (SCH-U470)"
 	"Samsung Kenox SSC-350N"
 	"Samsung U600 Mobile Phone"
 	"Samsung X830 Mobile Phone"
-	"Samsung Yepp T9"
 	"Samsung YH-820"
 	"Samsung YH-920"
-	"Samsung YH-925"
+	"Samsung YH-925(-GS)"
 	"Samsung YH-925GS"
-	"Samsung YH-999 Portable Media Center"
+	"Samsung YH-999 Portable Media Center/SGH-A707/SGH-L760V"
 	"Samsung YH-J70J"
+	"Samsung YP-900"
 	"Samsung YP-F2J"
 	"Samsung YP-K3"
 	"Samsung YP-K5"
+	"Samsung YP-P2"
+	"Samsung YP-S5"
+	"Samsung YP-T10"
 	"Samsung YP-T7J"
+	"Samsung YP-T9"
 	"Samsung YP-U2J (YP-U2JXB/XAA)"
 	"Samsung YP-U3"
 	"Samsung YP-Z5"
-	"Samsung YP-Z5"
+	"Samsung YP-Z5 2GB"
 	"SanDisk Sansa c150"
-	"SanDisk Sansa c250"
+	"SanDisk Sansa c240/c250"
+	"SanDisk Sansa Clip"
 	"SanDisk Sansa Connect"
-	"Sandisk Sansa e200"
-	"Sandisk Sansa e250"
-	"Sandisk Sansa e260"
-	"Sandisk Sansa e270"
-	"Sandisk Sansa e280"
+	"SanDisk Sansa e200/e250/e260/e270/e280"
+	"SanDisk Sansa e280"
+	"SanDisk Sansa e280 v2"
 	"SanDisk Sansa Express"
+	"SanDisk Sansa Fuze"
+	"SanDisk Sansa m230/m240"
 	"SanDisk Sansa m240"
+	"SanDisk Sansa View"
 	"Sanyo DSC-X300"
 	"Sanyo DSC-X350"
 	"Sanyo VPC-C5 (PTP mode)"
@@ -899,9 +944,8 @@ Supported cameras:
 	"ScanHex SX-35c" (TESTING)
 	"ScanHex SX-35d" (TESTING)
 	"Scott APX 30"
-	"Sea & Sea 5000G"
-	"Sea & Sea 5000G (PTP mode)"
-	"Second generation Dell DJ"
+	"Sea &amp; Sea 5000G"
+	"Sea &amp; Sea 5000G (PTP mode)"
 	"Shark 2-in-1 Mini" (EXPERIMENTAL)
 	"Shark SDC-513" (EXPERIMENTAL)
 	"Shark SDC-519" (EXPERIMENTAL)
@@ -913,6 +957,7 @@ Supported cameras:
 	"SiPix Stylecam" (TESTING)
 	"SiPix Web2" (EXPERIMENTAL)
 	"Sirius Stiletto"
+	"Sirius Stiletto 2"
 	"Skanhex SX-330z" (EXPERIMENTAL)
 	"SMaL Ultra-Pocket" (EXPERIMENTAL)
 	"So. Show 301" (TESTING)
@@ -957,6 +1002,7 @@ Supported cameras:
 	"Sony DSC-V1 (PTP mode)"
 	"Sony DSC-W1 (PTP mode)"
 	"Sony DSC-W12 (PTP mode)"
+	"Sony DSC-W130 (PTP mode)"
 	"Sony DSC-W200 (PTP mode)"
 	"Sony DSC-W35 (PTP mode)"
 	"Sony DSC-W55 (PTP mode)"
@@ -965,6 +1011,15 @@ Supported cameras:
 	"Sony MVC-CD500 (PTP mode)"
 	"Sony PTP"
 	"Sony TRV-20E"
+	"Sony Walkman NWZ-A728B"
+	"Sony Walkman NWZ-A815/NWZ-A818"
+	"Sony Walkman NWZ-A828/NWZ-A829"
+	"Sony Walkman NWZ-S516"
+	"Sony Walkman NWZ-S615F/NWZ-S616F/NWZ-S618F"
+	"Sony Walkman NWZ-S716F"
+	"SonyEricsson K850i"
+	"SonyEricsson W890i"
+	"SonyEricsson W910"
 	"Soundstar TDC-35" (EXPERIMENTAL)
 	"SpyPen Axys"
 	"SpyPen Cleo"
@@ -977,14 +1032,24 @@ Supported cameras:
 	"STV0680"
 	"Suprema Digital Keychain Camera" (EXPERIMENTAL)
 	"SY-2107C" (EXPERIMENTAL)
-	"Thomson Opal"
+	"Tevion MD 81488"
+	"Thomson / RCA Lyra HC308A"
+	"Thomson / RCA Opal / Lyra MC4002"
+	"Thomson EM28 Series"
+	"Thomson RCA H106"
+	"Thomson scenium E308"
 	"Tiger Fast Flicks"
 	"Timlex CP075"
+	"Topfield TF5000PVR" (EXPERIMENTAL)
 	"Toshiba Gigabeat"
 	"Toshiba Gigabeat MEGF-40"
+	"Toshiba Gigabeat MEU202"
 	"Toshiba Gigabeat P10"
 	"Toshiba Gigabeat P20"
 	"Toshiba Gigabeat S"
+	"Toshiba Gigabeat T"
+	"Toshiba Gigabeat U"
+	"Toshiba Gigabeat V30"
 	"Toshiba PDR-M1"
 	"Toshiba PDR-M11" (TESTING)
 	"Toshiba PDR-M60"
@@ -992,7 +1057,8 @@ Supported cameras:
 	"Toshiba PDR-M65"
 	"Traveler SX330z" (EXPERIMENTAL)
 	"Traveler SX410z" (EXPERIMENTAL)
-	"Trekstor Vibez 8/12GB"
+	"TrekStor i.Beat Sweez FM"
+	"TrekStor Vibez 8/12GB"
 	"Trust DC-3500"
 	"Trust Familycam 300" (TESTING)
 	"Trust PowerC@m 350FS" (TESTING)
