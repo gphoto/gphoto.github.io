@@ -282,6 +282,22 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot S45</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>4</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S50</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>5</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot S60</td>
 	<td>Yes</td>
 	<td>All</td>
