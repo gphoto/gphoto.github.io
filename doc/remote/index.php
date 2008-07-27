@@ -140,8 +140,8 @@ When used, this option will always download the last captured image and then del
 <tr>
 	<td>Canon PowerShot A400</td>
 	<td>Yes</td>
-	<td>?</td>
-	<td>?</td>
+	<td>All but imagesize</td>
+	<td>3.2</td>
 	<td>from reporter. Only captures with PTP driver.</td>
 </tr>
 
