@@ -1,5 +1,9 @@
 #!/bin/sh -x
 
+echo "New style upload uses 'sftp USERNAME,gphoto@web.sourceforge.net'"
+
+exit 1
+
 # the file .website_login contain the sf.net login name.
 # create it in your local tree.
 if [ -f .website_login ] 
