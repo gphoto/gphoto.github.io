@@ -10,6 +10,97 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+
+<h2>gphoto2 2.4.3</h2>
+
+<ul>
+<li>Updated translations.
+<li>For multiple cameras, specifying with --port usb:xxx,yyy is now
+    sufficient (previously needed --port and --camera).
+</ul>
+
+<h2>libgphoto2 2.4.3</h2>
+
+This is a 2.4 release branch update.
+
+<h3>libgphoto2</h3>
+<ul>
+<li>Adaptive Homogeneity-Directed Bayer array conversion added, used
+    in several camera lib drivers.
+<li>Translation updates for various languages.
+<li>libtool 2.x build fixes
+<li>Various MacOS X compile fixes again.
+<li>gp-byteorder.m4 fixes for newer glibcs.
+</ul>
+
+<h3>Example programs</h3>
+<ul>
+<li>Added some basic library usage example programs and helpers.
+</ul>
+
+<h3>PTP2 driver</h3>
+<ul>
+<li>Merged camlib from TRUNK.
+<li>Tethered Capture support for Canon EOS 40D, 400D, 450D.
+<li>Always handle "no directory linking to /" problem.
+<li>Disable more Panasonic cameras (product id 0x2372 is always mass storage)
+<li>Some MTP fixes, lots of new MTP devices.
+<li>Fixed canon viewfinder issues on Canon PowerShot SX100IS.
+<li>Fixed a ptp property packing issue exposed by newer Nikons.
+<li>Added new devices:
+	<ul>
+        <li>Kodak M893 IS, C813
+        <li>Nikon CoolPix L16, CoolPix 8700, DSC 700
+        <li>Canon EOS 1D Mark III, IXUS 90IS, EOS 50D
+        <li>Apple iPhone 3G
+	</ul>
+</ul>
+
+<h3>Canon driver</h3>
+<ul>
+<li>Fixed some unlock keys problem for EOS cameras.
+<li>Moved over several PTP2 supported cameras to the PTP2 driver only.
+</ul>
+
+<h3>Sierra driver</h3>
+<ul>
+<li>Implemented basic Storage Information function.
+<li>Fixes for big endian or 64bit architectures by fixing struct packing.
+</ul>
+
+<h3>smal driver</h3>
+<ul>
+<li>Added support for Creative CardCam.
+</ul>
+
+<h3>sq905 driver</h3>
+<ul>
+<li>Updated postprocessing, by using "AHD" bayering and new gamma methods.
+<li>Bugfixes.
+</ul>
+
+<h3>stv0680</h3>
+<ul>
+<li>Storage information function.
+</ul>
+
+<h3>digigr8, mars, sonix drivers</h3>
+<ul>
+<li>Updated postprocessing, by using "AHD" bayering and new gamma methods.
+</ul>
+ 
+<h3>jl2005a driver</h3>
+<ul>
+<li>Imported from TRUNK, for new small factor cameras.
+	<ul>
+        <li>American Idol Keychain Camera
+        <li>NogaNet TDC-15
+	</ul>
+</ul>
+
+
+<hr>
+
 <h2>gphoto2 2.4.2</h2>
 
 <ul>
