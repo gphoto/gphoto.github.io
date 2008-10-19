@@ -14,7 +14,7 @@ filesystem.</p>
 
 <p>gphotofs was written by Philip Langdale. See the <a
 href="http://intr.overt.org/blog/?p=25">original announcement</a>.</p>
-<p>New versions are available on <a>http://sf.net/projects/gphoto/</a>
+<p>New versions are available on <a href="http://sf.net/projects/gphoto/">the gphoto2 sourceforge page</a>
 and support read, write, directory operations.</p>
 
 <?
