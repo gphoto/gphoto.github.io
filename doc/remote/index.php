@@ -188,15 +188,15 @@ When used, this option will always download the last captured image and then del
 <tr>
 	<td>Canon PowerShot A85</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>All</td>
 	<td>4</td>
-	<td>from capture.sf.net notes</td>
+	<td></td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A95</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>All</td>
 	<td>5</td>
 	<td>from capture.sf.net notes</td>
 </tr>
