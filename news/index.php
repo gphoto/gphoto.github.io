@@ -11,6 +11,72 @@
 <!-- news headlines -->
 <hr />
 
+<h2>gphoto2 2.4.4</h2>
+
+This is a 2.4 release branch update.
+
+<ul>
+<li>Updated translations.
+<li>SIGUSR2 added ... "exit interval capture after next shot"
+</ul>
+
+<h2>libgphoto2 2.4.4</h2>
+
+This is a 2.4 release branch update.
+
+<ul>
+<li>
+<h3>libgphoto2</h3>
+	<ul>
+	<li>	Updated translations from translationproject.org
+	<li>	Bugfixes
+	</ul>
+</ul>
+
+<h3>PTP2 driver</h3>
+<ul>
+<li> Developed in parallel with TRUNK.
+<li> Only retrieve and initialize the ptp filesystem if needed
+     (this will give speed ups for config operations, basic
+      init and summary.)
+<li> Export the hidden vendor specific properties of the current Nikon DSLRs.
+     (over a hundred with all camera configuration details...)
+     (D80, D90, D300, D700, D40x got, D200 guessed)
+<li> Lots of new Nikon DSLR and Canon Powershot properties implemented,
+     both printed in summary and available for config functions querying
+     and/or setting.
+<li> Query and Set image protection flags (actually used by digikam).
+<li> Lots of bugfixes and changes in Canon and Nikon specific capture routines.
+<li> Some defines for PTP 1.1 added. Will have to wait for implementation until
+     a device gets available.
+<li> New cameras added:<ul>
+     <li>Kodak C913
+     <li>Nikon D90
+     <li>Canon Digital IXUS 960IS, EOS 1000D, SD1100 IS, SX10 IS, SX110 IS
+     <li>Fuji FinePix A920, F100fd, S200HD
+     <li>Apple iPod Touch (just saved screenshots and uploaded images)
+     </ul>
+<li> PTP v1.1 defines added (implementation will start once devices are available)
+<li> Synced MTP device list from libmtp (0.3.5 level).
+<li> Lots of bugfixes.
+</ul>
+
+<h3>jl2005c</h3>
+<ul>
+<li> Experimental driver for jl2005c based cameras added.
+     Can only retrieve raw images currently, no viewable images yet.
+     Not builtin by default. ./configure --with-drivers=all,jl2005c
+</ul>
+
+<h3>libgphoto2_port</h3>
+<ul>
+<li> Updated translations from translationproject.org
+
+<li> Serial driver: do not lock device during probe to reduce startup
+     time.
+</ul>
+
+<hr>
 <h2>gphoto2 2.4.3</h2>
 
 <ul>
