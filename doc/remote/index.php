@@ -499,10 +499,26 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon D40x</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>10</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D50</td>
 	<td>Yes</td>
 	<td>All</td>
 	<td>6</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Nikon D60</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>10</td>
 	<td>&nbsp;</td>
 </tr>
 
@@ -525,7 +541,7 @@ here</a></td>
 <tr>
 	<td>Nikon D80</td>
 	<td>Yes</td>
-	<td>Some</td>
+	<td>All</td>
 	<td>10</td>
 	<td>&nbsp;</td>
 </tr>
@@ -533,8 +549,24 @@ here</a></td>
 <tr>
 	<td>Nikon D200</td>
 	<td>Yes</td>
-	<td>All.</td>
+	<td>All</td>
 	<td>10</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Nikon D300</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>12</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Nikon D700</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>12</td>
 	<td>&nbsp;</td>
 </tr>
 
