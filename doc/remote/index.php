@@ -491,6 +491,15 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon CoolPix P5000</td>
+	<td>Yes</td>
+	<td>None</td>
+	<td>10</td>
+	<td>only image quality configurable</td>
+</tr>
+
+
+<tr>
 	<td>Nikon D40</td>
 	<td>Yes</td>
 	<td>All</td>
