@@ -564,6 +564,14 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon D90</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>12</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D200</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -679,8 +687,8 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 <tr><td>Various Canon cameras:</td>
 <td>
  Statement from Canon SDK: <i>As a reminder, PowerShots A410, A420, A430, A530, A540, A610, A630,
- A700, A710 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
- SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, and SD900 do
+ A700, A710 IS, A720 IS, A1000 IS, A2000 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
+ SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, SD900, SX 1 IS, SX 10IS,  do
  not support remote control or video out operation via the SDK.</i><br/>
  The same applies for libgphoto2 capture support.<p>
 
