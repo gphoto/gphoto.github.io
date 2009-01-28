@@ -74,6 +74,14 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot SD110</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>3</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Canon Digital IXUS 400</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -298,19 +306,43 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot G1</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>3.3</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot G2</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>4</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot G3</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>4</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot G5</td>
 	<td>Yes</td>
 	<td>All</td>
-	<td>?</td>
-	<td>from capture.sf.net notes</td>
+	<td>5</td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot G6</td>
 	<td>Yes</td>
 	<td>All</td>
-	<td>?</td>
-	<td>from capture.sf.net notes</td>
+	<td>7.1</td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -326,6 +358,22 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>12</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot G10</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>14.6</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot Pro 90 IS</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>2.6</td>
 	<td>&nbsp;</td>
 </tr>
 
@@ -844,7 +892,7 @@ A610, A630, A650 IS,
  A700, A710 IS, A720 IS,
 A1000 IS, A2000 IS,
 S10, S20, S330,
-SD10, SD20, SD30, SD40, SD200, SD300, SD400, SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, SD900,
+SD10, SD20, SD30, SD40, SD200, SD300, SD400, SD430, SD450, SD500, SD550, SD600, SD630, SD700 IS, SD750, SD770 IS,SD790 IS,SD800 IS, SD850 IS, SD870 IS, SD880 IS, SD890 IS, SD900, SD950 IS, SD990 IS, SD 1000, SD1100 IS,
 SX 1 IS, and SX 10IS
 do not support remote control or video out operation via the SDK.</i><br/>
  The same applies for libgphoto2 capture support.<p>
