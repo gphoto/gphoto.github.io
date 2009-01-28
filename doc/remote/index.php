@@ -130,27 +130,99 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
-	<td>Canon PowerShot A40</td>
+	<td>Canon PowerShot A10</td>
+	<td>Yes</td>
+	<td>unknown</td>
+	<td>1.3</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A100</td>
+	<td>Yes</td>
+	<td>unknown</td>
+	<td>1.2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A20</td>
+	<td>Yes</td>
+	<td>unknown</td>
+	<td>2.1</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A200</td>
+	<td>Yes</td>
+	<td>unknown</td>
+	<td>2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A30</td>
+	<td>Yes</td>
+	<td>unknown</td>
+	<td>1.32</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A300</td>
 	<td>Yes</td>
 	<td>All</td>
-	<td>?</td>
+	<td>3.2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A310</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>3.2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A40</td>
+	<td>Yes</td>
+	<td>unknown</td>
+	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A400</td>
 	<td>Yes</td>
-	<td>All but imagesize</td>
+	<td>All</td>
 	<td>3.2</td>
 	<td>from reporter. Only captures with PTP driver.</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A510</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>3.2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A520</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>4</td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
 	<td>Canon PowerShot A60</td>
 	<td>Yes</td>
 	<td>Unknown</td>
-	<td>?</td>
-	<td>(from ptpcanon list)</td>
+	<td>2</td>
+	<td>&nbsp;</td>
 </tr>
 
 <tr>
@@ -214,6 +286,14 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>7</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot A640</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>10</td>
 	<td>&nbsp;</td>
 </tr>
 
@@ -290,6 +370,38 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Canon PowerShot S10</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>2.1</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S20</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>3.2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S30</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>3.2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S40</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>4</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot S45</td>
 	<td>Yes</td>
 	<td>All</td>
@@ -326,6 +438,46 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>8</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S100</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S110</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S200</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>2</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S230</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>3</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Canon PowerShot S300</td>
+	<td>Yes</td>
+	<td>Unknown</td>
+	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
 
@@ -384,7 +536,6 @@ When used, this option will always download the last captured image and then del
 	<td>9</td>
 	<td>&nbsp;</td>
 </tr>
-
 
 <tr>
 	<td>Canon 20D, 350D/Digital Rebel XT</td>
@@ -686,10 +837,16 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 </tr>
 <tr><td>Various Canon cameras:</td>
 <td>
- Statement from Canon SDK: <i>As a reminder, PowerShots A410, A420, A430, A530, A540, A610, A630,
- A700, A710 IS, A720 IS, A1000 IS, A2000 IS, S10, S20, SD10, SD20, SD30, SD40, SD200, SD300, SD400,
- SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, SD900, SX 1 IS, SX 10IS,  do
- not support remote control or video out operation via the SDK.</i><br/>
+ Statement from Canon SDK: <i>As a reminder:
+PowerShots A410, A420, A430, A450, A460, A470,
+A530, A540, A550, A560, A570 IS, A580, A590 IS,
+A610, A630, A650 IS,
+ A700, A710 IS, A720 IS,
+A1000 IS, A2000 IS,
+S10, S20, S330,
+SD10, SD20, SD30, SD40, SD200, SD300, SD400, SD450, SD500, SD550, SD600, SD630, SD700 IS, SD800 IS, SD900,
+SX 1 IS, and SX 10IS
+do not support remote control or video out operation via the SDK.</i><br/>
  The same applies for libgphoto2 capture support.<p>
 
 Also see <a href="http://www.usa.canon.com/consumer/controller?act=SDKHomePageAct&keycode=Sdk_Lic&fcategoryid=314&modelid=7474&id=3464">this Canon page</a> for a overview of which cameras are supported and which are not as of April 1st 2008.
