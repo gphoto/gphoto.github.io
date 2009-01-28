@@ -377,6 +377,14 @@ When used, this option will always download the last captured image and then del
 	<td>&nbsp;</td>
 </tr>
 
+<tr>
+	<td>Canon PowerShot SX110 IS</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>9</td>
+	<td>&nbsp;</td>
+</tr>
+
 
 <tr>
 	<td>Canon 20D, 350D/Digital Rebel XT</td>
