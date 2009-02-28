@@ -574,7 +574,7 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>Zoom ISO Quality ImageSize WhiteBalance ExposureCompensation FlashCompensation CaptureMode Aperture Shutterspeed MeteringMode AFDistance</td>
 	<td>8</td>
-	<td>&nbsp;</td>
+	<td>1 frame capture and download - 2-3 seconds</td>
 </tr>
 
 <tr>
