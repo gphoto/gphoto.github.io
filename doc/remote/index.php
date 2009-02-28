@@ -572,7 +572,7 @@ When used, this option will always download the last captured image and then del
 <tr>
 	<td>Canon PowerShot SX100 IS</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>Zoom ISO Quality ImageSize WhiteBalance ExposureCompensation FlashCompensation CaptureMode Aperture Shutterspeed MeteringMode AFDistance</td>
 	<td>8</td>
 	<td>&nbsp;</td>
 </tr>
@@ -580,7 +580,7 @@ When used, this option will always download the last captured image and then del
 <tr>
 	<td>Canon PowerShot SX110 IS</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All (likely same as SX100IS above)</td>
 	<td>9</td>
 	<td>&nbsp;</td>
 </tr>
