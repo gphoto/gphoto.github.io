@@ -11,6 +11,54 @@
 <!-- news headlines -->
 <hr />
 
+<h2>gphoto2 2.4.5</h2>
+<ul>
+<li>translation updates
+<li>allow ctrl-c to abort tethered capture
+</ul>
+<h2>libgphoto2 2.4.5</h2>
+
+This is a 2.4 release branch update.
+
+<h3>PTP2 driver</h3>
+<ul>
+<li>Increased timeout for Canon Viewfinder enable.
+<li>Fixed intial Canon timeout (0.5 -&gt; 1.5 seconds), was too small
+    for some Canons.
+<li>Canon EOS capture mode and tethered mode bugfixes.
+<li>Nikon DSLR LiveView support, with Autofocus and ManualFocus Drive possibility.
+<li>Nikon tethered capture fixes.
+<li>New cameras listed: <ul>
+   <li>         Nikon CoolPix P50, S60
+   <li>         Canon Digital IXUS 85
+   <li>         Canon PowerShot A740, G10,
+   <li>         Canon EOS 5D Mark II
+   </ul>
+<li>Merged new IDs of Music Players from libmtp.
+<li>Lots of bugfixes.
+</ul>
+
+<h3>KODAK DC240</h3>
+<ul>
+<li>Made driver work again.
+<li>Cleanups
+</ul>
+
+<h3>libgphoto2</h3>
+<ul>
+<li>rewrote gphoto2-filesys.c to be dynamic and fix LRU problems.
+    (backport from TRUNK)
+<li>Translation updates.
+<li>backported Gentoo "if just canon driver selected, auto-select ptp2 driver"
+    usability fix.
+</ul>
+<h3>libgphoto2_port</h3>
+<ul>
+<li>added --enable/--disable configure options for: disk, serial, ptpip
+<li>added --with/--without configure options for: bonjour, hal
+<li>Translation updates.
+</ul>
+<hr/>
 <h2>gphoto2 2.4.4</h2>
 
 This is a 2.4 release branch update.
