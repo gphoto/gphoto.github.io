@@ -30,39 +30,12 @@
     	</p>
 	<div style="text-align: right;"><b>January 21th, 2009</b></div>
 
-    	<p>
-	<b>gphoto2, and libgphoto2 2.4.3</b> have been
-	released. Read <a href="/news/"><b>what's new</b></a>.
-	Download it <a href="/download/"><b>now</b></a>.
-    	</p>
-	<div style="text-align: right;"><b>October 19th, 2008</b></div>
-
-    	<p>
-	<b>gphoto2, and libgphoto2 2.4.2</b> have been
-	released. Read <a href="/news/"><b>what's new</b></a>.
-	Download it <a href="/download/"><b>now</b></a>.
-    	</p>
-	<div style="text-align: right;"><b>July 13th, 2008</b></div>
-
-    	<p>
-	<b>gphoto2, and libgphoto2 2.4.1</b> have been
-	released. Read <a href="/news/"><b>what's new</b></a>.
-	Download it <a href="/download/"><b>now</b></a>.
-    	</p>
-	<div style="text-align: right;"><b>March 28th, 2008</b></div>
-
-    	<p>
-	<b>gphoto2, libgphoto2, gphotofs and gphoto-suite 2.4.0</b> have been
-	released. Read <a href="/news/"><b>what's new</b></a>.
-	Download it <a href="/download/"><b>now</b></a>.
-    	</p>
-	<div style="text-align: right;"><b>July 30th, 2007</b></div>
-
 	<p>
-	<b>gtkam 0.1.14</b> has been released. 
+	<b>gtkam 0.1.16.1</b> has been released. 
 	Download it <a href="/download/"><b>now</b></a>.
 	</p>	
-	<div style="text-align: right;"><b>December 17th, 2006</b></div>
+	<div style="text-align: right;"><b>December 5th, 2008</b></div>
+    	<p>
 
 	 <p>Digital cameras have the balance of quality, features, and 
     price that appeals to users looking for a fast and convenient
