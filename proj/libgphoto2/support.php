@@ -29,9 +29,9 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Do 22. Jan 00:44:04 CET 2009
+Tue Apr  7 14:16:29 CEST 2009
 ========================================================================
-gphoto2 2.4.4
+gphoto2 2.4.5
 
 Copyright (c) 2000-2008 Lutz Mueller and others
 
@@ -40,11 +40,11 @@ redistribute copies of gphoto2 under the terms of the GNU General Public
 License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
-gphoto2         2.4.4          gcc, popt(m), exif, no cdk, no aa, jpeg, readline
-libgphoto2      2.4.4          gcc, ltdl, EXIF
-libgphoto2_port 0.8.0          gcc, ltdl, USB, serial resmgr locking
+gphoto2         2.4.5          gcc, popt(m), exif, no cdk, aa, jpeg, readline
+libgphoto2      2.4.5          gcc, ltdl, EXIF
+libgphoto2_port 0.8.0          gcc, ltdl, USB, serial without locking
 ========================================================================
-Number of supported cameras: 1084
+Number of supported cameras: 1101
 Supported cameras:
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
@@ -104,6 +104,7 @@ Supported cameras:
 	"Canon Digital IXUS 750 (PTP mode)"
 	"Canon Digital IXUS 80 IS"
 	"Canon Digital IXUS 800 (PTP mode)"
+	"Canon Digital IXUS 85 IS"
 	"Canon Digital IXUS 850 IS (PTP mode)"
 	"Canon Digital IXUS 860 IS"
 	"Canon Digital IXUS 90 IS"
@@ -144,6 +145,7 @@ Supported cameras:
 	"Canon EOS 450D (PTP mode)"
 	"Canon EOS 5D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 5D (PTP mode)"
+	"Canon EOS 5D Mark II"
 	"Canon EOS D30"
 	"Canon EOS D60"
 	"Canon EOS Digital Rebel (normal mode)"
@@ -212,11 +214,13 @@ Supported cameras:
 	"Canon PowerShot A700 (PTP mode)"
 	"Canon PowerShot A710 IS (PTP mode)"
 	"Canon PowerShot A720 IS (PTP mode)"
+	"Canon PowerShot A740"
 	"Canon PowerShot A75 (PTP mode)"
 	"Canon PowerShot A80 (PTP)"
 	"Canon PowerShot A85 (PTP mode)"
 	"Canon PowerShot A95 (PTP mode)"
 	"Canon PowerShot G1"
+	"Canon PowerShot G10"
 	"Canon PowerShot G2"
 	"Canon PowerShot G3 (normal mode)"
 	"Canon PowerShot G3 (PTP mode)"
@@ -302,6 +306,7 @@ Supported cameras:
 	"Cowon iAudio 6 (MTP mode)"
 	"Cowon iAudio 7 (MTP mode)"
 	"Cowon iAudio D2 (MTP mode)"
+	"Cowon iAudio S9 (MTP mode)"
 	"Cowon iAudio U3 (MTP mode)"
 	"Cowon iAudio U5 (MTP mode)"
 	"Creative CardCam" (EXPERIMENTAL)
@@ -702,6 +707,7 @@ Supported cameras:
 	"Nikon Coolpix P1 (PTP mode)"
 	"Nikon Coolpix P2 (PTP mode)"
 	"Nikon Coolpix P4 (PTP mode)"
+	"Nikon Coolpix P50 (PTP mode)"
 	"Nikon Coolpix P5000 (PTP mode)"
 	"Nikon Coolpix P5100 (PTP mode)"
 	"Nikon Coolpix P60 (PTP mode)"
@@ -710,6 +716,7 @@ Supported cameras:
 	"Nikon Coolpix S4 (PTP mode)"
 	"Nikon Coolpix S500 (PTP mode)"
 	"Nikon Coolpix S6 (PTP mode)"
+	"Nikon Coolpix S60 (PTP mode)"
 	"Nikon Coolpix SQ (PTP mode)"
 	"Nikon D100 (Sierra Mode)"
 	"Nikon D2H SLR (PTP mode)"
@@ -732,11 +739,14 @@ Supported cameras:
 	"Nokia 3109c Mobile Phone"
 	"Nokia 3110c Mobile Phone"
 	"Nokia 3250 Mobile Phone"
+	"Nokia 5200"
 	"Nokia 5300 Mobile Phone"
 	"Nokia 5310 XpressMusic"
 	"Nokia 5500 Sport Mobile Phone"
 	"Nokia 5700 XpressMusic Mobile Phone"
+	"Nokia 5800 XpressMusic"
 	"Nokia 6120c Classic Mobile Phone"
+	"Nokia 6220 Classic"
 	"Nokia 6500c Classic Mobile Phone"
 	"Nokia E63"
 	"Nokia E66"
@@ -748,6 +758,7 @@ Supported cameras:
 	"Nokia N80 Internet Edition (Media Player)"
 	"Nokia N81 Mobile Phone"
 	"Nokia N82 Mobile Phone"
+	"Nokia N85 Mobile Phone"
 	"Nokia N91 Mobile Phone"
 	"Nokia N93 Mobile Phone"
 	"Nokia N93i Mobile Phone"
@@ -958,6 +969,7 @@ Supported cameras:
 	"Samsung YP-T9"
 	"Samsung YP-U2J (YP-U2JXB/XAA)"
 	"Samsung YP-U3"
+	"Samsung YP-U4"
 	"Samsung YP-Z5"
 	"SanDisk Sansa c150"
 	"SanDisk Sansa c240/c250"
@@ -970,6 +982,7 @@ Supported cameras:
 	"SanDisk Sansa e280"
 	"SanDisk Sansa Express"
 	"SanDisk Sansa Fuze"
+	"SanDisk Sansa Fuze v2"
 	"SanDisk Sansa m230/m240"
 	"SanDisk Sansa m240/m250"
 	"SanDisk Sansa View"
@@ -985,8 +998,8 @@ Supported cameras:
 	"ScanHex SX-35c" (TESTING)
 	"ScanHex SX-35d" (TESTING)
 	"Scott APX 30"
-	"Sea & Sea 5000G"
-	"Sea & Sea 5000G (PTP mode)"
+	"Sea &amp; Sea 5000G"
+	"Sea &amp; Sea 5000G (PTP mode)"
 	"Shark 2-in-1 Mini" (EXPERIMENTAL)
 	"Shark SDC-513" (EXPERIMENTAL)
 	"Shark SDC-519" (EXPERIMENTAL)
@@ -1000,6 +1013,7 @@ Supported cameras:
 	"Sirius Stiletto"
 	"Sirius Stiletto 2"
 	"Skanhex SX-330z" (EXPERIMENTAL)
+	"Slacker Inc. Slacker Portable Media Player"
 	"SMaL Ultra-Pocket" (EXPERIMENTAL)
 	"So. Show 301" (TESTING)
 	"Sony DCR-PC100"
@@ -1061,9 +1075,11 @@ Supported cameras:
 	"Sony Walkman NWZ-S615F/NWZ-S616F/NWZ-S618F"
 	"Sony Walkman NWZ-S638F"
 	"Sony Walkman NWZ-S716F"
+	"Sony Walkman NWZ-S739F"
 	"SonyEricsson C702"
 	"SonyEricsson C902"
 	"SonyEricsson K850i"
+	"SonyEricsson W715"
 	"SonyEricsson W760i"
 	"SonyEricsson W890i"
 	"SonyEricsson W902"
@@ -1085,6 +1101,7 @@ Supported cameras:
 	"Thomson / RCA Lyra HC308A"
 	"Thomson / RCA Opal / Lyra MC4002"
 	"Thomson EM28 Series"
+	"Thomson Lyra MC5104B (M51 Series)"
 	"Thomson RCA H106"
 	"Thomson scenium E308"
 	"Tiger Fast Flicks"
