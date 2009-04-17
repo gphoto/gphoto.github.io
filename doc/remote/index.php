@@ -238,7 +238,7 @@ When used, this option will always download the last captured image and then del
 	<td>Yes</td>
 	<td>All</td>
 	<td>10</td>
-	<td>confirmed by Canon</td>
+	<td>One reference user: <a href="http://www.oldcapebridge.com">oldcapebridge.com</a></td>
 </tr>
 
 <tr>
