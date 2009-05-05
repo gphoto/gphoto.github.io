@@ -117,24 +117,24 @@ When used, this option will always download the last captured image and then del
 	<td>Canon EOS 40D</td>
 	<td>Yes</td>
 	<td>limited level of configurability</td>
-	<td>?</td>
-	<td>support is very fresh and might be unstable</td>
+	<td>10.1</td>
+	<td>reported working with libgphoto2 2.4.3, but reported to be regressed to not work in 2.4.5</td>
 </tr>
 
 <tr>
 	<td>Canon EOS 400D</td>
 	<td>Yes</td>
 	<td>limited level of configurability</td>
-	<td>?</td>
-	<td>support is very fresh and might be unstable</td>
+	<td>10.1</td>
+	<td>Confirmed to work by Marcus with libgphoto2 2.4.5</td>
 </tr>
 
 <tr>
 	<td>Canon EOS 450D</td>
 	<td>Yes</td>
 	<td>limited level of configurability</td>
-	<td>?</td>
-	<td>support is very fresh and might be unstable</td>
+	<td>12</td>
+	<td>Confirmed by Marcus with libgphoto2 2.4.4</td>
 </tr>
 
 <tr>
