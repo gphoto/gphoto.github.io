@@ -109,7 +109,7 @@ When used, this option will always download the last captured image and then del
 	<td>Canon EOS 300D/Digital Rebel</td>
 	<td>Yes</td>
 	<td>ISO, Shutterspeed, Zoom (? likely read only), Aperture, Resolution (RAW, Normal JPEG, ...), Focus Mode (read-only?), Flash Mode (read-only)</td>
-	<td>6</td>
+	<td>6.5</td>
 	<td>Uses "Normal" mode in the camera (and the "canon" driver in libgphoto2). Set Modewheel to "M" to get all settings.</td>
 </tr>
 
