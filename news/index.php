@@ -10,6 +10,46 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.4.6</h2>
+
+<h3>PTP2 driver</h3>
+<ul>
+<li> Fixed Nikon DSLR capture in LiveView mode (like gtkam uses).
+<li> More Canon EOS stuff decoded, added experimental "capturetarget" support
+     for EOS.
+<li> Canon EOS LiveView support (experimental, reported working for EOS 1000D).
+<li> Added new USB ids:
+	<ul>
+	<li>Kodak V803, M1063
+	<li>Canon PowerShot A650IS, SD990 (aka IXUS 980IS), SD880IS, A480
+	<li>Canon EOS 50D
+	<li>Fuji FinePix S1000fd
+	</ul>
+<li> Retrieve filedates again from PTP objects.
+<li> speedup: Do not list files on / (there aren't any).
+<li> Bugfixes.
+</ul>
+
+<h3>Canon driver</h3>
+<ul>
+<li> Support Exposure Bias setting.
+<li> More shutterspeeds.
+</ul>
+
+<h3>libgphoto2</h3>
+<ul>
+<li> Fixed a problem during file retrieval which causes Canon Normal 
+     --capture-image-and-download errors, handle CR2 and CRW mimetypes.
+<li> Fixed ordering of filelists again that broke the digigr8 driver.
+<li> Translation updates.
+</ul>
+
+<h3>digigr8</h3>
+<ul>
+<li> Added a new version of the disney pix micro.
+</ul>
+
+<hr />
 
 <h2>gphoto2 2.4.5</h2>
 <ul>
