@@ -602,6 +602,14 @@ When used, this option will always download the last captured image and then del
 </tr>
 
 <tr>
+	<td>Casio EX-F1</td>
+	<td>Tethered</td>
+	<td>Unknown</td>
+	<td>6</td>
+	<td>Only tethered shooting, <a href="http://www.dpreview.com/news/0906/09061801casioexf1software.asp?from=rss">Firmware 2.0 required</a>.</td>
+</tr>
+
+<tr>
 	<td>Nikon CoolPix 880</td>
 	<td>Yes</td>
 	<td>All</td>
