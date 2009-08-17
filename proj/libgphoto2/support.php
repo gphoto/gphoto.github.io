@@ -29,7 +29,7 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Mon May 18 08:51:51 CEST 2009
+Mon Aug 17 12:57:32 CEST 2009
 ========================================================================
 gphoto2 2.4.5
 
@@ -41,11 +41,12 @@ License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
 gphoto2         2.4.5          gcc, popt(m), exif, no cdk, aa, jpeg, readline
-libgphoto2      2.4.6          gcc, ltdl, EXIF
+libgphoto2      2.4.7          gcc, ltdl, EXIF
 libgphoto2_port 0.8.0          gcc, ltdl, USB, serial without locking
 ========================================================================
-Number of supported cameras: 1129
+Number of supported cameras: 1153
 Supported cameras:
+	"Achiever Digital Adc65"
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
 	"Agfa ePhoto 1680"
@@ -65,6 +66,7 @@ Supported cameras:
 	"Apple iPhone (PTP mode)"
 	"Apple iPhone 3G (PTP mode)"
 	"Apple iPod Touch (PTP mode)"
+	"Apple iPod Touch 2G (PTP mode)"
 	"Apple QuickTake 200"
 	"Apple QuickTake 200"
 	"Archos 104 (MTP mode)"
@@ -88,6 +90,8 @@ Supported cameras:
 	"Barbie"
 	"Benq DC1300" (TESTING)
 	"Canon Digital IXUS"
+	"Canon Digital IXUS 100 IS"
+	"Canon Digital IXUS 110 IS"
 	"Canon Digital IXUS 30 (PTP mode)"
 	"Canon Digital IXUS 300"
 	"Canon Digital IXUS 330"
@@ -146,6 +150,7 @@ Supported cameras:
 	"Canon EOS 400D (PTP mode)"
 	"Canon EOS 40D (PTP mode)"
 	"Canon EOS 450D (PTP mode)"
+	"Canon EOS 500D"
 	"Canon EOS 50D"
 	"Canon EOS 5D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 5D (PTP mode)"
@@ -186,6 +191,7 @@ Supported cameras:
 	"Canon Optura Xi (normal mode)"
 	"Canon PowerShot A10"
 	"Canon PowerShot A100"
+	"Canon PowerShot A1100 IS"
 	"Canon PowerShot A20"
 	"Canon PowerShot A200"
 	"Canon PowerShot A30"
@@ -278,6 +284,7 @@ Supported cameras:
 	"Canon PowerShot SD630 (PTP mode)"
 	"Canon PowerShot SD700 (PTP mode)"
 	"Canon PowerShot SD750 (PTP mode)"
+	"Canon PowerShot SD780 IS"
 	"Canon PowerShot SD850 (PTP mode)"
 	"Canon PowerShot SD880 IS"
 	"Canon PowerShot SD900 (PTP mode)"
@@ -285,6 +292,7 @@ Supported cameras:
 	"Canon PowerShot SX10 IS"
 	"Canon Powershot SX100 IS (PTP mode)"
 	"Canon PowerShot SX110 IS"
+	"Canon PowerShot SX200 IS"
 	"Canon PowerShot unknown 1"
 	"Canon PowerShot unknown 2"
 	"Canon ZR70MC (normal mode)"
@@ -397,6 +405,7 @@ Supported cameras:
 	"Fuji FinePix E900"
 	"Fuji FinePix F100fd"
 	"Fuji FinePix F20"
+	"Fuji FinePix F200 EXR"
 	"Fuji FinePix F30"
 	"Fuji FinePix F31fd"
 	"Fuji FinePix F40fd"
@@ -598,6 +607,7 @@ Supported cameras:
 	"Kodak LS753"
 	"Kodak M1063"
 	"Kodak M753"
+	"Kodak M863"
 	"Kodak M883"
 	"Kodak M893 IS"
 	"Kodak MC3"
@@ -648,6 +658,7 @@ Supported cameras:
 	"Magpix B350" (EXPERIMENTAL)
 	"Mass Storage Camera"
 	"Maxell Max Pocket" (TESTING)
+	"Maxfield G-Flash NG 1GB"
 	"Media-Tech mt-406"
 	"Medion MD 5319" (TESTING)
 	"Medion MD 6000" (EXPERIMENTAL)
@@ -769,6 +780,7 @@ Supported cameras:
 	"Nokia 5500 Sport Mobile Phone"
 	"Nokia 5700 XpressMusic Mobile Phone"
 	"Nokia 5800 XpressMusic"
+	"Nokia 5800 XpressMusic v2"
 	"Nokia 6120c Classic Mobile Phone"
 	"Nokia 6220 Classic"
 	"Nokia 6500c Classic Mobile Phone"
@@ -789,6 +801,7 @@ Supported cameras:
 	"Nokia N95 Mobile Phone"
 	"Nokia N95 Mobile Phone 8GB"
 	"Nokia N96 Mobile Phone"
+	"Nokia N97"
 	"Nokia/Verizon 6205 Balboa/Verizon Music Phone"
 	"NormSoft, Inc. Pocket Tunes"
 	"NormSoft, Inc. Pocket Tunes 4"
@@ -888,6 +901,8 @@ Supported cameras:
 	"Philips GoGear SA6014/SA6015/SA6024/SA6025/SA6044/SA6045"
 	"Philips GoGear SA6125/SA6145/SA6185"
 	"Philips GoGear SA9200"
+	"Philips GoGear ViBE SA1VBE04"
+	"Philips GoGear ViBE SA1VBE08"
 	"Philips HDD085/00 or HDD082/17"
 	"Philips HDD14XX,HDD1620 or HDD1630/17"
 	"Philips HDD6320"
@@ -969,9 +984,11 @@ Supported cameras:
 	"Sakar no. 1638x CyberPix" (EXPERIMENTAL)
 	"Samsung digimax 800k"
 	"Samsung F250 Mobile Phone"
+	"Samsung GT-B2700"
 	"Samsung I550W Phone"
 	"Samsung Juke (SCH-U470)"
 	"Samsung Kenox SSC-350N"
+	"Samsung SAMSUNG Trance"
 	"Samsung U600 Mobile Phone"
 	"Samsung X830 Mobile Phone"
 	"Samsung YH-820"
@@ -988,6 +1005,7 @@ Supported cameras:
 	"Samsung YP-P2"
 	"Samsung YP-P3"
 	"Samsung YP-Q1"
+	"Samsung YP-Q2"
 	"Samsung YP-S3"
 	"Samsung YP-S5"
 	"Samsung YP-T10"
@@ -996,6 +1014,7 @@ Supported cameras:
 	"Samsung YP-U2J (YP-U2JXB/XAA)"
 	"Samsung YP-U3"
 	"Samsung YP-U4"
+	"Samsung YP-U5"
 	"Samsung YP-Z5"
 	"SanDisk Sansa c150"
 	"SanDisk Sansa c240/c250"
@@ -1103,16 +1122,20 @@ Supported cameras:
 	"Sony Walkman NWZ-S716F"
 	"Sony Walkman NWZ-S739F"
 	"Sony Walkman NWZ-W202"
+	"Sony Walkman NWZ-X1050B/NWZ-X1060B"
+	"Sony Walkman NWZ-X1051/NWZ-X1061"
 	"SonyEricsson C702"
 	"SonyEricsson C902"
+	"SonyEricsson C905"
 	"SonyEricsson K850i"
 	"SonyEricsson W595"
-	"SonyEricsson W715"
+	"SonyEricsson W705/W715"
 	"SonyEricsson W760i"
 	"SonyEricsson W890i"
 	"SonyEricsson W902"
 	"SonyEricsson W910"
 	"SonyEricsson W980"
+	"SonyEricsson W995"
 	"Soundstar TDC-35" (EXPERIMENTAL)
 	"SpyPen Axys"
 	"SpyPen Cleo"
@@ -1153,6 +1176,7 @@ Supported cameras:
 	"Toshiba PDR-M65"
 	"Traveler SX330z" (EXPERIMENTAL)
 	"Traveler SX410z" (EXPERIMENTAL)
+	"TrekStor i.Beat Organix 2.0"
 	"TrekStor i.Beat Sweez FM"
 	"TrekStor Vibez 8/12GB"
 	"Trust DC-3500"
