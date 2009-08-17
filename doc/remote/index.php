@@ -36,12 +36,12 @@ the complete list will only show after <code>gphoto2 --set-config capture=on</co
 Most of them are self explaining, but some interesting ones:
 </p>
 <ul>
-<li>	Canon cameras only: <b>capture</b> - setting this to <b>on</b> will extract the lens and make it read for SDRAM based capture.
+<li>Canon cameras only: <b>capture</b> - setting this to <b>on</b> will extract the lens and make it read for SDRAM based capture.
 	Setting it <b>off</b> will retract the lens again.
 </li>
 <li>Canon and some Nikon cameras only: <b>capturetarget</b> - setting this to <b>sdram</b> will make the camera capture directly into
 the camera RAM and not on the memory card. You need to download the image in the same gphoto2 call, otherwise it will gone
-when the connection is closed. Use continous capture mode to get the images in this case.<br/>
+when the connection is closed. Use <code>--capture-image-and-download</code> to capture and download instantely.<br/>
 Set it to <b>card</b> to capture to the memory card.
 </li>
 </ul>
@@ -52,7 +52,7 @@ Set it to <b>card</b> to capture to the memory card.
 The options <code>-F <i>frames</i></code> and <code>-I <i>seconds</i></code> can be used to support continuous
 capture. <code>-F 0</code> will capture images ad-infinitum.
 </p><p>
-When used, this option will always download the last captured image and then delete it from the camera.
+This can be used with either <code>--capture-image</code> which would leave all images on the card, or <code>--capture-image-and-download</code> which captures and downloads the images immediately.
 </p>
 <h2>List of cameras</h2>
 <hr />
