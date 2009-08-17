@@ -10,6 +10,74 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.4.7</h2>
+
+This is a 2.4 release branch update.
+
+<h3>libgphoto2</h3>
+<ul>
+<li>Translation updates from translationproject.org.
+<li>Widget and choice lists now dynamic, to be able to create longer ones.
+<li>3rd generation UDEV rules emission, now able to emit "post HAL"
+    UDEV rules.
+     <br>
+    print-camera-list udev-rules version 136 &gt; /lib/udev/rules.d/40-libgphoto2.rules
+  
+<li>Dsabled LRU of images. Not really useful in times of USB 2.0,
+    aso disabled by at least Debian und Ubuntu already.
+</ul>
+
+<h3>libgphoto2_port / USB</h3>
+<ul>
+<li>If we detached a USB driver, reattach it on close.
+    This allows using e.g. cheap camera as both webcam with in-kernel
+    driver and still camera with libgphoto2.
+</ul>
+<h3>PTP2 driver:</h3>
+<ul>
+<li>Renamed various configuration options and changed values to
+    match a unified model. Some common names have changed:
+     <ul>
+     <li> owner-&gt;ownername
+     <li> exptime-&gt;shutterspeed
+     <li> eos-* -&gt; non-eos prefixed variants
+     <li> etc.
+     </ul>
+     You will need to review configuration setting code if you have any.
+
+<li>Create config submenus /actions for action triggers and /status for
+    read-only values, moved stuff there.
+
+<li>New IDs:
+	<ul>
+   	<li>Kodak M863
+	<li>Canon Digital IXUS 110IS, IXUS 100IS, Powershot SX200IS, SD780 IS, A1100IS
+	<li>Canon EOS 500D
+	<li>Fuji Finepix F200 EXR
+	<li>Apple iPod Touch first generation
+	</ul>
+
+
+<li>Lots of Canon EOS capture improvements, for card capture, for LiveView,
+    and for property setting. More properties are now possible.
+<li>Canon EOS Bulb mode support (available in newer canons).
+    --set-config bulb=(0|1)
+
+<li>Fixed Nikon DSC shutterspeed setting (also for times &lt; 1/1000)
+<li>Enable Viewfinder on demand for Canon Powershot, not for all capture things.
+<li>Generic PTP Property Get/Set in the configuration handling.
+<li>Decode more Nikon DSC properties (for D90 now nearly complete).
+<li>Turned several PTP generic commands to macros to reduce number of functions.
+<li>MTP player list synced with libmtp 1.0.
+<li>Lots of bugfixes.
+</ul>
+
+<h3>Canon driver:</h3>
+<ul>
+<li>Renamed various configuration options and changed values to
+    match a unified model.
+</ul>
+<hr/>
 <h2>libgphoto2 2.4.6</h2>
 
 <h3>PTP2 driver</h3>
