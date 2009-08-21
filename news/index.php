@@ -10,6 +10,28 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>gphoto2 2.4.7</h2>
+
+<ul>
+<li>New cmdline options: --set-config-index and --set-config-value
+   to avoid ambiguity of the --set-config supporting both modes.
+<li>--wait-event can take "5s" as argument for 5 seconds of event taking
+<li>added --wait-event-and-download=x (same as --wait-event but with download)
+<li>New shell commands:<ul>
+	   <li>wait-event (events or seconds)
+	   <li>wait-event-and-download (events or seconds)
+	   <li>capture-tethered 
+	   <li>set-config-index entry=choiceindex
+	   <li>set-config-value entry=value
+	   </ul>
+<li>Enhanced --quietness.
+<li>Added AC_SYS_LARGEFILE, enabling support to download files > 2GB.
+<li>Updated translations.
+<li>Various bugfixes.
+</ul>
+
+<hr/>
+
 <h2>libgphoto2 2.4.7</h2>
 
 This is a 2.4 release branch update.
