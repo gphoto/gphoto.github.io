@@ -68,7 +68,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon Digital IXUS II/PowerShot SD100</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All,Viewfinder</td>
 	<td>3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -76,7 +76,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot SD110</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All,Viewfinder</td>
 	<td>3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -84,7 +84,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon Digital IXUS 400</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All,Viewfinder</td>
 	<td>?</td>
 	<td>&nbsp;</td>
 </tr>
@@ -92,7 +92,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon Digital IXUS 430 / ELPH S410</td>
 	<td>Yes</td>
-	<td>?</td>
+	<td>?,Viewfinder</td>
 	<td>4.0</td>
 	<td>In PTP mode</td>
 </tr>
@@ -100,10 +100,19 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon IXY Digital 300</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All,Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
+
+<tr>
+	<td>Canon EOS 1000D</td>
+	<td>Yes</td>
+	<td>limited level of configurability, Viewfinder</td>
+	<td>10</td>
+	<td>Use libgphoto2 2.4.7</td>
+</tr>
+
 
 <tr>
 	<td>Canon EOS 300D/Digital Rebel</td>
@@ -116,9 +125,9 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon EOS 40D</td>
 	<td>Yes</td>
-	<td>limited level of configurability</td>
+	<td>limited level of configurability, Viewfinder</td>
 	<td>10.1</td>
-	<td>reported working with libgphoto2 2.4.3, but reported to be regressed to not work in 2.4.5</td>
+	<td>use libgphoto2 2.4.7</td>
 </tr>
 
 <tr>
@@ -126,21 +135,30 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>limited level of configurability</td>
 	<td>10.1</td>
-	<td>Confirmed to work by Marcus with libgphoto2 2.4.5</td>
+	<td>use libgphoto2 2.4.7</td>
 </tr>
 
 <tr>
 	<td>Canon EOS 450D</td>
 	<td>Yes</td>
-	<td>limited level of configurability</td>
+	<td>limited level of configurability, Viewfinder</td>
 	<td>12</td>
-	<td>Confirmed by Marcus with libgphoto2 2.4.4</td>
+	<td>use libgphoto2 2.4.7</td>
 </tr>
+
+<tr>
+	<td>Canon EOS 5D Mark II</td>
+	<td>Yes</td>
+	<td>limited level of configurability, Viewfinder</td>
+	<td>10.1</td>
+	<td>use libgphoto2 2.4.7</td>
+</tr>
+
 
 <tr>
 	<td>Canon PowerShot A10</td>
 	<td>Yes</td>
-	<td>unknown</td>
+	<td>unknown, Viewfinder</td>
 	<td>1.3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -148,7 +166,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A100</td>
 	<td>Yes</td>
-	<td>unknown</td>
+	<td>unknown, Viewfinder</td>
 	<td>1.2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -156,7 +174,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A20</td>
 	<td>Yes</td>
-	<td>unknown</td>
+	<td>unknown, Viewfinder</td>
 	<td>2.1</td>
 	<td>&nbsp;</td>
 </tr>
@@ -164,7 +182,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A200</td>
 	<td>Yes</td>
-	<td>unknown</td>
+	<td>unknown, Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -172,7 +190,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A30</td>
 	<td>Yes</td>
-	<td>unknown</td>
+	<td>unknown, Viewfinder</td>
 	<td>1.32</td>
 	<td>&nbsp;</td>
 </tr>
@@ -180,7 +198,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A300</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>3.2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -188,7 +206,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A310</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>3.2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -196,7 +214,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A40</td>
 	<td>Yes</td>
-	<td>unknown</td>
+	<td>unknown, Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -204,7 +222,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A400</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>3.2</td>
 	<td>from reporter. Only captures with PTP driver.</td>
 </tr>
@@ -212,7 +230,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A510</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>3.2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -220,7 +238,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A520</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
@@ -228,7 +246,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A60</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -236,7 +254,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A640</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>10</td>
 	<td>One reference user: <a href="http://www.oldcapebridge.com">oldcapebridge.com</a></td>
 </tr>
@@ -244,7 +262,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A70</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>3</td>
 	<td>(from ptpcanon list)</td>
 </tr>
@@ -252,7 +270,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A75</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>3</td>
 	<td>from capture.sf.net notes</td>
 </tr>
@@ -260,7 +278,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A80</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>4</td>
 	<td>capture.sf.net and user reported</td>
 </tr>
@@ -268,7 +286,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A85</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>4</td>
 	<td></td>
 </tr>
@@ -276,7 +294,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A95</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>5</td>
 	<td>from capture.sf.net notes</td>
 </tr>
@@ -284,7 +302,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A520</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>4</td>
 	<td>from capture.sf.net notes</td>
 </tr>
@@ -292,7 +310,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A620</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>7</td>
 	<td>&nbsp;</td>
 </tr>
@@ -300,7 +318,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A640</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>10</td>
 	<td>&nbsp;</td>
 </tr>
@@ -324,7 +342,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G3</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
@@ -332,7 +350,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G5</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>5</td>
 	<td>&nbsp;</td>
 </tr>
@@ -340,7 +358,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G6</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>7.1</td>
 	<td>&nbsp;</td>
 </tr>
@@ -348,7 +366,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G7</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>10</td>
 	<td>&nbsp;</td>
 </tr>
@@ -356,7 +374,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G9</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>12</td>
 	<td>&nbsp;</td>
 </tr>
@@ -364,7 +382,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G10</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>14.6</td>
 	<td>&nbsp;</td>
 </tr>
@@ -372,7 +390,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot Pro 90 IS</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>2.6</td>
 	<td>&nbsp;</td>
 </tr>
@@ -380,7 +398,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S1 IS</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -388,7 +406,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S2 IS</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>5</td>
 	<td>&nbsp;</td>
 </tr>
@@ -396,7 +414,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S3 IS</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>6</td>
 	<td>confirmed by Canon</td>
 </tr>
@@ -404,7 +422,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S5 IS</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>8</td>
 	<td>confirmed by user with 2.4.0</td>
 </tr>
@@ -412,7 +430,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S40</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
@@ -420,7 +438,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S10</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>2.1</td>
 	<td>&nbsp;</td>
 </tr>
@@ -428,7 +446,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S20</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>3.2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -436,7 +454,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S30</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>3.2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -444,7 +462,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S40</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
@@ -452,7 +470,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S45</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
@@ -460,7 +478,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S50</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>5</td>
 	<td>&nbsp;</td>
 </tr>
@@ -468,7 +486,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S60</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>5</td>
 	<td>See <a href="http://www.escursionisticivatesi.it/webcam/">sample installation</a></td>
 </tr>
@@ -476,7 +494,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S70</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>7</td>
 	<td>&nbsp;</td>
 </tr>
@@ -484,7 +502,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S80</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>8</td>
 	<td>&nbsp;</td>
 </tr>
@@ -492,7 +510,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S100</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -500,7 +518,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S110</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -508,7 +526,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S200</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -516,7 +534,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S230</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -524,7 +542,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S300</td>
 	<td>Yes</td>
-	<td>Unknown</td>
+	<td>Unknown, Viewfinder</td>
 	<td>2</td>
 	<td>&nbsp;</td>
 </tr>
@@ -532,7 +550,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S400</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>?</td>
 	<td>from capture.sf.net notes</td>
 </tr>
@@ -540,7 +558,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S410</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>?</td>
 	<td>from capture.sf.net notes</td>
 </tr>
@@ -548,7 +566,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot S500</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>?</td>
 	<td>from capture.sf.net notes</td>
 </tr>
@@ -556,7 +574,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot SD110</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -564,7 +582,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot SD430</td>
 	<td>Yes, but only over WLAN</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>5</td>
 	<td>Unfortunately the WLAN (PTP/IP) mode to connect to this camera is not working yet.</td>
 </tr>
@@ -572,7 +590,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot SX100 IS</td>
 	<td>Yes</td>
-	<td>Zoom ISO Quality ImageSize WhiteBalance ExposureCompensation FlashCompensation CaptureMode Aperture Shutterspeed MeteringMode AFDistance</td>
+	<td>Zoom ISO Quality ImageSize WhiteBalance ExposureCompensation FlashCompensation CaptureMode Aperture Shutterspeed MeteringMode AFDistance, Viewfinder</td>
 	<td>8</td>
 	<td>1 frame capture and download - 2-3 seconds</td>
 </tr>
@@ -580,7 +598,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot SX110 IS</td>
 	<td>Yes</td>
-	<td>All (likely same as SX100IS above)</td>
+	<td>All (likely same as SX100IS above), Viewfinder</td>
 	<td>9</td>
 	<td>&nbsp;</td>
 </tr>
@@ -773,7 +791,7 @@ here</a></td>
 <tr>
 	<td>Nikon D90</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>12</td>
 	<td>&nbsp;</td>
 </tr>
@@ -797,7 +815,7 @@ here</a></td>
 <tr>
 	<td>Nikon D700</td>
 	<td>Yes</td>
-	<td>All</td>
+	<td>All, Viewfinder</td>
 	<td>12</td>
 	<td>&nbsp;</td>
 </tr>
