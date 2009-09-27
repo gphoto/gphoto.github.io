@@ -17,6 +17,11 @@ mailinglist or to <a href="mailto:marcus@jet.franken.de">marcus@jet.franken.de</
 <br/>
 The list is incomplete and might be incorrect.
 </p>
+<p>
+If you start doing remote capturing, please begin by installing the
+latest libgphoto2 and gphoto2 stable releases, as remote control improvements and fixes are
+being added continously.
+</p>
 <hr />
 <h2>Configuring for capture</h2>
 <p>
