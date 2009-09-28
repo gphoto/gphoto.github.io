@@ -818,6 +818,14 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon D3000</td>
+	<td>Yes</td>
+	<td>Basic set of abilities (no SDRAM, no Viewfinder, just the basic capture settings)</td>
+	<td>10</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D700</td>
 	<td>Yes</td>
 	<td>All, Viewfinder</td>
