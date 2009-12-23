@@ -73,7 +73,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon Digital IXUS II/PowerShot SD100</td>
 	<td>Yes</td>
-	<td>All,Viewfinder</td>
+	<td>Quality, Imagesize, ISO, Whitebalance, Photoeffect, Zoom, Assistlight, ExpComp, Flashmode, Aperture, Focuspoints, Shutterspeed, Metering Mode, AF Distance, Focus Locking, Viewfinder</td>
 	<td>3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -81,7 +81,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot SD110</td>
 	<td>Yes</td>
-	<td>All,Viewfinder</td>
+	<td>All (like SD100),Viewfinder</td>
 	<td>3</td>
 	<td>&nbsp;</td>
 </tr>
@@ -113,9 +113,12 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon EOS 1000D</td>
 	<td>Yes</td>
-	<td>limited level of configurability, Viewfinder</td>
+	<td>Image Format, ISO, WhiteBalance, Whitebalance Adjust, DriveMode, Picture Style, Bulb Mode (reported, not working yet), BracketMode, Aperture, ShutterSpeed, Autofocus (in LiveView mode), Manual Focus (in LiveView mode), Viewfinder</td>
 	<td>10</td>
-	<td>Use libgphoto2 2.4.7</td>
+	<td>Use libgphoto2 2.4.7, bulb mode not working, remote focusing also not yet working.<br>
+	Use the Modewheel on the Camera to get to different
+	settings. Shutterspeed and Aperture not available in Auto or P
+	setting, only in the more manual ones.</td>
 </tr>
 
 
@@ -130,7 +133,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon EOS 40D</td>
 	<td>Yes</td>
-	<td>limited level of configurability, Viewfinder</td>
+	<td>limited level of configurability (see EOS 1000D), Viewfinder</td>
 	<td>10.1</td>
 	<td>use libgphoto2 2.4.7</td>
 </tr>
@@ -138,7 +141,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon EOS 400D</td>
 	<td>Yes</td>
-	<td>limited level of configurability</td>
+	<td>limited level of configurability (see EOS 1000D), no Viewfinder</td>
 	<td>10.1</td>
 	<td>use libgphoto2 2.4.7</td>
 </tr>
@@ -147,16 +150,50 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Canon EOS 450D</td>
 	<td>Yes</td>
 	<td>limited level of configurability, Viewfinder</td>
+	<td>Image Format, ISO, WhiteBalance, DriveMode, Picture Style, Aperture, Shutterspeed, Viewfinder</td>
 	<td>12</td>
-	<td>use libgphoto2 2.4.7</td>
+	<td>Use libgphoto2 2.4.7.
+	Use the ModeWheel on the Camera to get to different
+	settings. Shutterspeed and Aperture not available in Auto or P
+	setting, only in the more manual ones.</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 50D</td>
+	<td>Yes</td>
+	<td>limited level of configurability (see other EOS), Viewfinder</td>
+	<td>?</td>
+	<td>Use libgphoto2 2.4.7.
+	Use the ModeWheel on the Camera to get to different
+	settings. Shutterspeed and Aperture not available in Auto or P
+	setting, only in the more manual ones.</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 500D</td>
+	<td>Yes</td>
+	<td>limited level of configurability (see other EOS), Viewfinder</td>
+	<td>?</td>
+	<td>Use libgphoto2 2.4.7.
+	Use the ModeWheel on the Camera to get to different
+	settings. Shutterspeed and Aperture not available in Auto or P
+	setting, only in the more manual ones.</td>
 </tr>
 
 <tr>
 	<td>Canon EOS 5D Mark II</td>
 	<td>Yes</td>
-	<td>limited level of configurability, Viewfinder</td>
+	<td>see other EOS like 1000D, Viewfinder</td>
 	<td>10.1</td>
 	<td>use libgphoto2 2.4.7</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 7D</td>
+	<td>Yes</td>
+	<td>ImageFormat, ISO, WhiteBalance, WhiteBalanceAdjust, DriveMode, PictureStyle, Aperture, Shutterspeed, MeteringMode, BracketMode, AutoExposure Bracketing, Viewfinder</td>
+	<td>?</td>
+	<td>Use libgphoto2 2.4.7</td>
 </tr>
 
 
@@ -227,9 +264,9 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A400</td>
 	<td>Yes</td>
-	<td>All, Viewfinder</td>
+	<td>ImageQuality, ImageSize, FlashMode, ShootingMode, DriveMode, Zoom, MeteringMode, AF Distance, FocusingPoint, WhiteBalance, ISO, Aperture, ShutterSpeed, ExpComp, PhotoEffect, AssistLight, Focus Locking, Viewfinder</td>
 	<td>3.2</td>
-	<td>from reporter. Only captures with PTP driver.</td>
+	<td>From reporter. Only captures with PTP driver.</td>
 </tr>
 
 <tr>
@@ -257,9 +294,17 @@ This can be used with either <code>--capture-image</code> which would leave all 
 </tr>
 
 <tr>
+	<td>Canon PowerShot A620</td>
+	<td>Yes</td>
+	<td>Unknown, Viewfinder</td>
+	<td>?</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Canon PowerShot A640</td>
 	<td>Yes</td>
-	<td>All, Viewfinder</td>
+	<td>ImageQuality, ImageSize, ISO, WhiteBalance, AssistLight, ExpComp, FlashMode, ShootingMode, Aperture, Shutterspeed, FocusingPoint, MeteringMode, AF Distance, Focus Locking, Viewfinder</td>
 	<td>10</td>
 	<td>One reference user: <a href="http://www.oldcapebridge.com">oldcapebridge.com</a></td>
 </tr>
@@ -267,7 +312,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A70</td>
 	<td>Yes</td>
-	<td>Unknown, Viewfinder</td>
+	<td>ImageQuality, ImageSize, FlashMode, ShootingMode, DriveMode, Zoom, MeteringMode, AF Distance, Focusing Point, WhiteBalance, ISO, Aperture, Shutterspeed, PhotoEffect, Focus Locking, Viewfinder</td>
 	<td>3</td>
 	<td>(from ptpcanon list)</td>
 </tr>
@@ -299,7 +344,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A95</td>
 	<td>Yes</td>
-	<td>All, Viewfinder</td>
+	<td>ImageQuality, ImageSize, FlashMode, ShootingMode, DriveMode, Zoom, MeteringMode, AF Distance, Focusing Point, WhiteBalance, ISO, Aperture, Shutterspeed, ExpComp, Focus Locking, Viewfinder</td>
 	<td>5</td>
 	<td>from capture.sf.net notes</td>
 </tr>
@@ -355,7 +400,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G5</td>
 	<td>Yes</td>
-	<td>All, Viewfinder</td>
+	<td>ImageQuality, ImageSize, ISO, WhiteBalance, PhotoEffect, Zoom,AssistLight, ExpComp, Aperture, FocusingPoint, ShutterSpeed, MeteringMode, AF Distance, Viewfinder</td>
 	<td>5</td>
 	<td>&nbsp;</td>
 </tr>
@@ -379,7 +424,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot G9</td>
 	<td>Yes</td>
-	<td>All, Viewfinder</td>
+	<td>ImageSize, ISO, WhiteBalance, Zoom, AssistLight, ExpComp, FlashComp, FlashMode, ShootingMode, Aperture, FocusingPoint, ShutterSpeed, MeteringMode, AF Distance, Viewfinder</td>
 	<td>12</td>
 	<td>&nbsp;</td>
 </tr>
@@ -595,7 +640,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot SX100 IS</td>
 	<td>Yes</td>
-	<td>Zoom ISO Quality ImageSize WhiteBalance ExposureCompensation FlashCompensation CaptureMode Aperture Shutterspeed MeteringMode AFDistance, Viewfinder</td>
+	<td>Zoom, ISO, Quality, ImageSize, WhiteBalance, ExposureCompensation, FlashCompensation, CaptureMode, Aperture, Shutterspeed, MeteringMode, AF Distance,, Focus Locking, Viewfinder</td>
 	<td>8</td>
 	<td>1 frame capture and download - 2-3 seconds</td>
 </tr>
