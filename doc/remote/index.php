@@ -90,7 +90,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Canon Digital IXUS 400</td>
 	<td>Yes</td>
 	<td>All,Viewfinder</td>
-	<td>?</td>
+	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
 
@@ -98,7 +98,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Canon Digital IXUS 430 / ELPH S410</td>
 	<td>Yes</td>
 	<td>?,Viewfinder</td>
-	<td>4.0</td>
+	<td>4</td>
 	<td>In PTP mode</td>
 </tr>
 
@@ -149,7 +149,6 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon EOS 450D</td>
 	<td>Yes</td>
-	<td>limited level of configurability, Viewfinder</td>
 	<td>Image Format, ISO, WhiteBalance, DriveMode, Picture Style, Aperture, Shutterspeed, Viewfinder</td>
 	<td>12</td>
 	<td>Use libgphoto2 2.4.7.
@@ -162,7 +161,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Canon EOS 50D</td>
 	<td>Yes</td>
 	<td>limited level of configurability (see other EOS), Viewfinder</td>
-	<td>?</td>
+	<td>15.1</td>
 	<td>Use libgphoto2 2.4.7.
 	Use the ModeWheel on the Camera to get to different
 	settings. Shutterspeed and Aperture not available in Auto or P
@@ -173,7 +172,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Canon EOS 500D</td>
 	<td>Yes</td>
 	<td>limited level of configurability (see other EOS), Viewfinder</td>
-	<td>?</td>
+	<td>15.1</td>
 	<td>Use libgphoto2 2.4.7.
 	Use the ModeWheel on the Camera to get to different
 	settings. Shutterspeed and Aperture not available in Auto or P
@@ -192,7 +191,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Canon EOS 7D</td>
 	<td>Yes</td>
 	<td>ImageFormat, ISO, WhiteBalance, WhiteBalanceAdjust, DriveMode, PictureStyle, Aperture, Shutterspeed, MeteringMode, BracketMode, AutoExposure Bracketing, Viewfinder</td>
-	<td>?</td>
+	<td>18</td>
 	<td>Use libgphoto2 2.4.7</td>
 </tr>
 
