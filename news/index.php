@@ -10,6 +10,69 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>gphoto2 2.4.8</h2>
+
+<ul>
+<li>Output CAPTURECOMPLETE on waitevent
+<li>On --filename "foo/bar/berk.jpg" create subdirectories if not yet present.
+<li>New shell command: capture-preview
+<li>Added Bulb Mode in interval capture with -B / --bulb <seconds>
+</ul>
+
+<hr />
+<h2>libgphoto2 2.4.8</h2>
+
+This is a 2.4 release branch update.
+
+<h3>libgphoto2</h3>
+<ul>
+<li>Updated translations.
+<li>Added read-only flag for Widgets. gp_widget_set_readonly / gp_widget_get_readonly.
+<li>GP_EVENT_CAPTURE_COMPLETE event added from trunk.
+<li>Some bugfixes.
+</ul>
+
+<h3>ptp2</h3>
+<ul>
+<li>New USB IDs for cameras:
+    <ul>
+    <li>Kodak Z915
+    <li>Nikon CoolPix S220, S225,
+    <li>Nikon DSLR D5000, D3000, D300s
+    <li>Canon PowerShot SD770 IS, A580, SD1200, IXUS 95 IS, G11, IXY 220IS, SD940IS
+    <li>Canon EOS 7D
+    <li>Fuji S5 Pro
+    <li>Sea &amp; Sea 2G
+    <li>Also merged new libmtp deviceids.
+    </ul>
+<li>Fuji S5 Pro capture support.
+<li>Bugfixes in Canon EOS preview code.
+<li>Fixed NIKON DSLR shutterspeed not able to set bug.
+<li>Nikon error decoding.
+<li>Several Canon EOS configuration and capture additions and fixes, focus pulling.
+<li>PTP protocol stability improvements.
+<li>Lots of bugfixes.
+</ul>
+
+<h3>sierra</h3>
+<ul>
+<li>restrict list of choices for Nikon Coolpix 4300
+</ul>
+
+<h3>directory</h3>
+<ul>
+<li>Merged from TRUNK to gain the good stuff.
+</ul>
+
+<h3>libgphoto2_port/usb</h3>
+<ul>
+<li>Updated translations.
+<li>Check for MTP devices by string descriptor first and by OSD later.
+</ul>
+
+
+
+<hr />
 <h2>gphoto2 2.4.7</h2>
 
 <ul>
