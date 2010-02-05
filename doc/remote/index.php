@@ -113,12 +113,16 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon EOS 1000D / Rebel XS / Kiss F</td>
 	<td>Yes</td>
-	<td>Image Format, ISO, WhiteBalance, Whitebalance Adjust, DriveMode, Picture Style, Bulb Mode (reported, not working yet), BracketMode, Aperture, ShutterSpeed, Autofocus (in LiveView mode), Manual Focus (in LiveView mode), Viewfinder</td>
+	<td>Image Format, ISO, WhiteBalance, Whitebalance Adjust, DriveMode, Picture Style, Bulb Mode, BracketMode, Aperture, ShutterSpeed, Autofocus (in LiveView mode), Manual Focus (in LiveView mode), Viewfinder</td>
 	<td>10</td>
-	<td>Use libgphoto2 2.4.7, bulb mode not working, remote focusing also not yet working.<br>
+	<td>Use libgphoto2 2.4.8<br>
 	Use the Modewheel on the Camera to get to different
-	settings. Shutterspeed and Aperture not available in Auto or P
-	setting, only in the more manual ones.</td>
+	settings.<br>
+	Shutterspeed and Aperture not available in Auto or P
+	setting, only in the more manual ones.<br>
+	For Bulb mode: Switch dial to 'M'anual mode, gphoto2 --set-config shutterspeed=bulb , and run something like:
+	gphoto2 --set-config bulb=1 --wait-event=10s --set-config bulb=0 --wait-event-and-download=5s
+	</td>
 </tr>
 
 
@@ -135,7 +139,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>limited level of configurability (see EOS 1000D), Viewfinder</td>
 	<td>10.1</td>
-	<td>use libgphoto2 2.4.7</td>
+	<td>use libgphoto2 2.4.8</td>
 </tr>
 
 <tr>
@@ -143,7 +147,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>limited level of configurability (see EOS 1000D), no Viewfinder</td>
 	<td>10.1</td>
-	<td>use libgphoto2 2.4.7</td>
+	<td>use libgphoto2 2.4.8</td>
 </tr>
 
 <tr>
@@ -151,7 +155,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>Image Format, ISO, WhiteBalance, DriveMode, Picture Style, Aperture, Shutterspeed, Viewfinder</td>
 	<td>12</td>
-	<td>Use libgphoto2 2.4.7.
+	<td>Use libgphoto2 2.4.8.
 	Use the ModeWheel on the Camera to get to different
 	settings. Shutterspeed and Aperture not available in Auto or P
 	setting, only in the more manual ones.</td>
@@ -162,7 +166,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>limited level of configurability (see other EOS), Viewfinder</td>
 	<td>15.1</td>
-	<td>Use libgphoto2 2.4.7.
+	<td>Use libgphoto2 2.4.8.
 	Use the ModeWheel on the Camera to get to different
 	settings. Shutterspeed and Aperture not available in Auto or P
 	setting, only in the more manual ones.</td>
@@ -173,7 +177,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>limited level of configurability (see other EOS), Viewfinder</td>
 	<td>15.1</td>
-	<td>Use libgphoto2 2.4.7.
+	<td>Use libgphoto2 2.4.8.
 	Use the ModeWheel on the Camera to get to different
 	settings. Shutterspeed and Aperture not available in Auto or P
 	setting, only in the more manual ones.</td>
@@ -184,7 +188,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>see other EOS like 1000D, Viewfinder</td>
 	<td>10.1</td>
-	<td>use libgphoto2 2.4.7</td>
+	<td>use libgphoto2 2.4.8</td>
 </tr>
 
 <tr>
@@ -192,7 +196,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>ImageFormat, ISO, WhiteBalance, WhiteBalanceAdjust, DriveMode, PictureStyle, Aperture, Shutterspeed, MeteringMode, BracketMode, AutoExposure Bracketing, Viewfinder</td>
 	<td>18</td>
-	<td>Use libgphoto2 2.4.7</td>
+	<td>Use libgphoto2 2.4.8</td>
 </tr>
 
 
