@@ -111,7 +111,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 </tr>
 
 <tr>
-	<td>Canon EOS 1000D</td>
+	<td>Canon EOS 1000D / Rebel XS / Kiss F</td>
 	<td>Yes</td>
 	<td>Image Format, ISO, WhiteBalance, Whitebalance Adjust, DriveMode, Picture Style, Bulb Mode (reported, not working yet), BracketMode, Aperture, ShutterSpeed, Autofocus (in LiveView mode), Manual Focus (in LiveView mode), Viewfinder</td>
 	<td>10</td>
@@ -139,7 +139,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 </tr>
 
 <tr>
-	<td>Canon EOS 400D</td>
+	<td>Canon EOS 400D / Rebel XTi / Kiss Digital X</td>
 	<td>Yes</td>
 	<td>limited level of configurability (see EOS 1000D), no Viewfinder</td>
 	<td>10.1</td>
@@ -147,7 +147,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 </tr>
 
 <tr>
-	<td>Canon EOS 450D</td>
+	<td>Canon EOS 450D / Rebel XSi / Kiss X2</td>
 	<td>Yes</td>
 	<td>Image Format, ISO, WhiteBalance, DriveMode, Picture Style, Aperture, Shutterspeed, Viewfinder</td>
 	<td>12</td>
@@ -169,7 +169,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 </tr>
 
 <tr>
-	<td>Canon EOS 500D</td>
+	<td>Canon EOS 500D / Rebel T1i / Kiss X3</td>
 	<td>Yes</td>
 	<td>limited level of configurability (see other EOS), Viewfinder</td>
 	<td>15.1</td>
