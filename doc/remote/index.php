@@ -196,7 +196,7 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	<td>Yes</td>
 	<td>ImageFormat, ISO, WhiteBalance, WhiteBalanceAdjust, DriveMode, PictureStyle, Aperture, Shutterspeed, MeteringMode, BracketMode, AutoExposure Bracketing, Viewfinder</td>
 	<td>18</td>
-	<td>Use libgphoto2 2.4.8</td>
+	<td>Use libgphoto2 2.4.8. For Bulb capture turn rotary dial to 'B'.</td>
 </tr>
 
 
