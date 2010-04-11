@@ -44,6 +44,7 @@ This is a 2.4 release branch update.
      </ul>
 <li> Some bugs fixed, some memory leaks closed.
 <li> music-players.h merged from libmtp, bringing new MTP devices.
+</ul>
 
 <h3>ST2205 Driver</h3>
 New Pictureframe driver from Hans de Goede. st2205 based frames present
