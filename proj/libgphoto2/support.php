@@ -29,9 +29,9 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Sun Jan 24 18:10:03 CET 2010
+Sun Apr 11 16:11:31 CEST 2010
 ========================================================================
-gphoto2 2.4.8
+gphoto2 2.4.9
 
 Copyright (c) 2000-2010 Lutz Mueller and others
 
@@ -40,11 +40,11 @@ redistribute copies of gphoto2 under the terms of the GNU General Public
 License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
-gphoto2         2.4.8          gcc, popt(m), exif, no cdk, no aa, jpeg, readline
-libgphoto2      2.4.8          gcc, ltdl, EXIF
+gphoto2         2.4.9          gcc, popt(m), exif, no cdk, no aa, jpeg, readline
+libgphoto2      2.4.9          gcc, ltdl, EXIF
 libgphoto2_port 0.8.0          gcc, ltdl, USB, serial resmgr locking
 ========================================================================
-Number of supported cameras: 1209
+Number of supported cameras: 1244
 Supported cameras:
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
@@ -65,6 +65,7 @@ Supported cameras:
 	"American Idol Keychain Camera" (TESTING)
 	"Apple iPhone (PTP mode)"
 	"Apple iPhone 3G (PTP mode)"
+	"Apple iPhone 3GS (PTP mode)"
 	"Apple iPod Touch (PTP mode)"
 	"Apple iPod Touch 2G (PTP mode)"
 	"Apple QuickTake 200"
@@ -102,11 +103,15 @@ Supported cameras:
 	"Argus DC-2000"
 	"Argus DC-2200"
 	"Argus QuickClix"
+	"AX203 USB picture frame firmware ver 3.3.x" (TESTING)
+	"AX203 USB picture frame firmware ver 3.4.x" (TESTING)
+	"AX203 USB picture frame firmware ver 3.5.x" (TESTING)
 	"Barbie"
 	"Benq DC1300" (TESTING)
 	"Canon Digital IXUS"
 	"Canon Digital IXUS 100 IS"
 	"Canon Digital IXUS 110 IS"
+	"Canon Digital IXUS 120 IS"
 	"Canon Digital IXUS 30 (PTP mode)"
 	"Canon Digital IXUS 300"
 	"Canon Digital IXUS 330"
@@ -168,6 +173,7 @@ Supported cameras:
 	"Canon EOS 450D (PTP mode)"
 	"Canon EOS 500D"
 	"Canon EOS 50D"
+	"Canon EOS 550D"
 	"Canon EOS 5D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 5D (PTP mode)"
 	"Canon EOS 5D Mark II"
@@ -176,9 +182,15 @@ Supported cameras:
 	"Canon EOS D60"
 	"Canon EOS Digital Rebel (normal mode)"
 	"Canon EOS Digital Rebel (PTP mode)"
+	"Canon EOS Digital Rebel XTi (PTP mode)"
 	"Canon EOS Kiss Digital (normal mode)"
 	"Canon EOS Kiss Digital (PTP mode)"
 	"Canon EOS Kiss Digital N (normal mode)" (EXPERIMENTAL)
+	"Canon EOS Kiss Digital X (PTP mode)"
+	"Canon EOS Kiss X2 (PTP mode)"
+	"Canon EOS Kiss X3"
+	"Canon EOS Rebel T1i"
+	"Canon EOS Rebel XSi (PTP mode)"
 	"Canon FV M1 (normal mode)"
 	"Canon Ixus Digital 700 (PTP/MTP mode)"
 	"Canon IXY 220 IS"
@@ -213,6 +225,7 @@ Supported cameras:
 	"Canon PowerShot A1100 IS"
 	"Canon PowerShot A20"
 	"Canon PowerShot A200"
+	"Canon PowerShot A2100 IS"
 	"Canon PowerShot A30"
 	"Canon PowerShot A300 (PTP mode)"
 	"Canon PowerShot A310 (PTP mode)"
@@ -312,10 +325,12 @@ Supported cameras:
 	"Canon PowerShot SD880 IS"
 	"Canon PowerShot SD900 (PTP mode)"
 	"Canon PowerShot SD940 IS"
+	"Canon PowerShot SD970 IS"
 	"Canon PowerShot SD990"
 	"Canon PowerShot SX10 IS"
 	"Canon Powershot SX100 IS (PTP mode)"
 	"Canon PowerShot SX110 IS"
+	"Canon PowerShot SX20 IS"
 	"Canon PowerShot SX200 IS"
 	"Canon PowerShot SX20IS (PTP/MTP mode)"
 	"Canon PowerShot unknown 1"
@@ -438,12 +453,15 @@ Supported cameras:
 	"Fuji FinePix F50fd"
 	"Fuji FinePix S1000fd"
 	"Fuji FinePix S100fs"
+	"Fuji FinePix S1500"
 	"Fuji FinePix S2000HD"
+	"Fuji FinePix S2500HD"
 	"Fuji FinePix S5700"
 	"Fuji FinePix S6500fd"
 	"Fuji FinePix S7000"
 	"Fuji FinePix S9500"
 	"Fuji FinePix Z100fd"
+	"Fuji FinePix Z35"
 	"Fuji IX-1"
 	"Fuji MX-1200"
 	"Fuji MX-1700"
@@ -531,6 +549,7 @@ Supported cameras:
 	"iRiver Clix2"
 	"iRiver E100"
 	"iRiver E100 v2/Lplayer"
+	"iRiver E30"
 	"iRiver E50"
 	"iRiver H10 20GB"
 	"iRiver H10 5.6GB"
@@ -709,6 +728,7 @@ Supported cameras:
 	"Mitek CD30P" (EXPERIMENTAL)
 	"Motorola A1200"
 	"Motorola K1"
+	"Motorola Milestone / Verizon Droid"
 	"Motorola MTP Test Command Interface"
 	"Motorola RAZR2 V8/U9/Z6"
 	"Motorola V3m/V750 verizon"
@@ -756,6 +776,7 @@ Supported cameras:
 	"Nikon CoolPix 800"
 	"Nikon Coolpix 8700 (PTP mode)"
 	"Nikon CoolPix 880"
+	"Nikon Coolpix 8800 (PTP mode)"
 	"Nikon Coolpix 885 (PTP mode)"
 	"Nikon CoolPix 900"
 	"Nikon CoolPix 900S"
@@ -769,6 +790,8 @@ Supported cameras:
 	"Nikon Coolpix L11 (PTP mode)"
 	"Nikon Coolpix L12 (PTP mode)"
 	"Nikon Coolpix L16 (PTP mode)"
+	"Nikon Coolpix L19 (PTP mode)"
+	"Nikon Coolpix L20 (PTP mode)"
 	"Nikon Coolpix L4 (PTP mode)"
 	"Nikon Coolpix P1 (PTP mode)"
 	"Nikon Coolpix P2 (PTP mode)"
@@ -777,6 +800,7 @@ Supported cameras:
 	"Nikon Coolpix P5000 (PTP mode)"
 	"Nikon Coolpix P5100 (PTP mode)"
 	"Nikon Coolpix P60 (PTP mode)"
+	"Nikon Coolpix P6000 (PTP mode)"
 	"Nikon Coolpix S2 (PTP mode)"
 	"Nikon Coolpix S200 (PTP mode)"
 	"Nikon Coolpix S220 (PTP mode)"
@@ -827,6 +851,7 @@ Supported cameras:
 	"Nokia E63"
 	"Nokia E66"
 	"Nokia E71"
+	"Nokia E71x"
 	"Nokia N73"
 	"Nokia N73 Mobile Phone"
 	"Nokia N75 Mobile Phone"
@@ -906,12 +931,15 @@ Supported cameras:
 	"Olympus D-600XL"
 	"Olympus D-620L"
 	"Olympus fe-200"
+	"Olympus FE4000"
 	"Olympus IR-300"
 	"Olympus mju 500"
 	"Olympus SP-500UZ"
 	"Olympus X-100"
 	"Olympus X-250"
 	"Olympus X-450"
+	"Olympus X920"
+	"Olympus X925"
 	"Oregon Scientific DShot II"
 	"Oregon Scientific DShot III"
 	"Panasonic Coolshot KXL-600A"
@@ -919,11 +947,13 @@ Supported cameras:
 	"Panasonic Coolshot NV-DCF5E"
 	"Panasonic DC1000"
 	"Panasonic DC1580"
+	"Panasonic DMC-FS62"
 	"Panasonic DMC-FZ20"
 	"Panasonic DMC-FZ50"
 	"Panasonic DMC-LS3"
 	"Panasonic DMC-TZ15"
 	"Panasonic P905i"
+	"Panasonic P906i"
 	"Panasonic PV-L691"
 	"Panasonic PV-L859"
 	"Pencam TEVION MD 9456"
@@ -940,6 +970,7 @@ Supported cameras:
 	"Philips GoGear Aria"
 	"Philips GoGear Audio"
 	"Philips GoGear Muse"
+	"Philips GoGear SA1VBE08KX/78"
 	"Philips GoGear SA3345"
 	"Philips GoGear SA5145"
 	"Philips GoGear SA6014/SA6015/SA6024/SA6025/SA6044/SA6045"
@@ -1032,6 +1063,7 @@ Supported cameras:
 	"Samsung GT-B2700"
 	"Samsung GT-S5230"
 	"Samsung I550W Phone"
+	"Samsung Jet S8000"
 	"Samsung Juke (SCH-U470)"
 	"Samsung Kenox SSC-350N"
 	"Samsung SAMSUNG Trance"
@@ -1054,6 +1086,7 @@ Supported cameras:
 	"Samsung YP-Q1"
 	"Samsung YP-Q2"
 	"Samsung YP-R0"
+	"Samsung YP-R1"
 	"Samsung YP-S3"
 	"Samsung YP-S5"
 	"Samsung YP-T10"
@@ -1167,6 +1200,7 @@ Supported cameras:
 	"Sony Walkman NWZ-B135"
 	"Sony Walkman NWZ-B142F"
 	"Sony Walkman NWZ-E436F"
+	"Sony Walkman NWZ-E445"
 	"Sony Walkman NWZ-S516"
 	"Sony Walkman NWZ-S545"
 	"Sony Walkman NWZ-S615F/NWZ-S616F/NWZ-S618F"
@@ -1197,6 +1231,7 @@ Supported cameras:
 	"SpyPen Memo"
 	"SpyPen Xion"
 	"SQ chip camera" (EXPERIMENTAL)
+	"ST2205 USB picture frame" (TESTING)
 	"StarCam CP086"
 	"STM USB Dual-mode camera"
 	"STV0680"
