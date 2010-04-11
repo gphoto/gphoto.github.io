@@ -10,6 +10,64 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>gphoto2 2.4.9</h2>
+
+<ul>
+<li>Capture main event loop rewritten to always use wait event to also support multiple image captures. (JPEG+RAW)
+<li>Fixed various bugs and memory leaks.
+<li>Translation updates.
+</ul>
+
+<hr />
+<h2>libgphoto2 2.4.9</h2>
+This is a 2.4 release branch update.
+
+<h3>ptp2 driver</h3>
+<ul>
+<li> Fixed EOS viewfinder capture speed (2 images/s -> 20 i/s)
+<li> EOS event handling cleaned up, so that we can also have
+     dual image capture (RAW+JPEG).
+<li> New Canon EOS properties: autoexposuremode, cameraoutput, evfmode, uilock.
+<li> New Nikon property: exposuredelaymode
+<li> Fixed a Canon Powershot configuration bug that caused hangs.
+<li> Fixed a Nikon Coolpix configuration bug that caused hangs.
+<li> Fixed shutterspeed setting to be more generic.
+<li> New IDs added:
+     <ul>
+     <li>Nikon Coolpix 8800, P6000, L20, L19
+     <li>Panasonic FS62
+     <li>Olympus FE4000/X920/X925, 
+     <li>Canon EOS 550D
+     <li>Canon Powershot A2100IS, SD970IS, SX20IS, IXUS 120IS
+     <li>Fuji FinePix S1500, Z35, S2500HD
+     <li>Apple iPhone 3GS
+     </ul>
+<li> Some bugs fixed, some memory leaks closed.
+<li> music-players.h merged from libmtp, bringing new MTP devices.
+
+<h3>ST2205 Driver</h3>
+New Pictureframe driver from Hans de Goede. st2205 based frames present
+themselves as a regular usb mass storage device, but cannot be used
+as a normal disk! Communication with the device happens by a special
+protocol which consist of reading / writing sectors of the disk at
+certain magic offsets. Also included is a "usbdiskdirect" port driver,
+which allows the direct sector access the camlib for these devices needs.
+
+<h3>AX203 Driver</h3>
+New Pictureframe driver from Hans de Goede. ax203 based frames present 
+themselves as a usb mass storage cdrom, which contains the windows
+software. Communication with the device happens by issuing special
+(custom) scsi commands. Also included is a "usbscsi" port driver,      
+which allows sending the custom scsi commands.
+
+Note that if your ax203 frame has a usb-id of 1908:1315, you need to
+tell Linux not to touch the HID device this version also presents
+in its USB descriptor. To do this add the following on the linux kernel
+cmdline: "usbhid.quirks=0x1908:0x1315:0x4"
+
+<h3>digita</h3>
+Made to work again hopefully after breakage due to filesystem changes.
+<hr />
 <h2>gphoto2 2.4.8</h2>
 
 <ul>
