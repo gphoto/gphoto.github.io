@@ -983,8 +983,17 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 	<td>Sony Cybershot DSC (PTP)</td>
 	<td>None of those supports remote capture.</td>
 </tr>
+<tr>
+	<td>Fuji Finepix (PTP)</td>
+	<td>Most of those supports remote capture.
+        Some professional Fuji S* pro cameras support it, please see
+        <a href="http://www.fujifilm.com/support/digital_cameras/compatibility/utility/">the Utility tool</a> page.
+        </td>
+</tr>
 <tr><td>Various Canon cameras:</td>
 <td>
+All Powershots released after mid 2009 are not capable of remote control anymore.
+<p>
  Statement from Canon SDK: <i>As a reminder:
 PowerShots A410, A420, A430, A450, A460, A470,
 A530, A540, A550, A560, A570 IS, A580, A590 IS,
