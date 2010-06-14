@@ -985,8 +985,8 @@ capture for this camera. Those are likely able to be supported by libgphoto2 if 
 </tr>
 <tr>
 	<td>Fuji Finepix (PTP)</td>
-	<td>Most of those supports remote capture.
-        Some professional Fuji S* pro cameras support it, please see
+	<td>Most of these cameras do not support remote capture.
+        Some professional Fuji S* pro cameras might support it, please see
         <a href="http://www.fujifilm.com/support/digital_cameras/compatibility/utility/">the Utility tool</a> page.
         </td>
 </tr>
