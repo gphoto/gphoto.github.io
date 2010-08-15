@@ -29,9 +29,9 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Sun Apr 11 16:11:31 CEST 2010
+Sun Aug 15 19:55:11 CEST 2010
 ========================================================================
-gphoto2 2.4.9
+gphoto2 2.4.10
 
 Copyright (c) 2000-2010 Lutz Mueller and others
 
@@ -40,12 +40,13 @@ redistribute copies of gphoto2 under the terms of the GNU General Public
 License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
-gphoto2         2.4.9          gcc, popt(m), exif, no cdk, no aa, jpeg, readline
-libgphoto2      2.4.9          gcc, ltdl, EXIF
+gphoto2         2.4.10         gcc, popt(m), exif, no cdk, no aa, jpeg, readline
+libgphoto2      2.4.10         gcc, ltdl, EXIF
 libgphoto2_port 0.8.0          gcc, ltdl, USB, serial resmgr locking
 ========================================================================
-Number of supported cameras: 1244
+Number of supported cameras: 1299
 Supported cameras:
+	" JL2005B/C/D camera" (EXPERIMENTAL)
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
 	"Agfa ePhoto 1680"
@@ -62,12 +63,23 @@ Supported cameras:
 	"Aiptek Pencam without flash" (TESTING)
 	"Aiptek Smart Megacam" (TESTING)
 	"ALi Corp. MPMAN 2GB"
+	"Amazing Spiderman" (EXPERIMENTAL)
 	"American Idol Keychain Camera" (TESTING)
+	"Apple 0x1296"
+	"Apple 0x1297"
+	"Apple 0x1298"
+	"Apple iPad"
+	"Apple iPhone"
 	"Apple iPhone (PTP mode)"
+	"Apple iPhone 3G"
 	"Apple iPhone 3G (PTP mode)"
+	"Apple iPhone 3GS"
 	"Apple iPhone 3GS (PTP mode)"
 	"Apple iPod Touch (PTP mode)"
+	"Apple iPod Touch 1st Gen"
 	"Apple iPod Touch 2G (PTP mode)"
+	"Apple iPod Touch 2nd Gen"
+	"Apple iPod Touch 3rd Gen"
 	"Apple QuickTake 200"
 	"Apple QuickTake 200"
 	"Archos 104 (MTP mode)"
@@ -94,6 +106,7 @@ Supported cameras:
 	"Archos SPOD (MTP mode)"
 	"Archos TV+ (MTP mode)"
 	"Archos XS202 (MTP mode)"
+	"Argus Bean Sprout" (EXPERIMENTAL)
 	"Argus DC-100"
 	"Argus DC-1500"
 	"Argus DC-1510"
@@ -102,10 +115,13 @@ Supported cameras:
 	"Argus DC-1730" (EXPERIMENTAL)
 	"Argus DC-2000"
 	"Argus DC-2200"
+	"Argus DC1512e" (EXPERIMENTAL)
 	"Argus QuickClix"
+	"Aries ATC-0017" (EXPERIMENTAL)
 	"AX203 USB picture frame firmware ver 3.3.x" (TESTING)
 	"AX203 USB picture frame firmware ver 3.4.x" (TESTING)
 	"AX203 USB picture frame firmware ver 3.5.x" (TESTING)
+	"AX203 USB picture frame firmware ver 3.6.x" (TESTING)
 	"Barbie"
 	"Benq DC1300" (TESTING)
 	"Canon Digital IXUS"
@@ -265,6 +281,7 @@ Supported cameras:
 	"Canon PowerShot A80 (PTP)"
 	"Canon PowerShot A85 (PTP mode)"
 	"Canon PowerShot A95 (PTP mode)"
+	"Canon PowerShot D10"
 	"Canon PowerShot G1"
 	"Canon PowerShot G10"
 	"Canon PowerShot G11"
@@ -330,6 +347,7 @@ Supported cameras:
 	"Canon PowerShot SX10 IS"
 	"Canon Powershot SX100 IS (PTP mode)"
 	"Canon PowerShot SX110 IS"
+	"Canon PowerShot SX120 IS"
 	"Canon PowerShot SX20 IS"
 	"Canon PowerShot SX200 IS"
 	"Canon PowerShot SX20IS (PTP/MTP mode)"
@@ -354,7 +372,7 @@ Supported cameras:
 	"Che-ez! SPYZ"
 	"Chinon ES-1000"
 	"Clever CAM 360" (TESTING)
-	"Cobra DC-125" (EXPERIMENTAL)
+	"Cobra DC125" (EXPERIMENTAL)
 	"Concord Eye-Q Duo" (EXPERIMENTAL)
 	"Concord Eye-Q Easy" (EXPERIMENTAL)
 	"Concord EyeQ 4330" (EXPERIMENTAL)
@@ -406,6 +424,7 @@ Supported cameras:
 	"Dell, Inc DJ Itty"
 	"Digigr8" (EXPERIMENTAL)
 	"Digital camera, CD302N" (EXPERIMENTAL)
+	"DIGITAL MID#0020509 (no-name camera)" (EXPERIMENTAL)
 	"Digitaldream DIGITAL 2000"
 	"DigitalDream Enigma1.3" (EXPERIMENTAL)
 	"DigitalDream l'elegante"
@@ -451,12 +470,16 @@ Supported cameras:
 	"Fuji FinePix F31fd"
 	"Fuji FinePix F40fd"
 	"Fuji FinePix F50fd"
+	"Fuji FinePix F60fd"
+	"Fuji FinePix F70 EXR"
 	"Fuji FinePix S1000fd"
 	"Fuji FinePix S100fs"
 	"Fuji FinePix S1500"
+	"Fuji FinePix S1800"
 	"Fuji FinePix S2000HD"
 	"Fuji FinePix S2500HD"
 	"Fuji FinePix S5700"
+	"Fuji FinePix S5800"
 	"Fuji FinePix S6500fd"
 	"Fuji FinePix S7000"
 	"Fuji FinePix S9500"
@@ -475,6 +498,8 @@ Supported cameras:
 	"Gear to go" (EXPERIMENTAL)
 	"Generic SoundVision Clarity2"
 	"Genius Smart 300, version 2" (EXPERIMENTAL)
+	"Global Point 3 in 1 Digital Fun Graffiti 00044" (EXPERIMENTAL)
+	"Global Point Clipster" (EXPERIMENTAL)
 	"GrandTek ScopeCam" (TESTING)
 	"GTW Electronics" (EXPERIMENTAL)
 	"Haier Ibiza Rhapsody"
@@ -574,6 +599,7 @@ Supported cameras:
 	"Isabella Her Prototype"
 	"Ixla DualCam 640" (EXPERIMENTAL)
 	"Jazz JDC9" (EXPERIMENTAL)
+	"Jazz JDK235" (EXPERIMENTAL)
 	"Jenoptik JD-3300z3" (EXPERIMENTAL)
 	"Jenoptik JD-4100z3" (EXPERIMENTAL)
 	"Jenoptik JD11"
@@ -675,6 +701,7 @@ Supported cameras:
 	"Kodak Z7590"
 	"Kodak Z812 IS"
 	"Kodak Z915"
+	"Kodak Z950"
 	"Kodak ZD710"
 	"Konica e-mini"
 	"Konica Q-EZ"
@@ -772,6 +799,7 @@ Supported cameras:
 	"Nikon Coolpix 5900 (PTP mode)"
 	"Nikon CoolPix 600"
 	"Nikon CoolPix 700"
+	"Nikon Coolpix 7600 (PTP mode)"
 	"Nikon Coolpix 7900 (PTP mode)"
 	"Nikon CoolPix 800"
 	"Nikon Coolpix 8700 (PTP mode)"
@@ -788,6 +816,7 @@ Supported cameras:
 	"Nikon Coolpix L1 (PTP mode)"
 	"Nikon Coolpix L10 (PTP mode)"
 	"Nikon Coolpix L11 (PTP mode)"
+	"Nikon Coolpix L110 (PTP mode)"
 	"Nikon Coolpix L12 (PTP mode)"
 	"Nikon Coolpix L16 (PTP mode)"
 	"Nikon Coolpix L19 (PTP mode)"
@@ -834,17 +863,20 @@ Supported cameras:
 	"Nokia 3109c Mobile Phone"
 	"Nokia 3110c Mobile Phone"
 	"Nokia 3250 Mobile Phone"
+	"Nokia 3710"
 	"Nokia 5130 XpressMusic"
 	"Nokia 5200"
 	"Nokia 5300 Mobile Phone"
 	"Nokia 5310 XpressMusic"
 	"Nokia 5320 XpressMusic"
 	"Nokia 5500 Sport Mobile Phone"
+	"Nokia 5530"
 	"Nokia 5530 Xpressmusic"
 	"Nokia 5700 XpressMusic Mobile Phone"
 	"Nokia 5800 XpressMusic"
 	"Nokia 5800 XpressMusic v2"
 	"Nokia 6120c Classic Mobile Phone"
+	"Nokia 6210 Navigator"
 	"Nokia 6220 Classic"
 	"Nokia 6500c Classic Mobile Phone"
 	"Nokia 6600i"
@@ -852,6 +884,7 @@ Supported cameras:
 	"Nokia E66"
 	"Nokia E71"
 	"Nokia E71x"
+	"Nokia E72"
 	"Nokia N73"
 	"Nokia N73 Mobile Phone"
 	"Nokia N75 Mobile Phone"
@@ -867,6 +900,7 @@ Supported cameras:
 	"Nokia N95 Mobile Phone 8GB"
 	"Nokia N96 Mobile Phone"
 	"Nokia N97"
+	"Nokia N97 mini"
 	"Nokia N97-1"
 	"Nokia/Verizon 6205 Balboa/Verizon Music Phone"
 	"NormSoft, Inc. Pocket Tunes"
@@ -930,6 +964,7 @@ Supported cameras:
 	"Olympus D-600L"
 	"Olympus D-600XL"
 	"Olympus D-620L"
+	"Olympus E-520"
 	"Olympus fe-200"
 	"Olympus FE4000"
 	"Olympus IR-300"
@@ -949,7 +984,9 @@ Supported cameras:
 	"Panasonic DC1580"
 	"Panasonic DMC-FS62"
 	"Panasonic DMC-FZ20"
+	"Panasonic DMC-FZ38"
 	"Panasonic DMC-FZ50"
+	"Panasonic DMC-GF1"
 	"Panasonic DMC-LS3"
 	"Panasonic DMC-TZ15"
 	"Panasonic P905i"
@@ -960,6 +997,7 @@ Supported cameras:
 	"Pentax Optio 33WR"
 	"Pentax Optio 43WR"
 	"Pentax Optio 450"
+	"Pentax Optio W90"
 	"Perception Digital, Ltd Gigaware GX400"
 	"Philips ESP2" (EXPERIMENTAL)
 	"Philips ESP50" (EXPERIMENTAL)
@@ -977,7 +1015,7 @@ Supported cameras:
 	"Philips GoGear SA6125/SA6145/SA6185"
 	"Philips GoGear SA9200"
 	"Philips GoGear ViBE SA1VBE04"
-	"Philips GoGear ViBE SA1VBE08"
+	"Philips GoGear ViBE SA1VBE04/08"
 	"Philips HDD085/00 or HDD082/17"
 	"Philips HDD14XX,HDD1620 or HDD1630/17"
 	"Philips HDD6320"
@@ -1044,20 +1082,28 @@ Supported cameras:
 	"Ricoh RDC-4200" (EXPERIMENTAL)
 	"Ricoh RDC-4300" (EXPERIMENTAL)
 	"Ricoh RDC-5000" (EXPERIMENTAL)
-	"RIM BlackBerry Storm"
+	"RIM BlackBerry Storm/9650"
 	"Rollei dr5"
 	"Rollei dr5 (PTP mode)"
 	"Sakar 23070  Crayola Digital Cam" (EXPERIMENTAL)
 	"Sakar 28290 and 28292  Digital C" (EXPERIMENTAL)
 	"Sakar 92045  Spiderman" (EXPERIMENTAL)
+	"Sakar clipshot no. 1169x" (EXPERIMENTAL)
 	"Sakar Digital Keychain 11199" (EXPERIMENTAL)
 	"Sakar Digital no, 6637x" (EXPERIMENTAL)
 	"Sakar Digital no, 67480" (EXPERIMENTAL)
 	"Sakar Digital no. 56379 Spyshot" (TESTING)
 	"Sakar Digital no. 77379" (EXPERIMENTAL)
 	"Sakar Kidz Cam 86379" (EXPERIMENTAL)
+	"Sakar Kidz-Cam no. 88379" (EXPERIMENTAL)
 	"Sakar Micro Digital 2428x" (EXPERIMENTAL)
 	"Sakar no. 1638x CyberPix" (EXPERIMENTAL)
+	"Sakar no. 75379" (EXPERIMENTAL)
+	"Sakar no. 81890" (EXPERIMENTAL)
+	"Sakar no. 91379" (EXPERIMENTAL)
+	"Sakar no. 98379" (EXPERIMENTAL)
+	"Sakar Star Wars kit no. 92022" (EXPERIMENTAL)
+	"Sakar Sticker Wizard no. 59379" (EXPERIMENTAL)
 	"Samsung digimax 800k"
 	"Samsung F250 Mobile Phone"
 	"Samsung GT-B2700"
@@ -1066,6 +1112,7 @@ Supported cameras:
 	"Samsung Jet S8000"
 	"Samsung Juke (SCH-U470)"
 	"Samsung Kenox SSC-350N"
+	"Samsung M7600 Beat/GT-S8300T"
 	"Samsung SAMSUNG Trance"
 	"Samsung U600 Mobile Phone"
 	"Samsung X830 Mobile Phone"
@@ -1132,6 +1179,7 @@ Supported cameras:
 	"Shark SDC-513" (EXPERIMENTAL)
 	"Shark SDC-519" (EXPERIMENTAL)
 	"Sierra Imaging SD640"
+	"SigmaTel Inc. MTPMSCN Audio Player"
 	"SiPix Blink 2" (EXPERIMENTAL)
 	"SiPix CAMeleon" (EXPERIMENTAL)
 	"SiPix SC2100" (EXPERIMENTAL)
@@ -1145,6 +1193,7 @@ Supported cameras:
 	"SMaL Ultra-Pocket" (EXPERIMENTAL)
 	"So. Show 301" (TESTING)
 	"Sony DCR-PC100"
+	"Sony DCR-SR75"
 	"Sony DSC-F1" (EXPERIMENTAL)
 	"Sony DSC-F55"
 	"Sony DSC-F707V (PTP mode)"
@@ -1175,6 +1224,7 @@ Supported cameras:
 	"Sony DSC-R1 (PTP mode)"
 	"Sony DSC-S40 (PTP mode)"
 	"Sony DSC-S60 (PTP mode)"
+	"Sony DSC-S730 (PTP mode)"
 	"Sony DSC-S75 (PTP mode)"
 	"Sony DSC-S85 (PTP mode)"
 	"Sony DSC-T1 (PTP mode)"
@@ -1199,6 +1249,7 @@ Supported cameras:
 	"Sony Walkman NWZ-A826/NWZ-A828/NWZ-A829"
 	"Sony Walkman NWZ-B135"
 	"Sony Walkman NWZ-B142F"
+	"Sony Walkman NWZ-E344"
 	"Sony Walkman NWZ-E436F"
 	"Sony Walkman NWZ-E445"
 	"Sony Walkman NWZ-S516"
@@ -1216,6 +1267,8 @@ Supported cameras:
 	"SonyEricsson K550i"
 	"SonyEricsson K850i"
 	"SonyEricsson T700"
+	"SonyEricsson U5"
+	"SonyEricsson W302"
 	"SonyEricsson W595"
 	"SonyEricsson W705/W715"
 	"SonyEricsson W760i"
@@ -1234,6 +1287,7 @@ Supported cameras:
 	"ST2205 USB picture frame" (TESTING)
 	"StarCam CP086"
 	"STM USB Dual-mode camera"
+	"Stop &amp; Shop 87096" (EXPERIMENTAL)
 	"STV0680"
 	"Suprema Digital Keychain Camera" (EXPERIMENTAL)
 	"SY-2107C" (EXPERIMENTAL)
@@ -1281,6 +1335,7 @@ Supported cameras:
 	"USB PTP Class Camera" (TESTING)
 	"ViviCam3350" (EXPERIMENTAL)
 	"ViviCam5B" (EXPERIMENTAL)
+	"Vivitar Freelance" (EXPERIMENTAL)
 	"Vivitar Mini Digital Camera" (TESTING)
 	"Vivitar Vivicam 55" (EXPERIMENTAL)
 	"Vivitar Vivicam3350B" (EXPERIMENTAL)
