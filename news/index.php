@@ -10,6 +10,109 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>gphoto2 2.4.10</h2>
+
+<ul>
+<li>Event loop handling non-waitevent able cameras.
+
+<li>--capture-movie (optional arguments: frames, or seconds)
+   now loops over preview capture as fast as possible
+   and writes the frames continously.
+<p>
+   The resulting file is "MotionJPEG" and can be postprocessed
+   or displayed (by mplayer).
+<p>
+   Also output to stdout is possible for pipeing like:
+	<code>gphoto2 --stdout --capture-movie | someotherprogram</code>
+   but might not work reliably.
+</ul>
+<hr />
+<h2>libgphoto2 2.4.10</h2>
+
+This is a 2.4 release branch update.
+
+<h3>libgphoto2</h3>
+<ul>
+<li> Translation updates (polish, vietnamese).
+<li> The "usb:" generic matcher entry is not reported anymore.
+     Auto detection will now always return "usb:XXX,YYY" and "usb:AAA,BBB" values.
+
+     You can still pass "usb:" in.
+
+<li> The generated UDEV rules for version 136 and later have been changed:
+     <ul>
+     <li>PTP class is shortcut to avoid 1000 entries to be evaluated for the common camera case.
+     <li>USB Mass Storage is now skipped and not tagged as gphoto supported.
+        This should avoid confuse users with MTP players in dual mode.
+
+       (Done just for the cameras and MTP players, not for the picture frame drivers).
+      </ul>
+</ul>
+
+<h3>st2205</h3>
+<ul>
+ <li> Link iconv (MacOS build fix)
+ <li> "delete all files" implemented.
+</ul>
+
+<h3>ax203</h3>
+ <li> Various improvements and bug fixes
+ <li> new compression method supported for ax206
+
+<h3>ptp2</h3>
+ <li> New PTP event handling added.
+      This might have caused some instabilities in capture code.
+
+ <li> Fixed EOS capture to card waiting 1 minute bug
+ <li> Fixed EOS capture "no focus" waiting 1 minute bug
+ <li> EOS "eosviewfinder" enable/disable option.
+ <li> Pass up more EOS events via wait_for_event (property changes, and all unknown events).
+ <li> EOS Viewfinder Zoom Level and Position added
+ <li> Fixed setting multiple configuration values at once.
+ <li> Handle MTP -> Vendor id mapping for PTP/IP cameras.
+ <li> Lots of bug fixes.
+ <li> Added new IDS:
+      Kodak Z950
+      Sony DSC-S370
+      Nikon CoolPix 7600, L110
+      Panasonic FZ38, DMC-GF1 (only download support), 
+      Canon PowerShot D10, SX120 IS
+      Fuji FinePix F60fd, F70 EXR, S1800, S5800
+      Pentax Optio W90
+</ul>
+
+<h3>sierra</h3>
+<ul>
+ <li> Added Olympus E-520
+</ul>
+
+<h3>canon</h3>
+<ul>
+ <li> ability to read and set "shooting mode".
+</ul>
+
+<h3>digigr8</h3>
+<ul>
+ <li> merged from TRUNK: new camera "Stop & Shop 87096", some cleanups and bug fixes
+</ul>
+
+<h3>jl2005c</h3>
+<ul>
+ <li> Decompression decoded and driver now working. Enabled by default now.
+</ul>
+
+<h3>libgphoto2_port/usbscsi</h3>
+<ul>
+ <li> Check for scsi/sg.h and use it only if present (MacOS build fix)
+</ul>
+
+<h3>libgphoto2_port/usb</h3>
+<ul>
+ <li> Do not filter out "usb:XXX,YYY" ... but have both usb: and
+      usb:XXX,YYY for now.
+</ul>
+
+<hr />
 <h2>gphoto2 2.4.9</h2>
 
 <ul>
