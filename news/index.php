@@ -56,10 +56,13 @@ This is a 2.4 release branch update.
 </ul>
 
 <h3>ax203</h3>
+<ul>
  <li> Various improvements and bug fixes
  <li> new compression method supported for ax206
+</ul>
 
 <h3>ptp2</h3>
+<ul>
  <li> New PTP event handling added.
       This might have caused some instabilities in capture code.
 
