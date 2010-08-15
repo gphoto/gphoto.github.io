@@ -69,7 +69,7 @@ This is a 2.4 release branch update.
  <li> Pass up more EOS events via wait_for_event (property changes, and all unknown events).
  <li> EOS Viewfinder Zoom Level and Position added
  <li> Fixed setting multiple configuration values at once.
- <li> Handle MTP -> Vendor id mapping for PTP/IP cameras.
+ <li> Handle MTP -&gt; Vendor id mapping for PTP/IP cameras.
  <li> Lots of bug fixes.
  <li> Added new IDS:
       Kodak Z950
@@ -93,7 +93,7 @@ This is a 2.4 release branch update.
 
 <h3>digigr8</h3>
 <ul>
- <li> merged from TRUNK: new camera "Stop & Shop 87096", some cleanups and bug fixes
+ <li> merged from TRUNK: new camera "Stop &amp; Shop 87096", some cleanups and bug fixes
 </ul>
 
 <h3>jl2005c</h3>
@@ -127,7 +127,7 @@ This is a 2.4 release branch update.
 
 <h3>ptp2 driver</h3>
 <ul>
-<li> Fixed EOS viewfinder capture speed (2 images/s -> 20 i/s)
+<li> Fixed EOS viewfinder capture speed (2 images/s -&gt; 20 i/s)
 <li> EOS event handling cleaned up, so that we can also have
      dual image capture (RAW+JPEG).
 <li> New Canon EOS properties: autoexposuremode, cameraoutput, evfmode, uilock.
