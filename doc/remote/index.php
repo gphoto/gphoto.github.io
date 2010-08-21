@@ -1006,7 +1006,7 @@ SX 1 IS, and SX 10IS
 do not support remote control or video out operation via the SDK.</i><br/>
  The same applies for libgphoto2 capture support.<p>
 
-Also see <a href="http://www.usa.canon.com/consumer/controller?act=SDKHomePageAct&keycode=Sdk_Lic&fcategoryid=314&modelid=7474&id=3464">this Canon page</a> for a overview of which cameras are supported and which are not as of April 1st 2008.
+Also see <a href="http://www.usa.canon.com/cusa/support/consumer/eos_slr_camera_systems/eos_digital_slr_cameras/eos_1d?pageKeyCode=downloadSDK&productOverviewCid=0901e0248003d099&id=0901e02480057a74_1&fileURL=ps_sdk_form">this Canon page</a> for a overview of which cameras are supported and which are not as of April 1st 2008.
 </td>
 </tr>
 <tr>
