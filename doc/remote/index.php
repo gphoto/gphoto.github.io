@@ -887,6 +887,14 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon D5000</td>
+	<td>Yes</td>
+	<td></td>
+	<td>12</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D700</td>
 	<td>Yes</td>
 	<td>All, Viewfinder</td>
