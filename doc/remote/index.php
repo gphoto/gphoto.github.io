@@ -897,7 +897,7 @@ here</a></td>
 <tr>
 	<td>Nikon D5000</td>
 	<td>Yes</td>
-	<td></td>
+	<td>All, Viewfinder</td>
 	<td>12</td>
 	<td>&nbsp;</td>
 </tr>
