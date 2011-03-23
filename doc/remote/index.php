@@ -502,22 +502,6 @@ This can be used with either <code>--capture-image</code> which would leave all 
 </tr>
 
 <tr>
-	<td>Canon PowerShot S10</td>
-	<td>Yes</td>
-	<td>Unknown, Viewfinder</td>
-	<td>2.1</td>
-	<td>&nbsp;</td>
-</tr>
-
-<tr>
-	<td>Canon PowerShot S20</td>
-	<td>Yes</td>
-	<td>Unknown, Viewfinder</td>
-	<td>3.2</td>
-	<td>&nbsp;</td>
-</tr>
-
-<tr>
 	<td>Canon PowerShot S30</td>
 	<td>Yes</td>
 	<td>Unknown, Viewfinder</td>
