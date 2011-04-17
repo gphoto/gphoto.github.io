@@ -99,7 +99,7 @@ This is a 2.4 release branch update.
 <ul>
 <li>Avoid MTP probing. Done by libmtp these days, also confuses some devices.
 <li>Do list less usb:XXX,YYY ports for things that are not cameras.
-</uo>
+</ul>
 
 <h3>libgphoto2_port/usbscsi</h3>
 <ul>
