@@ -10,6 +10,118 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>gphoto2 2.4.11</h2>
+This is a 2.4 release branch update.
+<ul>
+<li>Switched %n behaviour to be linear increasing, instead of
+   a folder index.
+<li>Updated translations: danish, indonesian, italian, dutch,
+   polish, brazilian portuguese, russian, vietnamese, simplified
+   chinese.
+</ul>
+
+<hr />
+<h2>libgphoto2 2.4.11</h2>
+This is a 2.4 release branch update.
+<h3>ax203</h3>
+<ul>
+<li>Various new ids:<br>
+  GigaDevice GD25Q40, GD25Q80, GD25Q16<br>
+  ST M25P08, M25P16, M25P32, M25P64<br>
+  Winbond W25Q80, W25Q16, W25Q32
+<li>Various bugfixes
+</ul>
+
+<h3>canon</h3>
+<ul>
+<li>implemented a basic wait_for_event() so --capture-tethered works
+  (not working correctly for CR2+JPG, but JPG or CR2 stand alone will work) 
+<li>Some bugfixes
+</ul>
+
+<h3>digigr8</h3>
+<ul>
+<li>Added Lego Bionicle camera.
+</ul>
+
+<h3>directory</h3>
+<ul>
+<li>More mimetypes that are images added
+</ul>
+
+<h3>jl2005c</h3>
+<ul>
+<li>Reduced stack usage (do not have 5MB arrays on the stack),
+  making it work in programs with stacklimits
+</ul>
+
+<h3>mars3</h3>
+<ul>
+<li>Added Shift3 camera.
+</ul>
+
+<h3>sierra</h3>
+<ul>
+<li>rewrote the USB wrapped command handling to use "usbscsi"
+  port. Now its no longer necessary to detach the mass storage
+  driver.
+</ul>
+
+<h3>ptp2</h3>
+<ul>
+<li> Allow by-camera specific configuration (used for Nikon DSLR currently)
+<li> Added some Nikon D90, D3s specific tables.
+<li> Canon EOS: support remoterelease (remote trigger manipulation) via eosremoterelease
+  config option
+<li> Merge some CHDK code (not tested working with my SX100IS -Marcus)
+<li> Make setting properties via the "other" config tree work.
+<li> merged new media player ids from libmtp
+<li> Timeouts configurable
+<li> New cameras:<ul>
+  <li>Kodak Z710, C183
+  <li>Nikon CoolPix S7c, P90, P100, S8000, S3000, S9100
+  <li>Nikon DSLR D3s, D3100, D7000
+  <li>Casio EX-Z65
+  <li>Canon Powershot SD1300 IS, SX210 IS, SX130 IS, 
+  <li>Canon EOS 60D
+  <li>Fuji FinePix A220, Z700EXR
+</ul>
+<li> Some capture bugfixes
+<li> Lots of bugfixes
+</ul>
+
+<h3>st2205</h3>
+<ul>
+<li>Minor additions
+</ul>
+
+<h3>libgphoto2_port/usb</h3>
+<ul>
+<li>Avoid MTP probing. Done by libmtp these days, also confuses some devices.
+<li>Do list less usb:XXX,YYY ports for things that are not cameras.
+</uo>
+
+<h3>libgphoto2_port/usbscsi</h3>
+<ul>
+<li>Fixed symlink handling in device detection for newer kernels.
+<li>Decode SCSI sense data received.
+</ul>
+
+<h3>libgphoto2</h3>
+<ul>
+<li>Updated translations: danish, german, spanish, basque, french,
+  hungarian, italian, japanese, dutch, polish, russian, swedish, ukrainian,
+  vietnamese, simplified chinese
+</ul>
+
+<h3>libgphoto2_port</h3>
+<ul>
+<li>Updated translations: czech, danish, german, spanish, basque, french,
+  italian, japanese, dutch, polish, brazilian portuguese, russian, slovakian,
+  swedish, ukrainian, vietnamese, simplified chinese, traditional chinese
+</ul>
+
+<hr />
 <h2>gphoto2 2.4.10</h2>
 
 <ul>
