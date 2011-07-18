@@ -296,7 +296,12 @@ This can be used with either <code>--capture-image</code> which would leave all 
 <tr>
 	<td>Canon PowerShot A520</td>
 	<td>Yes</td>
-	<td>All, Viewfinder</td>
+	<td>ViewFinder, FocusLock, SyncDateTime, DateTime, Output, Ownername, CaptureTarget,
+Capture, Model, FirmwareRevision, Orientation, ImageQuality,
+ImageFormat, ImageSize, ISO, WhiteBalance, PhotoEffect, Zoom,
+AssistLight, AutoRotation, ExposureCompensation, Flashmode,
+ShootingMode, Aperture, FocusingPoint, ShutterSpeed, MeteringMode,
+AFDistance</td>
 	<td>4</td>
 	<td>&nbsp;</td>
 </tr>
