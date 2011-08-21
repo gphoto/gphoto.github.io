@@ -901,6 +901,14 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon D5100</td>
+	<td>Yes</td>
+	<td>All, Viewfinder</td>
+	<td>16</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D700</td>
 	<td>Yes</td>
 	<td>All, Viewfinder</td>
