@@ -788,6 +788,14 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon CoolPix P80</td>
+	<td>Yes</td>
+	<td>None</td>
+	<td>10</td>
+	<td>not configurable, just trigger capture</td>
+</tr>
+
+<tr>
 	<td>Nikon CoolPix P100</td>
 	<td>Yes</td>
 	<td>None</td>
