@@ -29,11 +29,11 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Sun Apr 17 19:50:30 CEST 2011
+Wed Jan 25 21:15:23 CET 2012
 ========================================================================
 gphoto2 2.4.11
 
-Copyright (c) 2000-2011 Lutz Mueller and others
+Copyright (c) 2000-2012 Lutz Mueller and others
 
 gphoto2 comes with NO WARRANTY, to the extent permitted by law. You may
 redistribute copies of gphoto2 under the terms of the GNU General Public
@@ -41,12 +41,15 @@ License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
 gphoto2         2.4.11         gcc, popt(m), exif, cdk, no aa, jpeg, readline
-libgphoto2      2.4.11         gcc, ltdl, EXIF
-libgphoto2_port 0.8.0          gcc, ltdl, USB, serial lockdev locking
+libgphoto2      2.4.12         gcc, ltdl, EXIF
+libgphoto2_port 0.8.0          gcc, ltdl, USB (libusb1), serial lockdev locking
 ========================================================================
-Number of supported cameras: 1335
+Number of supported cameras: 1416
 Supported cameras:
 	" JL2005B/C/D camera" (EXPERIMENTAL)
+	"Acer Iconia TAB A100"
+	"Acer Iconia TAB A500 v1"
+	"Acer Iconia TAB A500 v2"
 	"Achiever Digital Adc65"
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
@@ -72,6 +75,7 @@ Supported cameras:
 	"Apple iPod Touch 2G (PTP mode)"
 	"Apple QuickTake 200"
 	"Apple QuickTake 200"
+	"Archos 101 G9"
 	"Archos 104 (MTP mode)"
 	"Archos 105 (MTP mode)"
 	"Archos 204 (MTP mode)"
@@ -92,6 +96,7 @@ Supported cameras:
 	"Archos 704 mobile dvr"
 	"Archos 704TV (MTP mode)"
 	"Archos 705 (MTP mode)"
+	"Archos 8o G9 (MTP mode)"
 	"Archos Gmini XS100"
 	"Archos SPOD (MTP mode)"
 	"Archos TV+ (MTP mode)"
@@ -108,11 +113,17 @@ Supported cameras:
 	"Argus DC1512e" (EXPERIMENTAL)
 	"Argus QuickClix"
 	"Aries ATC-0017" (EXPERIMENTAL)
+	"Aries Digital Keychain Camera, I" (EXPERIMENTAL)
+	"Asus TF101 Eeepad Transformer"
+	"Asus TF101 Eeepad Transformer (debug mode)"
+	"Asus TF201 Transformer Prime (keyboard dock)"
+	"Asus TF201 Transformer Prime (tablet only)"
 	"AX203 USB picture frame firmware ver 3.3.x" (TESTING)
 	"AX203 USB picture frame firmware ver 3.4.x" (TESTING)
 	"AX203 USB picture frame firmware ver 3.5.x" (TESTING)
 	"AX203 USB picture frame firmware ver 3.6.x" (TESTING)
 	"Barbie"
+	"Barbie Camera (Digital Blue)" (EXPERIMENTAL)
 	"Benq DC1300" (TESTING)
 	"Canon Digital IXUS"
 	"Canon Digital IXUS 100 IS"
@@ -165,8 +176,11 @@ Supported cameras:
 	"Canon Elura 65 (PTP mode)"
 	"Canon EOS 1000D"
 	"Canon EOS 10D"
+	"Canon EOS 10D (PTP mode)"
+	"Canon EOS 1100D"
 	"Canon EOS 1D Mark II (PTP mode)"
 	"Canon EOS 1D Mark III (PTP mode)"
+	"Canon EOS 1D Mark IV"
 	"Canon EOS 20D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 20D (PTP mode)"
 	"Canon EOS 300D (normal mode)"
@@ -184,6 +198,7 @@ Supported cameras:
 	"Canon EOS 5D (normal mode)" (EXPERIMENTAL)
 	"Canon EOS 5D (PTP mode)"
 	"Canon EOS 5D Mark II"
+	"Canon EOS 600D"
 	"Canon EOS 60D"
 	"Canon EOS 7D"
 	"Canon EOS D30"
@@ -232,10 +247,12 @@ Supported cameras:
 	"Canon PowerShot A1100 IS"
 	"Canon PowerShot A20"
 	"Canon PowerShot A200"
+	"Canon PowerShot A2000 IS"
 	"Canon PowerShot A2100 IS"
 	"Canon PowerShot A30"
 	"Canon PowerShot A300 (PTP mode)"
 	"Canon PowerShot A310 (PTP mode)"
+	"Canon PowerShot A3100 IS"
 	"Canon PowerShot A40"
 	"Canon PowerShot A400 (PTP mode)"
 	"Canon PowerShot A410 (PTP mode)"
@@ -366,6 +383,7 @@ Supported cameras:
 	"Chinon ES-1000"
 	"Clever CAM 360" (TESTING)
 	"Cobra DC125" (EXPERIMENTAL)
+	"Cobra Digital Camera DC150" (EXPERIMENTAL)
 	"Coby COBY MP705"
 	"Conceptronic CMTD2"
 	"Concord Eye-Q Duo" (EXPERIMENTAL)
@@ -386,6 +404,7 @@ Supported cameras:
 	"Cowon iAudio S9 (MTP mode)"
 	"Cowon iAudio U3 (MTP mode)"
 	"Cowon iAudio U5 (MTP mode)"
+	"Cowon iAudio X7 (MTP mode)"
 	"Creative CardCam" (EXPERIMENTAL)
 	"Creative Go Mini"
 	"Creative PC-CAM 300" (EXPERIMENTAL)
@@ -419,6 +438,7 @@ Supported cameras:
 	"DC31VC" (EXPERIMENTAL)
 	"Dell Dell Pocket DJ (MTP mode)"
 	"Dell DJ (2nd generation)"
+	"Dell, Inc Dell Streak 7"
 	"Dell, Inc DJ Itty"
 	"Digigr8" (EXPERIMENTAL)
 	"Digital camera, CD302N" (EXPERIMENTAL)
@@ -470,6 +490,7 @@ Supported cameras:
 	"Fuji FinePix F50fd"
 	"Fuji FinePix F60fd"
 	"Fuji FinePix F70 EXR"
+	"Fuji FinePix F80EXR"
 	"Fuji FinePix S1000fd"
 	"Fuji FinePix S100fs"
 	"Fuji FinePix S1500"
@@ -481,6 +502,7 @@ Supported cameras:
 	"Fuji FinePix S6500fd"
 	"Fuji FinePix S7000"
 	"Fuji FinePix S9500"
+	"Fuji FinePix X10"
 	"Fuji FinePix Z100fd"
 	"Fuji FinePix Z35"
 	"Fuji FinePix Z700EXR"
@@ -500,6 +522,11 @@ Supported cameras:
 	"Genius Smart 300, version 2" (EXPERIMENTAL)
 	"Global Point 3 in 1 Digital Fun Graffiti 00044" (EXPERIMENTAL)
 	"Global Point Clipster" (EXPERIMENTAL)
+	"Google Inc (for Asus) TF101 Transformer"
+	"Google Inc (for Medion) MD99000 (P9514)"
+	"Google Inc (for Motorola) Xoom (ID 2)"
+	"Google Inc (for Motorola) Xoom (MZ604)"
+	"Google Inc (for Sony) S1"
 	"GrandTek ScopeCam" (TESTING)
 	"GTW Electronics" (EXPERIMENTAL)
 	"Haier Ibiza Rhapsody"
@@ -559,6 +586,7 @@ Supported cameras:
 	"HP PhotoSmart R742 (PTP mode)"
 	"HP PhotoSmart R927 (PTP mode)"
 	"HP PhotoSmart R967 (PTP mode)"
+	"Huawei Mediapad"
 	"iClick 5X" (EXPERIMENTAL)
 	"iConcepts digital camera"
 	"INNOVAGE Mini Digital, CD302N" (TESTING)
@@ -599,6 +627,7 @@ Supported cameras:
 	"iRiver X20"
 	"Isabella Her Prototype"
 	"Ixla DualCam 640" (EXPERIMENTAL)
+	"Jazwares Star Wars no. 15256" (EXPERIMENTAL)
 	"Jazz JDC9" (EXPERIMENTAL)
 	"Jazz JDK235" (EXPERIMENTAL)
 	"Jenoptik JD-3300z3" (EXPERIMENTAL)
@@ -611,6 +640,7 @@ Supported cameras:
 	"JVC Alneo XA-HD500"
 	"KBGear JamCam"
 	"Kenwood Media Keg HD10GB7 Sport Player"
+	"Kodak C1530"
 	"Kodak C183"
 	"Kodak C300"
 	"Kodak C310"
@@ -722,11 +752,15 @@ Supported cameras:
 	"Lego Bionicle" (EXPERIMENTAL)
 	"Leica D-LUX 2"
 	"Leica Digilux Zoom"
+	"Lenovo K1"
+	"Lenovo ThinkPad Tablet"
 	"LG Electronics Inc. GR-500 Music Player"
 	"LG Electronics Inc. KC910 Renoir Mobile Phone"
 	"LG Electronics Inc. KM900"
+	"LG Electronics Inc. LG8575"
 	"LG Electronics Inc. T54"
 	"LG Electronics Inc. UP3"
+	"LG Electronics Inc. V909 G-Slate"
 	"LG Electronics Inc. VX8550 V CAST Mobile Phone"
 	"LG T5100" (EXPERIMENTAL)
 	"Lifetec LT 5995" (EXPERIMENTAL)
@@ -746,11 +780,13 @@ Supported cameras:
 	"Medion MD 9700" (EXPERIMENTAL)
 	"Medion MD8333"
 	"Medion MD8333"
+	"Medion MD99000 (P9514)/Olivetti Olipad 110"
 	"Memorex or iRiver MMP 8585/8586 or iRiver E200"
 	"Micro-Star International P610/Model MS-5557"
 	"Micromaxx Digital Camera"
 	"Microsoft Kin 1"
 	"Microsoft Windows MTP Simulator"
+	"Microsoft Windows Phone"
 	"Microsoft Zune"
 	"Microsoft Zune HD"
 	"Mini Shotz ms-350" (EXPERIMENTAL)
@@ -759,15 +795,16 @@ Supported cameras:
 	"Mitek CD10" (EXPERIMENTAL)
 	"Mitek CD30P" (EXPERIMENTAL)
 	"Motorola A1200"
-	"Motorola Droid X"
+	"Motorola Droid X/MB525 (Defy)"
 	"Motorola DROID2"
-	"Motorola K1"
+	"Motorola IdeaPad K1"
 	"Motorola Milestone / Verizon Droid"
+	"Motorola Milestone X2"
 	"Motorola MTP Test Command Interface"
 	"Motorola RAZR2 V8/U9/Z6"
 	"Motorola V3m/V750 verizon"
 	"Motorola Xoom (ID 1)"
-	"Motorola Xoom (ID 2)"
+	"Motorola Xoom 2 Media Edition"
 	"MTP Device" (TESTING)
 	"Mustek gSmart 300" (EXPERIMENTAL)
 	"Mustek gSmart 350" (EXPERIMENTAL)
@@ -827,27 +864,34 @@ Supported cameras:
 	"Nikon Coolpix L11 (PTP mode)"
 	"Nikon Coolpix L110 (PTP mode)"
 	"Nikon Coolpix L12 (PTP mode)"
+	"Nikon Coolpix L120 (PTP mode)"
 	"Nikon Coolpix L16 (PTP mode)"
 	"Nikon Coolpix L19 (PTP mode)"
 	"Nikon Coolpix L20 (PTP mode)"
+	"Nikon Coolpix L23 (PTP mode)"
 	"Nikon Coolpix L4 (PTP mode)"
 	"Nikon Coolpix P1 (PTP mode)"
 	"Nikon Coolpix P100 (PTP mode)"
 	"Nikon Coolpix P2 (PTP mode)"
 	"Nikon Coolpix P4 (PTP mode)"
 	"Nikon Coolpix P50 (PTP mode)"
+	"Nikon Coolpix P500 (PTP mode)"
 	"Nikon Coolpix P5000 (PTP mode)"
 	"Nikon Coolpix P5100 (PTP mode)"
 	"Nikon Coolpix P60 (PTP mode)"
 	"Nikon Coolpix P6000 (PTP mode)"
+	"Nikon Coolpix P7000 (PTP mode)"
+	"Nikon Coolpix P7100 (PTP mode)"
 	"Nikon Coolpix P90 (PTP mode)"
 	"Nikon Coolpix S2 (PTP mode)"
 	"Nikon Coolpix S200 (PTP mode)"
 	"Nikon Coolpix S220 (PTP mode)"
 	"Nikon Coolpix S225 (PTP mode)"
 	"Nikon Coolpix S3000 (PTP mode)"
+	"Nikon Coolpix S3100 (PTP mode)"
 	"Nikon Coolpix S4 (PTP mode)"
 	"Nikon Coolpix S500 (PTP mode)"
+	"Nikon Coolpix S5100 (PTP mode)"
 	"Nikon Coolpix S6 (PTP mode)"
 	"Nikon Coolpix S60 (PTP mode)"
 	"Nikon Coolpix S7c (PTP mode)"
@@ -856,6 +900,7 @@ Supported cameras:
 	"Nikon Coolpix SQ (PTP mode)"
 	"Nikon D100 (Sierra Mode)"
 	"Nikon D2H SLR (PTP mode)"
+	"Nikon D2Hs (PTP mode)"
 	"Nikon D2X SLR (PTP mode)"
 	"Nikon D3 (PTP mode)"
 	"Nikon D50 (PTP mode)"
@@ -869,6 +914,7 @@ Supported cameras:
 	"Nikon DSC D40 (PTP mode)"
 	"Nikon DSC D40x (PTP mode)"
 	"Nikon DSC D5000 (PTP mode)"
+	"Nikon DSC D5100 (PTP mode)"
 	"Nikon DSC D60 (PTP mode)"
 	"Nikon DSC D70 (PTP mode)"
 	"Nikon DSC D700 (PTP mode)"
@@ -884,7 +930,7 @@ Supported cameras:
 	"Nokia 3250 Mobile Phone"
 	"Nokia 3710"
 	"Nokia 5130 XpressMusic"
-	"Nokia 5200"
+	"Nokia 5200 Mobile Phone"
 	"Nokia 5230"
 	"Nokia 5300 Mobile Phone"
 	"Nokia 5310 XpressMusic"
@@ -895,15 +941,18 @@ Supported cameras:
 	"Nokia 5700 XpressMusic Mobile Phone"
 	"Nokia 5800 XpressMusic"
 	"Nokia 5800 XpressMusic v2"
+	"Nokia 5800 XpressMusic v3"
 	"Nokia 6120c Classic Mobile Phone"
 	"Nokia 6210 Navigator"
 	"Nokia 6220 Classic"
 	"Nokia 6500c Classic Mobile Phone"
 	"Nokia 6600i"
+	"Nokia C7"
 	"Nokia E52"
 	"Nokia E63"
 	"Nokia E66"
 	"Nokia E7"
+	"Nokia E7 (Ovi mode)"
 	"Nokia E71"
 	"Nokia E71x"
 	"Nokia E72"
@@ -917,11 +966,13 @@ Supported cameras:
 	"Nokia N81 Mobile Phone"
 	"Nokia N82 Mobile Phone"
 	"Nokia N85 Mobile Phone"
+	"Nokia N9"
 	"Nokia N91 Mobile Phone"
 	"Nokia N93 Mobile Phone"
 	"Nokia N93i Mobile Phone"
 	"Nokia N95 Mobile Phone"
 	"Nokia N95 Mobile Phone 8GB"
+	"Nokia N950"
 	"Nokia N96 Mobile Phone"
 	"Nokia N97"
 	"Nokia N97 mini"
@@ -1013,10 +1064,13 @@ Supported cameras:
 	"Panasonic DMC-GF1"
 	"Panasonic DMC-LS3"
 	"Panasonic DMC-TZ15"
+	"Panasonic DMC-TZ18"
+	"Panasonic DMC-TZ20"
 	"Panasonic P905i"
 	"Panasonic P906i"
 	"Panasonic PV-L691"
 	"Panasonic PV-L859"
+	"Pantech Crux"
 	"Pencam TEVION MD 9456"
 	"Pentax Optio 33WR"
 	"Pentax Optio 43WR"
@@ -1030,6 +1084,7 @@ Supported cameras:
 	"Philips ESP80" (EXPERIMENTAL)
 	"Philips ESP80SXG" (EXPERIMENTAL)
 	"Philips GoGear Aria"
+	"Philips GoGear Ariaz"
 	"Philips GoGear Audio"
 	"Philips GoGear Muse"
 	"Philips GoGear SA1VBE08KX/78"
@@ -1041,6 +1096,7 @@ Supported cameras:
 	"Philips GoGear ViBE SA1VBE04"
 	"Philips GoGear ViBE SA1VBE04/08"
 	"Philips GoGear VIBE SA2VBE[08|16]K/02"
+	"Philips GoGear Vibe/02"
 	"Philips HDD085/00 or HDD082/17"
 	"Philips HDD14XX,HDD1620 or HDD1630/17"
 	"Philips HDD6320"
@@ -1119,9 +1175,11 @@ Supported cameras:
 	"Sakar Digital no, 67480" (EXPERIMENTAL)
 	"Sakar Digital no. 56379 Spyshot" (TESTING)
 	"Sakar Digital no. 77379" (EXPERIMENTAL)
+	"Sakar Dora the Explorer no. 88067" (EXPERIMENTAL)
 	"Sakar Kidz Cam 86379" (EXPERIMENTAL)
 	"Sakar Kidz-Cam no. 88379" (EXPERIMENTAL)
 	"Sakar Micro Digital 2428x" (EXPERIMENTAL)
+	"Sakar Nickelodeon iCarly no. 88061" (EXPERIMENTAL)
 	"Sakar no. 1638x CyberPix" (EXPERIMENTAL)
 	"Sakar no. 75379" (EXPERIMENTAL)
 	"Sakar no. 81890" (EXPERIMENTAL)
@@ -1131,8 +1189,11 @@ Supported cameras:
 	"Sakar Sticker Wizard no. 59379" (EXPERIMENTAL)
 	"Samsung digimax 800k"
 	"Samsung F250 Mobile Phone"
-	"Samsung Galaxy S GT-I9000"
+	"Samsung Galaxy Nexus/Galaxy S i9000, Android 4.0 updates"
+	"Samsung Galaxy S GT-I9000/Galaxy 3 i5800"
 	"Samsung GT-B2700"
+	"Samsung GT-B2710/Xcover 271"
+	"Samsung GT-P7510/Galaxy Tab 10.1/S2/GT-N7000/Galaxy Nexus"
 	"Samsung GT-S5230"
 	"Samsung GT-S8500"
 	"Samsung I550W Phone"
@@ -1140,6 +1201,7 @@ Supported cameras:
 	"Samsung Juke (SCH-U470)"
 	"Samsung Kenox SSC-350N"
 	"Samsung M7600 Beat/GT-S8300T/SGH-F490"
+	"Samsung S5620"
 	"Samsung SAMSUNG Trance"
 	"Samsung U600 Mobile Phone"
 	"Samsung Vibrant SGH-T959"
@@ -1149,7 +1211,7 @@ Supported cameras:
 	"Samsung YH-920 (5022)"
 	"Samsung YH-925(-GS)"
 	"Samsung YH-925GS"
-	"Samsung YH-999 Portable Media Center/SGH-A707/SGH-L760V/SGH-U900/Verizon Intensity"
+	"Samsung YH-999 Portable Media Center/SGH-A707/SGH-L760V/SGH-U900/Verizon Intensity/Fascinate"
 	"Samsung YH-J70J"
 	"Samsung YP-900"
 	"Samsung YP-F2J"
@@ -1172,12 +1234,14 @@ Supported cameras:
 	"Samsung YP-U3"
 	"Samsung YP-U4"
 	"Samsung YP-U5"
+	"Samsung YP-Z3"
 	"Samsung YP-Z5"
 	"SanDisk Sansa c150"
 	"SanDisk Sansa c240/c250"
 	"SanDisk Sansa c250 v2"
 	"SanDisk Sansa Clip"
 	"SanDisk Sansa Clip v2"
+	"SanDisk Sansa Clip Zip"
 	"SanDisk Sansa Clip+"
 	"SanDisk Sansa Connect"
 	"SanDisk Sansa e200/e250/e260/e270/e280"
@@ -1225,6 +1289,7 @@ Supported cameras:
 	"So. Show 301" (TESTING)
 	"Sony DCR-PC100"
 	"Sony DCR-SR75"
+	"Sony DSC-A100 (PTP mode)"
 	"Sony DSC-F1" (EXPERIMENTAL)
 	"Sony DSC-F55"
 	"Sony DSC-F707V (PTP mode)"
@@ -1233,6 +1298,7 @@ Supported cameras:
 	"Sony DSC-H1 (PTP mode)"
 	"Sony DSC-H2 (PTP mode)"
 	"Sony DSC-H5 (PTP mode)"
+	"Sony DSC-HX100V (PTP mode)"
 	"Sony DSC-N2 (PTP mode)"
 	"Sony DSC-P10 (PTP mode)"
 	"Sony DSC-P100 (PTP mode)"
@@ -1273,7 +1339,9 @@ Supported cameras:
 	"Sony MSAC-SR1"
 	"Sony MVC-CD300 (PTP mode)"
 	"Sony MVC-CD500 (PTP mode)"
+	"Sony NWZ-S765"
 	"Sony PTP"
+	"Sony SLT-A55 (PTP mode)"
 	"Sony TRV-20E"
 	"Sony Walkman NWZ-A726/NWZ-A728/NWZ-A768"
 	"Sony Walkman NWZ-A815/NWZ-A818"
@@ -1286,20 +1354,28 @@ Supported cameras:
 	"Sony Walkman NWZ-E354"
 	"Sony Walkman NWZ-E436F"
 	"Sony Walkman NWZ-E445"
+	"Sony Walkman NWZ-E464"
 	"Sony Walkman NWZ-S516"
 	"Sony Walkman NWZ-S545"
 	"Sony Walkman NWZ-S615F/NWZ-S616F/NWZ-S618F"
 	"Sony Walkman NWZ-S638F"
 	"Sony Walkman NWZ-S716F"
 	"Sony Walkman NWZ-S739F"
+	"Sony Walkman NWZ-S754"
 	"Sony Walkman NWZ-W202"
+	"Sony Walkman NWZ-W252B"
 	"Sony Walkman NWZ-X1050B/NWZ-X1060B"
 	"Sony Walkman NWZ-X1051/NWZ-X1061"
 	"SonyEricsson C702"
 	"SonyEricsson C902"
 	"SonyEricsson C905"
+	"SonyEricsson j108i (Cedar)"
+	"SonyEricsson j10i (Elm)"
+	"SonyEricsson j10i2 (Elm)"
 	"SonyEricsson K550i"
 	"SonyEricsson K850i"
+	"SonyEricsson LT15i (Xperia arc)"
+	"SonyEricsson ST18a"
 	"SonyEricsson T700"
 	"SonyEricsson U5"
 	"SonyEricsson U8i"
@@ -1312,6 +1388,7 @@ Supported cameras:
 	"SonyEricsson W910"
 	"SonyEricsson W980"
 	"SonyEricsson W995"
+	"SonyEricsson Xperia Neo"
 	"Soundstar TDC-35" (EXPERIMENTAL)
 	"SpyPen Axys"
 	"SpyPen Cleo"
@@ -1353,6 +1430,8 @@ Supported cameras:
 	"Toshiba PDR-M60"
 	"Toshiba PDR-M61"
 	"Toshiba PDR-M65"
+	"Toshiba Thrive AT105"
+	"TP6801 USB picture frame" (TESTING)
 	"Traveler SX330z" (EXPERIMENTAL)
 	"Traveler SX410z" (EXPERIMENTAL)
 	"TrekStor i.Beat Organix 2.0"
@@ -1381,6 +1460,8 @@ Supported cameras:
 	"Yahoo!Cam" (EXPERIMENTAL)
 	"ZiiLABS Zii EGG"
 	"ZINA Mini Digital Keychain Camer" (EXPERIMENTAL)
+	"ZTE V55 ID 1"
+	"ZTE V55 ID 2"
 ========================================================================
 </pre>
 </td></tr>
