@@ -10,6 +10,88 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.4.12</h2>
+This is a 2.4 release branch update.
+
+<h3>libgphoto2_port</h3>
+<ul>
+<li>Added libusb 1.0 port driver.
+<li>removed baudboy.h support from serial driver.
+<li>Updated translations: czech, german
+</ul>
+
+<h3>canon</h3>
+<ul>
+<li>Secondary RAW 2 format for some cameras.
+</ul>
+
+<h3>directory</h3>
+<ul>
+<li>Handle more suffixes to mimetypes (unknowns will not show up in the
+  file list): moov, qt, qtvr, mp2, mpeg, mpe, srw, 3gp, 3g2, dif.
+<li>set the correct filetime
+</ul>
+
+<h3>ptp2</h3>
+<ul>
+<li>New cameras:
+<ul>
+<li>Kodak C1530
+<li>Sony DSC-HX100V, DSC-A1000, SLT-A55
+<li>Nikon CoolPix P7000, P7100, P500, L120, L23, S5100, S3100, 
+<li>Nikon D2Hs, D5100
+<li>Canon EOS 10D, 1D Mark IV, 1100D, 600D
+<li>Canon PowerShot A2000IS, A3100IS, 
+<li>Fuji FinePix F80EXR, X10
+<li>Apple iPad, iPhone 4
+<li>Panasonic DMC-TZ18, TZ20
+</ul>
+
+<li>Canon Powershot event handling changed to no longer use PTP Events.
+  Should now be more reliable on MacOS.
+
+<li>Nikon configurations added: videomode, scenemode, exposure program mode,
+  effect mode, liveviewaf, liveviewaffocus, cleansensor, microphone, moviequality,
+  autodistortioncontrol, autoisopadv renamed to minimumshutterspeed.
+<li>Allow per-camera configuration tables.
+<li>Canon EOS configurations added: "Immediate" for shutter button pressing,
+
+<li>Handle missing runtime iconv module support (as found in embedded devices)
+<li>Bump retries on EOS liveview getting
+<li>Fixed stupid EOS event handling bug that caused a 1.5 second delay
+<li>Fixed more session startup issues
+<li>Tried a fix for getting bad thumbnail lengths
+</ul>
+
+<h3>sierra</h3>
+<ul>
+<li>Bugfix: handle ACK as valid response code
+</ul>
+
+<h3>tp6801</h3>
+<ul>
+<li>New driver for Tenx tp6801 picture frames from Hans de Goede.
+</ul>
+
+<h3>digigr8</h3>
+<ul>
+<li>added Digital Blue Barbie Camera DC150, Cobra Digital Camera DC150,
+  Aries Digital Keychain Camera, ITEM 128986, Lego Bionicle
+</ul>
+
+<h3>jl2005a</h3>
+<ul>
+<li>added Sakar Nickelodeon iCarly no. 88061, Sakar Dora the Explorer no. 88067,
+  Jazwares Star Wars no. 15256
+</ul>
+
+<h3>libgphoto2</h3>
+<ul>
+<li>make jpeg and gd support configurable (Gentoo)
+<li>Updated translations: pl
+</ul>
+
+<hr />
 <h2>gphoto2 2.4.11</h2>
 This is a 2.4 release branch update.
 <ul>
