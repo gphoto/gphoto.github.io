@@ -79,7 +79,7 @@ This is a 2.4 release branch update.
   Aries Digital Keychain Camera, ITEM 128986, Lego Bionicle
 </ul>
 
-<h3>jl2005a</h3>
+<h3>jl2005c</h3>
 <ul>
 <li>added Sakar Nickelodeon iCarly no. 88061, Sakar Dora the Explorer no. 88067,
   Jazwares Star Wars no. 15256
