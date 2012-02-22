@@ -10,6 +10,37 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.4.13</h2>
+This is a 2.4 release branch update.
+
+<h3>libgphoto2_port/libusb1</h3>
+<ul>
+<li>fixed accessing freed memory which lead to non-working communication
+<li>use the correct context everywhere avoid crashes on startup on newer libusb1
+<li>fixed and rewrote the whole device caching mechanisms for major initial speedup.
+</ul>
+
+<h3>ptp2</h3>
+<ul>
+<li>Implemented fast Canon EOS directory loading
+</ul>
+
+<h3>storage</h3>
+<ul>
+<li>add ogg, mp3, mp4 extensions to "good"
+</ul>
+
+<h3>translations</h3>
+<ul>
+<li>updated polish
+</ul>
+  
+<h3>libgphoto2</h3>
+<ul>
+<li>capture to card added a lonely file to a camera folder instead of getting the content from the card
+</ul>
+
+<hr />
 <h2>libgphoto2 2.4.12</h2>
 This is a 2.4 release branch update.
 
