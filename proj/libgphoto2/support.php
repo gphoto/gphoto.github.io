@@ -29,7 +29,7 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Wed Jan 25 21:15:23 CET 2012
+Wed Feb 22 23:17:49 CET 2012
 ========================================================================
 gphoto2 2.4.11
 
@@ -41,7 +41,7 @@ License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
 gphoto2         2.4.11         gcc, popt(m), exif, cdk, no aa, jpeg, readline
-libgphoto2      2.4.12         gcc, ltdl, EXIF
+libgphoto2      2.4.13         gcc, ltdl, EXIF
 libgphoto2_port 0.8.0          gcc, ltdl, USB (libusb1), serial lockdev locking
 ========================================================================
 Number of supported cameras: 1416
