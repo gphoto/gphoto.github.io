@@ -692,6 +692,14 @@ AFDistance</td>
 </tr>
 
 <tr>
+	<td>Kodak DC280</td>
+	<td>Yes</td>
+	<td>None</td>
+	<td>2</td>
+	<td>None</td>
+</tr>
+
+<tr>
 	<td>Nikon CoolPix 880</td>
 	<td>Yes</td>
 	<td>All</td>
