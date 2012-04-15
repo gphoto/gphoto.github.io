@@ -10,6 +10,63 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>gphoto2 2.4.14</h2>
+<ul>
+<li>disable aalib by default (--with-aalib to enable)
+<li>--list-all-config to dump the full config tree + values
+<li>various small bugfixes
+<li>updated translations: islandic, danish, german, french, hungarian,
+   italian, dutch, punjabi, polish, russian, vietnamese, chinese,
+</ul>
+
+<hr />
+<h2>libgphoto2 2.4.14</h2>
+
+<h3>packaging</h3>
+<ul>
+<li>new udev 175 mode for print-camera-list (from Ubuntu)
+</ul>
+
+<h3>libgphoto2</h3>
+<ul>
+<li>fixed stupid bug in directory listing (fixes "canon" driver)
+</ul>
+
+<h3>libgphoto2_port/usb</h3>
+<ul>
+<li>Fixed stv680 usb config alternate setting (unbreaks stv680 driver)
+</ul>
+
+<h3>canon</h3>
+<ul>
+<li>enhanced wait_for_event a bit.
+</ul>
+
+<h3>ptp2</h3>
+<ul>
+<li>Nikon viewfinder enable/disable via config
+<li>added Nikon S6000, Canon PowerShot A3000, PowerShot SX230HS, Canon EOS 5D Mark III, Sony SLT A35, Nikon Coolpix AW100
+<li>lowlevel Canon EOS CustomFuncEx support added
+<li>Canon EOS 5D Mark III imagesize packing/unpacking support
+<li>Samsung Galaxy file handling support restored
+<li>match configuration table values more exact and correct.
+<li>mtp player list synced with libmtp
+</ul>
+
+<h3>translations</h3>
+<ul>
+<li>updated russian, ukrainian, danish, czech, german
+</ul>
+
+<h3>examples</h3>
+<ul>
+<li>sample-tether added
+</ul>
+
+
+
+
+<hr />
 <h2>libgphoto2 2.4.13</h2>
 This is a 2.4 release branch update.
 
