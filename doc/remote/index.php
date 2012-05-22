@@ -197,6 +197,14 @@ This can be used with either <code>--capture-image</code> which would leave all 
 </tr>
 
 <tr>
+	<td>Canon EOS 60D</td>
+	<td>Yes</td>
+	<td>limited level of configurability (see other EOS), Viewfinder, Bulb</td>
+	<td>18</td>
+	<td>Use libgphoto2 2.4.11 or newer.</td>
+</tr>
+
+<tr>
 	<td>Canon EOS 600D</td>
 	<td>Yes</td>
 	<td>limited level of configurability (see other EOS), Viewfinder</td>
