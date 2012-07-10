@@ -29,9 +29,9 @@ Camera Support for UN*X</a> page for details about just any camera.
 
 <pre>
 ========================================================================
-Sun Apr 15 18:18:23 CEST 2012
+Tue Jul 10 10:07:38 CEST 2012
 ========================================================================
-gphoto2 2.4.14
+gphoto2 2.5.0
 
 Copyright (c) 2000-2012 Lutz Mueller and others
 
@@ -40,11 +40,11 @@ redistribute copies of gphoto2 under the terms of the GNU General Public
 License. For more information about these matters, see the files named COPYING.
 
 This version of gphoto2 is using the following software versions and options:
-gphoto2         2.4.14         gcc, popt(m), exif, cdk, no aa, jpeg, readline
-libgphoto2      2.4.14         gcc, ltdl, EXIF
-libgphoto2_port 0.8.0          gcc, ltdl, USB (libusb1), serial lockdev locking
+gphoto2         2.5.0          gcc, popt(m), exif, cdk, no aa, jpeg, readline
+libgphoto2      2.5.0          all camlibs, /home/marcus/projects/gcc.trunk/BIN/bin/gcc, ltdl, EXIF
+libgphoto2_port 0.10.0         gcc, ltdl, USB, serial lockdev locking
 ========================================================================
-Number of supported cameras: 1451
+Number of supported cameras: 1442
 Supported cameras:
 	" JL2005B/C/D camera" (EXPERIMENTAL)
 	"Acer Iconia TAB A100"
@@ -52,7 +52,6 @@ Supported cameras:
 	"Acer Iconia TAB A200"
 	"Acer Iconia TAB A500 v1"
 	"Acer Iconia TAB A500 v2"
-	"Acer Iconia TAB A501"
 	"Achiever Digital Adc65"
 	"AEG Snap 300"
 	"Agfa ePhoto 1280"
@@ -76,14 +75,13 @@ Supported cameras:
 	"Apple iPhone 3G (PTP mode)"
 	"Apple iPhone 3GS (PTP mode)"
 	"Apple iPhone 4 (PTP mode)"
+	"Apple iPhone 4S (PTP mode)"
 	"Apple iPod Touch (PTP mode)"
 	"Apple iPod Touch 2G (PTP mode)"
 	"Apple iPod Touch 3rd Gen (PTP mode)"
 	"Apple QuickTake 200"
 	"Apple QuickTake 200"
 	"Archos 101 G9"
-	"Archos 101 G9 Turbo"
-	"Archos 101 G9 Turbo 250 HD"
 	"Archos 104 (MTP mode)"
 	"Archos 105 (MTP mode)"
 	"Archos 204 (MTP mode)"
@@ -104,7 +102,6 @@ Supported cameras:
 	"Archos 704 mobile dvr"
 	"Archos 704TV (MTP mode)"
 	"Archos 705 (MTP mode)"
-	"Archos 80G9"
 	"Archos 8o G9 (MTP mode)"
 	"Archos 8o G9 Turbo (MTP mode)"
 	"Archos Gmini XS100"
@@ -128,7 +125,6 @@ Supported cameras:
 	"Asus TF101 Eeepad Transformer (debug mode)"
 	"Asus TF201 Transformer Prime (keyboard dock)"
 	"Asus TF201 Transformer Prime (tablet only)"
-	"Asus TFXXX Transformer Prime (unknown version)"
 	"AX203 USB picture frame firmware ver 3.3.x" (TESTING)
 	"AX203 USB picture frame firmware ver 3.4.x" (TESTING)
 	"AX203 USB picture frame firmware ver 3.5.x" (TESTING)
@@ -358,6 +354,7 @@ Supported cameras:
 	"Canon PowerShot SD750 (PTP mode)"
 	"Canon PowerShot SD770 IS"
 	"Canon PowerShot SD780 IS"
+	"Canon Powershot SD790 IS"
 	"Canon PowerShot SD850 (PTP mode)"
 	"Canon PowerShot SD880 IS"
 	"Canon PowerShot SD900 (PTP mode)"
@@ -405,7 +402,6 @@ Supported cameras:
 	"Concord EyeQMini_1" (EXPERIMENTAL)
 	"Concord EyeQMini_2" (EXPERIMENTAL)
 	"CoolCam CP086"
-	"Cowon iAudio 10 (MTP mode)"
 	"Cowon iAudio 6 (MTP mode)"
 	"Cowon iAudio 7 (MTP mode)"
 	"Cowon iAudio 9 (MTP mode)"
@@ -442,7 +438,6 @@ Supported cameras:
 	"Creative ZEN Vision:M"
 	"Creative ZEN Vision:M (DVP-HD0004)"
 	"Creative ZEN X-Fi"
-	"Creative ZEN X-Fi 3"
 	"Creative ZEN Xtra (MTP mode)"
 	"Curitel Communications, Inc. Verizon Wireless Device"
 	"D-Link DSC 350+" (TESTING)
@@ -537,16 +532,14 @@ Supported cameras:
 	"Genius Smart 300, version 2" (EXPERIMENTAL)
 	"Global Point 3 in 1 Digital Fun Graffiti 00044" (EXPERIMENTAL)
 	"Global Point Clipster" (EXPERIMENTAL)
+	"Global Point Splash Mini (underwater camera)" (EXPERIMENTAL)
 	"Google Inc (for Asus) TF101 Transformer"
 	"Google Inc (for Barnes &amp; Noble) Nook Color"
-	"Google Inc (for Lenovo) Ideapad K1"
-	"Google Inc (for LG Electronics) P990/Optimus"
-	"Google Inc (for LG Electronics) P990/Optimus (Cyanogen)"
 	"Google Inc (for Medion) MD99000 (P9514)"
 	"Google Inc (for Motorola) Xoom (ID 2)"
 	"Google Inc (for Motorola) Xoom (MZ604)"
 	"Google Inc (for Sony) S1"
-	"Google Inc (for Toshiba) Thrive 7/AT105"
+	"Google Inc (for Toshiba) Thrive 7"
 	"GrandTek ScopeCam" (TESTING)
 	"GTW Electronics" (EXPERIMENTAL)
 	"Haier Ibiza Rhapsody"
@@ -608,7 +601,6 @@ Supported cameras:
 	"HP PhotoSmart R742 (PTP mode)"
 	"HP PhotoSmart R927 (PTP mode)"
 	"HP PhotoSmart R967 (PTP mode)"
-	"Huawei Honor U8860"
 	"Huawei Mediapad"
 	"iClick 5X" (EXPERIMENTAL)
 	"iConcepts digital camera"
@@ -616,6 +608,7 @@ Supported cameras:
 	"Insignia NS-DV45"
 	"Insignia Pilot 4GB"
 	"Insignia Sport Player"
+	"Intel Bandon Portable Media Center"
 	"Intel Pocket PC Camera" (EXPERIMENTAL)
 	"IOMagic MagicImage 400"
 	"IOMagic MagicImage 420"
@@ -811,8 +804,6 @@ Supported cameras:
 	"Microsoft Windows Phone"
 	"Microsoft Zune"
 	"Microsoft Zune HD"
-	"Microsoft/Intel Bandon Portable Media Center"
-	"Microsoft/Sharp/nVidia Kin TwoM"
 	"Mini Shotz ms-350" (EXPERIMENTAL)
 	"Minolta Dimage V"
 	"Minton S-Cam F5" (TESTING)
@@ -899,6 +890,7 @@ Supported cameras:
 	"Nikon Coolpix P1 (PTP mode)"
 	"Nikon Coolpix P100 (PTP mode)"
 	"Nikon Coolpix P2 (PTP mode)"
+	"Nikon Coolpix P300 (PTP mode)"
 	"Nikon Coolpix P4 (PTP mode)"
 	"Nikon Coolpix P50 (PTP mode)"
 	"Nikon Coolpix P500 (PTP mode)"
@@ -949,6 +941,7 @@ Supported cameras:
 	"Nikon DSC D70s (PTP mode)"
 	"Nikon DSC D80 (PTP mode)"
 	"Nikon DSC D90 (PTP mode)"
+	"Nikon V1"
 	"nisis Quickpix Qp3" (TESTING)
 	"NogaNet TDC-15" (TESTING)
 	"Nokia 2710"
@@ -987,7 +980,6 @@ Supported cameras:
 	"Nokia N73 Mobile Phone"
 	"Nokia N75 Mobile Phone"
 	"Nokia N78 Mobile Phone"
-	"Nokia N79"
 	"Nokia N8"
 	"Nokia N8 (Ovi mode)"
 	"Nokia N80 Internet Edition (Media Player)"
@@ -1009,7 +1001,6 @@ Supported cameras:
 	"NormSoft, Inc. Pocket Tunes"
 	"NormSoft, Inc. Pocket Tunes 4"
 	"Novatech Digital Camera CC30" (EXPERIMENTAL)
-	"nVidia CM9-Adam"
 	"O2 Sistemas ZoltarTV"
 	"Olympus C-1000L"
 	"Olympus C-1400L"
@@ -1068,6 +1059,7 @@ Supported cameras:
 	"Olympus D-600L"
 	"Olympus D-600XL"
 	"Olympus D-620L"
+	"Olympus E-520"
 	"Olympus fe-200"
 	"Olympus FE4000"
 	"Olympus IR-300"
@@ -1101,6 +1093,7 @@ Supported cameras:
 	"Panasonic PV-L859"
 	"Pantech Crux"
 	"Pencam TEVION MD 9456"
+	"Pentax K20D" (EXPERIMENTAL)
 	"Pentax Optio 33WR"
 	"Pentax Optio 43WR"
 	"Pentax Optio 450"
@@ -1205,6 +1198,7 @@ Supported cameras:
 	"Sakar Digital no. 56379 Spyshot" (TESTING)
 	"Sakar Digital no. 77379" (EXPERIMENTAL)
 	"Sakar Dora the Explorer no. 88067" (EXPERIMENTAL)
+	"Sakar Hello Kitty no. 94009" (EXPERIMENTAL)
 	"Sakar Kidz Cam 86379" (EXPERIMENTAL)
 	"Sakar Kidz-Cam no. 88379" (EXPERIMENTAL)
 	"Sakar Micro Digital 2428x" (EXPERIMENTAL)
@@ -1218,11 +1212,11 @@ Supported cameras:
 	"Sakar Sticker Wizard no. 59379" (EXPERIMENTAL)
 	"Samsung digimax 800k"
 	"Samsung F250 Mobile Phone"
-	"Samsung Galaxy Nexus/Galaxy S i9000/i9250, Android 4.0 updates"
+	"Samsung Galaxy Nexus/Galaxy S i9000, Android 4.0 updates"
 	"Samsung Galaxy S GT-I9000/Galaxy 3 i5800/Kies mode"
 	"Samsung GT-B2700"
 	"Samsung GT-B2710/Xcover 271"
-	"Samsung GT-P7310/P7510/N7000/I9100/Galaxy Tab 7.7/10.1/S2/Nexus/Note"
+	"Samsung GT-P7510/Galaxy Tab 7.7/10.1/S2/GT-N7000/Nexus/Note"
 	"Samsung GT-S5230"
 	"Samsung GT-S8500"
 	"Samsung I550W Phone"
@@ -1398,7 +1392,6 @@ Supported cameras:
 	"Sony Walkman NWZ-W252B"
 	"Sony Walkman NWZ-X1050B/NWZ-X1060B"
 	"Sony Walkman NWZ-X1051/NWZ-X1061"
-	"SONY Xperia S"
 	"SonyEricsson C702"
 	"SonyEricsson C902"
 	"SonyEricsson C905"
@@ -1408,7 +1401,6 @@ Supported cameras:
 	"SonyEricsson K550i"
 	"SonyEricsson K850i"
 	"SonyEricsson LT15i (Xperia arc S)"
-	"SonyEricsson ST15i Xperia Mini"
 	"SonyEricsson ST18a Xperia Ray"
 	"SonyEricsson T700"
 	"SonyEricsson U5"
@@ -1422,7 +1414,6 @@ Supported cameras:
 	"SonyEricsson W910"
 	"SonyEricsson W980"
 	"SonyEricsson W995"
-	"SonyEricsson Xperia Arc LT15i"
 	"SonyEricsson Xperia Neo"
 	"Soundstar TDC-35" (EXPERIMENTAL)
 	"SpyPen Axys"
@@ -1465,7 +1456,7 @@ Supported cameras:
 	"Toshiba PDR-M60"
 	"Toshiba PDR-M61"
 	"Toshiba PDR-M65"
-	"Toshiba Thrive AT100/AT105"
+	"Toshiba Thrive AT105"
 	"TP6801 USB picture frame" (TESTING)
 	"Traveler SX330z" (EXPERIMENTAL)
 	"Traveler SX410z" (EXPERIMENTAL)
