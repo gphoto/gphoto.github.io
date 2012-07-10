@@ -16,6 +16,9 @@ New major version containing various API changes and restructuring to
 remove artificial limits (like 1024 files per directory) and clear
 up some APIs to make it a bit easier on frontends.
 
+This release is binary incompatible and also has some API incompatibilities,
+your applications will need to be rebuilt and perhaps adjusted.
+
 <h3>libgphoto2 API</h3>
 <ul>
 <li> gp_context* functions no longer get varargs, but preprocessed
