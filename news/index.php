@@ -10,6 +10,109 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.5.0</h2>
+
+New major version containing various API changes and restructuring to
+remove artificial limits (like 1024 files per directory) and clear
+up some APIs to make it a bit easier on frontends.
+
+<h3>libgphoto2 API</h3>
+<ul>
+<li> gp_context* functions no longer get varargs, but preprocessed
+     strings. This makes hooking them into other language bindings
+     easier.
+
+<li> gp_file_new_from_handler(): Allow passing data in and out via
+     handler functions (to allow streaming). See also CameraFileHandler
+     function pointers.
+
+<li> CameraFileInfoFile: removed "name" structmember and GP_FILE_INFO_NAME
+     flags.<br/>
+     Use direct passing in of the filename to the API functions.
+
+<li> New: gp_camera_autodetect(CameraList *list, GPContext*);<br/>
+
+     Simple autodetection function returning all current detected cameras.
+
+<li> gp_file_set_name() and _get_name() passing in is no longer needed
+     and the API will go away.
+
+<li> New gp_file_get_name_by_type() will convert a regular filename ("normal")
+     into one depending on type (e.g. "raw_" prefix) and adjusted suffix
+     (like ".ppm" turning into ".pgm" for grayscale previews).
+
+<li> gp_file_set_type() and gp_file_get_type() are gone, these functions
+     are now implicit passed via arguments to the the put_file and
+     set_file_noop() functions.
+
+<li> gp_filesystem_set_info_noop(), gp_filesystem_set_file_noop(),
+     gp_filesystem_put_file(), gp_camera_folder_put_file():
+     <br/>
+     Added "filename" argument to pass in the filename. The one
+     from CameraFileInfoFile and CameraFile are no longer used.
+     <br/>
+     Added "type" argument to pass in the filetype (GP_FILE_TYPE_*).
+
+<li> Adjusted to new GPPortInfo handling.
+
+<li> Rewrote gphoto2-filesys.c to be directory based (in a tree structure).
+     Change should not be visibile outside of gphoto2-filesys.c.
+
+</ul>
+
+<h3>libgphoto2_port API</h3>
+
+<ul>
+<li>GPPortInfo is now abstracted and internal.
+    <br/> 
+     If you need to retrieve name, path or type, use
+<code>
+	     gp_port_info_get_xx (info, &amp;x);
+</code>
+     to get the value.
+     Name and path strings continue to be owned by libgphoto2_port,
+     do not modify and do not free.
+<br/>
+     You are not supposed to create / append new ones to GPPortInfoList.
+
+<li>Disk Settings have been removed from the Settings union. Should
+     not affect frontends at all.
+
+<li>Started using symbol versions.
+</ul>
+
+<h3>PTP2 driver</h3>
+<ul>
+<li>PTP Object management rewritten, able to do "on demand" loading.
+</li>
+
+<h3>Directory driver</h3>
+<ul>
+<li>Use GPPortInfo instead of settings to pass basepath in.
+<li>Abstracted common functionality.
+</ul>
+
+<h3>Build</h3>
+<ul>
+<li>Removed dummy README file from SVN.
+<li>Ship README.packaging in dist tarball for the first time.
+<li>Allow building "all plus non-default" camlibs.
+<li>Fix libltdl test compile for cases with LDFLAGS defined.
+</ul>
+
+<h3>Documentation</h3>
+<ul>
+<li>Optionally (--enable-internal-docs) build internal doxygen docs with call graphs and all the dirty details.
+<li>Improved docs on how to selectively build camlibs.
+</ul>
+
+<h3>Test cases</h3>
+<ul>
+<li> Test camlib loading of both uninstalled and installed camlibs.
+</ul>
+
+
+<hr />
 <h2>gphoto2 2.4.14</h2>
 <ul>
 <li>disable aalib by default (--with-aalib to enable)
