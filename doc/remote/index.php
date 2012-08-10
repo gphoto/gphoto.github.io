@@ -121,7 +121,25 @@ This can be used with either <code>--capture-image</code> which would leave all 
 	Shutterspeed and Aperture not available in Auto or P
 	setting, only in the more manual ones.<br>
 	For Bulb mode: Switch dial to 'M'anual mode, gphoto2 --set-config shutterspeed=bulb , and run something like:
+
 	gphoto2 --set-config bulb=1 --wait-event=10s --set-config bulb=0 --wait-event-and-download=5s
+
+	</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 1100D / Rebel ?? / Kiss ?</td>
+	<td>Yes</td>
+	<td>Image Format, ISO, WhiteBalance, Whitebalance Adjust, DriveMode, Picture Style, Bulb Mode, BracketMode, Aperture, ShutterSpeed, Autofocus (in LiveView mode), Manual Focus (in LiveView mode), Viewfinder</td>
+	<td>10</td>
+	<td>Use libgphoto2 2.4.14<br>
+	Use the Modewheel on the Camera to get to different settings.<br>
+	Shutterspeed and Aperture not available in Auto or P
+	setting, only in the more manual ones.<br>
+	For Bulb mode: Switch dial to 'M'anual mode, gphoto2 --set-config shutterspeed=bulb , and run something like:
+
+gphoto2 --wait-event=2s --set-config eosremoterelease=Immediate --wait-event=5s --set-config eosremoterelease=Off --wait-event-and-download=5s
+
 	</td>
 </tr>
 
