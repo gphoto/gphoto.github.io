@@ -9,20 +9,37 @@
 <table cellpadding="3" cellspacing="3" witdh="100%">
 <tr class="text"><td>
 <p>
-On this page, you find list of the supported cameras as of the 
+On this page, you find list of the supported cameras as of the
 current release.
 </p>
 <p>
-Support for additional cameras may be in the current 
+Support for additional cameras may be in the current
 libgphoto2 SVN trunk code.
-They will be added to the next release. 
+They will be added to the next release.
 </p>
 <p>If your camera is neither supported in the current release nor in current SVN trunk, it is possible that
 <ul>
 <li>it is an old camera for which the original <a href="/proj/gphoto/">gPhoto</a> driver has not been ported yet (mostly due to lack of demand)</li>
 <li>it is a new camera for which there is no support at all</li>
 </ul>
-See the 
+</p>
+<p>
+To report a not yet supported camera:
+<ul>
+<li>If it a USB mass storage based camera (appearing like a USB stick or USB drive) it is mounted by your operating system and a report to us is not necessary.
+<li>Record the output of <code>lsusb</code> to get the USB ids.
+<li>Record the output of <code>gphoto2 --auto-detect</code> to see if it is detected in a generic way, or by another name. If it is detected, run the steps below:
+<li>Record the output of <code>gphoto2 --summary</code> to get generic summary information.
+<li>Record the output of <code>gphoto2 --list-all-config</code>.
+<li>Record the output of <code>gphoto2 --capture-image</code>.
+</ul>
+Mail the output results with the camera name to <code>gphoto-devel@lists.sourceforge.net</code>.
+</p>
+<p>
+Please note that PTP cameras will already work out of the box, including special vendor features if we already implemented them.
+</p>
+<p>
+See the
 <a href="http://www.teaser.fr/~hfiguiere/linux/digicam.html">Digital
 Camera Support for UN*X</a> page for details about just any camera.
 </p>
