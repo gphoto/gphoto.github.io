@@ -24,11 +24,11 @@ They will be added to the next release.
 </ul>
 </p>
 <p>
-To report a not yet supported camera:
+To report a not yet supported camera to the gphoto development team follow the instructions below:
 <ul>
-<li>If it a USB mass storage based camera (appearing like a USB stick or USB drive) it is mounted by your operating system and a report to us is not necessary.
+<li>If it a USB mass storage based camera (appearing like a USB stick or USB drive) it is mounted by your operating system and not gphoto2. In this case a report to us is not necessary.
 <li>Record the output of <code>lsusb</code> to get the USB ids.
-<li>Record the output of <code>gphoto2 --auto-detect</code> to see if it is detected in a generic way, or by another name. If it is detected, run the steps below:
+<li>Record the output of <code>gphoto2 --auto-detect</code> to see if it is detected in a generic way, or by another name. If it is detected already, run the steps below:
 <li>Record the output of <code>gphoto2 --summary</code> to get generic summary information.
 <li>Record the output of <code>gphoto2 --list-all-config</code>.
 <li>Record the output of <code>gphoto2 --capture-image</code>.
