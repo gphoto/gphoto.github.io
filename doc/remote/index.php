@@ -240,6 +240,22 @@ gphoto2 --wait-event=2s --set-config eosremoterelease=Immediate --wait-event=5s 
 </tr>
 
 <tr>
+	<td>Canon EOS 5D Mark III</td>
+	<td>Yes</td>
+	<td>see other EOS like 1000D, Viewfinder</td>
+	<td>22</td>
+	<td>use libgphoto2 2.4.14 or later</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 6D</td>
+	<td>Yes</td>
+	<td>see other EOS like 1000D, Viewfinder</td>
+	<td>20</td>
+	<td>use libgphoto2 2.4.14 or later</td>
+</tr>
+
+<tr>
 	<td>Canon EOS 7D</td>
 	<td>Yes</td>
 	<td>ImageFormat, ISO, WhiteBalance, WhiteBalanceAdjust, DriveMode, PictureStyle, Aperture, Shutterspeed, MeteringMode, BracketMode, AutoExposure Bracketing, Viewfinder</td>
@@ -951,10 +967,34 @@ here</a></td>
 </tr>
 
 <tr>
+	<td>Nikon D600</td>
+	<td>Yes</td>
+	<td>All, Viewfinder</td>
+	<td>24</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
 	<td>Nikon D700</td>
 	<td>Yes</td>
 	<td>All, Viewfinder</td>
 	<td>12</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Nikon D800</td>
+	<td>Yes</td>
+	<td>All, Viewfinder</td>
+	<td>36</td>
+	<td>&nbsp;</td>
+</tr>
+
+<tr>
+	<td>Nikon D800E</td>
+	<td>Yes</td>
+	<td>All, Viewfinder</td>
+	<td>36</td>
 	<td>&nbsp;</td>
 </tr>
 
