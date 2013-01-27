@@ -10,6 +10,75 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+<h2>libgphoto2 2.5.1</h2>
+
+<h3>translations updates</h3>
+<ul>
+<li>lots of translations synced to 2.5.0 release
+</ul>
+
+<h3>ptp2</h3>
+<ul>
+<li>Lots of new USB ids added
+<ul>
+<li>Sony RX100, SLT-A65V, HX200V
+<li>Nikon Coolpix S01, S3300, P7700, S8200, P510, J1
+<li>Nikon DSLR D600, D800E, D800, D5200
+<li>Panasonic DMC LX7
+<li>Olympus SP-720UZ, E-PL5
+<li>Canon PowerShot D10, IXUS 310IS, SX220HS, G1 X, SX40HS, 
+    A4000IS, SX240HS, A2400IS, S110, SX500IS
+<li>Canon EOS M, EOS 650D, EOS 6D
+<li>Fuji FinePix S2950, S4300, X-S1, HS30EXR, XF1
+</ul>
+<li>wait-for-event also for Canon PowerShot (capture capable ones) now waits for "shutter press" signal and triggers a capture.
+<li>Canon Powershot Preview mode fixes
+<li>various Nikon configurations added: angle, flickerreduction, rawcompression, remotemode.
+<li>Nikon DSLR to-ram capture fixes
+<li>merged music player ids from libmtp. Includes big Samsung devices rename.
+<li>EOS preview capture bugfixes: some waiting reduced to allow higher preview / regular capture speed on Canon EOS, understand newer EOS.
+<li>some more bug fixes
+</ul>
+
+<h3>ax203</h3>
+<ul>
+<li>SST25VF080 and SST25VF016 support added.
+<li>ax206 support enhanced.
+</ul>
+
+<h3>canon</h3>
+<ul>
+<li>decode "zoom" settings better
+<li>"shootingmode" fix
+</ul>
+
+<h3>libgphoto2_port/libusb1</h3>
+<ul>
+<li>bugfixes
+</ul>
+
+<h3>examples</h3>
+<ul>
+<li>focus.c, sample-justfocus.c: focusing example added
+</ul>
+
+<hr />
+<h2>gphoto2 2.5.1</h2>
+
+<ul>
+<li>Fixed that the meaning of --keep and --no-keep was switched.
+
+<li>Allow passing absolute filenames to
+   -p, -d, -r/--rmdir, -m/--mkdir, -t, --show-info, --get-metadata,
+   --get-raw-data, --get-audio-data,
+<p/>
+   like e.g.:
+   gphoto2 -p /store_00010001/DCIM/100D7000/DSC_0001.JPG
+<li>-L --quiet  now prints a list of all files, 1 per line.
+<li>-l --quiet  now prints a list of all folders, 1 per line.
+</ul>
+
+<hr />
 <h2>libgphoto2 2.5.0</h2>
 
 New major version containing various API changes and restructuring to
