@@ -9,13 +9,16 @@
 <table cellpadding="3" cellspacing="3" witdh="100%">
 <tr class="text"><td>
 <p>
-On this page, you find list of the supported cameras as of the
-current release.
+On this page, you find list of the supported cameras as of the current release.
 </p>
 <p>
-Support for additional cameras may be in the current
-libgphoto2 SVN trunk code.
-They will be added to the next release.
+<strong>Supported</strong> means here: Able to download images from the camera (or upload images to the picture frame).
+For remote control support check out the <a href="/doc/remote/">Remote Control Overview</a> page.
+</p>
+<p>
+Support for additional cameras may be in the current libgphoto2 SVN trunk code
+and will be added to the next release. Cameras capable of MTP, PTP or PictBridge are supported without needing
+to be specifically listed here.
 </p>
 <p>If your camera is neither supported in the current release nor in current SVN trunk, it is possible that
 <ul>
