@@ -856,11 +856,27 @@ here</a></td>
 <tr>
 	<td>Nikon CoolPix P5000</td>
 	<td>Yes</td>
-	<td>None</td>
+	<td>Some</td>
 	<td>10</td>
 	<td>only image quality configurable</td>
 </tr>
 
+<tr>
+	<td>Nikon CoolPix S3300</td>
+	<td>Yes</td>
+	<td>Some</td>
+	<td>16</td>
+	<td>Only image quality/size, flash, focusmode configurable</td>
+</tr>
+
+
+<tr>
+	<td>Nikon D4</td>
+	<td>Yes</td>
+	<td>All</td>
+	<td>16</td>
+	<td>&nbsp;</td>
+</tr>
 
 <tr>
 	<td>Nikon D40</td>
