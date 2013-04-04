@@ -227,7 +227,16 @@ gphoto2 --wait-event=2s --set-config eosremoterelease=Immediate --wait-event=5s 
 	<td>Yes</td>
 	<td>limited level of configurability (see other EOS), Viewfinder</td>
 	<td>18.0</td>
-	<td>Use libgphoto2 2.4.11
+	<td>Use libgphoto2 2.4.14 or newer
+	</td>
+</tr>
+
+<tr>
+	<td>Canon EOS 650D</td>
+	<td>Yes</td>
+	<td>limited level of configurability (see other EOS), Viewfinder</td>
+	<td>18.0</td>
+	<td>Use libgphoto2 2.4.14 or newer
 	</td>
 </tr>
 
