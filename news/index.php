@@ -76,7 +76,7 @@ build happier. Might break non Linux platforms, please report this.
 <h2>gphoto2 2.5.2</h2>
 <ul>
 <li>new --reset option to reset usb devices.
-<liusing --filename, if the camera reports 1. Jan 1970, fall back to
+<li>using --filename, if the camera reports 1. Jan 1970, fall back to
   use the current date/time.
 <li>translations updated: french, polish, vietnamese, russian, simplified chinese, danish
 </ul>
