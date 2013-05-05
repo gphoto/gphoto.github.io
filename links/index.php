@@ -35,7 +35,7 @@
    <li><a href="http://www.usblyzer.com/">USBLyzer</a> - best current product. Commercial, with a 30 day free trial.
    <li><a href="http://sourceforge.net/projects/usbsnoop/">SnoopyPro</a> - another Windows USB snoop tool.
    <li><a href="https://www.wireshark.org/">Wireshark</a> - the opensource network and USB sniffer. (Linux users: <code>modprobe usbmon</code> to enable USB sniffing)
-   <li><a href="http://desowin.org/usbpcap">USBPcap</a> - opensource pcap port for Windows
+   <li><a href="http://desowin.org/usbpcap">USBPcap</a> - opensource USB capture utility for Windows (stores traces in PCAP format for later e.g. Wireshark usage)
    </ul>
 
    <h3>Digital camera review/resources</h3>

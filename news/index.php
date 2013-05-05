@@ -10,6 +10,79 @@
 	<td class="text">
 <!-- news headlines -->
 <hr />
+
+<h2>libgphoto2 2.5.2 release</h2>
+
+<h3>ptp2</h3>
+<ul>
+<li>Fixed Raspberry Pi and USB 3.0 "connect only once" problem.
+<li>Experimental Olympus E-series (not Pen) remote control support. Try in "Control" mode.
+<li>Nikon DSLR: real movie capture! (use --set-config movie=1/0 and --wait-event)
+<li>New ids:
+<ul>
+  <li>Sony: DSC-A900, SLT-A350, DSC-RX1, HX300, NEX-3N
+  <li>Nikon Coolpix: P80, L820, S9500, S620, P520, S2500, S2600
+  <li>Nikon Coolpix A
+  <li>Nikon DSLR: D2Xs, D4, D7100
+  <li>Nikon J2
+  <li>Canon Powershot: S100, A1300IS, A2300IS, 
+  <li>Canon EOS: 700D, 100D
+  <li>Fuji FinePix: H20EXR, X20
+  <li>Samsung: NX1000, EK-GC100
+  <li>Also various MTP device ids merged from libmtp.
+</ul>
+<li>ptpip: major/minor number was switched in init packet.
+<li>Nikon DSLR: out of focus during capture fixed, various bugfixes
+<li>Nikon "controlmode" config for unlocking the camera.
+<li>Canon DSLR: "keepdeviceon" pinging in get_config, liveview
+<li>Canon thumbnail retrieval fixed.
+<li>Lots of work on getting Olympus E-series DSLRs in Control mode to run.
+</ul>
+
+<h3>canon</h3>
+<ul>
+<li>wait-for-event: handle when camera goes offline during waiting.
+<li>fixed mtime 0 (Jan 1 1970) issue when downloading files and using --filename
+</ul>
+
+<h3>sierra</h3>
+<ul>
+<li>Fixed the Nikon Coolpix 4300 and 2500 USB over SCSI capture mode.
+<li>Ignore register 4 read errors after capture as Nikon does not supply them.
+<li>added commented code on how to switch the Coolpix 2500 to RAW DIAG mode.
+</ul>
+
+<h3>libgphoto2_port</h3>
+<ul><li>gp_port_reset functionality to do a port reset.</ul>
+
+<h3>libgphoto2_port/usbscsi</h3>
+<ul>
+<li>Use timeout supplied by driver, not hardcoded 1.5 seconds (fixes Nikon sierra capture).
+</ul>
+
+<h3>translations</h3>
+<ul>
+<li>updated ukrainian, finish, dutch, polish, russian, french, vietnamese, german
+</ul>
+
+<h3>build</h3>
+<ul>
+<li>specify lots of _BSD_SOURCE et.al. to make the strict MacOS ports
+build happier. Might break non Linux platforms, please report this.
+<li>libxml2 needed for Olympus E series capture support.
+<li>cleaned up AM_CPPFLAGS/CPPFLAGS usage, do not use both of them together.
+</ul>
+<hr/>
+<h2>gphoto2 2.5.2</h2>
+<ul>
+<li>new --reset option to reset usb devices.
+<liusing --filename, if the camera reports 1. Jan 1970, fall back to
+  use the current date/time.
+<li>translations updated: french, polish, vietnamese, russian, simplified chinese, danish
+</ul>
+
+<hr/>
+
 <h2>libgphoto2 2.5.1</h2>
 
 <h3>translations updates</h3>
