@@ -64,1721 +64,3449 @@ gphoto2         2.5.2          gcc, popt(m), exif, cdk, no aa, jpeg, readline
 libgphoto2      2.5.2          all camlibs, gcc, ltdl, EXIF
 libgphoto2_port 0.10.0         gcc, ltdl, USB, serial lockdev locking
 ========================================================================
-Number of supported cameras: 1711
-Supported cameras:
-	" JL2005B/C/D camera" (EXPERIMENTAL)
-	"Acer E350 Liquid Gallant Duo"
-	"Acer Iconia TAB A100 (ID1)"
-	"Acer Iconia TAB A100 (ID2)"
-	"Acer Iconia TAB A110"
-	"Acer Iconia TAB A200 (ID1)"
-	"Acer Iconia TAB A200 (ID2)"
-	"Acer Iconia TAB A210"
-	"Acer Iconia TAB A500 (ID1)"
-	"Acer Iconia TAB A500 (ID2)"
-	"Acer Iconia TAB A501 (ID1)"
-	"Acer Iconia TAB A501 (ID2)"
-	"Acer Iconia TAB A510 (ID1)"
-	"Acer Iconia TAB A510 (ID2)"
-	"Acer Iconia TAB A700"
-	"Achiever Digital Adc65"
-	"Acromag Inc. XO Learning Tablet (MTP)"
-	"Acromag Inc. XO Learning Tablet (MTP+ADB)"
-	"AEG Snap 300"
-	"Agfa ePhoto 1280"
-	"Agfa ePhoto 1680"
-	"Agfa ePhoto 307"
-	"Agfa ePhoto 780"
-	"Agfa ePhoto 780C"
-	"Agfa ePhoto CL18"
-	"Agfa ePhoto CL20" (EXPERIMENTAL)
-	"Aiptek 1.3 mega PocketCam" (TESTING)
-	"Aiptek PalmCam Trio"
-	"Aiptek Pencam" (TESTING)
-	"Aiptek PenCam Trio"
-	"Aiptek PenCam VGA+" (TESTING)
-	"Aiptek Pencam without flash" (TESTING)
-	"Aiptek Smart Megacam" (TESTING)
-	"Amazing Spiderman" (EXPERIMENTAL)
-	"Amazon Kindle Fire (ID1)"
-	"Amazon Kindle Fire (ID2)"
-	"Amazon Kindle Fire (ID3)"
-	"Amazon Kindle Fire 2G (ID1)"
-	"American Idol Keychain Camera" (TESTING)
-	"Apple iPad (PTP mode)"
-	"Apple iPhone (PTP mode)"
-	"Apple iPhone 3G (PTP mode)"
-	"Apple iPhone 3GS (PTP mode)"
-	"Apple iPhone 4 (PTP mode)"
-	"Apple iPhone 4S (PTP mode)"
-	"Apple iPod Touch (PTP mode)"
-	"Apple iPod Touch 2G (PTP mode)"
-	"Apple iPod Touch 3rd Gen (PTP mode)"
-	"Apple QuickTake 200"
-	"Apple QuickTake 200"
-	"Archos 101 G9"
-	"Archos 101 G9 (v2)"
-	"Archos 101 G9 Turbo"
-	"Archos 101 G9 Turbo 250 HD"
-	"Archos 104 (MTP mode)"
-	"Archos 105 (MTP mode)"
-	"Archos 204 (MTP mode)"
-	"Archos 404 (MTP mode)"
-	"Archos 404CAM (MTP mode)"
-	"Archos 405 (MTP mode)"
-	"Archos 405HDD (MTP mode)"
-	"Archos 5 (MTP mode)"
-	"Archos 5 (MTP mode)"
-	"Archos 504 (MTP mode)"
-	"Archos 5H IT (MTP mode)"
-	"Archos 5S IT (MTP mode)"
-	"Archos 604 (MTP mode)"
-	"Archos 604WIFI (MTP mode)"
-	"Archos 605 (MTP mode)"
-	"Archos 605F (MTP mode)"
-	"Archos 7 (MTP mode)"
-	"Archos 704 mobile dvr"
-	"Archos 704TV (MTP mode)"
-	"Archos 705 (MTP mode)"
-	"Archos 70it2 (mode 1)"
-	"Archos 70it2 (mode 2)"
-	"Archos 80G9"
-	"Archos 8o G9 (MTP mode)"
-	"Archos 8o G9 Turbo (MTP mode)"
-	"Archos 97 Xenon"
-	"Archos Arnova 10bG3 Tablet"
-	"Archos Arnova 8c G3"
-	"Archos Arnova Childpad"
-	"Archos Gmini XS100"
-	"Archos SPOD (MTP mode)"
-	"Archos TV+ (MTP mode)"
-	"Archos XS202 (MTP mode)"
-	"Argus Bean Sprout" (EXPERIMENTAL)
-	"Argus DC-100"
-	"Argus DC-1500"
-	"Argus DC-1510"
-	"Argus DC-1610" (EXPERIMENTAL)
-	"Argus DC-1620" (TESTING)
-	"Argus DC-1730" (EXPERIMENTAL)
-	"Argus DC-2000"
-	"Argus DC-2200"
-	"Argus DC1512e" (EXPERIMENTAL)
-	"Argus QuickClix"
-	"Aries ATC-0017" (EXPERIMENTAL)
-	"Aries Digital Keychain Camera, I" (EXPERIMENTAL)
-	"Asus MeMo Pad Smart 10"
-	"Asus PadFone (MTP)"
-	"Asus PadFone (MTP+ADB)"
-	"Asus PadFone 2 (MTP)"
-	"Asus PadFone 2 (MTP+?)"
-	"Asus SL101 (MTP)"
-	"Asus SL101 (MTP+ADB)"
-	"Asus TF101 Eeepad Transformer (MTP)"
-	"Asus TF101 Eeepad Transformer (MTP+ADB)"
-	"Asus TF201 Transformer Prime (keyboard dock)"
-	"Asus TF201 Transformer Prime (tablet only)"
-	"Asus TF300 Transformer (MTP)"
-	"Asus TF300 Transformer (MTP+ADB)"
-	"Asus TF700 Transformer (MTP)"
-	"Asus TF700 Transformer (MTP+ADB)"
-	"AX203 USB picture frame firmware ver 3.3.x" (TESTING)
-	"AX203 USB picture frame firmware ver 3.4.x" (TESTING)
-	"AX203 USB picture frame firmware ver 3.5.x" (TESTING)
-	"AX203 USB picture frame firmware ver 3.6.x" (TESTING)
-	"Barbie"
-	"Barbie Camera (Digital Blue)" (EXPERIMENTAL)
-	"Barnes&amp;Noble Nook HD+"
-	"Benq DC1300" (TESTING)
-	"Canon Digital IXUS"
-	"Canon Digital IXUS 100 IS"
-	"Canon Digital IXUS 110 IS"
-	"Canon Digital IXUS 120 IS"
-	"Canon Digital IXUS 130"
-	"Canon Digital IXUS 30 (PTP mode)"
-	"Canon Digital IXUS 300"
-	"Canon Digital IXUS 330"
-	"Canon Digital IXUS 40 (PTP mode)"
-	"Canon Digital IXUS 400 (PTP mode)"
-	"Canon Digital IXUS 430 (PTP mode)"
-	"Canon Digital IXUS 50 (PTP mode)"
-	"Canon Digital IXUS 500 (PTP mode)"
-	"Canon Digital IXUS 55 (PTP mode)"
-	"Canon Digital IXUS 60 (PTP mode)"
-	"Canon Digital IXUS 65 (PTP mode)"
-	"Canon Digital IXUS 70 (PTP mode)"
-	"Canon Digital IXUS 700 (PTP mode)"
-	"Canon Digital IXUS 75 (PTP mode)"
-	"Canon Digital IXUS 750 (PTP mode)"
-	"Canon Digital IXUS 80 IS"
-	"Canon Digital IXUS 800 (PTP mode)"
-	"Canon Digital IXUS 85 IS"
-	"Canon Digital IXUS 850 IS (PTP mode)"
-	"Canon Digital IXUS 860 IS"
-	"Canon Digital IXUS 90 IS"
-	"Canon Digital IXUS 900Ti (PTP mode)"
-	"Canon Digital IXUS 95 IS"
-	"Canon Digital IXUS 950 IS (PTP mode)"
-	"Canon Digital IXUS 960 IS (PTP mode)"
-	"Canon Digital IXUS 970 IS"
-	"Canon Digital IXUS 980 IS"
-	"Canon Digital IXUS 990 IS"
-	"Canon Digital IXUS i (normal mode)"
-	"Canon Digital IXUS i (PTP mode)"
-	"Canon Digital IXUS i5 (normal mode)"
-	"Canon Digital IXUS II (PTP mode)"
-	"Canon Digital IXUS IIs (PTP mode)"
-	"Canon Digital IXUS iZ (PTP mode)"
-	"Canon Digital IXUS v"
-	"Canon Digital IXUS v2"
-	"Canon Digital IXUS v3 (normal mode)"
-	"Canon Digital IXUS v3 (PTP mode)"
-	"Canon Digital IXUS Wireless (PTP mode)"
-	"Canon Digital Rebel XT (normal mode)" (EXPERIMENTAL)
-	"Canon Digital unknown 3"
-	"Canon Elura 50 (normal mode)"
-	"Canon Elura 50 (PTP mode)"
-	"Canon Elura 65 (PTP mode)"
-	"Canon EOS 1000D"
-	"Canon EOS 100D"
-	"Canon EOS 10D"
-	"Canon EOS 10D (PTP mode)"
-	"Canon EOS 1100D"
-	"Canon EOS 1D Mark II (PTP mode)"
-	"Canon EOS 1D Mark III (PTP mode)"
-	"Canon EOS 1D Mark IV"
-	"Canon EOS 20D (normal mode)" (EXPERIMENTAL)
-	"Canon EOS 20D (PTP mode)"
-	"Canon EOS 300D (normal mode)"
-	"Canon EOS 300D (PTP mode)"
-	"Canon EOS 30D (PTP mode)"
-	"Canon EOS 350D"
-	"Canon EOS 350D (normal mode)" (EXPERIMENTAL)
-	"Canon EOS 350D (PTP mode)"
-	"Canon EOS 400D (PTP mode)"
-	"Canon EOS 40D (PTP mode)"
-	"Canon EOS 450D (PTP mode)"
-	"Canon EOS 500D"
-	"Canon EOS 50D"
-	"Canon EOS 550D"
-	"Canon EOS 5D (normal mode)" (EXPERIMENTAL)
-	"Canon EOS 5D (PTP mode)"
-	"Canon EOS 5D Mark II"
-	"Canon EOS 5D Mark III"
-	"Canon EOS 600D"
-	"Canon EOS 60D"
-	"Canon EOS 650D"
-	"Canon EOS 6D"
-	"Canon EOS 700D"
-	"Canon EOS 7D"
-	"Canon EOS D30"
-	"Canon EOS D60"
-	"Canon EOS Digital Rebel (normal mode)"
-	"Canon EOS Digital Rebel (PTP mode)"
-	"Canon EOS Digital Rebel XTi (PTP mode)"
-	"Canon EOS Kiss Digital (normal mode)"
-	"Canon EOS Kiss Digital (PTP mode)"
-	"Canon EOS Kiss Digital N (normal mode)" (EXPERIMENTAL)
-	"Canon EOS Kiss Digital X (PTP mode)"
-	"Canon EOS Kiss X2 (PTP mode)"
-	"Canon EOS Kiss X3"
-	"Canon EOS M"
-	"Canon EOS Rebel T1i"
-	"Canon EOS Rebel XSi (PTP mode)"
-	"Canon FV M1 (normal mode)"
-	"Canon IXUS 310IS"
-	"Canon IXY 220 IS"
-	"Canon IXY 3000 IS"
-	"Canon IXY DIGITAL"
-	"Canon IXY DIGITAL 300"
-	"Canon IXY Digital L2 (normal mode)"
-	"Canon IXY DV M"
-	"Canon IXY DV M2 (normal mode)"
-	"Canon MV630i (normal mode)"
-	"Canon MV650i (normal mode)"
-	"Canon MV750i (PTP mode)"
-	"Canon MVX 10i (normal mode)"
-	"Canon MVX 3i (normal mode)"
-	"Canon MVX100i"
-	"Canon MVX100i"
-	"Canon MVX150i (normal mode)"
-	"Canon MVX25i (normal mode)"
-	"Canon MVX2i"
-	"Canon MVX3i (PTP mode)"
-	"Canon Optura 10"
-	"Canon Optura 10"
-	"Canon Optura 20"
-	"Canon Optura 20 (normal mode)"
-	"Canon Optura 200 MC"
-	"Canon Optura 300 (normal mode)"
-	"Canon Optura 40 (normal mode)"
-	"Canon Optura 600 (PTP mode)"
-	"Canon Optura Xi (normal mode)"
-	"Canon PowerShot A10"
-	"Canon PowerShot A100"
-	"Canon PowerShot A1100 IS"
-	"Canon PowerShot A1300IS"
-	"Canon PowerShot A20"
-	"Canon PowerShot A200"
-	"Canon PowerShot A2000 IS"
-	"Canon PowerShot A2100 IS"
-	"Canon PowerShot A2300IS"
-	"Canon PowerShot A2400IS"
-	"Canon PowerShot A30"
-	"Canon PowerShot A300 (PTP mode)"
-	"Canon PowerShot A3000 IS"
-	"Canon PowerShot A310 (PTP mode)"
-	"Canon PowerShot A3100 IS"
-	"Canon PowerShot A40"
-	"Canon PowerShot A400 (PTP mode)"
-	"Canon PowerShot A4000IS"
-	"Canon PowerShot A410 (PTP mode)"
-	"Canon PowerShot A420 (PTP mode)"
-	"Canon PowerShot A430 (PTP mode)"
-	"Canon PowerShot A450 (PTP mode)"
-	"Canon PowerShot A460 (PTP mode)"
-	"Canon PowerShot A470"
-	"Canon PowerShot A480"
-	"Canon PowerShot A5"
-	"Canon PowerShot A5 Zoom"
-	"Canon PowerShot A50"
-	"Canon PowerShot A510 (PTP mode)"
-	"Canon PowerShot A520 (PTP mode)"
-	"Canon PowerShot A530 (PTP mode)"
-	"Canon PowerShot A540 (PTP mode)"
-	"Canon PowerShot A550 (PTP mode)"
-	"Canon PowerShot A560 (PTP mode)"
-	"Canon PowerShot A570 IS (PTP mode)"
-	"Canon PowerShot A580"
-	"Canon PowerShot A590 IS"
-	"Canon PowerShot A60 (PTP)"
-	"Canon PowerShot A610 (PTP mode)"
-	"Canon PowerShot A620 (PTP mode)"
-	"Canon PowerShot A630 (PTP mode)"
-	"Canon PowerShot A640 (PTP mode)"
-	"Canon PowerShot A650IS (PTP mode)"
-	"Canon PowerShot A70 (PTP)"
-	"Canon PowerShot A700 (PTP mode)"
-	"Canon PowerShot A710 IS (PTP mode)"
-	"Canon PowerShot A720 IS (PTP mode)"
-	"Canon PowerShot A75 (PTP mode)"
-	"Canon PowerShot A80 (PTP)"
-	"Canon PowerShot A800"
-	"Canon PowerShot A85 (PTP mode)"
-	"Canon PowerShot A95 (PTP mode)"
-	"Canon PowerShot D10"
-	"Canon PowerShot D10"
-	"Canon PowerShot G1"
-	"Canon PowerShot G1 X"
-	"Canon PowerShot G10"
-	"Canon PowerShot G11"
-	"Canon PowerShot G2"
-	"Canon PowerShot G3 (normal mode)"
-	"Canon PowerShot G3 (PTP mode)"
-	"Canon PowerShot G5 (PTP mode)"
-	"Canon Powershot G6 (PTP mode)"
-	"Canon PowerShot G7 (PTP mode)"
-	"Canon PowerShot G9 (PTP mode)"
-	"Canon PowerShot IXY Digital L (normal mode)"
-	"Canon PowerShot Pro70"
-	"Canon PowerShot Pro90 IS"
-	"Canon PowerShot S1 IS (PTP mode)"
-	"Canon PowerShot S10"
-	"Canon PowerShot S100"
-	"Canon PowerShot S100"
-	"Canon PowerShot S110"
-	"Canon PowerShot S110"
-	"Canon PowerShot S2 IS (PTP mode)"
-	"Canon PowerShot S20"
-	"Canon PowerShot S200"
-	"Canon PowerShot S230 (normal mode)"
-	"Canon PowerShot S230 (PTP mode)"
-	"Canon PowerShot S3 IS (PTP mode)"
-	"Canon PowerShot S30"
-	"Canon PowerShot S300"
-	"Canon PowerShot S330"
-	"Canon PowerShot S40"
-	"Canon PowerShot S400 (PTP mode)"
-	"Canon PowerShot S410 (PTP mode)"
-	"Canon PowerShot S45 (normal mode)"
-	"Canon PowerShot S45 (PTP mode)"
-	"Canon PowerShot S5 IS (PTP mode)"
-	"Canon PowerShot S50 (PTP mode)"
-	"Canon PowerShot S500 (PTP mode)"
-	"Canon Powershot S60 (PTP mode)"
-	"Canon Powershot S70 (PTP mode)"
-	"Canon PowerShot S80 (PTP mode)"
-	"Canon PowerShot SD10 Digital ELPH (normal mode)"
-	"Canon PowerShot SD100 (PTP mode)"
-	"Canon PowerShot SD1000 (PTP mode)"
-	"Canon PowerShot SD110 (PTP mode)"
-	"Canon Powershot SD1100 IS"
-	"Canon Powershot SD1200 IS"
-	"Canon PowerShot SD1300 IS"
-	"Canon PowerShot SD20 (normal mode)"
-	"Canon PowerShot SD200 (PTP mode)"
-	"Canon PowerShot SD40 (PTP mode)"
-	"Canon PowerShot SD430 (PTP mode)"
-	"Canon PowerShot SD450 (PTP mode)"
-	"Canon PowerShot SD500 (PTP mode)"
-	"Canon PowerShot SD600 (PTP mode)"
-	"Canon PowerShot SD630 (PTP mode)"
-	"Canon PowerShot SD700 (PTP mode)"
-	"Canon PowerShot SD750 (PTP mode)"
-	"Canon PowerShot SD770 IS"
-	"Canon PowerShot SD780 IS"
-	"Canon Powershot SD790 IS"
-	"Canon PowerShot SD850 (PTP mode)"
-	"Canon PowerShot SD880 IS"
-	"Canon PowerShot SD900 (PTP mode)"
-	"Canon PowerShot SD940 IS"
-	"Canon PowerShot SD970 IS"
-	"Canon PowerShot SD990"
-	"Canon PowerShot SX10 IS"
-	"Canon Powershot SX100 IS (PTP mode)"
-	"Canon PowerShot SX110 IS"
-	"Canon PowerShot SX120 IS"
-	"Canon PowerShot SX130 IS"
-	"Canon PowerShot SX20 IS"
-	"Canon PowerShot SX200 IS"
-	"Canon PowerShot SX210 IS"
-	"Canon PowerShot SX220HS"
-	"Canon PowerShot SX230HS"
-	"Canon PowerShot SX240HS"
-	"Canon PowerShot SX40HS"
-	"Canon PowerShot SX500IS"
-	"Canon PowerShot unknown 1"
-	"Canon PowerShot unknown 2"
-	"Canon Rebel T2i"
-	"Canon Rebel T4i"
-	"Canon ZR70MC (normal mode)"
-	"Casio EX-S770"
-	"Casio EX-Z120"
-	"Casio EX-Z65"
-	"Casio EX-Z700"
-	"Casio LV 10" (EXPERIMENTAL)
-	"Casio QV10"
-	"Casio QV100"
-	"Casio QV10A"
-	"Casio QV300"
-	"Casio QV70"
-	"Casio QV700"
-	"Casio QV770"
-	"Che-ez Snap" (EXPERIMENTAL)
-	"Che-Ez Snap SNAP-U" (EXPERIMENTAL)
-	"Che-ez! Babe"
-	"Che-ez! Splash" (EXPERIMENTAL)
-	"Che-ez! SPYZ"
-	"Chinon ES-1000"
-	"Clever CAM 360" (TESTING)
-	"Cobra DC125" (EXPERIMENTAL)
-	"Cobra Digital Camera DC150" (EXPERIMENTAL)
-	"Coby COBY MP705"
-	"Conceptronic CMTD2"
-	"Concord Eye-Q Duo" (EXPERIMENTAL)
-	"Concord Eye-Q Easy" (EXPERIMENTAL)
-	"Concord EyeQ 4330" (EXPERIMENTAL)
-	"Concord EyeQMini_1" (EXPERIMENTAL)
-	"Concord EyeQMini_2" (EXPERIMENTAL)
-	"CoolCam CP086"
-	"Cowon iAudio 10 (MTP mode)"
-	"Cowon iAudio 6 (MTP mode)"
-	"Cowon iAudio 7 (MTP mode)"
-	"Cowon iAudio 9 (MTP mode)"
-	"Cowon iAudio C2 (MTP mode)"
-	"Cowon iAudio D2 (MTP mode)"
-	"Cowon iAudio D2+ DAB FW 4.x (MTP mode)"
-	"Cowon iAudio D2+ DMB FW 1.x (MTP mode)"
-	"Cowon iAudio D2+ FW 2.x (MTP mode)"
-	"Cowon iAudio D2+ FW 3.x (MTP mode)"
-	"Cowon iAudio J3 (MTP mode)"
-	"Cowon iAudio S9 (MTP mode)"
-	"Cowon iAudio U3 (MTP mode)"
-	"Cowon iAudio U5 (MTP mode)"
-	"Cowon iAudio X7 (MTP mode)"
-	"Creative CardCam" (EXPERIMENTAL)
-	"Creative Go Mini"
-	"Creative PC-CAM 300" (EXPERIMENTAL)
-	"Creative PC-CAM350" (EXPERIMENTAL)
-	"Creative PC-CAM600" (EXPERIMENTAL)
-	"Creative PC-CAM750" (EXPERIMENTAL)
-	"Creative Portable Media Center"
-	"Creative ZEN"
-	"Creative ZEN Micro (MTP mode)"
-	"Creative ZEN MicroPhoto"
-	"Creative ZEN MicroPhoto (alternate version)"
-	"Creative ZEN Mozaic"
-	"Creative ZEN Sleek (MTP mode)"
-	"Creative ZEN Sleek Photo"
-	"Creative ZEN Touch (MTP mode)"
-	"Creative ZEN V"
-	"Creative ZEN V 2GB"
-	"Creative ZEN V Plus"
-	"Creative ZEN Vision"
-	"Creative ZEN Vision W"
-	"Creative ZEN Vision:M"
-	"Creative ZEN Vision:M (DVP-HD0004)"
-	"Creative ZEN X-Fi"
-	"Creative ZEN X-Fi 3"
-	"Creative ZEN Xtra (MTP mode)"
-	"Curitel Communications, Inc. Verizon Wireless Device"
-	"D-Link DSC 350+" (TESTING)
-	"D-Link DSC 350F" (TESTING)
-	"D-MAX DM3588" (EXPERIMENTAL)
-	"DC-N130t" (EXPERIMENTAL)
-	"DC-N130t" (EXPERIMENTAL)
-	"DC31VC" (EXPERIMENTAL)
-	"Dell Dell Pocket DJ (MTP mode)"
-	"Dell DJ (2nd generation)"
-	"Dell, Inc Dell Streak 7"
-	"Dell, Inc DJ Itty"
-	"Digigr8" (EXPERIMENTAL)
-	"Digital camera, CD302N" (EXPERIMENTAL)
-	"DIGITAL MID#0020509 (no-name camera)" (EXPERIMENTAL)
-	"Digitaldream DIGITAL 2000"
-	"DigitalDream Enigma1.3" (EXPERIMENTAL)
-	"DigitalDream l'elegante"
-	"DigitalDream l'elite"
-	"DigitalDream l'espion"
-	"DigitalDream l'espion XS"
-	"DigitalDream l'espion xtra" (EXPERIMENTAL)
-	"DigitalDream l'esprit"
-	"DigitalDream la ronde"
-	"Directory Browse"
-	"Disney MixMax"
-	"Disney pix micro" (EXPERIMENTAL)
-	"Disney pix micro 2" (EXPERIMENTAL)
-	"Dunlop MP3 player 1GB / EGOMAN MD223AFD"
-	"Dynatron Dynacam 800"
-	"Elta Medi@ digi-cam" (EXPERIMENTAL)
-	"Emprex PCD3600" (EXPERIMENTAL)
-	"Epson PhotoPC 3000z"
-	"Epson PhotoPC 500"
-	"Epson PhotoPC 550"
-	"Epson PhotoPC 600"
-	"Epson PhotoPC 650"
-	"Epson PhotoPC 700"
-	"Epson PhotoPC 800"
-	"Epson PhotoPC 850z"
-	"FOMA D905i"
-	"Fuji Axia Eyeplate" (EXPERIMENTAL)
-	"Fuji Axia Slimshot" (EXPERIMENTAL)
-	"Fuji DS-7"
-	"Fuji DX-10"
-	"Fuji DX-5"
-	"Fuji DX-7"
-	"Fuji FinePix A330"
-	"Fuji FinePix A800"
-	"Fuji FinePix A820"
-	"Fuji FinePix A920"
-	"Fuji FinePix E900"
-	"Fuji FinePix F100fd"
-	"Fuji FinePix F20"
-	"Fuji FinePix F200 EXR"
-	"Fuji FinePix F30"
-	"Fuji FinePix F31fd"
-	"Fuji FinePix F40fd"
-	"Fuji FinePix F50fd"
-	"Fuji FinePix F60fd"
-	"Fuji FinePix F70 EXR"
-	"Fuji FinePix F80EXR"
-	"Fuji FinePix H20EXR"
-	"Fuji FinePix HS30EXR"
-	"Fuji FinePix S1000fd"
-	"Fuji FinePix S100fs"
-	"Fuji FinePix S1500"
-	"Fuji FinePix S1800"
-	"Fuji FinePix S2000HD"
-	"Fuji FinePix S2500HD"
-	"Fuji FinePix S2950"
-	"Fuji FinePix S4300"
-	"Fuji FinePix S5700"
-	"Fuji FinePix S5800"
-	"Fuji FinePix S6500fd"
-	"Fuji FinePix S7000"
-	"Fuji FinePix S9500"
-	"Fuji FinePix X-S1"
-	"Fuji FinePix X10"
-	"Fuji FinePix X20"
-	"Fuji FinePix XF1"
-	"Fuji FinePix Z100fd"
-	"Fuji FinePix Z35"
-	"Fuji FinePix Z700EXR"
-	"Fuji Fujifilm A220"
-	"Fuji IX-1"
-	"Fuji MX-1200"
-	"Fuji MX-1700"
-	"Fuji MX-2700"
-	"Fuji MX-2900"
-	"Fuji MX-500"
-	"Fuji MX-600"
-	"Fuji MX-700"
-	"Fuji S5 Pro"
-	"FujiFilm @xia ix-100"
-	"Fujitsu, Ltd F903iX HIGH-SPEED"
-	"Fujitsu, Ltd STYLISTIC M532"
-	"Gear to go" (EXPERIMENTAL)
-	"Generic SoundVision Clarity2"
-	"Genius Smart 300, version 2" (EXPERIMENTAL)
-	"Global Point 3 in 1 Digital Fun Graffiti 00044" (EXPERIMENTAL)
-	"Global Point Clipster" (EXPERIMENTAL)
-	"Global Point Splash Mini (underwater camera)" (EXPERIMENTAL)
-	"Google Inc (for Ainol Novo) Fire/Flame"
-	"Google Inc (for Asus) Nexus 7 (MTP)"
-	"Google Inc (for Asus) Nexus 7 (MTP+ADB)"
-	"Google Inc (for Asus) TF101 Transformer"
-	"Google Inc (for Asus) TF201 Transformer"
-	"Google Inc (for Barnes &amp; Noble) Nook Color"
-	"Google Inc (for Lenovo) Ideapad K1"
-	"Google Inc (for LG Electronics) P990/Optimus"
-	"Google Inc (for LG Electronics) P990/Optimus (Cyanogen)"
-	"Google Inc (for LG Electronics/Samsung) Nexus 4/10 (MTP)"
-	"Google Inc (for LG Electronics/Samsung) Nexus 4/10 (MTP+ADB)"
-	"Google Inc (for Medion) MD99000 (P9514)"
-	"Google Inc (for Motorola) Xoom (MZ604)"
-	"Google Inc (for Sony) S1"
-	"Google Inc (for Toshiba) Thrive 7/AT105"
-	"GrandTek ScopeCam" (TESTING)
-	"GTW Electronics" (EXPERIMENTAL)
-	"Haier Ibiza Rhapsody"
-	"Haier Ibiza Rhapsody"
-	"Haimei Electronics HE-501A" (EXPERIMENTAL)
-	"Hawking DC120 Pocketcam"
-	"Hewlett-Packard HP Touchpad (MTP)"
-	"Hewlett-Packard HP Touchpad (MTP+ADB)"
-	"Hisense E860"
-	"Hot Wheels"
-	"HP PhotoSmart"
-	"HP PhotoSmart 120 (PTP mode)"
-	"HP PhotoSmart 215" (EXPERIMENTAL)
-	"HP PhotoSmart 217 (PTP mode)"
-	"HP PhotoSmart 317 (PTP mode)"
-	"HP PhotoSmart 318 (PTP mode)"
-	"HP PhotoSmart 320 (PTP mode)"
-	"HP PhotoSmart 407 (PTP mode)"
-	"HP PhotoSmart 417 (PTP mode)"
-	"HP PhotoSmart 43x (PTP mode)"
-	"HP PhotoSmart 507 (PTP mode)"
-	"HP PhotoSmart 517 (PTP mode)"
-	"HP PhotoSmart 607 (PTP mode)"
-	"HP PhotoSmart 612 (PTP mode)"
-	"HP PhotoSmart 618"
-	"HP PhotoSmart 620 (PTP mode)"
-	"HP PhotoSmart 635 (PTP mode)"
-	"HP PhotoSmart 707 (PTP mode)"
-	"HP PhotoSmart 715 (PTP mode)"
-	"HP PhotoSmart 717 (PTP mode)"
-	"HP PhotoSmart 720 (PTP mode)"
-	"HP PhotoSmart 733 (PTP mode)"
-	"HP PhotoSmart 735 (PTP mode)"
-	"HP PhotoSmart 812 (PTP mode)"
-	"HP PhotoSmart 817 (PTP mode)"
-	"HP PhotoSmart 818 (PTP mode)"
-	"HP PhotoSmart 850 (PTP mode)"
-	"HP PhotoSmart 912"
-	"HP PhotoSmart 935 (PTP mode)"
-	"HP PhotoSmart 945 (PTP mode)"
-	"HP PhotoSmart C20"
-	"HP PhotoSmart C200"
-	"HP PhotoSmart C30"
-	"HP PhotoSmart C500"
-	"HP PhotoSmart C500 (PTP mode)"
-	"HP PhotoSmart C500 2"
-	"HP PhotoSmart E327 (PTP mode)"
-	"HP PhotoSmart E427 (PTP mode)"
-	"HP PhotoSmart M22 (PTP mode)"
-	"HP PhotoSmart M23 (PTP mode)"
-	"HP PhotoSmart M307 (PTP mode)"
-	"HP PhotoSmart M415 (PTP mode)"
-	"HP PhotoSmart M425 (PTP mode)"
-	"HP PhotoSmart M525 (PTP mode)"
-	"HP PhotoSmart M527 (PTP mode)"
-	"HP PhotoSmart M547 (PTP mode)"
-	"HP PhotoSmart M725 (PTP mode)"
-	"HP PhotoSmart M727 (PTP mode)"
-	"HP PhotoSmart M737 (PTP mode)"
-	"HP PhotoSmart R742 (PTP mode)"
-	"HP PhotoSmart R927 (PTP mode)"
-	"HP PhotoSmart R967 (PTP mode)"
-	"HTC Droid DNA (MTP+UMS)"
-	"HTC Droid DNA (MTP+UMS+ADB)"
-	"HTC EVO 4G LTE/One V (ID1)"
-	"HTC EVO 4G LTE/One V (ID2)"
-	"HTC HTC Butterfly (ID1)"
-	"HTC HTC Droid Incredible 4G LTE (MTP)"
-	"HTC HTC Droid Incredible 4G LTE (MTP+ADB)"
-	"HTC HTC Evo 4G LTE (ID1)"
-	"HTC HTC One S (ID1)"
-	"HTC HTC One S (ID2)"
-	"HTC HTC One X (ID1)"
-	"HTC HTC One X (ID2)"
-	"HTC HTC One X (ID2)"
-	"HTC HTC One X (ID3)"
-	"Huawei Honor U8860"
-	"Huawei Mediapad (mode 0)"
-	"Huawei Mediapad (mode 1)"
-	"Huawei U8815/U9200"
-	"iClick 5X" (EXPERIMENTAL)
-	"iConcepts digital camera"
-	"INNOVAGE Mini Digital, CD302N" (TESTING)
-	"Insignia NS-DV45"
-	"Insignia Pilot 4GB"
-	"Insignia Sport Player"
-	"Intel Pocket PC Camera" (EXPERIMENTAL)
-	"Intel Xolo 900/AZ210A"
-	"IOMagic MagicImage 400"
-	"IOMagic MagicImage 420"
-	"ION digital camera" (TESTING)
-	"iRiver Clix"
-	"iRiver Clix2"
-	"iRiver E100"
-	"iRiver E100 v2/Lplayer"
-	"iRiver E150"
-	"iRiver E30"
-	"iRiver E50"
-	"iRiver H10 20GB"
-	"iRiver H10 5.6GB"
-	"iRiver H10 5GB"
-	"iRiver H300 Series MTP"
-	"iRiver iFP-880"
-	"iRiver N12"
-	"iRiver Portable Media Center"
-	"iRiver Portable Media Center"
-	"iRiver Spinn"
-	"iRiver T10"
-	"iRiver T10 2GB"
-	"iRiver T10a"
-	"iRiver T20"
-	"iRiver T20"
-	"iRiver T20 FM"
-	"iRiver T30"
-	"iRiver T5"
-	"iRiver T60"
-	"iRiver T7 Volcano"
-	"iRiver U10"
-	"iRiver X20"
-	"Isabella Her Prototype"
-	"Ixla DualCam 640" (EXPERIMENTAL)
-	"Jazwares Star Wars no. 15256" (EXPERIMENTAL)
-	"Jazz JDC9" (EXPERIMENTAL)
-	"Jazz JDK235" (EXPERIMENTAL)
-	"Jenoptik JD-3300z3" (EXPERIMENTAL)
-	"Jenoptik JD-4100z3" (EXPERIMENTAL)
-	"Jenoptik JD11"
-	"Jenoptik JD12 800ff"
-	"Jenoptik JD350 entrance" (TESTING)
-	"Jenoptik JD350 video" (TESTING)
-	"Jenoptik JDC 350" (EXPERIMENTAL)
-	"JVC Alneo XA-HD500"
-	"KBGear JamCam"
-	"Kenwood Media Keg HD10GB7 Sport Player"
-	"Kobo Arc (ID1)"
-	"Kobo Arc (ID2)"
-	"Kodak C1530"
-	"Kodak C183"
-	"Kodak C300"
-	"Kodak C310"
-	"Kodak C330"
-	"Kodak C340"
-	"Kodak C360"
-	"Kodak C433"
-	"Kodak C530"
-	"Kodak C533"
-	"Kodak C613"
-	"Kodak C633"
-	"Kodak C643"
-	"Kodak C653"
-	"Kodak C743"
-	"Kodak C813"
-	"Kodak C875"
-	"Kodak C913"
-	"Kodak CD33"
-	"Kodak CX4200"
-	"Kodak CX4210"
-	"Kodak CX4230"
-	"Kodak CX4300"
-	"Kodak CX4310"
-	"Kodak CX6200"
-	"Kodak CX6230"
-	"Kodak CX6330"
-	"Kodak CX6445"
-	"Kodak CX7220"
-	"Kodak CX7300"
-	"Kodak CX7310"
-	"Kodak CX7330"
-	"Kodak CX7430"
-	"Kodak CX7525"
-	"Kodak CX7530"
-	"Kodak DC120"
-	"Kodak DC210"
-	"Kodak DC215"
-	"Kodak DC220"
-	"Kodak DC240"
-	"Kodak DC240 (PTP mode)"
-	"Kodak DC260"
-	"Kodak DC265"
-	"Kodak DC280"
-	"Kodak DC290"
-	"Kodak DC3200"
-	"Kodak DC3400"
-	"Kodak DC4800"
-	"Kodak DC5000"
-	"Kodak DX3215"
-	"Kodak DX3500"
-	"Kodak DX3600"
-	"Kodak DX3700"
-	"Kodak DX3900"
-	"Kodak DX4330"
-	"Kodak DX4530"
-	"Kodak DX4900"
-	"Kodak DX6340"
-	"Kodak DX6440"
-	"Kodak DX6490"
-	"Kodak DX7440"
-	"Kodak DX7590"
-	"Kodak DX7630"
-	"Kodak EZ200"
-	"Kodak LS420"
-	"Kodak LS443"
-	"Kodak LS663"
-	"Kodak LS743"
-	"Kodak LS753"
-	"Kodak M1063"
-	"Kodak M753"
-	"Kodak M863"
-	"Kodak M883"
-	"Kodak M893 IS"
-	"Kodak MC3"
-	"Kodak P850"
-	"Kodak P880"
-	"Kodak V530"
-	"Kodak V550"
-	"Kodak V570"
-	"Kodak V603"
-	"Kodak V610"
-	"Kodak V705"
-	"Kodak V803"
-	"Kodak Z612"
-	"Kodak Z650"
-	"Kodak Z700"
-	"Kodak Z710"
-	"Kodak Z712 IS"
-	"Kodak Z730"
-	"Kodak Z740"
-	"Kodak Z7590"
-	"Kodak Z812 IS"
-	"Kodak Z915"
-	"Kodak Z950"
-	"Kodak ZD710"
-	"Konica e-mini"
-	"Konica Q-EZ"
-	"Konica Q-M100"
-	"Konica Q-M100V"
-	"Konica Q-M150" (EXPERIMENTAL)
-	"Konica Q-M200"
-	"Konica-Minolta DiMAGE A2 (PTP mode)"
-	"Konica-Minolta DiMAGE A200 (PictBridge mode)"
-	"Konica-Minolta DiMAGE X21 (PictBridge mode)"
-	"Konica-Minolta DiMAGE Z2 (PictBridge mode)"
-	"Konica-Minolta DiMAGE Z3 (PictBridge mode)"
-	"Konica-Minolta DiMAGE Z5 (PictBridge mode)"
-	"Largan Lmini" (EXPERIMENTAL)
-	"Lego Bionicle" (EXPERIMENTAL)
-	"Leica D-LUX 2"
-	"Leica Digilux Zoom"
-	"Lenovo IdeaTab A2109A"
-	"Lenovo K1"
-	"Lenovo Lifetab S9512"
-	"Lenovo P700"
-	"Lenovo ThinkPad Tablet"
-	"LG Electronics Inc. GR-500 Music Player"
-	"LG Electronics Inc. KC910 Renoir Mobile Phone"
-	"LG Electronics Inc. KM900"
-	"LG Electronics Inc. LG-E610/E612/E617G/E970/P700"
-	"LG Electronics Inc. LG2 Optimus"
-	"LG Electronics Inc. LG8575"
-	"LG Electronics Inc. T54"
-	"LG Electronics Inc. UP3"
-	"LG Electronics Inc. V909 G-Slate"
-	"LG Electronics Inc. VX8550 V CAST Mobile Phone"
-	"LG T5100" (EXPERIMENTAL)
-	"Lifetec LT 5995" (EXPERIMENTAL)
-	"Logik LOG DAX MP3 and DAB Player"
-	"Logitech Clicksmart 310" (TESTING)
-	"Logitech Pocket Digital" (EXPERIMENTAL)
-	"Maginon SX-410z" (EXPERIMENTAL)
-	"Maginon SX330z" (EXPERIMENTAL)
-	"Magpix B350" (EXPERIMENTAL)
-	"Mass Storage Camera"
-	"Maxell Max Pocket" (TESTING)
-	"Maxfield G-Flash NG 1GB"
-	"Media-Tech mt-406"
-	"Medion Lifetab P9514"
-	"Medion MD 5319" (TESTING)
-	"Medion MD 6000" (EXPERIMENTAL)
-	"Medion MD 6126"
-	"Medion MD 9700" (EXPERIMENTAL)
-	"Medion MD8333"
-	"Medion MD8333"
-	"Medion MD99000 (P9514)/Olivetti Olipad 110"
-	"Memorex or iRiver MMP 8585/8586 or iRiver E200"
-	"Micro-Star International P610/Model MS-5557"
-	"Micromaxx Digital Camera"
-	"Microsoft Kin 1"
-	"Microsoft Windows MTP Simulator"
-	"Microsoft Windows Phone"
-	"Microsoft Zune"
-	"Microsoft Zune HD"
-	"Microsoft/HTC HTC 8S"
-	"Microsoft/Intel Bandon Portable Media Center"
-	"Microsoft/Sharp/nVidia Kin TwoM"
-	"Mini Shotz ms-350" (EXPERIMENTAL)
-	"Minolta Dimage V"
-	"Minton S-Cam F5" (TESTING)
-	"Mitek CD10" (EXPERIMENTAL)
-	"Mitek CD30P" (EXPERIMENTAL)
-	"Motorola A1200"
-	"Motorola Atrix MB860 (MTP)"
-	"Motorola Atrix/Razr HD (MTP)"
-	"Motorola Atrix/Razr HD (MTP+ADB)"
-	"Motorola Droid X/MB525 (Defy)"
-	"Motorola DROID2 (ID1)"
-	"Motorola DROID2 (ID2)"
-	"Motorola DROID4"
-	"Motorola IdeaPad K1"
-	"Motorola Milestone / Verizon Droid"
-	"Motorola Milestone X2"
-	"Motorola MTP Test Command Interface"
-	"Motorola RAZR M (XT907)"
-	"Motorola RAZR2 V8/U9/Z6"
-	"Motorola V3m/V750 verizon"
-	"Motorola Xoom (Factory test)"
-	"Motorola Xoom (MTP)"
-	"Motorola Xoom (MTP+ADB)"
-	"Motorola Xoom 2 Media Edition"
-	"Motorola Xoom 2 Media Edition (ID2)"
-	"Motorola XT890/907 (MTP)"
-	"Motorola XT890/907 (MTP+?)"
-	"Motorola XT890/907 (MTP+ADB)"
-	"Motorola XT912/XT928"
-	"MTP Device" (TESTING)
-	"Mustek gSmart 300" (EXPERIMENTAL)
-	"Mustek gSmart 350" (EXPERIMENTAL)
-	"Mustek gSmart mini" (TESTING)
-	"Mustek gSmart mini 2" (TESTING)
-	"Mustek gSmart mini 3" (TESTING)
-	"Mustek VDC-3500"
-	"MyMusix PD-6070"
-	"NEC FOMA N01A"
-	"Nextar MA715A-8R"
-	"Nexxtech Mini Digital Camera" (EXPERIMENTAL)
-	"Nick Click"
-	"Nikon CoolPix 100"
-	"Nikon Coolpix 2000 (PTP mode)"
-	"Nikon Coolpix 2100 (PTP mode)"
-	"Nikon CoolPix 2100 (Sierra Mode)"
-	"Nikon Coolpix 2200 (PTP mode)"
-	"Nikon Coolpix 2500 (PTP mode)"
-	"Nikon CoolPix 2500 (Sierra Mode)"
-	"Nikon CoolPix 300"
-	"Nikon Coolpix 3100 (PTP mode)"
-	"Nikon Coolpix 3200 (PTP mode)"
-	"Nikon Coolpix 3500 (PTP mode)"
-	"Nikon CoolPix 3500 (Sierra Mode)"
-	"Nikon Coolpix 3700 (PTP mode)"
-	"Nikon Coolpix 4100 (PTP mode)"
-	"Nikon Coolpix 4200 (PTP mode)"
-	"Nikon Coolpix 4300 (PTP mode)"
-	"Nikon CoolPix 4300 (Sierra Mode)"
-	"Nikon Coolpix 4500 (PTP mode)"
-	"Nikon Coolpix 4600 (PTP mode)"
-	"Nikon Coolpix 4600a (PTP mode)"
-	"Nikon Coolpix 4800 (PTP mode)"
-	"Nikon Coolpix 5000 (PTP mode)"
-	"Nikon Coolpix 5200 (PTP mode)"
-	"Nikon Coolpix 5400 (PTP mode)"
-	"Nikon Coolpix 5600 (PTP mode)"
-	"Nikon Coolpix 5700 (PTP mode)"
-	"Nikon Coolpix 5900 (PTP mode)"
-	"Nikon CoolPix 600"
-	"Nikon CoolPix 700"
-	"Nikon Coolpix 7600 (PTP mode)"
-	"Nikon Coolpix 7900 (PTP mode)"
-	"Nikon CoolPix 800"
-	"Nikon Coolpix 8700 (PTP mode)"
-	"Nikon CoolPix 880"
-	"Nikon Coolpix 8800 (PTP mode)"
-	"Nikon Coolpix 885 (PTP mode)"
-	"Nikon CoolPix 900"
-	"Nikon CoolPix 900S"
-	"Nikon CoolPix 910"
-	"Nikon CoolPix 950"
-	"Nikon CoolPix 950S"
-	"Nikon CoolPix 990"
-	"Nikon CoolPix 995"
-	"Nikon Coolpix A (PTP mode)"
-	"Nikon Coolpix AW100 (PTP mode)"
-	"Nikon Coolpix L1 (PTP mode)"
-	"Nikon Coolpix L10 (PTP mode)"
-	"Nikon Coolpix L11 (PTP mode)"
-	"Nikon Coolpix L110 (PTP mode)"
-	"Nikon Coolpix L12 (PTP mode)"
-	"Nikon Coolpix L120 (PTP mode)"
-	"Nikon Coolpix L16 (PTP mode)"
-	"Nikon Coolpix L19 (PTP mode)"
-	"Nikon Coolpix L20 (PTP mode)"
-	"Nikon Coolpix L23 (PTP mode)"
-	"Nikon Coolpix L4 (PTP mode)"
-	"Nikon Coolpix L820  (PTP mode)"
-	"Nikon Coolpix P1 (PTP mode)"
-	"Nikon Coolpix P100 (PTP mode)"
-	"Nikon Coolpix P2 (PTP mode)"
-	"Nikon Coolpix P300 (PTP mode)"
-	"Nikon Coolpix P4 (PTP mode)"
-	"Nikon Coolpix P50 (PTP mode)"
-	"Nikon Coolpix P500 (PTP mode)"
-	"Nikon Coolpix P5000 (PTP mode)"
-	"Nikon Coolpix P510 (PTP mode)"
-	"Nikon Coolpix P5100 (PTP mode)"
-	"Nikon Coolpix P520 (PTP mode)"
-	"Nikon Coolpix P60 (PTP mode)"
-	"Nikon Coolpix P6000 (PTP mode)"
-	"Nikon Coolpix P7000 (PTP mode)"
-	"Nikon Coolpix P7100 (PTP mode)"
-	"Nikon Coolpix P7700 (PTP mode)"
-	"Nikon Coolpix P80 (PTP mode)"
-	"Nikon Coolpix P90 (PTP mode)"
-	"Nikon Coolpix S01"
-	"Nikon Coolpix S2 (PTP mode)"
-	"Nikon Coolpix S200 (PTP mode)"
-	"Nikon Coolpix S220 (PTP mode)"
-	"Nikon Coolpix S225 (PTP mode)"
-	"Nikon Coolpix S2500 (PTP mode)"
-	"Nikon Coolpix S2600 (PTP mode)"
-	"Nikon Coolpix S3000 (PTP mode)"
-	"Nikon Coolpix S3100 (PTP mode)"
-	"Nikon Coolpix S3300 (PTP mode)"
-	"Nikon Coolpix S4 (PTP mode)"
-	"Nikon Coolpix S500 (PTP mode)"
-	"Nikon Coolpix S5100 (PTP mode)"
-	"Nikon Coolpix S6 (PTP mode)"
-	"Nikon Coolpix S60 (PTP mode)"
-	"Nikon Coolpix S6000 (PTP mode)"
-	"Nikon Coolpix S620 (PTP mode)"
-	"Nikon Coolpix S7c (PTP mode)"
-	"Nikon Coolpix S8000 (PTP mode)"
-	"Nikon Coolpix S8200"
-	"Nikon Coolpix S9100 (PTP mode)"
-	"Nikon Coolpix S9500 (PTP mode)"
-	"Nikon Coolpix SQ (PTP mode)"
-	"Nikon D100 (Sierra Mode)"
-	"Nikon D2H SLR (PTP mode)"
-	"Nikon D2Hs (PTP mode)"
-	"Nikon D2X SLR (PTP mode)"
-	"Nikon D3 (PTP mode)"
-	"Nikon D50 (PTP mode)"
-	"Nikon DSC D100 (PTP mode)"
-	"Nikon DSC D200 (PTP mode)"
-	"Nikon DSC D2Xs (PTP mode)"
-	"Nikon DSC D300 (PTP mode)"
-	"Nikon DSC D3000 (PTP mode)"
-	"Nikon DSC D300s (PTP mode)"
-	"Nikon DSC D3100 (PTP mode)"
-	"Nikon DSC D3s (PTP mode)"
-	"Nikon DSC D4"
-	"Nikon DSC D40 (PTP mode)"
-	"Nikon DSC D40x (PTP mode)"
-	"Nikon DSC D5000 (PTP mode)"
-	"Nikon DSC D5100 (PTP mode)"
-	"Nikon DSC D5200"
-	"Nikon DSC D60 (PTP mode)"
-	"Nikon DSC D600"
-	"Nikon DSC D70 (PTP mode)"
-	"Nikon DSC D700 (PTP mode)"
-	"Nikon DSC D7000 (PTP mode)"
-	"Nikon DSC D70s (PTP mode)"
-	"Nikon DSC D7100"
-	"Nikon DSC D80 (PTP mode)"
-	"Nikon DSC D800"
-	"Nikon DSC D800E"
-	"Nikon DSC D90 (PTP mode)"
-	"Nikon J1"
-	"Nikon J2"
-	"Nikon V1"
-	"nisis Quickpix Qp3" (TESTING)
-	"NogaNet TDC-15" (TESTING)
-	"Nokia 2710"
-	"Nokia 3109c Mobile Phone"
-	"Nokia 3110c Mobile Phone"
-	"Nokia 3250 Mobile Phone"
-	"Nokia 3710"
-	"Nokia 5130 XpressMusic"
-	"Nokia 5200 Mobile Phone"
-	"Nokia 5230"
-	"Nokia 5300 Mobile Phone"
-	"Nokia 5310 XpressMusic"
-	"Nokia 5320 XpressMusic"
-	"Nokia 5500 Sport Mobile Phone"
-	"Nokia 5530"
-	"Nokia 5530 Xpressmusic"
-	"Nokia 5700 XpressMusic Mobile Phone"
-	"Nokia 5800 XpressMusic"
-	"Nokia 5800 XpressMusic v2"
-	"Nokia 5800 XpressMusic v3"
-	"Nokia 6120c Classic Mobile Phone"
-	"Nokia 6210 Navigator"
-	"Nokia 6220 Classic"
-	"Nokia 6500c Classic Mobile Phone"
-	"Nokia 6600i"
-	"Nokia C5-00"
-	"Nokia C7"
-	"Nokia C7 (ID2)"
-	"Nokia E52"
-	"Nokia E63"
-	"Nokia E66"
-	"Nokia E7"
-	"Nokia E7 (Ovi mode)"
-	"Nokia E71"
-	"Nokia E71x"
-	"Nokia E72"
-	"Nokia N73"
-	"Nokia N73 Mobile Phone"
-	"Nokia N75 Mobile Phone"
-	"Nokia N78 Mobile Phone"
-	"Nokia N79"
-	"Nokia N8"
-	"Nokia N8 (Ovi mode)"
-	"Nokia N80 Internet Edition (Media Player)"
-	"Nokia N81 Mobile Phone"
-	"Nokia N82 Mobile Phone"
-	"Nokia N85 Mobile Phone"
-	"Nokia N9"
-	"Nokia N91 Mobile Phone"
-	"Nokia N93 Mobile Phone"
-	"Nokia N93i Mobile Phone"
-	"Nokia N95 Mobile Phone"
-	"Nokia N95 Mobile Phone 8GB"
-	"Nokia N950"
-	"Nokia N96 Mobile Phone"
-	"Nokia N97"
-	"Nokia N97 mini"
-	"Nokia N97-1"
-	"Nokia Nokia Lumia WP8"
-	"Nokia X6"
-	"Nokia/Verizon 6205 Balboa/Verizon Music Phone"
-	"NormSoft, Inc. Pocket Tunes"
-	"NormSoft, Inc. Pocket Tunes 4"
-	"Novatech Digital Camera CC30" (EXPERIMENTAL)
-	"nVidia CM9-Adam"
-	"nVidia Nabi2 Tablet (ID1)"
-	"nVidia Nabi2 Tablet (ID2)"
-	"O2 Sistemas ZoltarTV"
-	"Olympus C-1000L"
-	"Olympus C-1400L"
-	"Olympus C-1400XL"
-	"Olympus C-2000Z"
-	"Olympus C-2020Z"
-	"Olympus C-2040Z"
-	"Olympus C-2100UZ"
-	"Olympus C-2500L"
-	"Olympus C-3000Z"
-	"Olympus C-3020Z"
-	"Olympus C-3030Z"
-	"Olympus C-3040Z"
-	"Olympus C-310Z"
-	"Olympus C-350Z"
-	"Olympus C-370Z"
-	"Olympus C-400"
-	"Olympus C-400L"
-	"Olympus C-4040Z"
-	"Olympus C-410"
-	"Olympus C-410L"
-	"Olympus C-420"
-	"Olympus C-420L"
-	"Olympus C-5050Z"
-	"Olympus C-5500Z"
-	"Olympus C-55Z"
-	"Olympus C-700UZ"
-	"Olympus C-750UZ"
-	"Olympus C-770UZ"
-	"Olympus C-800"
-	"Olympus C-800L"
-	"Olympus C-820"
-	"Olympus C-820L"
-	"Olympus C-830L"
-	"Olympus C-840L"
-	"Olympus C-860L"
-	"Olympus C-900 Zoom"
-	"Olympus C-900L Zoom"
-	"Olympus C-990 Zoom"
-	"Olympus D-100Z"
-	"Olympus D-200L"
-	"Olympus D-220L"
-	"Olympus D-300L"
-	"Olympus D-320L"
-	"Olympus D-330R"
-	"Olympus D-340L"
-	"Olympus D-340R"
-	"Olympus D-360L"
-	"Olympus D-400L Zoom"
-	"Olympus D-450Z"
-	"Olympus D-460Z"
-	"Olympus D-500L"
-	"Olympus D-535Z"
-	"Olympus D-540Z"
-	"Olympus D-560Z"
-	"Olympus D-600L"
-	"Olympus D-600XL"
-	"Olympus D-620L"
-	"Olympus E series (Control)" (EXPERIMENTAL)
-	"Olympus E-PL5"
-	"Olympus fe-200"
-	"Olympus FE4000"
-	"Olympus IR-300"
-	"Olympus mju 500"
-	"Olympus SP-500UZ"
-	"Olympus SP-720UZ"
-	"Olympus X-100"
-	"Olympus X-250"
-	"Olympus X-450"
-	"Olympus X920"
-	"Olympus X925"
-	"Oregon Scientific DShot II"
-	"Oregon Scientific DShot III"
-	"Panasonic Coolshot KXL-600A"
-	"Panasonic Coolshot KXL-601A"
-	"Panasonic Coolshot NV-DCF5E"
-	"Panasonic DC1000"
-	"Panasonic DC1580"
-	"Panasonic DMC-FS62"
-	"Panasonic DMC-FZ20"
-	"Panasonic DMC-FZ38"
-	"Panasonic DMC-FZ45"
-	"Panasonic DMC-FZ50"
-	"Panasonic DMC-GF1"
-	"Panasonic DMC-LS3"
-	"Panasonic DMC-LX7"
-	"Panasonic DMC-TZ15"
-	"Panasonic DMC-TZ18"
-	"Panasonic DMC-TZ20"
-	"Panasonic P905i"
-	"Panasonic P906i"
-	"Panasonic PV-L691"
-	"Panasonic PV-L859"
-	"Pantech Crux"
-	"Pencam TEVION MD 9456"
-	"Pentax K100D" (EXPERIMENTAL)
-	"Pentax K10D" (EXPERIMENTAL)
-	"Pentax K200D" (EXPERIMENTAL)
-	"Pentax K20D" (EXPERIMENTAL)
-	"Pentax K5D" (EXPERIMENTAL)
-	"Pentax Optio 33WR"
-	"Pentax Optio 43WR"
-	"Pentax Optio 450"
-	"Pentax Optio W90"
-	"Perception Digital, Ltd Gigaware GX400"
-	"Philips ESP2" (EXPERIMENTAL)
-	"Philips ESP50" (EXPERIMENTAL)
-	"Philips ESP60" (EXPERIMENTAL)
-	"Philips ESP70" (EXPERIMENTAL)
-	"Philips ESP80" (EXPERIMENTAL)
-	"Philips ESP80SXG" (EXPERIMENTAL)
-	"Philips GoGear Aria"
-	"Philips GoGear Ariaz"
-	"Philips GoGear Ariaz/97"
-	"Philips GoGear Audio"
-	"Philips GoGear Muse"
-	"Philips GoGear SA1VBE08KX/78"
-	"Philips GoGear SA3345"
-	"Philips GoGear SA5145"
-	"Philips GoGear SA6014/SA6015/SA6024/SA6025/SA6044/SA6045"
-	"Philips GoGear SA6125/SA6145/SA6185"
-	"Philips GoGear SA9200"
-	"Philips GoGear ViBE SA1VBE04"
-	"Philips GoGear ViBE SA1VBE04/08"
-	"Philips GoGear VIBE SA2VBE[08|16]K/02"
-	"Philips GoGear Vibe/02"
-	"Philips HDD085/00 or HDD082/17"
-	"Philips HDD14XX,HDD1620 or HDD1630/17"
-	"Philips HDD6320"
-	"Philips HDD6320/00 or HDD6330/17"
-	"Philips P44417B keychain camera" (TESTING)
-	"Philips PSA235"
-	"Philips PSA610"
-	"Philips SA1115/55"
-	"Philips SA5285"
-	"Philips Shoqbox"
-	"Phoebe Smartcam"
-	"Pioneer DVR-LX60D"
-	"Pioneer XMP3"
-	"Pixart Gemini Keychain Camera" (TESTING)
-	"Pixie Princess Jelly-Soft" (EXPERIMENTAL)
-	"PockCam" (EXPERIMENTAL)
-	"Polaroid 640SE" (EXPERIMENTAL)
-	"Polaroid DC700"
-	"Polaroid Freescape/MPU-433158"
-	"Polaroid Fun Flash 640" (EXPERIMENTAL)
-	"Polaroid Fun! 320" (EXPERIMENTAL)
-	"Polaroid PDC 2300Z"
-	"Polaroid PDC 640"
-	"Praktica QD500"
-	"Praktica QD800"
-	"Praktica Slimpix" (EXPERIMENTAL)
-	"Precision Mini Digital Camera"
-	"Precision Mini, Model HA513A" (EXPERIMENTAL)
-	"Pretec dc530" (EXPERIMENTAL)
-	"PTP/IP Camera" (TESTING)
-	"PureDigital Ritz Disposable" (TESTING)
-	"Quark Probe 99"
-	"QuickPix QP1"
-	"Radioshack Flatfoto" (EXPERIMENTAL)
-	"RCA CDS1005" (EXPERIMENTAL)
-	"Relisys Dimera 3500"
-	"Request Ultra Slim" (EXPERIMENTAL)
-	"Ricoh Capilo RX"
-	"Ricoh Caplio 300G"
-	"Ricoh Caplio G3"
-	"Ricoh Caplio G4"
-	"Ricoh Caplio GX"
-	"Ricoh Caplio GX (PTP mode)"
-	"Ricoh Caplio GX 8"
-	"Ricoh Caplio GX 8 (PTP mode)"
-	"Ricoh Caplio R1"
-	"Ricoh Caplio R1v"
-	"Ricoh Caplio R1v (PTP mode)"
-	"Ricoh Caplio R2"
-	"Ricoh Caplio R3"
-	"Ricoh Caplio R3 (PTP mode)"
-	"Ricoh Caplio R4"
-	"Ricoh Caplio R5"
-	"Ricoh Caplio R5 (PTP mode)"
-	"Ricoh Caplio RR30"
-	"Ricoh Caplio RR750 (PTP mode)"
-	"Ricoh Caplio RZ1"
-	"Ricoh RDC-1" (EXPERIMENTAL)
-	"Ricoh RDC-100G" (EXPERIMENTAL)
-	"Ricoh RDC-2" (EXPERIMENTAL)
-	"Ricoh RDC-2E" (EXPERIMENTAL)
-	"Ricoh RDC-300" (EXPERIMENTAL)
-	"Ricoh RDC-300Z" (EXPERIMENTAL)
-	"Ricoh RDC-4200" (EXPERIMENTAL)
-	"Ricoh RDC-4300" (EXPERIMENTAL)
-	"Ricoh RDC-5000" (EXPERIMENTAL)
-	"RIM BlackBerry Storm/9650"
-	"Rollei dr5"
-	"Rollei dr5 (PTP mode)"
-	"Sakar 23070  Crayola Digital Cam" (EXPERIMENTAL)
-	"Sakar 28290 and 28292  Digital C" (EXPERIMENTAL)
-	"Sakar 92045  Spiderman" (EXPERIMENTAL)
-	"Sakar clipshot no. 1169x" (EXPERIMENTAL)
-	"Sakar Digital Keychain 11199" (EXPERIMENTAL)
-	"Sakar Digital no, 6637x" (EXPERIMENTAL)
-	"Sakar Digital no, 67480" (EXPERIMENTAL)
-	"Sakar Digital no. 56379 Spyshot" (TESTING)
-	"Sakar Digital no. 77379" (EXPERIMENTAL)
-	"Sakar Dora the Explorer no. 88067" (EXPERIMENTAL)
-	"Sakar Hello Kitty no. 94009" (EXPERIMENTAL)
-	"Sakar Kidz Cam 86379" (EXPERIMENTAL)
-	"Sakar Kidz-Cam no. 88379" (EXPERIMENTAL)
-	"Sakar Micro Digital 2428x" (EXPERIMENTAL)
-	"Sakar Nickelodeon iCarly no. 88061" (EXPERIMENTAL)
-	"Sakar no. 1638x CyberPix" (EXPERIMENTAL)
-	"Sakar no. 75379" (EXPERIMENTAL)
-	"Sakar no. 81890" (EXPERIMENTAL)
-	"Sakar no. 91379" (EXPERIMENTAL)
-	"Sakar no. 98379" (EXPERIMENTAL)
-	"Sakar Star Wars kit no. 92022" (EXPERIMENTAL)
-	"Sakar Sticker Wizard no. 59379" (EXPERIMENTAL)
-	"Samsung digimax 800k"
-	"Samsung EK-GC100"
-	"Samsung F250 Mobile Phone"
-	"Samsung Galaxy models (MTP)"
-	"Samsung Galaxy models (MTP+ADB)"
-	"Samsung Galaxy models Kies mode"
-	"Samsung Galaxy Y"
-	"Samsung GT-B2700"
-	"Samsung GT-B2710/Xcover 271"
-	"Samsung GT-S5230"
-	"Samsung GT-S8500"
-	"Samsung I550W Phone"
-	"Samsung Jet S8000"
-	"Samsung Juke (SCH-U470)"
-	"Samsung Kenox SSC-350N"
-	"Samsung M7600 Beat/GT-S8300T/SGH-F490/S8300"
-	"Samsung NX1000"
-	"Samsung S5620"
-	"Samsung SAMSUNG Trance"
-	"Samsung U600 Mobile Phone"
-	"Samsung Vibrant SGH-T959/Captivate/Media player mode"
-	"Samsung X830 Mobile Phone"
-	"Samsung YH-820"
-	"Samsung YH-920 (501d)"
-	"Samsung YH-920 (5022)"
-	"Samsung YH-925(-GS)"
-	"Samsung YH-925GS"
-	"Samsung YH-999 Portable Media Center/SGH-A707/SGH-L760V/SGH-U900/Verizon Intensity/Fascinate"
-	"Samsung YH-J70J"
-	"Samsung YP-900"
-	"Samsung YP-F2J"
-	"Samsung YP-K3"
-	"Samsung YP-K5"
-	"Samsung YP-M1"
-	"Samsung YP-P2"
-	"Samsung YP-P3"
-	"Samsung YP-Q1"
-	"Samsung YP-Q2"
-	"Samsung YP-Q3"
-	"Samsung YP-R0"
-	"Samsung YP-R1"
-	"Samsung YP-R2"
-	"Samsung YP-S3"
-	"Samsung YP-S5"
-	"Samsung YP-T10"
-	"Samsung YP-T7J"
-	"Samsung YP-T9"
-	"Samsung YP-U2J (YP-U2JXB/XAA)"
-	"Samsung YP-U3"
-	"Samsung YP-U4"
-	"Samsung YP-U5"
-	"Samsung YP-Z3"
-	"Samsung YP-Z5"
-	"SanDisk Sansa c150"
-	"SanDisk Sansa c240/c250"
-	"SanDisk Sansa c250 v2"
-	"SanDisk Sansa Clip"
-	"SanDisk Sansa Clip v2"
-	"SanDisk Sansa Clip Zip"
-	"SanDisk Sansa Clip+"
-	"SanDisk Sansa Connect"
-	"SanDisk Sansa e200/e250/e260/e270/e280"
-	"SanDisk Sansa e260/e280 v2"
-	"SanDisk Sansa Express"
-	"SanDisk Sansa Fuze"
-	"SanDisk Sansa Fuze v2"
-	"SanDisk Sansa Fuze+"
-	"SanDisk Sansa m200-tcc (MTP mode)"
-	"SanDisk Sansa m230/m240"
-	"SanDisk Sansa m240/m250"
-	"SanDisk Sansa View"
-	"Sanyo DSC-X300"
-	"Sanyo DSC-X350"
-	"Sanyo VPC-C5 (PTP mode)"
-	"Sanyo VPC-G200"
-	"Sanyo VPC-G200EX"
-	"Sanyo VPC-G210"
-	"Sanyo VPC-G250"
-	"ScanHex SX-35a" (TESTING)
-	"ScanHex SX-35b" (TESTING)
-	"ScanHex SX-35c" (TESTING)
-	"ScanHex SX-35d" (TESTING)
-	"Scott APX 30"
-	"Sea &amp; Sea 2G (PTP mode)"
-	"Sea &amp; Sea 5000G"
-	"Sea &amp; Sea 5000G (PTP mode)"
-	"Shark 2-in-1 Mini" (EXPERIMENTAL)
-	"Shark SDC-513" (EXPERIMENTAL)
-	"Shark SDC-519" (EXPERIMENTAL)
-	"Shift3" (EXPERIMENTAL)
-	"Sierra Imaging SD640"
-	"SigmaTel Inc. MTPMSCN Audio Player"
-	"SiPix Blink 2" (EXPERIMENTAL)
-	"SiPix CAMeleon" (EXPERIMENTAL)
-	"SiPix SC2100" (EXPERIMENTAL)
-	"SiPix Snap" (EXPERIMENTAL)
-	"SiPix Stylecam" (TESTING)
-	"SiPix Web2" (EXPERIMENTAL)
-	"Sirius Stiletto"
-	"Sirius Stiletto 2"
-	"Skanhex SX-330z" (EXPERIMENTAL)
-	"Slacker Inc. Slacker Portable Media Player"
-	"SMaL Ultra-Pocket" (EXPERIMENTAL)
-	"So. Show 301" (TESTING)
-	"Sony DCR-PC100"
-	"Sony DCR-SR75"
-	"Sony DSC-A100 (PTP mode)"
-	"Sony DSC-A900 (PTP mode)"
-	"Sony DSC-F1" (EXPERIMENTAL)
-	"Sony DSC-F55"
-	"Sony DSC-F707V (PTP mode)"
-	"Sony DSC-F717 (PTP mode)"
-	"Sony DSC-F828 (PTP mode)"
-	"Sony DSC-H1 (PTP mode)"
-	"Sony DSC-H2 (PTP mode)"
-	"Sony DSC-H5 (PTP mode)"
-	"Sony DSC-HX100V (PTP mode)"
-	"Sony DSC-HX200V (PTP mode)"
-	"Sony DSC-HX300 (PTP mode)"
-	"Sony DSC-N2 (PTP mode)"
-	"Sony DSC-P10 (PTP mode)"
-	"Sony DSC-P100 (PTP mode)"
-	"Sony DSC-P120 (PTP mode)"
-	"Sony DSC-P200 (PTP mode)"
-	"Sony DSC-P30 (PTP mode)"
-	"Sony DSC-P31 (PTP mode)"
-	"Sony DSC-P32 (PTP mode)"
-	"Sony DSC-P41 (PTP mode)"
-	"Sony DSC-P43 (PTP mode)"
-	"Sony DSC-P5 (PTP mode)"
-	"Sony DSC-P50 (PTP mode)"
-	"Sony DSC-P51 (PTP mode)"
-	"Sony DSC-P52 (PTP mode)"
-	"Sony DSC-P71 (PTP mode)"
-	"Sony DSC-P72 (PTP mode)"
-	"Sony DSC-P73 (PTP mode)"
-	"Sony DSC-P92 (PTP mode)"
-	"Sony DSC-P93 (PTP mode)"
-	"Sony DSC-R1 (PTP mode)"
-	"Sony DSC-RX1 (PTP mode)"
-	"Sony DSC-RX100 (PTP mode)"
-	"Sony DSC-S40 (PTP mode)"
-	"Sony DSC-S60 (PTP mode)"
-	"Sony DSC-S730 (PTP mode)"
-	"Sony DSC-S75 (PTP mode)"
-	"Sony DSC-S85 (PTP mode)"
-	"Sony DSC-T1 (PTP mode)"
-	"Sony DSC-T10 (PTP mode)"
-	"Sony DSC-T3 (PTP mode)"
-	"Sony DSC-U10 (PTP mode)"
-	"Sony DSC-U20 (PTP mode)"
-	"Sony DSC-V1 (PTP mode)"
-	"Sony DSC-W1 (PTP mode)"
-	"Sony DSC-W12 (PTP mode)"
-	"Sony DSC-W130 (PTP mode)"
-	"Sony DSC-W200 (PTP mode)"
-	"Sony DSC-W35 (PTP mode)"
-	"Sony DSC-W55 (PTP mode)"
-	"SONY IS12S Xperia Acro HD MTP+ADB"
-	"SONY IS12S Xperia Acro HD MTP+UMS"
-	"SONY IS12S Xperia Acro MTP+UMS+ADB"
-	"SONY LT22i Xperia P MTP"
-	"SONY LT22i Xperia P MTP+ADB"
-	"SONY LT22i Xperia P MTP+CDROM"
-	"SONY LT25i Xperia V MTP"
-	"SONY LT25i Xperia V MTP+ADB"
-	"SONY LT25i Xperia V MTP+CDROM"
-	"SONY LT26i Xperia S MTP"
-	"SONY LT26i Xperia S MTP+ADB"
-	"SONY LT26i Xperia S MTP+CDROM"
-	"SONY LT26w Xperia Acro HD IS12S MTP"
-	"SONY LT26w Xperia Acro HD IS12S MTP+CDROM"
-	"SONY LT26w Xperia Acro HD SO-03D MTP"
-	"SONY LT26w Xperia Acro HD SO-03D MTP+CDROM"
-	"SONY LT28at Xperia Ion MTP"
-	"SONY LT28at Xperia Ion MTP+ADB"
-	"SONY LT28at Xperia Ion MTP+CDROM"
-	"SONY LT28at Xperia Ion MTP+UMS"
-	"SONY LT28at Xperia Ion MTP+UMS+ADB"
-	"SONY LT29i Xperia GX MTP"
-	"SONY LT29i Xperia GX MTP+ADB"
-	"SONY LT29i Xperia GX MTP+CDROM"
-	"SONY LT30p Xperia T MTP"
-	"SONY LT30p Xperia T MTP+ADB"
-	"SONY LT30p Xperia T MTP+CDROM"
-	"Sony MSAC-SR1"
-	"SONY MT27i Xperia Sola MTP"
-	"SONY MT27i Xperia Sola MTP+ADB"
-	"SONY MT27i Xperia Sola MTP+CDROM"
-	"SONY MT27i Xperia Sola MTP+UMS"
-	"SONY MT27i Xperia Sola MTP+UMS+ADB"
-	"Sony MVC-CD300 (PTP mode)"
-	"Sony MVC-CD500 (PTP mode)"
-	"Sony NEX-3N (PTP mode)"
-	"Sony NWZ-A726/NWZ-A728/NWZ-A768"
-	"Sony NWZ-A815/NWZ-A818"
-	"Sony NWZ-A826/NWZ-A828/NWZ-A829"
-	"Sony NWZ-A845"
-	"Sony NWZ-B135"
-	"Sony NWZ-B142F"
-	"Sony NWZ-B153F"
-	"Sony NWZ-B163F"
-	"Sony NWZ-B173F"
-	"Sony NWZ-E344/E345"
-	"Sony NWZ-E354"
-	"Sony NWZ-E436F"
-	"Sony NWZ-E445"
-	"Sony NWZ-E464"
-	"Sony NWZ-S516"
-	"Sony NWZ-S545"
-	"Sony NWZ-S615F/NWZ-S616F/NWZ-S618F"
-	"Sony NWZ-S638F"
-	"Sony NWZ-S716F"
-	"Sony NWZ-S739F"
-	"Sony NWZ-S754"
-	"Sony NWZ-S765"
-	"Sony NWZ-W202"
-	"Sony NWZ-W252B"
-	"Sony NWZ-X1050B/NWZ-X1060B"
-	"Sony NWZ-X1051/NWZ-X1061"
-	"Sony PTP"
-	"Sony SLT-A35 (PTP mode)"
-	"Sony SLT-A350 (PTP mode)"
-	"Sony SLT-A55 (PTP mode)"
-	"Sony SLT-A65V (PTP mode)"
-	"SONY SO-03D Xperia Acro HD MTP+ADB"
-	"SONY SO-03D Xperia Acro HD MTP+UMS"
-	"SONY SO-03D Xperia Acro MTP+UMS+ADB"
-	"SONY SO-05D Xperia SX MTP"
-	"SONY SO-05D Xperia SX MTP+ADB"
-	"SONY SO-05D Xperia SX MTP+CDROM"
-	"Sony Sony Tablet P1"
-	"Sony Sony Tablet S"
-	"Sony Sony Tablet S1"
-	"SONY ST15i Xperia U MTP"
-	"SONY ST21i Xperia Tipo MTP"
-	"SONY ST21i Xperia Tipo MTP+ADB"
-	"SONY ST21i Xperia Tipo MTP+CDROM"
-	"SONY ST23i Xperia Miro MTP"
-	"SONY ST23i Xperia Miro MTP+ADB"
-	"SONY ST23i Xperia Miro MTP+CDROM"
-	"SONY ST25i Xperia U MTP+ADB"
-	"SONY ST25i Xperia U MTP+CDROM"
-	"SONY ST27i/ST27a Xperia go MTP"
-	"SONY ST27i/ST27a Xperia go MTP+ADB"
-	"SONY ST27i/ST27a Xperia go MTP+CDROM"
-	"SONY ST27i/ST27a Xperia go MTP+UMS"
-	"SONY ST27i/ST27a Xperia go MTP+UMS+ADB"
-	"Sony TRV-20E"
-	"SONY WT19i Live Walkman MTP"
-	"SONY Xperia E MTP"
-	"SONY Xperia E MTP+ADB"
-	"SONY Xperia E MTP+CDROM"
-	"SONY Xperia J MTP"
-	"SONY Xperia J MTP+ADB"
-	"SONY Xperia J MTP+CDROM"
-	"SONY Xperia Tablet Z MTP"
-	"SONY Xperia Tablet Z MTP"
-	"SONY Xperia Tablet Z MTP"
-	"SONY Xperia Tablet Z MTP"
-	"SONY Xperia Tablet Z MTP"
-	"SONY Xperia Tablet Z MTP"
-	"SONY Xperia Z MTP"
-	"SONY Xperia Z MTP"
-	"SONY Xperia Z MTP"
-	"SONY Xperia ZL MTP"
-	"SONY Xperia ZL MTP"
-	"SONY Xperia ZL MTP"
-	"SonyEricsson C702"
-	"SonyEricsson C902"
-	"SonyEricsson C905"
-	"SonyEricsson IS12S Xperia Acro MTP"
-	"SonyEricsson IS12S Xperia Acro MTP+ADB"
-	"SonyEricsson IS12S Xperia Acro MTP+CDROM"
-	"SonyEricsson j108i (Cedar)"
-	"SonyEricsson j10i (Elm)"
-	"SonyEricsson j10i2 (Elm)"
-	"SonyEricsson K550i"
-	"SonyEricsson K850i"
-	"SonyEricsson LT15i Xperia Arc MTP+ADB"
-	"SonyEricsson LT15i Xperia arc S MTP"
-	"SonyEricsson MK16i Xperia MTP"
-	"SonyEricsson MK16i Xperia MTP+ADB"
-	"SonyEricsson MT11i Xperia Neo MTP"
-	"SonyEricsson MT11i Xperia Neo MTP+ADB"
-	"SonyEricsson R800/R88i Xperia Play MTP"
-	"SonyEricsson R800/R88i Xperia Play MTP+ADB"
-	"SonyEricsson SK17i Xperia Mini Pro MTP"
-	"SonyEricsson SK17i Xperia Mini Pro MTP+ADB"
-	"SonyEricsson SK17i Xperia Mini Pro MTP+ADB"
-	"SonyEricsson ST15i Xperia Mini MTP"
-	"SonyEricsson ST15i Xperia Mini MTP+ADB"
-	"SonyEricsson ST17i Xperia Active MTP"
-	"SonyEricsson ST17i Xperia Active MTP+ADB"
-	"SonyEricsson ST17i Xperia Active MTP+CDROM"
-	"SonyEricsson ST18a Xperia Ray MTP"
-	"SonyEricsson ST18i Xperia Ray MTP+ADB"
-	"SonyEricsson T700"
-	"SonyEricsson U5"
-	"SonyEricsson U8i"
-	"SonyEricsson W302"
-	"SonyEricsson W595"
-	"SonyEricsson W705/W715"
-	"SonyEricsson W760i"
-	"SonyEricsson W890i"
-	"SonyEricsson W902"
-	"SonyEricsson W910"
-	"SonyEricsson W980"
-	"SonyEricsson W995"
-	"Soundstar TDC-35" (EXPERIMENTAL)
-	"SpyPen Axys"
-	"SpyPen Cleo"
-	"SpyPen Luxo"
-	"SpyPen Memo"
-	"SpyPen Xion"
-	"SQ chip camera" (EXPERIMENTAL)
-	"ST2205 USB picture frame" (TESTING)
-	"StarCam CP086"
-	"STM USB Dual-mode camera"
-	"Stop &amp; Shop 87096" (EXPERIMENTAL)
-	"STV0680"
-	"Suprema Digital Keychain Camera" (EXPERIMENTAL)
-	"SY-2107C" (EXPERIMENTAL)
-	"Technika MP-709"
-	"Tevion MD 81488"
-	"Thomson / RCA Lyra HC308A"
-	"Thomson / RCA Opal / Lyra MC4002"
-	"Thomson EM28 Series"
-	"Thomson Lyra MC5104B (M51 Series)"
-	"Thomson RCA H106"
-	"Thomson scenium E308"
-	"Tiger Fast Flicks"
-	"Timlex CP075"
-	"Topfield TF5000PVR" (EXPERIMENTAL)
-	"Toshiba Excite AT300"
-	"Toshiba Gigabeat"
-	"Toshiba Gigabeat MEGF-40"
-	"Toshiba Gigabeat MET401"
-	"Toshiba Gigabeat MEU201"
-	"Toshiba Gigabeat MEU202"
-	"Toshiba Gigabeat P10"
-	"Toshiba Gigabeat P20"
-	"Toshiba Gigabeat S"
-	"Toshiba Gigabeat T"
-	"Toshiba Gigabeat U"
-	"Toshiba Gigabeat V30"
-	"Toshiba PDR-M1"
-	"Toshiba PDR-M11" (TESTING)
-	"Toshiba PDR-M60"
-	"Toshiba PDR-M61"
-	"Toshiba PDR-M65"
-	"Toshiba Thrive AT100/AT105"
-	"TP6801 USB picture frame" (TESTING)
-	"Traveler SX330z" (EXPERIMENTAL)
-	"Traveler SX410z" (EXPERIMENTAL)
-	"TrekStor i.Beat Organix 2.0"
-	"TrekStor i.Beat Sweez FM"
-	"TrekStor Vibez 8/12GB"
-	"Trust DC-3500"
-	"Trust Familycam 300" (TESTING)
-	"Trust PowerC@m 350FS" (TESTING)
-	"Trust PowerC@m 350FT" (TESTING)
-	"Trust Spyc@m 100" (TESTING)
-	"Trust Spyc@m 500F FLASH" (TESTING)
-	"Typhoon StyloCam" (TESTING)
-	"UMAX AstraPen"
-	"UMAX AstraPix 320s" (TESTING)
-	"USB PTP Class Camera" (TESTING)
-	"Various Viewpia DR/bq Kepler"
-	"ViviCam3350" (EXPERIMENTAL)
-	"ViviCam5B" (EXPERIMENTAL)
-	"Vivitar Freelance" (EXPERIMENTAL)
-	"Vivitar Mini Digital Camera" (TESTING)
-	"Vivitar Vivicam 55" (EXPERIMENTAL)
-	"Vivitar Vivicam3350B" (EXPERIMENTAL)
-	"Vivitar Vivicam35" (EXPERIMENTAL)
-	"Vizio VTAB1008"
-	"Wild Planet Digital Spy Camera 70137" (EXPERIMENTAL)
-	"WWF"
-	"Wyplay Wyplayer"
-	"Xiaomi Mi-2 (MTP)"
-	"Xiaomi Mi-2 (MTP+ADB)"
-	"Yahoo!Cam" (EXPERIMENTAL)
-	"YiFang BQ Tesla"
-	"ZiiLABS Zii EGG"
-	"ZINA Mini Digital Keychain Camer" (EXPERIMENTAL)
-	"ZTE V55 ID 1"
-	"ZTE V55 ID 2"
-	"ZTE v790/Blade 3"
-========================================================================
 </pre>
+Number of supported cameras: 1711
+<!-- This part was generated by libgphoto2 print-camera-list - - html -->
+<!--+
+    | Created from this library:
+    |   libgphoto2      2.5.2          all camlibs, gcc, ltdl, EXIF
+    |   libgphoto2_port 0.10.0         gcc, ltdl, USB, serial without locking
+    +-->
+<table border=1>
+<tr>
+   <th>Camera Model</th>
+   <th>Abilities</th>
+   <th>Comments</th>
+</tr>
+<tr>
+ <td> JL2005B/C/D camera</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Achiever Digital Adc65</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>AEG Snap 300</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Agfa ePhoto 1280</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Agfa ePhoto 1680</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Agfa ePhoto 307</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Agfa ePhoto 780</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Agfa ePhoto 780C</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Agfa ePhoto CL18</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Agfa ePhoto CL20</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Aiptek 1.3 mega PocketCam</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Aiptek PalmCam Trio</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Aiptek Pencam</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Aiptek PenCam Trio</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Aiptek PenCam VGA+</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Aiptek Pencam without flash</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Aiptek Smart Megacam</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Amazing Spiderman</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>American Idol Keychain Camera</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Apple iPad (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPhone (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPhone 3G (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPhone 3GS (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPhone 4 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPhone 4S (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPod Touch (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPod Touch 2G (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple iPod Touch 3rd Gen (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple QuickTake 200</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Apple QuickTake 200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Argus Bean Sprout</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-100</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-1500</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-1510</td> <td>Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-1610</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-1620</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-1730</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-2000</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Argus DC-2200</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Argus DC1512e</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Argus QuickClix</td> <td>Image Capture </td> <td>Deprecated &nbsp; </td></tr>
+<tr>
+ <td>Aries ATC-0017</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Aries Digital Keychain Camera, I</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>AX203 USB picture frame firmware ver 3.3.x</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>AX203 USB picture frame firmware ver 3.4.x</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>AX203 USB picture frame firmware ver 3.5.x</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>AX203 USB picture frame firmware ver 3.6.x</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Barbie</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Barbie Camera (Digital Blue)</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Benq DC1300</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 100 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 110 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 120 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 130</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 30 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 300</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 330</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 40 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 400 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 430 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 50 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 500 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 55 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 60 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 65 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 70 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 700 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 75 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 750 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 80 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 800 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 85 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 850 IS (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 860 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 90 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 900Ti (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 95 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 950 IS (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 960 IS (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 970 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 980 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS 990 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS i (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS i (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS i5 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS II (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS IIs (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS iZ (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS v</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS v2</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS v3 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS v3 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital IXUS Wireless (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital Rebel XT (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Canon Digital unknown 3</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Elura 50 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Elura 50 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Elura 65 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 1000D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 100D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 10D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 10D (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 1100D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 1D Mark II (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 1D Mark III (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 1D Mark IV</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 20D (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 20D (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 300D (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 300D (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 30D (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 350D</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 350D (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 350D (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 400D (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 40D (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 450D (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 500D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 50D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 550D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 5D (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 5D (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 5D Mark II</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 5D Mark III</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 600D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 60D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 650D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 6D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 700D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS 7D</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS D30</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS D60</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Digital Rebel (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Digital Rebel (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Digital Rebel XTi (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Kiss Digital (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Kiss Digital (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Kiss Digital N (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Kiss Digital X (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Kiss X2 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Kiss X3</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS M</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Rebel T1i</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon EOS Rebel XSi (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon FV M1 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXUS 310IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXY 220 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXY 3000 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXY DIGITAL</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXY DIGITAL 300</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXY Digital L2 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXY DV M</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon IXY DV M2 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MV630i (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MV650i (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MV750i (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX 10i (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX 3i (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX100i</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX100i</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX150i (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX25i (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX2i</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon MVX3i (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 10</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 10</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 20</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 20 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 200 MC</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 300 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 40 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura 600 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Optura Xi (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A10</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A100</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A1100 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A1300IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A20</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A2000 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A2100 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A2300IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A2400IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A30</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A300 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A3000 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A310 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A3100 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A40</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A400 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A4000IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A410 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A420 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A430 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A450 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A460 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A470</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A480</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A5</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A5 Zoom</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A50</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A510 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A520 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A530 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A540 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A550 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A560 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A570 IS (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A580</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A590 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A60 (PTP)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A610 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A620 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A630 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A640 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A650IS (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A70 (PTP)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A700 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A710 IS (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A720 IS (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A75 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A80 (PTP)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A800</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A85 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot A95 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot D10</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot D10</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G1</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G1 X</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G10</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G11</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G2</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G3 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G3 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G5 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Powershot G6 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G7 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot G9 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot IXY Digital L (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot Pro70</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot Pro90 IS</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S1 IS (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S10</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S100</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S100</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S110</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S110</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S2 IS (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S20</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S230 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S230 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S3 IS (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S30</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S300</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S330</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S40</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S400 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S410 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S45 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S45 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S5 IS (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S50 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S500 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Powershot S60 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Powershot S70 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot S80 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD10 Digital ELPH (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD100 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD1000 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD110 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Powershot SD1100 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Powershot SD1200 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD1300 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD20 (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD200 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD40 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD430 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD450 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD500 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD600 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD630 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD700 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD750 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD770 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD780 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Powershot SD790 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD850 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD880 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD900 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD940 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD970 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SD990</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX10 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Powershot SX100 IS (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX110 IS</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX120 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX130 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX20 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX200 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX210 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX220HS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX230HS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX240HS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX40HS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot SX500IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot unknown 1</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon PowerShot unknown 2</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Rebel T2i</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon Rebel T4i</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Canon ZR70MC (normal mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio EX-S770</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio EX-Z120</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio EX-Z65</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio EX-Z700</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio LV 10</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Casio QV10</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio QV100</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio QV10A</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio QV300</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio QV70</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio QV700</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Casio QV770</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Che-ez Snap</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Che-Ez Snap SNAP-U</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Che-ez! Babe</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Che-ez! Splash</td> <td>Image Capture, Liveview </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Che-ez! SPYZ</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Chinon ES-1000</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Clever CAM 360</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Cobra DC125</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Cobra Digital Camera DC150</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Concord Eye-Q Duo</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Concord Eye-Q Easy</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Concord EyeQ 4330</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Concord EyeQMini_1</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Concord EyeQMini_2</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>CoolCam CP086</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Creative CardCam</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Creative Go Mini</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Creative PC-CAM 300</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Creative PC-CAM350</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Creative PC-CAM600</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Creative PC-CAM750</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>D-Link DSC 350+</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>D-Link DSC 350F</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>D-MAX DM3588</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>DC-N130t</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>DC-N130t</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>DC31VC</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Digigr8</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Digital camera, CD302N</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>DIGITAL MID#0020509 (no-name camera)</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Digitaldream DIGITAL 2000</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream Enigma1.3</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream l'elegante</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream l'elite</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream l'espion</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream l'espion XS</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream l'espion xtra</td> <td>Image Capture, Liveview </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream l'esprit</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>DigitalDream la ronde</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Directory Browse</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Disney pix micro</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Disney pix micro 2</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Dynatron Dynacam 800</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Elta Medi@ digi-cam</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Emprex PCD3600</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 3000z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 500</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 550</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 600</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 650</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 700</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 800</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Epson PhotoPC 850z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji Axia Eyeplate</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Fuji Axia Slimshot</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Fuji DS-7</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji DX-10</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji DX-5</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji DX-7</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix A330</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix A800</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix A820</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix A920</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix E900</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F100fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F20</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F200 EXR</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F30</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F31fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F40fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F50fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F60fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F70 EXR</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix F80EXR</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix H20EXR</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix HS30EXR</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S1000fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S100fs</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S1500</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S1800</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S2000HD</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S2500HD</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S2950</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S4300</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S5700</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S5800</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S6500fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S7000</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix S9500</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix X-S1</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix X10</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix X20</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix XF1</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix Z100fd</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix Z35</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji FinePix Z700EXR</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji Fujifilm A220</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji IX-1</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji MX-1200</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji MX-1700</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji MX-2700</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji MX-2900</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji MX-500</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji MX-600</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji MX-700</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Fuji S5 Pro</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>FujiFilm @xia ix-100</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Gear to go</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Generic SoundVision Clarity2</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Genius Smart 300, version 2</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Global Point 3 in 1 Digital Fun Graffiti 00044</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Global Point Clipster</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Global Point Splash Mini (underwater camera)</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>GrandTek ScopeCam</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>GTW Electronics</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Haimei Electronics HE-501A</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Hawking DC120 Pocketcam</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Hot Wheels</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 120 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 215</td> <td>Image Capture, Liveview </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 217 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 317 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 318 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 320 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 407 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 417 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 43x (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 507 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 517 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 607 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 612 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 618</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 620 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 635 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 707 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 715 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 717 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 720 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 733 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 735 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 812 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 817 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 818 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 850 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 912</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 935 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart 945 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart C20</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart C200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart C30</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart C500</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart C500 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart C500 2</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart E327 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart E427 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M22 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M23 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M307 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M415 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M425 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M525 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M527 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M547 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M725 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M727 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart M737 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart R742 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart R927 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>HP PhotoSmart R967 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>iClick 5X</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>iConcepts digital camera</td> <td>Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>INNOVAGE Mini Digital, CD302N</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Intel Pocket PC Camera</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>IOMagic MagicImage 400</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>IOMagic MagicImage 420</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>ION digital camera</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Ixla DualCam 640</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Jazwares Star Wars no. 15256</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Jazz JDC9</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Jazz JDK235</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Jenoptik JD-3300z3</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Jenoptik JD-4100z3</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Jenoptik JD11</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Jenoptik JD12 800ff</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Jenoptik JD350 entrance</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Jenoptik JD350 video</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Jenoptik JDC 350</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>KBGear JamCam</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C1530</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C183</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C300</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C310</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C330</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C340</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C360</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C433</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C530</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C533</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C613</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C633</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C643</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C653</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C743</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C813</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C875</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak C913</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CD33</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX4200</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX4210</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX4230</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX4300</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX4310</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX6200</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX6230</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX6330</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX6445</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX7220</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX7300</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX7310</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX7330</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX7430</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX7525</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak CX7530</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC120</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC210</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC215</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC220</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC240</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC240 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC260</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC265</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC280</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC290</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC3200</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC3400</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC4800</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DC5000</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX3215</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX3500</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX3600</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX3700</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX3900</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX4330</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX4530</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX4900</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX6340</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX6440</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX6490</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX7440</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX7590</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak DX7630</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak EZ200</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak LS420</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak LS443</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak LS663</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak LS743</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak LS753</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak M1063</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak M753</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak M863</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak M883</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak M893 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak MC3</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak P850</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak P880</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak V530</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak V550</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak V570</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak V603</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak V610</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak V705</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak V803</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z612</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z650</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z700</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z710</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z712 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z730</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z740</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z7590</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z812 IS</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z915</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak Z950</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Kodak ZD710</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica e-mini</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica Q-EZ</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica Q-M100</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica Q-M100V</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica Q-M150</td> <td>Image Capture, Liveview, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Konica Q-M200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica-Minolta DiMAGE A2 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica-Minolta DiMAGE A200 (PictBridge mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica-Minolta DiMAGE X21 (PictBridge mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica-Minolta DiMAGE Z2 (PictBridge mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica-Minolta DiMAGE Z3 (PictBridge mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Konica-Minolta DiMAGE Z5 (PictBridge mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Largan Lmini</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Lego Bionicle</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Leica D-LUX 2</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Leica Digilux Zoom</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>LG T5100</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Lifetec LT 5995</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Logitech Clicksmart 310</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Logitech Pocket Digital</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Maginon SX-410z</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Maginon SX330z</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Magpix B350</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Mass Storage Camera</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Maxell Max Pocket</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Media-Tech mt-406</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Medion MD 5319</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Medion MD 6000</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Medion MD 6126</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Medion MD 9700</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Micromaxx Digital Camera</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Mini Shotz ms-350</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Minolta Dimage V</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Minton S-Cam F5</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Mitek CD10</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Mitek CD30P</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Mustek gSmart 300</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Mustek gSmart 350</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Mustek gSmart mini</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Mustek gSmart mini 2</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Mustek gSmart mini 3</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Mustek VDC-3500</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nexxtech Mini Digital Camera</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Nick Click</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 100</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 2000 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 2100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 2100 (Sierra Mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 2200 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 2500 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 2500 (Sierra Mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 300</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 3100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 3200 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 3500 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 3500 (Sierra Mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 3700 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 4100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 4200 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 4300 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 4300 (Sierra Mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 4500 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 4600 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 4600a (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 4800 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 5000 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 5200 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 5400 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 5600 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 5700 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 5900 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 600</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 700</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 7600 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 7900 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 800</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 8700 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 880</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 8800 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix 885 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 900</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 900S</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 910</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 950</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 950S</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 990</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon CoolPix 995</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix A (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix AW100 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L1 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L10 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L11 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L110 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L12 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L120 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L16 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L19 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L20 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L23 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L4 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix L820  (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P1 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P100 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P2 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P300 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P4 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P50 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P500 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P5000 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P510 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P5100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P520 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P60 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P6000 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P7000 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P7100 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P7700 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P80 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix P90 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S01</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S2 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S200 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S220 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S225 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S2500 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S2600 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S3000 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S3100 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S3300 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S4 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S500 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S5100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S6 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S60 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S6000 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S620 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S7c (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S8000 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S8200</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S9100 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix S9500 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon Coolpix SQ (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon D100 (Sierra Mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon D2H SLR (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon D2Hs (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon D2X SLR (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon D3 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon D50 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D200 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D2Xs (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D300 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D3000 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D300s (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D3100 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D3s (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D4</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D40 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D40x (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D5000 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D5100 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D5200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D60 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D600</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D70 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D700 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D7000 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D70s (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D7100</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D80 (PTP mode)</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D800</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D800E</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon DSC D90 (PTP mode)</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon J1</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon J2</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Nikon V1</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>nisis Quickpix Qp3</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>NogaNet TDC-15</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Nokia N73</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Novatech Digital Camera CC30</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-1000L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-1400L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-1400XL</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-2000Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-2020Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-2040Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-2100UZ</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-2500L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-3000Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-3020Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-3030Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-3040Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-310Z</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-350Z</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-370Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-400</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-400L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-4040Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-410</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-410L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-420</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-420L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-5050Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-5500Z</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-55Z</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-700UZ</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-750UZ</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-770UZ</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-800</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-800L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-820</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-820L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-830L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-840L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-860L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-900 Zoom</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-900L Zoom</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus C-990 Zoom</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-100Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-200L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-220L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-300L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-320L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-330R</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-340L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-340R</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-360L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-400L Zoom</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-450Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-460Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-500L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-535Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-540Z</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-560Z</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-600L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-600XL</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus D-620L</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus E series (Control)</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Olympus E-PL5</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus fe-200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus FE4000</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus IR-300</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus mju 500</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus SP-500UZ</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus SP-720UZ</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus X-100</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus X-250</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus X-450</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus X920</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Olympus X925</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Oregon Scientific DShot II</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Oregon Scientific DShot III</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic Coolshot KXL-600A</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic Coolshot KXL-601A</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic Coolshot NV-DCF5E</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DC1000</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DC1580</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-FS62</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-FZ20</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-FZ38</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-FZ45</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-FZ50</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-GF1</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-LS3</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-LX7</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-TZ15</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-TZ18</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic DMC-TZ20</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic PV-L691</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Panasonic PV-L859</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Pencam TEVION MD 9456</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Pentax K100D</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Pentax K10D</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Pentax K200D</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Pentax K20D</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Pentax K5D</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Pentax Optio 33WR</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Pentax Optio 43WR</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Pentax Optio 450</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Pentax Optio W90</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Philips ESP2</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Philips ESP50</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Philips ESP60</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Philips ESP70</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Philips ESP80</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Philips ESP80SXG</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Philips P44417B keychain camera</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Phoebe Smartcam</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Pioneer DVR-LX60D</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Pixart Gemini Keychain Camera</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Pixie Princess Jelly-Soft</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>PockCam</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Polaroid 640SE</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Polaroid DC700</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Polaroid Fun Flash 640</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Polaroid Fun! 320</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Polaroid PDC 2300Z</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Polaroid PDC 640</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Praktica QD500</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Praktica QD800</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Praktica Slimpix</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Precision Mini Digital Camera</td> <td>Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Precision Mini, Model HA513A</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Pretec dc530</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>PTP/IP Camera</td> <td>Configuration </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>PureDigital Ritz Disposable</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Quark Probe 99</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>QuickPix QP1</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Radioshack Flatfoto</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>RCA CDS1005</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Relisys Dimera 3500</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Request Ultra Slim</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Capilo RX</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio 300G</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio G3</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio G4</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio GX</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio GX (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio GX 8</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio GX 8 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R1</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R1v</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R1v (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R2</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R3</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R3 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R4</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R5</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio R5 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio RR30</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio RR750 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh Caplio RZ1</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-1</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-100G</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-2</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-2E</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-300</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-300Z</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-4200</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-4300</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Ricoh RDC-5000</td> <td>Image Capture, Configuration </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Rollei dr5</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Rollei dr5 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sakar 23070  Crayola Digital Cam</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar 28290 and 28292  Digital C</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar 92045  Spiderman</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar clipshot no. 1169x</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Digital Keychain 11199</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Digital no, 6637x</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Digital no, 67480</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Digital no. 56379 Spyshot</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Sakar Digital no. 77379</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Dora the Explorer no. 88067</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Hello Kitty no. 94009</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Kidz Cam 86379</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Kidz-Cam no. 88379</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Micro Digital 2428x</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Nickelodeon iCarly no. 88061</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar no. 1638x CyberPix</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar no. 75379</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar no. 81890</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar no. 91379</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar no. 98379</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Star Wars kit no. 92022</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sakar Sticker Wizard no. 59379</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Samsung digimax 800k</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Samsung EK-GC100</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Samsung Kenox SSC-350N</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Samsung NX1000</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Samsung S5620</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sanyo DSC-X300</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sanyo DSC-X350</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sanyo VPC-C5 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sanyo VPC-G200</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sanyo VPC-G200EX</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sanyo VPC-G210</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sanyo VPC-G250</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>ScanHex SX-35a</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>ScanHex SX-35b</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>ScanHex SX-35c</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>ScanHex SX-35d</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Scott APX 30</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sea &amp; Sea 2G (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sea &amp; Sea 5000G</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sea &amp; Sea 5000G (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Shark 2-in-1 Mini</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Shark SDC-513</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Shark SDC-519</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Shift3</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sierra Imaging SD640</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>SiPix Blink 2</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>SiPix CAMeleon</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>SiPix SC2100</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>SiPix Snap</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>SiPix Stylecam</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>SiPix Web2</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Skanhex SX-330z</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>SMaL Ultra-Pocket</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>So. Show 301</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Sony DCR-PC100</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-A100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-A900 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-F1</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-F55</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-F707V (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-F717 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-F828 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-H1 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-H2 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-H5 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-HX100V (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-HX200V (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-HX300 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-N2 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P10 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P120 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P200 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P30 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P31 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P32 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P41 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P43 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P5 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P50 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P51 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P52 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P71 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P72 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P73 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P92 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-P93 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-R1 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-RX1 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-RX100 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-S40 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-S60 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-S730 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-S75 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-S85 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-T1 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-T10 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-T3 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-U10 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-U20 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-V1 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-W1 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-W12 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-W130 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-W200 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-W35 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony DSC-W55 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony MSAC-SR1</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony MVC-CD300 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony MVC-CD500 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony NEX-3N (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony PTP</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony SLT-A35 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony SLT-A350 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony SLT-A55 (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony SLT-A65V (PTP mode)</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Sony TRV-20E</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Soundstar TDC-35</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>SpyPen Axys</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>SpyPen Cleo</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>SpyPen Luxo</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>SpyPen Memo</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>SpyPen Xion</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>SQ chip camera</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>ST2205 USB picture frame</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>StarCam CP086</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>STM USB Dual-mode camera</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Stop &amp; Shop 87096</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>STV0680</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Suprema Digital Keychain Camera</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>SY-2107C</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Tiger Fast Flicks</td> <td>Image Capture </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Timlex CP075</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Topfield TF5000PVR</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Toshiba PDR-M1</td> <td>Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Toshiba PDR-M11</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Toshiba PDR-M60</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Toshiba PDR-M61</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Toshiba PDR-M65</td> <td>Image Capture, Liveview, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>TP6801 USB picture frame</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Traveler SX330z</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Traveler SX410z</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Trust DC-3500</td> <td>Image Capture, Configuration </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Trust Familycam 300</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Trust PowerC@m 350FS</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Trust PowerC@m 350FT</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Trust Spyc@m 100</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Trust Spyc@m 500F FLASH</td> <td>&nbsp; </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Typhoon StyloCam</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>UMAX AstraPen</td> <td>Image Capture, Liveview </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>UMAX AstraPix 320s</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>USB PTP Class Camera</td> <td>Image Capture, Configuration </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>ViviCam3350</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>ViviCam5B</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Vivitar Freelance</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Vivitar Mini Digital Camera</td> <td>Image Capture </td> <td>Testing (Beta) &nbsp; </td></tr>
+<tr>
+ <td>Vivitar Vivicam 55</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Vivitar Vivicam3350B</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Vivitar Vivicam35</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>Wild Planet Digital Spy Camera 70137</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>WWF</td> <td>&nbsp; </td> <td> &nbsp; </td></tr>
+<tr>
+ <td>Yahoo!Cam</td> <td>Image Capture </td> <td>Experimental &nbsp; </td></tr>
+<tr>
+ <td>ZINA Mini Digital Keychain Camer</td> <td>&nbsp; </td> <td>Experimental &nbsp; </td></tr>
+</table><p>
+Media Players that are supported by both libmtp and libgphoto2:<p/>
+<table border=1>
+<tr>
+   <th>Media Player Model</th>
+</tr>
+<tr>
+ <td>Acer E350 Liquid Gallant Duo</td></tr>
+<tr>
+ <td>Acer Iconia TAB A100 (ID1)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A100 (ID2)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A110</td></tr>
+<tr>
+ <td>Acer Iconia TAB A200 (ID1)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A200 (ID2)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A210</td></tr>
+<tr>
+ <td>Acer Iconia TAB A500 (ID1)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A500 (ID2)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A501 (ID1)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A501 (ID2)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A510 (ID1)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A510 (ID2)</td></tr>
+<tr>
+ <td>Acer Iconia TAB A700</td></tr>
+<tr>
+ <td>Acromag Inc. XO Learning Tablet (MTP)</td></tr>
+<tr>
+ <td>Acromag Inc. XO Learning Tablet (MTP+ADB)</td></tr>
+<tr>
+ <td>Amazon Kindle Fire (ID1)</td></tr>
+<tr>
+ <td>Amazon Kindle Fire (ID2)</td></tr>
+<tr>
+ <td>Amazon Kindle Fire (ID3)</td></tr>
+<tr>
+ <td>Amazon Kindle Fire 2G (ID1)</td></tr>
+<tr>
+ <td>Archos 101 G9</td></tr>
+<tr>
+ <td>Archos 101 G9 (v2)</td></tr>
+<tr>
+ <td>Archos 101 G9 Turbo</td></tr>
+<tr>
+ <td>Archos 101 G9 Turbo 250 HD</td></tr>
+<tr>
+ <td>Archos 104 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 105 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 204 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 404 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 404CAM (MTP mode)</td></tr>
+<tr>
+ <td>Archos 405 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 405HDD (MTP mode)</td></tr>
+<tr>
+ <td>Archos 5 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 5 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 504 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 5H IT (MTP mode)</td></tr>
+<tr>
+ <td>Archos 5S IT (MTP mode)</td></tr>
+<tr>
+ <td>Archos 604 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 604WIFI (MTP mode)</td></tr>
+<tr>
+ <td>Archos 605 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 605F (MTP mode)</td></tr>
+<tr>
+ <td>Archos 7 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 704 mobile dvr</td></tr>
+<tr>
+ <td>Archos 704TV (MTP mode)</td></tr>
+<tr>
+ <td>Archos 705 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 70it2 (mode 1)</td></tr>
+<tr>
+ <td>Archos 70it2 (mode 2)</td></tr>
+<tr>
+ <td>Archos 80G9</td></tr>
+<tr>
+ <td>Archos 8o G9 (MTP mode)</td></tr>
+<tr>
+ <td>Archos 8o G9 Turbo (MTP mode)</td></tr>
+<tr>
+ <td>Archos 97 Xenon</td></tr>
+<tr>
+ <td>Archos Arnova 10bG3 Tablet</td></tr>
+<tr>
+ <td>Archos Arnova 8c G3</td></tr>
+<tr>
+ <td>Archos Arnova Childpad</td></tr>
+<tr>
+ <td>Archos Gmini XS100</td></tr>
+<tr>
+ <td>Archos SPOD (MTP mode)</td></tr>
+<tr>
+ <td>Archos TV+ (MTP mode)</td></tr>
+<tr>
+ <td>Archos XS202 (MTP mode)</td></tr>
+<tr>
+ <td>Asus MeMo Pad Smart 10</td></tr>
+<tr>
+ <td>Asus PadFone (MTP)</td></tr>
+<tr>
+ <td>Asus PadFone (MTP+ADB)</td></tr>
+<tr>
+ <td>Asus PadFone 2 (MTP)</td></tr>
+<tr>
+ <td>Asus PadFone 2 (MTP+?)</td></tr>
+<tr>
+ <td>Asus SL101 (MTP)</td></tr>
+<tr>
+ <td>Asus SL101 (MTP+ADB)</td></tr>
+<tr>
+ <td>Asus TF101 Eeepad Transformer (MTP)</td></tr>
+<tr>
+ <td>Asus TF101 Eeepad Transformer (MTP+ADB)</td></tr>
+<tr>
+ <td>Asus TF201 Transformer Prime (keyboard dock)</td></tr>
+<tr>
+ <td>Asus TF201 Transformer Prime (tablet only)</td></tr>
+<tr>
+ <td>Asus TF300 Transformer (MTP)</td></tr>
+<tr>
+ <td>Asus TF300 Transformer (MTP+ADB)</td></tr>
+<tr>
+ <td>Asus TF700 Transformer (MTP)</td></tr>
+<tr>
+ <td>Asus TF700 Transformer (MTP+ADB)</td></tr>
+<tr>
+ <td>Barnes&amp;Noble Nook HD+</td></tr>
+<tr>
+ <td>Coby COBY MP705</td></tr>
+<tr>
+ <td>Conceptronic CMTD2</td></tr>
+<tr>
+ <td>Cowon iAudio 10 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio 6 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio 7 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio 9 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio C2 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio D2 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio D2+ DAB FW 4.x (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio D2+ DMB FW 1.x (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio D2+ FW 2.x (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio D2+ FW 3.x (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio J3 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio S9 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio U3 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio U5 (MTP mode)</td></tr>
+<tr>
+ <td>Cowon iAudio X7 (MTP mode)</td></tr>
+<tr>
+ <td>Creative Portable Media Center</td></tr>
+<tr>
+ <td>Creative ZEN</td></tr>
+<tr>
+ <td>Creative ZEN Micro (MTP mode)</td></tr>
+<tr>
+ <td>Creative ZEN MicroPhoto</td></tr>
+<tr>
+ <td>Creative ZEN MicroPhoto (alternate version)</td></tr>
+<tr>
+ <td>Creative ZEN Mozaic</td></tr>
+<tr>
+ <td>Creative ZEN Sleek (MTP mode)</td></tr>
+<tr>
+ <td>Creative ZEN Sleek Photo</td></tr>
+<tr>
+ <td>Creative ZEN Touch (MTP mode)</td></tr>
+<tr>
+ <td>Creative ZEN V</td></tr>
+<tr>
+ <td>Creative ZEN V 2GB</td></tr>
+<tr>
+ <td>Creative ZEN V Plus</td></tr>
+<tr>
+ <td>Creative ZEN Vision</td></tr>
+<tr>
+ <td>Creative ZEN Vision W</td></tr>
+<tr>
+ <td>Creative ZEN Vision:M</td></tr>
+<tr>
+ <td>Creative ZEN Vision:M (DVP-HD0004)</td></tr>
+<tr>
+ <td>Creative ZEN X-Fi</td></tr>
+<tr>
+ <td>Creative ZEN X-Fi 3</td></tr>
+<tr>
+ <td>Creative ZEN Xtra (MTP mode)</td></tr>
+<tr>
+ <td>Curitel Communications, Inc. Verizon Wireless Device</td></tr>
+<tr>
+ <td>Dell Dell Pocket DJ (MTP mode)</td></tr>
+<tr>
+ <td>Dell DJ (2nd generation)</td></tr>
+<tr>
+ <td>Dell, Inc Dell Streak 7</td></tr>
+<tr>
+ <td>Dell, Inc DJ Itty</td></tr>
+<tr>
+ <td>Disney MixMax</td></tr>
+<tr>
+ <td>Dunlop MP3 player 1GB / EGOMAN MD223AFD</td></tr>
+<tr>
+ <td>FOMA D905i</td></tr>
+<tr>
+ <td>Fujitsu, Ltd F903iX HIGH-SPEED</td></tr>
+<tr>
+ <td>Fujitsu, Ltd STYLISTIC M532</td></tr>
+<tr>
+ <td>Google Inc (for Ainol Novo) Fire/Flame</td></tr>
+<tr>
+ <td>Google Inc (for Asus) Nexus 7 (MTP)</td></tr>
+<tr>
+ <td>Google Inc (for Asus) Nexus 7 (MTP+ADB)</td></tr>
+<tr>
+ <td>Google Inc (for Asus) TF101 Transformer</td></tr>
+<tr>
+ <td>Google Inc (for Asus) TF201 Transformer</td></tr>
+<tr>
+ <td>Google Inc (for Barnes &amp; Noble) Nook Color</td></tr>
+<tr>
+ <td>Google Inc (for Lenovo) Ideapad K1</td></tr>
+<tr>
+ <td>Google Inc (for LG Electronics) P990/Optimus</td></tr>
+<tr>
+ <td>Google Inc (for LG Electronics) P990/Optimus (Cyanogen)</td></tr>
+<tr>
+ <td>Google Inc (for LG Electronics/Samsung) Nexus 4/10 (MTP)</td></tr>
+<tr>
+ <td>Google Inc (for LG Electronics/Samsung) Nexus 4/10 (MTP+ADB)</td></tr>
+<tr>
+ <td>Google Inc (for Medion) MD99000 (P9514)</td></tr>
+<tr>
+ <td>Google Inc (for Motorola) Xoom (MZ604)</td></tr>
+<tr>
+ <td>Google Inc (for Sony) S1</td></tr>
+<tr>
+ <td>Google Inc (for Toshiba) Thrive 7/AT105</td></tr>
+<tr>
+ <td>Haier Ibiza Rhapsody</td></tr>
+<tr>
+ <td>Haier Ibiza Rhapsody</td></tr>
+<tr>
+ <td>Hewlett-Packard HP Touchpad (MTP)</td></tr>
+<tr>
+ <td>Hewlett-Packard HP Touchpad (MTP+ADB)</td></tr>
+<tr>
+ <td>Hisense E860</td></tr>
+<tr>
+ <td>HTC Droid DNA (MTP+UMS)</td></tr>
+<tr>
+ <td>HTC Droid DNA (MTP+UMS+ADB)</td></tr>
+<tr>
+ <td>HTC EVO 4G LTE/One V (ID1)</td></tr>
+<tr>
+ <td>HTC EVO 4G LTE/One V (ID2)</td></tr>
+<tr>
+ <td>HTC HTC Butterfly (ID1)</td></tr>
+<tr>
+ <td>HTC HTC Droid Incredible 4G LTE (MTP)</td></tr>
+<tr>
+ <td>HTC HTC Droid Incredible 4G LTE (MTP+ADB)</td></tr>
+<tr>
+ <td>HTC HTC Evo 4G LTE (ID1)</td></tr>
+<tr>
+ <td>HTC HTC One S (ID1)</td></tr>
+<tr>
+ <td>HTC HTC One S (ID2)</td></tr>
+<tr>
+ <td>HTC HTC One X (ID1)</td></tr>
+<tr>
+ <td>HTC HTC One X (ID2)</td></tr>
+<tr>
+ <td>HTC HTC One X (ID2)</td></tr>
+<tr>
+ <td>HTC HTC One X (ID3)</td></tr>
+<tr>
+ <td>Huawei Honor U8860</td></tr>
+<tr>
+ <td>Huawei Mediapad (mode 0)</td></tr>
+<tr>
+ <td>Huawei Mediapad (mode 1)</td></tr>
+<tr>
+ <td>Huawei U8815/U9200</td></tr>
+<tr>
+ <td>Insignia NS-DV45</td></tr>
+<tr>
+ <td>Insignia Pilot 4GB</td></tr>
+<tr>
+ <td>Insignia Sport Player</td></tr>
+<tr>
+ <td>Intel Xolo 900/AZ210A</td></tr>
+<tr>
+ <td>iRiver Clix</td></tr>
+<tr>
+ <td>iRiver Clix2</td></tr>
+<tr>
+ <td>iRiver E100</td></tr>
+<tr>
+ <td>iRiver E100 v2/Lplayer</td></tr>
+<tr>
+ <td>iRiver E150</td></tr>
+<tr>
+ <td>iRiver E30</td></tr>
+<tr>
+ <td>iRiver E50</td></tr>
+<tr>
+ <td>iRiver H10 20GB</td></tr>
+<tr>
+ <td>iRiver H10 5.6GB</td></tr>
+<tr>
+ <td>iRiver H10 5GB</td></tr>
+<tr>
+ <td>iRiver H300 Series MTP</td></tr>
+<tr>
+ <td>iRiver iFP-880</td></tr>
+<tr>
+ <td>iRiver N12</td></tr>
+<tr>
+ <td>iRiver Portable Media Center</td></tr>
+<tr>
+ <td>iRiver Portable Media Center</td></tr>
+<tr>
+ <td>iRiver Spinn</td></tr>
+<tr>
+ <td>iRiver T10</td></tr>
+<tr>
+ <td>iRiver T10 2GB</td></tr>
+<tr>
+ <td>iRiver T10a</td></tr>
+<tr>
+ <td>iRiver T20</td></tr>
+<tr>
+ <td>iRiver T20</td></tr>
+<tr>
+ <td>iRiver T20 FM</td></tr>
+<tr>
+ <td>iRiver T30</td></tr>
+<tr>
+ <td>iRiver T5</td></tr>
+<tr>
+ <td>iRiver T60</td></tr>
+<tr>
+ <td>iRiver T7 Volcano</td></tr>
+<tr>
+ <td>iRiver U10</td></tr>
+<tr>
+ <td>iRiver X20</td></tr>
+<tr>
+ <td>Isabella Her Prototype</td></tr>
+<tr>
+ <td>JVC Alneo XA-HD500</td></tr>
+<tr>
+ <td>Kenwood Media Keg HD10GB7 Sport Player</td></tr>
+<tr>
+ <td>Kobo Arc (ID1)</td></tr>
+<tr>
+ <td>Kobo Arc (ID2)</td></tr>
+<tr>
+ <td>Lenovo IdeaTab A2109A</td></tr>
+<tr>
+ <td>Lenovo K1</td></tr>
+<tr>
+ <td>Lenovo Lifetab S9512</td></tr>
+<tr>
+ <td>Lenovo P700</td></tr>
+<tr>
+ <td>Lenovo ThinkPad Tablet</td></tr>
+<tr>
+ <td>LG Electronics Inc. GR-500 Music Player</td></tr>
+<tr>
+ <td>LG Electronics Inc. KC910 Renoir Mobile Phone</td></tr>
+<tr>
+ <td>LG Electronics Inc. KM900</td></tr>
+<tr>
+ <td>LG Electronics Inc. LG-E610/E612/E617G/E970/P700</td></tr>
+<tr>
+ <td>LG Electronics Inc. LG2 Optimus</td></tr>
+<tr>
+ <td>LG Electronics Inc. LG8575</td></tr>
+<tr>
+ <td>LG Electronics Inc. T54</td></tr>
+<tr>
+ <td>LG Electronics Inc. UP3</td></tr>
+<tr>
+ <td>LG Electronics Inc. V909 G-Slate</td></tr>
+<tr>
+ <td>LG Electronics Inc. VX8550 V CAST Mobile Phone</td></tr>
+<tr>
+ <td>Logik LOG DAX MP3 and DAB Player</td></tr>
+<tr>
+ <td>Maxfield G-Flash NG 1GB</td></tr>
+<tr>
+ <td>Medion Lifetab P9514</td></tr>
+<tr>
+ <td>Medion MD8333</td></tr>
+<tr>
+ <td>Medion MD8333</td></tr>
+<tr>
+ <td>Medion MD99000 (P9514)/Olivetti Olipad 110</td></tr>
+<tr>
+ <td>Memorex or iRiver MMP 8585/8586 or iRiver E200</td></tr>
+<tr>
+ <td>Micro-Star International P610/Model MS-5557</td></tr>
+<tr>
+ <td>Microsoft Kin 1</td></tr>
+<tr>
+ <td>Microsoft Windows MTP Simulator</td></tr>
+<tr>
+ <td>Microsoft Windows Phone</td></tr>
+<tr>
+ <td>Microsoft Zune</td></tr>
+<tr>
+ <td>Microsoft Zune HD</td></tr>
+<tr>
+ <td>Microsoft/HTC HTC 8S</td></tr>
+<tr>
+ <td>Microsoft/Intel Bandon Portable Media Center</td></tr>
+<tr>
+ <td>Microsoft/Sharp/nVidia Kin TwoM</td></tr>
+<tr>
+ <td>Motorola A1200</td></tr>
+<tr>
+ <td>Motorola Atrix MB860 (MTP)</td></tr>
+<tr>
+ <td>Motorola Atrix/Razr HD (MTP)</td></tr>
+<tr>
+ <td>Motorola Atrix/Razr HD (MTP+ADB)</td></tr>
+<tr>
+ <td>Motorola Droid X/MB525 (Defy)</td></tr>
+<tr>
+ <td>Motorola DROID2 (ID1)</td></tr>
+<tr>
+ <td>Motorola DROID2 (ID2)</td></tr>
+<tr>
+ <td>Motorola DROID4</td></tr>
+<tr>
+ <td>Motorola IdeaPad K1</td></tr>
+<tr>
+ <td>Motorola Milestone / Verizon Droid</td></tr>
+<tr>
+ <td>Motorola Milestone X2</td></tr>
+<tr>
+ <td>Motorola MTP Test Command Interface</td></tr>
+<tr>
+ <td>Motorola RAZR M (XT907)</td></tr>
+<tr>
+ <td>Motorola RAZR2 V8/U9/Z6</td></tr>
+<tr>
+ <td>Motorola V3m/V750 verizon</td></tr>
+<tr>
+ <td>Motorola Xoom (Factory test)</td></tr>
+<tr>
+ <td>Motorola Xoom (MTP)</td></tr>
+<tr>
+ <td>Motorola Xoom (MTP+ADB)</td></tr>
+<tr>
+ <td>Motorola Xoom 2 Media Edition</td></tr>
+<tr>
+ <td>Motorola Xoom 2 Media Edition (ID2)</td></tr>
+<tr>
+ <td>Motorola XT890/907 (MTP)</td></tr>
+<tr>
+ <td>Motorola XT890/907 (MTP+?)</td></tr>
+<tr>
+ <td>Motorola XT890/907 (MTP+ADB)</td></tr>
+<tr>
+ <td>Motorola XT912/XT928</td></tr>
+<tr>
+ <td>MTP Device</td></tr>
+<tr>
+ <td>MyMusix PD-6070</td></tr>
+<tr>
+ <td>NEC FOMA N01A</td></tr>
+<tr>
+ <td>Nextar MA715A-8R</td></tr>
+<tr>
+ <td>Nokia 2710</td></tr>
+<tr>
+ <td>Nokia 3109c Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 3110c Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 3250 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 3710</td></tr>
+<tr>
+ <td>Nokia 5130 XpressMusic</td></tr>
+<tr>
+ <td>Nokia 5200 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 5230</td></tr>
+<tr>
+ <td>Nokia 5300 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 5310 XpressMusic</td></tr>
+<tr>
+ <td>Nokia 5320 XpressMusic</td></tr>
+<tr>
+ <td>Nokia 5500 Sport Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 5530</td></tr>
+<tr>
+ <td>Nokia 5530 Xpressmusic</td></tr>
+<tr>
+ <td>Nokia 5700 XpressMusic Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 5800 XpressMusic</td></tr>
+<tr>
+ <td>Nokia 5800 XpressMusic v2</td></tr>
+<tr>
+ <td>Nokia 5800 XpressMusic v3</td></tr>
+<tr>
+ <td>Nokia 6120c Classic Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 6210 Navigator</td></tr>
+<tr>
+ <td>Nokia 6220 Classic</td></tr>
+<tr>
+ <td>Nokia 6500c Classic Mobile Phone</td></tr>
+<tr>
+ <td>Nokia 6600i</td></tr>
+<tr>
+ <td>Nokia C5-00</td></tr>
+<tr>
+ <td>Nokia C7</td></tr>
+<tr>
+ <td>Nokia C7 (ID2)</td></tr>
+<tr>
+ <td>Nokia E52</td></tr>
+<tr>
+ <td>Nokia E63</td></tr>
+<tr>
+ <td>Nokia E66</td></tr>
+<tr>
+ <td>Nokia E7</td></tr>
+<tr>
+ <td>Nokia E7 (Ovi mode)</td></tr>
+<tr>
+ <td>Nokia E71</td></tr>
+<tr>
+ <td>Nokia E71x</td></tr>
+<tr>
+ <td>Nokia E72</td></tr>
+<tr>
+ <td>Nokia N73 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N75 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N78 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N79</td></tr>
+<tr>
+ <td>Nokia N8</td></tr>
+<tr>
+ <td>Nokia N8 (Ovi mode)</td></tr>
+<tr>
+ <td>Nokia N80 Internet Edition (Media Player)</td></tr>
+<tr>
+ <td>Nokia N81 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N82 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N85 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N9</td></tr>
+<tr>
+ <td>Nokia N91 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N93 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N93i Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N95 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N95 Mobile Phone 8GB</td></tr>
+<tr>
+ <td>Nokia N950</td></tr>
+<tr>
+ <td>Nokia N96 Mobile Phone</td></tr>
+<tr>
+ <td>Nokia N97</td></tr>
+<tr>
+ <td>Nokia N97 mini</td></tr>
+<tr>
+ <td>Nokia N97-1</td></tr>
+<tr>
+ <td>Nokia Nokia Lumia WP8</td></tr>
+<tr>
+ <td>Nokia X6</td></tr>
+<tr>
+ <td>Nokia/Verizon 6205 Balboa/Verizon Music Phone</td></tr>
+<tr>
+ <td>NormSoft, Inc. Pocket Tunes</td></tr>
+<tr>
+ <td>NormSoft, Inc. Pocket Tunes 4</td></tr>
+<tr>
+ <td>nVidia CM9-Adam</td></tr>
+<tr>
+ <td>nVidia Nabi2 Tablet (ID1)</td></tr>
+<tr>
+ <td>nVidia Nabi2 Tablet (ID2)</td></tr>
+<tr>
+ <td>O2 Sistemas ZoltarTV</td></tr>
+<tr>
+ <td>Panasonic P905i</td></tr>
+<tr>
+ <td>Panasonic P906i</td></tr>
+<tr>
+ <td>Pantech Crux</td></tr>
+<tr>
+ <td>Perception Digital, Ltd Gigaware GX400</td></tr>
+<tr>
+ <td>Philips GoGear Aria</td></tr>
+<tr>
+ <td>Philips GoGear Ariaz</td></tr>
+<tr>
+ <td>Philips GoGear Ariaz/97</td></tr>
+<tr>
+ <td>Philips GoGear Audio</td></tr>
+<tr>
+ <td>Philips GoGear Muse</td></tr>
+<tr>
+ <td>Philips GoGear SA1VBE08KX/78</td></tr>
+<tr>
+ <td>Philips GoGear SA3345</td></tr>
+<tr>
+ <td>Philips GoGear SA5145</td></tr>
+<tr>
+ <td>Philips GoGear SA6014/SA6015/SA6024/SA6025/SA6044/SA6045</td></tr>
+<tr>
+ <td>Philips GoGear SA6125/SA6145/SA6185</td></tr>
+<tr>
+ <td>Philips GoGear SA9200</td></tr>
+<tr>
+ <td>Philips GoGear ViBE SA1VBE04</td></tr>
+<tr>
+ <td>Philips GoGear ViBE SA1VBE04/08</td></tr>
+<tr>
+ <td>Philips GoGear VIBE SA2VBE[08|16]K/02</td></tr>
+<tr>
+ <td>Philips GoGear Vibe/02</td></tr>
+<tr>
+ <td>Philips HDD085/00 or HDD082/17</td></tr>
+<tr>
+ <td>Philips HDD14XX,HDD1620 or HDD1630/17</td></tr>
+<tr>
+ <td>Philips HDD6320</td></tr>
+<tr>
+ <td>Philips HDD6320/00 or HDD6330/17</td></tr>
+<tr>
+ <td>Philips PSA235</td></tr>
+<tr>
+ <td>Philips PSA610</td></tr>
+<tr>
+ <td>Philips SA1115/55</td></tr>
+<tr>
+ <td>Philips SA5285</td></tr>
+<tr>
+ <td>Philips Shoqbox</td></tr>
+<tr>
+ <td>Pioneer XMP3</td></tr>
+<tr>
+ <td>Polaroid Freescape/MPU-433158</td></tr>
+<tr>
+ <td>RIM BlackBerry Storm/9650</td></tr>
+<tr>
+ <td>Samsung F250 Mobile Phone</td></tr>
+<tr>
+ <td>Samsung Galaxy models (MTP)</td></tr>
+<tr>
+ <td>Samsung Galaxy models (MTP+ADB)</td></tr>
+<tr>
+ <td>Samsung Galaxy models Kies mode</td></tr>
+<tr>
+ <td>Samsung Galaxy Y</td></tr>
+<tr>
+ <td>Samsung GT-B2700</td></tr>
+<tr>
+ <td>Samsung GT-B2710/Xcover 271</td></tr>
+<tr>
+ <td>Samsung GT-S5230</td></tr>
+<tr>
+ <td>Samsung GT-S8500</td></tr>
+<tr>
+ <td>Samsung I550W Phone</td></tr>
+<tr>
+ <td>Samsung Jet S8000</td></tr>
+<tr>
+ <td>Samsung Juke (SCH-U470)</td></tr>
+<tr>
+ <td>Samsung M7600 Beat/GT-S8300T/SGH-F490/S8300</td></tr>
+<tr>
+ <td>Samsung SAMSUNG Trance</td></tr>
+<tr>
+ <td>Samsung U600 Mobile Phone</td></tr>
+<tr>
+ <td>Samsung Vibrant SGH-T959/Captivate/Media player mode</td></tr>
+<tr>
+ <td>Samsung X830 Mobile Phone</td></tr>
+<tr>
+ <td>Samsung YH-820</td></tr>
+<tr>
+ <td>Samsung YH-920 (501d)</td></tr>
+<tr>
+ <td>Samsung YH-920 (5022)</td></tr>
+<tr>
+ <td>Samsung YH-925(-GS)</td></tr>
+<tr>
+ <td>Samsung YH-925GS</td></tr>
+<tr>
+ <td>Samsung YH-999 Portable Media Center/SGH-A707/SGH-L760V/SGH-U900/Verizon Intensity/Fascinate</td></tr>
+<tr>
+ <td>Samsung YH-J70J</td></tr>
+<tr>
+ <td>Samsung YP-900</td></tr>
+<tr>
+ <td>Samsung YP-F2J</td></tr>
+<tr>
+ <td>Samsung YP-K3</td></tr>
+<tr>
+ <td>Samsung YP-K5</td></tr>
+<tr>
+ <td>Samsung YP-M1</td></tr>
+<tr>
+ <td>Samsung YP-P2</td></tr>
+<tr>
+ <td>Samsung YP-P3</td></tr>
+<tr>
+ <td>Samsung YP-Q1</td></tr>
+<tr>
+ <td>Samsung YP-Q2</td></tr>
+<tr>
+ <td>Samsung YP-Q3</td></tr>
+<tr>
+ <td>Samsung YP-R0</td></tr>
+<tr>
+ <td>Samsung YP-R1</td></tr>
+<tr>
+ <td>Samsung YP-R2</td></tr>
+<tr>
+ <td>Samsung YP-S3</td></tr>
+<tr>
+ <td>Samsung YP-S5</td></tr>
+<tr>
+ <td>Samsung YP-T10</td></tr>
+<tr>
+ <td>Samsung YP-T7J</td></tr>
+<tr>
+ <td>Samsung YP-T9</td></tr>
+<tr>
+ <td>Samsung YP-U2J (YP-U2JXB/XAA)</td></tr>
+<tr>
+ <td>Samsung YP-U3</td></tr>
+<tr>
+ <td>Samsung YP-U4</td></tr>
+<tr>
+ <td>Samsung YP-U5</td></tr>
+<tr>
+ <td>Samsung YP-Z3</td></tr>
+<tr>
+ <td>Samsung YP-Z5</td></tr>
+<tr>
+ <td>SanDisk Sansa c150</td></tr>
+<tr>
+ <td>SanDisk Sansa c240/c250</td></tr>
+<tr>
+ <td>SanDisk Sansa c250 v2</td></tr>
+<tr>
+ <td>SanDisk Sansa Clip</td></tr>
+<tr>
+ <td>SanDisk Sansa Clip v2</td></tr>
+<tr>
+ <td>SanDisk Sansa Clip Zip</td></tr>
+<tr>
+ <td>SanDisk Sansa Clip+</td></tr>
+<tr>
+ <td>SanDisk Sansa Connect</td></tr>
+<tr>
+ <td>SanDisk Sansa e200/e250/e260/e270/e280</td></tr>
+<tr>
+ <td>SanDisk Sansa e260/e280 v2</td></tr>
+<tr>
+ <td>SanDisk Sansa Express</td></tr>
+<tr>
+ <td>SanDisk Sansa Fuze</td></tr>
+<tr>
+ <td>SanDisk Sansa Fuze v2</td></tr>
+<tr>
+ <td>SanDisk Sansa Fuze+</td></tr>
+<tr>
+ <td>SanDisk Sansa m200-tcc (MTP mode)</td></tr>
+<tr>
+ <td>SanDisk Sansa m230/m240</td></tr>
+<tr>
+ <td>SanDisk Sansa m240/m250</td></tr>
+<tr>
+ <td>SanDisk Sansa View</td></tr>
+<tr>
+ <td>SigmaTel Inc. MTPMSCN Audio Player</td></tr>
+<tr>
+ <td>Sirius Stiletto</td></tr>
+<tr>
+ <td>Sirius Stiletto 2</td></tr>
+<tr>
+ <td>Slacker Inc. Slacker Portable Media Player</td></tr>
+<tr>
+ <td>Sony DCR-SR75</td></tr>
+<tr>
+ <td>SONY IS12S Xperia Acro HD MTP+ADB</td></tr>
+<tr>
+ <td>SONY IS12S Xperia Acro HD MTP+UMS</td></tr>
+<tr>
+ <td>SONY IS12S Xperia Acro MTP+UMS+ADB</td></tr>
+<tr>
+ <td>SONY LT22i Xperia P MTP</td></tr>
+<tr>
+ <td>SONY LT22i Xperia P MTP+ADB</td></tr>
+<tr>
+ <td>SONY LT22i Xperia P MTP+CDROM</td></tr>
+<tr>
+ <td>SONY LT25i Xperia V MTP</td></tr>
+<tr>
+ <td>SONY LT25i Xperia V MTP+ADB</td></tr>
+<tr>
+ <td>SONY LT25i Xperia V MTP+CDROM</td></tr>
+<tr>
+ <td>SONY LT26i Xperia S MTP</td></tr>
+<tr>
+ <td>SONY LT26i Xperia S MTP+ADB</td></tr>
+<tr>
+ <td>SONY LT26i Xperia S MTP+CDROM</td></tr>
+<tr>
+ <td>SONY LT26w Xperia Acro HD IS12S MTP</td></tr>
+<tr>
+ <td>SONY LT26w Xperia Acro HD IS12S MTP+CDROM</td></tr>
+<tr>
+ <td>SONY LT26w Xperia Acro HD SO-03D MTP</td></tr>
+<tr>
+ <td>SONY LT26w Xperia Acro HD SO-03D MTP+CDROM</td></tr>
+<tr>
+ <td>SONY LT28at Xperia Ion MTP</td></tr>
+<tr>
+ <td>SONY LT28at Xperia Ion MTP+ADB</td></tr>
+<tr>
+ <td>SONY LT28at Xperia Ion MTP+CDROM</td></tr>
+<tr>
+ <td>SONY LT28at Xperia Ion MTP+UMS</td></tr>
+<tr>
+ <td>SONY LT28at Xperia Ion MTP+UMS+ADB</td></tr>
+<tr>
+ <td>SONY LT29i Xperia GX MTP</td></tr>
+<tr>
+ <td>SONY LT29i Xperia GX MTP+ADB</td></tr>
+<tr>
+ <td>SONY LT29i Xperia GX MTP+CDROM</td></tr>
+<tr>
+ <td>SONY LT30p Xperia T MTP</td></tr>
+<tr>
+ <td>SONY LT30p Xperia T MTP+ADB</td></tr>
+<tr>
+ <td>SONY LT30p Xperia T MTP+CDROM</td></tr>
+<tr>
+ <td>SONY MT27i Xperia Sola MTP</td></tr>
+<tr>
+ <td>SONY MT27i Xperia Sola MTP+ADB</td></tr>
+<tr>
+ <td>SONY MT27i Xperia Sola MTP+CDROM</td></tr>
+<tr>
+ <td>SONY MT27i Xperia Sola MTP+UMS</td></tr>
+<tr>
+ <td>SONY MT27i Xperia Sola MTP+UMS+ADB</td></tr>
+<tr>
+ <td>Sony NWZ-A726/NWZ-A728/NWZ-A768</td></tr>
+<tr>
+ <td>Sony NWZ-A815/NWZ-A818</td></tr>
+<tr>
+ <td>Sony NWZ-A826/NWZ-A828/NWZ-A829</td></tr>
+<tr>
+ <td>Sony NWZ-A845</td></tr>
+<tr>
+ <td>Sony NWZ-B135</td></tr>
+<tr>
+ <td>Sony NWZ-B142F</td></tr>
+<tr>
+ <td>Sony NWZ-B153F</td></tr>
+<tr>
+ <td>Sony NWZ-B163F</td></tr>
+<tr>
+ <td>Sony NWZ-B173F</td></tr>
+<tr>
+ <td>Sony NWZ-E344/E345</td></tr>
+<tr>
+ <td>Sony NWZ-E354</td></tr>
+<tr>
+ <td>Sony NWZ-E436F</td></tr>
+<tr>
+ <td>Sony NWZ-E445</td></tr>
+<tr>
+ <td>Sony NWZ-E464</td></tr>
+<tr>
+ <td>Sony NWZ-S516</td></tr>
+<tr>
+ <td>Sony NWZ-S545</td></tr>
+<tr>
+ <td>Sony NWZ-S615F/NWZ-S616F/NWZ-S618F</td></tr>
+<tr>
+ <td>Sony NWZ-S638F</td></tr>
+<tr>
+ <td>Sony NWZ-S716F</td></tr>
+<tr>
+ <td>Sony NWZ-S739F</td></tr>
+<tr>
+ <td>Sony NWZ-S754</td></tr>
+<tr>
+ <td>Sony NWZ-S765</td></tr>
+<tr>
+ <td>Sony NWZ-W202</td></tr>
+<tr>
+ <td>Sony NWZ-W252B</td></tr>
+<tr>
+ <td>Sony NWZ-X1050B/NWZ-X1060B</td></tr>
+<tr>
+ <td>Sony NWZ-X1051/NWZ-X1061</td></tr>
+<tr>
+ <td>SONY SO-03D Xperia Acro HD MTP+ADB</td></tr>
+<tr>
+ <td>SONY SO-03D Xperia Acro HD MTP+UMS</td></tr>
+<tr>
+ <td>SONY SO-03D Xperia Acro MTP+UMS+ADB</td></tr>
+<tr>
+ <td>SONY SO-05D Xperia SX MTP</td></tr>
+<tr>
+ <td>SONY SO-05D Xperia SX MTP+ADB</td></tr>
+<tr>
+ <td>SONY SO-05D Xperia SX MTP+CDROM</td></tr>
+<tr>
+ <td>Sony Sony Tablet P1</td></tr>
+<tr>
+ <td>Sony Sony Tablet S</td></tr>
+<tr>
+ <td>Sony Sony Tablet S1</td></tr>
+<tr>
+ <td>SONY ST15i Xperia U MTP</td></tr>
+<tr>
+ <td>SONY ST21i Xperia Tipo MTP</td></tr>
+<tr>
+ <td>SONY ST21i Xperia Tipo MTP+ADB</td></tr>
+<tr>
+ <td>SONY ST21i Xperia Tipo MTP+CDROM</td></tr>
+<tr>
+ <td>SONY ST23i Xperia Miro MTP</td></tr>
+<tr>
+ <td>SONY ST23i Xperia Miro MTP+ADB</td></tr>
+<tr>
+ <td>SONY ST23i Xperia Miro MTP+CDROM</td></tr>
+<tr>
+ <td>SONY ST25i Xperia U MTP+ADB</td></tr>
+<tr>
+ <td>SONY ST25i Xperia U MTP+CDROM</td></tr>
+<tr>
+ <td>SONY ST27i/ST27a Xperia go MTP</td></tr>
+<tr>
+ <td>SONY ST27i/ST27a Xperia go MTP+ADB</td></tr>
+<tr>
+ <td>SONY ST27i/ST27a Xperia go MTP+CDROM</td></tr>
+<tr>
+ <td>SONY ST27i/ST27a Xperia go MTP+UMS</td></tr>
+<tr>
+ <td>SONY ST27i/ST27a Xperia go MTP+UMS+ADB</td></tr>
+<tr>
+ <td>SONY WT19i Live Walkman MTP</td></tr>
+<tr>
+ <td>SONY Xperia E MTP</td></tr>
+<tr>
+ <td>SONY Xperia E MTP+ADB</td></tr>
+<tr>
+ <td>SONY Xperia E MTP+CDROM</td></tr>
+<tr>
+ <td>SONY Xperia J MTP</td></tr>
+<tr>
+ <td>SONY Xperia J MTP+ADB</td></tr>
+<tr>
+ <td>SONY Xperia J MTP+CDROM</td></tr>
+<tr>
+ <td>SONY Xperia Tablet Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Tablet Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Tablet Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Tablet Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Tablet Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Tablet Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia Z MTP</td></tr>
+<tr>
+ <td>SONY Xperia ZL MTP</td></tr>
+<tr>
+ <td>SONY Xperia ZL MTP</td></tr>
+<tr>
+ <td>SONY Xperia ZL MTP</td></tr>
+<tr>
+ <td>SonyEricsson C702</td></tr>
+<tr>
+ <td>SonyEricsson C902</td></tr>
+<tr>
+ <td>SonyEricsson C905</td></tr>
+<tr>
+ <td>SonyEricsson IS12S Xperia Acro MTP</td></tr>
+<tr>
+ <td>SonyEricsson IS12S Xperia Acro MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson IS12S Xperia Acro MTP+CDROM</td></tr>
+<tr>
+ <td>SonyEricsson j108i (Cedar)</td></tr>
+<tr>
+ <td>SonyEricsson j10i (Elm)</td></tr>
+<tr>
+ <td>SonyEricsson j10i2 (Elm)</td></tr>
+<tr>
+ <td>SonyEricsson K550i</td></tr>
+<tr>
+ <td>SonyEricsson K850i</td></tr>
+<tr>
+ <td>SonyEricsson LT15i Xperia Arc MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson LT15i Xperia arc S MTP</td></tr>
+<tr>
+ <td>SonyEricsson MK16i Xperia MTP</td></tr>
+<tr>
+ <td>SonyEricsson MK16i Xperia MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson MT11i Xperia Neo MTP</td></tr>
+<tr>
+ <td>SonyEricsson MT11i Xperia Neo MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson R800/R88i Xperia Play MTP</td></tr>
+<tr>
+ <td>SonyEricsson R800/R88i Xperia Play MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson SK17i Xperia Mini Pro MTP</td></tr>
+<tr>
+ <td>SonyEricsson SK17i Xperia Mini Pro MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson SK17i Xperia Mini Pro MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson ST15i Xperia Mini MTP</td></tr>
+<tr>
+ <td>SonyEricsson ST15i Xperia Mini MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson ST17i Xperia Active MTP</td></tr>
+<tr>
+ <td>SonyEricsson ST17i Xperia Active MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson ST17i Xperia Active MTP+CDROM</td></tr>
+<tr>
+ <td>SonyEricsson ST18a Xperia Ray MTP</td></tr>
+<tr>
+ <td>SonyEricsson ST18i Xperia Ray MTP+ADB</td></tr>
+<tr>
+ <td>SonyEricsson T700</td></tr>
+<tr>
+ <td>SonyEricsson U5</td></tr>
+<tr>
+ <td>SonyEricsson U8i</td></tr>
+<tr>
+ <td>SonyEricsson W302</td></tr>
+<tr>
+ <td>SonyEricsson W595</td></tr>
+<tr>
+ <td>SonyEricsson W705/W715</td></tr>
+<tr>
+ <td>SonyEricsson W760i</td></tr>
+<tr>
+ <td>SonyEricsson W890i</td></tr>
+<tr>
+ <td>SonyEricsson W902</td></tr>
+<tr>
+ <td>SonyEricsson W910</td></tr>
+<tr>
+ <td>SonyEricsson W980</td></tr>
+<tr>
+ <td>SonyEricsson W995</td></tr>
+<tr>
+ <td>Technika MP-709</td></tr>
+<tr>
+ <td>Tevion MD 81488</td></tr>
+<tr>
+ <td>Thomson / RCA Lyra HC308A</td></tr>
+<tr>
+ <td>Thomson / RCA Opal / Lyra MC4002</td></tr>
+<tr>
+ <td>Thomson EM28 Series</td></tr>
+<tr>
+ <td>Thomson Lyra MC5104B (M51 Series)</td></tr>
+<tr>
+ <td>Thomson RCA H106</td></tr>
+<tr>
+ <td>Thomson scenium E308</td></tr>
+<tr>
+ <td>Toshiba Excite AT300</td></tr>
+<tr>
+ <td>Toshiba Gigabeat</td></tr>
+<tr>
+ <td>Toshiba Gigabeat MEGF-40</td></tr>
+<tr>
+ <td>Toshiba Gigabeat MET401</td></tr>
+<tr>
+ <td>Toshiba Gigabeat MEU201</td></tr>
+<tr>
+ <td>Toshiba Gigabeat MEU202</td></tr>
+<tr>
+ <td>Toshiba Gigabeat P10</td></tr>
+<tr>
+ <td>Toshiba Gigabeat P20</td></tr>
+<tr>
+ <td>Toshiba Gigabeat S</td></tr>
+<tr>
+ <td>Toshiba Gigabeat T</td></tr>
+<tr>
+ <td>Toshiba Gigabeat U</td></tr>
+<tr>
+ <td>Toshiba Gigabeat V30</td></tr>
+<tr>
+ <td>Toshiba Thrive AT100/AT105</td></tr>
+<tr>
+ <td>TrekStor i.Beat Organix 2.0</td></tr>
+<tr>
+ <td>TrekStor i.Beat Sweez FM</td></tr>
+<tr>
+ <td>TrekStor Vibez 8/12GB</td></tr>
+<tr>
+ <td>Various Viewpia DR/bq Kepler</td></tr>
+<tr>
+ <td>Vizio VTAB1008</td></tr>
+<tr>
+ <td>Wyplay Wyplayer</td></tr>
+<tr>
+ <td>Xiaomi Mi-2 (MTP)</td></tr>
+<tr>
+ <td>Xiaomi Mi-2 (MTP+ADB)</td></tr>
+<tr>
+ <td>YiFang BQ Tesla</td></tr>
+<tr>
+ <td>ZiiLABS Zii EGG</td></tr>
+<tr>
+ <td>ZTE V55 ID 1</td></tr>
+<tr>
+ <td>ZTE V55 ID 2</td></tr>
+<tr>
+ <td>ZTE v790/Blade 3</td></tr>
+</table>
 </td></tr>
 </table>
 <?
