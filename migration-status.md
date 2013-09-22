@@ -55,7 +55,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/m4">m4</a></td>
       <td><a href="http://github.com/gphoto/gphoto-m4">gphoto-m4</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
       <td class="ok">OK</td>
       <td class="ok">OK</td>
@@ -63,18 +63,18 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2">libgphoto2</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2">libgphoto2</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
-      <td class="wip">WIP</td>
-      <td class="wip">WIP</td>
+      <td class="ok">OK</td>
+      <td class="ok">OK</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2">gphoto2</a></td>
       <td><a href="http://github.com/gphoto/gphoto2">gphoto2</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
-      <td class="wip">WIP</td>
-      <td class="wip">WIP</td>
+      <td class="ok">OK</td>
+      <td class="ok">OK</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2-manual">gphoto2-manual</a></td>

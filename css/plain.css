@@ -34,5 +34,7 @@ table > tbody > tr:nth-child(even) > td.bad,
 table > tbody > tr:nth-child(even) > td.tbd { background: #eecccc; }
 table > tbody > tr:nth-child(odd)  > td.bad,
 table > tbody > tr:nth-child(odd)  > td.tbd { background: #ffdddd; }
+table > tbody > tr:nth-child(even) > td.test,
 table > tbody > tr:nth-child(even) > td.wip { background: #eeeecc; }
+table > tbody > tr:nth-child(odd)  > td.test,
 table > tbody > tr:nth-child(odd)  > td.wip { background: #ffffdd; }
