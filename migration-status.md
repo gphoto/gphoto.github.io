@@ -135,9 +135,9 @@ title:  github migration status
   </tbody>
 </table>
 
-OK: Work finished.
-WIP: Work In Progress.
-TBD: To be done.
+__OK__: Work finished.
+__WIP__: Work In Progress.
+__TBD__: To be done.
 
 * __clonable__: Whether you can `git clone` this repo and work on
   it. Some repos will still have their history rewritten, and thus are
@@ -154,6 +154,7 @@ TBD: To be done.
 
   Renamed from `m4` to `gphoto-m4` in order to make it easier for
   people to fork.
+
 
 ### `website` aka `gphoto.github.io`
 
