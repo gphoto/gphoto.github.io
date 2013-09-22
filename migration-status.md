@@ -37,6 +37,7 @@ title:  github migration status
     <tr>
       <th>svn repo</th>
       <th>git repo</th>
+      <th>clonable</th>
       <th>svn2git</th>
       <th>build fixes</th>
       <th>doc fixes</th>
@@ -46,6 +47,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/website">website</a></td>
       <td><a href="http://github.com/gphoto/gphoto.github.io">gphoto.github.io</a></td>
+      <td class="good">yes</td>
       <td class="ok">OK</td>
       <td class="wip">WIP</td>
       <td class="tbd">TBD</td>
@@ -53,6 +55,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/m4">m4</a></td>
       <td><a href="http://github.com/gphoto/gphoto-m4">gphoto-m4</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="ok">OK</td>
       <td class="ok">OK</td>
@@ -60,6 +63,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2">libgphoto2</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2">libgphoto2</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="wip">WIP</td>
       <td class="wip">WIP</td>
@@ -67,6 +71,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2">gphoto2</a></td>
       <td><a href="http://github.com/gphoto/gphoto2">gphoto2</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="wip">WIP</td>
       <td class="wip">WIP</td>
@@ -74,6 +79,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2-manual">gphoto2-manual</a></td>
       <td><a href="http://github.com/gphoto/gphoto2-manual">gphoto2-manual</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
@@ -81,6 +87,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphotofs">gphotofs</a></td>
       <td><a href="http://github.com/gphoto/gphotofs">gphotofs</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
@@ -88,6 +95,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gtkam">gtkam</a></td>
       <td><a href="http://github.com/gphoto/gtkam">gtkam</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
@@ -95,6 +103,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-java">libgphoto2-java</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2-java">libgphoto2-java</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
@@ -102,6 +111,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-python">libgphoto2-python</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2-python">libgphoto2-python</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
@@ -109,6 +119,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-sharp">libgphoto2-sharp</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2-sharp">libgphoto2-sharp</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
@@ -116,6 +127,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto-suite">gphoto-suite</a></td>
       <td><a href="http://github.com/gphoto/gphoto-suite">gphoto-suite</a></td>
+      <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
@@ -126,6 +138,17 @@ title:  github migration status
 OK: Work finished.
 WIP: Work In Progress.
 TBD: To be done.
+
+* __clonable__: Whether you can `git clone` this repo and work on
+  it. Some repos will still have their history rewritten, and thus are
+  __not clonable__.
+
+* __svn2git__: Whether the automatic conversion from svn to git worked.
+
+* __build fixes__: Whether the build has been fixed to work with the git repos.
+
+* __doc fixes__: Whether the documentation has been fixed to reference git repos.
+
 
 ### `m4` aka `gphoto-m4`
 
