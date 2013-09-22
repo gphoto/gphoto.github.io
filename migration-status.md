@@ -141,7 +141,9 @@ __TBD__: To be done.
 
 * __clonable__: Whether you can `git clone` this repo and work on
   it. Some repos will still have their history rewritten, and thus are
-  __not clonable__.
+  _not clonable_ (__no__). Some should be finished but are still in
+  __testing__, and when testing has succeeded, the repo will be marked
+  __yes__.
 
 * __svn2git__: Whether the automatic conversion from svn to git worked.
 

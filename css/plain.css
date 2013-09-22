@@ -5,17 +5,17 @@ html, body {
 
 table {
     border-collapse: collapse;
-    border: solid 1pt black;
+    border: solid 2px black;
 }
 
 table tr > td,
 table tr > th {
-    padding: 0.25ex 0.5em;
+    padding: 0.5ex 0.5em;
 }
 
 table > thead > tr {
     background: #ddddff;
-    border-bottom: solid 1pt black;
+    border-bottom: solid 2px black;
 }
 
 table > tbody > tr:nth-child(odd) {
