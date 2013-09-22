@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: plain
 title:  gphoto migration status
 ---
 
@@ -18,7 +18,7 @@ github not in production yet. Details are being worked out.
 
 * `libgphoto2`
 
-   git repo needs work. Almost finished. 
+   git repo needs work. Almost finished.
 
 * `gphoto2`
 

@@ -1,10 +1,10 @@
-<?
-	require ("include.php");
+---
+layout: default
+title:  gPhoto home
+keywords: digital camera, camera support, linux, freebsd, mtp, ptp, canon, sony, libgphoto2, gphoto2, camera access, media transfer protocol, mtp support, ptp support
+---
 
-	printHeader ("gPhoto Home", "digital camera, camera support, linux, freebsd, mtp, ptp, canon, sony, libgphoto2, gphoto2, camera access, media transfer protocol, mtp support, ptp support", 0);
-
-	printMenu ("home");
-?>
+{% include menu.html current="home" %}
 <table cellpadding="3" cellspacing="3">
 <tr><td>
 <h2>Freedom from film</h2>
@@ -102,6 +102,3 @@
 	</td>
 </tr>
 </table>
-<?
-	printFooter ();
-?>

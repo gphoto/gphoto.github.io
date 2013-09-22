@@ -1,0 +1,47 @@
+{% comment %}
+// $current possible values are:
+//  -home
+//  -news
+//  -proj
+//  -doc
+//  -developer
+//  -mailinglists
+//  -download
+//  -links
+function printMenu($current)
+{
+{% endcomment %}
+<p align="center" class="menu">
+<a href="/">Home</a> :: 
+<a href="/news">News</a> :: 
+<a href="/proj/">Projects</a> :: 
+<a href="/doc/">Documentation</a> :: 
+<a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
+<a href="/mailinglists/">Mailing lists</a> :: 
+<a href="/download/">Download</a> :: 
+<a href="/feedback/">Feedback</a> :: 
+<a href="http://gphoto.wiki.sourceforge.net/">Wiki</a> ::
+<a href="/links/">Links</a>
+
+{% case include.current %}
+{% when 'feedback' %}
+		<br />
+		<a href="/bugs/">Bugs</a> :: 
+		<a href="/rfe/">Feature Requests</a>
+{% when 'proj' %}
+		<br />
+		<a href="/proj/libgphoto2/">libgphoto2</a> :: 
+		<a href="/proj/gphoto2/">gphoto2-cli</a> :: 
+		<a href="/proj/gtkam/">gtkam</a> :: 
+		<a href="/proj/gphotofs/">gphotofs</a> :: 
+		<a href="/proj/gphoto/">gphoto 0.4.x</a>
+{% when 'doc' %}
+		<br />
+		<a href="/doc/manual/">User's manual</a> ::
+		<a href="/doc/api/">API</a> ::
+		<a href="/doc/ptpip.html">PTP/IP</a> ::
+		<a href="/doc/faq/">FAQ</a> ::
+		<a href="/doc/remote/">Remote control</a> ::
+		<a href="/manufacturers/">About Manufacturers</a>
+{% endcase %}
+</p>
