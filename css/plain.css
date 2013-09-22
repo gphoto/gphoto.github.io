@@ -1,0 +1,34 @@
+html, body {
+    background: white;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1pt black;
+}
+
+table tr > td,
+table tr > th {
+    padding: 0.25ex 0.5em;
+}
+
+table > thead > tr {
+    background: #ddddff;
+    border-bottom: solid 1pt black;
+}
+
+table > tbody > tr:nth-child(odd) {
+    background: white;
+}
+
+table > tbody > tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+table > tbody > tr:nth-child(even) > td.ok  { background: #cceecc; }
+table > tbody > tr:nth-child(odd)  > td.ok  { background: #ddffdd; }
+table > tbody > tr:nth-child(even) > td.tbd { background: #eecccc; }
+table > tbody > tr:nth-child(odd)  > td.tbd { background: #ffdddd; }
+table > tbody > tr:nth-child(even) > td.wip { background: #eeeecc; }
+table > tbody > tr:nth-child(odd)  > td.wip { background: #ffffdd; }

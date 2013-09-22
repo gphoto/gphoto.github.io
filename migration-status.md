@@ -1,50 +1,138 @@
 ---
 layout: plain
-title:  gphoto migration status
+title:  github migration status
 ---
 
 
-## TLDR
+## Website status
 
-github not in production yet. Details are being worked out.
+<table>
+  <thead>
+    <tr>
+      <th>website</th>
+      <th>status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://gphoto.org/">gphoto.org</a></td>
+      <td class="tbd">running on sourceforge</td>
+    </tr>
+    <tr>
+      <td><a href="http://gphoto.sourceforge.net/">gphoto.sourceforge.net</a></td>
+      <td class="">the current production site</td>
+    </tr>
+    <tr>
+      <td><a href="http://gphoto.github.io/">gphoto.github.io</a></td>
+      <td class="wip">migrating to Github Pages from custom PHP templates</td>
+    </tr>
+  </tbody>
+</table>
 
 
-## Source code repositories
+## Source code repository status
 
-* `m4` aka `gphoto-m4`
+<table>
+  <thead>
+    <tr>
+      <th>svn repo</th>
+      <th>git repo</th>
+      <th>svn2git</th>
+      <th>build fixes</th>
+      <th>doc fixes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/website">website</a></td>
+      <td><a href="http://github.com/gphoto/gphoto.github.io">gphoto.github.io</a></td>
+      <td class="ok">OK</td>
+      <td class="wip">WIP</td>
+      <td class="tbd">TBD</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/m4">m4</a></td>
+      <td><a href="http://github.com/gphoto/gphoto-m4">gphoto-m4</a></td>
+      <td class="ok">OK</td>
+      <td class="ok">OK</td>
+      <td class="ok">OK</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2">libgphoto2</a></td>
+      <td><a href="http://github.com/gphoto/libgphoto2">libgphoto2</a></td>
+      <td class="ok">OK</td>
+      <td class="wip">WIP</td>
+      <td class="wip">WIP</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2">gphoto2</a></td>
+      <td><a href="http://github.com/gphoto/gphoto2">gphoto2</a></td>
+      <td class="ok">OK</td>
+      <td class="wip">WIP</td>
+      <td class="wip">WIP</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2-manual">gphoto2-manual</a></td>
+      <td><a href="http://github.com/gphoto/gphoto2-manual">gphoto2-manual</a></td>
+      <td class="ok">OK</td>
+      <td class="tbd">TBD</td>
+      <td class="tbd">TBD</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphotofs">gphotofs</a></td>
+      <td><a href="http://github.com/gphoto/gphotofs">gphotofs</a></td>
+      <td class="ok">OK</td>
+      <td class="tbd">TBD</td>
+      <td class="tbd">TBD</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gtkam">gtkam</a></td>
+      <td><a href="http://github.com/gphoto/gtkam">gtkam</a></td>
+      <td class="ok">OK</td>
+      <td class="tbd">TBD</td>
+      <td class="tbd">TBD</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-java">libgphoto2-java</a></td>
+      <td><a href="http://github.com/gphoto/libgphoto2-java">libgphoto2-java</a></td>
+      <td class="ok">OK</td>
+      <td class="tbd">TBD</td>
+      <td class="tbd">TBD</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-python">libgphoto2-python</a></td>
+      <td><a href="http://github.com/gphoto/libgphoto2-python">libgphoto2-python</a></td>
+      <td class="ok">OK</td>
+      <td class="tbd">TBD</td>
+      <td class="tbd">TBD</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-sharp">libgphoto2-sharp</a></td>
+      <td><a href="http://github.com/gphoto/libgphoto2-sharp">libgphoto2-sharp</a></td>
+      <td class="ok">OK</td>
+      <td class="tbd">TBD</td>
+      <td class="tbd">TBD</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto-suite">gphoto-suite</a></td>
+      <td><a href="http://github.com/gphoto/gphoto-suite">gphoto-suite</a></td>
+      <td class="ok">OK</td>
+      <td class="tbd">TBD</td>
+      <td class="tbd">TBD</td>
+    </tr>
+  </tbody>
+</table>
+
+OK: Work finished.
+WIP: Work In Progress.
+TBD: To be done.
+
+### `m4` aka `gphoto-m4`
 
   Renamed from `m4` to `gphoto-m4` in order to make it easier for
   people to fork.
 
-* `libgphoto2`
-
-   git repo needs work. Almost finished.
-
-* `gphoto2`
-
-   git repo needs work. Almost finished.
-
-* `gtkam`
-
-   git repo needs work. Not started yet.
-
-* `gphotofs`
-
-   git repo needs work. Not started yet.
-
-* `libgphoto2-java`
-
-   git repo needs work. Not started yet.
-
-* `libgphoto2-python`
-
-   git repo needs work. Not started yet.
-
-* `libgphoto2-sharp`
-
-   git repo needs work. Not started yet.
-
-* `website` aka `gphoto.github.io`
+### `website` aka `gphoto.github.io`
 
   Renamed from `website` to `gphoto.github.io` to make github serve the
   web site.
@@ -52,18 +140,6 @@ github not in production yet. Details are being worked out.
   git repo work in progress (migrate from custom PHP templates to Github Pages).
 
 
-## Websites
+## TLDR
 
-* [gphoto.org](http://gphoto.org/)
-
-  Running on Sourceforge.
-
-* [gphoto.sourceforge.net](http://gphoto.sourceforge.net/)
-
-  The current production site.
-
-* [gphoto.githubio](http://gphoto.github.io/)
-
-  Not ready yet.
-
-
+github not in production yet. Details are being worked on.
