@@ -1,3 +1,4 @@
-<?php
-	Header("Location: /doc/remote/");
-?>
+---
+layout: redirect
+title:  "/doc/remote/"
+---
