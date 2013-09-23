@@ -1,10 +1,9 @@
-<?
-	require ("../include.php");
+---
+layout: page
+title: Projects
+---
+{% include menu.html current="proj" %}
 
-	printHeader ("Projects", "", 1);
-
-	printMenu ("proj");
-?>
 
 <h2>libgphoto2</h2>
 <p class="text">
@@ -15,7 +14,7 @@ which gives access to literally
 
 <h2>gphoto2</h2>
 <p class="text">
-gphoto2 is the command line (CLI) interface to libgphoto2. It allows almost 
+gphoto2 is the command line (CLI) interface to libgphoto2. It allows almost
 everything that libgphoto2 can do.</p>
 <p class="more"><a href="gphoto2/" title="more about gphoto2">(more...)</a></p>
 
@@ -134,6 +133,3 @@ gphotofs allow you no mount your camera on Linux based on the FUSE technology.</
 gphoto 0.4.x is the old fashioned version of gphoto software. It is
 not longer being maintained.</p>
 <p class="more"><a href="gphoto/" title="more about gphoto">(more...)</a></p>
-<?
-	printFooter ();
-?>

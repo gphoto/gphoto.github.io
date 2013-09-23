@@ -1,10 +1,8 @@
-<?
-	require ("../../include.php");
-
-	printHeader ("Projects :: libgphoto2 :: supported cameras", "", 1);
-
-	printMenu ("proj");
-?>
+---
+layout: page
+title:  "Projects :: libgphoto2 :: supported cameras"
+---
+{% include menu.html current="proj" %}
 
 <table cellpadding="3" cellspacing="3" witdh="100%">
 <tr class="text"><td>
@@ -3509,6 +3507,3 @@ Media Players that are supported by both libmtp and libgphoto2:<p/>
 </table>
 </td></tr>
 </table>
-<?
-	printFooter ();
-?>
