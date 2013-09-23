@@ -1,10 +1,8 @@
-<?
-	require ("../include.php");
-
-	printHeader ("Links", "", 1);
-
-	printMenu ("links");
-?>
+---
+layout: page
+title:  "Links"
+---
+{% include menu.html current="links" %}
 
 <table class="text">
 <tr><td>
@@ -62,7 +60,3 @@
 
 </td></tr>
 </table>
-
-<?
-	printFooter ();
-?>

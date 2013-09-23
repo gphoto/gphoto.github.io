@@ -1,10 +1,8 @@
-<?
-	require ("../../include.php");
-
-	printHeader ("Doc :: Remote controlling cameras", "", 1);
-
-	printMenu ("doc");
-?>
+---
+layout: page
+title:  "Doc :: Remote controlling cameras"
+---
+{% include menu.html current="doc" %}
 
 <h1>Remote controlling cameras</h1>
 <hr />
@@ -1143,7 +1141,3 @@ Also see <a href="http://www.usa.canon.com/cusa/consumer/standard_display/sdk_ho
 	<td>Do not support remote control. See <a href="http://ca.konicaminolta.com/support/americas/digital_cameras/dimage-z/dimage-z2/faq/071.html">Konica-Minolta FAQ</a></td>
 </tr>
 </table>
-
-<?
-	printFooter ();
-?>

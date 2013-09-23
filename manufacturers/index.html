@@ -1,10 +1,8 @@
-<?
-	require ("../include.php");
-
-	printHeader ("About manufacturers", "", 1);
-
-	printMenu ("manufacturers");
-?>
+---
+layout: page
+title:  "About manufacturers"
+---
+{% include menu.html current="manufacturers" %}
 
 <p>
 On this page, we try to list the cooperation we have received and are receiving 
@@ -141,8 +139,4 @@ know if Open Source software can be written from it, no answer so far
 
 
 <!-- ============================================================ --> 
-
-<?
-	printFooter ();
-?>
 

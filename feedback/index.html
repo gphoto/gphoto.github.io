@@ -1,10 +1,8 @@
-<?
-	require ("../include.php");
-
-	printHeader ("Feedback", "", 1);
-
-	printMenu ("feedback");
-?>
+---
+layout: page
+title:  "Feedback"
+---
+{% include menu.html current="feedback" %}
 
 <h2>Reporting a bug</h2>
 <p class="text">
@@ -20,7 +18,3 @@ hosted on sourceforge.net.</p>
 <p class="text">
 We have setup <a href="/mailinglists/">mailing lists</a>. Don't 
 hesitate to ask questions.</p>
-
-<?
-	printFooter ();
-?>
