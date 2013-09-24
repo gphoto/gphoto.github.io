@@ -77,16 +77,16 @@ title:  github migration status
       <td class="ok">OK</td>
     </tr>
     <tr>
-      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2-manual">gphoto2-manual</a></td>
-      <td><a href="http://github.com/gphoto/gphoto2-manual">gphoto2-manual</a></td>
-      <td class="bad">no</td>
-      <td class="ok">OK</td>
-      <td class="tbd">TBD</td>
-      <td class="tbd">TBD</td>
-    </tr>
-    <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphotofs">gphotofs</a></td>
       <td><a href="http://github.com/gphoto/gphotofs">gphotofs</a></td>
+      <td class="test">testing</td>
+      <td class="ok">OK</td>
+      <td class="ok">OK</td>
+      <td class="ok">OK</td>
+    </tr>
+    <tr>
+      <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2-manual">gphoto2-manual</a></td>
+      <td><a href="http://github.com/gphoto/gphoto2-manual">gphoto2-manual</a></td>
       <td class="bad">no</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
