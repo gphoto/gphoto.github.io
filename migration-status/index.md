@@ -87,7 +87,7 @@ title:  github migration status
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gtkam">gtkam</a></td>
       <td><a href="http://github.com/gphoto/gtkam">gtkam</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
       <td class="ok">OK</td>
       <td class="wip">WIP</td>
