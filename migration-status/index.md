@@ -89,7 +89,7 @@ title:  github migration status
       <td><a href="http://github.com/gphoto/gtkam">gtkam</a></td>
       <td class="bad">no</td>
       <td class="ok">OK</td>
-      <td class="wip">WIP</td>
+      <td class="ok">OK</td>
       <td class="wip">WIP</td>
     </tr>
     <tr>
@@ -97,7 +97,7 @@ title:  github migration status
       <td><a href="http://github.com/gphoto/gphoto2-manual">gphoto2-manual</a></td>
       <td class="bad">no</td>
       <td class="ok">OK</td>
-      <td class="tbd">TBD</td>
+      <td class="ok">OK</td>
       <td class="tbd">TBD</td>
     </tr>
     <tr>
