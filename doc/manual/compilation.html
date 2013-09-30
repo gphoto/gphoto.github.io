@@ -1,0 +1,38 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chapter 5. Compiling and installing</title><link rel="stylesheet" type="text/css" href="../../styles.css"><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="index.html" title="The gPhoto2 Manual"><link rel="prev" href="port-and-camera.html" title="4.4. Specifying the port and camera you use"><link rel="next" href="compilation-from-svn.html" title="5.2. Starting from SVN (SubVersioN)"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p xmlns="http://www.w3.org/1999/xhtml" align="center" class="menu"><a href="/">Home</a> :: 
+      <a href="/news">News</a> :: 
+      <a href="/proj/">Projects</a> :: 
+      <a href="/doc/">Documentation</a> :: 
+      <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
+      <a href="/mailinglists/">Mailing lists</a> :: 
+      <a href="/download/">Download</a> :: 
+      <a href="/feedback/">Feedback</a> :: 
+      <a href="/manufacturers/">About Manufacturers</a> :: 
+      <a href="/links/">Links</a><br></br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/api/">API</a> ::
+      <a href="/doc/ptpip.php">PTP/IP</a> ::
+      <a href="/doc/faq/">FAQ</a> ::
+      <a href="/doc/remote/">Remote control</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 5. Compiling and installing</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="port-and-camera.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="compilation-from-svn.html">Next</a></td></tr></table><hr></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a name="compilation"></a>Chapter 5. Compiling and installing</h1></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl class="toc"><dt><span class="sect1"><a href="compilation.html#compilation-overview">5.1. Overview, requirements and dependencies</a></span></dt><dt><span class="sect1"><a href="compilation-from-svn.html">5.2. Starting from SVN (SubVersioN)</a></span></dt><dt><span class="sect1"><a href="configure-make-install.html">5.3. Configuring, building, and installing</a></span></dt></dl></div><div class="sect1"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="compilation-overview"></a>5.1. Overview, requirements and dependencies</h2></div></div></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>
+	  This section wants to give you an overview about software
+	  packages, software requirements and the dependencies between
+	  them. It should prepare you for the decision what packages
+	  you want to install and what sequence.
+	</p></div><p>
+	As you can see in 
+	<a class="xref" href="compilation.html#software-dependencies" title="Figure 5.1. Software dependencies">Figure 5.1, “Software dependencies”</a>,
+	multiple software packages are required for using digital
+	cameras. If you find this picture a little complicated, then
+	you may want to consider using pre-compiled binary packages.
+      </p><div class="figure"><a name="software-dependencies"></a><p class="title"><b>Figure 5.1. Software dependencies</b></p><div class="figure-contents"><div class="mediaobject"><img src="figures/software-dependencies.png" alt="Software dependencies"></div><pre class="synopsis">
+	  Arrows mean <span class="quote">“<span class="quote">required for</span>”</span>, dashed lines mean
+	  <span class="quote">“<span class="quote">should be used with, even though being
+	  optional</span>”</span>.
+	</pre></div></div><br class="figure-break"><p>
+	Nowadays, most people will want to use gphoto2 on the command
+	line and the gtkam GUI with contemporary USB cameras
+	delivering EXIF images. So you'll have to get and compile
+	libexif, libusb, libgphoto2, gphoto2, and gtkam.
+      </p><p>
+	You can see that this quite some work to do. This is why we
+	created gphoto-suite, which lets you build everything in just
+	one step.
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="port-and-camera.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="compilation-from-svn.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">4.4. Specifying the port and camera you use </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 5.2. Starting from SVN (SubVersioN)</td></tr></table></div></body></html>

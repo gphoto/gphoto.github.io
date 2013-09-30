@@ -1,0 +1,244 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>gphoto2</title><link rel="stylesheet" type="text/css" href="../../styles.css"><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="reference.html" title="The gPhoto2 Reference (the man pages)"><link rel="prev" href="reference.html" title="The gPhoto2 Reference (the man pages)"><link rel="next" href="ref-libgphoto2.html" title="libgphoto2"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p xmlns="http://www.w3.org/1999/xhtml" align="center" class="menu"><a href="/">Home</a> :: 
+      <a href="/news">News</a> :: 
+      <a href="/proj/">Projects</a> :: 
+      <a href="/doc/">Documentation</a> :: 
+      <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
+      <a href="/mailinglists/">Mailing lists</a> :: 
+      <a href="/download/">Download</a> :: 
+      <a href="/feedback/">Feedback</a> :: 
+      <a href="/manufacturers/">About Manufacturers</a> :: 
+      <a href="/links/">Links</a><br></br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/api/">API</a> ::
+      <a href="/doc/ptpip.php">PTP/IP</a> ::
+      <a href="/doc/faq/">FAQ</a> ::
+      <a href="/doc/remote/">Remote control</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">gphoto2</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="reference.html">Prev</a> </td><th width="60%" align="center">The gPhoto2 Reference (the man pages)</th><td width="20%" align="right"> <a accesskey="n" href="ref-libgphoto2.html">Next</a></td></tr></table><hr></div><div class="refentry"><a name="ref-gphoto2-cli"></a><div class="titlepage"></div><div class="refnamediv"><h2>Name</h2><p>gphoto2 — command-line <code class="systemitem">gphoto2</code> client</p></div><div class="refsynopsisdiv"><h2>Synopsis</h2><div class="cmdsynopsis"><p><code class="command">gphoto2</code>  [--debug] [--debug-logfile <em class="replaceable"><code>FILENAME</code></em>] [[-q] |  [--quiet]] [[-v] |  [--verbose]] [[-h] |  [--help]]<br> [--hook-script <em class="replaceable"><code>FILENAME</code></em>]<br> [--list-cameras] [--list-ports] [--stdout] [--stdout-size]<br> [--auto-detect] [--port <em class="replaceable"><code>PATH</code></em>] [--speed <em class="replaceable"><code>SPEED</code></em>] [--camera <em class="replaceable"><code>MODEL</code></em>]<br> [--filename <em class="replaceable"><code>FILENAME</code></em>]<br> [--usbid <em class="replaceable"><code>USBIDS</code></em>]<br> [[-a] |  [--abilities]]<br> [[--folder <em class="replaceable"><code>FOLDER</code></em>] |  [-f <em class="replaceable"><code>FOLDER</code></em>]] [[[-R] |  [--recurse]] |  [--no-recurse]]<br> [[-l] |  [--list-folders]]<br> [[-L] |  [--list-files]] [[-m <em class="replaceable"><code>NAME</code></em>] |  [--mkdir <em class="replaceable"><code>NAME</code></em>]]<br> [[-r <em class="replaceable"><code>NAME</code></em>] |  [--rmdir <em class="replaceable"><code>NAME</code></em>]] [[-n] |  [--num-files]]<br> [[-p <em class="replaceable"><code>RANGE</code></em>] |  [--get-file <em class="replaceable"><code>RANGE</code></em>]] [[-P] |  [--get-all-files]]<br> [[-t <em class="replaceable"><code>RANGE</code></em>] |  [--get-thumbnail <em class="replaceable"><code>RANGE</code></em>]]<br> [[-T] |  [--get-all-thumbnails]]<br> [--get-raw-data <em class="replaceable"><code>RANGE</code></em>] [--get-all-raw-data]<br> [--get-audio-data <em class="replaceable"><code>RANGE</code></em>] [--get-all-audio-data]<br> [--force-overwrite]<br> [--new]<br> [[-d <em class="replaceable"><code>RANGE</code></em>] |  [--delete-file <em class="replaceable"><code>RANGE</code></em>]] [[-D] |  [--delete-all-files]]<br> [[-u <em class="replaceable"><code>FILENAME</code></em>] |  [--upload-file <em class="replaceable"><code>FILENAME</code></em>]] [--config]<br> [--list-config]<br> [--get-config <em class="replaceable"><code>CONFIGENTRY</code></em>] [--set-config <em class="replaceable"><code>CONFIGENTRY=CONFIGVALUE</code></em>] [--set-config-index <em class="replaceable"><code>CONFIGENTRY=CONFIGINDEX</code></em>] [--set-config-value <em class="replaceable"><code>CONFIGENTRY=CONFIGVALUE</code></em>]<br> [--capture-preview]<br> [[-F <em class="replaceable"><code>COUNT</code></em>] |  [--frames <em class="replaceable"><code>COUNT</code></em>]] [[-I <em class="replaceable"><code>SECONDS</code></em>] |  [--interval <em class="replaceable"><code>SECONDS</code></em>]]<br> [--reset-interval]<br> [--capture-image] [--capture-movie] [--capture-sound]<br> [--capture-tethered <em class="replaceable"><code>SECONDS or COUNT</code></em>]<br> [--wait-event <em class="replaceable"><code>SECONDS or COUNT</code></em>] [--wait-event-and-download <em class="replaceable"><code>SECONDS or COUNT</code></em>]<br> [--show-info <em class="replaceable"><code>RANGE</code></em>]<br> [--show-exif <em class="replaceable"><code>RANGE</code></em>]<br> [--storage-info] [--summary] [--manual] [--about] [--shell]</p></div></div><div class="refsect1"><a name="idm215003899440"></a><h2>Description</h2><p><a class="xref" href="ref-libgphoto2.html" title="libgphoto2"><span class="refentrytitle">libgphoto2</span>(3)</a> is a 
+        cross-platform digital camera library, and
+        <a class="xref" href="ref-gphoto2-cli.html" title="gphoto2"><span class="refentrytitle">gphoto2</span>(1)</a> is a command-line client for
+        it.</p><p>Where an option takes a <em class="replaceable"><code>RANGE</code></em> of files, thumbnails, or
+       other data, they are numbered beginning at 1.  A range is a
+       comma-separated list of numbers or spans
+       (<span class="quote">“<span class="quote"><em class="replaceable"><code>first</code></em>-<em class="replaceable"><code>last</code></em></span>”</span>).
+       Ranges are XOR (exclusive or), so that <span class="quote">“<span class="quote">1-5,3,7</span>”</span>
+       is equivalent to <span class="quote">“<span class="quote">1,2,4,5,7</span>”</span>.</p><div class="variablelist"><dl class="variablelist"><dt><span class="term"><code class="option">--debug</code></span></dt><dd><p>Turn on debugging output. Debugging output is written to stderr by default, or to the filename given to the <code class="option">--debug-logfile</code> option.</p></dd><dt><span class="term"><code class="option">--debug-logfile</code>
+	  <em class="replaceable"><code>FILENAME</code></em> (since 2.3.0)</span></dt><dd><p>
+	      The logfile to write the debugging info to, if
+	      <code class="option">--debug</code> is given.
+	    </p></dd><dt><span class="term"><code class="option">--hook-script</code> <em class="replaceable"><code>FILENAME</code></em>
+	  (new after 2.3.0)</span></dt><dd><p>
+	      Execute the hook script
+	      <em class="replaceable"><code>FILENAME</code></em> every time a certain
+	      event happens within <span class="command"><strong>gphoto2</strong></span>.  The
+	      hook script reads the environment variable
+	      <code class="envar">ACTION</code>. It must ignore
+	      <code class="envar">ACTION</code> values unknown to it.
+	    </p><div class="variablelist"><dl class="variablelist"><dt><span class="term"><code class="envar">ACTION</code>=init</span></dt><dd><p>
+		    <span class="command"><strong>gphoto2</strong></span> has just been
+		    initialized. If the hook script returns with a
+		    non-zero exit code now, <span class="command"><strong>gphoto2</strong></span>
+		    will abort.
+		  </p></dd><dt><span class="term"><code class="envar">ACTION</code>=start</span></dt><dd><p>
+		    <span class="command"><strong>gphoto2</strong></span> has just finished
+		    parsing the command line and is about to start
+		    executing the commands given on the command line.
+		  </p></dd><dt><span class="term"><code class="envar">ACTION</code>=download</span></dt><dd><p>
+		    <span class="command"><strong>gphoto2</strong></span> has just downloaded a
+		    file to the computer, storing it in the file
+		    indicated by the environment variable
+		    <code class="envar">ARGUMENT</code>.
+		  </p></dd><dt><span class="term"><code class="envar">ACTION</code>=stop</span></dt><dd><p>
+		    <span class="command"><strong>gphoto2</strong></span> is about to finish. Do
+		    your final cleanups here.
+		  </p></dd></dl></div><p>
+	      All other environment variables are passed to the hook
+	      script unchanged. You can make use of that to pass data
+	      to the hook script.
+	    </p><p>
+	      Hook script may be specified in the <code class="filename">~/.gphoto/settings</code> file as
+<code class="envar">gphoto2=hook-script=</code><em class="replaceable"><code>filename</code></em>.
+	    </p></dd><dt><span class="term"><code class="option">-q</code>, <code class="option">--quiet</code></span></dt><dd><p>Quiet output (default=verbose).</p></dd><dt><span class="term"><code class="option">-v</code>, <code class="option">--version</code></span></dt><dd><p>Display version and exit.</p></dd><dt><span class="term"><code class="option">-h</code>, <code class="option">--help</code></span></dt><dd><p>Display a short usage message.</p></dd><dt><a name="gphoto2-cli--list-cameras"></a><span class="term"><code class="option">--list-cameras</code></span></dt><dd><p>List supported camera models.</p></dd><dt><a name="gphoto2-cli--list-ports"></a><span class="term"><code class="option">--list-ports</code></span></dt><dd><p>List supported port devices.</p></dd><dt><span class="term"><code class="option">--stdout</code></span></dt><dd><p>Send file to stdout.</p></dd><dt><span class="term"><code class="option">--stdout-size</code></span></dt><dd><p>Print filesize before data.</p></dd><dt><a name="gphoto2-cli--auto-detect"></a><span class="term"><code class="option">--auto-detect</code></span></dt><dd><p>List auto-detected cameras and the ports to which they are connected.</p></dd><dt><span class="term"><code class="option">--port</code> <em class="replaceable"><code>PATH</code></em></span></dt><dd><p>Specify port device. The <a class="link" href="ref-gphoto2-cli.html#gphoto2-cli--list-ports">
+		<code class="option">--list-ports</code></a> prints a list of valid, usable ports.
+		In case of multiple USB cameras, the <a class="link" href="ref-gphoto2-cli.html#gphoto2-cli--auto-detect">
+		<code class="option">--auto-detect</code></a> shows you the specific port each camera is connected to.
+	      </p></dd><dt><span class="term"><code class="option">--speed</code> <em class="replaceable"><code>SPEED</code></em></span></dt><dd><p>Specify serial transfer speed.</p></dd><dt><span class="term"><code class="option">--camera</code> <em class="replaceable"><code>MODEL</code></em></span></dt><dd><p>
+		Specify camera model. The <a class="link" href="ref-gphoto2-cli.html#gphoto2-cli--list-cameras">
+		<code class="option">--list-cameras</code></a> option prints a list of all explicitly
+		supported cameras.
+	    </p><p>
+	     Most model names contain
+	     spaces: remember to enclose the name in quotes so that
+	     the shell knows it is one parameter.  For example:
+	     <strong class="userinput"><code><code class="option">--camera</code> "Kodak DC240"</code></strong>.</p><p>Note that if you specify <strong class="userinput"><code><code class="option">--camera</code></code></strong>,
+		you must also specify <strong class="userinput"><code><code class="option">--port</code></code></strong>.
+		Otherwise the <strong class="userinput"><code><code class="option">--camera</code></code></strong> option will
+		be silently ignored.
+	      </p></dd><dt><span class="term"><code class="option">--filename</code> <em class="replaceable"><code>FILENAME</code></em></span></dt><dd><p>
+	        When downloading files from the camera, specify the
+	  file name or file name pattern to use when storing the
+	  downloaded file on the local disk. When uploading a file to
+	  the camera, specify the filename to store the uploaded file
+	  as on the camera.
+	      </p><p>
+		The <code class="option">--filename</code> option accepts
+		%a, %A, %b, %B, %d, %H, %k, %I, %l, %j, %m, %M, %S,
+		%y, %%, (see date(1)) and, 
+		in addition, %n for the number, %C for the filename
+		suffix, %f for the filename without suffix, %: for the
+		complete filename in lowercase.
+	      </p><p>
+	        Note that %: is still in alpha stage, and the actual
+	  character or syntax may still be changed. E.g. it might be
+	  possible to use %#f and %#C for lower case versions, and %^f
+	  and %^C for upper case versions.
+	      </p><p>
+		%n is the only conversion specifier to accept a
+		padding character and width: %03n will pad with zeros
+		to width 3 (e.g. print the number 7 as
+		<span class="quote">“<span class="quote">007</span>”</span>).
+		Leaving out the padding character (e.g. %3n) will use
+		an implementation specific default padding character
+		which may or may not be suitable for use in file
+	        names.
+	      </p><p>
+		Default value for this option can be specified in the
+		<code class="filename">~/.gphoto/settings</code> file as
+<code class="envar">gphoto2=filename=value</code>.
+              </p></dd><dt><span class="term"><code class="option">--usbid</code> <em class="parameter"><code><em class="replaceable"><code>USBIDS</code></em></code></em></span></dt><dd><p>
+		(Expert only) Override <acronym class="acronym">USB</acronym> IDs. <em class="parameter"><code>
+		<em class="replaceable"><code>USBIDS</code></em></code></em>must be of the form <em class="parameter"><code>
+		<em class="replaceable"><code>DetectedVendorID</code></em>:<em class="replaceable"><code>DetectedProductID</code></em>=<em class="replaceable"><code>TreatAsVendorID</code></em>:<em class="replaceable"><code>TreatAsProductID</code></em></code></em>
+		to treat any USB device detected as <em class="parameter"><code><em class="replaceable"><code>DetectedVendorID</code></em>:<em class="replaceable"><code>DetectedProductID</code></em></code></em>
+		as 
+		<em class="parameter"><code><em class="replaceable"><code>TreatAsVendorID</code></em>:<em class="replaceable"><code>TreatAsProductID</code></em></code></em>
+		instead.
+		All the VendorIDs and ProductIDs should be hexadecimal
+		numbers beginning in C notation, i.e. beginning with
+		'0x'.
+	      </p><p>
+		Example: <code class="option">--usbid <em class="replaceable"><code>0x4a9:0x306b=0x4a9:0x306c</code></em></code>
+	      </p></dd><dt><span class="term"><code class="option">-a</code>, <code class="option">--abilities</code></span></dt><dd><p>Display camera abilities.</p></dd><dt><span class="term"><code class="option">-f</code>, <code class="option">--folder</code>
+           <em class="replaceable"><code>FOLDER</code></em></span></dt><dd><p>Specify camera folder (default="/").</p></dd><dt><span class="term"><code class="option">-R</code>, <code class="option">--recurse</code></span></dt><dd><p>Recursion (default for download).</p></dd><dt><span class="term"><code class="option">--no-recurse</code></span></dt><dd><p>No recursion (default for deletion).</p></dd><dt><span class="term"><code class="option">-l</code>, <code class="option">--list-folders</code></span></dt><dd><p>List folders in folder.</p></dd><dt><span class="term"><code class="option">-L</code>, <code class="option">--list-files</code></span></dt><dd><p>List files in folder.</p></dd><dt><span class="term"><code class="option">-m</code>, <code class="option">--mkdir</code>
+	   <em class="replaceable"><code>NAME</code></em></span></dt><dd><p>Create a directory.</p></dd><dt><span class="term"><code class="option">-r</code>, <code class="option">--rmdir</code>
+	   <em class="replaceable"><code>NAME</code></em></span></dt><dd><p>Remove a directory.</p></dd><dt><span class="term"><code class="option">-n</code>, <code class="option">--num-files</code></span></dt><dd><p>Display number of files.</p></dd><dt><span class="term"><code class="option">-p</code>, <code class="option">--get-file</code>
+	   <em class="replaceable"><code>RANGE</code></em></span></dt><dd><p>Get files given in range.</p></dd><dt><span class="term"><code class="option">-P</code>, <code class="option">--get-all-files</code></span></dt><dd><p>Get all files from folder.</p></dd><dt><span class="term"><code class="option">-t</code>, <code class="option">--get-thumbnail</code>
+	   <em class="replaceable"><code>RANGE</code></em></span></dt><dd><p>Get thumbnails given in range.</p></dd><dt><span class="term"><code class="option">-T</code>, <code class="option">--get-all-thumbnails</code></span></dt><dd><p>Get all thumbnails from folder.</p></dd><dt><span class="term"><code class="option">--get-raw-data</code>
+	   <em class="replaceable"><code>RANGE</code></em></span></dt><dd><p>Get raw data given in range.</p></dd><dt><span class="term"><code class="option">--get-all-raw-data</code></span></dt><dd><p>Get all raw data from folder.</p></dd><dt><span class="term"><code class="option">--get-audio-data</code>
+	   <em class="replaceable"><code>RANGE</code></em></span></dt><dd><p>Get audio data given in range.</p></dd><dt><span class="term"><code class="option">--get-all-audio-data</code></span></dt><dd><p>Get all audio data from folder.</p></dd><dt><span class="term"><code class="option">--force-overwrite</code></span></dt><dd><p>Overwrite files without asking.</p></dd><dt><span class="term"><code class="option">--new</code></span></dt><dd><p>Only get not already downloaded files. This option depends on camera support of flagging already downloaded images and is not available for all drivers.</p></dd><dt><span class="term"><code class="option">-d</code>, <code class="option">--delete-file</code>
+	   <em class="replaceable"><code>RANGE</code></em></span></dt><dd><p>Delete files given in range.</p></dd><dt><span class="term"><code class="option">-D</code>, <code class="option">--delete-all-files</code></span></dt><dd><p>Delete all files in folder (defaults to <code class="option">--no-recurse</code>).</p></dd><dt><span class="term"><code class="option">-u</code>, <code class="option">--upload-file</code>
+	   <em class="replaceable"><code>FILENAME</code></em></span></dt><dd><p>Upload a file to camera.</p></dd><dt><span class="term"><code class="option">--capture-preview</code></span></dt><dd><p>Capture a quick preview.</p></dd><dt><span class="term"><code class="option">-F <em class="replaceable"><code>COUNT</code></em></code>, <code class="option">--frames <em class="replaceable"><code>COUNT</code></em></code></span></dt><dd><p>Number of frames to capture in one run. Default is infinite number of frames.</p></dd><dt><a name="ref-gphoto2-interval"></a><span class="term"><code class="option">-I <em class="replaceable"><code>SECONDS</code></em></code>, <code class="option">--interval <em class="replaceable"><code>SECONDS</code></em></code></span></dt><dd><p>Time between capture of multiple frames.</p><p>
+	      (Since 2.4) If <a class="link" href="ref-gphoto2-cli.html#ref-gphoto2-SIGUSR1">SIGUSR1 signal</a> is
+	      received, a picture is taken immediately without waiting
+	      for the end of the current interval period (see <a class="xref" href="ref-gphoto2-cli.html#ref-gphoto2-signals" title="Signals">the section called “Signals”</a>). A value of -1 will let
+	      gphoto2 wait forever, i.e. until a signal arrives. See
+	      also <a class="xref" href="ref-gphoto2-cli.html#ref-gphoto2-reset-interval"><code class="option">--reset-interval</code>
+	  (since 2.4)</a>.
+	    </p></dd><dt><a name="ref-gphoto2-reset-interval"></a><span class="term"><code class="option">--reset-interval</code>
+	  (since 2.4)</span></dt><dd><p>
+	      Setting this option will reset the time interval to the
+	      value given by the <a class="link" href="ref-gphoto2-cli.html#ref-gphoto2-interval"><code class="option">-I|--interval</code>
+	      option</a> when a <a class="link" href="ref-gphoto2-cli.html#ref-gphoto2-SIGUSR1">SIGUSR1 signal</a> is received
+	      in time-lapse mode.
+	    </p></dd><dt><span class="term"><code class="option">--capture-image</code></span></dt><dd><p>Capture an image and keep it on the camera.</p></dd><dt><span class="term"><code class="option">--capture-image-and-download</code></span></dt><dd><p>Capture an image and download it immediately to the computer.</p></dd><dt><span class="term"><code class="option">--capture-movie</code></span></dt><dd><p>Capture a movie. (No driver supports this at this time.)</p></dd><dt><span class="term"><code class="option">--capture-sound</code></span></dt><dd><p>Capture an audio clip.</p></dd><dt><span class="term"><code class="option">--capture-tethered</code> </span></dt><dd><p>
+		Lets gphoto2 wait for notifications from the camera that an object was added.
+		This is useful for tethered capture, where pressing the shutter on the camera
+		immediately transfer the image to the machine for processing.
+	    </p><p>
+		Together with the <code class="option">--hook-script</code> to immediately postprocess or
+		display the images this can help a studio workflow.
+	    </p><p>
+		This option requires support in the driver and by the camera, currently
+		newer Canon EOS and Nikon DSC are known to work.
+	    </p></dd><dt><span class="term"><code class="option">--wait-event <em class="replaceable"><code>SECONDS or COUNT</code></em></code>, </span><span class="term"><code class="option">--wait-event-and-download <em class="replaceable"><code>SECONDS or COUNT</code></em></code></span></dt><dd><p>
+		Lets gphoto2 wait for notifications from the camera for various things.
+		This is useful for seeing what the camera does and waiting for 
+		objects to be added. The objects are kept on camera in the <span class="quote">“<span class="quote">--wait-event</span>”</span>
+		version, with <span class="quote">“<span class="quote">--wait-event-and-download</span>”</span> they are downloaded.
+	    </p><p>
+		--wait-event-and-download is equivalent to --capture-tethered.
+	    </p><p>
+		The time to wait can be either specified as full seconds with a "s" suffix,
+		or as a number of events (just a number).
+		If nothing happens, a timeout is generated after 1 second, so a <span class="quote">“<span class="quote">wait-event=5</span>”</span>
+		will take at most 5 seconds. A <span class="quote">“<span class="quote">--wait-event=5s</span>”</span> will take exactly 5 second.
+	    </p><p>
+		If no argument is given, the wait time is 1 million events (basically forever).
+	    </p><p>
+		In the download variant this can be used together with the
+		<code class="option">--hook-script</code> to immediately postprocess
+		or display the images this can help a studio workflow.
+	    </p><p>
+		This option requires support in the driver and by the camera, currently
+		newer Canon EOS and Nikon DSC are known to work.
+	    </p></dd><dt><span class="term"><code class="option">--show-info</code> <em class="replaceable"><code>RANGE</code></em></span></dt><dd><p>Show info.</p></dd><dt><span class="term"><code class="option">--list-config</code></span></dt><dd><p>List all configuration entries.</p></dd><dt><span class="term"><code class="option">--get-config</code> <em class="replaceable"><code>CONFIGENTRY</code></em></span></dt><dd><p>Get the specified configuration entry.</p><p>
+		This command will list the type, the current value and also the available options 
+		of this configuration value.
+	    </p></dd><dt><span class="term"><code class="option">--set-config</code> <em class="replaceable"><code>CONFIGENTRY=CONFIGVALUE</code></em></span></dt><dd><p>
+		Set the specified configuration entry. For lists of choices of values this setting
+                first looks up CONFIGVALUE as value and then as index into the choice list. Since this
+                is not fully clear, you can use <code class="option">--set-config-index</code> or <code class="option">--set-config-value</code>
+                to be more clear what is searched for.
+	    </p><p>
+		Look at the output of <code class="option">--get-config</code> to see what values are possible to set here.
+	    </p></dd><dt><span class="term"><code class="option">--set-config-index</code> <em class="replaceable"><code>CONFIGENTRY=CONFIGINDEX</code></em></span></dt><dd><p>
+		Set the specified configuration entry by specifying the index into the list of choices for
+	        the configuration value. This of course only works for configuration settings that offer
+                list of choices.
+	    </p><p>
+		Look at the output of <code class="option">--get-config</code> to see what indices are possible to set here.
+	    </p></dd><dt><span class="term"><code class="option">--set-config-value</code> <em class="replaceable"><code>CONFIGENTRY=CONFIGVALUE</code></em></span></dt><dd><p>
+		Set the specified configuration entry by specifying its new value. For lists of choices
+                the value is looked up and set.
+	    </p><p>
+		Look at the output of <code class="option">--get-config</code> to see what indices are possible to set here.
+	    </p></dd><dt><span class="term"><code class="option">--storage-info</code></span></dt><dd><p>
+	      Display information about the camera's storage media.
+	    </p></dd><dt><span class="term"><code class="option">--summary</code></span></dt><dd><p>Summary of camera status.</p></dd><dt><span class="term"><code class="option">--manual</code></span></dt><dd><p>Camera driver manual.</p></dd><dt><span class="term"><code class="option">--about</code></span></dt><dd><p>About the camera driver.</p></dd><dt><span class="term"><code class="option">--shell</code></span></dt><dd><p>Start the gphoto2 shell, an interactive environment.
+              See <a class="link" href="ref-gphoto2-cli.html#shell-mode" title="Shell Mode">SHELL MODE</a> for a detailed description.</p></dd></dl></div></div><div class="refsect1"><a name="shell-mode"></a><h2>Shell Mode</h2><p>The following commands are available:</p><div class="variablelist"><dl class="variablelist"><dt><span class="term">cd</span></dt><dd><p>Change to a directory on the camera.</p></dd><dt><span class="term">ls</span></dt><dd><p>List the contents of the current directory on
+              the camera.</p></dd><dt><span class="term">lcd</span></dt><dd><p>Change to a directory on the local machine.</p></dd><dt><span class="term">get</span></dt><dd><p>Download the file to the current directory.</p></dd><dt><span class="term">get-thumbnail</span></dt><dd><p>Download the thumbnail to the current directory.</p></dd><dt><span class="term">get-raw</span></dt><dd><p>Download raw data to the current directory.</p></dd><dt><span class="term">show-info</span></dt><dd><p>Show information.</p></dd><dt><span class="term">delete</span></dt><dd><p>Delete a file or directory.</p></dd><dt><span class="term">mkdir <em class="replaceable"><code>DIRECTORY</code></em></span></dt><dd><p>Creates a directory named <span class="quote">“<span class="quote">DIRECTORY</span>”</span>.</p></dd><dt><span class="term">rmdir <em class="replaceable"><code>DIRECTORY</code></em></span></dt><dd><p>Removes a directory named <span class="quote">“<span class="quote">DIRECTORY</span>”</span>.</p></dd><dt><span class="term">show-exif</span></dt><dd><p>Show EXIF information (only if compiled with EXIF support).</p></dd><dt><span class="term">capture-image</span></dt><dd><p>Captures a single image and keeps it on the camera.</p></dd><dt><span class="term">capture-image-and-download</span></dt><dd><p>Captures a single image and downloads it from the camera.</p></dd><dt><span class="term">list-config</span></dt><dd><p>Lists all configuration values.</p></dd><dt><span class="term">get-config <em class="replaceable"><code>NAME</code></em></span></dt><dd><p>Gets the configuration specified by <span class="quote">“<span class="quote">NAME</span>”</span>.</p></dd><dt><span class="term">set-config <em class="replaceable"><code>NAME=VALUE</code></em></span></dt><dd><p>Sets the configuration specified by <span class="quote">“<span class="quote">NAME</span>”</span> to <span class="quote">“<span class="quote">VALUE</span>”</span>.</p></dd><dt><span class="term">set-config-value <em class="replaceable"><code>NAME=VALUE</code></em></span></dt><dd><p>Sets the configuration specified by <span class="quote">“<span class="quote">NAME</span>”</span> to <span class="quote">“<span class="quote">VALUE</span>”</span>.</p></dd><dt><span class="term">set-config-index <em class="replaceable"><code>NAME=VALUE</code></em></span></dt><dd><p>Sets the configuration specified by <span class="quote">“<span class="quote">NAME</span>”</span> to the <span class="quote">“<span class="quote">INDEX</span>”</span> into the list of choices. Works only for Menu or Radio button entries.</p></dd><dt><span class="term">wait-event <em class="replaceable"><code>COUNT or SECONDS</code></em></span></dt><dd><p>Waits for events from the camera for the specified time in SECONDS (if suffixed with s) or the COUNT of events from the camera, where every seconds a timeout event happens. Newly added images are kept on the camera.</p><p>Default is 1 event.</p></dd><dt><span class="term">wait-event-and-download <em class="replaceable"><code>COUNT or SECONDS</code></em>, </span><span class="term">capture-tethered <em class="replaceable"><code>COUNT or SECONDS</code></em></span></dt><dd><p>Waits for events from the camera for the specified time in SECONDS (if suffixed with s) or the COUNT of events from the camera, where every seconds a timeout event happens. Newly added images are downloaded from the camera.</p><p>Default is 1 event.</p></dd><dt><span class="term">help, ?</span></dt><dd><p>Displays command usage.</p></dd><dt><span class="term">exit, quit, q</span></dt><dd><p>Exit the gphoto2 shell.</p></dd></dl></div></div><div class="refsect1"><a name="idm215003681792"></a><h2>Environment variables</h2><div class="variablelist"><dl class="variablelist"><dt><span class="term"><code class="envar">CAMLIBS</code></span></dt><dd><p>
+	      If set, defines the directory where the
+	      <code class="systemitem">libgphoto2</code>
+	      library looks for its camera drivers (camlibs). You only
+	      need to set this on OS/2 systems and broken/test
+	      installations.
+	    </p></dd><dt><span class="term"><code class="envar">IOLIBS</code></span></dt><dd><p>
+	      If set, defines the directory where the
+	      <code class="systemitem">libgphoto2_port</code>
+	      library looks for its I/O drivers (iolibs). You only
+	      need to set this on OS/2 systems and broken/test
+	      installations.
+	    </p></dd><dt><span class="term"><code class="envar">LD_DEBUG</code></span></dt><dd><p>
+	      Set this to <em class="replaceable"><code>all</code></em> to receive
+	      lots of debug information regarding library loading on
+	      <span class="command"><strong>ld</strong></span> based systems.
+	    </p></dd><dt><span class="term"><code class="envar">USB_DEBUG</code></span></dt><dd><p>
+	      If set, defines the numeric debug level with which the
+	      <code class="systemitem">libusb</code> library 
+	      will print messages. In order to get some
+	      debug output, set it to <em class="replaceable"><code>1</code></em>.
+	    </p></dd></dl></div></div><div class="refsect1"><a name="ref-gphoto2-signals"></a><h2>Signals</h2><div class="variablelist"><dl class="variablelist"><dt><a name="ref-gphoto2-SIGUSR1"></a><span class="term">SIGUSR1 (since 2.4)</span></dt><dd><p>
+	      In time-lapse capture mode, receiving a SIGUSR1 signal
+	      makes gphoto2 take a picture immediately.
+	    </p><p>
+	      If the <a class="link" href="ref-gphoto2-cli.html#ref-gphoto2-reset-interval"><code class="option">--reset-interval</code>
+	      option</a> is given, the time counter is reset to the
+	      value given by the <a class="link" href="ref-gphoto2-cli.html#ref-gphoto2-interval"><code class="option">-I|--interval</code>
+	      option</a>. Note that the camera will need some time
+	      (from 50ms to a few seconds) to actually capture the
+	      image.
+	    </p></dd></dl></div></div><div class="refsect1"><a name="idm215003663728"></a><h2>See also</h2><p>
+	  <a class="xref" href="ref-libgphoto2.html" title="libgphoto2"><span class="refentrytitle">libgphoto2</span>(3)</a>,
+	  <a class="ulink" href="http://www.gphoto.org/doc/manual/" target="_top">The gPhoto2 Manual</a>,
+	  
+	  <a class="ulink" href="http://www.gphoto.org/" target="_top">The gphoto.org
+	  website</a>,
+	  <a class="ulink" href="http://www.teaser.fr/~hfiguiere/linux/digicam.html" target="_top">Digital Camera Support for UNIX, Linux and BSD</a>
+      </p></div><div class="refsect1"><a name="cli-examples"></a><h2>Examples</h2><div class="variablelist"><dl class="variablelist"><dt><span class="term"><strong class="userinput"><code>gphoto2 <code class="option">--list-ports</code></code></strong></span></dt><dd><p>Shows what kinds of ports (<acronym class="acronym">USB</acronym> and serial) you have.</p></dd><dt><span class="term"><strong class="userinput"><code>gphoto2 <code class="option">--auto-detect</code></code></strong></span></dt><dd><p>Shows what camera(s) you have connected.</p></dd><dt><span class="term"><strong class="userinput"><code>gphoto2 <code class="option">--list-files</code></code></strong></span></dt><dd><p>List files on camera.</p></dd><dt><span class="term"><strong class="userinput"><code>gphoto2 <code class="option">--get-file</code> <em class="parameter"><code>7-13</code></em></code></strong></span></dt><dd><p>Get files number 7 through 13 from the list output by <strong class="userinput"><code><span class="command"><strong>gphoto2</strong></span> <code class="option">--list-files</code></code></strong>.</p></dd><dt><span class="term"><strong class="userinput"><code>gphoto2 <code class="option">--capture-image</code> <code class="option">--interval</code> <em class="parameter"><code>60</code></em> <code class="option">--hook-script</code> <em class="parameter"><code>/usr/share/doc/gphoto2/test-hook.sh</code></em></code></strong></span></dt><dd><p>
+	      Capture one image every 60 seconds from now to
+	      eternity. The example hook script will be called after
+	      each captured image has been stored on the computer.
+	    </p></dd></dl></div><p>
+	To track down errors, you can add the
+	<code class="option">--debug</code> parameter to the
+	<span class="command"><strong>gphoto2</strong></span> command line and, if dealing with
+	USB problems, setting the environment variable
+	<code class="envar">USB_DEBUG</code><em class="replaceable"><code>=1</code></em>.
+      </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="reference.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="reference.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ref-libgphoto2.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">The gPhoto2 Reference (the man pages) </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> libgphoto2</td></tr></table></div></body></html>

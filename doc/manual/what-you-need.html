@@ -1,0 +1,130 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chapter 1. Finding what you need</title><link rel="stylesheet" type="text/css" href="../../styles.css"><meta name="generator" content="DocBook XSL Stylesheets V1.78.1"><link rel="home" href="index.html" title="The gPhoto2 Manual"><link rel="up" href="index.html" title="The gPhoto2 Manual"><link rel="prev" href="about-manual.html" title="About this document"><link rel="next" href="quickstart.html" title="Chapter 2. Quick start"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><p xmlns="http://www.w3.org/1999/xhtml" align="center" class="menu"><a href="/">Home</a> :: 
+      <a href="/news">News</a> :: 
+      <a href="/proj/">Projects</a> :: 
+      <a href="/doc/">Documentation</a> :: 
+      <a href="http://www.sf.net/projects/gphoto/">Developers</a> :: 
+      <a href="/mailinglists/">Mailing lists</a> :: 
+      <a href="/download/">Download</a> :: 
+      <a href="/feedback/">Feedback</a> :: 
+      <a href="/manufacturers/">About Manufacturers</a> :: 
+      <a href="/links/">Links</a><br></br><a href="/doc/manual/">User's manual</a> ::
+      <a href="/doc/api/">API</a> ::
+      <a href="/doc/ptpip.php">PTP/IP</a> ::
+      <a href="/doc/faq/">FAQ</a> ::
+      <a href="/doc/remote/">Remote control</a></p><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Chapter 1. Finding what you need</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="about-manual.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="quickstart.html">Next</a></td></tr></table><hr></div><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a name="what-you-need"></a>Chapter 1. Finding what you need</h1></div></div></div><div class="abstract"><p class="title"><b>Abstract</b></p><p>This chapter lists information about what you need to run
+	gphoto2. This information is intended to assist you in setting
+	up your computer so that you can connect a camera and use
+	libgphoto2 software to download images.
+      </p></div><p>What you need:</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>A camera and whatever cables (serial RS232, USB, ...) 
+	  you need to connect your camera to your computer</p><p>A list of currently supported cameras is maintained
+	  at 
+	  <a class="ulink" href="http://www.teaser.fr/~hfiguiere/linux/digicam.html" target="_top">http://www.teaser.fr/~hfiguiere/linux/digicam.html</a>
+	</p><div class="important" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Important</h3><p>
+	    If you want to use a camera using the <code class="systemitem">USB mass storage</code> protocol,
+	    <code class="systemitem">libgphoto2</code> will
+	    not help you. Your operating system already contains an
+	    <code class="systemitem">USB mass storage</code>
+	    driver, so there is no need for us to write another one.
+	  </p><p>
+	    For information on how to use a USB mass storage
+	    camera with Linux, see the
+	    <a class="ulink" href="http://www.tldp.org/HOWTO/USB-Digital-Camera-HOWTO/" target="_top">USB Digital Camera HOWTO</a>
+	    (which is more a USB mass storage camera HOWTO). There is
+	    another nice description at the
+	    <a class="ulink" href="http://digikam.sourceforge.net/docs.html#q3" target="_top">digikam
+	     web site</a>.
+	  </p></div></li><li class="listitem"><p>A computer with the right kind of port (serial RS232,
+	  USB, ...) running a Unix-like operating system:</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">BSD (FreeBSD, OpenBSD, NetBSD, ...)</li><li class="listitem">Linux (RedHat 7.3, SuSE 8.x, Mandrake 8.x, 
+	      Debian 3.0 Woody, Debian Unstable Sid, Gentoo, ...)</li><li class="listitem">OS/2 (ancient gphoto2 2.1.0 has been ported to
+	    OS/2, but contemporary versions won't work any more like
+	    2.1.0 did)
+	    </li><li class="listitem">MacOS X (basically working in 2005-06, with a few
+	    quirks still to be ironed out)</li><li class="listitem">FIXME: Is there a list somewhere, or can we get
+	    contributions of verified operating systems? IRIX?
+	    Solaris? ...</li></ul></div><p>
+	  The hardware architecture (x86, PowerPC, Sparc ) doesn't
+	  matter. Or at least, it shouldn't.
+	</p><p>
+	  For USB cameras, your Unix OS must be supported by
+	  <code class="systemitem">libusb</code>. As of
+	  2002-08-29, this is the case for Linux 2.2 and 2.4, FreeBSD
+	  and OpenBSD. FIXME: Is the USB support for OS/2 independent
+	  of libusb?
+	</p></li><li class="listitem"><p>libgphoto2, some libgphoto2 frontend and (if you want to
+	  use USB cameras) libusb
+	</p><div class="variablelist"><p class="title"><b>libgphoto2 frontends</b></p><dl class="variablelist"><dt><span class="term">gphoto2</span></dt><dd>
+		Our own official command line interface (CLI) frontend.
+		Simple command line interface and kind of a reference
+		implementation. This libgphoto2 frontend i very useful
+		for debugging camera drivers and other problems.
+	      </dd><dt><span class="term">gtkam</span></dt><dd>	   
+		Our own official GUI frontend using GTK+ 2.
+		Shows
+		thumbnails of pictures on the camera, and supports
+		upload, download, capturing of pictures. No advanced
+		album management or stuff.
+	      </dd><dt><span class="term">gnocam</span></dt><dd>
+		Our own Gnome VFS interface. Has been quite dead for
+		several years. Still has to be ported to Gnome 2. 
+		Volunteers welcome.
+	      </dd><dt><span class="term">kamera</span></dt><dd><p class="simpara">
+		The KDE IO slave interface.
+		Using kamera is simple: Just open 
+		<a class="ulink" href="camera:/" target="_top">camera:/</a> 
+		in Konqueror. That's it. Has been and still is a
+		standard feature of most KDE installations.
+	      </p><p class="simpara">
+		It also features a configuration frontend in the KDE control center..
+	      </p></dd><dt><span class="term"><a class="ulink" href="http://digikam.sourceforge.net/" target="_top">digikam</a></span></dt><dd>
+		Digikam is a standalone KDE frontend with advanced
+		image management functions.
+	      </dd><dt><span class="term">kipi-plugins</span></dt><dd>
+		gPhoto support integrated into KDE image plugins
+		architecture, originating from the former digikam.
+	      </dd><dt><span class="term"><a class="ulink" href="http://www.easysw.com/~mike/flphoto/" target="_top">flPhoto</a></span></dt><dd>
+		FLTK-based frontend for gPhoto
+		which provides some nice functionality
+		beyond the current GTK-based gtkam frontend.  Aside from
+		downloading images from a camera, you can also
+		"import" your existing files on disk, adjust/transform
+		the images, print them, and do slideshows.  The final
+		version will also offer a web export to a directory or
+		uploaded to a web server.
+	      </dd><dt><span class="term"><a class="ulink" href="http://lphoto.com/" target="_top">lphoto</a></span></dt><dd>
+		Chose the most inconvenient interface: Calls the
+		gphoto2 command line.
+	      </dd><dt><span class="term"><a class="ulink" href="http://fdcl.sourceforge.net/" target="_top">camera life</a></span></dt><dd>
+		XXX write a few lines here XXX
+	      </dd><dt><span class="term"><a class="ulink" href="http://f-spot.org/" target="_top">f-spot</a></span></dt><dd>
+		C#/mono/Gnome.
+		XXX write a few lines here XXX
+	      </dd><dt><span class="term"><a class="ulink" href="http://www.banshee-project.org/" target="_top">banshee</a></span></dt><dd>
+		C#/mono digital audio player.
+		XXX write a few lines here XXX
+	      </dd><dt><span class="term"><a class="ulink" href="http://gthumb.sourceforge.net/" target="_top">gthumb</a></span></dt><dd>
+		C/Gnome.
+		XXX write a few lines here XXX
+	      </dd><dt><span class="term"><a class="ulink" href="http://www.sane-project.org/" target="_top">sane</a></span></dt><dd>
+		C software, properly a scanner interface ("Scanner
+		Access Now Easy").
+		XXX write a few lines here XXX
+	      </dd><dt><span class="term">Special purpose applications</span></dt><dd>
+		Automatically take pictures of visitors on amusement
+		park rides, to record data in scientific experiments,
+		...
+	      </dd></dl></div><div class="variablelist"><p class="title"><b>Available software formats</b></p><dl class="variablelist"><dt><span class="term">source tarballs</span></dt><dd>
+		Building requires mainly make and a C compiler.
+	      </dd><dt><span class="term">git sources</span></dt><dd>
+		Building requires a certain set of build tools
+		(automake, autoconf, gettext, libtool), and possibly
+		even a combination of certain releases.
+	      </dd><dt><span class="term">system-specific packages</span></dt><dd>
+		As packages are specifically created for your system,
+		this is probably the easiest way to install the
+		software.
+		Packages for your system can be source packages or
+		binary packages, depending on your system. 
+		They have names like RPM (Redhat, SuSE), DEB (Debian),
+		port (BSD), ebuild (Gentoo). 
+	      </dd><dt><span class="term">FIXME</span></dt><dd>Need improved descriptions and lists of
+		various forms of source code and binaries.</dd></dl></div></li></ol></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="about-manual.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="quickstart.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">About this document </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 2. Quick start</td></tr></table></div></body></html>
