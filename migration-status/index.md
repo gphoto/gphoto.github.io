@@ -49,8 +49,8 @@ title:  "github migration status"
       <td><a href="http://github.com/gphoto/gphoto.github.io">gphoto.github.io</a></td>
       <td class="good">yes</td>
       <td class="ok">OK</td>
-      <td class="wip">WIP</td>
-      <td class="tbd">TBD</td>
+      <td class="wip">80%</td>
+      <td class="ok">OK</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/m4">m4</a></td>
@@ -90,44 +90,44 @@ title:  "github migration status"
       <td class="test">testing</td>
       <td class="ok">OK</td>
       <td class="ok">OK</td>
-      <td class="wip">WIP</td>
+      <td class="ok">OK</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto2-manual">gphoto2-manual</a></td>
       <td><a href="http://github.com/gphoto/gphoto2-manual">gphoto2-manual</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
       <td class="ok">OK</td>
-      <td class="tbd">TBD</td>
+      <td class="wip">20%</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-java">libgphoto2-java</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2-java">libgphoto2-java</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
-      <td class="tbd">TBD</td>
+      <td class="ok">OK</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-python">libgphoto2-python</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2-python">libgphoto2-python</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
-      <td class="tbd">TBD</td>
-      <td class="tbd">TBD</td>
+      <td class="ok">OK</td>
+      <td class="ok">OK</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/libgphoto2-sharp">libgphoto2-sharp</a></td>
       <td><a href="http://github.com/gphoto/libgphoto2-sharp">libgphoto2-sharp</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
-      <td class="tbd">TBD</td>
-      <td class="tbd">TBD</td>
+      <td class="wip">WIP</td>
+      <td class="ok">OK</td>
     </tr>
     <tr>
       <td><a href="http://sourceforge.net/p/gphoto/code/HEAD/tree/trunk/gphoto-suite">gphoto-suite</a></td>
       <td><a href="http://github.com/gphoto/gphoto-suite">gphoto-suite</a></td>
-      <td class="bad">no</td>
+      <td class="test">testing</td>
       <td class="ok">OK</td>
       <td class="tbd">TBD</td>
       <td class="tbd">TBD</td>
