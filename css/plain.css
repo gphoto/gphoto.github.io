@@ -13,7 +13,7 @@ table tr > th {
     padding: 0.5ex 0.5em;
 }
 
-table > thead > tr {
+table > thead {
     background: #ddddff;
     border-bottom: solid 2px black;
 }
@@ -38,3 +38,7 @@ table > tbody > tr:nth-child(even) > td.test,
 table > tbody > tr:nth-child(even) > td.wip { background: #eeeecc; }
 table > tbody > tr:nth-child(odd)  > td.test,
 table > tbody > tr:nth-child(odd)  > td.wip { background: #ffffdd; }
+
+table > tbody > tr.importance {
+    border-top: solid 2px black;
+}
