@@ -541,8 +541,8 @@ make[4]: Nothing to be done for `install-exec-am'.
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
- /usr/bin/install -c -m 644 libgphoto2-sharp.dll ../../src/libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
  /usr/bin/install -c -m 644 libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree ../../src/libgphoto2-sharp-docs.source '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.dll ../../src/libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
  /usr/bin/install -c -m 644 libgphoto2-sharp.pc '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
 make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
@@ -605,9 +605,9 @@ make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgph
 make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
 Making uninstall in src
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
- ( cd '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp' && rm -f libgphoto2-sharp.dll libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb )
  ( cd '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp' && rm -f libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree libgphoto2-sharp-docs.source )
  ( cd '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig' && rm -f libgphoto2-sharp.pc )
+ ( cd '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp' && rm -f libgphoto2-sharp.dll libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
 Making uninstall in gphoto-m4
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
@@ -634,12 +634,12 @@ make  install-am
 make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
 make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
 make[4]: Nothing to be done for `install-exec-am'.
- /usr/bin/mkdir -p '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
- /usr/bin/mkdir -p '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
- /usr/bin/mkdir -p '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
- /usr/bin/install -c -m 644 libgphoto2-sharp.dll ../../src/libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
- /usr/bin/install -c -m 644 libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree ../../src/libgphoto2-sharp-docs.source '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
- /usr/bin/install -c -m 644 libgphoto2-sharp.pc '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
+ /usr/bin/mkdir -p '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
+ /usr/bin/mkdir -p '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
+ /usr/bin/mkdir -p '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.dll ../../src/libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree ../../src/libgphoto2-sharp-docs.source '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.pc '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
 make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
@@ -661,12 +661,12 @@ Making install in doc
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
 make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
 make[3]: Nothing to be done for `install-exec-am'.
-mkdir -p "/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp"
+mkdir -p "/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp"
 find "doxygen-output/libgphoto2-sharp-api.html" \
 	\( -type d -exec chmod 0755 {} \; \) -or \
 	\( -type f -exec chmod 0644 {} \; \)
 (unset CDPATH; cd "doxygen-output" && tar cpf - "libgphoto2-sharp-api.html") \
-	| (cd "/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp" && tar xpf -)
+	| (cd "/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp" && tar xpf -)
 make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
@@ -679,9 +679,9 @@ make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgph
 make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
 Making uninstall in src
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
- ( cd '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp' && rm -f libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree libgphoto2-sharp-docs.source )
- ( cd '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp' && rm -f libgphoto2-sharp.dll libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb )
- ( cd '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig' && rm -f libgphoto2-sharp.pc )
+ ( cd '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp' && rm -f libgphoto2-sharp.dll libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb )
+ ( cd '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig' && rm -f libgphoto2-sharp.pc )
+ ( cd '/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp' && rm -f libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree libgphoto2-sharp-docs.source )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
 Making uninstall in gphoto-m4
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
@@ -693,7 +693,7 @@ make[2]: Nothing to be done for `uninstall'.
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
 Making uninstall in doc
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
-rm -rf "/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp/libgphoto2-sharp-api.html"
+rm -rf "/tmp/am-dc-770//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp/libgphoto2-sharp-api.html"
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
 make[2]: Nothing to be done for `uninstall-am'.
@@ -773,10 +773,10 @@ rm -rf .libs _libs
 rm -rf "doxygen-output/libgphoto2-sharp-api.html"
 rm -f *.lo
 test -z "Doxyfile Doxyfile-internals" || rm -f Doxyfile Doxyfile-internals
+test . = "../../doc" || test -z "" || rm -f 
 rm -f libgphoto2-sharp-api.html.stamp
 rm -f libgphoto2-sharp-api.html.tar.gz
 rm -rf doxygen-output
-test . = "../../doc" || test -z "" || rm -f 
 rm -f Makefile
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
@@ -784,8 +784,8 @@ rm -rf .libs _libs
 rm -f *.lo
 test -z "" || rm -f 
 rm -f libtool config.lt
-rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
 test . = ".." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
 rm -f cscope.out cscope.in.out cscope.po.out cscope.files
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
 rm -f config.status config.cache config.log configure.lineno config.status.lineno

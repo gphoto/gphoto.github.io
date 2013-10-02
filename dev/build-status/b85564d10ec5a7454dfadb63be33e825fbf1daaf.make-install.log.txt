@@ -9,10 +9,10 @@ Making install in art
 make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/art'
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/art'
 make[2]: Nothing to be done for `install-exec-am'.
- /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/images/gtkam'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
- /usr/bin/install -c -m 644 ../../art/gtkam-audio.png ../../art/gtkam-camera.png ../../art/gtkam-folder.png ../../art/gtkam-folder-camera.png ../../art/gtkam-lock.png ../../art/gtkam-new.png '/tmp/_build-status-gphoto/PREFIX/share/images/gtkam'
  /usr/bin/install -c -m 644 ../../art/gtkam-camera.png '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/images/gtkam'
+ /usr/bin/install -c -m 644 ../../art/gtkam-audio.png ../../art/gtkam-camera.png ../../art/gtkam-folder.png ../../art/gtkam-folder-camera.png ../../art/gtkam-lock.png ../../art/gtkam-new.png '/tmp/_build-status-gphoto/PREFIX/share/images/gtkam'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/art'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/art'
 Making install in doc

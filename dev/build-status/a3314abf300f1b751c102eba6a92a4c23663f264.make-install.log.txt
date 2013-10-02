@@ -23,10 +23,10 @@ make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
 Making install in gphoto2
 make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
 make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
- /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
- /usr/bin/install -c -m 644 ../../gphoto2/test-hook.sh '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2'
   /bin/sh ../libtool   --mode=install /usr/bin/install -c gphoto2 '/tmp/_build-status-gphoto/PREFIX/bin'
+ /usr/bin/install -c -m 644 ../../gphoto2/test-hook.sh '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2'
 libtool: install: /usr/bin/install -c gphoto2 /tmp/_build-status-gphoto/PREFIX/bin/gphoto2
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'

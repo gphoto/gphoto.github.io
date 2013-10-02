@@ -23,26 +23,28 @@ cd "_build-status-${github_user}"
 
 cwd="$PWD"
 
-targets="all install check installcheck dist distcheck"
+targets=(all install check installcheck dist distcheck)
 
 cat>&3<<EOF
 <table class="build-status">
   <caption>Repo Build Status</caption>
   <thead>
     <tr>
-      <th rowspan="2">repo</th>
-      <th rowspan="2">git sha</th>
-      <th rowspan="2"><a href="#" title="autoreconf or autogen.sh">auto</a></th>
-      <th rowspan="2"><a href="#" title="configure">cfg</a></th>
-      <th colspan="6">make target</th>
+      <th colspan="2">source tree</th>
+      <th colspan="2">buildsys</th>
+      <th colspan="${#targets[@]}">make</th>
     </tr>
     <tr>
-      <th>all</th>
-      <th><a href="#" title="install">inst</a></th>
-      <th>check</th>
-      <th><a href="#" title="installcheck">icheck</a></th>
-      <th>dist</th>
-      <th><a href="#" title="distcheck">dcheck</a></th>
+      <th>repo name</th>
+      <th>git sha</th>
+      <th><a href="#" title="autoreconf or autogen.sh">auto</a></th>
+      <th><a href="#" title="configure">cfg</a></th>
+      <th><a href="#" title="${targets[0]}">all</a></th>
+      <th><a href="#" title="${targets[1]}">inst</a></th>
+      <th><a href="#" title="${targets[2]}">chk</a></th>
+      <th><a href="#" title="${targets[3]}">ichk</a></th>
+      <th><a href="#" title="${targets[4]}">dist</a></th>
+      <th><a href="#" title="${targets[5]}">dchk</a></th>
     </tr>
   </thead>
   <tbody>
@@ -107,15 +109,15 @@ do
     fi
 
     if "$skipping"; then
-	for target in ${targets}; do
+	for target in "${targets[@]}"; do
 	    echo "$indent<td class='fail'>skip</td>" >&3
 	done
     else
 	declare -A skip_target
-	for target in ${targets}; do
+	for target in "${targets[@]}"; do
 	    skip_target[$target]="false"
 	done
-	for target in ${targets}; do
+	for target in "${targets[@]}"; do
 	    if "${skip_target[$target]}"; then
 		echo "$indent<td class='fail'>skip</td>" >&3
 	    else

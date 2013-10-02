@@ -33,9 +33,6 @@ make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
  (cd ru && make  top_distdir=../../gtkam-0.2.0 distdir=../../gtkam-0.2.0/help/ru \
      am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
-ourdir=`pwd`;  \
-cd ../../../help/ru;   \
-cp legal.xml $ourdir
 make  \
   top_distdir="../../gtkam-0.2.0" distdir="../../gtkam-0.2.0/help/ru" \
   dist-hook

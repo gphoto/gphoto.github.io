@@ -102,10 +102,10 @@ intltoolize: enabling shell trace mode
 + touch intltool-update.in
 + exit 0
 ++ cat configure.ac
+++ sed -e 1q
+++ sed -e 's/^\[\(.*\)\]$/\1/'
 ++ sed -n -e 's/AC_CONFIG_MACRO_DIR(\([^()]*\))/\1/p'
 ++ grep '^AC_CONFIG_MACRO_DIR'
-++ sed -e 's/^\[\(.*\)\]$/\1/'
-++ sed -e 1q
 + m4dir=m4
 + test -n m4
 + rm -f m4/intltool.m4
@@ -157,8 +157,8 @@ intltoolize: enabling shell trace mode
 ++ cat configure.ac
 ++ grep '^AC_CONFIG_MACRO_DIR'
 ++ sed -n -e 's/AC_CONFIG_MACRO_DIR(\([^()]*\))/\1/p'
-++ sed -e 1q
 ++ sed -e 's/^\[\(.*\)\]$/\1/'
+++ sed -e 1q
 + m4dir=m4
 + test -n m4
 + rm -f m4/intltool.m4

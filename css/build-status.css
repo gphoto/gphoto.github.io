@@ -6,8 +6,7 @@ table.build-status {
 table.build-status > caption {
     border: solid 2px black;
     border-bottom: none;
-    background: #222277;
-    color: #ffffff;
+    background: #cccccc;
     font-weight: bold;
 }
 
@@ -20,6 +19,19 @@ table.build-status tr > th {
 table.build-status > thead {
     background: #ddddff;
     border-bottom: solid 2px black;
+}
+
+table.build-status > thead > tr:first-child > th
+{
+    background: #bbbbee;
+}
+
+table.build-status > thead > tr:first-child > th,
+table.build-status > thead > tr:nth-child(2) > th:nth-child(2),
+table.build-status > tbody > tr              > td:nth-child(2),
+table.build-status > thead > tr:nth-child(2) > th:nth-child(4),
+table.build-status > tbody > tr              > td:nth-child(4) {
+    border-right: solid 2px black;
 }
 
 table.build-status > tbody > tr:nth-child(odd)  { background: #ffffff; }

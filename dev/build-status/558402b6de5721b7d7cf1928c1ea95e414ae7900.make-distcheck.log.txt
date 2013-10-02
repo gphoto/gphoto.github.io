@@ -247,21 +247,21 @@ make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2
 /usr/bin/xmlto -m ../../../src/xsl/custom.xsl man -o . ../../../src/gphoto2.xml
 /usr/bin/xmlto -m ../../../src/xsl/custom.xsl man -o . ../../../src/gphoto2.xml
 Element pubdate in namespace '' encountered in bookinfo, but no template matches.
-Note: meta source : no *info/productname or alternative            gphoto2
-Note: meta source : see http://docbook.sf.net/el/productname       gphoto2
-Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gphoto2
-Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gphoto2
-Note: meta version: no *info/productnumber or alternative          gphoto2
-Note: meta version: see http://docbook.sf.net/el/productnumber     gphoto2
-Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gphoto2
-Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gphoto2
-Warn: meta source : no fallback for source, so inserted a fixme    gphoto2
 Element pubdate in namespace '' encountered in bookinfo, but no template matches.
 Note: meta source : no *info/productname or alternative            gphoto2
 Note: meta source : see http://docbook.sf.net/el/productname       gphoto2
 Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gphoto2
+Note: meta source : no *info/productname or alternative            gphoto2
 Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       gphoto2
 Note: meta version: no *info/productnumber or alternative          gphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     gphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Note: meta version: no *info/productnumber or alternative          gphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    gphoto2
 Note: meta version: see http://docbook.sf.net/el/productnumber     gphoto2
 Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gphoto2
 Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gphoto2
@@ -302,22 +302,21 @@ Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
 Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
 Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
 Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
 Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gphoto2
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gphoto2
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gphoto2
-Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
 Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
@@ -352,47 +351,6 @@ Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2
 Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2
 Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2
 Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2
-Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
-Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
-Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
-Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
-Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
-Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
 Note: Writing gphoto2.1
 Element pubdate in namespace '' encountered in bookinfo, but no template matches.
 Note: meta source : no *info/productname or alternative            libgphoto2
@@ -425,6 +383,59 @@ Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
 Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Note: Writing libgphoto2.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2_port
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Note: meta version: no *info/productnumber or alternative          libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2_port
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2_port
 Note: Writing libgphoto2.3
 Element pubdate in namespace '' encountered in bookinfo, but no template matches.
 Note: meta source : no *info/productname or alternative            libgphoto2_port
@@ -468,17 +479,6 @@ Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_po
 Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2_port
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
-Note: Writing libgphoto2.3
-Element pubdate in namespace '' encountered in bookinfo, but no template matches.
-Note: meta source : no *info/productname or alternative            libgphoto2_port
-Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2_port
-Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2_port
-Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
-Note: meta version: no *info/productnumber or alternative          libgphoto2_port
-Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2_port
-Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2_port
-Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
-Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2_port
 Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
@@ -554,6 +554,27 @@ Note: meta version: see http://docbook.sf.net/el/productnumber     gtkam
 Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gtkam
 Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gtkam
 Warn: meta source : no fallback for source, so inserted a fixme    gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J\&. Rensi  gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
 Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
@@ -598,27 +619,6 @@ Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
 Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
 Note: Writing gtkam.1
 /usr/bin/xmlto -m ../../../src/xsl/custom.xsl man -o . ../../../src/gphoto2.xml
-Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
-Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gtkam
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
-Warn: AUTHOR sect.: no personblurb|contrib for Michael J\&. Rensi  gtkam
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
-Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
 Note: Writing gtkam.1
 Note: Writing gtkam.1
 Element pubdate in namespace '' encountered in bookinfo, but no template matches.
@@ -1107,8 +1107,8 @@ make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2
 make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
 make[4]: Nothing to be done for `install-exec-am'.
 /usr/bin/install -c -d /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/
-/usr/bin/install -c -m 644 *.html /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml'
+/usr/bin/install -c -m 644 *.html /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/
  /usr/bin/install -c -m 644 index.html '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml'
 cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures figures))
 cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots screenshots))
@@ -1349,8 +1349,10 @@ Making uninstall in html-nochunks
 make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
 rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks/figures
 rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks/screenshots
- ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks' && rm -f gphoto2.html )
 rmdir /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks' && rm -f gphoto2.html )
+rmdir: failed to remove ‘/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks’: Directory not empty
+make[3]: [uninstall-local] Error 1 (ignored)
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
 Making uninstall in xhtml-nochunks
 make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'

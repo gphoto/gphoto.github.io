@@ -92,7 +92,6 @@ Making install in .
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
 make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
 rm -f /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
-/usr/bin/install -c -m 0755 -d /tmp/_build-status-gphoto/PREFIX/include/gphoto2
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2_port'
 ln -s . /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
@@ -100,10 +99,10 @@ ln -s . /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
  /usr/bin/install -c -m 644 ../../libgphoto2_port/AUTHORS ../../libgphoto2_port/README ../../libgphoto2_port/NEWS '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2_port'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
- /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
- /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0'
  /usr/bin/install -c -m 644 libgphoto2_port.pc '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
  /usr/bin/install -c -m 644  ../../libgphoto2_port/gphoto2/gphoto2-port.h ../../libgphoto2_port/gphoto2/gphoto2-port-info-list.h ../../libgphoto2_port/gphoto2/gphoto2-port-log.h ../../libgphoto2_port/gphoto2/gphoto2-port-version.h ../../libgphoto2_port/gphoto2/gphoto2-port-portability.h ../../libgphoto2_port/gphoto2/gphoto2-port-result.h '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0'
  /bin/sh ./libtool   --mode=install /usr/bin/install -c   serial.la usb.la usbdiskdirect.la usbscsi.la usb1.la usbdiskdirect.la usbscsi.la disk.la ptpip.la '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0'
 libtool: install: warning: relinking `serial.la'
 libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o serial.la serial_la-unix.lo ./libgphoto2_port/libgphoto2_port.la -llockdev -lpthread )
@@ -265,13 +264,13 @@ Making install in .
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
 make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
 make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1'
  /bin/sh ../libtool   --mode=install /usr/bin/install -c   adc65.la agfa_cl20.la aox.la ax203.la barbie.la canon.la casio_qv.la clicksmart310.la digigr8.la digita.la dimera3500.la directory.la enigma13.la fuji.la gsmart300.la hp215.la iclick.la jamcam.la jd11.la jl2005a.la jl2005c.la kodak_dc120.la kodak_dc210.la kodak_dc240.la kodak_dc3200.la kodak_ez200.la konica.la konica_qm150.la largan.la lg_gsm.la mars.la dimagev.la mustek.la panasonic_coolshot.la panasonic_l859.la panasonic_dc1000.la panasonic_dc1580.la pccam300.la pccam600.la pentax.la polaroid_pdc320.la polaroid_pdc640.la polaroid_pdc700.la ptp2.la ricoh.la ricoh_g3.la samsung.la sierra.la sipix_blink2.la sipix_web2.la smal.la sonix.la sony_dscf1.la sony_dscf55.la soundvision.la spca50x.la sq905.la st2205.la stv0674.la stv0680.la sx330z.la topfield.la toshiba_pdrm11.la tp6801.la '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1'
- /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
  /usr/bin/install -c -m 644 ../../camlibs/adc65/README.adc65 ../../camlibs/agfa-cl20/README.agfa-cl20 ../../camlibs/aox/README.aox ../../camlibs/ax203/README.ax203-compression ../../camlibs/ax203/README.ax203 ../../camlibs/canon/README.canon ../../camlibs/clicksmart310/README.clicksmart310 ../../camlibs/digigr8/README.905C ../../camlibs/digigr8/README.9050 ../../camlibs/digigr8/README.9051 ../../camlibs/digigr8/README.9052 ../../camlibs/digigr8/README.913D ../../camlibs/enigma13/README.enigma13 ../../camlibs/gsmart300/README.gsmart300 ../../camlibs/iclick/README.iclick ../../camlibs/jamcam/README.jamcam ../../camlibs/jl2005a/README.jl2005a ../../camlibs/jl2005a/ChangeLog ../../camlibs/jl2005c/README.jl2005c ../../camlibs/jl2005c/README.jl2005bcd-compression ../../camlibs/konica/README.konica ../../camlibs/largan/lmini/README.largan-lmini ../../camlibs/lg_gsm/README.lg_gsm ../../camlibs/mars/README.mars ../../camlibs/minolta/dimagev/README.minolta-dimagev ../../camlibs/mustek/README.mustek ../../camlibs/panasonic/coolshot/README.panasonic-coolshot ../../camlibs/panasonic/l859/README.panasonic-l859 ../../camlibs/panasonic/README.panasonic ../../camlibs/pccam300/README.pccam300 ../../camlibs/pccam600/README.pccam600 ../../camlibs/pentax/README.pentax ../../camlibs/ptp2/README.ptp2 ../../camlibs/smal/README.smal ../../camlibs/sonix/README.sonix ../../camlibs/sonydscf1/README.sonydscf1 ../../camlibs/soundvision/README.soundvision ../../camlibs/spca50x/README.spca50x ../../camlibs/sq905/README.913C ../../camlibs/sq905/README.sq905 '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
+ /usr/bin/install -c -m 644 ../../camlibs/st2205/README.st2205-compression ../../camlibs/st2205/README.st2205 ../../camlibs/toshiba/pdrm11/README.toshiba-pdrm11 ../../camlibs/tp6801/README.tp6801 '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
 libtool: install: warning: relinking `adc65.la'
 libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o adc65.la adc65/adc65.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
- /usr/bin/install -c -m 644 ../../camlibs/st2205/README.st2205-compression ../../camlibs/st2205/README.st2205 ../../camlibs/toshiba/pdrm11/README.toshiba-pdrm11 ../../camlibs/tp6801/README.tp6801 '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
 libtool: relink: echo "{ global:" > .libs/adc65.ver
 libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/adc65.ver
 libtool: relink:  echo "local: *; };" >> .libs/adc65.ver
@@ -895,9 +894,9 @@ make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/g
 make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
 make[3]: Nothing to be done for `install-exec-am'.
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/udev'
+ /usr/bin/install -c ../../../packaging/generic/check-ptp-camera '/tmp/_build-status-gphoto/PREFIX/lib/udev'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2'
   /bin/sh ../../libtool   --mode=install /usr/bin/install -c print-camera-list '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2'
- /usr/bin/install -c ../../../packaging/generic/check-ptp-camera '/tmp/_build-status-gphoto/PREFIX/lib/udev'
 libtool: install: /usr/bin/install -c .libs/print-camera-list /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/print-camera-list
 make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
@@ -954,10 +953,10 @@ make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b'
 rm -f /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
 /usr/bin/install -c -m 0755 -d /tmp/_build-status-gphoto/PREFIX/include/gphoto2
-ln -s . /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2'
- /usr/bin/install -c gphoto2-config '/tmp/_build-status-gphoto/PREFIX/bin'
+ln -s . /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include'
+ /usr/bin/install -c gphoto2-config '/tmp/_build-status-gphoto/PREFIX/bin'
  /usr/bin/install -c -m 644 ../AUTHORS ../COPYING ../NEWS ../ABOUT-NLS ../ChangeLog README ../README.packaging '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
