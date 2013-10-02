@@ -243,6 +243,8 @@ two of something approaching a downtime.
 
   * Update existing documentation (gphoto2-manual, website, etc.)
 
+  * Forward-port patches from SVN repos where necessary.
+
   * Find and document a way to compose and publish code releases.
 
   * Get hold of release tarballs and use `git bisect` to find the git
@@ -255,3 +257,7 @@ two of something approaching a downtime.
   * Update Lutz´ mail addr in AUTHORS and MAINTAINERS files
 
   * Move all non-po files to a single charset: utf-8.
+
+  * Move website to utf-8.
+
+  * Move gphoto2-manual to utf-8.
