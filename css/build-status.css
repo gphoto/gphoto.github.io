@@ -1,0 +1,31 @@
+table.build-status {
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+
+table.build-status > caption {
+    border: solid 2px black;
+    border-bottom: none;
+    background: #222277;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table.build-status > caption,
+table.build-status tr > td,
+table.build-status tr > th {
+    padding: 0.5ex 0.5em;
+}
+
+table.build-status > thead {
+    background: #ddddff;
+    border-bottom: solid 2px black;
+}
+
+table.build-status > tbody > tr:nth-child(odd)  { background: #ffffff; }
+table.build-status > tbody > tr:nth-child(even) { background: #eeeeee; }
+
+table.build-status > tbody > tr:nth-child(even) > td.succ { background: #cceecc; }
+table.build-status > tbody > tr:nth-child(odd)  > td.succ { background: #ddffdd; }
+table.build-status > tbody > tr:nth-child(even) > td.fail { background: #eecccc; }
+table.build-status > tbody > tr:nth-child(odd)  > td.fail { background: #ffdddd; }

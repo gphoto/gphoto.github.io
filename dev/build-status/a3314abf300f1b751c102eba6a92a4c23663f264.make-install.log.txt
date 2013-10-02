@@ -1,0 +1,144 @@
+Making install in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+Making install in contrib
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+Making install in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/gphoto2.1 '/tmp/_build-status-gphoto/PREFIX/share/man/man1'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+Making install in gphoto2
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
+ /usr/bin/install -c -m 644 ../../gphoto2/test-hook.sh '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gphoto2 '/tmp/_build-status-gphoto/PREFIX/bin'
+libtool: install: /usr/bin/install -c gphoto2 /tmp/_build-status-gphoto/PREFIX/bin/gphoto2
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+Making install in packaging
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+Making install in rpm
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+Making install in po
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+/bin/sh ../../auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/az/LC_MESSAGES
+installing ../../po/az.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/az/LC_MESSAGES/gphoto2.mo
+installing ../../po/cs.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/cs/LC_MESSAGES/gphoto2.mo
+installing ../../po/da.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/da/LC_MESSAGES/gphoto2.mo
+installing ../../po/de.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/de/LC_MESSAGES/gphoto2.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/en_GB/LC_MESSAGES
+installing ../../po/en_GB.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/en_GB/LC_MESSAGES/gphoto2.mo
+installing ../../po/es.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/es/LC_MESSAGES/gphoto2.mo
+installing ../../po/eu.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/eu/LC_MESSAGES/gphoto2.mo
+installing ../../po/fi.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/fi/LC_MESSAGES/gphoto2.mo
+installing ../../po/fr.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/fr/LC_MESSAGES/gphoto2.mo
+installing ../../po/hu.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/hu/LC_MESSAGES/gphoto2.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/id/LC_MESSAGES
+installing ../../po/id.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/id/LC_MESSAGES/gphoto2.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/is/LC_MESSAGES
+installing ../../po/is.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/is/LC_MESSAGES/gphoto2.mo
+installing ../../po/it.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/it/LC_MESSAGES/gphoto2.mo
+installing ../../po/ja.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ja/LC_MESSAGES/gphoto2.mo
+installing ../../po/nl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/nl/LC_MESSAGES/gphoto2.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/pa/LC_MESSAGES
+installing ../../po/pa.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pa/LC_MESSAGES/gphoto2.mo
+installing ../../po/pl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pl/LC_MESSAGES/gphoto2.mo
+installing ../../po/pt_BR.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pt_BR/LC_MESSAGES/gphoto2.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/ro/LC_MESSAGES
+installing ../../po/ro.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ro/LC_MESSAGES/gphoto2.mo
+installing ../../po/ru.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ru/LC_MESSAGES/gphoto2.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/rw/LC_MESSAGES
+installing ../../po/rw.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/rw/LC_MESSAGES/gphoto2.mo
+installing ../../po/sk.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sk/LC_MESSAGES/gphoto2.mo
+installing ../../po/sr.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sr/LC_MESSAGES/gphoto2.mo
+installing ../../po/sv.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sv/LC_MESSAGES/gphoto2.mo
+installing ../../po/uk.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/uk/LC_MESSAGES/gphoto2.mo
+installing ../../po/vi.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/vi/LC_MESSAGES/gphoto2.mo
+installing ../../po/zh_CN.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/zh_CN/LC_MESSAGES/gphoto2.mo
+installing ../../po/zh_TW.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/zh_TW/LC_MESSAGES/gphoto2.mo
+if test "gphoto2" = "gettext-tools"; then \
+  /bin/sh ../../auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /tmp/_build-status-gphoto/PREFIX/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tmp/_build-status-gphoto/PREFIX/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+Making install in tests
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+Making install in data
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+Making install in staging
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+Making install in subdir1
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+Making install in subdir2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b'

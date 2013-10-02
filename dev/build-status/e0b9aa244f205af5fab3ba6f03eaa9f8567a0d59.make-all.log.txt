@@ -1,0 +1,86 @@
+/usr/bin/pyrexc \
+	-I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   \
+	-o gphoto2.c \
+	../gphoto2.pyx
+/tmp/_build-status-gphoto/libgphoto2-python/gphoto2.pyx:1089:19: Warning: 'not None' will become the default in a future version of Pyrex. Use 'or None' to allow passing None.
+make  all-recursive
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+Making all in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DPACKAGE_NAME=\"libgphoto2\ python\ bindings\" -DPACKAGE_TARNAME=\"libgphoto2-python\" -DPACKAGE_VERSION=\"2.3.1.4.trunk\" -DPACKAGE_STRING=\"libgphoto2\ python\ bindings\ 2.3.1.4.trunk\" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-python\" -DVERSION=\"2.3.1.4.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DURL_GPHOTO_HOME=\"http://www.gphoto.org/\" -DURL_GPHOTO_GITHUB=\"http://github.com/gphoto/\" -DURL_GPHOTO_PROJECT=\"http://sourceforge.net/projects/gphoto\" -DURL_DIGICAM_LIST=\"http://www.teaser.fr/\~hfiguiere/linux/digicam.html\" -DURL_JPHOTO_HOME=\"http://jphoto.sourceforge.net/\" -DURL_USB_MASSSTORAGE=\"http://www.linux-usb.org/USB-guide/x498.html\" -DMAIL_GPHOTO_DEVEL=\"\<gphoto-devel@lists.sourceforge.net\>\" -DMAIL_GPHOTO_USER=\"\<gphoto-user@lists.sourceforge.net\>\" -DMAIL_GPHOTO_TRANSLATION=\"\<gphoto-translation@lists.sourceforge.net\>\" -DHAVE_LIBGPHOTO2=1 -I. -I..   -I/usr/include/python2.7    -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -g -O2 -MT gphoto2_la-gphoto2.lo -MD -MP -MF .deps/gphoto2_la-gphoto2.Tpo -c -o gphoto2_la-gphoto2.lo `test -f 'gphoto2.c' || echo '../'`gphoto2.c
+libtool: compile:  gcc "-DPACKAGE_NAME=\"libgphoto2 python bindings\"" -DPACKAGE_TARNAME=\"libgphoto2-python\" -DPACKAGE_VERSION=\"2.3.1.4.trunk\" "-DPACKAGE_STRING=\"libgphoto2 python bindings 2.3.1.4.trunk\"" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-python\" -DVERSION=\"2.3.1.4.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DURL_GPHOTO_HOME=\"http://www.gphoto.org/\" -DURL_GPHOTO_GITHUB=\"http://github.com/gphoto/\" -DURL_GPHOTO_PROJECT=\"http://sourceforge.net/projects/gphoto\" "-DURL_DIGICAM_LIST=\"http://www.teaser.fr/~hfiguiere/linux/digicam.html\"" -DURL_JPHOTO_HOME=\"http://jphoto.sourceforge.net/\" -DURL_USB_MASSSTORAGE=\"http://www.linux-usb.org/USB-guide/x498.html\" "-DMAIL_GPHOTO_DEVEL=\"<gphoto-devel@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_USER=\"<gphoto-user@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_TRANSLATION=\"<gphoto-translation@lists.sourceforge.net>\"" -DHAVE_LIBGPHOTO2=1 -I. -I.. -I/usr/include/python2.7 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2 -g -O2 -MT gphoto2_la-gphoto2.lo -MD -MP -MF .deps/gphoto2_la-gphoto2.Tpo -c gphoto2.c  -fPIC -DPIC -o .libs/gphoto2_la-gphoto2.o
+gphoto2.c: In function '__pyx_f_7gphoto2_library_version':
+gphoto2.c:238:21: warning: assignment from incompatible pointer type [enabled by default]
+     __pyx_v_arrText = gp_library_version(GP_VERSION_SHORT);
+                     ^
+gphoto2.c:242:21: warning: assignment from incompatible pointer type [enabled by default]
+     __pyx_v_arrText = gp_library_version(GP_VERSION_VERBOSE);
+                     ^
+gphoto2.c: In function '__pyx_f_7gphoto2_10cameraList___getitem__':
+gphoto2.c:675:54: warning: passing argument 3 of 'gp_list_get_name' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_list_get_name(((struct __pyx_obj_7gphoto2_cameraList *)__pyx_v_self)->liste,__pyx_1,(&__pyx_v_name))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; goto __pyx_L1;}
+                                                      ^
+In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-abilities-list.h:29:0,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:50,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:42,
+                 from gphoto2.c:39:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-list.h:81:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_list_get_name  (CameraList *list, int index, const char **name);
+     ^
+gphoto2.c:682:55: warning: passing argument 3 of 'gp_list_get_value' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_list_get_value(((struct __pyx_obj_7gphoto2_cameraList *)__pyx_v_self)->liste,__pyx_1,(&__pyx_v_value))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 852; goto __pyx_L1;}
+                                                       ^
+In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-abilities-list.h:29:0,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:50,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:42,
+                 from gphoto2.c:39:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-list.h:82:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_list_get_value (CameraList *list, int index, const char **value);
+     ^
+gphoto2.c: In function '__pyx_f_7gphoto2_12cameraWidget_5label___get__':
+gphoto2.c:1376:57: warning: passing argument 2 of 'gp_widget_get_label' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_widget_get_label(((struct __pyx_obj_7gphoto2_cameraWidget *)__pyx_v_self)->widget,(&__pyx_v_label))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 968; goto __pyx_L1;}
+                                                         ^
+In file included from gphoto2.c:39:0:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:111:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_widget_get_label (CameraWidget *widget, const char **label);
+     ^
+gphoto2.c: In function '__pyx_f_7gphoto2_12cameraWidget_4name___get__':
+gphoto2.c:1419:56: warning: passing argument 2 of 'gp_widget_get_name' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_widget_get_name(((struct __pyx_obj_7gphoto2_cameraWidget *)__pyx_v_self)->widget,(&__pyx_v_name))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 976; goto __pyx_L1;}
+                                                        ^
+In file included from gphoto2.c:39:0:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:104:5: note: expected 'const char **' but argument is of type 'char **'
+ int     gp_widget_get_name      (CameraWidget *widget, const char **name);
+     ^
+gphoto2.c: In function '__pyx_f_7gphoto2_12cameraWidget_4info___get__':
+gphoto2.c:1462:56: warning: passing argument 2 of 'gp_widget_get_info' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_widget_get_info(((struct __pyx_obj_7gphoto2_cameraWidget *)__pyx_v_self)->widget,(&__pyx_v_info))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 984; goto __pyx_L1;}
+                                                        ^
+In file included from gphoto2.c:39:0:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:107:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_widget_get_info      (CameraWidget *widget, const char **info);
+     ^
+gphoto2.c: In function '__pyx_f_7gphoto2_6camera_download_file_to':
+gphoto2.c:2701:3: warning: passing argument 2 of 'gp_file_get_data_and_size' from incompatible pointer type [enabled by default]
+   __pyx_2 = __pyx_f_7gphoto2_check_unref(gp_file_get_data_and_size(__pyx_v_cfile,(&__pyx_v_data),(&__pyx_v_size)),__pyx_v_cfile); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1185; goto __pyx_L1;}
+   ^
+In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-filesys.h:38:0,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:54,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:42,
+                 from gphoto2.c:39:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-file.h:131:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_file_get_data_and_size (CameraFile*, const char **data,
+     ^
+libtool: compile:  gcc "-DPACKAGE_NAME=\"libgphoto2 python bindings\"" -DPACKAGE_TARNAME=\"libgphoto2-python\" -DPACKAGE_VERSION=\"2.3.1.4.trunk\" "-DPACKAGE_STRING=\"libgphoto2 python bindings 2.3.1.4.trunk\"" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-python\" -DVERSION=\"2.3.1.4.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DURL_GPHOTO_HOME=\"http://www.gphoto.org/\" -DURL_GPHOTO_GITHUB=\"http://github.com/gphoto/\" -DURL_GPHOTO_PROJECT=\"http://sourceforge.net/projects/gphoto\" "-DURL_DIGICAM_LIST=\"http://www.teaser.fr/~hfiguiere/linux/digicam.html\"" -DURL_JPHOTO_HOME=\"http://jphoto.sourceforge.net/\" -DURL_USB_MASSSTORAGE=\"http://www.linux-usb.org/USB-guide/x498.html\" "-DMAIL_GPHOTO_DEVEL=\"<gphoto-devel@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_USER=\"<gphoto-user@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_TRANSLATION=\"<gphoto-translation@lists.sourceforge.net>\"" -DHAVE_LIBGPHOTO2=1 -I. -I.. -I/usr/include/python2.7 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2 -g -O2 -MT gphoto2_la-gphoto2.lo -MD -MP -MF .deps/gphoto2_la-gphoto2.Tpo -c gphoto2.c -o gphoto2_la-gphoto2.o >/dev/null 2>&1
+mv -f .deps/gphoto2_la-gphoto2.Tpo .deps/gphoto2_la-gphoto2.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -g -O2 -avoid-version -module  -o gphoto2.la -rpath /tmp/_build-status-gphoto/PREFIX/lib64/python2.7/site-packages gphoto2_la-gphoto2.lo -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif   
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/gphoto2_la-gphoto2.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif  -O2   -Wl,-soname -Wl,gphoto2.so -o .libs/gphoto2.so
+libtool: link: ar cru .libs/gphoto2.a  gphoto2_la-gphoto2.o
+libtool: link: ranlib .libs/gphoto2.a
+libtool: link: ( cd ".libs" && rm -f "gphoto2.la" && ln -s "../gphoto2.la" "gphoto2.la" )
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'

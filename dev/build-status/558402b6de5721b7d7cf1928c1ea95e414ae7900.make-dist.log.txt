@@ -1,0 +1,102 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+if test -d "gphoto2-manual-2.3.1.trunk"; then find "gphoto2-manual-2.3.1.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphoto2-manual-2.3.1.trunk" || { sleep 5 && rm -rf "gphoto2-manual-2.3.1.trunk"; }; else :; fi
+test -d "gphoto2-manual-2.3.1.trunk" || mkdir "gphoto2-manual-2.3.1.trunk"
+ (cd src && make  top_distdir=../gphoto2-manual-2.3.1.trunk distdir=../gphoto2-manual-2.3.1.trunk/src \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+ (cd figures && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/figures \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+ (cd screenshots && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/screenshots \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+ (cd gtkam && make  top_distdir=../../../gphoto2-manual-2.3.1.trunk distdir=../../../gphoto2-manual-2.3.1.trunk/src/screenshots/gtkam \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+ (cd css && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/css \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+ (cd man && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/man \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+ (cd html && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/html \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+ (cd txt && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/txt \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+ (cd xhtml && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/xhtml \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+ (cd html-nochunks && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/html-nochunks \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+ (cd xhtml-nochunks && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/xhtml-nochunks \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+ (cd txt2 && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/txt2 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+ (cd ps && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/ps \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+ (cd xsl && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/xsl \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+ (cd pdf && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/pdf \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+ (cd gphoto-m4 && make  top_distdir=../gphoto2-manual-2.3.1.trunk distdir=../gphoto2-manual-2.3.1.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+ (cd help && make  top_distdir=../gphoto2-manual-2.3.1.trunk distdir=../gphoto2-manual-2.3.1.trunk/help \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+ (cd C && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/help/C \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make  \
+  top_distdir="../../gphoto2-manual-2.3.1.trunk" distdir="../../gphoto2-manual-2.3.1.trunk/help/C" \
+  dist-hook
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+/bin/sh /tmp/_build-status-gphoto/gphoto2-manual/auto-aux/install-sh -d ../../gphoto2-manual-2.3.1.trunk/help/C/figures
+if [ -e topic.dat ]; then \
+	cp ../../../help/C/topic.dat ../../gphoto2-manual-2.3.1.trunk/help/C; \
+ fi
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+test -n "" \
+|| find "gphoto2-manual-2.3.1.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/gphoto2-manual/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "gphoto2-manual-2.3.1.trunk"
+tardir=gphoto2-manual-2.3.1.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >gphoto2-manual-2.3.1.trunk.tar.bz2
+tardir=gphoto2-manual-2.3.1.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >gphoto2-manual-2.3.1.trunk.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+if test -d "gphoto2-manual-2.3.1.trunk"; then find "gphoto2-manual-2.3.1.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphoto2-manual-2.3.1.trunk" || { sleep 5 && rm -rf "gphoto2-manual-2.3.1.trunk"; }; else :; fi

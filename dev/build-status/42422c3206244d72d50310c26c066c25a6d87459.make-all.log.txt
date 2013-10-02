@@ -1,0 +1,13 @@
+make  all-recursive
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+Making all in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+gcc -DHAVE_CONFIG_H -I. -I..    -DFUSE_USE_VERSION=25 -D_FILE_OFFSET_BITS=64 -I/usr/include/fuse   -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2     -g -O2 -MT gphotofs-gphotofs.o -MD -MP -MF .deps/gphotofs-gphotofs.Tpo -c -o gphotofs-gphotofs.o `test -f 'gphotofs.c' || echo '../'`gphotofs.c
+mv -f .deps/gphotofs-gphotofs.Tpo .deps/gphotofs-gphotofs.Po
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2   -o gphotofs gphotofs-gphotofs.o -pthread -lfuse   -lglib-2.0   -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif   
+libtool: link: gcc -g -O2 -o gphotofs gphotofs-gphotofs.o -pthread  -lfuse -lglib-2.0 -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif -pthread -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'

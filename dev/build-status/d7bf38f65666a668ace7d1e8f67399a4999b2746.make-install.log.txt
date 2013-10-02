@@ -1,0 +1,967 @@
+Making install in libgphoto2_port
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+Making install in po
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/po'
+/bin/sh ../../../libgphoto2_port/auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/cs/LC_MESSAGES
+installing ../../../libgphoto2_port/po/cs.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/cs/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/da/LC_MESSAGES
+installing ../../../libgphoto2_port/po/da.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/da/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/de/LC_MESSAGES
+installing ../../../libgphoto2_port/po/de.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/de/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/es/LC_MESSAGES
+installing ../../../libgphoto2_port/po/es.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/es/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/eu/LC_MESSAGES
+installing ../../../libgphoto2_port/po/eu.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/eu/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/fi/LC_MESSAGES
+installing ../../../libgphoto2_port/po/fi.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/fi/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/fr/LC_MESSAGES
+installing ../../../libgphoto2_port/po/fr.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/fr/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/it/LC_MESSAGES
+installing ../../../libgphoto2_port/po/it.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/it/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/ja/LC_MESSAGES
+installing ../../../libgphoto2_port/po/ja.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ja/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/nl/LC_MESSAGES
+installing ../../../libgphoto2_port/po/nl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/nl/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/pl/LC_MESSAGES
+installing ../../../libgphoto2_port/po/pl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pl/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/pt_BR/LC_MESSAGES
+installing ../../../libgphoto2_port/po/pt_BR.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pt_BR/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/ru/LC_MESSAGES
+installing ../../../libgphoto2_port/po/ru.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ru/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/sk/LC_MESSAGES
+installing ../../../libgphoto2_port/po/sk.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sk/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/sr/LC_MESSAGES
+installing ../../../libgphoto2_port/po/sr.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sr/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/sv/LC_MESSAGES
+installing ../../../libgphoto2_port/po/sv.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sv/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/uk/LC_MESSAGES
+installing ../../../libgphoto2_port/po/uk.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/uk/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/vi/LC_MESSAGES
+installing ../../../libgphoto2_port/po/vi.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/vi/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/zh_CN/LC_MESSAGES
+installing ../../../libgphoto2_port/po/zh_CN.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/zh_CN/LC_MESSAGES/libgphoto2_port-10.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/zh_TW/LC_MESSAGES
+installing ../../../libgphoto2_port/po/zh_TW.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/zh_TW/LC_MESSAGES/libgphoto2_port-10.mo
+if test "libgphoto2_port" = "gettext-tools"; then \
+  /bin/sh ../../../libgphoto2_port/auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../../libgphoto2_port/po/$file \
+		    /tmp/_build-status-gphoto/PREFIX/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tmp/_build-status-gphoto/PREFIX/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/po'
+Making install in libgphoto2_port
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port'
+make[3]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgphoto2_port.la '/tmp/_build-status-gphoto/PREFIX/lib'
+libtool: install: /usr/bin/install -c .libs/libgphoto2_port.so.10.1.1 /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so.10.1.1
+libtool: install: (cd /tmp/_build-status-gphoto/PREFIX/lib && { ln -s -f libgphoto2_port.so.10.1.1 libgphoto2_port.so.10 || { rm -f libgphoto2_port.so.10 && ln -s libgphoto2_port.so.10.1.1 libgphoto2_port.so.10; }; })
+libtool: install: (cd /tmp/_build-status-gphoto/PREFIX/lib && { ln -s -f libgphoto2_port.so.10.1.1 libgphoto2_port.so || { rm -f libgphoto2_port.so && ln -s libgphoto2_port.so.10.1.1 libgphoto2_port.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgphoto2_port.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.la
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/builduser/.local/bin:/home/builduser/bin:/home/builduser/.local/bin:/home/builduser/bin:/sbin" ldconfig -n /tmp/_build-status-gphoto/PREFIX/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tmp/_build-status-gphoto/PREFIX/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port'
+Making install in .
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+rm -f /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
+/usr/bin/install -c -m 0755 -d /tmp/_build-status-gphoto/PREFIX/include/gphoto2
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2_port'
+ln -s . /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
+ /usr/bin/install -c gphoto2-port-config '/tmp/_build-status-gphoto/PREFIX/bin'
+ /usr/bin/install -c -m 644 ../../libgphoto2_port/AUTHORS ../../libgphoto2_port/README ../../libgphoto2_port/NEWS '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2_port'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0'
+ /usr/bin/install -c -m 644 libgphoto2_port.pc '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
+ /usr/bin/install -c -m 644  ../../libgphoto2_port/gphoto2/gphoto2-port.h ../../libgphoto2_port/gphoto2/gphoto2-port-info-list.h ../../libgphoto2_port/gphoto2/gphoto2-port-log.h ../../libgphoto2_port/gphoto2/gphoto2-port-version.h ../../libgphoto2_port/gphoto2/gphoto2-port-portability.h ../../libgphoto2_port/gphoto2/gphoto2-port-result.h '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   serial.la usb.la usbdiskdirect.la usbscsi.la usb1.la usbdiskdirect.la usbscsi.la disk.la ptpip.la '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0'
+libtool: install: warning: relinking `serial.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o serial.la serial_la-unix.lo ./libgphoto2_port/libgphoto2_port.la -llockdev -lpthread )
+libtool: relink: echo "{ global:" > .libs/serial.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/serial.ver
+libtool: relink:  echo "local: *; };" >> .libs/serial.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/serial_la-unix.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -llockdev -lpthread  -O2   -Wl,-soname -Wl,serial.so -Wl,-version-script -Wl,.libs/serial.ver -o .libs/serial.so
+libtool: install: /usr/bin/install -c .libs/serial.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/serial.so
+libtool: install: /usr/bin/install -c .libs/serial.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/serial.la
+libtool: install: warning: relinking `usb.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o usb.la usb_la-libusb.lo ./libgphoto2_port/libgphoto2_port.la -lusb -lpthread )
+libtool: relink: echo "{ global:" > .libs/usb.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/usb.ver
+libtool: relink:  echo "local: *; };" >> .libs/usb.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/usb_la-libusb.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -lusb -lpthread  -O2   -Wl,-soname -Wl,usb.so -Wl,-version-script -Wl,.libs/usb.ver -o .libs/usb.so
+libtool: install: /usr/bin/install -c .libs/usb.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usb.so
+libtool: install: /usr/bin/install -c .libs/usb.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usb.la
+libtool: install: warning: relinking `usbdiskdirect.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o usbdiskdirect.la usbdiskdirect_la-linux.lo ./libgphoto2_port/libgphoto2_port.la -llockdev -lpthread )
+libtool: relink: echo "{ global:" > .libs/usbdiskdirect.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/usbdiskdirect.ver
+libtool: relink:  echo "local: *; };" >> .libs/usbdiskdirect.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/usbdiskdirect_la-linux.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -llockdev -lpthread  -O2   -Wl,-soname -Wl,usbdiskdirect.so -Wl,-version-script -Wl,.libs/usbdiskdirect.ver -o .libs/usbdiskdirect.so
+libtool: install: /usr/bin/install -c .libs/usbdiskdirect.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbdiskdirect.so
+libtool: install: /usr/bin/install -c .libs/usbdiskdirect.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbdiskdirect.la
+libtool: install: warning: relinking `usbscsi.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o usbscsi.la usbscsi_la-linux.lo ./libgphoto2_port/libgphoto2_port.la -lpthread )
+libtool: relink: echo "{ global:" > .libs/usbscsi.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/usbscsi.ver
+libtool: relink:  echo "local: *; };" >> .libs/usbscsi.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/usbscsi_la-linux.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,usbscsi.so -Wl,-version-script -Wl,.libs/usbscsi.ver -o .libs/usbscsi.so
+libtool: install: /usr/bin/install -c .libs/usbscsi.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbscsi.so
+libtool: install: /usr/bin/install -c .libs/usbscsi.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbscsi.la
+libtool: install: warning: relinking `usb1.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o usb1.la usb1_la-libusb1.lo ./libgphoto2_port/libgphoto2_port.la -lusb-1.0 -lpthread )
+libtool: relink: echo "{ global:" > .libs/usb1.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/usb1.ver
+libtool: relink:  echo "local: *; };" >> .libs/usb1.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/usb1_la-libusb1.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -lusb-1.0 -lpthread  -O2   -Wl,-soname -Wl,usb1.so -Wl,-version-script -Wl,.libs/usb1.ver -o .libs/usb1.so
+libtool: install: /usr/bin/install -c .libs/usb1.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usb1.so
+libtool: install: /usr/bin/install -c .libs/usb1.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usb1.la
+libtool: install: warning: relinking `usbdiskdirect.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o usbdiskdirect.la usbdiskdirect_la-linux.lo ./libgphoto2_port/libgphoto2_port.la -llockdev -lpthread )
+libtool: relink: echo "{ global:" > .libs/usbdiskdirect.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/usbdiskdirect.ver
+libtool: relink:  echo "local: *; };" >> .libs/usbdiskdirect.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/usbdiskdirect_la-linux.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -llockdev -lpthread  -O2   -Wl,-soname -Wl,usbdiskdirect.so -Wl,-version-script -Wl,.libs/usbdiskdirect.ver -o .libs/usbdiskdirect.so
+libtool: install: /usr/bin/install -c .libs/usbdiskdirect.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbdiskdirect.so
+libtool: install: /usr/bin/install -c .libs/usbdiskdirect.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbdiskdirect.la
+libtool: install: warning: relinking `usbscsi.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o usbscsi.la usbscsi_la-linux.lo ./libgphoto2_port/libgphoto2_port.la -lpthread )
+libtool: relink: echo "{ global:" > .libs/usbscsi.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/usbscsi.ver
+libtool: relink:  echo "local: *; };" >> .libs/usbscsi.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/usbscsi_la-linux.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,usbscsi.so -Wl,-version-script -Wl,.libs/usbscsi.ver -o .libs/usbscsi.so
+libtool: install: /usr/bin/install -c .libs/usbscsi.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbscsi.so
+libtool: install: /usr/bin/install -c .libs/usbscsi.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/usbscsi.la
+libtool: install: warning: relinking `disk.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o disk.la disk_la-disk.lo ./libgphoto2_port/libgphoto2_port.la -lpthread )
+libtool: relink: echo "{ global:" > .libs/disk.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/disk.ver
+libtool: relink:  echo "local: *; };" >> .libs/disk.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/disk_la-disk.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,disk.so -Wl,-version-script -Wl,.libs/disk.ver -o .libs/disk.so
+libtool: install: /usr/bin/install -c .libs/disk.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/disk.so
+libtool: install: /usr/bin/install -c .libs/disk.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/disk.la
+libtool: install: warning: relinking `ptpip.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../libgphoto2_port/iolib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0 -g -o ptpip.la ptpip_la-ptpip.lo ./libgphoto2_port/libgphoto2_port.la -lpthread )
+libtool: relink: echo "{ global:" > .libs/ptpip.ver
+libtool: relink:  cat ../../libgphoto2_port/iolib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/ptpip.ver
+libtool: relink:  echo "local: *; };" >> .libs/ptpip.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/ptpip_la-ptpip.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,ptpip.so -Wl,-version-script -Wl,.libs/ptpip.ver -o .libs/ptpip.so
+libtool: install: /usr/bin/install -c .libs/ptpip.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/ptpip.so
+libtool: install: /usr/bin/install -c .libs/ptpip.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0/ptpip.la
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/builduser/.local/bin:/home/builduser/bin:/home/builduser/.local/bin:/home/builduser/bin:/sbin" ldconfig -n /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port/0.10.0
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+Making install in test
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/test'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/test'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/test'
+Making install in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/doc'
+Dummy target all-local.
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+Dummy target install-data-local
+Re-run configure with adequate parameters and run make again to build docs.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/doc'
+Making install in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/gphoto-m4'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/gphoto-m4'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+Making install in libgphoto2
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2'
+make[2]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgphoto2.la '/tmp/_build-status-gphoto/PREFIX/lib'
+libtool: install: warning: relinking `libgphoto2.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -no-undefined -export-symbols ../../libgphoto2/libgphoto2.sym -version-info 6:0:0 -g -o libgphoto2.la -rpath /tmp/_build-status-gphoto/PREFIX/lib libgphoto2_la-gphoto2-abilities-list.lo libgphoto2_la-ahd_bayer.lo libgphoto2_la-bayer.lo libgphoto2_la-gphoto2-camera.lo libgphoto2_la-gphoto2-context.lo libgphoto2_la-exif.lo libgphoto2_la-gphoto2-file.lo libgphoto2_la-gphoto2-filesys.lo libgphoto2_la-gamma.lo libgphoto2_la-jpeg.lo libgphoto2_la-gphoto2-list.lo libgphoto2_la-gphoto2-result.lo libgphoto2_la-gphoto2-version.lo libgphoto2_la-gphoto2-setting.lo libgphoto2_la-gphoto2-widget.lo ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lltdl -lexif -lm )
+libtool: relink: echo "{ global:" > .libs/libgphoto2.ver
+libtool: relink:  cat ../../libgphoto2/libgphoto2.sym | sed -e "s/\(.*\)/\1;/" >> .libs/libgphoto2.ver
+libtool: relink:  echo "local: *; };" >> .libs/libgphoto2.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  .libs/libgphoto2_la-gphoto2-abilities-list.o .libs/libgphoto2_la-ahd_bayer.o .libs/libgphoto2_la-bayer.o .libs/libgphoto2_la-gphoto2-camera.o .libs/libgphoto2_la-gphoto2-context.o .libs/libgphoto2_la-exif.o .libs/libgphoto2_la-gphoto2-file.o .libs/libgphoto2_la-gphoto2-filesys.o .libs/libgphoto2_la-gamma.o .libs/libgphoto2_la-jpeg.o .libs/libgphoto2_la-gphoto2-list.o .libs/libgphoto2_la-gphoto2-result.o .libs/libgphoto2_la-gphoto2-version.o .libs/libgphoto2_la-gphoto2-setting.o .libs/libgphoto2_la-gphoto2-widget.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2_port -lpthread -lltdl -lexif -lm  -O2   -Wl,-soname -Wl,libgphoto2.so.6 -Wl,-version-script -Wl,.libs/libgphoto2.ver -o .libs/libgphoto2.so.6.0.0
+libtool: install: /usr/bin/install -c .libs/libgphoto2.so.6.0.0T /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so.6.0.0
+libtool: install: (cd /tmp/_build-status-gphoto/PREFIX/lib && { ln -s -f libgphoto2.so.6.0.0 libgphoto2.so.6 || { rm -f libgphoto2.so.6 && ln -s libgphoto2.so.6.0.0 libgphoto2.so.6; }; })
+libtool: install: (cd /tmp/_build-status-gphoto/PREFIX/lib && { ln -s -f libgphoto2.so.6.0.0 libgphoto2.so || { rm -f libgphoto2.so && ln -s libgphoto2.so.6.0.0 libgphoto2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgphoto2.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.la
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/builduser/.local/bin:/home/builduser/bin:/home/builduser/.local/bin:/home/builduser/bin:/sbin" ldconfig -n /tmp/_build-status-gphoto/PREFIX/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tmp/_build-status-gphoto/PREFIX/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2'
+Making install in camlibs
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+Making install in .
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   adc65.la agfa_cl20.la aox.la ax203.la barbie.la canon.la casio_qv.la clicksmart310.la digigr8.la digita.la dimera3500.la directory.la enigma13.la fuji.la gsmart300.la hp215.la iclick.la jamcam.la jd11.la jl2005a.la jl2005c.la kodak_dc120.la kodak_dc210.la kodak_dc240.la kodak_dc3200.la kodak_ez200.la konica.la konica_qm150.la largan.la lg_gsm.la mars.la dimagev.la mustek.la panasonic_coolshot.la panasonic_l859.la panasonic_dc1000.la panasonic_dc1580.la pccam300.la pccam600.la pentax.la polaroid_pdc320.la polaroid_pdc640.la polaroid_pdc700.la ptp2.la ricoh.la ricoh_g3.la samsung.la sierra.la sipix_blink2.la sipix_web2.la smal.la sonix.la sony_dscf1.la sony_dscf55.la soundvision.la spca50x.la sq905.la st2205.la stv0674.la stv0680.la sx330z.la topfield.la toshiba_pdrm11.la tp6801.la '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
+ /usr/bin/install -c -m 644 ../../camlibs/adc65/README.adc65 ../../camlibs/agfa-cl20/README.agfa-cl20 ../../camlibs/aox/README.aox ../../camlibs/ax203/README.ax203-compression ../../camlibs/ax203/README.ax203 ../../camlibs/canon/README.canon ../../camlibs/clicksmart310/README.clicksmart310 ../../camlibs/digigr8/README.905C ../../camlibs/digigr8/README.9050 ../../camlibs/digigr8/README.9051 ../../camlibs/digigr8/README.9052 ../../camlibs/digigr8/README.913D ../../camlibs/enigma13/README.enigma13 ../../camlibs/gsmart300/README.gsmart300 ../../camlibs/iclick/README.iclick ../../camlibs/jamcam/README.jamcam ../../camlibs/jl2005a/README.jl2005a ../../camlibs/jl2005a/ChangeLog ../../camlibs/jl2005c/README.jl2005c ../../camlibs/jl2005c/README.jl2005bcd-compression ../../camlibs/konica/README.konica ../../camlibs/largan/lmini/README.largan-lmini ../../camlibs/lg_gsm/README.lg_gsm ../../camlibs/mars/README.mars ../../camlibs/minolta/dimagev/README.minolta-dimagev ../../camlibs/mustek/README.mustek ../../camlibs/panasonic/coolshot/README.panasonic-coolshot ../../camlibs/panasonic/l859/README.panasonic-l859 ../../camlibs/panasonic/README.panasonic ../../camlibs/pccam300/README.pccam300 ../../camlibs/pccam600/README.pccam600 ../../camlibs/pentax/README.pentax ../../camlibs/ptp2/README.ptp2 ../../camlibs/smal/README.smal ../../camlibs/sonix/README.sonix ../../camlibs/sonydscf1/README.sonydscf1 ../../camlibs/soundvision/README.soundvision ../../camlibs/spca50x/README.spca50x ../../camlibs/sq905/README.913C ../../camlibs/sq905/README.sq905 '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
+libtool: install: warning: relinking `adc65.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o adc65.la adc65/adc65.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+ /usr/bin/install -c -m 644 ../../camlibs/st2205/README.st2205-compression ../../camlibs/st2205/README.st2205 ../../camlibs/toshiba/pdrm11/README.toshiba-pdrm11 ../../camlibs/tp6801/README.tp6801 '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/camlibs'
+libtool: relink: echo "{ global:" > .libs/adc65.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/adc65.ver
+libtool: relink:  echo "local: *; };" >> .libs/adc65.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  adc65/.libs/adc65.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,adc65.so -Wl,-version-script -Wl,.libs/adc65.ver -o .libs/adc65.so
+libtool: install: /usr/bin/install -c .libs/adc65.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/adc65.so
+libtool: install: /usr/bin/install -c .libs/adc65.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/adc65.la
+libtool: install: warning: relinking `agfa_cl20.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o agfa_cl20.la agfa-cl20/agfa_cl20.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/agfa_cl20.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/agfa_cl20.ver
+libtool: relink:  echo "local: *; };" >> .libs/agfa_cl20.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  agfa-cl20/.libs/agfa_cl20.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,agfa_cl20.so -Wl,-version-script -Wl,.libs/agfa_cl20.ver -o .libs/agfa_cl20.so
+libtool: install: /usr/bin/install -c .libs/agfa_cl20.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/agfa_cl20.so
+libtool: install: /usr/bin/install -c .libs/agfa_cl20.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/agfa_cl20.la
+libtool: install: warning: relinking `aox.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o aox.la aox/library.lo aox/aox.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/aox.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/aox.ver
+libtool: relink:  echo "local: *; };" >> .libs/aox.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  aox/.libs/library.o aox/.libs/aox.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,aox.so -Wl,-version-script -Wl,.libs/aox.ver -o .libs/aox.so
+libtool: install: /usr/bin/install -c .libs/aox.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/aox.so
+libtool: install: /usr/bin/install -c .libs/aox.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/aox.la
+libtool: install: warning: relinking `ax203.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -I/usr/include -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o ax203.la ax203/ax203_la-library.lo ax203/ax203_la-ax203.lo ax203/ax203_la-ax203_decode_yuv.lo ax203/ax203_la-ax203_decode_yuv_delta.lo ax203/ax203_la-ax203_compress_jpeg.lo ax203/ax203_la-jpeg_memsrcdest.lo ax203/ax203_la-tinyjpeg.lo ax203/ax203_la-jidctflt.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lXpm -lX11 -ljpeg -lfontconfig -lfreetype -lpng -lz -lm -ljpeg )
+libtool: relink: echo "{ global:" > .libs/ax203.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/ax203.ver
+libtool: relink:  echo "local: *; };" >> .libs/ax203.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  ax203/.libs/ax203_la-library.o ax203/.libs/ax203_la-ax203.o ax203/.libs/ax203_la-ax203_decode_yuv.o ax203/.libs/ax203_la-ax203_decode_yuv_delta.o ax203/.libs/ax203_la-ax203_compress_jpeg.o ax203/.libs/ax203_la-jpeg_memsrcdest.o ax203/.libs/ax203_la-tinyjpeg.o ax203/.libs/ax203_la-jidctflt.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lgphoto2_port -lltdl -lpthread -lXpm -lX11 -lfontconfig -lfreetype -lpng -lz -lm -ljpeg  -O2   -Wl,-soname -Wl,ax203.so -Wl,-version-script -Wl,.libs/ax203.ver -o .libs/ax203.so
+libtool: install: /usr/bin/install -c .libs/ax203.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ax203.so
+libtool: install: /usr/bin/install -c .libs/ax203.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ax203.la
+libtool: install: warning: relinking `barbie.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o barbie.la barbie/barbie.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/barbie.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/barbie.ver
+libtool: relink:  echo "local: *; };" >> .libs/barbie.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  barbie/.libs/barbie.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,barbie.so -Wl,-version-script -Wl,.libs/barbie.ver -o .libs/barbie.so
+libtool: install: /usr/bin/install -c .libs/barbie.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/barbie.so
+libtool: install: /usr/bin/install -c .libs/barbie.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/barbie.la
+libtool: install: warning: relinking `canon.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o canon.la canon/canon_la-canon.lo canon/canon_la-library.lo canon/canon_la-serial.lo canon/canon_la-usb.lo canon/canon_la-crc.lo canon/canon_la-util.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lexif )
+libtool: relink: echo "{ global:" > .libs/canon.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/canon.ver
+libtool: relink:  echo "local: *; };" >> .libs/canon.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  canon/.libs/canon_la-canon.o canon/.libs/canon_la-library.o canon/.libs/canon_la-serial.o canon/.libs/canon_la-usb.o canon/.libs/canon_la-crc.o canon/.libs/canon_la-util.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lm -lgphoto2_port -lltdl -lpthread -lexif  -O2   -Wl,-soname -Wl,canon.so -Wl,-version-script -Wl,.libs/canon.ver -o .libs/canon.so
+libtool: install: /usr/bin/install -c .libs/canon.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/canon.so
+libtool: install: /usr/bin/install -c .libs/canon.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/canon.la
+libtool: install: warning: relinking `casio_qv.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o casio_qv.la casio/casio-qv.lo casio/casio-qv-commands.lo casio/camtojpeg.lo casio/ycctoppm.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/casio_qv.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/casio_qv.ver
+libtool: relink:  echo "local: *; };" >> .libs/casio_qv.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  casio/.libs/casio-qv.o casio/.libs/casio-qv-commands.o casio/.libs/camtojpeg.o casio/.libs/ycctoppm.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,casio_qv.so -Wl,-version-script -Wl,.libs/casio_qv.ver -o .libs/casio_qv.so
+libtool: install: /usr/bin/install -c .libs/casio_qv.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/casio_qv.so
+libtool: install: /usr/bin/install -c .libs/casio_qv.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/casio_qv.la
+libtool: install: warning: relinking `clicksmart310.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o clicksmart310.la clicksmart310/library.lo clicksmart310/clicksmart.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/clicksmart310.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/clicksmart310.ver
+libtool: relink:  echo "local: *; };" >> .libs/clicksmart310.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  clicksmart310/.libs/library.o clicksmart310/.libs/clicksmart.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,clicksmart310.so -Wl,-version-script -Wl,.libs/clicksmart310.ver -o .libs/clicksmart310.so
+libtool: install: /usr/bin/install -c .libs/clicksmart310.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/clicksmart310.so
+libtool: install: /usr/bin/install -c .libs/clicksmart310.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/clicksmart310.la
+libtool: install: warning: relinking `digigr8.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o digigr8.la digigr8/library.lo digigr8/digigr8.lo digigr8/digi_postprocess.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/digigr8.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/digigr8.ver
+libtool: relink:  echo "local: *; };" >> .libs/digigr8.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  digigr8/.libs/library.o digigr8/.libs/digigr8.o digigr8/.libs/digi_postprocess.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,digigr8.so -Wl,-version-script -Wl,.libs/digigr8.ver -o .libs/digigr8.so
+libtool: install: /usr/bin/install -c .libs/digigr8.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/digigr8.so
+libtool: install: /usr/bin/install -c .libs/digigr8.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/digigr8.la
+libtool: install: warning: relinking `digita.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o digita.la digita/digita.lo digita/serial.lo digita/usb.lo digita/commands.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/digita.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/digita.ver
+libtool: relink:  echo "local: *; };" >> .libs/digita.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  digita/.libs/digita.o digita/.libs/serial.o digita/.libs/usb.o digita/.libs/commands.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,digita.so -Wl,-version-script -Wl,.libs/digita.ver -o .libs/digita.so
+libtool: install: /usr/bin/install -c .libs/digita.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/digita.so
+libtool: install: /usr/bin/install -c .libs/digita.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/digita.la
+libtool: install: warning: relinking `dimera3500.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o dimera3500.la dimera/dimera3500.lo dimera/mesalib.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/dimera3500.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/dimera3500.ver
+libtool: relink:  echo "local: *; };" >> .libs/dimera3500.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  dimera/.libs/dimera3500.o dimera/.libs/mesalib.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,dimera3500.so -Wl,-version-script -Wl,.libs/dimera3500.ver -o .libs/dimera3500.so
+libtool: install: /usr/bin/install -c .libs/dimera3500.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/dimera3500.so
+libtool: install: /usr/bin/install -c .libs/dimera3500.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/dimera3500.la
+libtool: install: warning: relinking `directory.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o directory.la directory/directory_la-directory.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lexif )
+libtool: relink: echo "{ global:" > .libs/directory.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/directory.ver
+libtool: relink:  echo "local: *; };" >> .libs/directory.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  directory/.libs/directory_la-directory.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lm -lgphoto2_port -lltdl -lpthread -lexif  -O2   -Wl,-soname -Wl,directory.so -Wl,-version-script -Wl,.libs/directory.ver -o .libs/directory.so
+libtool: install: /usr/bin/install -c .libs/directory.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/directory.so
+libtool: install: /usr/bin/install -c .libs/directory.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/directory.la
+libtool: install: warning: relinking `enigma13.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o enigma13.la enigma13/enigma13.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/enigma13.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/enigma13.ver
+libtool: relink:  echo "local: *; };" >> .libs/enigma13.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  enigma13/.libs/enigma13.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,enigma13.so -Wl,-version-script -Wl,.libs/enigma13.ver -o .libs/enigma13.so
+libtool: install: /usr/bin/install -c .libs/enigma13.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/enigma13.so
+libtool: install: /usr/bin/install -c .libs/enigma13.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/enigma13.la
+libtool: install: warning: relinking `fuji.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o fuji.la fuji/library.lo fuji/fuji.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/fuji.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/fuji.ver
+libtool: relink:  echo "local: *; };" >> .libs/fuji.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  fuji/.libs/library.o fuji/.libs/fuji.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,fuji.so -Wl,-version-script -Wl,.libs/fuji.ver -o .libs/fuji.so
+libtool: install: /usr/bin/install -c .libs/fuji.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/fuji.so
+libtool: install: /usr/bin/install -c .libs/fuji.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/fuji.la
+libtool: install: warning: relinking `gsmart300.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o gsmart300.la gsmart300/gsmart300.lo gsmart300/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/gsmart300.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/gsmart300.ver
+libtool: relink:  echo "local: *; };" >> .libs/gsmart300.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  gsmart300/.libs/gsmart300.o gsmart300/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,gsmart300.so -Wl,-version-script -Wl,.libs/gsmart300.ver -o .libs/gsmart300.so
+libtool: install: /usr/bin/install -c .libs/gsmart300.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/gsmart300.so
+libtool: install: /usr/bin/install -c .libs/gsmart300.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/gsmart300.la
+libtool: install: warning: relinking `hp215.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o hp215.la hp215/hp215.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/hp215.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/hp215.ver
+libtool: relink:  echo "local: *; };" >> .libs/hp215.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  hp215/.libs/hp215.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,hp215.so -Wl,-version-script -Wl,.libs/hp215.ver -o .libs/hp215.so
+libtool: install: /usr/bin/install -c .libs/hp215.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/hp215.so
+libtool: install: /usr/bin/install -c .libs/hp215.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/hp215.la
+libtool: install: warning: relinking `iclick.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o iclick.la iclick/library.lo iclick/iclick.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/iclick.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/iclick.ver
+libtool: relink:  echo "local: *; };" >> .libs/iclick.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  iclick/.libs/library.o iclick/.libs/iclick.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,iclick.so -Wl,-version-script -Wl,.libs/iclick.ver -o .libs/iclick.so
+libtool: install: /usr/bin/install -c .libs/iclick.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/iclick.so
+libtool: install: /usr/bin/install -c .libs/iclick.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/iclick.la
+libtool: install: warning: relinking `jamcam.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o jamcam.la jamcam/jamcam.lo jamcam/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/jamcam.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/jamcam.ver
+libtool: relink:  echo "local: *; };" >> .libs/jamcam.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  jamcam/.libs/jamcam.o jamcam/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,jamcam.so -Wl,-version-script -Wl,.libs/jamcam.ver -o .libs/jamcam.so
+libtool: install: /usr/bin/install -c .libs/jamcam.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jamcam.so
+libtool: install: /usr/bin/install -c .libs/jamcam.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jamcam.la
+libtool: install: warning: relinking `jd11.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o jd11.la jd11/jd11.lo jd11/serial.lo jd11/decomp.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/jd11.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/jd11.ver
+libtool: relink:  echo "local: *; };" >> .libs/jd11.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  jd11/.libs/jd11.o jd11/.libs/serial.o jd11/.libs/decomp.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,jd11.so -Wl,-version-script -Wl,.libs/jd11.ver -o .libs/jd11.so
+libtool: install: /usr/bin/install -c .libs/jd11.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jd11.so
+libtool: install: /usr/bin/install -c .libs/jd11.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jd11.la
+libtool: install: warning: relinking `jl2005a.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o jl2005a.la jl2005a/library.lo jl2005a/jl2005a.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/jl2005a.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/jl2005a.ver
+libtool: relink:  echo "local: *; };" >> .libs/jl2005a.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  jl2005a/.libs/library.o jl2005a/.libs/jl2005a.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,jl2005a.so -Wl,-version-script -Wl,.libs/jl2005a.ver -o .libs/jl2005a.so
+libtool: install: /usr/bin/install -c .libs/jl2005a.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jl2005a.so
+libtool: install: /usr/bin/install -c .libs/jl2005a.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jl2005a.la
+libtool: install: warning: relinking `jl2005c.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o jl2005c.la jl2005c/library.lo jl2005c/jl2005c.lo jl2005c/jpeg_memsrcdest.lo jl2005c/jl2005bcd_decompress.lo jl2005c/img_enhance.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -ljpeg )
+libtool: relink: echo "{ global:" > .libs/jl2005c.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/jl2005c.ver
+libtool: relink:  echo "local: *; };" >> .libs/jl2005c.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  jl2005c/.libs/library.o jl2005c/.libs/jl2005c.o jl2005c/.libs/jpeg_memsrcdest.o jl2005c/.libs/jl2005bcd_decompress.o jl2005c/.libs/img_enhance.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread -ljpeg  -O2   -Wl,-soname -Wl,jl2005c.so -Wl,-version-script -Wl,.libs/jl2005c.ver -o .libs/jl2005c.so
+libtool: install: /usr/bin/install -c .libs/jl2005c.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jl2005c.so
+libtool: install: /usr/bin/install -c .libs/jl2005c.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/jl2005c.la
+libtool: install: warning: relinking `kodak_dc120.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o kodak_dc120.la kodak/dc120/dc120.lo kodak/dc120/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/kodak_dc120.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/kodak_dc120.ver
+libtool: relink:  echo "local: *; };" >> .libs/kodak_dc120.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  kodak/dc120/.libs/dc120.o kodak/dc120/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,kodak_dc120.so -Wl,-version-script -Wl,.libs/kodak_dc120.ver -o .libs/kodak_dc120.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc120.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc120.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc120.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc120.la
+libtool: install: warning: relinking `kodak_dc210.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o kodak_dc210.la kodak/dc210/dc210.lo kodak/dc210/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/kodak_dc210.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/kodak_dc210.ver
+libtool: relink:  echo "local: *; };" >> .libs/kodak_dc210.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  kodak/dc210/.libs/dc210.o kodak/dc210/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,kodak_dc210.so -Wl,-version-script -Wl,.libs/kodak_dc210.ver -o .libs/kodak_dc210.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc210.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc210.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc210.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc210.la
+libtool: install: warning: relinking `kodak_dc240.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o kodak_dc240.la kodak/dc240/dc240.lo kodak/dc240/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/kodak_dc240.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/kodak_dc240.ver
+libtool: relink:  echo "local: *; };" >> .libs/kodak_dc240.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  kodak/dc240/.libs/dc240.o kodak/dc240/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,kodak_dc240.so -Wl,-version-script -Wl,.libs/kodak_dc240.ver -o .libs/kodak_dc240.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc240.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc240.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc240.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc240.la
+libtool: install: warning: relinking `kodak_dc3200.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o kodak_dc3200.la kodak/dc3200/dc3200.lo kodak/dc3200/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/kodak_dc3200.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/kodak_dc3200.ver
+libtool: relink:  echo "local: *; };" >> .libs/kodak_dc3200.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  kodak/dc3200/.libs/dc3200.o kodak/dc3200/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,kodak_dc3200.so -Wl,-version-script -Wl,.libs/kodak_dc3200.ver -o .libs/kodak_dc3200.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc3200.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc3200.so
+libtool: install: /usr/bin/install -c .libs/kodak_dc3200.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_dc3200.la
+libtool: install: warning: relinking `kodak_ez200.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o kodak_ez200.la kodak/ez200/ez200.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/kodak_ez200.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/kodak_ez200.ver
+libtool: relink:  echo "local: *; };" >> .libs/kodak_ez200.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  kodak/ez200/.libs/ez200.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,kodak_ez200.so -Wl,-version-script -Wl,.libs/kodak_ez200.ver -o .libs/kodak_ez200.so
+libtool: install: /usr/bin/install -c .libs/kodak_ez200.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_ez200.so
+libtool: install: /usr/bin/install -c .libs/kodak_ez200.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/kodak_ez200.la
+libtool: install: warning: relinking `konica.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o konica.la konica/konica_la-lowlevel.lo konica/konica_la-konica.lo konica/konica_la-library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/konica.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/konica.ver
+libtool: relink:  echo "local: *; };" >> .libs/konica.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  konica/.libs/konica_la-lowlevel.o konica/.libs/konica_la-konica.o konica/.libs/konica_la-library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,konica.so -Wl,-version-script -Wl,.libs/konica.ver -o .libs/konica.so
+libtool: install: /usr/bin/install -c .libs/konica.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/konica.so
+libtool: install: /usr/bin/install -c .libs/konica.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/konica.la
+libtool: install: warning: relinking `konica_qm150.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o konica_qm150.la konica/konica_qm150_la-qm150.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/konica_qm150.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/konica_qm150.ver
+libtool: relink:  echo "local: *; };" >> .libs/konica_qm150.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  konica/.libs/konica_qm150_la-qm150.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,konica_qm150.so -Wl,-version-script -Wl,.libs/konica_qm150.ver -o .libs/konica_qm150.so
+libtool: install: /usr/bin/install -c .libs/konica_qm150.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/konica_qm150.so
+libtool: install: /usr/bin/install -c .libs/konica_qm150.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/konica_qm150.la
+libtool: install: warning: relinking `largan.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o largan.la largan/lmini/largan.lo largan/lmini/lmini.lo largan/lmini/lmini_ccd.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/largan.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/largan.ver
+libtool: relink:  echo "local: *; };" >> .libs/largan.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  largan/lmini/.libs/largan.o largan/lmini/.libs/lmini.o largan/lmini/.libs/lmini_ccd.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,largan.so -Wl,-version-script -Wl,.libs/largan.ver -o .libs/largan.so
+libtool: install: /usr/bin/install -c .libs/largan.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/largan.so
+libtool: install: /usr/bin/install -c .libs/largan.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/largan.la
+libtool: install: warning: relinking `lg_gsm.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o lg_gsm.la lg_gsm/library.lo lg_gsm/lg_gsm.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/lg_gsm.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/lg_gsm.ver
+libtool: relink:  echo "local: *; };" >> .libs/lg_gsm.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  lg_gsm/.libs/library.o lg_gsm/.libs/lg_gsm.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,lg_gsm.so -Wl,-version-script -Wl,.libs/lg_gsm.ver -o .libs/lg_gsm.so
+libtool: install: /usr/bin/install -c .libs/lg_gsm.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/lg_gsm.so
+libtool: install: /usr/bin/install -c .libs/lg_gsm.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/lg_gsm.la
+libtool: install: warning: relinking `mars.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o mars.la mars/library.lo mars/mars.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/mars.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/mars.ver
+libtool: relink:  echo "local: *; };" >> .libs/mars.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  mars/.libs/library.o mars/.libs/mars.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,mars.so -Wl,-version-script -Wl,.libs/mars.ver -o .libs/mars.so
+libtool: install: /usr/bin/install -c .libs/mars.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/mars.so
+libtool: install: /usr/bin/install -c .libs/mars.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/mars.la
+libtool: install: warning: relinking `dimagev.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o dimagev.la minolta/dimagev/capture.lo minolta/dimagev/data.lo minolta/dimagev/delete.lo minolta/dimagev/dimagev.lo minolta/dimagev/download.lo minolta/dimagev/info.lo minolta/dimagev/packet.lo minolta/dimagev/status.lo minolta/dimagev/upload.lo minolta/dimagev/util.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/dimagev.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/dimagev.ver
+libtool: relink:  echo "local: *; };" >> .libs/dimagev.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  minolta/dimagev/.libs/capture.o minolta/dimagev/.libs/data.o minolta/dimagev/.libs/delete.o minolta/dimagev/.libs/dimagev.o minolta/dimagev/.libs/download.o minolta/dimagev/.libs/info.o minolta/dimagev/.libs/packet.o minolta/dimagev/.libs/status.o minolta/dimagev/.libs/upload.o minolta/dimagev/.libs/util.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,dimagev.so -Wl,-version-script -Wl,.libs/dimagev.ver -o .libs/dimagev.so
+libtool: install: /usr/bin/install -c .libs/dimagev.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/dimagev.so
+libtool: install: /usr/bin/install -c .libs/dimagev.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/dimagev.la
+libtool: install: warning: relinking `mustek.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o mustek.la mustek/mdc800.lo mustek/core.lo mustek/image.lo mustek/io.lo mustek/rs232.lo mustek/usb.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/mustek.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/mustek.ver
+libtool: relink:  echo "local: *; };" >> .libs/mustek.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  mustek/.libs/mdc800.o mustek/.libs/core.o mustek/.libs/image.o mustek/.libs/io.o mustek/.libs/rs232.o mustek/.libs/usb.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,mustek.so -Wl,-version-script -Wl,.libs/mustek.ver -o .libs/mustek.so
+libtool: install: /usr/bin/install -c .libs/mustek.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/mustek.so
+libtool: install: /usr/bin/install -c .libs/mustek.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/mustek.la
+libtool: install: warning: relinking `panasonic_coolshot.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o panasonic_coolshot.la panasonic/coolshot/coolshot.lo panasonic/coolshot/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/panasonic_coolshot.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/panasonic_coolshot.ver
+libtool: relink:  echo "local: *; };" >> .libs/panasonic_coolshot.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  panasonic/coolshot/.libs/coolshot.o panasonic/coolshot/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,panasonic_coolshot.so -Wl,-version-script -Wl,.libs/panasonic_coolshot.ver -o .libs/panasonic_coolshot.so
+libtool: install: /usr/bin/install -c .libs/panasonic_coolshot.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_coolshot.so
+libtool: install: /usr/bin/install -c .libs/panasonic_coolshot.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_coolshot.la
+libtool: install: warning: relinking `panasonic_l859.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o panasonic_l859.la panasonic/l859/l859.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/panasonic_l859.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/panasonic_l859.ver
+libtool: relink:  echo "local: *; };" >> .libs/panasonic_l859.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  panasonic/l859/.libs/l859.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,panasonic_l859.so -Wl,-version-script -Wl,.libs/panasonic_l859.ver -o .libs/panasonic_l859.so
+libtool: install: /usr/bin/install -c .libs/panasonic_l859.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_l859.so
+libtool: install: /usr/bin/install -c .libs/panasonic_l859.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_l859.la
+libtool: install: warning: relinking `panasonic_dc1000.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o panasonic_dc1000.la panasonic/dc1000.lo panasonic/dc.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/panasonic_dc1000.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/panasonic_dc1000.ver
+libtool: relink:  echo "local: *; };" >> .libs/panasonic_dc1000.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  panasonic/.libs/dc1000.o panasonic/.libs/dc.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,panasonic_dc1000.so -Wl,-version-script -Wl,.libs/panasonic_dc1000.ver -o .libs/panasonic_dc1000.so
+libtool: install: /usr/bin/install -c .libs/panasonic_dc1000.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_dc1000.so
+libtool: install: /usr/bin/install -c .libs/panasonic_dc1000.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_dc1000.la
+libtool: install: warning: relinking `panasonic_dc1580.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o panasonic_dc1580.la panasonic/dc1580.lo panasonic/dc.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/panasonic_dc1580.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/panasonic_dc1580.ver
+libtool: relink:  echo "local: *; };" >> .libs/panasonic_dc1580.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  panasonic/.libs/dc1580.o panasonic/.libs/dc.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,panasonic_dc1580.so -Wl,-version-script -Wl,.libs/panasonic_dc1580.ver -o .libs/panasonic_dc1580.so
+libtool: install: /usr/bin/install -c .libs/panasonic_dc1580.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_dc1580.so
+libtool: install: /usr/bin/install -c .libs/panasonic_dc1580.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/panasonic_dc1580.la
+libtool: install: warning: relinking `pccam300.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o pccam300.la pccam300/pccam300.lo pccam300/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/pccam300.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/pccam300.ver
+libtool: relink:  echo "local: *; };" >> .libs/pccam300.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  pccam300/.libs/pccam300.o pccam300/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,pccam300.so -Wl,-version-script -Wl,.libs/pccam300.ver -o .libs/pccam300.so
+libtool: install: /usr/bin/install -c .libs/pccam300.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/pccam300.so
+libtool: install: /usr/bin/install -c .libs/pccam300.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/pccam300.la
+libtool: install: warning: relinking `pccam600.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o pccam600.la pccam600/pccam600.lo pccam600/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/pccam600.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/pccam600.ver
+libtool: relink:  echo "local: *; };" >> .libs/pccam600.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  pccam600/.libs/pccam600.o pccam600/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,pccam600.so -Wl,-version-script -Wl,.libs/pccam600.ver -o .libs/pccam600.so
+libtool: install: /usr/bin/install -c .libs/pccam600.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/pccam600.so
+libtool: install: /usr/bin/install -c .libs/pccam600.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/pccam600.la
+libtool: install: warning: relinking `pentax.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -Wno-unused -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -DLIBGPHOTO2 -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o pentax.la pentax/pentax_la-pslr.lo pentax/pentax_la-library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/pentax.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/pentax.ver
+libtool: relink:  echo "local: *; };" >> .libs/pentax.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  pentax/.libs/pentax_la-pslr.o pentax/.libs/pentax_la-library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2 -O2   -Wl,-soname -Wl,pentax.so -Wl,-version-script -Wl,.libs/pentax.ver -o .libs/pentax.so
+libtool: install: /usr/bin/install -c .libs/pentax.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/pentax.so
+libtool: install: /usr/bin/install -c .libs/pentax.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/pentax.la
+libtool: install: warning: relinking `polaroid_pdc320.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o polaroid_pdc320.la polaroid/pdc320.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/polaroid_pdc320.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/polaroid_pdc320.ver
+libtool: relink:  echo "local: *; };" >> .libs/polaroid_pdc320.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  polaroid/.libs/pdc320.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,polaroid_pdc320.so -Wl,-version-script -Wl,.libs/polaroid_pdc320.ver -o .libs/polaroid_pdc320.so
+libtool: install: /usr/bin/install -c .libs/polaroid_pdc320.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/polaroid_pdc320.so
+libtool: install: /usr/bin/install -c .libs/polaroid_pdc320.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/polaroid_pdc320.la
+libtool: install: warning: relinking `polaroid_pdc640.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o polaroid_pdc640.la polaroid/pdc640.lo polaroid/jd350e.lo polaroid/dlink350f.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/polaroid_pdc640.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/polaroid_pdc640.ver
+libtool: relink:  echo "local: *; };" >> .libs/polaroid_pdc640.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  polaroid/.libs/pdc640.o polaroid/.libs/jd350e.o polaroid/.libs/dlink350f.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,polaroid_pdc640.so -Wl,-version-script -Wl,.libs/polaroid_pdc640.ver -o .libs/polaroid_pdc640.so
+libtool: install: /usr/bin/install -c .libs/polaroid_pdc640.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/polaroid_pdc640.so
+libtool: install: /usr/bin/install -c .libs/polaroid_pdc640.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/polaroid_pdc640.la
+libtool: install: warning: relinking `polaroid_pdc700.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o polaroid_pdc700.la polaroid/pdc700.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/polaroid_pdc700.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/polaroid_pdc700.ver
+libtool: relink:  echo "local: *; };" >> .libs/polaroid_pdc700.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  polaroid/.libs/pdc700.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,polaroid_pdc700.so -Wl,-version-script -Wl,.libs/polaroid_pdc700.ver -o .libs/polaroid_pdc700.so
+libtool: install: /usr/bin/install -c .libs/polaroid_pdc700.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/polaroid_pdc700.so
+libtool: install: /usr/bin/install -c .libs/polaroid_pdc700.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/polaroid_pdc700.la
+libtool: install: warning: relinking `ptp2.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o ptp2.la ptp2/ptp2_la-ptp.lo ptp2/ptp2_la-library.lo ptp2/ptp2_la-usb.lo ptp2/ptp2_la-ptpip.lo ptp2/ptp2_la-config.lo ptp2/ptp2_la-olympus-wrap.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lxml2 )
+libtool: relink: echo "{ global:" > .libs/ptp2.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/ptp2.ver
+libtool: relink:  echo "local: *; };" >> .libs/ptp2.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  ptp2/.libs/ptp2_la-ptp.o ptp2/.libs/ptp2_la-library.o ptp2/.libs/ptp2_la-usb.o ptp2/.libs/ptp2_la-ptpip.o ptp2/.libs/ptp2_la-config.o ptp2/.libs/ptp2_la-olympus-wrap.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread -lxml2  -O2   -Wl,-soname -Wl,ptp2.so -Wl,-version-script -Wl,.libs/ptp2.ver -o .libs/ptp2.so
+libtool: install: /usr/bin/install -c .libs/ptp2.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ptp2.so
+libtool: install: /usr/bin/install -c .libs/ptp2.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ptp2.la
+libtool: install: warning: relinking `ricoh.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o ricoh.la ricoh/library.lo ricoh/ricoh.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/ricoh.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/ricoh.ver
+libtool: relink:  echo "local: *; };" >> .libs/ricoh.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  ricoh/.libs/library.o ricoh/.libs/ricoh.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,ricoh.so -Wl,-version-script -Wl,.libs/ricoh.ver -o .libs/ricoh.so
+libtool: install: /usr/bin/install -c .libs/ricoh.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ricoh.so
+libtool: install: /usr/bin/install -c .libs/ricoh.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ricoh.la
+libtool: install: warning: relinking `ricoh_g3.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o ricoh_g3.la ricoh/g3.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/ricoh_g3.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/ricoh_g3.ver
+libtool: relink:  echo "local: *; };" >> .libs/ricoh_g3.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  ricoh/.libs/g3.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,ricoh_g3.so -Wl,-version-script -Wl,.libs/ricoh_g3.ver -o .libs/ricoh_g3.so
+libtool: install: /usr/bin/install -c .libs/ricoh_g3.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ricoh_g3.so
+libtool: install: /usr/bin/install -c .libs/ricoh_g3.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/ricoh_g3.la
+libtool: install: warning: relinking `samsung.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o samsung.la samsung/samsung.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/samsung.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/samsung.ver
+libtool: relink:  echo "local: *; };" >> .libs/samsung.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  samsung/.libs/samsung.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,samsung.so -Wl,-version-script -Wl,.libs/samsung.ver -o .libs/samsung.so
+libtool: install: /usr/bin/install -c .libs/samsung.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/samsung.so
+libtool: install: /usr/bin/install -c .libs/samsung.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/samsung.la
+libtool: install: warning: relinking `sierra.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sierra.la sierra/sierra_la-sierra.lo sierra/sierra_la-library.lo sierra/sierra_la-sierra-usbwrap.lo sierra/sierra_la-sierra-desc.lo sierra/sierra_la-nikon-desc.lo sierra/sierra_la-olympus-desc.lo sierra/sierra_la-epson-desc.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lexif )
+libtool: relink: echo "{ global:" > .libs/sierra.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sierra.ver
+libtool: relink:  echo "local: *; };" >> .libs/sierra.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sierra/.libs/sierra_la-sierra.o sierra/.libs/sierra_la-library.o sierra/.libs/sierra_la-sierra-usbwrap.o sierra/.libs/sierra_la-sierra-desc.o sierra/.libs/sierra_la-nikon-desc.o sierra/.libs/sierra_la-olympus-desc.o sierra/.libs/sierra_la-epson-desc.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lm -lgphoto2_port -lltdl -lpthread -lexif  -O2   -Wl,-soname -Wl,sierra.so -Wl,-version-script -Wl,.libs/sierra.ver -o .libs/sierra.so
+libtool: install: /usr/bin/install -c .libs/sierra.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sierra.so
+libtool: install: /usr/bin/install -c .libs/sierra.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sierra.la
+libtool: install: warning: relinking `sipix_blink2.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sipix_blink2.la sipix/blink2.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -ljpeg )
+libtool: relink: echo "{ global:" > .libs/sipix_blink2.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sipix_blink2.ver
+libtool: relink:  echo "local: *; };" >> .libs/sipix_blink2.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sipix/.libs/blink2.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread -ljpeg  -O2   -Wl,-soname -Wl,sipix_blink2.so -Wl,-version-script -Wl,.libs/sipix_blink2.ver -o .libs/sipix_blink2.so
+libtool: install: /usr/bin/install -c .libs/sipix_blink2.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sipix_blink2.so
+libtool: install: /usr/bin/install -c .libs/sipix_blink2.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sipix_blink2.la
+libtool: install: warning: relinking `sipix_web2.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sipix_web2.la sipix/web2.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/sipix_web2.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sipix_web2.ver
+libtool: relink:  echo "local: *; };" >> .libs/sipix_web2.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sipix/.libs/web2.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,sipix_web2.so -Wl,-version-script -Wl,.libs/sipix_web2.ver -o .libs/sipix_web2.so
+libtool: install: /usr/bin/install -c .libs/sipix_web2.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sipix_web2.so
+libtool: install: /usr/bin/install -c .libs/sipix_web2.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sipix_web2.la
+libtool: install: warning: relinking `smal.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o smal.la smal/smal.lo smal/ultrapocket.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/smal.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/smal.ver
+libtool: relink:  echo "local: *; };" >> .libs/smal.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  smal/.libs/smal.o smal/.libs/ultrapocket.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,smal.so -Wl,-version-script -Wl,.libs/smal.ver -o .libs/smal.so
+libtool: install: /usr/bin/install -c .libs/smal.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/smal.so
+libtool: install: /usr/bin/install -c .libs/smal.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/smal.la
+libtool: install: warning: relinking `sonix.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sonix.la sonix/library.lo sonix/sonix.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/sonix.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sonix.ver
+libtool: relink:  echo "local: *; };" >> .libs/sonix.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sonix/.libs/library.o sonix/.libs/sonix.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,sonix.so -Wl,-version-script -Wl,.libs/sonix.ver -o .libs/sonix.so
+libtool: install: /usr/bin/install -c .libs/sonix.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sonix.so
+libtool: install: /usr/bin/install -c .libs/sonix.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sonix.la
+libtool: install: warning: relinking `sony_dscf1.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sony_dscf1.la sonydscf1/command.lo sonydscf1/sonydscf1.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/sony_dscf1.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sony_dscf1.ver
+libtool: relink:  echo "local: *; };" >> .libs/sony_dscf1.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sonydscf1/.libs/command.o sonydscf1/.libs/sonydscf1.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,sony_dscf1.so -Wl,-version-script -Wl,.libs/sony_dscf1.ver -o .libs/sony_dscf1.so
+libtool: install: /usr/bin/install -c .libs/sony_dscf1.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sony_dscf1.so
+libtool: install: /usr/bin/install -c .libs/sony_dscf1.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sony_dscf1.la
+libtool: install: warning: relinking `sony_dscf55.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sony_dscf55.la sonydscf55/sony.lo sonydscf55/camera.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/sony_dscf55.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sony_dscf55.ver
+libtool: relink:  echo "local: *; };" >> .libs/sony_dscf55.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sonydscf55/.libs/sony.o sonydscf55/.libs/camera.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,sony_dscf55.so -Wl,-version-script -Wl,.libs/sony_dscf55.ver -o .libs/sony_dscf55.so
+libtool: install: /usr/bin/install -c .libs/sony_dscf55.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sony_dscf55.so
+libtool: install: /usr/bin/install -c .libs/sony_dscf55.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sony_dscf55.la
+libtool: install: warning: relinking `soundvision.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o soundvision.la soundvision/soundvision.lo soundvision/agfa_cl18.lo soundvision/tiger_fastflicks.lo soundvision/commands.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/soundvision.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/soundvision.ver
+libtool: relink:  echo "local: *; };" >> .libs/soundvision.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  soundvision/.libs/soundvision.o soundvision/.libs/agfa_cl18.o soundvision/.libs/tiger_fastflicks.o soundvision/.libs/commands.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,soundvision.so -Wl,-version-script -Wl,.libs/soundvision.ver -o .libs/soundvision.so
+libtool: install: /usr/bin/install -c .libs/soundvision.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/soundvision.so
+libtool: install: /usr/bin/install -c .libs/soundvision.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/soundvision.la
+libtool: install: warning: relinking `spca50x.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o spca50x.la spca50x/spca50x.lo spca50x/spca50x-flash.lo spca50x/spca50x-sdram.lo spca50x/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/spca50x.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/spca50x.ver
+libtool: relink:  echo "local: *; };" >> .libs/spca50x.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  spca50x/.libs/spca50x.o spca50x/.libs/spca50x-flash.o spca50x/.libs/spca50x-sdram.o spca50x/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,spca50x.so -Wl,-version-script -Wl,.libs/spca50x.ver -o .libs/spca50x.so
+libtool: install: /usr/bin/install -c .libs/spca50x.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/spca50x.so
+libtool: install: /usr/bin/install -c .libs/spca50x.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/spca50x.la
+libtool: install: warning: relinking `sq905.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sq905.la sq905/library.lo sq905/sq905.lo sq905/postprocess.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/sq905.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sq905.ver
+libtool: relink:  echo "local: *; };" >> .libs/sq905.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sq905/.libs/library.o sq905/.libs/sq905.o sq905/.libs/postprocess.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,sq905.so -Wl,-version-script -Wl,.libs/sq905.ver -o .libs/sq905.so
+libtool: install: /usr/bin/install -c .libs/sq905.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sq905.so
+libtool: install: /usr/bin/install -c .libs/sq905.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sq905.la
+libtool: install: warning: relinking `st2205.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -I/usr/include -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o st2205.la st2205/st2205_la-library.lo st2205/st2205_la-st2205.lo st2205/st2205_la-st2205_decode.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lXpm -lX11 -ljpeg -lfontconfig -lfreetype -lpng -lz -lm )
+libtool: relink: echo "{ global:" > .libs/st2205.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/st2205.ver
+libtool: relink:  echo "local: *; };" >> .libs/st2205.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  st2205/.libs/st2205_la-library.o st2205/.libs/st2205_la-st2205.o st2205/.libs/st2205_la-st2205_decode.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lgphoto2_port -lltdl -lpthread -lXpm -lX11 -ljpeg -lfontconfig -lfreetype -lpng -lz -lm  -O2   -Wl,-soname -Wl,st2205.so -Wl,-version-script -Wl,.libs/st2205.ver -o .libs/st2205.so
+libtool: install: /usr/bin/install -c .libs/st2205.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/st2205.so
+libtool: install: /usr/bin/install -c .libs/st2205.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/st2205.la
+libtool: install: warning: relinking `stv0674.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o stv0674.la stv0674/stv0674.lo stv0674/library.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/stv0674.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/stv0674.ver
+libtool: relink:  echo "local: *; };" >> .libs/stv0674.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  stv0674/.libs/stv0674.o stv0674/.libs/library.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,stv0674.so -Wl,-version-script -Wl,.libs/stv0674.ver -o .libs/stv0674.so
+libtool: install: /usr/bin/install -c .libs/stv0674.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/stv0674.so
+libtool: install: /usr/bin/install -c .libs/stv0674.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/stv0674.la
+libtool: install: warning: relinking `stv0680.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o stv0680.la stv0680/stv0680.lo stv0680/library.lo stv0680/bayer.lo stv0680/sharpen.lo stv0680/saturate.lo stv0680/demosaic_sharpen.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/stv0680.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/stv0680.ver
+libtool: relink:  echo "local: *; };" >> .libs/stv0680.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  stv0680/.libs/stv0680.o stv0680/.libs/library.o stv0680/.libs/bayer.o stv0680/.libs/sharpen.o stv0680/.libs/saturate.o stv0680/.libs/demosaic_sharpen.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,stv0680.so -Wl,-version-script -Wl,.libs/stv0680.ver -o .libs/stv0680.so
+libtool: install: /usr/bin/install -c .libs/stv0680.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/stv0680.so
+libtool: install: /usr/bin/install -c .libs/stv0680.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/stv0680.la
+libtool: install: warning: relinking `sx330z.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o sx330z.la sx330z/library.lo sx330z/sx330z.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/sx330z.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/sx330z.ver
+libtool: relink:  echo "local: *; };" >> .libs/sx330z.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  sx330z/.libs/library.o sx330z/.libs/sx330z.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,sx330z.so -Wl,-version-script -Wl,.libs/sx330z.ver -o .libs/sx330z.so
+libtool: install: /usr/bin/install -c .libs/sx330z.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sx330z.so
+libtool: install: /usr/bin/install -c .libs/sx330z.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/sx330z.la
+libtool: install: warning: relinking `topfield.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o topfield.la topfield/crc16.lo topfield/tf_bytes.lo topfield/mjd.lo topfield/puppy.lo topfield/usb_io.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/topfield.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/topfield.ver
+libtool: relink:  echo "local: *; };" >> .libs/topfield.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  topfield/.libs/crc16.o topfield/.libs/tf_bytes.o topfield/.libs/mjd.o topfield/.libs/puppy.o topfield/.libs/usb_io.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,topfield.so -Wl,-version-script -Wl,.libs/topfield.ver -o .libs/topfield.so
+libtool: install: /usr/bin/install -c .libs/topfield.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/topfield.so
+libtool: install: /usr/bin/install -c .libs/topfield.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/topfield.la
+libtool: install: warning: relinking `toshiba_pdrm11.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o toshiba_pdrm11.la toshiba/pdrm11/library.lo toshiba/pdrm11/pdrm11.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la )
+libtool: relink: echo "{ global:" > .libs/toshiba_pdrm11.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/toshiba_pdrm11.ver
+libtool: relink:  echo "local: *; };" >> .libs/toshiba_pdrm11.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  toshiba/pdrm11/.libs/library.o toshiba/pdrm11/.libs/pdrm11.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lm -lgphoto2_port -lltdl -lpthread  -O2   -Wl,-soname -Wl,toshiba_pdrm11.so -Wl,-version-script -Wl,.libs/toshiba_pdrm11.ver -o .libs/toshiba_pdrm11.so
+libtool: install: /usr/bin/install -c .libs/toshiba_pdrm11.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/toshiba_pdrm11.so
+libtool: install: /usr/bin/install -c .libs/toshiba_pdrm11.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/toshiba_pdrm11.la
+libtool: install: warning: relinking `tp6801.la'
+libtool: install: (cd /tmp/_build-status-gphoto/libgphoto2/_b/camlibs; /bin/sh /tmp/_build-status-gphoto/libgphoto2/_b/libtool  --tag CC --mode=relink gcc -I/usr/include -g -O2 -Wall -g -Wmissing-declarations -Wmissing-prototypes -module -no-undefined -avoid-version -export-dynamic -export-symbols ../../camlibs/camlib.sym -rpath /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1 -g -o tp6801.la tp6801/tp6801_la-library.lo tp6801/tp6801_la-tp6801.lo ../libgphoto2/libgphoto2.la ../libgphoto2_port/libgphoto2_port/libgphoto2_port.la -lXpm -lX11 -ljpeg -lfontconfig -lfreetype -lpng -lz -lm )
+libtool: relink: echo "{ global:" > .libs/tp6801.ver
+libtool: relink:  cat ../../camlibs/camlib.sym | sed -e "s/\(.*\)/\1;/" >> .libs/tp6801.ver
+libtool: relink:  echo "local: *; };" >> .libs/tp6801.ver
+libtool: relink:  gcc -shared  -fPIC -DPIC  tp6801/.libs/tp6801_la-library.o tp6801/.libs/tp6801_la-tp6801.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port/.libs -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lexif -lgphoto2_port -lltdl -lpthread -lXpm -lX11 -ljpeg -lfontconfig -lfreetype -lpng -lz -lm  -O2   -Wl,-soname -Wl,tp6801.so -Wl,-version-script -Wl,.libs/tp6801.ver -o .libs/tp6801.so
+libtool: install: /usr/bin/install -c .libs/tp6801.soT /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/tp6801.so
+libtool: install: /usr/bin/install -c .libs/tp6801.lai /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1/tp6801.la
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/builduser/.local/bin:/home/builduser/bin:/home/builduser/.local/bin:/home/builduser/bin:/sbin" ldconfig -n /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/2.5.2.1
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+Making install in canon/doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/canon/doc'
+Dummy target all-local.
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/canon/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+Dummy target install-data-local
+Re-run configure with adequate parameters and run make again to build docs.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/canon/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/canon/doc'
+Making install in konica/localization
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/konica/localization'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/konica/localization'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/libgphoto2/2.5.2.1/konica'
+ /usr/bin/install -c -m 644 ../../../../camlibs/konica/localization/english ../../../../camlibs/konica/localization/french ../../../../camlibs/konica/localization/german ../../../../camlibs/konica/localization/japanese ../../../../camlibs/konica/localization/korean ../../../../camlibs/konica/localization/spanish '/tmp/_build-status-gphoto/PREFIX/share/libgphoto2/2.5.2.1/konica'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/konica/localization'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/konica/localization'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+Making install in tests
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+Making install in ddb
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+make  install-am
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+Making install in examples
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/examples'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/examples'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/examples'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/examples'
+Making install in po
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/po'
+/bin/sh ../../auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share
+installing ../../po/cs.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/cs/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/da.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/da/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/de.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/de/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/es.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/es/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/eu.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/eu/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/fr.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/fr/LC_MESSAGES/libgphoto2-6.mo
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/locale/hu/LC_MESSAGES
+installing ../../po/hu.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/hu/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/it.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/it/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/ja.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ja/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/nl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/nl/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/pl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pl/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/ru.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ru/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/sv.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sv/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/uk.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/uk/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/vi.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/vi/LC_MESSAGES/libgphoto2-6.mo
+installing ../../po/zh_CN.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/zh_CN/LC_MESSAGES/libgphoto2-6.mo
+if test "libgphoto2" = "gettext-tools"; then \
+  /bin/sh ../../auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /tmp/_build-status-gphoto/PREFIX/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tmp/_build-status-gphoto/PREFIX/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/po'
+Making install in packaging
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+Making install in linux-hotplug
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/linux-hotplug'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/linux-hotplug'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/linux-hotplug'
+ /usr/bin/install -c -m 644 ../../../packaging/linux-hotplug/usbcam.console ../../../packaging/linux-hotplug/usbcam.group ../../../packaging/linux-hotplug/usbcam.user ../../../packaging/linux-hotplug/usbcam.x11-app '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2/linux-hotplug'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/linux-hotplug'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/linux-hotplug'
+Making install in generic
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/udev'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c print-camera-list '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2'
+ /usr/bin/install -c ../../../packaging/generic/check-ptp-camera '/tmp/_build-status-gphoto/PREFIX/lib/udev'
+libtool: install: /usr/bin/install -c .libs/print-camera-list /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2/print-camera-list
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
+Making install in rpm
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/rpm'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/rpm'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/rpm'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/rpm'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+Making install in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+Making install in api
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc/api'
+Dummy target all-local.
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc/api'
+make[3]: Nothing to be done for `install-exec-am'.
+Dummy target install-data-local
+Re-run configure with adequate parameters and run make again to build docs.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc/api'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc/api'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+mkdir -p "/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2"
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2'
+find "doxygen-output/libgphoto2-api.html" \
+	\( -type d -exec chmod 0755 {} \; \) -or \
+	\( -type f -exec chmod 0644 {} \; \)
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/man/man3'
+ /usr/bin/install -c -m 644 ../../doc/README.apidocs '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2'
+ /usr/bin/install -c -m 644 ../../doc/libgphoto2.3 ../../doc/libgphoto2_port.3 '/tmp/_build-status-gphoto/PREFIX/share/man/man3'
+(unset CDPATH; cd "doxygen-output" && tar cpf - "libgphoto2-api.html") \
+	| (cd "/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2" && tar xpf -)
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+Making install in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/gphoto-m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/gphoto-m4'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/gphoto-m4'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b'
+rm -f /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
+/usr/bin/install -c -m 0755 -d /tmp/_build-status-gphoto/PREFIX/include/gphoto2
+ln -s . /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2'
+ /usr/bin/install -c gphoto2-config '/tmp/_build-status-gphoto/PREFIX/bin'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include'
+ /usr/bin/install -c -m 644 ../AUTHORS ../COPYING ../NEWS ../ABOUT-NLS ../ChangeLog README ../README.packaging '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
+ /usr/bin/install -c -m 644  ../gphoto2/gphoto2.h ../gphoto2/gphoto2-abilities-list.h ../gphoto2/gphoto2-camera.h ../gphoto2/gphoto2-context.h ../gphoto2/gphoto2-file.h ../gphoto2/gphoto2-filesys.h ../gphoto2/gphoto2-library.h ../gphoto2/gphoto2-list.h ../gphoto2/gphoto2-result.h ../gphoto2/gphoto2-setting.h ../gphoto2/gphoto2-version.h ../gphoto2/gphoto2-widget.h '/tmp/_build-status-gphoto/PREFIX/include/gphoto2'
+ /usr/bin/install -c -m 644 libgphoto2.pc '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b'

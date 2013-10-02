@@ -1,0 +1,20 @@
+Making installcheck in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+Running "installcheck" test cases...
+Test summary: 0 succeeded, 0 failed, 0 failures ignored, 0 tests in total.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+Making installcheck in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+Making installcheck in Sample
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+Making installcheck in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+make[1]: Nothing to be done for `installcheck-am'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'

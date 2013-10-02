@@ -1,0 +1,177 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for POSIX sh $() command substitution... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether gcc and cc understand -c and -o together... yes
+checking PKG_CONFIG_PATH... /tmp/_build-status-gphoto/PREFIX/lib/pkgconfig
+checking for pkg-config... /usr/bin/pkg-config
+checking whether NLS is requested... yes
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.16.3
+checking for XML::Parser... ok
+checking for po/Makevars requiring hack... yes, done.
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for msgmerge... (cached) /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for dynamic library extension... .so
+checking pkg-config is at least version 0.9.0... yes
+checking for libgphoto2 to use... autodetect
+checking for LIBGPHOTO2... yes
+checking libgphoto2 library flags... "-L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif  "
+checking libgphoto2 cpp flags... "-I/tmp/_build-status-gphoto/PREFIX/include/gphoto2  "
+checking for gp_port_info_get_name... yes
+checking for GTK... yes
+checking for libexif to use... autodetect
+checking for LIBEXIF... yes
+checking libexif library flags... "-lexif  "
+checking libexif cpp flags... " "
+checking for libexif-gtk to use... autodetect
+checking for LIBEXIF_GTK... yes
+configure: WARNING: The `libexif-gtk' library could not be found using pkg-config or its known config program.
+No version checks will be performed if it is found using any other method.
+checking libexif-gtk library flags... "-lexif-gtk -lm -lexif  "
+checking libexif-gtk cpp flags... " "
+checking for rpmbuild or rpm... using autodetection
+checking for rpmbuild... rpmbuild
+rpmbuild (autodetect)
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: creating gphoto-m4/Makefile
+config.status: creating Makefile
+config.status: creating art/Makefile
+config.status: creating pixmaps/Makefile
+config.status: creating packaging/Makefile
+config.status: creating packaging/rpm/Makefile
+config.status: creating packaging/rpm/package.spec
+config.status: creating src/Makefile
+config.status: creating test/Makefile
+config.status: creating doc/Makefile
+config.status: creating omf-install/Makefile
+config.status: creating omf-install/gtkam-C.omf
+config.status: creating help/Makefile
+config.status: creating help/C/Makefile
+config.status: creating help/ru/Makefile
+config.status: creating intltool-extract
+config.status: creating intltool-merge
+config.status: creating intltool-update
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing po/stamp-it commands
+
+Configuration (gtkam 0.2.0):
+
+  Build
+    Source code location:          ..
+    Compiler:                      gcc
+
+  Features
+    Use translations:              yes
+    libgphoto2:                    yes
+    bonobo support:                no (bonobo-activation, bononoboui libs)
+    Gnome support:                 no (gnomeui lib)
+    GTKAM_C_IDENTIFIER:            file:$(datadir)/gnome/help/gtkam/C/gtkam.xml
+    Gimp support:                  no
+    libexif:                       yes
+    libexif-gtk:                   yes
+
+You may run "make" and "make install" now.

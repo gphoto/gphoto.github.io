@@ -1,0 +1,59 @@
+Making installcheck in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+Making installcheck in art
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+Making installcheck in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+Making installcheck in help
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+Making installcheck in C
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+Making installcheck in ru
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+Making installcheck in omf-install
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+Making installcheck in packaging
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+Making installcheck in rpm
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+Making installcheck in pixmaps
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+Making installcheck in po
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+Making installcheck in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+Making installcheck in test
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b'
+make[1]: Nothing to be done for `installcheck-am'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b'

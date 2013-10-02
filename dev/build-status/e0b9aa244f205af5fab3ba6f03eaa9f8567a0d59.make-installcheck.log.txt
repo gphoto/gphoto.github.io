@@ -1,0 +1,78 @@
+Making installcheck in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+Running "installcheck" test cases...
+Test case: test-gp.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.010s
+
+OK
+['2.5.2.1', 'all camlibs', 'gcc', 'ltdl', 'EXIF']
+['2.5.2.1',
+ 'all camlibs',
+ 'gcc (C compiler used)',
+ 'ltdl (for portable loading of camlibs)',
+ 'EXIF (for special handling of EXIF files)']
+14  ports found:
+PTP/IP Connection: ptpip:
+Serial Port 0: serial:/dev/ttyS0
+Serial Port 1: serial:/dev/ttyS1
+Serial Port 2: serial:/dev/ttyS2
+Serial Port 3: serial:/dev/ttyS3
+Universal Serial Bus: usb:002,002
+USB Mass Storage direct IO: usbdiskdirect:/dev/sdc
+USB Mass Storage direct IO: usbdiskdirect:/dev/sdd
+USB Mass Storage direct IO: usbdiskdirect:/dev/sde
+USB Mass Storage direct IO: usbdiskdirect:/dev/sdf
+USB Mass Storage raw SCSI: usbscsi:/dev/sg3
+USB Mass Storage raw SCSI: usbscsi:/dev/sg4
+USB Mass Storage raw SCSI: usbscsi:/dev/sg5
+USB Mass Storage raw SCSI: usbscsi:/dev/sg6
+Creating camera...
+['__class__',
+ '__delattr__',
+ '__doc__',
+ '__format__',
+ '__getattribute__',
+ '__hash__',
+ '__init__',
+ '__new__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__setattr__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ 'abilities',
+ 'capture_image',
+ 'config',
+ 'delete_file',
+ 'download_file_to',
+ 'init',
+ 'list_files_in_folder',
+ 'list_folders_in_folder',
+ 'reinit',
+ 'summary',
+ 'upload_file_to',
+ 'wait_for_event']
+['__builtins__',
+ '__doc__',
+ '__file__',
+ '__name__',
+ '__package__',
+ 'abilities_list',
+ 'camera',
+ 'cameraAbilities',
+ 'cameraList',
+ 'cameraWidget',
+ 'cameraeventtype',
+ 'library_version',
+ 'portInfo',
+ 'ports']
+SUCCEEDED: test-gp.py
+Test summary: 1 succeeded, 0 failed, 0 failures ignored, 1 tests in total.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'

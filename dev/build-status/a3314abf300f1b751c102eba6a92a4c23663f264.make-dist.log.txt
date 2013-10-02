@@ -1,0 +1,211 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b'
+if test -d "gphoto2-2.5.2.1"; then find "gphoto2-2.5.2.1" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphoto2-2.5.2.1" || { sleep 5 && rm -rf "gphoto2-2.5.2.1"; }; else :; fi
+test -d "gphoto2-2.5.2.1" || mkdir "gphoto2-2.5.2.1"
+ (cd gphoto-m4 && make  top_distdir=../gphoto2-2.5.2.1 distdir=../gphoto2-2.5.2.1/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+ (cd contrib && make  top_distdir=../gphoto2-2.5.2.1 distdir=../gphoto2-2.5.2.1/contrib \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+ (cd doc && make  top_distdir=../gphoto2-2.5.2.1 distdir=../gphoto2-2.5.2.1/doc \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+ (cd gphoto2 && make  top_distdir=../gphoto2-2.5.2.1 distdir=../gphoto2-2.5.2.1/gphoto2 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+ (cd packaging && make  top_distdir=../gphoto2-2.5.2.1 distdir=../gphoto2-2.5.2.1/packaging \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+ (cd rpm && make  top_distdir=../../gphoto2-2.5.2.1 distdir=../../gphoto2-2.5.2.1/packaging/rpm \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+cp package.spec gphoto2.spec
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+ (cd po && make  top_distdir=../gphoto2-2.5.2.1 distdir=../gphoto2-2.5.2.1/po \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+make update-po
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+make gphoto2.pot-update
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+/usr/bin/xgettext --default-domain=gphoto2 --directory=../.. \
+  --add-comments=TRANSLATORS: --keyword=_ --keyword=N_ \
+  --files-from=../../po/POTFILES.in \
+  --copyright-holder='Lutz Müller and others' \
+  --msgid-bugs-address='gphoto-devel@lists.sourceforge.net'
+test ! -f gphoto2.po || { \
+  if test -f ../../po/gphoto2.pot; then \
+    sed -f remove-potcdate.sed < ../../po/gphoto2.pot > gphoto2.1po && \
+    sed -f remove-potcdate.sed < gphoto2.po > gphoto2.2po && \
+    if cmp gphoto2.1po gphoto2.2po >/dev/null 2>&1; then \
+      rm -f gphoto2.1po gphoto2.2po gphoto2.po; \
+    else \
+      rm -f gphoto2.1po gphoto2.2po ../../po/gphoto2.pot && \
+      mv gphoto2.po ../../po/gphoto2.pot; \
+    fi; \
+  else \
+    mv gphoto2.po ../../po/gphoto2.pot; \
+  fi; \
+}
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+test -z "az.po-update cs.po-update da.po-update de.po-update en_GB.po-update es.po-update eu.po-update fi.po-update fr.po-update hu.po-update id.po-update is.po-update it.po-update ja.po-update nl.po-update pa.po-update pl.po-update pt_BR.po-update ro.po-update ru.po-update rw.po-update sk.po-update sr.po-update sv.po-update uk.po-update vi.po-update zh_CN.po-update zh_TW.po-update" || make az.po-update cs.po-update da.po-update de.po-update en_GB.po-update es.po-update eu.po-update fi.po-update fr.po-update hu.po-update id.po-update is.po-update it.po-update ja.po-update nl.po-update pa.po-update pl.po-update pt_BR.po-update ro.po-update ru.po-update rw.po-update sk.po-update sr.po-update sv.po-update uk.po-update vi.po-update zh_CN.po-update zh_TW.po-update
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+az:
+cd ../../po && msgmerge az.po gphoto2.pot -o az.new.po
+da:
+cd ../../po && msgmerge da.po gphoto2.pot -o da.new.po
+cs:
+cd ../../po && msgmerge cs.po gphoto2.pot -o cs.new.po
+................................. done.
+................................. done.
+en_GB:
+cd ../../po && msgmerge en_GB.po gphoto2.pot -o en_GB.new.po
+................................. done.
+de:
+cd ../../po && msgmerge de.po gphoto2.pot -o de.new.po
+................................... done.
+......................................... done.
+es:
+cd ../../po && msgmerge es.po gphoto2.pot -o es.new.po
+................................... done.
+fi:
+cd ../../po && msgmerge fi.po gphoto2.pot -o fi.new.po
+................................. done.
+................................. done.
+fr:
+cd ../../po && msgmerge fr.po gphoto2.pot -o fr.new.po
+hu:
+cd ../../po && msgmerge hu.po gphoto2.pot -o hu.new.po
+id:
+cd ../../po && msgmerge id.po gphoto2.pot -o id.new.po
+................................. done.
+...................................................... done.
+ done.
+is:
+cd ../../po && msgmerge is.po gphoto2.pot -o is.new.po
+ja:
+cd ../../po && msgmerge ja.po gphoto2.pot -o ja.new.po
+it:
+cd ../../po && msgmerge it.po gphoto2.pot -o it.new.po
+................................... done.
+.................................................................. done.
+ done.
+nl:
+cd ../../po && msgmerge nl.po gphoto2.pot -o nl.new.po
+pl:
+cd ../../po && msgmerge pl.po gphoto2.pot -o pl.new.po
+.................................pa:
+cd ../../po && msgmerge pa.po gphoto2.pot -o pa.new.po
+.. done.
+.................................... done.
+................................. done.
+pt_BR:
+cd ../../po && msgmerge pt_BR.po gphoto2.pot -o pt_BR.new.po
+ro:
+cd ../../po && msgmerge ro.po gphoto2.pot -o ro.new.po
+................................... done.
+................................. done.
+ru:
+cd ../../po && msgmerge ru.po gphoto2.pot -o ru.new.po
+rw:
+cd ../../po && msgmerge rw.po gphoto2.pot -o rw.new.po
+sk:
+cd ../../po && msgmerge sk.po gphoto2.pot -o sk.new.po
+................................. done.
+................................. done.
+................................. done.
+sr:
+cd ../../po && msgmerge sr.po gphoto2.pot -o sr.new.po
+sv:
+cd ../../po && msgmerge sv.po gphoto2.pot -o sv.new.po
+uk:
+cd ../../po && msgmerge uk.po gphoto2.pot -o uk.new.po
+................................. done.
+................................. done.
+................................. done.
+vi:
+cd ../../po && msgmerge vi.po gphoto2.pot -o vi.new.po
+zh_CN:
+cd ../../po && msgmerge zh_CN.po gphoto2.pot -o zh_CN.new.po
+zh_TW:
+cd ../../po && msgmerge zh_TW.po gphoto2.pot -o zh_TW.new.po
+................................... done.
+................................. done.
+................................. done.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+make update-gmo
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+cd ../../po && rm -f de.gmo && /usr/bin/msgfmt -c --statistics -o de.gmo de.po
+cd ../../po && rm -f nl.gmo && /usr/bin/msgfmt -c --statistics -o nl.gmo nl.po
+cd ../../po && rm -f pl.gmo && /usr/bin/msgfmt -c --statistics -o pl.gmo pl.po
+325 translated messages, 2 fuzzy translations, 1 untranslated message.
+328 translated messages.
+328 translated messages.
+cd ../../po && rm -f rw.gmo && /usr/bin/msgfmt -c --statistics -o rw.gmo rw.po
+cd ../../po && rm -f ru.gmo && /usr/bin/msgfmt -c --statistics -o ru.gmo ru.po
+17 translated messages, 212 fuzzy translations, 99 untranslated messages.
+cd ../../po && rm -f uk.gmo && /usr/bin/msgfmt -c --statistics -o uk.gmo uk.po
+328 translated messages.
+328 translated messages.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+dists="Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars POTFILES.in gphoto2.pot stamp-po ../../po/az.po ../../po/cs.po ../../po/da.po ../../po/de.po ../../po/en_GB.po ../../po/es.po ../../po/eu.po ../../po/fi.po ../../po/fr.po ../../po/hu.po ../../po/id.po ../../po/is.po ../../po/it.po ../../po/ja.po ../../po/nl.po ../../po/pa.po ../../po/pl.po ../../po/pt_BR.po ../../po/ro.po ../../po/ru.po ../../po/rw.po ../../po/sk.po ../../po/sr.po ../../po/sv.po ../../po/uk.po ../../po/vi.po ../../po/zh_CN.po ../../po/zh_TW.po ../../po/az.gmo ../../po/cs.gmo ../../po/da.gmo ../../po/de.gmo ../../po/en_GB.gmo ../../po/es.gmo ../../po/eu.gmo ../../po/fi.gmo ../../po/fr.gmo ../../po/hu.gmo ../../po/id.gmo ../../po/is.gmo ../../po/it.gmo ../../po/ja.gmo ../../po/nl.gmo ../../po/pa.gmo ../../po/pl.gmo ../../po/pt_BR.gmo ../../po/ro.gmo ../../po/ru.gmo ../../po/rw.gmo ../../po/sk.gmo ../../po/sr.gmo ../../po/sv.gmo ../../po/uk.gmo ../../po/vi.gmo ../../po/zh_CN.gmo ../../po/zh_TW.gmo   "; \
+if test "gphoto2" = "gettext-tools"; then \
+  dists="$dists Makevars.template"; \
+fi; \
+if test -f ../../po/ChangeLog; then \
+  dists="$dists ChangeLog"; \
+fi; \
+for i in 0 1 2 3 4 5 6 7 8 9; do \
+  if test -f ../../po/ChangeLog.$i; then \
+    dists="$dists ChangeLog.$i"; \
+  fi; \
+done; \
+if test -f ../../po/LINGUAS; then dists="$dists LINGUAS"; fi; \
+for file in $dists; do \
+  if test -f $file; then \
+    cp -p $file ../gphoto2-2.5.2.1/po; \
+  else \
+    cp -p ../../po/$file ../gphoto2-2.5.2.1/po; \
+  fi; \
+done
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+ (cd tests && make  top_distdir=../gphoto2-2.5.2.1 distdir=../gphoto2-2.5.2.1/tests \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+ (cd data && make  top_distdir=../../gphoto2-2.5.2.1 distdir=../../gphoto2-2.5.2.1/tests/data \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+ (cd staging && make  top_distdir=../../gphoto2-2.5.2.1 distdir=../../gphoto2-2.5.2.1/tests/staging \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+ (cd subdir1 && make  top_distdir=../../../gphoto2-2.5.2.1 distdir=../../../gphoto2-2.5.2.1/tests/staging/subdir1 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+ (cd subdir2 && make  top_distdir=../../../gphoto2-2.5.2.1 distdir=../../../gphoto2-2.5.2.1/tests/staging/subdir2 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+test -n "" \
+|| find "gphoto2-2.5.2.1" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/gphoto2/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "gphoto2-2.5.2.1"
+tardir=gphoto2-2.5.2.1 && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >gphoto2-2.5.2.1.tar.bz2
+tardir=gphoto2-2.5.2.1 && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >gphoto2-2.5.2.1.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b'
+if test -d "gphoto2-2.5.2.1"; then find "gphoto2-2.5.2.1" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphoto2-2.5.2.1" || { sleep 5 && rm -rf "gphoto2-2.5.2.1"; }; else :; fi

@@ -1,0 +1,33 @@
+Making check in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make  check-TESTS
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make  all-recursive
+make[5]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+Making all in gphoto-m4
+make[6]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[6]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[6]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[5]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'
+============================================================================
+Testsuite summary for gphoto filesystem 0.5
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'

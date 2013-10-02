@@ -1,0 +1,63 @@
+Making check in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+Making check in art
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+Making check in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+Making check in help
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+Making check in C
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+Making check in ru
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+Making check in omf-install
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+Making check in packaging
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+Making check in rpm
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+Making check in pixmaps
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+Making check in po
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=../../po /usr/bin/intltool-update --gettext-package gtkam --pot
+rm -f missing notexist
+srcdir=../../po /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+Making check in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+Making check in test
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b'

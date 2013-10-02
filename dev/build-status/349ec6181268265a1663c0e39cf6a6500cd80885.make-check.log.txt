@@ -1,0 +1,31 @@
+Making check in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make  check-am
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make  testsizes check-camera-list.sh check-sizes.sh \
+  
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+gcc -DPACKAGE_NAME=\"libgphoto2\ Mono/.NET\ bindings\" -DPACKAGE_TARNAME=\"libgphoto2-sharp\" -DPACKAGE_VERSION=\"2.3.99.0.trunk\" -DPACKAGE_STRING=\"libgphoto2\ Mono/.NET\ bindings\ 2.3.99.0.trunk\" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-sharp\" -DVERSION=\"2.3.99.0.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBGPHOTO2=1 -I. -I../../src    -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2      -g -O2 -MT testsizes-testsizes.o -MD -MP -MF .deps/testsizes-testsizes.Tpo -c -o testsizes-testsizes.o `test -f 'testsizes.c' || echo '../../src/'`testsizes.c
+make[3]: `check-camera-list.sh' is up to date.
+make[3]: `check-sizes.sh' is up to date.
+mv -f .deps/testsizes-testsizes.Tpo .deps/testsizes-testsizes.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o testsizes testsizes-testsizes.o  
+libtool: link: gcc -g -O2 -o testsizes testsizes-testsizes.o 
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+Making check in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+Making check in Sample
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+Making check in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+make[1]: Nothing to be done for `check-am'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'

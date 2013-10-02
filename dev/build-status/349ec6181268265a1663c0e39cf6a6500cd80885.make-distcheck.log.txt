@@ -1,0 +1,799 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+if test -d "libgphoto2-sharp-2.3.99.0.trunk"; then find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-sharp-2.3.99.0.trunk" || { sleep 5 && rm -rf "libgphoto2-sharp-2.3.99.0.trunk"; }; else :; fi
+test -d "libgphoto2-sharp-2.3.99.0.trunk" || mkdir "libgphoto2-sharp-2.3.99.0.trunk"
+ (cd src && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/src \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+ (cd gphoto-m4 && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+ (cd Sample && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/Sample \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+ (cd doc && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/doc \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+test -n "" \
+|| find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/libgphoto2-sharp/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "libgphoto2-sharp-2.3.99.0.trunk"
+tardir=libgphoto2-sharp-2.3.99.0.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >libgphoto2-sharp-2.3.99.0.trunk.tar.bz2
+tardir=libgphoto2-sharp-2.3.99.0.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >libgphoto2-sharp-2.3.99.0.trunk.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+if test -d "libgphoto2-sharp-2.3.99.0.trunk"; then find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-sharp-2.3.99.0.trunk" || { sleep 5 && rm -rf "libgphoto2-sharp-2.3.99.0.trunk"; }; else :; fi
+case 'libgphoto2-sharp-2.3.99.0.trunk.tar.gz libgphoto2-sharp-2.3.99.0.trunk.tar.bz2' in \
+*.tar.gz*) \
+  GZIP=--best gzip -dc libgphoto2-sharp-2.3.99.0.trunk.tar.gz | ${TAR-tar} xf - ;;\
+*.tar.bz2*) \
+  bzip2 -dc libgphoto2-sharp-2.3.99.0.trunk.tar.bz2 | ${TAR-tar} xf - ;;\
+*.tar.lz*) \
+  lzip -dc libgphoto2-sharp-2.3.99.0.trunk.tar.lz | ${TAR-tar} xf - ;;\
+*.tar.xz*) \
+  xz -dc libgphoto2-sharp-2.3.99.0.trunk.tar.xz | ${TAR-tar} xf - ;;\
+*.tar.Z*) \
+  uncompress -c libgphoto2-sharp-2.3.99.0.trunk.tar.Z | ${TAR-tar} xf - ;;\
+*.shar.gz*) \
+  GZIP=--best gzip -dc libgphoto2-sharp-2.3.99.0.trunk.shar.gz | unshar ;;\
+*.zip*) \
+  unzip libgphoto2-sharp-2.3.99.0.trunk.zip ;;\
+esac
+chmod -R a-w libgphoto2-sharp-2.3.99.0.trunk
+chmod u+w libgphoto2-sharp-2.3.99.0.trunk
+mkdir libgphoto2-sharp-2.3.99.0.trunk/_build libgphoto2-sharp-2.3.99.0.trunk/_inst
+chmod a-w libgphoto2-sharp-2.3.99.0.trunk
+test -d libgphoto2-sharp-2.3.99.0.trunk/_build || exit 0; \
+dc_install_base=`CDPATH="${ZSH_VERSION+.}:" && cd libgphoto2-sharp-2.3.99.0.trunk/_inst && pwd | sed -e 's,^[^:\\/]:[\\/],/,'` \
+  && dc_destdir="${TMPDIR-/tmp}/am-dc-$$/" \
+  && am__cwd=`pwd` \
+  && CDPATH="${ZSH_VERSION+.}:" && cd libgphoto2-sharp-2.3.99.0.trunk/_build \
+  && ../configure --srcdir=.. --prefix="$dc_install_base" \
+     \
+     \
+  && make  \
+  && make  dvi \
+  && make  check \
+  && make  install \
+  && make  installcheck \
+  && make  uninstall \
+  && make  distuninstallcheck_dir="$dc_install_base" \
+        distuninstallcheck \
+  && chmod -R a-w "$dc_install_base" \
+  && ({ \
+       (cd ../.. && umask 077 && mkdir "$dc_destdir") \
+       && make  DESTDIR="$dc_destdir" install \
+       && make  DESTDIR="$dc_destdir" uninstall \
+       && make  DESTDIR="$dc_destdir" \
+            distuninstallcheck_dir="$dc_destdir" distuninstallcheck; \
+      } || { rm -rf "$dc_destdir"; exit 1; }) \
+  && rm -rf "$dc_destdir" \
+  && make  dist \
+  && rm -rf libgphoto2-sharp-2.3.99.0.trunk.tar.gz libgphoto2-sharp-2.3.99.0.trunk.tar.bz2 \
+  && make  distcleancheck \
+  && cd "$am__cwd" \
+  || exit 1
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for an ANSI C-conforming const... yes
+checking how to run the C preprocessor... gcc -E
+checking whether gcc and cc understand -c and -o together... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking main docdir... ${prefix}/share/doc (FHS style)
+checking package docdir... ${prefix}/share/doc/libgphoto2-sharp (default style)
+checking for dot... /usr/bin/dot
+checking for doxygen... /usr/bin/doxygen
+checking whether to create internal code docs... no
+checking for POSIX sh $() command substitution... yes
+checking PKG_CONFIG_PATH... /tmp/_build-status-gphoto/PREFIX/lib/pkgconfig
+checking for pkg-config... /usr/bin/pkg-config
+checking for dynamic library extension... .so
+checking pkg-config is at least version 0.9.0... yes
+checking for libgphoto2 to use... autodetect
+checking for LIBGPHOTO2... yes
+checking libgphoto2 library flags... "-L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif  "
+checking libgphoto2 cpp flags... "-I/tmp/_build-status-gphoto/PREFIX/include/gphoto2  "
+checking for MONO_MODULE... yes
+checking for gmcs... /usr/bin/gmcs
+checking for mono... /usr/bin/mono
+checking for Mono 2.0 GAC for Mono.Posix.dll... found
+checking for monodocer... /usr/bin/monodocer
+checking for mdassembler... /usr/bin/mdassembler
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Doxyfile
+config.status: creating doc/Doxyfile-internals
+config.status: creating gphoto-m4/Makefile
+config.status: creating Sample/Makefile
+config.status: creating src/Makefile
+config.status: creating src/AssemblyInfo.cs
+config.status: creating src/libgphoto2-sharp.pc
+config.status: creating src/check-camera-list.sh
+config.status: creating src/check-sample.sh
+config.status: creating src/check-sizes.sh
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making all in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+sh ../../src/testsizes-createsource.sh csharp < ../../src/testsizes-typelist.txt > TestSizes.cs
+make  all-am
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+/usr/bin/gmcs -debug -r:Mono.Posix -out:libgphoto2-sharp.dll /target:library AssemblyInfo.cs ../../src/Base/Camera.cs ../../src/Base/CameraAbilitiesList.cs ../../src/Base/CameraFile.cs ../../src/Base/CameraFilesystem.cs ../../src/Base/CameraList.cs ../../src/Base/CameraWidget.cs ../../src/Base/Context.cs ../../src/Base/ErrorCodes.cs ../../src/Base/Object.cs ../../src/Base/Port.cs ../../src/Base/PortInfo.cs ../../src/Base/PortInfoList.cs ../../src/Abilities.cs ../../src/Camera.cs ../../src/ErrorCode.cs ../../src/File.cs ../../src/FileSystem.cs ../../src/Files/GenericFile.cs ../../src/Files/ImageFile.cs ../../src/Files/MusicFile.cs ../../src/Files/PlaylistFile.cs ../../src/GphotoException.cs ../../src/Utilities.cs
+/usr/bin/mdassembler --out libgphoto2-sharp-docs --ecma ../../src/en
+/usr/bin/mdassembler --out libgphoto2-sharp-docs --ecma ../../src/en
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making all in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making all in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making all in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+doxygen Doxyfile
+warning: Tag `USE_WINDOWS_ENCODING' at line 64 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `DETAILS_AT_TOP' at line 156 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `SHOW_DIRECTORIES' at line 381 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `HTML_ALIGN_MEMBERS' at line 648 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `MAX_DOT_GRAPH_WIDTH' at line 1162 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+warning: Tag `MAX_DOT_GRAPH_HEIGHT' at line 1170 of file Doxyfile has become obsolete.
+To avoid this warning please remove this line from your configuration file or upgrade it using "doxygen -u"
+Notice: Output directory `doxygen-output' does not exist. I have created it for you.
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for files to exclude
+Searching for files to process...
+Searching for files in directory /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src
+Searching for files in directory /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base
+Searching for files in directory /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/en
+Searching for files in directory /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/en/Gphoto2.Base
+Searching for files in directory /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files
+Reading and parsing tag files
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Abilities.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Abilities.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Camera.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Camera.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraAbilitiesList.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraAbilitiesList.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraFile.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraFile.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraFilesystem.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraFilesystem.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraList.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraList.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraWidget.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/CameraWidget.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Context.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Context.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/ErrorCodes.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/ErrorCodes.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Object.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Object.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Port.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/Port.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/PortInfo.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/PortInfo.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/PortInfoList.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Base/PortInfoList.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Camera.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Camera.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/ErrorCode.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/ErrorCode.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/GenericFile.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/GenericFile.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/ImageFile.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/ImageFile.cs...
+Preprocessing /tmp/_build-status/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/TestGphoto2Sharp.cs:9: warning: Compound Gphoto2SharpTest is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Utilities.cs:12: warning: Compound Gphoto2::Utilities is not documented.
+-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/MusicFile.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/MusicFile.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/PlaylistFile.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/PlaylistFile.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/FileSystem.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/FileSystem.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/GphotoException.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/GphotoException.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/TestGphoto2Sharp.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/TestGphoto2Sharp.cs...
+Preprocessing /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Utilities.cs...
+Parsing file /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Utilities.cs...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating example documentation...
+Generating file sources...
+Parsing code for file src/Abilities.cs...
+Parsing code for file src/Base/Camera.cs...
+Parsing code for file src/Camera.cs...
+Parsing code for file src/Base/CameraAbilitiesList.cs...
+Parsing code for file src/Base/CameraFile.cs...
+Parsing code for file src/Base/CameraFilesystem.cs...
+Parsing code for file src//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/TestGphoto2Sharp.cs:17: warning: Member Main() (function) of class Gphoto2SharpTest is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Camera.cs:41: warning: Member DirectorySeperator (variable) of class Gphoto2::Camera is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Camera.cs:108: warning: Member MusicFolder (property) of class Gphoto2::Camera is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Camera.cs:114: warning: Member PlaylistFolder (property) of class Gphoto2::Camera is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Camera.cs:119: warning: Member PhotoFolder (property) of class Gphoto2::Camera is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs:201: warning: Member File(string path, string filename) (function) of class Gphoto2::File is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs:256: warning: argument 'stream' of command @param is not found in the argument list of Gphoto2.File::Download()
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs:256: warning: return type of member Gphoto2.File.Download is not documented
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs:201: warning: Member File(string path, string filename) (function) of class Gphoto2::File is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs:201: warning: Member File(string path, string filename) (function) of class Gphoto2::File is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/MusicFile.cs:187: warning: Member Equals(MusicFile file) (function) of class Gphoto2::MusicFile is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/MusicFile.cs:196: warning: Member GetHashCode() (function) of class Gphoto2::MusicFile is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs:201: warning: Member File(string path, string filename) (function) of class Gphoto2::File is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/MusicFile.cs:169: warning: argument 'stream' of command @param is not found in the argument list of Gphoto2.MusicFile::Equals(object o)
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/MusicFile.cs:169: warning: The following parameters of Gphoto2.MusicFile.Equals(object o) are not documented:
+  parameter 'o'
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/MusicFile.cs:169: warning: return type of member Gphoto2.MusicFile.Equals is not documented
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/Files/PlaylistFile.cs:62: warning: Member PlaylistFile(string name) (function) of class Gphoto2::PlaylistFile is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/File.cs:201: warning: Member File(string path, string filename) (function) of class Gphoto2::File is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/FileSystem.cs:253: warning: Member Contains(File file) (function) of class Gphoto2::FileSystem is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/FileSystem.cs:394: warning: argument 'path' of command @param is not found in the argument list of Gphoto2.FileSystem::DeleteAll(string folder)
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/FileSystem.cs:394: warning: The following parameters of Gphoto2.FileSystem.DeleteAll(string folder) are not documented:
+  parameter 'folder'
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/FileSystem.cs:537: warning: argument 'path' of command @param is not found in the argument list of Gphoto2.FileSystem::Upload(File file, string directory)
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/FileSystem.cs:537: warning: The following parameters of Gphoto2.FileSystem.Upload(File file, string directory) are not documented:
+  parameter 'directory'
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/GphotoException.cs:42: warning: Member GPhotoException(ErrorCode error_code) (function) of class Gphoto2::GPhotoException is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/GphotoException.cs:48: warning: Member GPhotoException(ErrorCode error_code, string message) (function) of class Gphoto2::GPhotoException is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/GphotoException.cs:53: warning: Member ToString() (function) of class Gphoto2::GPhotoException is not documented.
+/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/src/GphotoException.cs:60: warning: Member Error (property) of class Gphoto2::GPhotoException is not documented.
+Base/CameraList.cs...
+Parsing code for file src/Base/CameraWidget.cs...
+Parsing code for file src/Base/Context.cs...
+Parsing code for file src/Base/ErrorCodes.cs...
+Parsing code for file src/Base/Object.cs...
+Parsing code for file src/Base/Port.cs...
+Parsing code for file src/Base/PortInfo.cs...
+Parsing code for file src/Base/PortInfoList.cs...
+Parsing code for file src/ErrorCode.cs...
+Parsing code for file src/File.cs...
+Parsing code for file src/Files/GenericFile.cs...
+Parsing code for file src/Files/ImageFile.cs...
+Parsing code for file src/Files/MusicFile.cs...
+Parsing code for file src/Files/PlaylistFile.cs...
+Parsing code for file src/FileSystem.cs...
+Parsing code for file src/GphotoException.cs...
+Parsing code for file src/TestGphoto2Sharp.cs...
+Parsing code for file src/Utilities.cs...
+Generating file documentation...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound Gphoto2SharpTest...
+Generating namespace index...
+Generating docs for namespace Gphoto2
+Generating docs for compound Gphoto2::Abilities...
+Generating docs for compound Gphoto2::Camera...
+Generating docs for compound Gphoto2::File...
+Generating docs for compound Gphoto2::GenericFile...
+Generating docs for compound Gphoto2::ImageFile...
+Generating docs for compound Gphoto2::MusicFile...
+Generating docs for compound Gphoto2::PlaylistFile...
+Generating docs for compound Gphoto2::FileSystem...
+Generating docs for compound Gphoto2::GPhotoException...
+Generating docs for namespace LibGPhoto2
+Generating graph info page...
+Generating directory documentation...
+Generating dependency graph for directory src/Base
+Generating dependency graph for directory src/Files
+Generating dependency graph for directory src
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+Generating dot graphs using 4 parallel threads...
+Running dot for graph 1/23
+Running dot for graph 2/23
+Running dot for graph 3/23
+Running dot for graph 4/23
+Running dot for graph 5/23
+Running dot for graph 6/23
+Running dot for graph 7/23
+Running dot for graph 8/23
+Running dot for graph 9/23
+Running dot for graph 10/23
+Running dot for graph 11/23
+Running dot for graph 12/23
+Running dot for graph 13/23
+Running dot for graph 14/23
+Running dot for graph 15/23
+Running dot for graph 16/23
+Running dot for graph 17/23
+Running dot for graph 18/23
+Running dot for graph 19/23
+Running dot for graph 20/23
+Running dot for graph 21/23
+Running dot for graph 22/23
+Running dot for graph 23/23
+Patching output file 1/11
+Patching output file 2/11
+Patching output file 3/11
+Patching output file 4/11
+Patching output file 5/11
+Patching output file 6/11
+Patching output file 7/11
+Patching output file 8/11
+Patching output file 9/11
+Patching output file 10/11
+Patching output file 11/11
+lookup cache used 1249/65536 hits=7290 misses=1283
+finished...
+echo > libgphoto2-sharp-api.html.stamp
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making dvi in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[2]: Nothing to be done for `dvi'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making dvi in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `dvi'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making dvi in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Nothing to be done for `dvi'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making dvi in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Nothing to be done for `dvi'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Nothing to be done for `dvi-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making check in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make  check-am
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make  testsizes check-camera-list.sh check-sizes.sh \
+  
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+gcc -DPACKAGE_NAME=\"libgphoto2\ Mono/.NET\ bindings\" -DPACKAGE_TARNAME=\"libgphoto2-sharp\" -DPACKAGE_VERSION=\"2.3.99.0.trunk\" -DPACKAGE_STRING=\"libgphoto2\ Mono/.NET\ bindings\ 2.3.99.0.trunk\" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-sharp\" -DVERSION=\"2.3.99.0.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DHAVE_LIBGPHOTO2=1 -I. -I../../src    -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2      -g -O2 -MT testsizes-testsizes.o -MD -MP -MF .deps/testsizes-testsizes.Tpo -c -o testsizes-testsizes.o `test -f 'testsizes.c' || echo '../../src/'`testsizes.c
+make[4]: `check-camera-list.sh' is up to date.
+make[4]: `check-sizes.sh' is up to date.
+mv -f .deps/testsizes-testsizes.Tpo .deps/testsizes-testsizes.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o testsizes testsizes-testsizes.o  
+libtool: link: gcc -g -O2 -o testsizes testsizes-testsizes.o 
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making check in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making check in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making check in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making install in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make  install-am
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.dll ../../src/libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree ../../src/libgphoto2-sharp-docs.source '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.pc '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making install in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making install in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making install in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+mkdir -p "/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp"
+find "doxygen-output/libgphoto2-sharp-api.html" \
+	\( -type d -exec chmod 0755 {} \; \) -or \
+	\( -type f -exec chmod 0644 {} \; \)
+(unset CDPATH; cd "doxygen-output" && tar cpf - "libgphoto2-sharp-api.html") \
+	| (cd "/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp" && tar xpf -)
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making installcheck in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Running "installcheck" test cases...
+Test summary: 0 succeeded, 0 failed, 0 failures ignored, 0 tests in total.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making installcheck in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making installcheck in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making installcheck in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making uninstall in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+ ( cd '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp' && rm -f libgphoto2-sharp.dll libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb )
+ ( cd '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp' && rm -f libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree libgphoto2-sharp-docs.source )
+ ( cd '/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig' && rm -f libgphoto2-sharp.pc )
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making uninstall in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making uninstall in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making uninstall in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+rm -rf "/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp/libgphoto2-sharp-api.html"
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Nothing to be done for `uninstall-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making install in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make  install-am
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
+ /usr/bin/mkdir -p '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
+ /usr/bin/mkdir -p '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.dll ../../src/libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree ../../src/libgphoto2-sharp-docs.source '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.pc '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making install in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making install in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making install in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+mkdir -p "/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp"
+find "doxygen-output/libgphoto2-sharp-api.html" \
+	\( -type d -exec chmod 0755 {} \; \) -or \
+	\( -type f -exec chmod 0644 {} \; \)
+(unset CDPATH; cd "doxygen-output" && tar cpf - "libgphoto2-sharp-api.html") \
+	| (cd "/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp" && tar xpf -)
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making uninstall in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+ ( cd '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp' && rm -f libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree libgphoto2-sharp-docs.source )
+ ( cd '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/libgphoto2-sharp' && rm -f libgphoto2-sharp.dll libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb )
+ ( cd '/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/lib/pkgconfig' && rm -f libgphoto2-sharp.pc )
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making uninstall in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making uninstall in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making uninstall in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+rm -rf "/tmp/am-dc-12446//tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_inst/share/doc/libgphoto2-sharp/libgphoto2-sharp-api.html"
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[2]: Nothing to be done for `uninstall-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+if test -d "libgphoto2-sharp-2.3.99.0.trunk"; then find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-sharp-2.3.99.0.trunk" || { sleep 5 && rm -rf "libgphoto2-sharp-2.3.99.0.trunk"; }; else :; fi
+test -d "libgphoto2-sharp-2.3.99.0.trunk" || mkdir "libgphoto2-sharp-2.3.99.0.trunk"
+ (cd src && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/src \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+ (cd gphoto-m4 && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+ (cd Sample && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/Sample \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+ (cd doc && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/doc \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+(cd doxygen-output && ${TAR-tar} chof - libgphoto2-sharp-api.html | GZIP=--best gzip -c) > libgphoto2-sharp-api.html.tar.gz
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+test -n "" \
+|| find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "libgphoto2-sharp-2.3.99.0.trunk"
+tardir=libgphoto2-sharp-2.3.99.0.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >libgphoto2-sharp-2.3.99.0.trunk.tar.bz2
+tardir=libgphoto2-sharp-2.3.99.0.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >libgphoto2-sharp-2.3.99.0.trunk.tar.gz
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+if test -d "libgphoto2-sharp-2.3.99.0.trunk"; then find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-sharp-2.3.99.0.trunk" || { sleep 5 && rm -rf "libgphoto2-sharp-2.3.99.0.trunk"; }; else :; fi
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+Making distclean in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+test -z "libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree libgphoto2-sharp.dll.mdb libgphoto2-sharp.dll TestGphoto2Sharp.exe TestGphoto2Sharp.exe.mdb TestSizes.exe TestSizes.exe.mdb Sample.exe.mdb Sample.exe check-camera-list.sh check-sizes.sh testsizes.c TestSizes.cs" || rm -f libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree libgphoto2-sharp.dll.mdb libgphoto2-sharp.dll TestGphoto2Sharp.exe TestGphoto2Sharp.exe.mdb TestSizes.exe TestSizes.exe.mdb Sample.exe.mdb Sample.exe check-camera-list.sh check-sizes.sh testsizes.c TestSizes.cs
+rm -rf .libs _libs
+ rm -f testsizes
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "AssemblyInfo.cs libgphoto2-sharp.pc check-camera-list.sh check-sample.sh check-sizes.sh" || rm -f AssemblyInfo.cs libgphoto2-sharp.pc check-camera-list.sh check-sample.sh check-sizes.sh
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+test . = "../../src" || test -z "" || rm -f 
+rm -rf ./.deps
+rm -f Makefile
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/src'
+Making distclean in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "../../gphoto-m4" || test -z "" || rm -f 
+rm -f Makefile
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/gphoto-m4'
+Making distclean in Sample
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "../../Sample" || test -z "" || rm -f 
+rm -f Makefile
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/Sample'
+Making distclean in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+test -z "libgphoto2-sharp-api.html.stamp " || rm -f libgphoto2-sharp-api.html.stamp 
+rm -rf .libs _libs
+rm -rf "doxygen-output/libgphoto2-sharp-api.html"
+rm -f *.lo
+test -z "Doxyfile Doxyfile-internals" || rm -f Doxyfile Doxyfile-internals
+rm -f libgphoto2-sharp-api.html.stamp
+rm -f libgphoto2-sharp-api.html.tar.gz
+rm -rf doxygen-output
+test . = "../../doc" || test -z "" || rm -f 
+rm -f Makefile
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+rm -f libtool config.lt
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+test . = ".." || test -z "" || rm -f 
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -f Makefile
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/libgphoto2-sharp-2.3.99.0.trunk/_build'
+if test -d "libgphoto2-sharp-2.3.99.0.trunk"; then find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-sharp-2.3.99.0.trunk" || { sleep 5 && rm -rf "libgphoto2-sharp-2.3.99.0.trunk"; }; else :; fi
+=================================================================
+libgphoto2-sharp-2.3.99.0.trunk archives ready for distribution: 
+libgphoto2-sharp-2.3.99.0.trunk.tar.gz
+libgphoto2-sharp-2.3.99.0.trunk.tar.bz2
+=================================================================

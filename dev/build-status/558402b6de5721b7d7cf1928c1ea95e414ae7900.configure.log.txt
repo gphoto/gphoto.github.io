@@ -1,0 +1,61 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether ln -s works... yes
+checking main docdir... ${prefix}/share/doc (FHS style)
+checking package docdir... ${prefix}/share/doc/gphoto2-manual (default style)
+checking for fig2dev... /usr/bin/fig2dev
+checking for XML catalogs... found /etc/xml/catalog /usr/share/xml/docbook5/schema/sch/5.0/catalog.xml /usr/share/xml/docbook5/schema/rng/5.0/catalog.xml /usr/share/xml/docbook5/schema/dtd/5.0/catalog.xml /usr/share/xml/docbook5/schema/xsd/5.0/catalog.xml /usr/share/xml/xhtml/1.0/catalog.xml /usr/share/sgml/openjade-1.3.2/catalog /usr/share/sgml/log4j/catalog /usr/share/sgml/sgml-iso-entities-8879.1986/catalog /usr/share/sgml/w3c-markup-validator/catalog.xml /usr/share/sgml/docbook/xml-dtd-4.1.2/catalog /usr/share/sgml/docbook/sgml-dtd-4.2/catalog /usr/share/sgml/docbook/sgml-dtd-4.5/catalog /usr/share/sgml/docbook/xml-dtd-4.3/catalog /usr/share/sgml/docbook/sgml-dtd-3.0/catalog /usr/share/sgml/docbook/sgml-dtd-4.3/catalog /usr/share/sgml/docbook/sgml-dtd-4.1/catalog /usr/share/sgml/docbook/sgml-dtd-4.4/catalog /usr/share/sgml/docbook/xml-dtd-4.5/catalog /usr/share/sgml/docbook/xml-dtd-4.4/catalog /usr/share/sgml/docbook/xml-dtd-4.2/catalog /usr/share/sgml/docbook/dsssl-stylesheets-1.79/catalog /usr/share/sgml/docbook/sgml-dtd-3.1/catalog /usr/share/sgml/docbook/xsl-ns-stylesheets-1.78.1/catalog.xml /usr/share/sgml/docbook/sgml-dtd-4.0/catalog 
+checking for xmlto... /usr/bin/xmlto
+checking for dot... /usr/bin/dot
+checking whether /usr/bin/dot works... yes
+checking for pstoimg... /usr/bin/pstoimg
+checking whether /usr/bin/pstoimg works... yes
+checking for w3m... /usr/bin/w3m
+checking whether /usr/bin/w3m works... yes
+checking for html dir... ${prefix}/share/doc/gphoto2-manual/html (default)
+checking for xhtml dir... ${prefix}/share/doc/gphoto2-manual/xhtml (default)
+checking for html-nochunks dir... ${prefix}/share/doc/gphoto2-manual/html-nochunks (default)
+checking for xhtml-nochunks dir... ${prefix}/share/doc/gphoto2-manual/xhtml-nochunks (default)
+checking for xml dir... ${prefix}/share/doc/gphoto2-manual/xml (default)
+checking for txt dir... ${prefix}/share/doc/gphoto2-manual/txt (default)
+checking for man dir... ${prefix}/share/doc/gphoto2-manual/man (default)
+checking for pdf dir... ${prefix}/share/doc/gphoto2-manual/pdf (default)
+checking for ps dir... ${prefix}/share/doc/gphoto2-manual/ps (default)
+checking for figure dir... ${prefix}/share/doc/gphoto2-manual/figures (default)
+checking for screenshots dir... ${prefix}/share/doc/gphoto2-manual/screenshots (default)
+checking checking doc formats... man html txt
+checking for manual formats to re­create...  html man txt
+checking for scrollkeeper-config... /usr/bin/scrollkeeper-config
+checking for POSIX sh $() command substitution... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating gphoto2-manual.pc
+config.status: creating gphoto2-manual-uninstalled.pc
+config.status: creating gphoto-m4/Makefile
+config.status: creating help/Makefile
+config.status: creating help/C/Makefile
+config.status: creating src/Makefile
+config.status: creating src/css/Makefile
+config.status: creating src/xsl/Makefile
+config.status: creating src/html/Makefile
+config.status: creating src/html-nochunks/Makefile
+config.status: creating src/xhtml/Makefile
+config.status: creating src/xhtml-nochunks/Makefile
+config.status: creating src/pdf/Makefile
+config.status: creating src/ps/Makefile
+config.status: creating src/man/Makefile
+config.status: creating src/txt/Makefile
+config.status: creating src/txt2/Makefile
+config.status: creating src/figures/Makefile
+config.status: creating src/screenshots/Makefile
+config.status: creating src/screenshots/gtkam/Makefile
+
+Configuration (gphoto2-manual 2.3.1.trunk):
+    Scrollkeeper support:          yes
+
+You may run "make" and "make install" now.

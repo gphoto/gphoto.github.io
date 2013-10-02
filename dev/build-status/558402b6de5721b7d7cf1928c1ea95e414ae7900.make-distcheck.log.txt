@@ -1,0 +1,1416 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+if test -d "gphoto2-manual-2.3.1.trunk"; then find "gphoto2-manual-2.3.1.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphoto2-manual-2.3.1.trunk" || { sleep 5 && rm -rf "gphoto2-manual-2.3.1.trunk"; }; else :; fi
+test -d "gphoto2-manual-2.3.1.trunk" || mkdir "gphoto2-manual-2.3.1.trunk"
+ (cd src && make  top_distdir=../gphoto2-manual-2.3.1.trunk distdir=../gphoto2-manual-2.3.1.trunk/src \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+ (cd figures && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/figures \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+ (cd screenshots && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/screenshots \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+ (cd gtkam && make  top_distdir=../../../gphoto2-manual-2.3.1.trunk distdir=../../../gphoto2-manual-2.3.1.trunk/src/screenshots/gtkam \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+ (cd css && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/css \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+ (cd man && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/man \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+ (cd html && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/html \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+ (cd txt && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/txt \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+ (cd xhtml && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/xhtml \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+ (cd html-nochunks && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/html-nochunks \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+ (cd xhtml-nochunks && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/xhtml-nochunks \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+ (cd txt2 && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/txt2 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+ (cd ps && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/ps \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+ (cd xsl && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/xsl \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+ (cd pdf && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/src/pdf \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+ (cd gphoto-m4 && make  top_distdir=../gphoto2-manual-2.3.1.trunk distdir=../gphoto2-manual-2.3.1.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+ (cd help && make  top_distdir=../gphoto2-manual-2.3.1.trunk distdir=../gphoto2-manual-2.3.1.trunk/help \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+ (cd C && make  top_distdir=../../gphoto2-manual-2.3.1.trunk distdir=../../gphoto2-manual-2.3.1.trunk/help/C \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make  \
+  top_distdir="../../gphoto2-manual-2.3.1.trunk" distdir="../../gphoto2-manual-2.3.1.trunk/help/C" \
+  dist-hook
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+/bin/sh /tmp/_build-status-gphoto/gphoto2-manual/auto-aux/install-sh -d ../../gphoto2-manual-2.3.1.trunk/help/C/figures
+if [ -e topic.dat ]; then \
+	cp ../../../help/C/topic.dat ../../gphoto2-manual-2.3.1.trunk/help/C; \
+ fi
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+test -n "" \
+|| find "gphoto2-manual-2.3.1.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/gphoto2-manual/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "gphoto2-manual-2.3.1.trunk"
+tardir=gphoto2-manual-2.3.1.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >gphoto2-manual-2.3.1.trunk.tar.bz2
+tardir=gphoto2-manual-2.3.1.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >gphoto2-manual-2.3.1.trunk.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+if test -d "gphoto2-manual-2.3.1.trunk"; then find "gphoto2-manual-2.3.1.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphoto2-manual-2.3.1.trunk" || { sleep 5 && rm -rf "gphoto2-manual-2.3.1.trunk"; }; else :; fi
+case 'gphoto2-manual-2.3.1.trunk.tar.gz gphoto2-manual-2.3.1.trunk.tar.bz2' in \
+*.tar.gz*) \
+  GZIP=--best gzip -dc gphoto2-manual-2.3.1.trunk.tar.gz | ${TAR-tar} xf - ;;\
+*.tar.bz2*) \
+  bzip2 -dc gphoto2-manual-2.3.1.trunk.tar.bz2 | ${TAR-tar} xf - ;;\
+*.tar.lz*) \
+  lzip -dc gphoto2-manual-2.3.1.trunk.tar.lz | ${TAR-tar} xf - ;;\
+*.tar.xz*) \
+  xz -dc gphoto2-manual-2.3.1.trunk.tar.xz | ${TAR-tar} xf - ;;\
+*.tar.Z*) \
+  uncompress -c gphoto2-manual-2.3.1.trunk.tar.Z | ${TAR-tar} xf - ;;\
+*.shar.gz*) \
+  GZIP=--best gzip -dc gphoto2-manual-2.3.1.trunk.shar.gz | unshar ;;\
+*.zip*) \
+  unzip gphoto2-manual-2.3.1.trunk.zip ;;\
+esac
+chmod -R a-w gphoto2-manual-2.3.1.trunk
+chmod u+w gphoto2-manual-2.3.1.trunk
+mkdir gphoto2-manual-2.3.1.trunk/_build gphoto2-manual-2.3.1.trunk/_inst
+chmod a-w gphoto2-manual-2.3.1.trunk
+test -d gphoto2-manual-2.3.1.trunk/_build || exit 0; \
+dc_install_base=`CDPATH="${ZSH_VERSION+.}:" && cd gphoto2-manual-2.3.1.trunk/_inst && pwd | sed -e 's,^[^:\\/]:[\\/],/,'` \
+  && dc_destdir="${TMPDIR-/tmp}/am-dc-$$/" \
+  && am__cwd=`pwd` \
+  && CDPATH="${ZSH_VERSION+.}:" && cd gphoto2-manual-2.3.1.trunk/_build \
+  && ../configure --srcdir=.. --prefix="$dc_install_base" \
+     \
+     \
+  && make  \
+  && make  dvi \
+  && make  check \
+  && make  install \
+  && make  installcheck \
+  && make  uninstall \
+  && make  distuninstallcheck_dir="$dc_install_base" \
+        distuninstallcheck \
+  && chmod -R a-w "$dc_install_base" \
+  && ({ \
+       (cd ../.. && umask 077 && mkdir "$dc_destdir") \
+       && make  DESTDIR="$dc_destdir" install \
+       && make  DESTDIR="$dc_destdir" uninstall \
+       && make  DESTDIR="$dc_destdir" \
+            distuninstallcheck_dir="$dc_destdir" distuninstallcheck; \
+      } || { rm -rf "$dc_destdir"; exit 1; }) \
+  && rm -rf "$dc_destdir" \
+  && make  dist \
+  && rm -rf gphoto2-manual-2.3.1.trunk.tar.gz gphoto2-manual-2.3.1.trunk.tar.bz2 \
+  && make  distcleancheck \
+  && cd "$am__cwd" \
+  || exit 1
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether ln -s works... yes
+checking main docdir... ${prefix}/share/doc (FHS style)
+checking package docdir... ${prefix}/share/doc/gphoto2-manual (default style)
+checking for fig2dev... /usr/bin/fig2dev
+checking for XML catalogs... found /etc/xml/catalog /usr/share/xml/docbook5/schema/sch/5.0/catalog.xml /usr/share/xml/docbook5/schema/rng/5.0/catalog.xml /usr/share/xml/docbook5/schema/dtd/5.0/catalog.xml /usr/share/xml/docbook5/schema/xsd/5.0/catalog.xml /usr/share/xml/xhtml/1.0/catalog.xml /usr/share/sgml/openjade-1.3.2/catalog /usr/share/sgml/log4j/catalog /usr/share/sgml/sgml-iso-entities-8879.1986/catalog /usr/share/sgml/w3c-markup-validator/catalog.xml /usr/share/sgml/docbook/xml-dtd-4.1.2/catalog /usr/share/sgml/docbook/sgml-dtd-4.2/catalog /usr/share/sgml/docbook/sgml-dtd-4.5/catalog /usr/share/sgml/docbook/xml-dtd-4.3/catalog /usr/share/sgml/docbook/sgml-dtd-3.0/catalog /usr/share/sgml/docbook/sgml-dtd-4.3/catalog /usr/share/sgml/docbook/sgml-dtd-4.1/catalog /usr/share/sgml/docbook/sgml-dtd-4.4/catalog /usr/share/sgml/docbook/xml-dtd-4.5/catalog /usr/share/sgml/docbook/xml-dtd-4.4/catalog /usr/share/sgml/docbook/xml-dtd-4.2/catalog /usr/share/sgml/docbook/dsssl-stylesheets-1.79/catalog /usr/share/sgml/docbook/sgml-dtd-3.1/catalog /usr/share/sgml/docbook/xsl-ns-stylesheets-1.78.1/catalog.xml /usr/share/sgml/docbook/sgml-dtd-4.0/catalog 
+checking for xmlto... /usr/bin/xmlto
+checking for dot... /usr/bin/dot
+checking whether /usr/bin/dot works... yes
+checking for pstoimg... /usr/bin/pstoimg
+checking whether /usr/bin/pstoimg works... yes
+checking for w3m... /usr/bin/w3m
+checking whether /usr/bin/w3m works... yes
+checking for html dir... ${prefix}/share/doc/gphoto2-manual/html (default)
+checking for xhtml dir... ${prefix}/share/doc/gphoto2-manual/xhtml (default)
+checking for html-nochunks dir... ${prefix}/share/doc/gphoto2-manual/html-nochunks (default)
+checking for xhtml-nochunks dir... ${prefix}/share/doc/gphoto2-manual/xhtml-nochunks (default)
+checking for xml dir... ${prefix}/share/doc/gphoto2-manual/xml (default)
+checking for txt dir... ${prefix}/share/doc/gphoto2-manual/txt (default)
+checking for man dir... ${prefix}/share/doc/gphoto2-manual/man (default)
+checking for pdf dir... ${prefix}/share/doc/gphoto2-manual/pdf (default)
+checking for ps dir... ${prefix}/share/doc/gphoto2-manual/ps (default)
+checking for figure dir... ${prefix}/share/doc/gphoto2-manual/figures (default)
+checking for screenshots dir... ${prefix}/share/doc/gphoto2-manual/screenshots (default)
+checking checking doc formats... man html txt
+checking for manual formats to re�create...  html man txt
+checking for scrollkeeper-config... /usr/bin/scrollkeeper-config
+checking for POSIX sh $() command substitution... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating gphoto2-manual.pc
+config.status: creating gphoto2-manual-uninstalled.pc
+config.status: creating gphoto-m4/Makefile
+config.status: creating help/Makefile
+config.status: creating help/C/Makefile
+config.status: creating src/Makefile
+config.status: creating src/css/Makefile
+config.status: creating src/xsl/Makefile
+config.status: creating src/html/Makefile
+config.status: creating src/html-nochunks/Makefile
+config.status: creating src/xhtml/Makefile
+config.status: creating src/xhtml-nochunks/Makefile
+config.status: creating src/pdf/Makefile
+config.status: creating src/ps/Makefile
+config.status: creating src/man/Makefile
+config.status: creating src/txt/Makefile
+config.status: creating src/txt2/Makefile
+config.status: creating src/figures/Makefile
+config.status: creating src/screenshots/Makefile
+config.status: creating src/screenshots/gtkam/Makefile
+
+Configuration (gphoto2-manual 2.3.1.trunk):
+    Scrollkeeper support:          yes
+
+You may run "make" and "make install" now.
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+Making all in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making all in figures
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+/usr/bin/fig2dev -L png -m 1.2 ../../../src/figures/architecture.fig architecture.png
+/usr/bin/fig2dev -L png -m 1.2 ../../../src/figures/libgphoto2-api.fig libgphoto2-api.png
+/usr/bin/fig2dev -L png -m 1.2 ../../../src/figures/libgphoto2-camlib.fig libgphoto2-camlib.png
+/usr/bin/fig2dev -L png -m 1.2 ../../../src/figures/libgphoto2_port.fig libgphoto2_port.png
+/usr/bin/fig2dev -L png -m 1.2 ../../../src/figures/gphotofs.fig gphotofs.png
+/usr/bin/dot -Tps ../../../src/figures/software-dependencies.dot -o software-dependencies.ps
+/usr/bin/dot -Tpng ../../../src/figures/software-dependencies.dot -o software-dependencies.png
+/usr/bin/dot -Tjpeg ../../../src/figures/software-dependencies.dot -o software-dependencies.jpg
+/usr/bin/dot -Tsvg ../../../src/figures/software-dependencies.dot -o software-dependencies.svg
+ps2pdf14 software-dependencies.ps software-dependencies.pdf
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+Making all in screenshots
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making all in gtkam
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making all in css
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+Making all in man
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl man -o . ../../../src/gphoto2.xml
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl man -o . ../../../src/gphoto2.xml
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl man -o . ../../../src/gphoto2.xml
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       gphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Note: meta version: no *info/productnumber or alternative          gphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     gphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    gphoto2
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       gphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Note: meta version: no *info/productnumber or alternative          gphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     gphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    gphoto2
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       gphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Note: meta version: no *info/productnumber or alternative          gphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     gphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    gphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gphoto2
+Note: Writing gphoto2.1
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Note: meta version: no *info/productnumber or alternative          libgphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2
+Note: Writing gphoto2.1
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Note: meta version: no *info/productnumber or alternative          libgphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Note: Writing gphoto2.1
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Note: meta version: no *info/productnumber or alternative          libgphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Note: Writing libgphoto2.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2_port
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Note: meta version: no *info/productnumber or alternative          libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2_port
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2_port
+Note: Writing libgphoto2.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2_port
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Note: meta version: no *info/productnumber or alternative          libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2_port
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Note: Writing libgphoto2.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2_port
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Note: meta version: no *info/productnumber or alternative          libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2_port
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Note: Writing libgphoto2_port.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gtkam
+Note: meta source : see http://docbook.sf.net/el/productname       gtkam
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gtkam
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gtkam
+Note: meta version: no *info/productnumber or alternative          gtkam
+Note: meta version: see http://docbook.sf.net/el/productnumber     gtkam
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gtkam
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gtkam
+Warn: meta source : no fallback for source, so inserted a fixme    gtkam
+Note: Writing libgphoto2_port.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gtkam
+Note: meta source : see http://docbook.sf.net/el/productname       gtkam
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gtkam
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gtkam
+Note: meta version: no *info/productnumber or alternative          gtkam
+Note: meta version: see http://docbook.sf.net/el/productnumber     gtkam
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gtkam
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gtkam
+Warn: meta source : no fallback for source, so inserted a fixme    gtkam
+Note: Writing libgphoto2_port.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gtkam
+Note: meta source : see http://docbook.sf.net/el/productname       gtkam
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gtkam
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gtkam
+Note: meta version: no *info/productnumber or alternative          gtkam
+Note: meta version: see http://docbook.sf.net/el/productnumber     gtkam
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gtkam
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gtkam
+Warn: meta source : no fallback for source, so inserted a fixme    gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J\&. Rensi  gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J\&. Rensi  gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Note: Writing gtkam.1
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl man -o . ../../../src/gphoto2.xml
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J\&. Rensi  gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Note: Writing gtkam.1
+Note: Writing gtkam.1
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       gphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Note: meta version: no *info/productnumber or alternative          gphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     gphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    gphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gphoto2
+Note: Writing gphoto2.1
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Note: meta version: no *info/productnumber or alternative          libgphoto2
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2
+Note: Writing libgphoto2.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/productname       libgphoto2_port
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   libgphoto2_port
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Note: meta version: no *info/productnumber or alternative          libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/productnumber     libgphoto2_port
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  libgphoto2_port
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       libgphoto2_port
+Warn: meta source : no fallback for source, so inserted a fixme    libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       libgphoto2_port
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   libgphoto2_port
+Note: Writing libgphoto2_port.3
+Element pubdate in namespace '' encountered in bookinfo, but no template matches.
+Note: meta source : no *info/productname or alternative            gtkam
+Note: meta source : see http://docbook.sf.net/el/productname       gtkam
+Note: meta source : no refentry/refmeta/refmiscinfo@class=source   gtkam
+Note: meta source : see http://docbook.sf.net/el/refmiscinfo       gtkam
+Note: meta version: no *info/productnumber or alternative          gtkam
+Note: meta version: see http://docbook.sf.net/el/productnumber     gtkam
+Note: meta version: no refentry/refmeta/refmiscinfo@class=version  gtkam
+Note: meta version: see http://docbook.sf.net/el/refmiscinfo       gtkam
+Warn: meta source : no fallback for source, so inserted a fixme    gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Tim Waugh           
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Hans Ulrich Nieder  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J. Rensing  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Marcus Meissner     
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for Miscellanous Contr  
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   
+Warn: AUTHOR sect.: no personblurb|contrib for The gPhoto2 Team    gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Warn: AUTHOR sect.: no personblurb|contrib for Michael J\&. Rensi  gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/contrib       gtkam
+Note: AUTHOR sect.: see see http://docbook.sf.net/el/personblurb   gtkam
+Note: Writing gtkam.1
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+Making all in html
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl html -o . ../../../src/gphoto2.xml
+Writing about-manual.html for preface(about-manual)
+Writing what-you-need.html for chapter(what-you-need)
+Writing using-gphoto2.html for sect1(using-gphoto2)
+Writing using-gphotofs.html for sect1(using-gphotofs)
+Writing using-gnome.html for sect1(using-gnome)
+Writing using-kde.html for sect1(using-kde)
+Writing quickstart.html for chapter(quickstart)
+Writing FAQ.html for chapter(FAQ)
+Writing permissions-serial.html for sect1(permissions-serial)
+Writing permissions-usb.html for sect1(permissions-usb)
+Writing port-and-camera.html for sect1(port-and-camera)
+Writing permissions.html for chapter(permissions)
+Writing compilation-from-svn.html for sect1(compilation-from-svn)
+Writing configure-make-install.html for sect1(configure-make-install)
+Writing compilation.html for chapter(compilation)
+Writing api-libgphoto2.html for sect1(api-libgphoto2)
+Writing api-camlib.html for sect1(api-camlib)
+Writing api-libgphoto2_port.html for sect1(api-libgphoto2_port)
+Writing developer-docs.html for chapter(developer-docs)
+Writing gphoto2fs.html for sect1(gphoto2fs)
+Writing future.html for chapter(future)
+Writing ref-gphoto2-cli.html for refentry(ref-gphoto2-cli)
+Writing ref-libgphoto2.html for refentry(ref-libgphoto2)
+Writing ref-libgphoto2_port.html for refentry(ref-libgphoto2_port)
+Writing ref-gtkam.html for refentry(ref-gtkam)
+Writing reference.html for reference(reference)
+Writing related-info.html for appendix(related-info)
+Writing glossary.html for glossary(glossary)
+Writing index.html for book(index)
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+Making all in txt
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl txt -o . ../../../src/gphoto2.xml
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+Making all in xhtml
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl xhtml -o . ../../../src/gphoto2.xml
+Writing about-manual.html for preface(about-manual)
+Writing what-you-need.html for chapter(what-you-need)
+Writing using-gphoto2.html for sect1(using-gphoto2)
+Writing using-gphotofs.html for sect1(using-gphotofs)
+Writing using-gnome.html for sect1(using-gnome)
+Writing using-kde.html for sect1(using-kde)
+Writing quickstart.html for chapter(quickstart)
+Writing FAQ.html for chapter(FAQ)
+Writing permissions-serial.html for sect1(permissions-serial)
+Writing permissions-usb.html for sect1(permissions-usb)
+Writing port-and-camera.html for sect1(port-and-camera)
+Writing permissions.html for chapter(permissions)
+Writing compilation-from-svn.html for sect1(compilation-from-svn)
+Writing configure-make-install.html for sect1(configure-make-install)
+Writing compilation.html for chapter(compilation)
+Writing api-libgphoto2.html for sect1(api-libgphoto2)
+Writing api-camlib.html for sect1(api-camlib)
+Writing api-libgphoto2_port.html for sect1(api-libgphoto2_port)
+Writing developer-docs.html for chapter(developer-docs)
+Writing gphoto2fs.html for sect1(gphoto2fs)
+Writing future.html for chapter(future)
+Writing ref-gphoto2-cli.html for refentry(ref-gphoto2-cli)
+Writing ref-libgphoto2.html for refentry(ref-libgphoto2)
+Writing ref-libgphoto2_port.html for refentry(ref-libgphoto2_port)
+Writing ref-gtkam.html for refentry(ref-gtkam)
+Writing reference.html for reference(reference)
+Writing related-info.html for appendix(related-info)
+Writing glossary.html for glossary(glossary)
+Writing index.html for book(index)
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+Making all in html-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl html-nochunks -o . ../../../src/gphoto2.xml
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+Making all in xhtml-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl xhtml-nochunks -o . ../../../src/gphoto2.xml
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+Making all in txt2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+/usr/bin/xmlto -m ../../../src/xsl/custom.xsl html-nochunks -o . ../../../src/gphoto2.xml
+/bin/sed 's$<a href="\([^#][^"]*\)"[^>]*>\([^<]*\)</a>$\2 [\1]$g' < gphoto2.html > gphoto2.txt2.tmp
+/usr/bin/w3m -T text/html -cols 78 -dump gphoto2.txt2.tmp > gphoto2.txt2 || (s=$?; rm -f gphoto2.txt2; exit $s)
+rm -f gphoto2.txt2.tmp gphoto2.html
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+Making all in ps
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+Making all in xsl
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+Making all in pdf
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making all in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+Making all in help
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+Making all in C
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+for file in ../../../help/C/gtkam-C.omf; do \
+  scrollkeeper-preinstall /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C/`awk 'BEGIN {RS = ">" } /identifier/ {print $0}' ${file} | awk 'BEGIN {FS="\""} /url/ {print $2}'` ${file} ../../../omf-install/${file}; \
+done
+touch omf_timestamp
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+Making dvi in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making dvi in figures
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+Making dvi in screenshots
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making dvi in gtkam
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Nothing to be done for `dvi'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[4]: Nothing to be done for `dvi-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making dvi in css
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+Making dvi in man
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+Making dvi in html
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+Making dvi in txt
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+Making dvi in xhtml
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+Making dvi in html-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+Making dvi in xhtml-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+Making dvi in txt2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+Making dvi in ps
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+Making dvi in xsl
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+Making dvi in pdf
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[3]: Nothing to be done for `dvi-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making dvi in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `dvi'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+Making dvi in help
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+Making dvi in C
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Nothing to be done for `dvi'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[3]: Nothing to be done for `dvi-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[2]: Nothing to be done for `dvi-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+Making check in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making check in figures
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+Making check in screenshots
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making check in gtkam
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making check in css
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+Making check in man
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+Making check in html
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+Making check in txt
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+Making check in xhtml
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+Making check in html-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+Making check in xhtml-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+Making check in txt2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+Making check in ps
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+Making check in xsl
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+Making check in pdf
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making check in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+Making check in help
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+Making check in C
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+Making install in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making install in figures
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures'
+ /usr/bin/install -c -m 644 architecture.png libgphoto2-api.png libgphoto2-camlib.png libgphoto2_port.png gphotofs.png software-dependencies.ps software-dependencies.pdf software-dependencies.png software-dependencies.jpg software-dependencies.svg '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+Making install in screenshots
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making install in gtkam
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[5]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[5]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots/gtkam'
+ /usr/bin/install -c -m 644 ../../../../src/screenshots/gtkam/cam.png ../../../../src/screenshots/gtkam/cam_conf_cam.png ../../../../src/screenshots/gtkam/cam_conf_driver.png ../../../../src/screenshots/gtkam/cam_driver.png ../../../../src/screenshots/gtkam/cam_info.png ../../../../src/screenshots/gtkam/cam_sel.png ../../../../src/screenshots/gtkam/cam_sel_enh.png ../../../../src/screenshots/gtkam/cam_sel_portadd.png ../../../../src/screenshots/gtkam/exp.png ../../../../src/screenshots/gtkam/file.png ../../../../src/screenshots/gtkam/file_del.png ../../../../src/screenshots/gtkam/file_del_dia.png ../../../../src/screenshots/gtkam/file_save.png ../../../../src/screenshots/gtkam/file_save_dia.png ../../../../src/screenshots/gtkam/fol.png ../../../../src/screenshots/gtkam/fol_create.png ../../../../src/screenshots/gtkam/fol_uploadfile.png ../../../../src/screenshots/gtkam/gtkam.png ../../../../src/screenshots/gtkam/help.png ../../../../src/screenshots/gtkam/help_about.png ../../../../src/screenshots/gtkam/help_debug.png ../../../../src/screenshots/gtkam/rt_click_dir.png ../../../../src/screenshots/gtkam/rt_click_dir_man.png ../../../../src/screenshots/gtkam/rt_click_list.png ../../../../src/screenshots/gtkam/rt_click_list_info.png ../../../../src/screenshots/gtkam/rt_click_list_rename.png ../../../../src/screenshots/gtkam/sel.png ../../../../src/screenshots/gtkam/view.png '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots/gtkam'
+make[5]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[5]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making install in css
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xml/css'
+ /usr/bin/install -c -m 644 ../../../src/css/docbook-xml.css '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xml/css'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+Making install in man
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/man'
+ /usr/bin/install -c -m 644 gphoto2.1 gtkam.1 libgphoto2_port.3 libgphoto2.3 '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/man'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+Making install in html
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+make[4]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html/
+/usr/bin/install -c -m 644 *.html /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html/
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html'
+ /usr/bin/install -c -m 644 index.html '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html'
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures figures))
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots screenshots))
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+Making install in txt
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/txt'
+ /usr/bin/install -c -m 644 gphoto2.txt '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/txt'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+Making install in xhtml
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+make[4]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/
+/usr/bin/install -c -m 644 *.html /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml'
+ /usr/bin/install -c -m 644 index.html '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml'
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures figures))
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots screenshots))
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+Making install in html-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+make[4]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures figures))
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks'
+ /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks'
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots screenshots))
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+Making install in xhtml-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+make[4]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks/
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures figures))
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks'
+ /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks'
+cd /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots screenshots))
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+Making install in txt2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/txt'
+ /usr/bin/install -c -m 644 gphoto2.txt2 '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/txt'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+Making install in ps
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+Making install in xsl
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+Making install in pdf
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xml'
+ /usr/bin/install -c -m 644 ../../src/gphoto2.xml '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xml'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making install in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+Making install in help
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+Making install in C
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[4]: Nothing to be done for `install-exec-am'.
+find: ‘../../../help/C/screenshots’: No such file or directory
+/bin/sh /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/auto-aux/install-sh -d /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C/figures
+cp ../../../help/C/../../../src/gphoto2.xml ../../../help/C/legal.xml gtkam.xml /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C
+cp: cannot stat ‘../../../help/C/../../../src/gphoto2.xml’: No such file or directory
+cp: cannot stat ‘gtkam.xml’: No such file or directory
+make[4]: [install-data-am] Error 1 (ignored)
+for file in ; do \
+  basefile=`echo $file | sed -e  's,^.*/,,'`; \
+  /usr/bin/install -c -m 644 $file /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C/figures/$basefile; \
+done
+if [ -e ../../../help/C/topic.dat ]; then \
+	/usr/bin/install -c -m 644 ../../../help/C/topic.dat /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C; \
+ fi
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/pkgconfig'
+ /usr/bin/install -c -m 644 gphoto2-manual.pc '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/pkgconfig'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+Making installcheck in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making installcheck in figures
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+Making installcheck in screenshots
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making installcheck in gtkam
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Nothing to be done for `installcheck'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[4]: Nothing to be done for `installcheck-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making installcheck in css
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+Making installcheck in man
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+Making installcheck in html
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+Making installcheck in txt
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+Making installcheck in xhtml
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+Making installcheck in html-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+Making installcheck in xhtml-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+Making installcheck in txt2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+Making installcheck in ps
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+Making installcheck in xsl
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+Making installcheck in pdf
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[3]: Nothing to be done for `installcheck-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making installcheck in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+Making installcheck in help
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+Making installcheck in C
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[3]: Nothing to be done for `installcheck-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+Making uninstall in src
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making uninstall in figures
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/figures' && rm -f architecture.png libgphoto2-api.png libgphoto2-camlib.png libgphoto2_port.png gphotofs.png software-dependencies.ps software-dependencies.pdf software-dependencies.png software-dependencies.jpg software-dependencies.svg )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/figures'
+Making uninstall in screenshots
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making uninstall in gtkam
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/screenshots/gtkam' && rm -f cam.png cam_conf_cam.png cam_conf_driver.png cam_driver.png cam_info.png cam_sel.png cam_sel_enh.png cam_sel_portadd.png exp.png file.png file_del.png file_del_dia.png file_save.png file_save_dia.png fol.png fol_create.png fol_uploadfile.png gtkam.png help.png help_about.png help_debug.png rt_click_dir.png rt_click_dir_man.png rt_click_list.png rt_click_list_info.png rt_click_list_rename.png sel.png view.png )
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots/gtkam'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[4]: Nothing to be done for `uninstall-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/screenshots'
+Making uninstall in css
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xml/css' && rm -f docbook-xml.css )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/css'
+Making uninstall in man
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/man' && rm -f gphoto2.1 gtkam.1 libgphoto2_port.3 libgphoto2.3 )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/man'
+Making uninstall in html
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html/*.html
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html' && rm -f index.html )
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html/figures
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html/screenshots
+rmdir /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html'
+Making uninstall in txt
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/txt' && rm -f gphoto2.txt )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt'
+Making uninstall in xhtml
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/*.html
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml' && rm -f index.html )
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/figures
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml/screenshots
+rmdir /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml'
+Making uninstall in html-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks/figures
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks/screenshots
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks' && rm -f gphoto2.html )
+rmdir /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/html-nochunks
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/html-nochunks'
+Making uninstall in xhtml-nochunks
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks/figures
+rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks/screenshots
+rmdir /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks
+rmdir: failed to remove ‘/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks’: Directory not empty
+make[3]: [uninstall-local] Error 1 (ignored)
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xhtml-nochunks' && rm -f gphoto2.html )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xhtml-nochunks'
+Making uninstall in txt2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/txt' && rm -f gphoto2.txt2 )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/txt2'
+Making uninstall in ps
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/ps'
+Making uninstall in xsl
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+make[3]: Nothing to be done for `uninstall'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/xsl'
+Making uninstall in pdf
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src/pdf'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/doc/gphoto2-manual/xml' && rm -f gphoto2.xml )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/src'
+Making uninstall in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/gphoto-m4'
+Making uninstall in help
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+Making uninstall in C
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+for file in ../../../help/C/figures/*.png; do \
+  basefile=`echo $file | sed -e  's,^.*/,,'`; \
+  rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C/figures/$basefile; \
+done
+for file in ../../../src/gphoto2.xml ../../../help/C/legal.xml gtkam.xml; do \
+  rm -f /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C/$file; \
+done
+rmdir /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C/figures
+rmdir /tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C
+rmdir: failed to remove ‘/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/gnome/help/gtkam/C’: Directory not empty
+make[3]: [uninstall-local] Error 1 (ignored)
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help/C'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[3]: Nothing to be done for `uninstall-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build/help'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+ ( cd '/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_inst/share/pkgconfig' && rm -f gphoto2-manual.pc )
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+ERROR: files left after uninstall:
+./share/gnome/help/gtkam/C/legal.xml
+make[1]: *** [distuninstallcheck] Error 1
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto2-manual-2.3.1.trunk/_build'
+make: *** [distcheck] Error 1

@@ -1,0 +1,98 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b'
+if test -d "gtkam-0.2.0"; then find "gtkam-0.2.0" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gtkam-0.2.0" || { sleep 5 && rm -rf "gtkam-0.2.0"; }; else :; fi
+test -d "gtkam-0.2.0" || mkdir "gtkam-0.2.0"
+ (cd gphoto-m4 && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+ (cd art && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/art \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+ (cd doc && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/doc \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+ (cd help && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/help \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+ (cd C && make  top_distdir=../../gtkam-0.2.0 distdir=../../gtkam-0.2.0/help/C \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+make  \
+  top_distdir="../../gtkam-0.2.0" distdir="../../gtkam-0.2.0/help/C" \
+  dist-hook
+make[4]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+/bin/sh ../../../auto-aux/mkinstalldirs ../../gtkam-0.2.0/help/C/figures
+if [ -e topic.dat ]; then \
+	cp ../../../help/C/topic.dat ../../gtkam-0.2.0/help/C; \
+fi
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+ (cd ru && make  top_distdir=../../gtkam-0.2.0 distdir=../../gtkam-0.2.0/help/ru \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+ourdir=`pwd`;  \
+cd ../../../help/ru;   \
+cp legal.xml $ourdir
+make  \
+  top_distdir="../../gtkam-0.2.0" distdir="../../gtkam-0.2.0/help/ru" \
+  dist-hook
+make[4]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+/bin/sh ../../../auto-aux/mkinstalldirs ../../gtkam-0.2.0/help/ru/figures
+if [ -e topic.dat ]; then \
+	cp ../../../help/ru/topic.dat ../../gtkam-0.2.0/help/ru; \
+fi
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+ (cd omf-install && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/omf-install \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+ (cd packaging && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/packaging \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+ (cd rpm && make  top_distdir=../../gtkam-0.2.0 distdir=../../gtkam-0.2.0/packaging/rpm \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+ (cd pixmaps && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/pixmaps \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+ (cd po && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/po \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+dists="Makefile.in.in POTFILES.in be.po cs.po da.po de.po eo.po es.po fr.po hu.po id.po it.po is.po ja.po nb.po nl.po pa.po pl.po pt_BR.po pt.po ru.po sk.po sl.po sv.po uk.po vi.po zh_CN.po "; \
+extra_dists="ChangeLog POTFILES.skip Makevars LINGUAS"; \
+for file in $extra_dists; do \
+  test -f ../../po/$file && dists="$dists ../../po/$file"; \
+done; \
+for file in $dists; do \
+  test -f $file || file="../../po/$file"; \
+  ln $file ../gtkam-0.2.0/po 2> /dev/null \
+    || cp -p $file ../gtkam-0.2.0/po; \
+done
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+ (cd src && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/src \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+ (cd test && make  top_distdir=../gtkam-0.2.0 distdir=../gtkam-0.2.0/test \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+test -n "" \
+|| find "gtkam-0.2.0" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/gtkam/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "gtkam-0.2.0"
+tardir=gtkam-0.2.0 && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >gtkam-0.2.0.tar.bz2
+tardir=gtkam-0.2.0 && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >gtkam-0.2.0.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b'
+if test -d "gtkam-0.2.0"; then find "gtkam-0.2.0" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gtkam-0.2.0" || { sleep 5 && rm -rf "gtkam-0.2.0"; }; else :; fi

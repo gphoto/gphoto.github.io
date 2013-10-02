@@ -1,0 +1,178 @@
+Making install in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+Making install in figures
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures'
+ /usr/bin/install -c -m 644 architecture.png libgphoto2-api.png libgphoto2-camlib.png libgphoto2_port.png gphotofs.png software-dependencies.ps software-dependencies.pdf software-dependencies.png software-dependencies.jpg software-dependencies.svg '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+Making install in screenshots
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+Making install in gtkam
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[4]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots/gtkam'
+ /usr/bin/install -c -m 644 ../../../../src/screenshots/gtkam/cam.png ../../../../src/screenshots/gtkam/cam_conf_cam.png ../../../../src/screenshots/gtkam/cam_conf_driver.png ../../../../src/screenshots/gtkam/cam_driver.png ../../../../src/screenshots/gtkam/cam_info.png ../../../../src/screenshots/gtkam/cam_sel.png ../../../../src/screenshots/gtkam/cam_sel_enh.png ../../../../src/screenshots/gtkam/cam_sel_portadd.png ../../../../src/screenshots/gtkam/exp.png ../../../../src/screenshots/gtkam/file.png ../../../../src/screenshots/gtkam/file_del.png ../../../../src/screenshots/gtkam/file_del_dia.png ../../../../src/screenshots/gtkam/file_save.png ../../../../src/screenshots/gtkam/file_save_dia.png ../../../../src/screenshots/gtkam/fol.png ../../../../src/screenshots/gtkam/fol_create.png ../../../../src/screenshots/gtkam/fol_uploadfile.png ../../../../src/screenshots/gtkam/gtkam.png ../../../../src/screenshots/gtkam/help.png ../../../../src/screenshots/gtkam/help_about.png ../../../../src/screenshots/gtkam/help_debug.png ../../../../src/screenshots/gtkam/rt_click_dir.png ../../../../src/screenshots/gtkam/rt_click_dir_man.png ../../../../src/screenshots/gtkam/rt_click_list.png ../../../../src/screenshots/gtkam/rt_click_list_info.png ../../../../src/screenshots/gtkam/rt_click_list_rename.png ../../../../src/screenshots/gtkam/sel.png ../../../../src/screenshots/gtkam/view.png '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots/gtkam'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+Making install in css
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xml/css'
+ /usr/bin/install -c -m 644 ../../../src/css/docbook-xml.css '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xml/css'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+Making install in man
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/man'
+ /usr/bin/install -c -m 644 gphoto2.1 gtkam.1 libgphoto2_port.3 libgphoto2.3 '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/man'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+Making install in html
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+make[3]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html/
+/usr/bin/install -c -m 644 *.html /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html/
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html'
+ /usr/bin/install -c -m 644 index.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html'
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures figures))
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots screenshots))
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+Making install in txt
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/txt'
+ /usr/bin/install -c -m 644 gphoto2.txt '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/txt'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+Making install in xhtml
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+make[3]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml/
+/usr/bin/install -c -m 644 *.html /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml/
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml'
+ /usr/bin/install -c -m 644 index.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml'
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures figures))
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots screenshots))
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+Making install in html-nochunks
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+make[3]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures figures))
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks'
+ /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks'
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots screenshots))
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+Making install in xhtml-nochunks
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+make[3]: Nothing to be done for `install-exec-am'.
+/usr/bin/install -c -d /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks/
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks'
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures figures))
+ /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks'
+cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots screenshots))
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+Making install in txt2
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/txt'
+ /usr/bin/install -c -m 644 gphoto2.txt2 '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/txt'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+Making install in ps
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+Making install in xsl
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+Making install in pdf
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xml'
+ /usr/bin/install -c -m 644 ../../src/gphoto2.xml '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xml'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+Making install in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+Making install in help
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+Making install in C
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[3]: Nothing to be done for `install-exec-am'.
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+/bin/sh /tmp/_build-status-gphoto/gphoto2-manual/auto-aux/install-sh -d /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C/figures
+cp ../../../help/C/../../../src/gphoto2.xml ../../../help/C/legal.xml gtkam.xml /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C
+cp: cannot stat ‘../../../help/C/../../../src/gphoto2.xml’: No such file or directory
+make[3]: [install-data-am] Error 1 (ignored)
+for file in ; do \
+  basefile=`echo $file | sed -e  's,^.*/,,'`; \
+  /usr/bin/install -c -m 644 $file /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C/figures/$basefile; \
+done
+if [ -e ../../../help/C/topic.dat ]; then \
+	/usr/bin/install -c -m 644 ../../../help/C/topic.dat /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C; \
+ fi
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/pkgconfig'
+ /usr/bin/install -c -m 644 gphoto2-manual.pc '/tmp/_build-status-gphoto/PREFIX/share/pkgconfig'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'

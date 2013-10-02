@@ -1,0 +1,6 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b'
+NEWS not updated; not releasing
+make[1]: *** [distdir] Error 1
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b'
+make: *** [dist] Error 2

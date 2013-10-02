@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Developer Page"
+css:    ["/css/build-status.css"]
 ---
 {% include menu.html current="dev" %}
 
@@ -15,6 +16,10 @@ and the other software modules from the gPhoto project.
 * [Mailing lists](/mailinglists/)
 
 * IRC: `#gphoto` on `irc.freenode.net`
+
+* Build status
+
+  {% include build-status-gphoto.html %}
 
 <!-- * Pull requests on github -->
 

@@ -1,0 +1,2120 @@
+Making installcheck in libgphoto2_port
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+Making installcheck in po
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/po'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/po'
+Making installcheck in libgphoto2_port
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/libgphoto2_port'
+Making installcheck in .
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+Making installcheck in test
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/test'
+Running "installcheck" test cases...
+Test case: test-port-list
+14 ports found on your system.
+No:    0
+Type:  PTPIP
+Name:  PTP/IP Connection
+Path:  ptpip:
+No:    1
+Type:  SERIAL
+Name:  Serial Port 0
+Path:  serial:/dev/ttyS0
+No:    2
+Type:  SERIAL
+Name:  Serial Port 1
+Path:  serial:/dev/ttyS1
+No:    3
+Type:  SERIAL
+Name:  Serial Port 2
+Path:  serial:/dev/ttyS2
+No:    4
+Type:  SERIAL
+Name:  Serial Port 3
+Path:  serial:/dev/ttyS3
+No:    5
+Type:  USB
+Name:  Universal Serial Bus
+Path:  usb:002,002
+No:    6
+Type:  USBDISKDIRECT
+Name:  USB Mass Storage direct IO
+Path:  usbdiskdirect:/dev/sdc
+No:    7
+Type:  USBDISKDIRECT
+Name:  USB Mass Storage direct IO
+Path:  usbdiskdirect:/dev/sdd
+No:    8
+Type:  USBDISKDIRECT
+Name:  USB Mass Storage direct IO
+Path:  usbdiskdirect:/dev/sde
+No:    9
+Type:  USBDISKDIRECT
+Name:  USB Mass Storage direct IO
+Path:  usbdiskdirect:/dev/sdf
+No:    10
+Type:  USBSCSI
+Name:  USB Mass Storage raw SCSI
+Path:  usbscsi:/dev/sg3
+No:    11
+Type:  USBSCSI
+Name:  USB Mass Storage raw SCSI
+Path:  usbscsi:/dev/sg4
+No:    12
+Type:  USBSCSI
+Name:  USB Mass Storage raw SCSI
+Path:  usbscsi:/dev/sg5
+No:    13
+Type:  USBSCSI
+Name:  USB Mass Storage raw SCSI
+Path:  usbscsi:/dev/sg6
+SUCCEEDED: test-port-list
+Test summary: 1 succeeded, 0 failed, 0 failures ignored, 1 tests in total.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/test'
+Making installcheck in doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/doc'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/doc'
+Making installcheck in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/gphoto-m4'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port/gphoto-m4'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2_port'
+Making installcheck in libgphoto2
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/libgphoto2'
+Making installcheck in camlibs
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+Making installcheck in .
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+Making installcheck in canon/doc
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/canon/doc'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/canon/doc'
+Making installcheck in konica/localization
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/konica/localization'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs/konica/localization'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/camlibs'
+Making installcheck in tests
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+Making installcheck in ddb
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+Running "installcheck" test cases...
+Test summary: 0 succeeded, 0 failed, 0 failures ignored, 0 tests in total.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests/ddb'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+Running "installcheck" test cases...
+Test case: test-camera-list
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+  1|jl2005c             |JL2005B/C/D camera  | JL2005B/C/D camera
+  2|ptp2                |PTP                 |Acer E350 Liquid Gallant Duo
+  3|ptp2                |PTP                 |Acer Iconia TAB A100 (ID1)
+  4|ptp2                |PTP                 |Acer Iconia TAB A100 (ID2)
+  5|ptp2                |PTP                 |Acer Iconia TAB A110
+  6|ptp2                |PTP                 |Acer Iconia TAB A200 (ID1)
+  7|ptp2                |PTP                 |Acer Iconia TAB A200 (ID2)
+  8|ptp2                |PTP                 |Acer Iconia TAB A210
+  9|ptp2                |PTP                 |Acer Iconia TAB A500 (ID1)
+ 10|ptp2                |PTP                 |Acer Iconia TAB A500 (ID2)
+ 11|ptp2                |PTP                 |Acer Iconia TAB A501 (ID1)
+ 12|ptp2                |PTP                 |Acer Iconia TAB A501 (ID2)
+ 13|ptp2                |PTP                 |Acer Iconia TAB A510 (ID1)
+ 14|ptp2                |PTP                 |Acer Iconia TAB A510 (ID2)
+ 15|ptp2                |PTP                 |Acer Iconia TAB A700
+ 16|ptp2                |PTP                 |Acer Liquid Z120 MT65xx Android Phone
+ 17|ptp2                |PTP                 |Acer S500 CloudMobile
+ 18|adc65               |adc65               |Achiever Digital Adc65
+ 19|ptp2                |PTP                 |Acromag Inc. XO Learning Tablet (MTP)
+ 20|ptp2                |PTP                 |Acromag Inc. XO Learning Tablet (MTP+ADB)
+ 21|stv0680             |STV0680             |AEG Snap 300
+ 22|sierra              |sierra              |Agfa ePhoto 1280
+ 23|sierra              |sierra              |Agfa ePhoto 1680
+ 24|sierra              |sierra              |Agfa ePhoto 307
+ 25|sierra              |sierra              |Agfa ePhoto 780
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+ 26|sierra              |sierra              |Agfa ePhoto 780C
+ 27|soundvision         |soundvision         |Agfa ePhoto CL18
+ 28|agfa_cl20           |agfa_cl20           |Agfa ePhoto CL20
+ 29|spca50x             |spca50x             |Aiptek 1.3 mega PocketCam
+ 30|stv0680             |STV0680             |Aiptek PalmCam Trio
+ 31|spca50x             |spca50x             |Aiptek Pencam
+ 32|stv0680             |STV0680             |Aiptek PenCam Trio
+ 33|mars                |Aiptek PenCam VGA+  |Aiptek PenCam VGA+
+ 34|spca50x             |spca50x             |Aiptek Pencam without flash
+ 35|spca50x             |spca50x             |Aiptek Smart Megacam
+ 36|ptp2                |PTP                 |Alcatel One Touch 997D
+ 37|jl2005c             |JL2005B/C/D camera  |Amazing Spiderman
+ 38|ptp2                |PTP                 |Amazon Kindle Fire (ID1)
+ 39|ptp2                |PTP                 |Amazon Kindle Fire (ID2)
+ 40|ptp2                |PTP                 |Amazon Kindle Fire (ID3)
+ 41|ptp2                |PTP                 |Amazon Kindle Fire 2G (ID1)
+ 42|jl2005a             |JL2005A camera      |American Idol Keychain Camera
+ 43|ptp2                |PTP                 |Apple iPad (PTP mode)
+ 44|ptp2                |PTP                 |Apple iPhone (PTP mode)
+ 45|ptp2                |PTP                 |Apple iPhone 3G (PTP mode)
+ 46|ptp2                |PTP                 |Apple iPhone 3GS (PTP mode)
+ 47|ptp2                |PTP                 |Apple iPhone 4 (PTP mode)
+ 48|ptp2                |PTP                 |Apple iPhone 4S (PTP mode)
+ 49|ptp2                |PTP                 |Apple iPod Touch (PTP mode)
+ 50|ptp2                |PTP                 |Apple iPod Touch 2G (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+ 51|ptp2                |PTP                 |Apple iPod Touch 3rd Gen (PTP mode)
+ 52|fuji                |Fuji                |Apple QuickTake 200
+ 53|sierra              |sierra              |Apple QuickTake 200
+ 54|ptp2                |PTP                 |Archos 101 G9
+ 55|ptp2                |PTP                 |Archos 101 G9 (v2)
+ 56|ptp2                |PTP                 |Archos 101 G9 Turbo
+ 57|ptp2                |PTP                 |Archos 101 G9 Turbo 250 HD
+ 58|ptp2                |PTP                 |Archos 104 (MTP mode)
+ 59|ptp2                |PTP                 |Archos 105 (MTP mode)
+ 60|ptp2                |PTP                 |Archos 204 (MTP mode)
+ 61|ptp2                |PTP                 |Archos 404 (MTP mode)
+ 62|ptp2                |PTP                 |Archos 404CAM (MTP mode)
+ 63|ptp2                |PTP                 |Archos 405 (MTP mode)
+ 64|ptp2                |PTP                 |Archos 405HDD (MTP mode)
+ 65|ptp2                |PTP                 |Archos 5 (MTP mode)
+ 66|ptp2                |PTP                 |Archos 5 (MTP mode)
+ 67|ptp2                |PTP                 |Archos 504 (MTP mode)
+ 68|ptp2                |PTP                 |Archos 5H IT (MTP mode)
+ 69|ptp2                |PTP                 |Archos 5S IT (MTP mode)
+ 70|ptp2                |PTP                 |Archos 604 (MTP mode)
+ 71|ptp2                |PTP                 |Archos 604WIFI (MTP mode)
+ 72|ptp2                |PTP                 |Archos 605 (MTP mode)
+ 73|ptp2                |PTP                 |Archos 605F (MTP mode)
+ 74|ptp2                |PTP                 |Archos 7 (MTP mode)
+ 75|ptp2                |PTP                 |Archos 704 mobile dvr
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+ 76|ptp2                |PTP                 |Archos 704TV (MTP mode)
+ 77|ptp2                |PTP                 |Archos 705 (MTP mode)
+ 78|ptp2                |PTP                 |Archos 70it2 (mode 1)
+ 79|ptp2                |PTP                 |Archos 70it2 (mode 2)
+ 80|ptp2                |PTP                 |Archos 80G9
+ 81|ptp2                |PTP                 |Archos 8o G9 (MTP mode)
+ 82|ptp2                |PTP                 |Archos 8o G9 Turbo (MTP mode)
+ 83|ptp2                |PTP                 |Archos 97 Xenon
+ 84|ptp2                |PTP                 |Archos Arnova 10bG3 Tablet
+ 85|ptp2                |PTP                 |Archos Arnova 8c G3
+ 86|ptp2                |PTP                 |Archos Arnova Childpad
+ 87|ptp2                |PTP                 |Archos Gmini XS100
+ 88|ptp2                |PTP                 |Archos SPOD (MTP mode)
+ 89|ptp2                |PTP                 |Archos TV+ (MTP mode)
+ 90|ptp2                |PTP                 |Archos XS202 (MTP mode)
+ 91|jl2005c             |JL2005B/C/D camera  |Argus Bean Sprout
+ 92|jd11                |JD11                |Argus DC-100
+ 93|stv0680             |STV0680             |Argus DC-1500
+ 94|sq905               |SQ chipset camera   |Argus DC-1510
+ 95|mars                |Aiptek PenCam VGA+  |Argus DC-1610
+ 96|mars                |Aiptek PenCam VGA+  |Argus DC-1620
+ 97|sq905               |SQ chipset camera   |Argus DC-1730
+ 98|jd11                |JD11                |Argus DC-2000
+ 99|soundvision         |soundvision         |Argus DC-2200
+100|jl2005c             |JL2005B/C/D camera  |Argus DC1512e
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+101|mars                |Aiptek PenCam VGA+  |Argus QuickClix
+102|jl2005c             |JL2005B/C/D camera  |Aries ATC-0017
+103|digigr8             |SQ905C chipset camera|Aries Digital Keychain Camera, I
+104|ptp2                |PTP                 |Asus Fonepad
+105|ptp2                |PTP                 |Asus MeMo Pad Smart 10
+106|ptp2                |PTP                 |Asus PadFone (MTP)
+107|ptp2                |PTP                 |Asus PadFone (MTP+ADB)
+108|ptp2                |PTP                 |Asus PadFone 2 (MTP)
+109|ptp2                |PTP                 |Asus PadFone 2 (MTP+?)
+110|ptp2                |PTP                 |Asus SL101 (MTP)
+111|ptp2                |PTP                 |Asus SL101 (MTP+ADB)
+112|ptp2                |PTP                 |Asus TF101 Eeepad Transformer (MTP)
+113|ptp2                |PTP                 |Asus TF101 Eeepad Transformer (MTP+ADB)
+114|ptp2                |PTP                 |Asus TF201 Transformer Prime (keyboard dock)
+115|ptp2                |PTP                 |Asus TF201 Transformer Prime (tablet only)
+116|ptp2                |PTP                 |Asus TF300 Transformer (MTP)
+117|ptp2                |PTP                 |Asus TF300 Transformer (MTP+ADB)
+118|ptp2                |PTP                 |Asus TF700 Transformer (MTP)
+119|ptp2                |PTP                 |Asus TF700 Transformer (MTP+ADB)
+120|ax203               |AX203 USB picture frame|AX203 USB picture frame firmware ver 3.3.x
+121|ax203               |AX203 USB picture frame|AX203 USB picture frame firmware ver 3.4.x
+122|ax203               |AX203 USB picture frame|AX203 USB picture frame firmware ver 3.5.x
+123|ax203               |AX203 USB picture frame|AX203 USB picture frame firmware ver 3.6.x
+124|barbie              |barbie              |Barbie
+125|digigr8             |SQ905C chipset camera|Barbie Camera (Digital Blue)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+126|ptp2                |PTP                 |Barnes&Noble Nook HD
+127|ptp2                |PTP                 |Barnes&Noble Nook HD+
+128|spca50x             |spca50x             |Benq DC1300
+129|canon               |canon               |Canon Digital IXUS
+130|ptp2                |PTP                 |Canon Digital IXUS 100 IS
+131|ptp2                |PTP                 |Canon Digital IXUS 110 IS
+132|ptp2                |PTP                 |Canon Digital IXUS 120 IS
+133|ptp2                |PTP                 |Canon Digital IXUS 130
+134|ptp2                |PTP                 |Canon Digital IXUS 30 (PTP mode)
+135|canon               |canon               |Canon Digital IXUS 300
+136|canon               |canon               |Canon Digital IXUS 330
+137|ptp2                |PTP                 |Canon Digital IXUS 40 (PTP mode)
+138|ptp2                |PTP                 |Canon Digital IXUS 400 (PTP mode)
+139|ptp2                |PTP                 |Canon Digital IXUS 430 (PTP mode)
+140|ptp2                |PTP                 |Canon Digital IXUS 50 (PTP mode)
+141|ptp2                |PTP                 |Canon Digital IXUS 500 (PTP mode)
+142|ptp2                |PTP                 |Canon Digital IXUS 55 (PTP mode)
+143|ptp2                |PTP                 |Canon Digital IXUS 60 (PTP mode)
+144|ptp2                |PTP                 |Canon Digital IXUS 65 (PTP mode)
+145|ptp2                |PTP                 |Canon Digital IXUS 70 (PTP mode)
+146|ptp2                |PTP                 |Canon Digital IXUS 700 (PTP mode)
+147|ptp2                |PTP                 |Canon Digital IXUS 75 (PTP mode)
+148|ptp2                |PTP                 |Canon Digital IXUS 750 (PTP mode)
+149|ptp2                |PTP                 |Canon Digital IXUS 80 IS
+150|ptp2                |PTP                 |Canon Digital IXUS 800 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+151|ptp2                |PTP                 |Canon Digital IXUS 85 IS
+152|ptp2                |PTP                 |Canon Digital IXUS 850 IS (PTP mode)
+153|ptp2                |PTP                 |Canon Digital IXUS 860 IS
+154|ptp2                |PTP                 |Canon Digital IXUS 90 IS
+155|ptp2                |PTP                 |Canon Digital IXUS 900Ti (PTP mode)
+156|ptp2                |PTP                 |Canon Digital IXUS 95 IS
+157|ptp2                |PTP                 |Canon Digital IXUS 950 IS (PTP mode)
+158|ptp2                |PTP                 |Canon Digital IXUS 960 IS (PTP mode)
+159|ptp2                |PTP                 |Canon Digital IXUS 970 IS
+160|ptp2                |PTP                 |Canon Digital IXUS 980 IS
+161|ptp2                |PTP                 |Canon Digital IXUS 990 IS
+162|canon               |canon               |Canon Digital IXUS i (normal mode)
+163|ptp2                |PTP                 |Canon Digital IXUS i (PTP mode)
+164|canon               |canon               |Canon Digital IXUS i5 (normal mode)
+165|ptp2                |PTP                 |Canon Digital IXUS II (PTP mode)
+166|ptp2                |PTP                 |Canon Digital IXUS IIs (PTP mode)
+167|ptp2                |PTP                 |Canon Digital IXUS iZ (PTP mode)
+168|canon               |canon               |Canon Digital IXUS v
+169|canon               |canon               |Canon Digital IXUS v2
+170|canon               |canon               |Canon Digital IXUS v3 (normal mode)
+171|ptp2                |PTP                 |Canon Digital IXUS v3 (PTP mode)
+172|ptp2                |PTP                 |Canon Digital IXUS Wireless (PTP mode)
+173|canon               |canon               |Canon Digital Rebel XT (normal mode)
+174|canon               |canon               |Canon Digital unknown 3
+175|canon               |canon               |Canon Elura 50 (normal mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+176|ptp2                |PTP                 |Canon Elura 50 (PTP mode)
+177|ptp2                |PTP                 |Canon Elura 65 (PTP mode)
+178|ptp2                |PTP                 |Canon EOS 1000D
+179|ptp2                |PTP                 |Canon EOS 100D
+180|canon               |canon               |Canon EOS 10D
+181|ptp2                |PTP                 |Canon EOS 10D (PTP mode)
+182|ptp2                |PTP                 |Canon EOS 1100D
+183|ptp2                |PTP                 |Canon EOS 1D Mark II (PTP mode)
+184|ptp2                |PTP                 |Canon EOS 1D Mark III (PTP mode)
+185|ptp2                |PTP                 |Canon EOS 1D Mark IV
+186|ptp2                |PTP                 |Canon EOS 1D X
+187|canon               |canon               |Canon EOS 20D (normal mode)
+188|ptp2                |PTP                 |Canon EOS 20D (PTP mode)
+189|canon               |canon               |Canon EOS 300D (normal mode)
+190|ptp2                |PTP                 |Canon EOS 300D (PTP mode)
+191|ptp2                |PTP                 |Canon EOS 30D (PTP mode)
+192|ptp2                |PTP                 |Canon EOS 350D
+193|canon               |canon               |Canon EOS 350D (normal mode)
+194|ptp2                |PTP                 |Canon EOS 350D (PTP mode)
+195|ptp2                |PTP                 |Canon EOS 400D (PTP mode)
+196|ptp2                |PTP                 |Canon EOS 40D (PTP mode)
+197|ptp2                |PTP                 |Canon EOS 450D (PTP mode)
+198|ptp2                |PTP                 |Canon EOS 500D
+199|ptp2                |PTP                 |Canon EOS 50D
+200|ptp2                |PTP                 |Canon EOS 550D
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+201|canon               |canon               |Canon EOS 5D (normal mode)
+202|ptp2                |PTP                 |Canon EOS 5D (PTP mode)
+203|ptp2                |PTP                 |Canon EOS 5D Mark II
+204|ptp2                |PTP                 |Canon EOS 5D Mark III
+205|ptp2                |PTP                 |Canon EOS 600D
+206|ptp2                |PTP                 |Canon EOS 60D
+207|ptp2                |PTP                 |Canon EOS 650D
+208|ptp2                |PTP                 |Canon EOS 6D
+209|ptp2                |PTP                 |Canon EOS 700D
+210|ptp2                |PTP                 |Canon EOS 7D
+211|canon               |canon               |Canon EOS D30
+212|canon               |canon               |Canon EOS D60
+213|canon               |canon               |Canon EOS Digital Rebel (normal mode)
+214|ptp2                |PTP                 |Canon EOS Digital Rebel (PTP mode)
+215|ptp2                |PTP                 |Canon EOS Digital Rebel XTi (PTP mode)
+216|canon               |canon               |Canon EOS Kiss Digital (normal mode)
+217|ptp2                |PTP                 |Canon EOS Kiss Digital (PTP mode)
+218|canon               |canon               |Canon EOS Kiss Digital N (normal mode)
+219|ptp2                |PTP                 |Canon EOS Kiss Digital X (PTP mode)
+220|ptp2                |PTP                 |Canon EOS Kiss X2 (PTP mode)
+221|ptp2                |PTP                 |Canon EOS Kiss X3
+222|ptp2                |PTP                 |Canon EOS M
+223|ptp2                |PTP                 |Canon EOS Rebel T1i
+224|ptp2                |PTP                 |Canon EOS Rebel XSi (PTP mode)
+225|canon               |canon               |Canon FV M1 (normal mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+226|ptp2                |PTP                 |Canon IXUS 310IS
+227|ptp2                |PTP                 |Canon IXY 220 IS
+228|ptp2                |PTP                 |Canon IXY 3000 IS
+229|canon               |canon               |Canon IXY DIGITAL
+230|canon               |canon               |Canon IXY DIGITAL 300
+231|canon               |canon               |Canon IXY Digital L2 (normal mode)
+232|canon               |canon               |Canon IXY DV M
+233|canon               |canon               |Canon IXY DV M2 (normal mode)
+234|canon               |canon               |Canon MV630i (normal mode)
+235|canon               |canon               |Canon MV650i (normal mode)
+236|ptp2                |PTP                 |Canon MV750i (PTP mode)
+237|canon               |canon               |Canon MVX 10i (normal mode)
+238|canon               |canon               |Canon MVX 3i (normal mode)
+239|canon               |canon               |Canon MVX100i
+240|canon               |canon               |Canon MVX100i
+241|canon               |canon               |Canon MVX150i (normal mode)
+242|canon               |canon               |Canon MVX25i (normal mode)
+243|canon               |canon               |Canon MVX2i
+244|ptp2                |PTP                 |Canon MVX3i (PTP mode)
+245|canon               |canon               |Canon Optura 10
+246|canon               |canon               |Canon Optura 10
+247|canon               |canon               |Canon Optura 20
+248|canon               |canon               |Canon Optura 20 (normal mode)
+249|canon               |canon               |Canon Optura 200 MC
+250|canon               |canon               |Canon Optura 300 (normal mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+251|canon               |canon               |Canon Optura 40 (normal mode)
+252|ptp2                |PTP                 |Canon Optura 600 (PTP mode)
+253|canon               |canon               |Canon Optura Xi (normal mode)
+254|canon               |canon               |Canon PowerShot A10
+255|canon               |canon               |Canon PowerShot A100
+256|ptp2                |PTP                 |Canon PowerShot A1100 IS
+257|ptp2                |PTP                 |Canon PowerShot A1300IS
+258|canon               |canon               |Canon PowerShot A20
+259|canon               |canon               |Canon PowerShot A200
+260|ptp2                |PTP                 |Canon PowerShot A2000 IS
+261|ptp2                |PTP                 |Canon PowerShot A2100 IS
+262|ptp2                |PTP                 |Canon PowerShot A2300IS
+263|ptp2                |PTP                 |Canon PowerShot A2400IS
+264|canon               |canon               |Canon PowerShot A30
+265|ptp2                |PTP                 |Canon PowerShot A300 (PTP mode)
+266|ptp2                |PTP                 |Canon PowerShot A3000 IS
+267|ptp2                |PTP                 |Canon PowerShot A310 (PTP mode)
+268|ptp2                |PTP                 |Canon PowerShot A3100 IS
+269|canon               |canon               |Canon PowerShot A40
+270|ptp2                |PTP                 |Canon PowerShot A400 (PTP mode)
+271|ptp2                |PTP                 |Canon PowerShot A4000IS
+272|ptp2                |PTP                 |Canon PowerShot A410 (PTP mode)
+273|ptp2                |PTP                 |Canon PowerShot A420 (PTP mode)
+274|ptp2                |PTP                 |Canon PowerShot A430 (PTP mode)
+275|ptp2                |PTP                 |Canon PowerShot A450 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+276|ptp2                |PTP                 |Canon PowerShot A460 (PTP mode)
+277|ptp2                |PTP                 |Canon PowerShot A470
+278|ptp2                |PTP                 |Canon PowerShot A480
+279|canon               |canon               |Canon PowerShot A5
+280|canon               |canon               |Canon PowerShot A5 Zoom
+281|canon               |canon               |Canon PowerShot A50
+282|ptp2                |PTP                 |Canon PowerShot A510 (PTP mode)
+283|ptp2                |PTP                 |Canon PowerShot A520 (PTP mode)
+284|ptp2                |PTP                 |Canon PowerShot A530 (PTP mode)
+285|ptp2                |PTP                 |Canon PowerShot A540 (PTP mode)
+286|ptp2                |PTP                 |Canon PowerShot A550 (PTP mode)
+287|ptp2                |PTP                 |Canon PowerShot A560 (PTP mode)
+288|ptp2                |PTP                 |Canon PowerShot A570 IS (PTP mode)
+289|ptp2                |PTP                 |Canon PowerShot A580
+290|ptp2                |PTP                 |Canon PowerShot A590 IS
+291|ptp2                |PTP                 |Canon PowerShot A60 (PTP)
+292|ptp2                |PTP                 |Canon PowerShot A610 (PTP mode)
+293|ptp2                |PTP                 |Canon PowerShot A620 (PTP mode)
+294|ptp2                |PTP                 |Canon PowerShot A630 (PTP mode)
+295|ptp2                |PTP                 |Canon PowerShot A640 (PTP mode)
+296|ptp2                |PTP                 |Canon PowerShot A650IS (PTP mode)
+297|ptp2                |PTP                 |Canon PowerShot A70 (PTP)
+298|ptp2                |PTP                 |Canon PowerShot A700 (PTP mode)
+299|ptp2                |PTP                 |Canon PowerShot A710 IS (PTP mode)
+300|ptp2                |PTP                 |Canon PowerShot A720 IS (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+301|ptp2                |PTP                 |Canon PowerShot A75 (PTP mode)
+302|ptp2                |PTP                 |Canon PowerShot A80 (PTP)
+303|ptp2                |PTP                 |Canon PowerShot A800
+304|ptp2                |PTP                 |Canon PowerShot A85 (PTP mode)
+305|ptp2                |PTP                 |Canon PowerShot A95 (PTP mode)
+306|ptp2                |PTP                 |Canon PowerShot D10
+307|ptp2                |PTP                 |Canon PowerShot D10
+308|canon               |canon               |Canon PowerShot G1
+309|ptp2                |PTP                 |Canon PowerShot G1 X
+310|ptp2                |PTP                 |Canon PowerShot G10
+311|ptp2                |PTP                 |Canon PowerShot G11
+312|ptp2                |PTP                 |Canon PowerShot G15
+313|canon               |canon               |Canon PowerShot G2
+314|canon               |canon               |Canon PowerShot G3 (normal mode)
+315|ptp2                |PTP                 |Canon PowerShot G3 (PTP mode)
+316|ptp2                |PTP                 |Canon PowerShot G5 (PTP mode)
+317|ptp2                |PTP                 |Canon Powershot G6 (PTP mode)
+318|ptp2                |PTP                 |Canon PowerShot G7 (PTP mode)
+319|ptp2                |PTP                 |Canon PowerShot G9 (PTP mode)
+320|canon               |canon               |Canon PowerShot IXY Digital L (normal mode)
+321|canon               |canon               |Canon PowerShot Pro70
+322|canon               |canon               |Canon PowerShot Pro90 IS
+323|ptp2                |PTP                 |Canon PowerShot S1 IS (PTP mode)
+324|canon               |canon               |Canon PowerShot S10
+325|canon               |canon               |Canon PowerShot S100
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+326|ptp2                |PTP                 |Canon PowerShot S100
+327|canon               |canon               |Canon PowerShot S110 (2001)
+328|ptp2                |PTP                 |Canon PowerShot S110 (PTP Mode)
+329|ptp2                |PTP                 |Canon PowerShot S2 IS (PTP mode)
+330|canon               |canon               |Canon PowerShot S20
+331|canon               |canon               |Canon PowerShot S200
+332|canon               |canon               |Canon PowerShot S230 (normal mode)
+333|ptp2                |PTP                 |Canon PowerShot S230 (PTP mode)
+334|ptp2                |PTP                 |Canon PowerShot S3 IS (PTP mode)
+335|canon               |canon               |Canon PowerShot S30
+336|canon               |canon               |Canon PowerShot S300
+337|canon               |canon               |Canon PowerShot S330
+338|canon               |canon               |Canon PowerShot S40
+339|ptp2                |PTP                 |Canon PowerShot S400 (PTP mode)
+340|ptp2                |PTP                 |Canon PowerShot S410 (PTP mode)
+341|canon               |canon               |Canon PowerShot S45 (normal mode)
+342|ptp2                |PTP                 |Canon PowerShot S45 (PTP mode)
+343|ptp2                |PTP                 |Canon PowerShot S5 IS (PTP mode)
+344|ptp2                |PTP                 |Canon PowerShot S50 (PTP mode)
+345|ptp2                |PTP                 |Canon PowerShot S500 (PTP mode)
+346|ptp2                |PTP                 |Canon Powershot S60 (PTP mode)
+347|ptp2                |PTP                 |Canon Powershot S70 (PTP mode)
+348|ptp2                |PTP                 |Canon PowerShot S80 (PTP mode)
+349|canon               |canon               |Canon PowerShot SD10 Digital ELPH (normal mode)
+350|ptp2                |PTP                 |Canon PowerShot SD100 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+351|ptp2                |PTP                 |Canon PowerShot SD1000 (PTP mode)
+352|ptp2                |PTP                 |Canon PowerShot SD110 (PTP mode)
+353|ptp2                |PTP                 |Canon Powershot SD1100 IS
+354|ptp2                |PTP                 |Canon Powershot SD1200 IS
+355|ptp2                |PTP                 |Canon PowerShot SD1300 IS
+356|canon               |canon               |Canon PowerShot SD20 (normal mode)
+357|ptp2                |PTP                 |Canon PowerShot SD200 (PTP mode)
+358|ptp2                |PTP                 |Canon PowerShot SD40 (PTP mode)
+359|ptp2                |PTP                 |Canon PowerShot SD430 (PTP mode)
+360|ptp2                |PTP                 |Canon PowerShot SD450 (PTP mode)
+361|ptp2                |PTP                 |Canon PowerShot SD500 (PTP mode)
+362|ptp2                |PTP                 |Canon PowerShot SD600 (PTP mode)
+363|ptp2                |PTP                 |Canon PowerShot SD630 (PTP mode)
+364|ptp2                |PTP                 |Canon PowerShot SD700 (PTP mode)
+365|ptp2                |PTP                 |Canon PowerShot SD750 (PTP mode)
+366|ptp2                |PTP                 |Canon PowerShot SD770 IS
+367|ptp2                |PTP                 |Canon PowerShot SD780 IS
+368|ptp2                |PTP                 |Canon Powershot SD790 IS
+369|ptp2                |PTP                 |Canon PowerShot SD850 (PTP mode)
+370|ptp2                |PTP                 |Canon PowerShot SD880 IS
+371|ptp2                |PTP                 |Canon PowerShot SD900 (PTP mode)
+372|ptp2                |PTP                 |Canon PowerShot SD940 IS
+373|ptp2                |PTP                 |Canon PowerShot SD970 IS
+374|ptp2                |PTP                 |Canon PowerShot SD990
+375|ptp2                |PTP                 |Canon PowerShot SX10 IS
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+376|ptp2                |PTP                 |Canon Powershot SX100 IS (PTP mode)
+377|ptp2                |PTP                 |Canon PowerShot SX110 IS
+378|ptp2                |PTP                 |Canon PowerShot SX120 IS
+379|ptp2                |PTP                 |Canon PowerShot SX130 IS
+380|ptp2                |PTP                 |Canon PowerShot SX20 IS
+381|ptp2                |PTP                 |Canon PowerShot SX200 IS
+382|ptp2                |PTP                 |Canon PowerShot SX210 IS
+383|ptp2                |PTP                 |Canon PowerShot SX220HS
+384|ptp2                |PTP                 |Canon PowerShot SX230HS
+385|ptp2                |PTP                 |Canon PowerShot SX240HS
+386|ptp2                |PTP                 |Canon PowerShot SX40HS
+387|ptp2                |PTP                 |Canon PowerShot SX500IS
+388|canon               |canon               |Canon PowerShot unknown 1
+389|canon               |canon               |Canon PowerShot unknown 2
+390|ptp2                |PTP                 |Canon Rebel T2i
+391|ptp2                |PTP                 |Canon Rebel T3
+392|ptp2                |PTP                 |Canon Rebel T4i
+393|canon               |canon               |Canon ZR70MC (normal mode)
+394|ptp2                |PTP                 |Casio EX-S770
+395|ptp2                |PTP                 |Casio EX-Z120
+396|ptp2                |PTP                 |Casio EX-Z65
+397|ptp2                |PTP                 |Casio EX-Z700
+398|gsmart300           |gsmart300           |Casio LV 10
+399|casio_qv            |Casio QV            |Casio QV10
+400|casio_qv            |Casio QV            |Casio QV100
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+401|casio_qv            |Casio QV            |Casio QV10A
+402|casio_qv            |Casio QV            |Casio QV300
+403|casio_qv            |Casio QV            |Casio QV70
+404|casio_qv            |Casio QV            |Casio QV700
+405|casio_qv            |Casio QV            |Casio QV770
+406|sq905               |SQ chipset camera   |Che-ez Snap
+407|digigr8             |SQ905C chipset camera|Che-Ez Snap SNAP-U
+408|stv0680             |STV0680             |Che-ez! Babe
+409|stv0674             |STV0674             |Che-ez! Splash
+410|stv0680             |STV0680             |Che-ez! SPYZ
+411|sierra              |sierra              |Chinon ES-1000
+412|polaroid_pdc640     |pdc640/jd350e       |Clever CAM 360
+413|jl2005a             |JL2005A camera      |Cobra DC125
+414|digigr8             |SQ905C chipset camera|Cobra Digital Camera DC150
+415|ptp2                |PTP                 |Coby COBY MP705
+416|ptp2                |PTP                 |Conceptronic CMTD2
+417|sq905               |SQ chipset camera   |Concord Eye-Q Duo
+418|sq905               |SQ chipset camera   |Concord Eye-Q Easy
+419|sx330z              |Traveler SX330z     |Concord EyeQ 4330
+420|aox                 |Aox chipset camera  |Concord EyeQMini_1
+421|aox                 |Aox chipset camera  |Concord EyeQMini_2
+422|soundvision         |soundvision         |CoolCam CP086
+423|ptp2                |PTP                 |Cowon iAudio 10 (MTP mode)
+424|ptp2                |PTP                 |Cowon iAudio 6 (MTP mode)
+425|ptp2                |PTP                 |Cowon iAudio 7 (MTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+426|ptp2                |PTP                 |Cowon iAudio 9 (MTP mode)
+427|ptp2                |PTP                 |Cowon iAudio C2 (MTP mode)
+428|ptp2                |PTP                 |Cowon iAudio D2 (MTP mode)
+429|ptp2                |PTP                 |Cowon iAudio D2+ DAB FW 4.x (MTP mode)
+430|ptp2                |PTP                 |Cowon iAudio D2+ DMB FW 1.x (MTP mode)
+431|ptp2                |PTP                 |Cowon iAudio D2+ FW 2.x (MTP mode)
+432|ptp2                |PTP                 |Cowon iAudio D2+ FW 3.x (MTP mode)
+433|ptp2                |PTP                 |Cowon iAudio J3 (MTP mode)
+434|ptp2                |PTP                 |Cowon iAudio S9 (MTP mode)
+435|ptp2                |PTP                 |Cowon iAudio U3 (MTP mode)
+436|ptp2                |PTP                 |Cowon iAudio U5 (MTP mode)
+437|ptp2                |PTP                 |Cowon iAudio X7 (MTP mode)
+438|smal                |smal                |Creative CardCam
+439|stv0680             |STV0680             |Creative Go Mini
+440|pccam300            |Creative PC-CAM 300 |Creative PC-CAM 300
+441|pccam600            |Creative PC-CAM600/750/350|Creative PC-CAM350
+442|pccam600            |Creative PC-CAM600/750/350|Creative PC-CAM600
+443|pccam600            |Creative PC-CAM600/750/350|Creative PC-CAM750
+444|ptp2                |PTP                 |Creative Portable Media Center
+445|ptp2                |PTP                 |Creative ZEN
+446|ptp2                |PTP                 |Creative ZEN Micro (MTP mode)
+447|ptp2                |PTP                 |Creative ZEN MicroPhoto
+448|ptp2                |PTP                 |Creative ZEN MicroPhoto (alternate version)
+449|ptp2                |PTP                 |Creative ZEN Mozaic
+450|ptp2                |PTP                 |Creative ZEN Sleek (MTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+451|ptp2                |PTP                 |Creative ZEN Sleek Photo
+452|ptp2                |PTP                 |Creative ZEN Touch (MTP mode)
+453|ptp2                |PTP                 |Creative ZEN V
+454|ptp2                |PTP                 |Creative ZEN V 2GB
+455|ptp2                |PTP                 |Creative ZEN V Plus
+456|ptp2                |PTP                 |Creative ZEN Vision
+457|ptp2                |PTP                 |Creative ZEN Vision W
+458|ptp2                |PTP                 |Creative ZEN Vision:M
+459|ptp2                |PTP                 |Creative ZEN Vision:M (DVP-HD0004)
+460|ptp2                |PTP                 |Creative ZEN X-Fi
+461|ptp2                |PTP                 |Creative ZEN X-Fi 3
+462|ptp2                |PTP                 |Creative ZEN Xtra (MTP mode)
+463|ptp2                |PTP                 |Curitel Communications, Inc. Verizon Wireless Device
+464|spca50x             |spca50x             |D-Link DSC 350+
+465|polaroid_pdc640     |pdc640/jd350e       |D-Link DSC 350F
+466|aox                 |Aox chipset camera  |D-MAX DM3588
+467|digigr8             |SQ905C chipset camera|DC-N130t
+468|sq905               |SQ chipset camera   |DC-N130t
+469|sonix               |Vivitar ViviCam3350B|DC31VC
+470|ptp2                |PTP                 |Dell Dell Pocket DJ (MTP mode)
+471|ptp2                |PTP                 |Dell DJ (2nd generation)
+472|ptp2                |PTP                 |Dell, Inc Dell Streak 7
+473|ptp2                |PTP                 |Dell, Inc DJ Itty
+474|digigr8             |SQ905C chipset camera|Digigr8
+475|mars                |Aiptek PenCam VGA+  |Digital camera, CD302N
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+476|jl2005c             |JL2005B/C/D camera  |DIGITAL MID#0020509 (no-name camera)
+477|jd11                |JD11                |Digitaldream DIGITAL 2000
+478|enigma13            |Digital Dream Enigma 1.3|DigitalDream Enigma1.3
+479|stv0680             |STV0680             |DigitalDream l'elegante
+480|soundvision         |soundvision         |DigitalDream l'elite
+481|stv0680             |STV0680             |DigitalDream l'espion
+482|stv0680             |STV0680             |DigitalDream l'espion XS
+483|stv0674             |STV0674             |DigitalDream l'espion xtra
+484|stv0680             |STV0680             |DigitalDream l'esprit
+485|stv0680             |STV0680             |DigitalDream la ronde
+486|directory           |directory           |Directory Browse
+487|ptp2                |PTP                 |Disney MixMax
+488|digigr8             |SQ905C chipset camera|Disney pix micro
+489|digigr8             |SQ905C chipset camera|Disney pix micro 2
+490|ptp2                |PTP                 |Dunlop MP3 player 1GB / EGOMAN MD223AFD
+491|samsung             |samsung             |Dynatron Dynacam 800
+492|mars                |Aiptek PenCam VGA+  |Elta Medi@ digi-cam
+493|mars                |Aiptek PenCam VGA+  |Emprex PCD3600
+494|sierra              |sierra              |Epson PhotoPC 3000z
+495|sierra              |sierra              |Epson PhotoPC 500
+496|sierra              |sierra              |Epson PhotoPC 550
+497|sierra              |sierra              |Epson PhotoPC 600
+498|sierra              |sierra              |Epson PhotoPC 650
+499|sierra              |sierra              |Epson PhotoPC 700
+500|sierra              |sierra              |Epson PhotoPC 800
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+501|sierra              |sierra              |Epson PhotoPC 850z
+502|ptp2                |PTP                 |FOMA D905i
+503|smal                |smal                |Fuji Axia Eyeplate
+504|smal                |smal                |Fuji Axia Slimshot
+505|fuji                |Fuji                |Fuji DS-7
+506|fuji                |Fuji                |Fuji DX-10
+507|fuji                |Fuji                |Fuji DX-5
+508|fuji                |Fuji                |Fuji DX-7
+509|ptp2                |PTP                 |Fuji FinePix A330
+510|ptp2                |PTP                 |Fuji FinePix A800
+511|ptp2                |PTP                 |Fuji FinePix A820
+512|ptp2                |PTP                 |Fuji FinePix A920
+513|ptp2                |PTP                 |Fuji FinePix E900
+514|ptp2                |PTP                 |Fuji FinePix F100fd
+515|ptp2                |PTP                 |Fuji FinePix F20
+516|ptp2                |PTP                 |Fuji FinePix F200 EXR
+517|ptp2                |PTP                 |Fuji FinePix F30
+518|ptp2                |PTP                 |Fuji FinePix F31fd
+519|ptp2                |PTP                 |Fuji FinePix F40fd
+520|ptp2                |PTP                 |Fuji FinePix F50fd
+521|ptp2                |PTP                 |Fuji FinePix F60fd
+522|ptp2                |PTP                 |Fuji FinePix F70 EXR
+523|ptp2                |PTP                 |Fuji FinePix F80EXR
+524|ptp2                |PTP                 |Fuji FinePix H20EXR
+525|ptp2                |PTP                 |Fuji FinePix HS30EXR
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+526|ptp2                |PTP                 |Fuji FinePix S1000fd
+527|ptp2                |PTP                 |Fuji FinePix S100fs
+528|ptp2                |PTP                 |Fuji FinePix S1500
+529|ptp2                |PTP                 |Fuji FinePix S1800
+530|ptp2                |PTP                 |Fuji FinePix S2000HD
+531|ptp2                |PTP                 |Fuji FinePix S2500HD
+532|ptp2                |PTP                 |Fuji FinePix S2950
+533|ptp2                |PTP                 |Fuji FinePix S4300
+534|ptp2                |PTP                 |Fuji FinePix S5700
+535|ptp2                |PTP                 |Fuji FinePix S5800
+536|ptp2                |PTP                 |Fuji FinePix S6500fd
+537|ptp2                |PTP                 |Fuji FinePix S7000
+538|ptp2                |PTP                 |Fuji FinePix S9500
+539|ptp2                |PTP                 |Fuji FinePix SL1000
+540|ptp2                |PTP                 |Fuji FinePix X-S1
+541|ptp2                |PTP                 |Fuji FinePix X10
+542|ptp2                |PTP                 |Fuji FinePix X20
+543|ptp2                |PTP                 |Fuji FinePix XF1
+544|ptp2                |PTP                 |Fuji FinePix Z100fd
+545|ptp2                |PTP                 |Fuji FinePix Z35
+546|ptp2                |PTP                 |Fuji FinePix Z700EXR
+547|ptp2                |PTP                 |Fuji Fujifilm A220
+548|stv0680             |STV0680             |Fuji IX-1
+549|fuji                |Fuji                |Fuji MX-1200
+550|fuji                |Fuji                |Fuji MX-1700
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+551|fuji                |Fuji                |Fuji MX-2700
+552|fuji                |Fuji                |Fuji MX-2900
+553|fuji                |Fuji                |Fuji MX-500
+554|fuji                |Fuji                |Fuji MX-600
+555|fuji                |Fuji                |Fuji MX-700
+556|ptp2                |PTP                 |Fuji S5 Pro
+557|soundvision         |soundvision         |FujiFilm @xia ix-100
+558|ptp2                |PTP                 |Fujitsu, Ltd F903iX HIGH-SPEED
+559|ptp2                |PTP                 |Fujitsu, Ltd STYLISTIC M532
+560|sq905               |SQ chipset camera   |Gear to go
+561|soundvision         |soundvision         |Generic SoundVision Clarity2
+562|sonix               |Vivitar ViviCam3350B|Genius Smart 300, version 2
+563|jl2005c             |JL2005B/C/D camera  |Global Point 3 in 1 Digital Fun Graffiti 00044
+564|jl2005c             |JL2005B/C/D camera  |Global Point Clipster
+565|sq905               |SQ chipset camera   |Global Point Splash Mini (underwater camera)
+566|ptp2                |PTP                 |Google Inc (for Ainol Novo) Fire/Flame
+567|ptp2                |PTP                 |Google Inc (for Asus) Nexus 7 (MTP)
+568|ptp2                |PTP                 |Google Inc (for Asus) Nexus 7 (MTP+ADB)
+569|ptp2                |PTP                 |Google Inc (for Asus) TF101 Transformer
+570|ptp2                |PTP                 |Google Inc (for Asus) TF201 Transformer
+571|ptp2                |PTP                 |Google Inc (for Barnes & Noble) Nook Color
+572|ptp2                |PTP                 |Google Inc (for Lenovo) Ideapad K1
+573|ptp2                |PTP                 |Google Inc (for LG Electronics) P990/Optimus
+574|ptp2                |PTP                 |Google Inc (for LG Electronics) P990/Optimus (Cyanogen)
+575|ptp2                |PTP                 |Google Inc (for LG Electronics/Samsung) Nexus 4/10 (MTP)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+576|ptp2                |PTP                 |Google Inc (for LG Electronics/Samsung) Nexus 4/10 (MTP+ADB)
+577|ptp2                |PTP                 |Google Inc (for Medion) MD99000 (P9514)
+578|ptp2                |PTP                 |Google Inc (for Motorola) Xoom (MZ604)
+579|ptp2                |PTP                 |Google Inc (for Samsung) Nexus S (MTP)
+580|ptp2                |PTP                 |Google Inc (for Samsung) Nexus S (MTP+ADB)
+581|ptp2                |PTP                 |Google Inc (for Sony) S1
+582|ptp2                |PTP                 |Google Inc (for Toshiba) Thrive 7/AT105
+583|polaroid_pdc640     |pdc640/jd350e       |GrandTek ScopeCam
+584|sq905               |SQ chipset camera   |GTW Electronics
+585|ptp2                |PTP                 |Haier Ibiza Rhapsody
+586|ptp2                |PTP                 |Haier Ibiza Rhapsody
+587|mars                |Aiptek PenCam VGA+  |Haimei Electronics HE-501A
+588|stv0680             |STV0680             |Hawking DC120 Pocketcam
+589|ptp2                |PTP                 |Hewlett-Packard HP Touchpad (MTP)
+590|ptp2                |PTP                 |Hewlett-Packard HP Touchpad (MTP+ADB)
+591|ptp2                |PTP                 |Hisense E860
+592|barbie              |barbie              |Hot Wheels
+593|konica              |konica              |HP PhotoSmart
+594|ptp2                |PTP                 |HP PhotoSmart 120 (PTP mode)
+595|hp215               |hp215               |HP PhotoSmart 215
+596|ptp2                |PTP                 |HP PhotoSmart 217 (PTP mode)
+597|ptp2                |PTP                 |HP PhotoSmart 317 (PTP mode)
+598|ptp2                |PTP                 |HP PhotoSmart 318 (PTP mode)
+599|ptp2                |PTP                 |HP PhotoSmart 320 (PTP mode)
+600|ptp2                |PTP                 |HP PhotoSmart 407 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+601|ptp2                |PTP                 |HP PhotoSmart 417 (PTP mode)
+602|ptp2                |PTP                 |HP PhotoSmart 43x (PTP mode)
+603|ptp2                |PTP                 |HP PhotoSmart 507 (PTP mode)
+604|ptp2                |PTP                 |HP PhotoSmart 517 (PTP mode)
+605|ptp2                |PTP                 |HP PhotoSmart 607 (PTP mode)
+606|ptp2                |PTP                 |HP PhotoSmart 612 (PTP mode)
+607|digita              |digita              |HP PhotoSmart 618
+608|ptp2                |PTP                 |HP PhotoSmart 620 (PTP mode)
+609|ptp2                |PTP                 |HP PhotoSmart 635 (PTP mode)
+610|ptp2                |PTP                 |HP PhotoSmart 707 (PTP mode)
+611|ptp2                |PTP                 |HP PhotoSmart 715 (PTP mode)
+612|ptp2                |PTP                 |HP PhotoSmart 717 (PTP mode)
+613|ptp2                |PTP                 |HP PhotoSmart 720 (PTP mode)
+614|ptp2                |PTP                 |HP PhotoSmart 733 (PTP mode)
+615|ptp2                |PTP                 |HP PhotoSmart 735 (PTP mode)
+616|ptp2                |PTP                 |HP PhotoSmart 812 (PTP mode)
+617|ptp2                |PTP                 |HP PhotoSmart 817 (PTP mode)
+618|ptp2                |PTP                 |HP PhotoSmart 818 (PTP mode)
+619|ptp2                |PTP                 |HP PhotoSmart 850 (PTP mode)
+620|digita              |digita              |HP PhotoSmart 912
+621|ptp2                |PTP                 |HP PhotoSmart 935 (PTP mode)
+622|ptp2                |PTP                 |HP PhotoSmart 945 (PTP mode)
+623|konica              |konica              |HP PhotoSmart C20
+624|konica              |konica              |HP PhotoSmart C200
+625|konica              |konica              |HP PhotoSmart C30
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+626|digita              |digita              |HP PhotoSmart C500
+627|ptp2                |PTP                 |HP PhotoSmart C500 (PTP mode)
+628|digita              |digita              |HP PhotoSmart C500 2
+629|ptp2                |PTP                 |HP PhotoSmart E327 (PTP mode)
+630|ptp2                |PTP                 |HP PhotoSmart E427 (PTP mode)
+631|ptp2                |PTP                 |HP PhotoSmart M22 (PTP mode)
+632|ptp2                |PTP                 |HP PhotoSmart M23 (PTP mode)
+633|ptp2                |PTP                 |HP PhotoSmart M307 (PTP mode)
+634|ptp2                |PTP                 |HP PhotoSmart M415 (PTP mode)
+635|ptp2                |PTP                 |HP PhotoSmart M425 (PTP mode)
+636|ptp2                |PTP                 |HP PhotoSmart M525 (PTP mode)
+637|ptp2                |PTP                 |HP PhotoSmart M527 (PTP mode)
+638|ptp2                |PTP                 |HP PhotoSmart M547 (PTP mode)
+639|ptp2                |PTP                 |HP PhotoSmart M725 (PTP mode)
+640|ptp2                |PTP                 |HP PhotoSmart M727 (PTP mode)
+641|ptp2                |PTP                 |HP PhotoSmart M737 (PTP mode)
+642|ptp2                |PTP                 |HP PhotoSmart R742 (PTP mode)
+643|ptp2                |PTP                 |HP PhotoSmart R927 (PTP mode)
+644|ptp2                |PTP                 |HP PhotoSmart R967 (PTP mode)
+645|ptp2                |PTP                 |HTC Droid DNA (MTP+UMS)
+646|ptp2                |PTP                 |HTC Droid DNA (MTP+UMS+ADB)
+647|ptp2                |PTP                 |HTC EVO 4G LTE/One V (ID1)
+648|ptp2                |PTP                 |HTC EVO 4G LTE/One V (ID2)
+649|ptp2                |PTP                 |HTC HTC Butterfly (ID1)
+650|ptp2                |PTP                 |HTC HTC Desire X
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+651|ptp2                |PTP                 |HTC HTC Droid Incredible 4G LTE (MTP)
+652|ptp2                |PTP                 |HTC HTC Droid Incredible 4G LTE (MTP+ADB)
+653|ptp2                |PTP                 |HTC HTC Evo 4G LTE (ID1)
+654|ptp2                |PTP                 |HTC HTC One (ID1)
+655|ptp2                |PTP                 |HTC HTC One (ID3)
+656|ptp2                |PTP                 |HTC HTC One (MTP+ADB)
+657|ptp2                |PTP                 |HTC HTC One (MTP+UMS+ADB)
+658|ptp2                |PTP                 |HTC HTC One S (ID1)
+659|ptp2                |PTP                 |HTC HTC One S (ID2)
+660|ptp2                |PTP                 |HTC HTC One X (ID1)
+661|ptp2                |PTP                 |HTC HTC One X (ID2)
+662|ptp2                |PTP                 |HTC HTC One X (ID3)
+663|ptp2                |PTP                 |Huawei Honor U8860
+664|ptp2                |PTP                 |Huawei Mediapad (mode 0)
+665|ptp2                |PTP                 |Huawei Mediapad (mode 1)
+666|ptp2                |PTP                 |Huawei U8815/U9200
+667|iclick              |iClick 5X           |iClick 5X
+668|sq905               |SQ chipset camera   |iConcepts digital camera
+669|mars                |Aiptek PenCam VGA+  |INNOVAGE Mini Digital, CD302N
+670|ptp2                |PTP                 |Insignia NS-DV45
+671|ptp2                |PTP                 |Insignia Pilot 4GB
+672|ptp2                |PTP                 |Insignia Sport Player
+673|pccam300            |Creative PC-CAM 300 |Intel Pocket PC Camera
+674|ptp2                |PTP                 |Intel Xolo 900/AZ210A
+675|stv0680             |STV0680             |IOMagic MagicImage 400
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+676|jd11                |JD11                |IOMagic MagicImage 420
+677|mars                |Aiptek PenCam VGA+  |ION digital camera
+678|ptp2                |PTP                 |iRiver Clix
+679|ptp2                |PTP                 |iRiver Clix2
+680|ptp2                |PTP                 |iRiver E100
+681|ptp2                |PTP                 |iRiver E100 v2/Lplayer
+682|ptp2                |PTP                 |iRiver E150
+683|ptp2                |PTP                 |iRiver E30
+684|ptp2                |PTP                 |iRiver E50
+685|ptp2                |PTP                 |iRiver H10 20GB
+686|ptp2                |PTP                 |iRiver H10 5.6GB
+687|ptp2                |PTP                 |iRiver H10 5GB
+688|ptp2                |PTP                 |iRiver H300 Series MTP
+689|ptp2                |PTP                 |iRiver iFP-880
+690|ptp2                |PTP                 |iRiver N12
+691|ptp2                |PTP                 |iRiver Portable Media Center
+692|ptp2                |PTP                 |iRiver Portable Media Center
+693|ptp2                |PTP                 |iRiver Spinn
+694|ptp2                |PTP                 |iRiver T10
+695|ptp2                |PTP                 |iRiver T10 2GB
+696|ptp2                |PTP                 |iRiver T10a
+697|ptp2                |PTP                 |iRiver T20
+698|ptp2                |PTP                 |iRiver T20
+699|ptp2                |PTP                 |iRiver T20 FM
+700|ptp2                |PTP                 |iRiver T30
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+701|ptp2                |PTP                 |iRiver T5
+702|ptp2                |PTP                 |iRiver T60
+703|ptp2                |PTP                 |iRiver T7 Volcano
+704|ptp2                |PTP                 |iRiver U10
+705|ptp2                |PTP                 |iRiver X20
+706|ptp2                |PTP                 |Isabella Her Prototype
+707|soundvision         |soundvision         |Ixla DualCam 640
+708|jl2005c             |JL2005B/C/D camera  |Jazwares Star Wars no. 15256
+709|digigr8             |SQ905C chipset camera|Jazz JDC9
+710|jl2005c             |JL2005B/C/D camera  |Jazz JDK235
+711|sx330z              |Traveler SX330z     |Jenoptik JD-3300z3
+712|sx330z              |Traveler SX330z     |Jenoptik JD-4100z3
+713|jd11                |JD11                |Jenoptik JD11
+714|samsung             |samsung             |Jenoptik JD12 800ff
+715|polaroid_pdc640     |pdc640/jd350e       |Jenoptik JD350 entrance
+716|polaroid_pdc640     |pdc640/jd350e       |Jenoptik JD350 video
+717|sq905               |SQ chipset camera   |Jenoptik JDC 350
+718|ptp2                |PTP                 |JVC Alneo XA-HD500
+719|jamcam              |jamcam              |KBGear JamCam
+720|ptp2                |PTP                 |Kenwood Media Keg HD10GB7 Sport Player
+721|ptp2                |PTP                 |Kobo Arc (ID1)
+722|ptp2                |PTP                 |Kobo Arc (ID2)
+723|ptp2                |PTP                 |Kodak C1530
+724|ptp2                |PTP                 |Kodak C183
+725|ptp2                |PTP                 |Kodak C300
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+726|ptp2                |PTP                 |Kodak C310
+727|ptp2                |PTP                 |Kodak C330
+728|ptp2                |PTP                 |Kodak C340
+729|ptp2                |PTP                 |Kodak C360
+730|ptp2                |PTP                 |Kodak C433
+731|ptp2                |PTP                 |Kodak C530
+732|ptp2                |PTP                 |Kodak C533
+733|ptp2                |PTP                 |Kodak C613
+734|ptp2                |PTP                 |Kodak C633
+735|ptp2                |PTP                 |Kodak C643
+736|ptp2                |PTP                 |Kodak C653
+737|ptp2                |PTP                 |Kodak C743
+738|ptp2                |PTP                 |Kodak C813
+739|ptp2                |PTP                 |Kodak C875
+740|ptp2                |PTP                 |Kodak C913
+741|ptp2                |PTP                 |Kodak CD33
+742|ptp2                |PTP                 |Kodak CX4200
+743|ptp2                |PTP                 |Kodak CX4210
+744|ptp2                |PTP                 |Kodak CX4230
+745|ptp2                |PTP                 |Kodak CX4300
+746|ptp2                |PTP                 |Kodak CX4310
+747|ptp2                |PTP                 |Kodak CX6200
+748|ptp2                |PTP                 |Kodak CX6230
+749|ptp2                |PTP                 |Kodak CX6330
+750|ptp2                |PTP                 |Kodak CX6445
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+751|ptp2                |PTP                 |Kodak CX7220
+752|ptp2                |PTP                 |Kodak CX7300
+753|ptp2                |PTP                 |Kodak CX7310
+754|ptp2                |PTP                 |Kodak CX7330
+755|ptp2                |PTP                 |Kodak CX7430
+756|ptp2                |PTP                 |Kodak CX7525
+757|ptp2                |PTP                 |Kodak CX7530
+758|kodak_dc120         |kodak-dc120         |Kodak DC120
+759|kodak_dc210         |kodak-dc210         |Kodak DC210
+760|kodak_dc210         |kodak-dc210         |Kodak DC215
+761|digita              |digita              |Kodak DC220
+762|kodak_dc240         |kodak-dc240         |Kodak DC240
+763|ptp2                |PTP                 |Kodak DC240 (PTP mode)
+764|digita              |digita              |Kodak DC260
+765|digita              |digita              |Kodak DC265
+766|kodak_dc240         |kodak-dc240         |Kodak DC280
+767|digita              |digita              |Kodak DC290
+768|kodak_dc3200        |kodak-dc3200        |Kodak DC3200
+769|kodak_dc240         |kodak-dc240         |Kodak DC3400
+770|ptp2                |PTP                 |Kodak DC4800
+771|kodak_dc240         |kodak-dc240         |Kodak DC5000
+772|ptp2                |PTP                 |Kodak DX3215
+773|ptp2                |PTP                 |Kodak DX3500
+774|ptp2                |PTP                 |Kodak DX3600
+775|ptp2                |PTP                 |Kodak DX3700
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+776|ptp2                |PTP                 |Kodak DX3900
+777|ptp2                |PTP                 |Kodak DX4330
+778|ptp2                |PTP                 |Kodak DX4530
+779|ptp2                |PTP                 |Kodak DX4900
+780|ptp2                |PTP                 |Kodak DX6340
+781|ptp2                |PTP                 |Kodak DX6440
+782|ptp2                |PTP                 |Kodak DX6490
+783|ptp2                |PTP                 |Kodak DX7440
+784|ptp2                |PTP                 |Kodak DX7590
+785|ptp2                |PTP                 |Kodak DX7630
+786|kodak_ez200         |Kodak EZ200 camera  |Kodak EZ200
+787|ptp2                |PTP                 |Kodak LS420
+788|ptp2                |PTP                 |Kodak LS443
+789|ptp2                |PTP                 |Kodak LS663
+790|ptp2                |PTP                 |Kodak LS743
+791|ptp2                |PTP                 |Kodak LS753
+792|ptp2                |PTP                 |Kodak M1063
+793|ptp2                |PTP                 |Kodak M753
+794|ptp2                |PTP                 |Kodak M863
+795|ptp2                |PTP                 |Kodak M883
+796|ptp2                |PTP                 |Kodak M893 IS
+797|ptp2                |PTP                 |Kodak MC3
+798|ptp2                |PTP                 |Kodak P850
+799|ptp2                |PTP                 |Kodak P880
+800|ptp2                |PTP                 |Kodak V530
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+801|ptp2                |PTP                 |Kodak V550
+802|ptp2                |PTP                 |Kodak V570
+803|ptp2                |PTP                 |Kodak V603
+804|ptp2                |PTP                 |Kodak V610
+805|ptp2                |PTP                 |Kodak V705
+806|ptp2                |PTP                 |Kodak V803
+807|ptp2                |PTP                 |Kodak Z612
+808|ptp2                |PTP                 |Kodak Z650
+809|ptp2                |PTP                 |Kodak Z700
+810|ptp2                |PTP                 |Kodak Z710
+811|ptp2                |PTP                 |Kodak Z712 IS
+812|ptp2                |PTP                 |Kodak Z730
+813|ptp2                |PTP                 |Kodak Z740
+814|ptp2                |PTP                 |Kodak Z7590
+815|ptp2                |PTP                 |Kodak Z812 IS
+816|ptp2                |PTP                 |Kodak Z8612 IS
+817|ptp2                |PTP                 |Kodak Z915
+818|ptp2                |PTP                 |Kodak Z950
+819|ptp2                |PTP                 |Kodak ZD710
+820|stv0680             |STV0680             |Konica e-mini
+821|konica              |konica              |Konica Q-EZ
+822|konica              |konica              |Konica Q-M100
+823|konica              |konica              |Konica Q-M100V
+824|konica_qm150        |konica qm150        |Konica Q-M150
+825|konica              |konica              |Konica Q-M200
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+826|ptp2                |PTP                 |Konica-Minolta DiMAGE A2 (PTP mode)
+827|ptp2                |PTP                 |Konica-Minolta DiMAGE A200 (PictBridge mode)
+828|ptp2                |PTP                 |Konica-Minolta DiMAGE X21 (PictBridge mode)
+829|ptp2                |PTP                 |Konica-Minolta DiMAGE Z2 (PictBridge mode)
+830|ptp2                |PTP                 |Konica-Minolta DiMAGE Z3 (PictBridge mode)
+831|ptp2                |PTP                 |Konica-Minolta DiMAGE Z5 (PictBridge mode)
+832|largan              |largan-lmini        |Largan Lmini
+833|digigr8             |SQ905C chipset camera|Lego Bionicle
+834|ptp2                |PTP                 |Leica D-LUX 2
+835|fuji                |Fuji                |Leica Digilux Zoom
+836|ptp2                |PTP                 |Lenovo IdeaTab A2109A
+837|ptp2                |PTP                 |Lenovo K1
+838|ptp2                |PTP                 |Lenovo Lifetab S9512
+839|ptp2                |PTP                 |Lenovo P700
+840|ptp2                |PTP                 |Lenovo ThinkPad Tablet
+841|ptp2                |PTP                 |LG Electronics Inc. GR-500 Music Player
+842|ptp2                |PTP                 |LG Electronics Inc. KC910 Renoir Mobile Phone
+843|ptp2                |PTP                 |LG Electronics Inc. KM900
+844|ptp2                |PTP                 |LG Electronics Inc. LG-E610/E612/E617G/E970/P700
+845|ptp2                |PTP                 |LG Electronics Inc. LG2 Optimus
+846|ptp2                |PTP                 |LG Electronics Inc. LG8575
+847|ptp2                |PTP                 |LG Electronics Inc. T54
+848|ptp2                |PTP                 |LG Electronics Inc. UP3
+849|ptp2                |PTP                 |LG Electronics Inc. V909 G-Slate
+850|ptp2                |PTP                 |LG Electronics Inc. VX8550 V CAST Mobile Phone
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+851|lg_gsm              |LG GSM camera       |LG T5100
+852|sx330z              |Traveler SX330z     |Lifetec LT 5995
+853|ptp2                |PTP                 |Logik LOG DAX MP3 and DAB Player
+854|clicksmart310       |Logitech Clicksmart 310|Logitech Clicksmart 310
+855|smal                |smal                |Logitech Pocket Digital
+856|sx330z              |Traveler SX330z     |Maginon SX-410z
+857|sx330z              |Traveler SX330z     |Maginon SX330z
+858|sq905               |SQ chipset camera   |Magpix B350
+859|directory           |directory           |Mass Storage Camera
+860|spca50x             |spca50x             |Maxell Max Pocket
+861|ptp2                |PTP                 |Maxfield G-Flash NG 1GB
+862|soundvision         |soundvision         |Media-Tech mt-406
+863|ptp2                |PTP                 |Medion Lifetab P9514
+864|spca50x             |spca50x             |Medion MD 5319
+865|sx330z              |Traveler SX330z     |Medion MD 6000
+866|ricoh_g3            |ricoh_g3            |Medion MD 6126
+867|sx330z              |Traveler SX330z     |Medion MD 9700
+868|ptp2                |PTP                 |Medion MD8333
+869|ptp2                |PTP                 |Medion MD8333
+870|ptp2                |PTP                 |Medion MD99000 (P9514)/Olivetti Olipad 110
+871|ptp2                |PTP                 |Memorex or iRiver MMP 8585/8586 or iRiver E200
+872|ptp2                |PTP                 |Micro-Star International P610/Model MS-5557
+873|stv0680             |STV0680             |Micromaxx Digital Camera
+874|ptp2                |PTP                 |Microsoft Kin 1
+875|ptp2                |PTP                 |Microsoft Windows MTP Simulator
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+876|ptp2                |PTP                 |Microsoft Windows Phone
+877|ptp2                |PTP                 |Microsoft Zune
+878|ptp2                |PTP                 |Microsoft Zune HD
+879|ptp2                |PTP                 |Microsoft/HTC HTC 8S
+880|ptp2                |PTP                 |Microsoft/Intel Bandon Portable Media Center
+881|ptp2                |PTP                 |Microsoft/Sharp/nVidia Kin TwoM
+882|sonix               |Vivitar ViviCam3350B|Mini Shotz ms-350
+883|dimagev             |minolta-dimagev     |Minolta Dimage V
+884|spca50x             |spca50x             |Minton S-Cam F5
+885|sq905               |SQ chipset camera   |Mitek CD10
+886|sq905               |SQ chipset camera   |Mitek CD30P
+887|ptp2                |PTP                 |Motorola A1200
+888|ptp2                |PTP                 |Motorola Atrix MB860 (MTP)
+889|ptp2                |PTP                 |Motorola Atrix/Razr HD (MTP)
+890|ptp2                |PTP                 |Motorola Atrix/Razr HD (MTP+ADB)
+891|ptp2                |PTP                 |Motorola Droid X/MB525 (Defy)
+892|ptp2                |PTP                 |Motorola DROID2 (ID1)
+893|ptp2                |PTP                 |Motorola DROID2 (ID2)
+894|ptp2                |PTP                 |Motorola DROID4
+895|ptp2                |PTP                 |Motorola IdeaPad K1
+896|ptp2                |PTP                 |Motorola Milestone / Verizon Droid
+897|ptp2                |PTP                 |Motorola Milestone X2
+898|ptp2                |PTP                 |Motorola MTP Test Command Interface
+899|ptp2                |PTP                 |Motorola RAZR M (XT907)
+900|ptp2                |PTP                 |Motorola RAZR2 V8/U9/Z6
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+901|ptp2                |PTP                 |Motorola V3m/V750 verizon
+902|ptp2                |PTP                 |Motorola Xoom (Factory test)
+903|ptp2                |PTP                 |Motorola Xoom (MTP)
+904|ptp2                |PTP                 |Motorola Xoom (MTP+ADB)
+905|ptp2                |PTP                 |Motorola Xoom 2 Media Edition
+906|ptp2                |PTP                 |Motorola Xoom 2 Media Edition (ID2)
+907|ptp2                |PTP                 |Motorola XT890/907 (MTP)
+908|ptp2                |PTP                 |Motorola XT890/907 (MTP+?)
+909|ptp2                |PTP                 |Motorola XT890/907 (MTP+ADB)
+910|ptp2                |PTP                 |Motorola XT912/XT928
+911|ptp2                |PTP                 |MTP Device
+912|gsmart300           |gsmart300           |Mustek gSmart 300
+913|soundvision         |soundvision         |Mustek gSmart 350
+914|spca50x             |spca50x             |Mustek gSmart mini
+915|spca50x             |spca50x             |Mustek gSmart mini 2
+916|spca50x             |spca50x             |Mustek gSmart mini 3
+917|dimera3500          |dimera3500          |Mustek VDC-3500
+918|ptp2                |PTP                 |MyMusix PD-6070
+919|ptp2                |PTP                 |NEC FOMA N01A
+920|ptp2                |PTP                 |Nextar MA715A-8R
+921|digigr8             |SQ905C chipset camera|Nexxtech Mini Digital Camera
+922|barbie              |barbie              |Nick Click
+923|sierra              |sierra              |Nikon CoolPix 100
+924|ptp2                |PTP                 |Nikon Coolpix 2000 (PTP mode)
+925|ptp2                |PTP                 |Nikon Coolpix 2100 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+926|sierra              |sierra              |Nikon CoolPix 2100 (Sierra Mode)
+927|ptp2                |PTP                 |Nikon Coolpix 2200 (PTP mode)
+928|ptp2                |PTP                 |Nikon Coolpix 2500 (PTP mode)
+929|sierra              |sierra              |Nikon CoolPix 2500 (Sierra Mode)
+930|sierra              |sierra              |Nikon CoolPix 300
+931|ptp2                |PTP                 |Nikon Coolpix 3100 (PTP mode)
+932|ptp2                |PTP                 |Nikon Coolpix 3200 (PTP mode)
+933|ptp2                |PTP                 |Nikon Coolpix 3500 (PTP mode)
+934|sierra              |sierra              |Nikon CoolPix 3500 (Sierra Mode)
+935|ptp2                |PTP                 |Nikon Coolpix 3700 (PTP mode)
+936|ptp2                |PTP                 |Nikon Coolpix 4100 (PTP mode)
+937|ptp2                |PTP                 |Nikon Coolpix 4200 (PTP mode)
+938|ptp2                |PTP                 |Nikon Coolpix 4300 (PTP mode)
+939|sierra              |sierra              |Nikon CoolPix 4300 (Sierra Mode)
+940|ptp2                |PTP                 |Nikon Coolpix 4500 (PTP mode)
+941|ptp2                |PTP                 |Nikon Coolpix 4600 (PTP mode)
+942|ptp2                |PTP                 |Nikon Coolpix 4600a (PTP mode)
+943|ptp2                |PTP                 |Nikon Coolpix 4800 (PTP mode)
+944|ptp2                |PTP                 |Nikon Coolpix 5000 (PTP mode)
+945|ptp2                |PTP                 |Nikon Coolpix 5200 (PTP mode)
+946|ptp2                |PTP                 |Nikon Coolpix 5400 (PTP mode)
+947|ptp2                |PTP                 |Nikon Coolpix 5600 (PTP mode)
+948|ptp2                |PTP                 |Nikon Coolpix 5700 (PTP mode)
+949|ptp2                |PTP                 |Nikon Coolpix 5900 (PTP mode)
+950|panasonic_dc1580    |panasonic-dc1580    |Nikon CoolPix 600
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+951|sierra              |sierra              |Nikon CoolPix 700
+952|ptp2                |PTP                 |Nikon Coolpix 7600 (PTP mode)
+953|ptp2                |PTP                 |Nikon Coolpix 7900 (PTP mode)
+954|sierra              |sierra              |Nikon CoolPix 800
+955|ptp2                |PTP                 |Nikon Coolpix 8700 (PTP mode)
+956|sierra              |sierra              |Nikon CoolPix 880
+957|ptp2                |PTP                 |Nikon Coolpix 8800 (PTP mode)
+958|ptp2                |PTP                 |Nikon Coolpix 885 (PTP mode)
+959|sierra              |sierra              |Nikon CoolPix 900
+960|sierra              |sierra              |Nikon CoolPix 900S
+961|sierra              |sierra              |Nikon CoolPix 910
+962|sierra              |sierra              |Nikon CoolPix 950
+963|sierra              |sierra              |Nikon CoolPix 950S
+964|sierra              |sierra              |Nikon CoolPix 990
+965|sierra              |sierra              |Nikon CoolPix 995
+966|ptp2                |PTP                 |Nikon Coolpix A (PTP mode)
+967|ptp2                |PTP                 |Nikon Coolpix AW100 (PTP mode)
+968|ptp2                |PTP                 |Nikon Coolpix L1 (PTP mode)
+969|ptp2                |PTP                 |Nikon Coolpix L10 (PTP mode)
+970|ptp2                |PTP                 |Nikon Coolpix L11 (PTP mode)
+971|ptp2                |PTP                 |Nikon Coolpix L110 (PTP mode)
+972|ptp2                |PTP                 |Nikon Coolpix L12 (PTP mode)
+973|ptp2                |PTP                 |Nikon Coolpix L120 (PTP mode)
+974|ptp2                |PTP                 |Nikon Coolpix L16 (PTP mode)
+975|ptp2                |PTP                 |Nikon Coolpix L19 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+976|ptp2                |PTP                 |Nikon Coolpix L20 (PTP mode)
+977|ptp2                |PTP                 |Nikon Coolpix L23 (PTP mode)
+978|ptp2                |PTP                 |Nikon Coolpix L4 (PTP mode)
+979|ptp2                |PTP                 |Nikon Coolpix L820  (PTP mode)
+980|ptp2                |PTP                 |Nikon Coolpix P1 (PTP mode)
+981|ptp2                |PTP                 |Nikon Coolpix P100 (PTP mode)
+982|ptp2                |PTP                 |Nikon Coolpix P2 (PTP mode)
+983|ptp2                |PTP                 |Nikon Coolpix P300 (PTP mode)
+984|ptp2                |PTP                 |Nikon Coolpix P4 (PTP mode)
+985|ptp2                |PTP                 |Nikon Coolpix P50 (PTP mode)
+986|ptp2                |PTP                 |Nikon Coolpix P500 (PTP mode)
+987|ptp2                |PTP                 |Nikon Coolpix P5000 (PTP mode)
+988|ptp2                |PTP                 |Nikon Coolpix P510 (PTP mode)
+989|ptp2                |PTP                 |Nikon Coolpix P5100 (PTP mode)
+990|ptp2                |PTP                 |Nikon Coolpix P520 (PTP mode)
+991|ptp2                |PTP                 |Nikon Coolpix P60 (PTP mode)
+992|ptp2                |PTP                 |Nikon Coolpix P6000 (PTP mode)
+993|ptp2                |PTP                 |Nikon Coolpix P7000 (PTP mode)
+994|ptp2                |PTP                 |Nikon Coolpix P7100 (PTP mode)
+995|ptp2                |PTP                 |Nikon Coolpix P7700 (PTP mode)
+996|ptp2                |PTP                 |Nikon Coolpix P80 (PTP mode)
+997|ptp2                |PTP                 |Nikon Coolpix P90 (PTP mode)
+998|ptp2                |PTP                 |Nikon Coolpix S01
+999|ptp2                |PTP                 |Nikon Coolpix S2 (PTP mode)
+1000|ptp2                |PTP                 |Nikon Coolpix S200 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1001|ptp2                |PTP                 |Nikon Coolpix S220 (PTP mode)
+1002|ptp2                |PTP                 |Nikon Coolpix S225 (PTP mode)
+1003|ptp2                |PTP                 |Nikon Coolpix S2500 (PTP mode)
+1004|ptp2                |PTP                 |Nikon Coolpix S2600 (PTP mode)
+1005|ptp2                |PTP                 |Nikon Coolpix S3000 (PTP mode)
+1006|ptp2                |PTP                 |Nikon Coolpix S3100 (PTP mode)
+1007|ptp2                |PTP                 |Nikon Coolpix S3200
+1008|ptp2                |PTP                 |Nikon Coolpix S3300 (PTP mode)
+1009|ptp2                |PTP                 |Nikon Coolpix S4 (PTP mode)
+1010|ptp2                |PTP                 |Nikon Coolpix S500 (PTP mode)
+1011|ptp2                |PTP                 |Nikon Coolpix S5100 (PTP mode)
+1012|ptp2                |PTP                 |Nikon Coolpix S6 (PTP mode)
+1013|ptp2                |PTP                 |Nikon Coolpix S60 (PTP mode)
+1014|ptp2                |PTP                 |Nikon Coolpix S6000 (PTP mode)
+1015|ptp2                |PTP                 |Nikon Coolpix S620 (PTP mode)
+1016|ptp2                |PTP                 |Nikon Coolpix S7c (PTP mode)
+1017|ptp2                |PTP                 |Nikon Coolpix S8000 (PTP mode)
+1018|ptp2                |PTP                 |Nikon Coolpix S8200
+1019|ptp2                |PTP                 |Nikon Coolpix S9100 (PTP mode)
+1020|ptp2                |PTP                 |Nikon Coolpix S9500 (PTP mode)
+1021|ptp2                |PTP                 |Nikon Coolpix SQ (PTP mode)
+1022|sierra              |sierra              |Nikon D100 (Sierra Mode)
+1023|ptp2                |PTP                 |Nikon D2H SLR (PTP mode)
+1024|ptp2                |PTP                 |Nikon D2Hs (PTP mode)
+1025|ptp2                |PTP                 |Nikon D2X SLR (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1026|ptp2                |PTP                 |Nikon D3 (PTP mode)
+1027|ptp2                |PTP                 |Nikon D50 (PTP mode)
+1028|ptp2                |PTP                 |Nikon DSC D100 (PTP mode)
+1029|ptp2                |PTP                 |Nikon DSC D200 (PTP mode)
+1030|ptp2                |PTP                 |Nikon DSC D2Xs (PTP mode)
+1031|ptp2                |PTP                 |Nikon DSC D300 (PTP mode)
+1032|ptp2                |PTP                 |Nikon DSC D3000 (PTP mode)
+1033|ptp2                |PTP                 |Nikon DSC D300s (PTP mode)
+1034|ptp2                |PTP                 |Nikon DSC D3100 (PTP mode)
+1035|ptp2                |PTP                 |Nikon DSC D3200
+1036|ptp2                |PTP                 |Nikon DSC D3s (PTP mode)
+1037|ptp2                |PTP                 |Nikon DSC D4
+1038|ptp2                |PTP                 |Nikon DSC D40 (PTP mode)
+1039|ptp2                |PTP                 |Nikon DSC D40x (PTP mode)
+1040|ptp2                |PTP                 |Nikon DSC D5000 (PTP mode)
+1041|ptp2                |PTP                 |Nikon DSC D5100 (PTP mode)
+1042|ptp2                |PTP                 |Nikon DSC D5200
+1043|ptp2                |PTP                 |Nikon DSC D60 (PTP mode)
+1044|ptp2                |PTP                 |Nikon DSC D600
+1045|ptp2                |PTP                 |Nikon DSC D70 (PTP mode)
+1046|ptp2                |PTP                 |Nikon DSC D700 (PTP mode)
+1047|ptp2                |PTP                 |Nikon DSC D7000 (PTP mode)
+1048|ptp2                |PTP                 |Nikon DSC D70s (PTP mode)
+1049|ptp2                |PTP                 |Nikon DSC D7100
+1050|ptp2                |PTP                 |Nikon DSC D80 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1051|ptp2                |PTP                 |Nikon DSC D800
+1052|ptp2                |PTP                 |Nikon DSC D800E
+1053|ptp2                |PTP                 |Nikon DSC D90 (PTP mode)
+1054|ptp2                |PTP                 |Nikon J1
+1055|ptp2                |PTP                 |Nikon J2
+1056|ptp2                |PTP                 |Nikon J3
+1057|ptp2                |PTP                 |Nikon V1
+1058|spca50x             |spca50x             |nisis Quickpix Qp3
+1059|jl2005a             |JL2005A camera      |NogaNet TDC-15
+1060|ptp2                |PTP                 |Nokia 2710
+1061|ptp2                |PTP                 |Nokia 3109c Mobile Phone
+1062|ptp2                |PTP                 |Nokia 3110c Mobile Phone
+1063|ptp2                |PTP                 |Nokia 3250 Mobile Phone
+1064|ptp2                |PTP                 |Nokia 3710
+1065|ptp2                |PTP                 |Nokia 5130 XpressMusic
+1066|ptp2                |PTP                 |Nokia 5200 Mobile Phone
+1067|ptp2                |PTP                 |Nokia 5230
+1068|ptp2                |PTP                 |Nokia 5300 Mobile Phone
+1069|ptp2                |PTP                 |Nokia 5310 XpressMusic
+1070|ptp2                |PTP                 |Nokia 5320 XpressMusic
+1071|ptp2                |PTP                 |Nokia 5500 Sport Mobile Phone
+1072|ptp2                |PTP                 |Nokia 5530
+1073|ptp2                |PTP                 |Nokia 5530 Xpressmusic
+1074|ptp2                |PTP                 |Nokia 5700 XpressMusic Mobile Phone
+1075|ptp2                |PTP                 |Nokia 5800 XpressMusic
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1076|ptp2                |PTP                 |Nokia 5800 XpressMusic v2
+1077|ptp2                |PTP                 |Nokia 5800 XpressMusic v3
+1078|ptp2                |PTP                 |Nokia 6120c Classic Mobile Phone
+1079|ptp2                |PTP                 |Nokia 6210 Navigator
+1080|ptp2                |PTP                 |Nokia 6220 Classic
+1081|ptp2                |PTP                 |Nokia 6500c Classic Mobile Phone
+1082|ptp2                |PTP                 |Nokia 6600i
+1083|ptp2                |PTP                 |Nokia 808 PureView
+1084|ptp2                |PTP                 |Nokia C5-00
+1085|ptp2                |PTP                 |Nokia C7
+1086|ptp2                |PTP                 |Nokia C7 (ID2)
+1087|ptp2                |PTP                 |Nokia E52
+1088|ptp2                |PTP                 |Nokia E6
+1089|ptp2                |PTP                 |Nokia E63
+1090|ptp2                |PTP                 |Nokia E66
+1091|ptp2                |PTP                 |Nokia E7
+1092|ptp2                |PTP                 |Nokia E7 (Ovi mode)
+1093|ptp2                |PTP                 |Nokia E71
+1094|ptp2                |PTP                 |Nokia E71x
+1095|ptp2                |PTP                 |Nokia E72
+1096|ptp2                |PTP                 |Nokia N73
+1097|ptp2                |PTP                 |Nokia N73 Mobile Phone
+1098|ptp2                |PTP                 |Nokia N75 Mobile Phone
+1099|ptp2                |PTP                 |Nokia N78 Mobile Phone
+1100|ptp2                |PTP                 |Nokia N79
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1101|ptp2                |PTP                 |Nokia N8
+1102|ptp2                |PTP                 |Nokia N8 (Ovi mode)
+1103|ptp2                |PTP                 |Nokia N80 Internet Edition (Media Player)
+1104|ptp2                |PTP                 |Nokia N81 Mobile Phone
+1105|ptp2                |PTP                 |Nokia N82 Mobile Phone
+1106|ptp2                |PTP                 |Nokia N85 Mobile Phone
+1107|ptp2                |PTP                 |Nokia N9
+1108|ptp2                |PTP                 |Nokia N91 Mobile Phone
+1109|ptp2                |PTP                 |Nokia N93 Mobile Phone
+1110|ptp2                |PTP                 |Nokia N93i Mobile Phone
+1111|ptp2                |PTP                 |Nokia N95 Mobile Phone
+1112|ptp2                |PTP                 |Nokia N95 Mobile Phone 8GB
+1113|ptp2                |PTP                 |Nokia N950
+1114|ptp2                |PTP                 |Nokia N96 Mobile Phone
+1115|ptp2                |PTP                 |Nokia N97
+1116|ptp2                |PTP                 |Nokia N97 mini
+1117|ptp2                |PTP                 |Nokia N97-1
+1118|ptp2                |PTP                 |Nokia Nokia Lumia WP8
+1119|ptp2                |PTP                 |Nokia X6
+1120|ptp2                |PTP                 |Nokia/Verizon 6205 Balboa/Verizon Music Phone
+1121|ptp2                |PTP                 |NormSoft, Inc. Pocket Tunes
+1122|ptp2                |PTP                 |NormSoft, Inc. Pocket Tunes 4
+1123|polaroid_pdc640     |pdc640/jd350e       |Novatech Digital Camera CC30
+1124|ptp2                |PTP                 |nVidia CM9-Adam
+1125|ptp2                |PTP                 |nVidia Nabi2 Tablet (ID1)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1126|ptp2                |PTP                 |nVidia Nabi2 Tablet (ID2)
+1127|ptp2                |PTP                 |O2 Sistemas ZoltarTV
+1128|sierra              |sierra              |Olympus C-1000L
+1129|sierra              |sierra              |Olympus C-1400L
+1130|sierra              |sierra              |Olympus C-1400XL
+1131|sierra              |sierra              |Olympus C-2000Z
+1132|sierra              |sierra              |Olympus C-2020Z
+1133|sierra              |sierra              |Olympus C-2040Z
+1134|sierra              |sierra              |Olympus C-2100UZ
+1135|sierra              |sierra              |Olympus C-2500L
+1136|sierra              |sierra              |Olympus C-3000Z
+1137|sierra              |sierra              |Olympus C-3020Z
+1138|sierra              |sierra              |Olympus C-3030Z
+1139|sierra              |sierra              |Olympus C-3040Z
+1140|ptp2                |PTP                 |Olympus C-310Z
+1141|ptp2                |PTP                 |Olympus C-350Z
+1142|sierra              |sierra              |Olympus C-370Z
+1143|sierra              |sierra              |Olympus C-400
+1144|sierra              |sierra              |Olympus C-400L
+1145|sierra              |sierra              |Olympus C-4040Z
+1146|sierra              |sierra              |Olympus C-410
+1147|sierra              |sierra              |Olympus C-410L
+1148|sierra              |sierra              |Olympus C-420
+1149|sierra              |sierra              |Olympus C-420L
+1150|sierra              |sierra              |Olympus C-5050Z
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1151|ptp2                |PTP                 |Olympus C-5500Z
+1152|ptp2                |PTP                 |Olympus C-55Z
+1153|sierra              |sierra              |Olympus C-700UZ
+1154|sierra              |sierra              |Olympus C-750UZ
+1155|sierra              |sierra              |Olympus C-770UZ
+1156|sierra              |sierra              |Olympus C-800
+1157|sierra              |sierra              |Olympus C-800L
+1158|sierra              |sierra              |Olympus C-820
+1159|sierra              |sierra              |Olympus C-820L
+1160|sierra              |sierra              |Olympus C-830L
+1161|sierra              |sierra              |Olympus C-840L
+1162|sierra              |sierra              |Olympus C-860L
+1163|sierra              |sierra              |Olympus C-900 Zoom
+1164|sierra              |sierra              |Olympus C-900L Zoom
+1165|sierra              |sierra              |Olympus C-990 Zoom
+1166|sierra              |sierra              |Olympus D-100Z
+1167|sierra              |sierra              |Olympus D-200L
+1168|sierra              |sierra              |Olympus D-220L
+1169|sierra              |sierra              |Olympus D-300L
+1170|sierra              |sierra              |Olympus D-320L
+1171|sierra              |sierra              |Olympus D-330R
+1172|sierra              |sierra              |Olympus D-340L
+1173|sierra              |sierra              |Olympus D-340R
+1174|sierra              |sierra              |Olympus D-360L
+1175|sierra              |sierra              |Olympus D-400L Zoom
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1176|sierra              |sierra              |Olympus D-450Z
+1177|sierra              |sierra              |Olympus D-460Z
+1178|sierra              |sierra              |Olympus D-500L
+1179|sierra              |sierra              |Olympus D-535Z
+1180|ptp2                |PTP                 |Olympus D-540Z
+1181|ptp2                |PTP                 |Olympus D-560Z
+1182|sierra              |sierra              |Olympus D-600L
+1183|sierra              |sierra              |Olympus D-600XL
+1184|sierra              |sierra              |Olympus D-620L
+1185|ptp2                |PTP                 |Olympus E series (Control)
+1186|ptp2                |PTP                 |Olympus E-M5
+1187|ptp2                |PTP                 |Olympus E-PL5
+1188|sierra              |sierra              |Olympus fe-200
+1189|ptp2                |PTP                 |Olympus FE4000
+1190|ptp2                |PTP                 |Olympus IR-300
+1191|ptp2                |PTP                 |Olympus mju 500
+1192|sierra              |sierra              |Olympus SP-500UZ
+1193|ptp2                |PTP                 |Olympus SP-720UZ
+1194|ptp2                |PTP                 |Olympus X-100
+1195|ptp2                |PTP                 |Olympus X-250
+1196|sierra              |sierra              |Olympus X-450
+1197|ptp2                |PTP                 |Olympus X920
+1198|ptp2                |PTP                 |Olympus X925
+1199|soundvision         |soundvision         |Oregon Scientific DShot II
+1200|soundvision         |soundvision         |Oregon Scientific DShot III
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1201|panasonic_coolshot  |coolshot            |Panasonic Coolshot KXL-600A
+1202|panasonic_coolshot  |coolshot            |Panasonic Coolshot KXL-601A
+1203|sierra              |sierra              |Panasonic Coolshot NV-DCF5E
+1204|panasonic_dc1000    |panasonic-dc1000    |Panasonic DC1000
+1205|panasonic_dc1580    |panasonic-dc1580    |Panasonic DC1580
+1206|ptp2                |PTP                 |Panasonic DMC-FS62
+1207|ptp2                |PTP                 |Panasonic DMC-FZ20
+1208|ptp2                |PTP                 |Panasonic DMC-FZ38
+1209|ptp2                |PTP                 |Panasonic DMC-FZ45
+1210|ptp2                |PTP                 |Panasonic DMC-FZ50
+1211|ptp2                |PTP                 |Panasonic DMC-GF1
+1212|ptp2                |PTP                 |Panasonic DMC-LS3
+1213|ptp2                |PTP                 |Panasonic DMC-LX7
+1214|ptp2                |PTP                 |Panasonic DMC-TZ15
+1215|ptp2                |PTP                 |Panasonic DMC-TZ18
+1216|ptp2                |PTP                 |Panasonic DMC-TZ8
+1217|ptp2                |PTP                 |Panasonic P905i
+1218|ptp2                |PTP                 |Panasonic P906i
+1219|panasonic_l859      |panasonic-l859      |Panasonic PV-L691
+1220|panasonic_l859      |panasonic-l859      |Panasonic PV-L859
+1221|ptp2                |PTP                 |Pantech Crux
+1222|stv0680             |STV0680             |Pencam TEVION MD 9456
+1223|pentax              |pentax              |Pentax K100D
+1224|pentax              |pentax              |Pentax K10D
+1225|pentax              |pentax              |Pentax K200D
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1226|pentax              |pentax              |Pentax K20D
+1227|pentax              |pentax              |Pentax K5D
+1228|sierra              |sierra              |Pentax Optio 33WR
+1229|ptp2                |PTP                 |Pentax Optio 43WR
+1230|sierra              |sierra              |Pentax Optio 450
+1231|ptp2                |PTP                 |Pentax Optio W90
+1232|ptp2                |PTP                 |Perception Digital, Ltd Gigaware GX400
+1233|ricoh               |Ricoh               |Philips ESP2
+1234|ricoh               |Ricoh               |Philips ESP50
+1235|ricoh               |Ricoh               |Philips ESP60
+1236|ricoh               |Ricoh               |Philips ESP70
+1237|ricoh               |Ricoh               |Philips ESP80
+1238|ricoh               |Ricoh               |Philips ESP80SXG
+1239|ptp2                |PTP                 |Philips GoGear Aria
+1240|ptp2                |PTP                 |Philips GoGear Ariaz
+1241|ptp2                |PTP                 |Philips GoGear Ariaz/97
+1242|ptp2                |PTP                 |Philips GoGear Audio
+1243|ptp2                |PTP                 |Philips GoGear Muse
+1244|ptp2                |PTP                 |Philips GoGear SA1VBE08KX/78
+1245|ptp2                |PTP                 |Philips GoGear SA3345
+1246|ptp2                |PTP                 |Philips GoGear SA5145
+1247|ptp2                |PTP                 |Philips GoGear SA6014/SA6015/SA6024/SA6025/SA6044/SA6045
+1248|ptp2                |PTP                 |Philips GoGear SA6125/SA6145/SA6185
+1249|ptp2                |PTP                 |Philips GoGear SA9200
+1250|ptp2                |PTP                 |Philips GoGear ViBE SA1VBE04
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1251|ptp2                |PTP                 |Philips GoGear ViBE SA1VBE04/08
+1252|ptp2                |PTP                 |Philips GoGear VIBE SA2VBE[08|16]K/02
+1253|ptp2                |PTP                 |Philips GoGear Vibe/02
+1254|ptp2                |PTP                 |Philips HDD085/00 or HDD082/17
+1255|ptp2                |PTP                 |Philips HDD14XX,HDD1620 or HDD1630/17
+1256|ptp2                |PTP                 |Philips HDD6320
+1257|ptp2                |PTP                 |Philips HDD6320/00 or HDD6330/17
+1258|mars                |Aiptek PenCam VGA+  |Philips P44417B keychain camera
+1259|ptp2                |PTP                 |Philips PSA235
+1260|ptp2                |PTP                 |Philips PSA610
+1261|ptp2                |PTP                 |Philips SA1115/55
+1262|ptp2                |PTP                 |Philips SA5285
+1263|ptp2                |PTP                 |Philips Shoqbox
+1264|stv0680             |STV0680             |Phoebe Smartcam
+1265|ptp2                |PTP                 |Pioneer DVR-LX60D
+1266|ptp2                |PTP                 |Pioneer XMP3
+1267|mars                |Aiptek PenCam VGA+  |Pixart Gemini Keychain Camera
+1268|digigr8             |SQ905C chipset camera|Pixie Princess Jelly-Soft
+1269|sq905               |SQ chipset camera   |PockCam
+1270|polaroid_pdc320     |Polaroid DC320      |Polaroid 640SE
+1271|polaroid_pdc700     |Polaroid DC700      |Polaroid DC700
+1272|ptp2                |PTP                 |Polaroid Freescape/MPU-433158
+1273|polaroid_pdc640     |pdc640/jd350e       |Polaroid Fun Flash 640
+1274|polaroid_pdc320     |Polaroid DC320      |Polaroid Fun! 320
+1275|sierra              |sierra              |Polaroid PDC 2300Z
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1276|sierra              |sierra              |Polaroid PDC 640
+1277|jd11                |JD11                |Praktica QD500
+1278|samsung             |samsung             |Praktica QD800
+1279|digigr8             |SQ905C chipset camera|Praktica Slimpix
+1280|sq905               |SQ chipset camera   |Precision Mini Digital Camera
+1281|mars                |Aiptek PenCam VGA+  |Precision Mini, Model HA513A
+1282|soundvision         |soundvision         |Pretec dc530
+1283|ptp2                |PTP                 |PTP/IP Camera
+1284|spca50x             |spca50x             |PureDigital Ritz Disposable
+1285|jd11                |JD11                |Quark Probe 99
+1286|stv0680             |STV0680             |QuickPix QP1
+1287|smal                |smal                |Radioshack Flatfoto
+1288|soundvision         |soundvision         |RCA CDS1005
+1289|dimera3500          |dimera3500          |Relisys Dimera 3500
+1290|sq905               |SQ chipset camera   |Request Ultra Slim
+1291|ricoh_g3            |ricoh_g3            |Ricoh Capilo RX
+1292|ricoh_g3            |ricoh_g3            |Ricoh Caplio 300G
+1293|ricoh_g3            |ricoh_g3            |Ricoh Caplio G3
+1294|ricoh_g3            |ricoh_g3            |Ricoh Caplio G4
+1295|ricoh_g3            |ricoh_g3            |Ricoh Caplio GX
+1296|ptp2                |PTP                 |Ricoh Caplio GX (PTP mode)
+1297|ricoh_g3            |ricoh_g3            |Ricoh Caplio GX 8
+1298|ptp2                |PTP                 |Ricoh Caplio GX 8 (PTP mode)
+1299|ricoh_g3            |ricoh_g3            |Ricoh Caplio R1
+1300|ricoh_g3            |ricoh_g3            |Ricoh Caplio R1v
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1301|ptp2                |PTP                 |Ricoh Caplio R1v (PTP mode)
+1302|ricoh_g3            |ricoh_g3            |Ricoh Caplio R2
+1303|ricoh_g3            |ricoh_g3            |Ricoh Caplio R3
+1304|ptp2                |PTP                 |Ricoh Caplio R3 (PTP mode)
+1305|ricoh_g3            |ricoh_g3            |Ricoh Caplio R4
+1306|ricoh_g3            |ricoh_g3            |Ricoh Caplio R5
+1307|ptp2                |PTP                 |Ricoh Caplio R5 (PTP mode)
+1308|ricoh_g3            |ricoh_g3            |Ricoh Caplio RR30
+1309|ptp2                |PTP                 |Ricoh Caplio RR750 (PTP mode)
+1310|ricoh_g3            |ricoh_g3            |Ricoh Caplio RZ1
+1311|ricoh               |Ricoh               |Ricoh RDC-1
+1312|ricoh               |Ricoh               |Ricoh RDC-100G
+1313|ricoh               |Ricoh               |Ricoh RDC-2
+1314|ricoh               |Ricoh               |Ricoh RDC-2E
+1315|ricoh               |Ricoh               |Ricoh RDC-300
+1316|ricoh               |Ricoh               |Ricoh RDC-300Z
+1317|ricoh               |Ricoh               |Ricoh RDC-4200
+1318|ricoh               |Ricoh               |Ricoh RDC-4300
+1319|ricoh               |Ricoh               |Ricoh RDC-5000
+1320|ptp2                |PTP                 |RIM BlackBerry Storm/9650
+1321|ricoh_g3            |ricoh_g3            |Rollei dr5
+1322|ptp2                |PTP                 |Rollei dr5 (PTP mode)
+1323|digigr8             |SQ905C chipset camera|Sakar 23070  Crayola Digital Cam
+1324|digigr8             |SQ905C chipset camera|Sakar 28290 and 28292  Digital C
+1325|digigr8             |SQ905C chipset camera|Sakar 92045  Spiderman
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1326|jl2005c             |JL2005B/C/D camera  |Sakar clipshot no. 1169x
+1327|sonix               |Vivitar ViviCam3350B|Sakar Digital Keychain 11199
+1328|sonix               |Vivitar ViviCam3350B|Sakar Digital no, 6637x
+1329|sonix               |Vivitar ViviCam3350B|Sakar Digital no, 67480
+1330|mars                |Aiptek PenCam VGA+  |Sakar Digital no. 56379 Spyshot
+1331|mars                |Aiptek PenCam VGA+  |Sakar Digital no. 77379
+1332|jl2005c             |JL2005B/C/D camera  |Sakar Dora the Explorer no. 88067
+1333|jl2005c             |JL2005B/C/D camera  |Sakar Hello Kitty no. 94009
+1334|sq905               |SQ chipset camera   |Sakar Kidz Cam 86379
+1335|jl2005c             |JL2005B/C/D camera  |Sakar Kidz-Cam no. 88379
+1336|digigr8             |SQ905C chipset camera|Sakar Micro Digital 2428x
+1337|jl2005c             |JL2005B/C/D camera  |Sakar Nickelodeon iCarly no. 88061
+1338|mars                |Aiptek PenCam VGA+  |Sakar no. 1638x CyberPix
+1339|jl2005c             |JL2005B/C/D camera  |Sakar no. 75379
+1340|jl2005c             |JL2005B/C/D camera  |Sakar no. 81890
+1341|jl2005c             |JL2005B/C/D camera  |Sakar no. 91379
+1342|jl2005c             |JL2005B/C/D camera  |Sakar no. 98379
+1343|jl2005c             |JL2005B/C/D camera  |Sakar Star Wars kit no. 92022
+1344|jl2005c             |JL2005B/C/D camera  |Sakar Sticker Wizard no. 59379
+1345|samsung             |samsung             |Samsung digimax 800k
+1346|ptp2                |PTP                 |Samsung EK-GC100
+1347|ptp2                |PTP                 |Samsung F250 Mobile Phone
+1348|ptp2                |PTP                 |Samsung Galaxy models (MTP)
+1349|ptp2                |PTP                 |Samsung Galaxy models (MTP+ADB)
+1350|ptp2                |PTP                 |Samsung Galaxy models Kies mode
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1351|ptp2                |PTP                 |Samsung Galaxy Y
+1352|ptp2                |PTP                 |Samsung GT-B2700
+1353|ptp2                |PTP                 |Samsung GT-B2710/Xcover 271
+1354|ptp2                |PTP                 |Samsung GT-S5230
+1355|ptp2                |PTP                 |Samsung GT-S8500
+1356|ptp2                |PTP                 |Samsung I550W Phone
+1357|ptp2                |PTP                 |Samsung Jet S8000
+1358|ptp2                |PTP                 |Samsung Juke (SCH-U470)
+1359|fuji                |Fuji                |Samsung Kenox SSC-350N
+1360|ptp2                |PTP                 |Samsung M7600 Beat/GT-S8300T/SGH-F490/S8300
+1361|ptp2                |PTP                 |Samsung NX1000
+1362|ptp2                |PTP                 |Samsung S5620
+1363|ptp2                |PTP                 |Samsung SAMSUNG Trance
+1364|ptp2                |PTP                 |Samsung U600 Mobile Phone
+1365|ptp2                |PTP                 |Samsung Vibrant SGH-T959/Captivate/Media player mode
+1366|ptp2                |PTP                 |Samsung X830 Mobile Phone
+1367|ptp2                |PTP                 |Samsung YH-820
+1368|ptp2                |PTP                 |Samsung YH-920 (501d)
+1369|ptp2                |PTP                 |Samsung YH-920 (5022)
+1370|ptp2                |PTP                 |Samsung YH-925(-GS)
+1371|ptp2                |PTP                 |Samsung YH-925GS
+1372|ptp2                |PTP                 |Samsung YH-999 Portable Media Center/SGH-A707/SGH-L760V/SGH-U900/Verizon Intensity/Fascinate
+1373|ptp2                |PTP                 |Samsung YH-J70J
+1374|ptp2                |PTP                 |Samsung YP-900
+1375|ptp2                |PTP                 |Samsung YP-F2J
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1376|ptp2                |PTP                 |Samsung YP-K3
+1377|ptp2                |PTP                 |Samsung YP-K5
+1378|ptp2                |PTP                 |Samsung YP-M1
+1379|ptp2                |PTP                 |Samsung YP-P2
+1380|ptp2                |PTP                 |Samsung YP-P3
+1381|ptp2                |PTP                 |Samsung YP-Q1
+1382|ptp2                |PTP                 |Samsung YP-Q2
+1383|ptp2                |PTP                 |Samsung YP-Q3
+1384|ptp2                |PTP                 |Samsung YP-R0
+1385|ptp2                |PTP                 |Samsung YP-R1
+1386|ptp2                |PTP                 |Samsung YP-R2
+1387|ptp2                |PTP                 |Samsung YP-S3
+1388|ptp2                |PTP                 |Samsung YP-S5
+1389|ptp2                |PTP                 |Samsung YP-T10
+1390|ptp2                |PTP                 |Samsung YP-T7J
+1391|ptp2                |PTP                 |Samsung YP-T9
+1392|ptp2                |PTP                 |Samsung YP-U2J (YP-U2JXB/XAA)
+1393|ptp2                |PTP                 |Samsung YP-U3
+1394|ptp2                |PTP                 |Samsung YP-U4
+1395|ptp2                |PTP                 |Samsung YP-U5
+1396|ptp2                |PTP                 |Samsung YP-Z3
+1397|ptp2                |PTP                 |Samsung YP-Z5
+1398|ptp2                |PTP                 |SanDisk Sansa c150
+1399|ptp2                |PTP                 |SanDisk Sansa c240/c250
+1400|ptp2                |PTP                 |SanDisk Sansa c250 v2
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1401|ptp2                |PTP                 |SanDisk Sansa Clip
+1402|ptp2                |PTP                 |SanDisk Sansa Clip v2
+1403|ptp2                |PTP                 |SanDisk Sansa Clip Zip
+1404|ptp2                |PTP                 |SanDisk Sansa Clip+
+1405|ptp2                |PTP                 |SanDisk Sansa Connect
+1406|ptp2                |PTP                 |SanDisk Sansa e200/e250/e260/e270/e280
+1407|ptp2                |PTP                 |SanDisk Sansa e260/e280 v2
+1408|ptp2                |PTP                 |SanDisk Sansa Express
+1409|ptp2                |PTP                 |SanDisk Sansa Fuze
+1410|ptp2                |PTP                 |SanDisk Sansa Fuze v2
+1411|ptp2                |PTP                 |SanDisk Sansa Fuze+
+1412|ptp2                |PTP                 |SanDisk Sansa m200-tcc (MTP mode)
+1413|ptp2                |PTP                 |SanDisk Sansa m230/m240
+1414|ptp2                |PTP                 |SanDisk Sansa m240/m250
+1415|ptp2                |PTP                 |SanDisk Sansa View
+1416|sierra              |sierra              |Sanyo DSC-X300
+1417|sierra              |sierra              |Sanyo DSC-X350
+1418|ptp2                |PTP                 |Sanyo VPC-C5 (PTP mode)
+1419|sierra              |sierra              |Sanyo VPC-G200
+1420|sierra              |sierra              |Sanyo VPC-G200EX
+1421|sierra              |sierra              |Sanyo VPC-G210
+1422|sierra              |sierra              |Sanyo VPC-G250
+1423|polaroid_pdc640     |pdc640/jd350e       |ScanHex SX-35a
+1424|polaroid_pdc640     |pdc640/jd350e       |ScanHex SX-35b
+1425|polaroid_pdc640     |pdc640/jd350e       |ScanHex SX-35c
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1426|polaroid_pdc640     |pdc640/jd350e       |ScanHex SX-35d
+1427|soundvision         |soundvision         |Scott APX 30
+1428|ptp2                |PTP                 |Sea & Sea 2G (PTP mode)
+1429|ricoh_g3            |ricoh_g3            |Sea & Sea 5000G
+1430|ptp2                |PTP                 |Sea & Sea 5000G (PTP mode)
+1431|sq905               |SQ chipset camera   |Shark 2-in-1 Mini
+1432|sq905               |SQ chipset camera   |Shark SDC-513
+1433|sq905               |SQ chipset camera   |Shark SDC-519
+1434|ptp2                |PTP                 |SHARP Corporation SBM203SH
+1435|ptp2                |PTP                 |SHARP Corporation SH930W
+1436|mars                |Aiptek PenCam VGA+  |Shift3
+1437|sierra              |sierra              |Sierra Imaging SD640
+1438|ptp2                |PTP                 |SigmaTel Inc. MTPMSCN Audio Player
+1439|sipix_blink2        |SiPix Blink2        |SiPix Blink 2
+1440|sipix_blink2        |SiPix Blink2        |SiPix CAMeleon
+1441|sipix_web2          |SiPix Web2          |SiPix SC2100
+1442|sipix_blink2        |SiPix Blink2        |SiPix Snap
+1443|polaroid_pdc640     |pdc640/jd350e       |SiPix Stylecam
+1444|sipix_web2          |SiPix Web2          |SiPix Web2
+1445|ptp2                |PTP                 |Sirius Stiletto
+1446|ptp2                |PTP                 |Sirius Stiletto 2
+1447|sx330z              |Traveler SX330z     |Skanhex SX-330z
+1448|ptp2                |PTP                 |Slacker Inc. Slacker Portable Media Player
+1449|smal                |smal                |SMaL Ultra-Pocket
+1450|spca50x             |spca50x             |So. Show 301
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1451|sony_dscf55         |sonydscf55          |Sony DCR-PC100
+1452|ptp2                |PTP                 |Sony DCR-SR75
+1453|ptp2                |PTP                 |Sony DSC-A100 (PTP mode)
+1454|ptp2                |PTP                 |Sony DSC-A900 (PTP mode)
+1455|sony_dscf1          |sonydscf1-bvl       |Sony DSC-F1
+1456|sony_dscf55         |sonydscf55          |Sony DSC-F55
+1457|ptp2                |PTP                 |Sony DSC-F707V (PTP mode)
+1458|ptp2                |PTP                 |Sony DSC-F717 (PTP mode)
+1459|ptp2                |PTP                 |Sony DSC-F828 (PTP mode)
+1460|ptp2                |PTP                 |Sony DSC-H1 (PTP mode)
+1461|ptp2                |PTP                 |Sony DSC-H2 (PTP mode)
+1462|ptp2                |PTP                 |Sony DSC-H5 (PTP mode)
+1463|ptp2                |PTP                 |Sony DSC-HX100V (PTP mode)
+1464|ptp2                |PTP                 |Sony DSC-HX200V (PTP mode)
+1465|ptp2                |PTP                 |Sony DSC-HX300 (PTP mode)
+1466|ptp2                |PTP                 |Sony DSC-N2 (PTP mode)
+1467|ptp2                |PTP                 |Sony DSC-P10 (PTP mode)
+1468|ptp2                |PTP                 |Sony DSC-P100 (PTP mode)
+1469|ptp2                |PTP                 |Sony DSC-P120 (PTP mode)
+1470|ptp2                |PTP                 |Sony DSC-P200 (PTP mode)
+1471|ptp2                |PTP                 |Sony DSC-P30 (PTP mode)
+1472|ptp2                |PTP                 |Sony DSC-P31 (PTP mode)
+1473|ptp2                |PTP                 |Sony DSC-P32 (PTP mode)
+1474|ptp2                |PTP                 |Sony DSC-P41 (PTP mode)
+1475|ptp2                |PTP                 |Sony DSC-P43 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1476|ptp2                |PTP                 |Sony DSC-P5 (PTP mode)
+1477|ptp2                |PTP                 |Sony DSC-P50 (PTP mode)
+1478|ptp2                |PTP                 |Sony DSC-P51 (PTP mode)
+1479|ptp2                |PTP                 |Sony DSC-P52 (PTP mode)
+1480|ptp2                |PTP                 |Sony DSC-P71 (PTP mode)
+1481|ptp2                |PTP                 |Sony DSC-P72 (PTP mode)
+1482|ptp2                |PTP                 |Sony DSC-P73 (PTP mode)
+1483|ptp2                |PTP                 |Sony DSC-P92 (PTP mode)
+1484|ptp2                |PTP                 |Sony DSC-P93 (PTP mode)
+1485|ptp2                |PTP                 |Sony DSC-R1 (PTP mode)
+1486|ptp2                |PTP                 |Sony DSC-RX1 (PTP mode)
+1487|ptp2                |PTP                 |Sony DSC-RX100 (PTP mode)
+1488|ptp2                |PTP                 |Sony DSC-S40 (PTP mode)
+1489|ptp2                |PTP                 |Sony DSC-S60 (PTP mode)
+1490|ptp2                |PTP                 |Sony DSC-S730 (PTP mode)
+1491|ptp2                |PTP                 |Sony DSC-S75 (PTP mode)
+1492|ptp2                |PTP                 |Sony DSC-S780 (PTP mode)
+1493|ptp2                |PTP                 |Sony DSC-S85 (PTP mode)
+1494|ptp2                |PTP                 |Sony DSC-T1 (PTP mode)
+1495|ptp2                |PTP                 |Sony DSC-T10 (PTP mode)
+1496|ptp2                |PTP                 |Sony DSC-T3 (PTP mode)
+1497|ptp2                |PTP                 |Sony DSC-U10 (PTP mode)
+1498|ptp2                |PTP                 |Sony DSC-U20 (PTP mode)
+1499|ptp2                |PTP                 |Sony DSC-V1 (PTP mode)
+1500|ptp2                |PTP                 |Sony DSC-W1 (PTP mode)
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1501|ptp2                |PTP                 |Sony DSC-W12 (PTP mode)
+1502|ptp2                |PTP                 |Sony DSC-W130 (PTP mode)
+1503|ptp2                |PTP                 |Sony DSC-W200 (PTP mode)
+1504|ptp2                |PTP                 |Sony DSC-W35 (PTP mode)
+1505|ptp2                |PTP                 |Sony DSC-W55 (PTP mode)
+1506|ptp2                |PTP                 |SONY IS12S Xperia Acro HD MTP+ADB
+1507|ptp2                |PTP                 |SONY IS12S Xperia Acro HD MTP+UMS
+1508|ptp2                |PTP                 |SONY IS12S Xperia Acro MTP+UMS+ADB
+1509|ptp2                |PTP                 |SONY LT22i Xperia P MTP
+1510|ptp2                |PTP                 |SONY LT22i Xperia P MTP+ADB
+1511|ptp2                |PTP                 |SONY LT22i Xperia P MTP+CDROM
+1512|ptp2                |PTP                 |SONY LT25i Xperia V MTP
+1513|ptp2                |PTP                 |SONY LT25i Xperia V MTP+ADB
+1514|ptp2                |PTP                 |SONY LT25i Xperia V MTP+CDROM
+1515|ptp2                |PTP                 |SONY LT26i Xperia S MTP
+1516|ptp2                |PTP                 |SONY LT26i Xperia S MTP+ADB
+1517|ptp2                |PTP                 |SONY LT26i Xperia S MTP+CDROM
+1518|ptp2                |PTP                 |SONY LT26w Xperia Acro HD IS12S MTP
+1519|ptp2                |PTP                 |SONY LT26w Xperia Acro HD IS12S MTP+CDROM
+1520|ptp2                |PTP                 |SONY LT26w Xperia Acro HD SO-03D MTP
+1521|ptp2                |PTP                 |SONY LT26w Xperia Acro HD SO-03D MTP+CDROM
+1522|ptp2                |PTP                 |SONY LT28at Xperia Ion MTP
+1523|ptp2                |PTP                 |SONY LT28at Xperia Ion MTP+ADB
+1524|ptp2                |PTP                 |SONY LT28at Xperia Ion MTP+CDROM
+1525|ptp2                |PTP                 |SONY LT28at Xperia Ion MTP+UMS
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1526|ptp2                |PTP                 |SONY LT28at Xperia Ion MTP+UMS+ADB
+1527|ptp2                |PTP                 |SONY LT29i Xperia GX MTP
+1528|ptp2                |PTP                 |SONY LT29i Xperia GX MTP+ADB
+1529|ptp2                |PTP                 |SONY LT29i Xperia GX MTP+CDROM
+1530|ptp2                |PTP                 |SONY LT30p Xperia T MTP
+1531|ptp2                |PTP                 |SONY LT30p Xperia T MTP+ADB
+1532|ptp2                |PTP                 |SONY LT30p Xperia T MTP+CDROM
+1533|sony_dscf55         |sonydscf55          |Sony MSAC-SR1
+1534|ptp2                |PTP                 |SONY MT27i Xperia Sola MTP
+1535|ptp2                |PTP                 |SONY MT27i Xperia Sola MTP+ADB
+1536|ptp2                |PTP                 |SONY MT27i Xperia Sola MTP+CDROM
+1537|ptp2                |PTP                 |SONY MT27i Xperia Sola MTP+UMS
+1538|ptp2                |PTP                 |SONY MT27i Xperia Sola MTP+UMS+ADB
+1539|ptp2                |PTP                 |Sony MVC-CD300 (PTP mode)
+1540|ptp2                |PTP                 |Sony MVC-CD500 (PTP mode)
+1541|ptp2                |PTP                 |Sony NEX-3N (PTP mode)
+1542|ptp2                |PTP                 |Sony NWZ-A726/NWZ-A728/NWZ-A768
+1543|ptp2                |PTP                 |Sony NWZ-A815/NWZ-A818
+1544|ptp2                |PTP                 |Sony NWZ-A826/NWZ-A828/NWZ-A829
+1545|ptp2                |PTP                 |Sony NWZ-A845
+1546|ptp2                |PTP                 |Sony NWZ-B135
+1547|ptp2                |PTP                 |Sony NWZ-B142F
+1548|ptp2                |PTP                 |Sony NWZ-B153F
+1549|ptp2                |PTP                 |Sony NWZ-B163F
+1550|ptp2                |PTP                 |Sony NWZ-B173F
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1551|ptp2                |PTP                 |Sony NWZ-E344/E345
+1552|ptp2                |PTP                 |Sony NWZ-E354
+1553|ptp2                |PTP                 |Sony NWZ-E436F
+1554|ptp2                |PTP                 |Sony NWZ-E445
+1555|ptp2                |PTP                 |Sony NWZ-E464
+1556|ptp2                |PTP                 |Sony NWZ-S516
+1557|ptp2                |PTP                 |Sony NWZ-S545
+1558|ptp2                |PTP                 |Sony NWZ-S615F/NWZ-S616F/NWZ-S618F
+1559|ptp2                |PTP                 |Sony NWZ-S638F
+1560|ptp2                |PTP                 |Sony NWZ-S716F
+1561|ptp2                |PTP                 |Sony NWZ-S739F
+1562|ptp2                |PTP                 |Sony NWZ-S754
+1563|ptp2                |PTP                 |Sony NWZ-S765
+1564|ptp2                |PTP                 |Sony NWZ-W202
+1565|ptp2                |PTP                 |Sony NWZ-W252B
+1566|ptp2                |PTP                 |Sony NWZ-X1050B/NWZ-X1060B
+1567|ptp2                |PTP                 |Sony NWZ-X1051/NWZ-X1061
+1568|ptp2                |PTP                 |Sony PTP
+1569|ptp2                |PTP                 |Sony SLT-A35 (PTP mode)
+1570|ptp2                |PTP                 |Sony SLT-A350 (PTP mode)
+1571|ptp2                |PTP                 |Sony SLT-A55 (PTP mode)
+1572|ptp2                |PTP                 |Sony SLT-A57
+1573|ptp2                |PTP                 |Sony SLT-A58
+1574|ptp2                |PTP                 |Sony SLT-A65V (PTP mode)
+1575|ptp2                |PTP                 |SONY SO-03D Xperia Acro HD MTP+ADB
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1576|ptp2                |PTP                 |SONY SO-03D Xperia Acro HD MTP+UMS
+1577|ptp2                |PTP                 |SONY SO-03D Xperia Acro MTP+UMS+ADB
+1578|ptp2                |PTP                 |SONY SO-05D Xperia SX MTP
+1579|ptp2                |PTP                 |SONY SO-05D Xperia SX MTP+ADB
+1580|ptp2                |PTP                 |SONY SO-05D Xperia SX MTP+CDROM
+1581|ptp2                |PTP                 |Sony Sony Tablet P1
+1582|ptp2                |PTP                 |Sony Sony Tablet S
+1583|ptp2                |PTP                 |Sony Sony Tablet S1
+1584|ptp2                |PTP                 |SONY ST15i Xperia U MTP
+1585|ptp2                |PTP                 |SONY ST21i Xperia Tipo MTP
+1586|ptp2                |PTP                 |SONY ST21i Xperia Tipo MTP+ADB
+1587|ptp2                |PTP                 |SONY ST21i Xperia Tipo MTP+CDROM
+1588|ptp2                |PTP                 |SONY ST23i Xperia Miro MTP
+1589|ptp2                |PTP                 |SONY ST23i Xperia Miro MTP+ADB
+1590|ptp2                |PTP                 |SONY ST23i Xperia Miro MTP+CDROM
+1591|ptp2                |PTP                 |SONY ST25i Xperia U MTP+ADB
+1592|ptp2                |PTP                 |SONY ST25i Xperia U MTP+CDROM
+1593|ptp2                |PTP                 |SONY ST27i/ST27a Xperia go MTP
+1594|ptp2                |PTP                 |SONY ST27i/ST27a Xperia go MTP+ADB
+1595|ptp2                |PTP                 |SONY ST27i/ST27a Xperia go MTP+CDROM
+1596|ptp2                |PTP                 |SONY ST27i/ST27a Xperia go MTP+UMS
+1597|ptp2                |PTP                 |SONY ST27i/ST27a Xperia go MTP+UMS+ADB
+1598|sony_dscf55         |sonydscf55          |Sony TRV-20E
+1599|ptp2                |PTP                 |SONY WT19i Live Walkman MTP
+1600|ptp2                |PTP                 |SONY Xperia E MTP
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1601|ptp2                |PTP                 |SONY Xperia E MTP+ADB
+1602|ptp2                |PTP                 |SONY Xperia E MTP+CDROM
+1603|ptp2                |PTP                 |SONY Xperia J MTP
+1604|ptp2                |PTP                 |SONY Xperia J MTP+ADB
+1605|ptp2                |PTP                 |SONY Xperia J MTP+CDROM
+1606|ptp2                |PTP                 |SONY Xperia SP MTP
+1607|ptp2                |PTP                 |SONY Xperia SP MTP+ADB
+1608|ptp2                |PTP                 |SONY Xperia SP MTP+CDROM
+1609|ptp2                |PTP                 |SONY Xperia Tablet Z MTP 1
+1610|ptp2                |PTP                 |SONY Xperia Tablet Z MTP 2
+1611|ptp2                |PTP                 |SONY Xperia Tablet Z MTP+ADB 1
+1612|ptp2                |PTP                 |SONY Xperia Tablet Z MTP+ADB 2
+1613|ptp2                |PTP                 |SONY Xperia Tablet Z MTP+CDROM 1
+1614|ptp2                |PTP                 |SONY Xperia Tablet Z MTP+CDROM 2
+1615|ptp2                |PTP                 |SONY Xperia Z MTP
+1616|ptp2                |PTP                 |SONY Xperia Z MTP+ADB
+1617|ptp2                |PTP                 |SONY Xperia Z MTP+CDROM
+1618|ptp2                |PTP                 |SONY Xperia ZL MTP
+1619|ptp2                |PTP                 |SONY Xperia ZL MTP+ADB
+1620|ptp2                |PTP                 |SONY Xperia ZL MTP+CDROM
+1621|ptp2                |PTP                 |SonyEricsson C702
+1622|ptp2                |PTP                 |SonyEricsson C902
+1623|ptp2                |PTP                 |SonyEricsson C905
+1624|ptp2                |PTP                 |SonyEricsson IS12S Xperia Acro MTP
+1625|ptp2                |PTP                 |SonyEricsson IS12S Xperia Acro MTP+ADB
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1626|ptp2                |PTP                 |SonyEricsson IS12S Xperia Acro MTP+CDROM
+1627|ptp2                |PTP                 |SonyEricsson j108i (Cedar)
+1628|ptp2                |PTP                 |SonyEricsson j10i (Elm)
+1629|ptp2                |PTP                 |SonyEricsson j10i2 (Elm)
+1630|ptp2                |PTP                 |SonyEricsson K550i
+1631|ptp2                |PTP                 |SonyEricsson K850i
+1632|ptp2                |PTP                 |SonyEricsson LT15i Xperia Arc MTP+ADB
+1633|ptp2                |PTP                 |SonyEricsson LT15i Xperia arc S MTP
+1634|ptp2                |PTP                 |SonyEricsson MK16i Xperia MTP
+1635|ptp2                |PTP                 |SonyEricsson MK16i Xperia MTP+ADB
+1636|ptp2                |PTP                 |SonyEricsson MT11i Xperia Neo MTP
+1637|ptp2                |PTP                 |SonyEricsson MT11i Xperia Neo MTP+ADB
+1638|ptp2                |PTP                 |SonyEricsson R800/R88i Xperia Play MTP
+1639|ptp2                |PTP                 |SonyEricsson R800/R88i Xperia Play MTP+ADB
+1640|ptp2                |PTP                 |SonyEricsson SK17i Xperia Mini Pro MTP
+1641|ptp2                |PTP                 |SonyEricsson SK17i Xperia Mini Pro MTP+ADB
+1642|ptp2                |PTP                 |SonyEricsson ST15i Xperia Mini MTP
+1643|ptp2                |PTP                 |SonyEricsson ST15i Xperia Mini MTP+ADB
+1644|ptp2                |PTP                 |SonyEricsson ST17i Xperia Active MTP
+1645|ptp2                |PTP                 |SonyEricsson ST17i Xperia Active MTP+ADB
+1646|ptp2                |PTP                 |SonyEricsson ST17i Xperia Active MTP+CDROM
+1647|ptp2                |PTP                 |SonyEricsson ST18a Xperia Ray MTP
+1648|ptp2                |PTP                 |SonyEricsson ST18i Xperia Ray MTP+ADB
+1649|ptp2                |PTP                 |SonyEricsson T700
+1650|ptp2                |PTP                 |SonyEricsson U5
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1651|ptp2                |PTP                 |SonyEricsson U8i
+1652|ptp2                |PTP                 |SonyEricsson W302
+1653|ptp2                |PTP                 |SonyEricsson W595
+1654|ptp2                |PTP                 |SonyEricsson W705/W715
+1655|ptp2                |PTP                 |SonyEricsson W760i
+1656|ptp2                |PTP                 |SonyEricsson W890i
+1657|ptp2                |PTP                 |SonyEricsson W902
+1658|ptp2                |PTP                 |SonyEricsson W910
+1659|ptp2                |PTP                 |SonyEricsson W980
+1660|ptp2                |PTP                 |SonyEricsson W995
+1661|ptp2                |PTP                 |SonyEricsson WT19i Live Walkman MTP+ADB
+1662|digigr8             |SQ905C chipset camera|Soundstar TDC-35
+1663|stv0680             |STV0680             |SpyPen Axys
+1664|stv0680             |STV0680             |SpyPen Cleo
+1665|stv0680             |STV0680             |SpyPen Luxo
+1666|stv0680             |STV0680             |SpyPen Memo
+1667|stv0680             |STV0680             |SpyPen Xion
+1668|sq905               |SQ chipset camera   |SQ chip camera
+1669|st2205              |ST2205 USB picture frame|ST2205 USB picture frame
+1670|soundvision         |soundvision         |StarCam CP086
+1671|stv0680             |STV0680             |STM USB Dual-mode camera
+1672|digigr8             |SQ905C chipset camera|Stop & Shop 87096
+1673|stv0680             |STV0680             |STV0680
+1674|digigr8             |SQ905C chipset camera|Suprema Digital Keychain Camera
+1675|sq905               |SQ chipset camera   |SY-2107C
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1676|ptp2                |PTP                 |Technika MP-709
+1677|ptp2                |PTP                 |Tevion MD 81488
+1678|ptp2                |PTP                 |Thomson / RCA Lyra HC308A
+1679|ptp2                |PTP                 |Thomson / RCA Opal / Lyra MC4002
+1680|ptp2                |PTP                 |Thomson EM28 Series
+1681|ptp2                |PTP                 |Thomson Lyra MC5104B (M51 Series)
+1682|ptp2                |PTP                 |Thomson RCA H106
+1683|ptp2                |PTP                 |Thomson scenium E308
+1684|soundvision         |soundvision         |Tiger Fast Flicks
+1685|stv0680             |STV0680             |Timlex CP075
+1686|topfield            |Topfield 5000 PVR   |Topfield TF5000PVR
+1687|ptp2                |PTP                 |Toshiba Excite AT300
+1688|ptp2                |PTP                 |Toshiba Gigabeat
+1689|ptp2                |PTP                 |Toshiba Gigabeat MEGF-40
+1690|ptp2                |PTP                 |Toshiba Gigabeat MET401
+1691|ptp2                |PTP                 |Toshiba Gigabeat MEU201
+1692|ptp2                |PTP                 |Toshiba Gigabeat MEU202
+1693|ptp2                |PTP                 |Toshiba Gigabeat P10
+1694|ptp2                |PTP                 |Toshiba Gigabeat P20
+1695|ptp2                |PTP                 |Toshiba Gigabeat S
+1696|ptp2                |PTP                 |Toshiba Gigabeat T
+1697|ptp2                |PTP                 |Toshiba Gigabeat U
+1698|ptp2                |PTP                 |Toshiba Gigabeat V30
+1699|fuji                |Fuji                |Toshiba PDR-M1
+1700|toshiba_pdrm11      |toshiba-pdrm11      |Toshiba PDR-M11
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1701|sierra              |sierra              |Toshiba PDR-M60
+1702|sierra              |sierra              |Toshiba PDR-M61
+1703|sierra              |sierra              |Toshiba PDR-M65
+1704|ptp2                |PTP                 |Toshiba Thrive AT100/AT105
+1705|tp6801              |TP6801 USB picture frame|TP6801 USB picture frame
+1706|sx330z              |Traveler SX330z     |Traveler SX330z
+1707|sx330z              |Traveler SX330z     |Traveler SX410z
+1708|ptp2                |PTP                 |TrekStor i.Beat Organix 2.0
+1709|ptp2                |PTP                 |TrekStor i.Beat Sweez FM
+1710|ptp2                |PTP                 |TrekStor Vibez 8/12GB
+1711|dimera3500          |dimera3500          |Trust DC-3500
+1712|spca50x             |spca50x             |Trust Familycam 300
+1713|polaroid_pdc640     |pdc640/jd350e       |Trust PowerC@m 350FS
+1714|polaroid_pdc640     |pdc640/jd350e       |Trust PowerC@m 350FT
+1715|mars                |Aiptek PenCam VGA+  |Trust Spyc@m 100
+1716|spca50x             |spca50x             |Trust Spyc@m 500F FLASH
+1717|polaroid_pdc640     |pdc640/jd350e       |Typhoon StyloCam
+1718|stv0680             |STV0680             |UMAX AstraPen
+1719|polaroid_pdc640     |pdc640/jd350e       |UMAX AstraPix 320s
+1720|ptp2                |PTP                 |USB PTP Class Camera
+1721|ptp2                |PTP                 |Various Viewpia DR/bq Kepler
+1722|sq905               |SQ chipset camera   |ViviCam3350
+1723|sq905               |SQ chipset camera   |ViviCam5B
+1724|jl2005c             |JL2005B/C/D camera  |Vivitar Freelance
+1725|mars                |Aiptek PenCam VGA+  |Vivitar Mini Digital Camera
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+1726|mars                |Aiptek PenCam VGA+  |Vivitar Vivicam 55
+1727|sonix               |Vivitar ViviCam3350B|Vivitar Vivicam3350B
+1728|digigr8             |SQ905C chipset camera|Vivitar Vivicam35
+1729|ptp2                |PTP                 |Vizio VTAB1008
+1730|sonix               |Vivitar ViviCam3350B|Wild Planet Digital Spy Camera 70137
+1731|barbie              |barbie              |WWF
+1732|ptp2                |PTP                 |Wyplay Wyplayer
+1733|ptp2                |PTP                 |Xiaomi Mi-2 (MTP)
+1734|ptp2                |PTP                 |Xiaomi Mi-2 (MTP+ADB)
+1735|stv0680             |STV0680             |Yahoo!Cam
+1736|ptp2                |PTP                 |YiFang BQ Tesla
+1737|ptp2                |PTP                 |ZiiLABS Zii EGG
+1738|digigr8             |SQ905C chipset camera|ZINA Mini Digital Keychain Camer
+1739|ptp2                |PTP                 |ZTE V55 ID 1
+1740|ptp2                |PTP                 |ZTE V55 ID 2
+1741|ptp2                |PTP                 |ZTE V790/Blade 3
+1742|ptp2                |PTP                 |ZTE V880E
+1743|ptp2                |PTP                 |ZTE V985
+---+--------------------+--------------------+-------------------------------------------
+No.|camlib              |driver name         |camera model
+---+--------------------+--------------------+-------------------------------------------
+SUCCEEDED: test-camera-list
+Test summary: 1 succeeded, 0 failed, 0 failures ignored, 1 tests in total.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/tests'
+Making installcheck in examples
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/examples'
+Running "installcheck" test cases...
+Test summary: 0 succeeded, 0 failed, 0 failures ignored, 0 tests in total.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/examples'
+Making installcheck in po
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/po'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/po'
+Making installcheck in packaging
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+Making installcheck in linux-hotplug
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/linux-hotplug'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/linux-hotplug'
+Making installcheck in generic
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/generic'
+Making installcheck in rpm
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/rpm'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging/rpm'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/packaging'
+Making installcheck in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+Making installcheck in api
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc/api'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc/api'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/doc'
+Making installcheck in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b/gphoto-m4'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b/gphoto-m4'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2/_b'
+make[1]: Nothing to be done for `installcheck-am'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2/_b'

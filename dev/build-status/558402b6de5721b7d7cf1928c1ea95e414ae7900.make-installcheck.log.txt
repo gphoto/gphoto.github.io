@@ -1,0 +1,83 @@
+Making installcheck in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+Making installcheck in figures
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/figures'
+Making installcheck in screenshots
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+Making installcheck in gtkam
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots/gtkam'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+make[3]: Nothing to be done for `installcheck-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/screenshots'
+Making installcheck in css
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/css'
+Making installcheck in man
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/man'
+Making installcheck in html
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html'
+Making installcheck in txt
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt'
+Making installcheck in xhtml
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml'
+Making installcheck in html-nochunks
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
+Making installcheck in xhtml-nochunks
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
+Making installcheck in txt2
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/txt2'
+Making installcheck in ps
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/ps'
+Making installcheck in xsl
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xsl'
+Making installcheck in pdf
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/pdf'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src'
+Making installcheck in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/gphoto-m4'
+Making installcheck in help
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+Making installcheck in C
+find: ‘../../../help/C/figures’: No such file or directory
+find: ‘../../../help/C/screenshots’: No such file or directory
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help/C'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/help'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'
+make[1]: Nothing to be done for `installcheck-am'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b'

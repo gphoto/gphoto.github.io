@@ -1,0 +1,10 @@
+make  check-recursive
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+Making check in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'

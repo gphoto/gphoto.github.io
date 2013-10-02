@@ -1,0 +1,500 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+if test -d "libgphoto2-python-2.3.1.4.trunk"; then find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-python-2.3.1.4.trunk" || { sleep 5 && rm -rf "libgphoto2-python-2.3.1.4.trunk"; }; else :; fi
+test -d "libgphoto2-python-2.3.1.4.trunk" || mkdir "libgphoto2-python-2.3.1.4.trunk"
+ (cd gphoto-m4 && make  top_distdir=../libgphoto2-python-2.3.1.4.trunk distdir=../libgphoto2-python-2.3.1.4.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+test -n "" \
+|| find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/libgphoto2-python/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "libgphoto2-python-2.3.1.4.trunk"
+tardir=libgphoto2-python-2.3.1.4.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >libgphoto2-python-2.3.1.4.trunk.tar.bz2
+tardir=libgphoto2-python-2.3.1.4.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >libgphoto2-python-2.3.1.4.trunk.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+if test -d "libgphoto2-python-2.3.1.4.trunk"; then find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-python-2.3.1.4.trunk" || { sleep 5 && rm -rf "libgphoto2-python-2.3.1.4.trunk"; }; else :; fi
+case 'libgphoto2-python-2.3.1.4.trunk.tar.gz libgphoto2-python-2.3.1.4.trunk.tar.bz2' in \
+*.tar.gz*) \
+  GZIP=--best gzip -dc libgphoto2-python-2.3.1.4.trunk.tar.gz | ${TAR-tar} xf - ;;\
+*.tar.bz2*) \
+  bzip2 -dc libgphoto2-python-2.3.1.4.trunk.tar.bz2 | ${TAR-tar} xf - ;;\
+*.tar.lz*) \
+  lzip -dc libgphoto2-python-2.3.1.4.trunk.tar.lz | ${TAR-tar} xf - ;;\
+*.tar.xz*) \
+  xz -dc libgphoto2-python-2.3.1.4.trunk.tar.xz | ${TAR-tar} xf - ;;\
+*.tar.Z*) \
+  uncompress -c libgphoto2-python-2.3.1.4.trunk.tar.Z | ${TAR-tar} xf - ;;\
+*.shar.gz*) \
+  GZIP=--best gzip -dc libgphoto2-python-2.3.1.4.trunk.shar.gz | unshar ;;\
+*.zip*) \
+  unzip libgphoto2-python-2.3.1.4.trunk.zip ;;\
+esac
+chmod -R a-w libgphoto2-python-2.3.1.4.trunk
+chmod u+w libgphoto2-python-2.3.1.4.trunk
+mkdir libgphoto2-python-2.3.1.4.trunk/_build libgphoto2-python-2.3.1.4.trunk/_inst
+chmod a-w libgphoto2-python-2.3.1.4.trunk
+test -d libgphoto2-python-2.3.1.4.trunk/_build || exit 0; \
+dc_install_base=`CDPATH="${ZSH_VERSION+.}:" && cd libgphoto2-python-2.3.1.4.trunk/_inst && pwd | sed -e 's,^[^:\\/]:[\\/],/,'` \
+  && dc_destdir="${TMPDIR-/tmp}/am-dc-$$/" \
+  && am__cwd=`pwd` \
+  && CDPATH="${ZSH_VERSION+.}:" && cd libgphoto2-python-2.3.1.4.trunk/_build \
+  && ../configure --srcdir=.. --prefix="$dc_install_base" \
+     \
+     \
+  && make  \
+  && make  dvi \
+  && make  check \
+  && make  install \
+  && make  installcheck \
+  && make  uninstall \
+  && make  distuninstallcheck_dir="$dc_install_base" \
+        distuninstallcheck \
+  && chmod -R a-w "$dc_install_base" \
+  && ({ \
+       (cd ../.. && umask 077 && mkdir "$dc_destdir") \
+       && make  DESTDIR="$dc_destdir" install \
+       && make  DESTDIR="$dc_destdir" uninstall \
+       && make  DESTDIR="$dc_destdir" \
+            distuninstallcheck_dir="$dc_destdir" distuninstallcheck; \
+      } || { rm -rf "$dc_destdir"; exit 1; }) \
+  && rm -rf "$dc_destdir" \
+  && make  dist \
+  && rm -rf libgphoto2-python-2.3.1.4.trunk.tar.gz libgphoto2-python-2.3.1.4.trunk.tar.bz2 \
+  && make  distcleancheck \
+  && cd "$am__cwd" \
+  || exit 1
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a Python interpreter with version >= 2.2... python
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/site-packages
+checking for python extension module directory... ${exec_prefix}/lib64/python2.7/site-packages
+checking for POSIX sh $() command substitution... yes
+checking PKG_CONFIG_PATH... /tmp/_build-status-gphoto/PREFIX/lib/pkgconfig
+checking for pkg-config... /usr/bin/pkg-config
+checking for dynamic library extension... .so
+checking pkg-config is at least version 0.9.0... yes
+checking for libgphoto2 to use... autodetect
+checking for LIBGPHOTO2... yes
+checking libgphoto2 library flags... "-L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif  "
+checking libgphoto2 cpp flags... "-I/tmp/_build-status-gphoto/PREFIX/include/gphoto2  "
+checking for pyrexc... /usr/bin/pyrexc
+checking for pyrexc executable... /usr/bin/pyrexc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating gphoto-m4/Makefile
+config.status: creating gp-setup.py
+config.status: creating setup.py
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make  all-recursive
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making all in gphoto-m4
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DPACKAGE_NAME=\"libgphoto2\ python\ bindings\" -DPACKAGE_TARNAME=\"libgphoto2-python\" -DPACKAGE_VERSION=\"2.3.1.4.trunk\" -DPACKAGE_STRING=\"libgphoto2\ python\ bindings\ 2.3.1.4.trunk\" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-python\" -DVERSION=\"2.3.1.4.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DURL_GPHOTO_HOME=\"http://www.gphoto.org/\" -DURL_GPHOTO_GITHUB=\"http://github.com/gphoto/\" -DURL_GPHOTO_PROJECT=\"http://sourceforge.net/projects/gphoto\" -DURL_DIGICAM_LIST=\"http://www.teaser.fr/\~hfiguiere/linux/digicam.html\" -DURL_JPHOTO_HOME=\"http://jphoto.sourceforge.net/\" -DURL_USB_MASSSTORAGE=\"http://www.linux-usb.org/USB-guide/x498.html\" -DMAIL_GPHOTO_DEVEL=\"\<gphoto-devel@lists.sourceforge.net\>\" -DMAIL_GPHOTO_USER=\"\<gphoto-user@lists.sourceforge.net\>\" -DMAIL_GPHOTO_TRANSLATION=\"\<gphoto-translation@lists.sourceforge.net\>\" -DHAVE_LIBGPHOTO2=1 -I. -I..   -I/usr/include/python2.7    -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -g -O2 -MT gphoto2_la-gphoto2.lo -MD -MP -MF .deps/gphoto2_la-gphoto2.Tpo -c -o gphoto2_la-gphoto2.lo `test -f 'gphoto2.c' || echo '../'`gphoto2.c
+libtool: compile:  gcc "-DPACKAGE_NAME=\"libgphoto2 python bindings\"" -DPACKAGE_TARNAME=\"libgphoto2-python\" -DPACKAGE_VERSION=\"2.3.1.4.trunk\" "-DPACKAGE_STRING=\"libgphoto2 python bindings 2.3.1.4.trunk\"" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-python\" -DVERSION=\"2.3.1.4.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DURL_GPHOTO_HOME=\"http://www.gphoto.org/\" -DURL_GPHOTO_GITHUB=\"http://github.com/gphoto/\" -DURL_GPHOTO_PROJECT=\"http://sourceforge.net/projects/gphoto\" "-DURL_DIGICAM_LIST=\"http://www.teaser.fr/~hfiguiere/linux/digicam.html\"" -DURL_JPHOTO_HOME=\"http://jphoto.sourceforge.net/\" -DURL_USB_MASSSTORAGE=\"http://www.linux-usb.org/USB-guide/x498.html\" "-DMAIL_GPHOTO_DEVEL=\"<gphoto-devel@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_USER=\"<gphoto-user@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_TRANSLATION=\"<gphoto-translation@lists.sourceforge.net>\"" -DHAVE_LIBGPHOTO2=1 -I. -I.. -I/usr/include/python2.7 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2 -g -O2 -MT gphoto2_la-gphoto2.lo -MD -MP -MF .deps/gphoto2_la-gphoto2.Tpo -c ../gphoto2.c  -fPIC -DPIC -o .libs/gphoto2_la-gphoto2.o
+../gphoto2.c: In function '__pyx_f_7gphoto2_library_version':
+../gphoto2.c:238:21: warning: assignment from incompatible pointer type [enabled by default]
+     __pyx_v_arrText = gp_library_version(GP_VERSION_SHORT);
+                     ^
+../gphoto2.c:242:21: warning: assignment from incompatible pointer type [enabled by default]
+     __pyx_v_arrText = gp_library_version(GP_VERSION_VERBOSE);
+                     ^
+../gphoto2.c: In function '__pyx_f_7gphoto2_10cameraList___getitem__':
+../gphoto2.c:675:54: warning: passing argument 3 of 'gp_list_get_name' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_list_get_name(((struct __pyx_obj_7gphoto2_cameraList *)__pyx_v_self)->liste,__pyx_1,(&__pyx_v_name))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 851; goto __pyx_L1;}
+                                                      ^
+In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-abilities-list.h:29:0,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:50,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:42,
+                 from ../gphoto2.c:39:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-list.h:81:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_list_get_name  (CameraList *list, int index, const char **name);
+     ^
+../gphoto2.c:682:55: warning: passing argument 3 of 'gp_list_get_value' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_list_get_value(((struct __pyx_obj_7gphoto2_cameraList *)__pyx_v_self)->liste,__pyx_1,(&__pyx_v_value))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 852; goto __pyx_L1;}
+                                                       ^
+In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-abilities-list.h:29:0,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:50,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:42,
+                 from ../gphoto2.c:39:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-list.h:82:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_list_get_value (CameraList *list, int index, const char **value);
+     ^
+../gphoto2.c: In function '__pyx_f_7gphoto2_12cameraWidget_5label___get__':
+../gphoto2.c:1376:57: warning: passing argument 2 of 'gp_widget_get_label' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_widget_get_label(((struct __pyx_obj_7gphoto2_cameraWidget *)__pyx_v_self)->widget,(&__pyx_v_label))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 968; goto __pyx_L1;}
+                                                         ^
+In file included from ../gphoto2.c:39:0:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:111:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_widget_get_label (CameraWidget *widget, const char **label);
+     ^
+../gphoto2.c: In function '__pyx_f_7gphoto2_12cameraWidget_4name___get__':
+../gphoto2.c:1419:56: warning: passing argument 2 of 'gp_widget_get_name' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_widget_get_name(((struct __pyx_obj_7gphoto2_cameraWidget *)__pyx_v_self)->widget,(&__pyx_v_name))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 976; goto __pyx_L1;}
+                                                        ^
+In file included from ../gphoto2.c:39:0:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:104:5: note: expected 'const char **' but argument is of type 'char **'
+ int     gp_widget_get_name      (CameraWidget *widget, const char **name);
+     ^
+../gphoto2.c: In function '__pyx_f_7gphoto2_12cameraWidget_4info___get__':
+../gphoto2.c:1462:56: warning: passing argument 2 of 'gp_widget_get_info' from incompatible pointer type [enabled by default]
+   __pyx_2 = PyInt_FromLong(gp_widget_get_info(((struct __pyx_obj_7gphoto2_cameraWidget *)__pyx_v_self)->widget,(&__pyx_v_info))); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 984; goto __pyx_L1;}
+                                                        ^
+In file included from ../gphoto2.c:39:0:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:107:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_widget_get_info      (CameraWidget *widget, const char **info);
+     ^
+../gphoto2.c: In function '__pyx_f_7gphoto2_6camera_download_file_to':
+../gphoto2.c:2701:3: warning: passing argument 2 of 'gp_file_get_data_and_size' from incompatible pointer type [enabled by default]
+   __pyx_2 = __pyx_f_7gphoto2_check_unref(gp_file_get_data_and_size(__pyx_v_cfile,(&__pyx_v_data),(&__pyx_v_size)),__pyx_v_cfile); if (!__pyx_2) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1185; goto __pyx_L1;}
+   ^
+In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-filesys.h:38:0,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:54,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-widget.h:42,
+                 from ../gphoto2.c:39:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-file.h:131:5: note: expected 'const char **' but argument is of type 'char **'
+ int gp_file_get_data_and_size (CameraFile*, const char **data,
+     ^
+libtool: compile:  gcc "-DPACKAGE_NAME=\"libgphoto2 python bindings\"" -DPACKAGE_TARNAME=\"libgphoto2-python\" -DPACKAGE_VERSION=\"2.3.1.4.trunk\" "-DPACKAGE_STRING=\"libgphoto2 python bindings 2.3.1.4.trunk\"" -DPACKAGE_BUGREPORT=\"gphoto-devel@lists.sourceforge.net\" -DPACKAGE_URL=\"\" -DPACKAGE=\"libgphoto2-python\" -DVERSION=\"2.3.1.4.trunk\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -DURL_GPHOTO_HOME=\"http://www.gphoto.org/\" -DURL_GPHOTO_GITHUB=\"http://github.com/gphoto/\" -DURL_GPHOTO_PROJECT=\"http://sourceforge.net/projects/gphoto\" "-DURL_DIGICAM_LIST=\"http://www.teaser.fr/~hfiguiere/linux/digicam.html\"" -DURL_JPHOTO_HOME=\"http://jphoto.sourceforge.net/\" -DURL_USB_MASSSTORAGE=\"http://www.linux-usb.org/USB-guide/x498.html\" "-DMAIL_GPHOTO_DEVEL=\"<gphoto-devel@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_USER=\"<gphoto-user@lists.sourceforge.net>\"" "-DMAIL_GPHOTO_TRANSLATION=\"<gphoto-translation@lists.sourceforge.net>\"" -DHAVE_LIBGPHOTO2=1 -I. -I.. -I/usr/include/python2.7 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2 -g -O2 -MT gphoto2_la-gphoto2.lo -MD -MP -MF .deps/gphoto2_la-gphoto2.Tpo -c ../gphoto2.c -o gphoto2_la-gphoto2.o >/dev/null 2>&1
+mv -f .deps/gphoto2_la-gphoto2.Tpo .deps/gphoto2_la-gphoto2.Plo
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -g -O2 -avoid-version -module  -o gphoto2.la -rpath /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages gphoto2_la-gphoto2.lo -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif   
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/gphoto2_la-gphoto2.o   -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif  -O2   -Wl,-soname -Wl,gphoto2.so -o .libs/gphoto2.so
+libtool: link: ar cru .libs/gphoto2.a  gphoto2_la-gphoto2.o
+libtool: link: ranlib .libs/gphoto2.a
+libtool: link: ( cd ".libs" && rm -f "gphoto2.la" && ln -s "../gphoto2.la" "gphoto2.la" )
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making dvi in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `dvi'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[2]: Nothing to be done for `dvi-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make  check-recursive
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making check in gphoto-m4
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make  install-recursive
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making install in gphoto-m4
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[4]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   gphoto2.la '/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
+libtool: install: /usr/bin/install -c .libs/gphoto2.so /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so
+libtool: install: /usr/bin/install -c .libs/gphoto2.lai /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la
+libtool: install: /usr/bin/install -c .libs/gphoto2.a /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: install: chmod 644 /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: install: ranlib /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: finish: PATH="/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/builduser/.local/bin:/home/builduser/bin:/home/builduser/.local/bin:/home/builduser/bin:/sbin" ldconfig -n /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making installcheck in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Running "installcheck" test cases...
+Test case: test-gp.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK
+['2.5.2.1', 'all camlibs', 'gcc', 'ltdl', 'EXIF']
+['2.5.2.1',
+ 'all camlibs',
+ 'gcc (C compiler used)',
+ 'ltdl (for portable loading of camlibs)',
+ 'EXIF (for special handling of EXIF files)']
+14  ports found:
+PTP/IP Connection: ptpip:
+Serial Port 0: serial:/dev/ttyS0
+Serial Port 1: serial:/dev/ttyS1
+Serial Port 2: serial:/dev/ttyS2
+Serial Port 3: serial:/dev/ttyS3
+Universal Serial Bus: usb:002,002
+USB Mass Storage direct IO: usbdiskdirect:/dev/sdc
+USB Mass Storage direct IO: usbdiskdirect:/dev/sdd
+USB Mass Storage direct IO: usbdiskdirect:/dev/sde
+USB Mass Storage direct IO: usbdiskdirect:/dev/sdf
+USB Mass Storage raw SCSI: usbscsi:/dev/sg3
+USB Mass Storage raw SCSI: usbscsi:/dev/sg4
+USB Mass Storage raw SCSI: usbscsi:/dev/sg5
+USB Mass Storage raw SCSI: usbscsi:/dev/sg6
+Creating camera...
+['__class__',
+ '__delattr__',
+ '__doc__',
+ '__format__',
+ '__getattribute__',
+ '__hash__',
+ '__init__',
+ '__new__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__setattr__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ 'abilities',
+ 'capture_image',
+ 'config',
+ 'delete_file',
+ 'download_file_to',
+ 'init',
+ 'list_files_in_folder',
+ 'list_folders_in_folder',
+ 'reinit',
+ 'summary',
+ 'upload_file_to',
+ 'wait_for_event']
+['__builtins__',
+ '__doc__',
+ '__file__',
+ '__name__',
+ '__package__',
+ 'abilities_list',
+ 'camera',
+ 'cameraAbilities',
+ 'cameraList',
+ 'cameraWidget',
+ 'cameraeventtype',
+ 'library_version',
+ 'portInfo',
+ 'ports']
+SUCCEEDED: test-gp.py
+Test summary: 1 succeeded, 0 failed, 0 failures ignored, 1 tests in total.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making uninstall in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+ /bin/sh ./libtool   --mode=uninstall rm -f '/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la'
+libtool: uninstall: rm -f /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make  install-recursive
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making install in gphoto-m4
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[4]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   gphoto2.la '/tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
+libtool: install: /usr/bin/install -c .libs/gphoto2.so /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so
+libtool: install: /usr/bin/install -c .libs/gphoto2.lai /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la
+libtool: install: /usr/bin/install -c .libs/gphoto2.a /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: install: chmod 644 /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: install: ranlib /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: install: warning: remember to run `libtool --finish /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
+make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making uninstall in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+ /bin/sh ./libtool   --mode=uninstall rm -f '/tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la'
+libtool: uninstall: rm -f /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-6158//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+if test -d "libgphoto2-python-2.3.1.4.trunk"; then find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-python-2.3.1.4.trunk" || { sleep 5 && rm -rf "libgphoto2-python-2.3.1.4.trunk"; }; else :; fi
+test -d "libgphoto2-python-2.3.1.4.trunk" || mkdir "libgphoto2-python-2.3.1.4.trunk"
+ (cd gphoto-m4 && make  top_distdir=../libgphoto2-python-2.3.1.4.trunk distdir=../libgphoto2-python-2.3.1.4.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+test -n "" \
+|| find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "libgphoto2-python-2.3.1.4.trunk"
+tardir=libgphoto2-python-2.3.1.4.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >libgphoto2-python-2.3.1.4.trunk.tar.bz2
+tardir=libgphoto2-python-2.3.1.4.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >libgphoto2-python-2.3.1.4.trunk.tar.gz
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+if test -d "libgphoto2-python-2.3.1.4.trunk"; then find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-python-2.3.1.4.trunk" || { sleep 5 && rm -rf "libgphoto2-python-2.3.1.4.trunk"; }; else :; fi
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+Making distclean in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "../../gphoto-m4" || test -z "" || rm -f 
+rm -f Makefile
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+rm -rf .libs _libs
+rm -rf test-install build
+test -z "gphoto2.la" || rm -f gphoto2.la
+rm -f *.o
+rm -f gphoto2.c
+rm -f *.lo
+rm -f *.tab.c
+test -z "gp-setup.py setup.py" || rm -f gp-setup.py setup.py
+rm -f libtool config.lt
+test . = ".." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+rm -f ./so_locations
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -rf ./.deps
+rm -f Makefile
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
+if test -d "libgphoto2-python-2.3.1.4.trunk"; then find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-python-2.3.1.4.trunk" || { sleep 5 && rm -rf "libgphoto2-python-2.3.1.4.trunk"; }; else :; fi
+=================================================================
+libgphoto2-python-2.3.1.4.trunk archives ready for distribution: 
+libgphoto2-python-2.3.1.4.trunk.tar.gz
+libgphoto2-python-2.3.1.4.trunk.tar.bz2
+=================================================================

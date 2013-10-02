@@ -1,0 +1,7 @@
+Making installcheck in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+make[1]: Nothing to be done for `installcheck-am'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'

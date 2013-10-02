@@ -1,0 +1,365 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b'
+if test -d "gphotofs-0.5"; then find "gphotofs-0.5" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphotofs-0.5" || { sleep 5 && rm -rf "gphotofs-0.5"; }; else :; fi
+test -d "gphotofs-0.5" || mkdir "gphotofs-0.5"
+ (cd gphoto-m4 && make  top_distdir=../gphotofs-0.5 distdir=../gphotofs-0.5/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphoto-m4'
+test -n "" \
+|| find "gphotofs-0.5" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/gphotofs/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "gphotofs-0.5"
+tardir=gphotofs-0.5 && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >gphotofs-0.5.tar.bz2
+tardir=gphotofs-0.5 && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >gphotofs-0.5.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b'
+if test -d "gphotofs-0.5"; then find "gphotofs-0.5" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphotofs-0.5" || { sleep 5 && rm -rf "gphotofs-0.5"; }; else :; fi
+case 'gphotofs-0.5.tar.gz gphotofs-0.5.tar.bz2' in \
+*.tar.gz*) \
+  GZIP=--best gzip -dc gphotofs-0.5.tar.gz | ${TAR-tar} xf - ;;\
+*.tar.bz2*) \
+  bzip2 -dc gphotofs-0.5.tar.bz2 | ${TAR-tar} xf - ;;\
+*.tar.lz*) \
+  lzip -dc gphotofs-0.5.tar.lz | ${TAR-tar} xf - ;;\
+*.tar.xz*) \
+  xz -dc gphotofs-0.5.tar.xz | ${TAR-tar} xf - ;;\
+*.tar.Z*) \
+  uncompress -c gphotofs-0.5.tar.Z | ${TAR-tar} xf - ;;\
+*.shar.gz*) \
+  GZIP=--best gzip -dc gphotofs-0.5.shar.gz | unshar ;;\
+*.zip*) \
+  unzip gphotofs-0.5.zip ;;\
+esac
+chmod -R a-w gphotofs-0.5
+chmod u+w gphotofs-0.5
+mkdir gphotofs-0.5/_build gphotofs-0.5/_inst
+chmod a-w gphotofs-0.5
+test -d gphotofs-0.5/_build || exit 0; \
+dc_install_base=`CDPATH="${ZSH_VERSION+.}:" && cd gphotofs-0.5/_inst && pwd | sed -e 's,^[^:\\/]:[\\/],/,'` \
+  && dc_destdir="${TMPDIR-/tmp}/am-dc-$$/" \
+  && am__cwd=`pwd` \
+  && CDPATH="${ZSH_VERSION+.}:" && cd gphotofs-0.5/_build \
+  && ../configure --srcdir=.. --prefix="$dc_install_base" \
+     \
+     \
+  && make  \
+  && make  dvi \
+  && make  check \
+  && make  install \
+  && make  installcheck \
+  && make  uninstall \
+  && make  distuninstallcheck_dir="$dc_install_base" \
+        distuninstallcheck \
+  && chmod -R a-w "$dc_install_base" \
+  && ({ \
+       (cd ../.. && umask 077 && mkdir "$dc_destdir") \
+       && make  DESTDIR="$dc_destdir" install \
+       && make  DESTDIR="$dc_destdir" uninstall \
+       && make  DESTDIR="$dc_destdir" \
+            distuninstallcheck_dir="$dc_destdir" distuninstallcheck; \
+      } || { rm -rf "$dc_destdir"; exit 1; }) \
+  && rm -rf "$dc_destdir" \
+  && make  dist \
+  && rm -rf gphotofs-0.5.tar.gz gphotofs-0.5.tar.bz2 \
+  && make  distcleancheck \
+  && cd "$am__cwd" \
+  || exit 1
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for POSIX sh $() command substitution... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether gcc and cc understand -c and -o together... yes
+checking PKG_CONFIG_PATH... /tmp/_build-status-gphoto/PREFIX/lib/pkgconfig
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for FUSE... yes
+checking for GLIB... yes
+checking for dynamic library extension... .so
+checking for libgphoto2 to use... autodetect
+checking for LIBGPHOTO2... yes
+checking libgphoto2 library flags... "-L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif  "
+checking libgphoto2 cpp flags... "-I/tmp/_build-status-gphoto/PREFIX/include/gphoto2  "
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+../configure: line 13017: ../po/POTFILES.in: No such file or directory
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating gphoto-m4/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+
+Configuration (gphotofs 0.5):
+
+    libgphoto2:                    yes
+
+You may run "make" and "make install" now.
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make  all-recursive
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making all in gphoto-m4
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+gcc -DHAVE_CONFIG_H -I. -I..    -DFUSE_USE_VERSION=25 -D_FILE_OFFSET_BITS=64 -I/usr/include/fuse   -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2     -g -O2 -MT gphotofs-gphotofs.o -MD -MP -MF .deps/gphotofs-gphotofs.Tpo -c -o gphotofs-gphotofs.o `test -f 'gphotofs.c' || echo '../'`gphotofs.c
+mv -f .deps/gphotofs-gphotofs.Tpo .deps/gphotofs-gphotofs.Po
+/bin/sh ./libtool  --tag=CC   --mode=link gcc  -g -O2   -o gphotofs gphotofs-gphotofs.o -pthread -lfuse   -lglib-2.0   -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif   
+libtool: link: gcc -g -O2 -o gphotofs gphotofs-gphotofs.o -pthread  -lfuse -lglib-2.0 -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif -pthread -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making dvi in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Nothing to be done for `dvi'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[2]: Nothing to be done for `dvi-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making check in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make  check-TESTS
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[4]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[5]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make  all-recursive
+make[6]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making all in gphoto-m4
+make[7]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[7]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[7]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[6]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[5]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+============================================================================
+Testsuite summary for gphoto filesystem 0.5
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making install in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[3]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c gphotofs '/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
+libtool: install: /usr/bin/install -c gphotofs /tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin/gphotofs
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making installcheck in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making uninstall in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+ ( cd '/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin' && rm -f gphotofs )
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making install in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[3]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/am-dc-730//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c gphotofs '/tmp/am-dc-730//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
+libtool: install: /usr/bin/install -c gphotofs /tmp/am-dc-730//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin/gphotofs
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making uninstall in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Nothing to be done for `uninstall'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+ ( cd '/tmp/am-dc-730//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin' && rm -f gphotofs )
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+if test -d "gphotofs-0.5"; then find "gphotofs-0.5" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphotofs-0.5" || { sleep 5 && rm -rf "gphotofs-0.5"; }; else :; fi
+test -d "gphotofs-0.5" || mkdir "gphotofs-0.5"
+ (cd gphoto-m4 && make  top_distdir=../gphotofs-0.5 distdir=../gphotofs-0.5/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+test -n "" \
+|| find "gphotofs-0.5" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "gphotofs-0.5"
+tardir=gphotofs-0.5 && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >gphotofs-0.5.tar.bz2
+tardir=gphotofs-0.5 && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >gphotofs-0.5.tar.gz
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+if test -d "gphotofs-0.5"; then find "gphotofs-0.5" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphotofs-0.5" || { sleep 5 && rm -rf "gphotofs-0.5"; }; else :; fi
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+Making distclean in gphoto-m4
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "../../gphoto-m4" || test -z "" || rm -f 
+rm -f Makefile
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+rm -rf .libs _libs
+rm -f *.o
+test -z "" || rm -f 
+test -z "" || rm -f 
+rm -f *.lo
+test -z "test-suite.log" || rm -f test-suite.log
+ rm -f gphotofs
+rm -f *.tab.c
+test -z "" || rm -f 
+rm -f config.h stamp-h1
+rm -f libtool config.lt
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+test . = ".." || test -z "" || rm -f 
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -rf ./.deps
+rm -f Makefile
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+if test -d "gphotofs-0.5"; then find "gphotofs-0.5" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "gphotofs-0.5" || { sleep 5 && rm -rf "gphotofs-0.5"; }; else :; fi
+==============================================
+gphotofs-0.5 archives ready for distribution: 
+gphotofs-0.5.tar.gz
+gphotofs-0.5.tar.bz2
+==============================================

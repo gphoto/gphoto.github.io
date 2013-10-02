@@ -1,0 +1,32 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+if test -d "libgphoto2-sharp-2.3.99.0.trunk"; then find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-sharp-2.3.99.0.trunk" || { sleep 5 && rm -rf "libgphoto2-sharp-2.3.99.0.trunk"; }; else :; fi
+test -d "libgphoto2-sharp-2.3.99.0.trunk" || mkdir "libgphoto2-sharp-2.3.99.0.trunk"
+ (cd src && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/src \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+ (cd gphoto-m4 && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+ (cd Sample && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/Sample \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+ (cd doc && make  top_distdir=../libgphoto2-sharp-2.3.99.0.trunk distdir=../libgphoto2-sharp-2.3.99.0.trunk/doc \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+(cd doxygen-output && ${TAR-tar} chof - libgphoto2-sharp-api.html | GZIP=--best gzip -c) > libgphoto2-sharp-api.html.tar.gz
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+test -n "" \
+|| find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/libgphoto2-sharp/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "libgphoto2-sharp-2.3.99.0.trunk"
+tardir=libgphoto2-sharp-2.3.99.0.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >libgphoto2-sharp-2.3.99.0.trunk.tar.bz2
+tardir=libgphoto2-sharp-2.3.99.0.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >libgphoto2-sharp-2.3.99.0.trunk.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+if test -d "libgphoto2-sharp-2.3.99.0.trunk"; then find "libgphoto2-sharp-2.3.99.0.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-sharp-2.3.99.0.trunk" || { sleep 5 && rm -rf "libgphoto2-sharp-2.3.99.0.trunk"; }; else :; fi

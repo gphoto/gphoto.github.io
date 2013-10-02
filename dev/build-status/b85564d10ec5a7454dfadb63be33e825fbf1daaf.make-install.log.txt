@@ -1,0 +1,191 @@
+Making install in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gphoto-m4'
+Making install in art
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/images/gtkam'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
+ /usr/bin/install -c -m 644 ../../art/gtkam-audio.png ../../art/gtkam-camera.png ../../art/gtkam-folder.png ../../art/gtkam-folder-camera.png ../../art/gtkam-lock.png ../../art/gtkam-new.png '/tmp/_build-status-gphoto/PREFIX/share/images/gtkam'
+ /usr/bin/install -c -m 644 ../../art/gtkam-camera.png '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/art'
+Making install in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/gtkam.1 '/tmp/_build-status-gphoto/PREFIX/share/man/man1'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/doc'
+Making install in help
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+Making install in C
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../../auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C/figures
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C/figures
+cp ../../../help/C/legal.xml gtkam.xml /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C
+cp: cannot stat ‘gtkam.xml’: No such file or directory
+make[3]: [install-data-local] Error 1 (ignored)
+for file in ../../../help/C/figures/*.png; do \
+	basefile=`echo $file | sed -e  's,^.*/,,'`; \
+	/usr/bin/install -c -m 644 $file /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C/figures/$basefile; \
+done
+if [ -e ../../../help/C/topic.dat ]; then \
+	/usr/bin/install -c -m 644 ../../../help/C/topic.dat /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/C; \
+fi
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/C'
+Making install in ru
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../../auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/ru/figures
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/ru/figures
+cp ../../../help/ru/legal.xml gtkam.xml /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/ru
+cp: cannot stat ‘gtkam.xml’: No such file or directory
+make[3]: [install-data-local] Error 1 (ignored)
+for file in ../../../help/ru/figures/*.png; do \
+	basefile=`echo $file | sed -e  's,^.*/,,'`; \
+	/usr/bin/install -c -m 644 $file /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/ru/figures/$basefile; \
+done
+if [ -e ../../../help/ru/topic.dat ]; then \
+	/usr/bin/install -c -m 644 ../../../help/ru/topic.dat /tmp/_build-status-gphoto/PREFIX/share/gnome/help/gtkam/ru; \
+fi
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help/ru'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/help'
+Making install in omf-install
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../auto-aux/mkinstalldirs /tmp/_build-status-gphoto/PREFIX/share/omf/gtkam
+mkdir -p -- /tmp/_build-status-gphoto/PREFIX/share/omf/gtkam
+for file in ./*.omf; do \
+	/usr/bin/install -c -m 644 ../../omf-install/$file /tmp/_build-status-gphoto/PREFIX/share/omf/gtkam; \
+done
+/usr/bin/install: cannot stat ‘../../omf-install/./gtkam-C.omf’: No such file or directory
+make[2]: [install-data-local] Error 1 (ignored)
+if test "xtrue " == "xtrue"; then \
+	scrollkeeper-update -p /tmp/_build-status-gphoto/PREFIX/var/scrollkeeper -o /tmp/_build-status-gphoto/PREFIX/share/omf/gtkam ; \
+fi
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/omf-install'
+Making install in packaging
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+Making install in rpm
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging/rpm'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/packaging'
+Making install in pixmaps
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/gtkam/pixmaps'
+ /usr/bin/install -c -m 644 ../../pixmaps/camera.xpm ../../pixmaps/configure.xpm ../../pixmaps/delete_images.xpm ../../pixmaps/exit.xpm ../../pixmaps/folder.xpm ../../pixmaps/save_current_image.xpm '/tmp/_build-status-gphoto/PREFIX/share/gtkam/pixmaps'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/pixmaps'
+Making install in po
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+linguas="be cs da de eo es fr hu id it is ja nb nl pa pl pt_BR pt ru sk sl sv uk vi zh_CN "; \
+for lang in $linguas; do \
+  dir=/tmp/_build-status-gphoto/PREFIX/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /tmp/_build-status-gphoto/gtkam/auto-aux/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/gtkam.mo; \
+    echo "installing $lang.gmo as $dir/gtkam.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ../../po/$lang.gmo $dir/gtkam.mo; \
+    echo "installing ../../po/$lang.gmo as" \
+	 "$dir/gtkam.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/gtkam.mo.m; \
+    echo "installing $lang.gmo.m as $dir/gtkam.mo.m"; \
+  else \
+    if test -r ../../po/$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ../../po/$lang.gmo.m \
+	$dir/gtkam.mo.m; \
+      echo "installing ../../po/$lang.gmo.m as" \
+	   "$dir/gtkam.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing be.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/be/LC_MESSAGES/gtkam.mo
+installing cs.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/cs/LC_MESSAGES/gtkam.mo
+installing da.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/da/LC_MESSAGES/gtkam.mo
+installing de.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/de/LC_MESSAGES/gtkam.mo
+installing eo.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/eo/LC_MESSAGES/gtkam.mo
+installing es.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/es/LC_MESSAGES/gtkam.mo
+installing fr.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/fr/LC_MESSAGES/gtkam.mo
+installing hu.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/hu/LC_MESSAGES/gtkam.mo
+installing id.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/id/LC_MESSAGES/gtkam.mo
+installing it.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/it/LC_MESSAGES/gtkam.mo
+installing is.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/is/LC_MESSAGES/gtkam.mo
+installing ja.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ja/LC_MESSAGES/gtkam.mo
+installing nb.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/nb/LC_MESSAGES/gtkam.mo
+installing nl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/nl/LC_MESSAGES/gtkam.mo
+installing pa.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pa/LC_MESSAGES/gtkam.mo
+installing pl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pl/LC_MESSAGES/gtkam.mo
+installing pt_BR.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pt_BR/LC_MESSAGES/gtkam.mo
+installing pt.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/pt/LC_MESSAGES/gtkam.mo
+installing ru.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/ru/LC_MESSAGES/gtkam.mo
+installing sk.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sk/LC_MESSAGES/gtkam.mo
+installing sl.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sl/LC_MESSAGES/gtkam.mo
+installing sv.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/sv/LC_MESSAGES/gtkam.mo
+installing uk.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/uk/LC_MESSAGES/gtkam.mo
+installing vi.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/vi/LC_MESSAGES/gtkam.mo
+installing zh_CN.gmo as /tmp/_build-status-gphoto/PREFIX/share/locale/zh_CN/LC_MESSAGES/gtkam.mo
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/po'
+Making install in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+make[2]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gtkam '/tmp/_build-status-gphoto/PREFIX/bin'
+libtool: install: /usr/bin/install -c gtkam /tmp/_build-status-gphoto/PREFIX/bin/gtkam
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/src'
+Making install in test
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/test'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b'
+make[2]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/applications'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gtkam'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
+ /usr/bin/install -c -m 644 ../AUTHORS ../COPYING ../NEWS ../README ../TODO ../CHANGES '/tmp/_build-status-gphoto/PREFIX/share/doc/gtkam'
+ /usr/bin/install -c -m 644 gtkam.desktop '/tmp/_build-status-gphoto/PREFIX/share/applications'
+ /usr/bin/install -c -m 644 ../gtkam.png '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b'

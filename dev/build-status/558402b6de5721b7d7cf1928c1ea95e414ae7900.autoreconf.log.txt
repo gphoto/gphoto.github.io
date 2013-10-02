@@ -1,0 +1,18 @@
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal -I m4 -I gphoto-m4
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: creating directory auto-aux
+autoreconf: configure.ac: not using Libtool
+autoreconf: running: /usr/bin/autoconf
+autoreconf: configure.ac: not using Autoheader
+autoreconf: running: automake --add-missing --no-force
+configure.ac:6: installing 'auto-aux/install-sh'
+configure.ac:6: installing 'auto-aux/missing'
+Makefile.am: installing './INSTALL'
+Makefile.am: installing './COPYING' using GNU General Public License v3 file
+Makefile.am:     Consider adding the COPYING file to the version control system
+Makefile.am:     for your code, to avoid questions about which license your project uses
+help/C/Makefile.am:1: warning: shell find $(srcdir: non-POSIX variable name
+help/C/Makefile.am:1: (probably a GNU make extension)
+autoreconf: Leaving directory `.'

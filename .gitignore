@@ -1,1 +1,7 @@
+# build-status.sh and its generated files
+/_build-status-gphoto.log
+/_build-status-gphoto/
+/_includes/_build-status-gphoto.html
+
+# Jekyll specific
 /_site/

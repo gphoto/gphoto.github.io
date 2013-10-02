@@ -1,0 +1,47 @@
+Making install in src
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make  install-am
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[3]: Nothing to be done for `install-exec-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2-sharp'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.dll ../../src/libgphoto2-sharp.dll.config libgphoto2-sharp.dll.mdb '/tmp/_build-status-gphoto/PREFIX/lib/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp-docs.zip libgphoto2-sharp-docs.tree ../../src/libgphoto2-sharp-docs.source '/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2-sharp'
+ /usr/bin/install -c -m 644 libgphoto2-sharp.pc '/tmp/_build-status-gphoto/PREFIX/lib/pkgconfig'
+make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/src'
+Making install in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/gphoto-m4'
+Making install in Sample
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/Sample'
+Making install in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+mkdir -p "/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2-sharp"
+find "doxygen-output/libgphoto2-sharp-api.html" \
+	\( -type d -exec chmod 0755 {} \; \) -or \
+	\( -type f -exec chmod 0644 {} \; \)
+(unset CDPATH; cd "doxygen-output" && tar cpf - "libgphoto2-sharp-api.html") \
+	| (cd "/tmp/_build-status-gphoto/PREFIX/share/doc/libgphoto2-sharp" && tar xpf -)
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b/doc'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-sharp/_b'

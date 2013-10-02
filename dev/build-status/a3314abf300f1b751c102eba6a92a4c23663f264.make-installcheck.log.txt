@@ -1,0 +1,57 @@
+Making installcheck in gphoto-m4
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto-m4'
+Making installcheck in contrib
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/contrib'
+Making installcheck in doc
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/doc'
+Making installcheck in gphoto2
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
+Making installcheck in packaging
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+Making installcheck in rpm
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging/rpm'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/packaging'
+Making installcheck in po
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+make[1]: Nothing to be done for `installcheck'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+Making installcheck in tests
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+Making installcheck in data
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+make[2]: Nothing to be done for `installcheck'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/data'
+Making installcheck in staging
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+Making installcheck in subdir1
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir1'
+Making installcheck in subdir2
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[3]: Nothing to be done for `installcheck'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging/subdir2'
+make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[3]: Nothing to be done for `installcheck-am'.
+make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests/staging'
+make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[2]: Nothing to be done for `installcheck-am'.
+make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/tests'
+make[1]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b'
+make[1]: Nothing to be done for `installcheck-am'.
+make[1]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b'

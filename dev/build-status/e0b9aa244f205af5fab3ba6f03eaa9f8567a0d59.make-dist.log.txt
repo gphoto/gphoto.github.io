@@ -1,0 +1,19 @@
+make  dist-bzip2 dist-gzip am__post_remove_distdir='@:'
+make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+if test -d "libgphoto2-python-2.3.1.4.trunk"; then find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-python-2.3.1.4.trunk" || { sleep 5 && rm -rf "libgphoto2-python-2.3.1.4.trunk"; }; else :; fi
+test -d "libgphoto2-python-2.3.1.4.trunk" || mkdir "libgphoto2-python-2.3.1.4.trunk"
+ (cd gphoto-m4 && make  top_distdir=../libgphoto2-python-2.3.1.4.trunk distdir=../libgphoto2-python-2.3.1.4.trunk/gphoto-m4 \
+     am__remove_distdir=: am__skip_length_check=: am__skip_mode_fix=: distdir)
+make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/gphoto-m4'
+test -n "" \
+|| find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -755 \
+	-exec chmod u+rwx,go+rx {} \; -o \
+  ! -type d ! -perm -444 -links 1 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -400 -exec chmod a+r {} \; -o \
+  ! -type d ! -perm -444 -exec /bin/sh /tmp/_build-status-gphoto/libgphoto2-python/auto-aux/install-sh -c -m a+r {} {} \; \
+|| chmod -R a+r "libgphoto2-python-2.3.1.4.trunk"
+tardir=libgphoto2-python-2.3.1.4.trunk && ${TAR-tar} chof - "$tardir" | BZIP2=${BZIP2--9} bzip2 -c >libgphoto2-python-2.3.1.4.trunk.tar.bz2
+tardir=libgphoto2-python-2.3.1.4.trunk && ${TAR-tar} chof - "$tardir" | GZIP=--best gzip -c >libgphoto2-python-2.3.1.4.trunk.tar.gz
+make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b'
+if test -d "libgphoto2-python-2.3.1.4.trunk"; then find "libgphoto2-python-2.3.1.4.trunk" -type d ! -perm -200 -exec chmod u+w {} ';' && rm -rf "libgphoto2-python-2.3.1.4.trunk" || { sleep 5 && rm -rf "libgphoto2-python-2.3.1.4.trunk"; }; else :; fi
