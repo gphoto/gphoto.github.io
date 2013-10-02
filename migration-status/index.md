@@ -213,7 +213,7 @@ Pull requests welcome.
     and contain the proper characters. [DONE]
 
   * Find and list existing documentation for how to get the sourcecode
-    and how to build it. [DONE except for gphoto2-manual]
+    and how to build it. [DONE]
 
   * Add a git tag to all generated git repos at their important branch
     heads clearly marking this as the point where the automatic SVN
@@ -228,7 +228,7 @@ two of something approaching a downtime.
   * Make `git clone` and building the code work. [DONE]
 
   * Make github fork and git clone and building the forked clones
-    work.
+    work. [DONE]
 
   * Document how to get the source code and how to build it.
 
