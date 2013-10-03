@@ -17,10 +17,12 @@ and the other software modules from the gPhoto project.
 
 * IRC: `#gphoto` on `irc.freenode.net`
 
+* [Pull requests on github](https://github.com/organizations/gphoto/dashboard/pulls)
+
+* [Issues on github](https://github.com/organizations/gphoto/dashboard/issues)
+
 * Build status
 
   {% include build-status-gphoto.html %}
-
-<!-- * Pull requests on github -->
 
 <!-- * [Working with git repos](/dev/working-with-git/) -->
