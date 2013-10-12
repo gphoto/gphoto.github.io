@@ -25,4 +25,11 @@ and the other software modules from the gPhoto project.
 
   {% include build-status-gphoto.html %}
 
+  The `libgphoto2` failure at `make dist` comes from the `check-news`
+  automake option.
+
+  The `gphoto2` failure at `make check` comes from `gphoto2` reporting
+  a graphics file in the top-level directory instead of in the
+  subdirectory it actually sits in.
+
 <!-- * [Working with git repos](/dev/working-with-git/) -->
