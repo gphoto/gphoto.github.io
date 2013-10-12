@@ -178,9 +178,6 @@ __TBD__: To be done.
   Renamed from `website` to `gphoto.github.io` to make github serve the
   web site.
 
-  git repo work in progress (migrate from custom PHP templates to
-  Github Pages). TODO: Release links.
-
 * `gphoto2-manual`
 
   README files etc. refer to git repos. The actual manual section
@@ -239,7 +236,7 @@ two of something approaching a downtime.
 
 ### After final migration to git repos
 
-  * Verify `git clone` and builds works. [WIP]
+  * Verify `git clone` and builds works. [DONE]
 
   * Update existing documentation (gphoto2-manual, website, etc.)
 
