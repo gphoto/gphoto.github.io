@@ -37,14 +37,22 @@ cat>&3<<EOF
     <tr>
       <th>repo name</th>
       <th>git sha</th>
-      <th><a href="#" title="autoreconf or autogen.sh">auto</a></th>
-      <th><a href="#" title="configure">cfg</a></th>
-      <th><a href="#" title="${targets[0]}">all</a></th>
-      <th><a href="#" title="${targets[1]}">inst</a></th>
-      <th><a href="#" title="${targets[2]}">chk</a></th>
-      <th><a href="#" title="${targets[3]}">ichk</a></th>
-      <th><a href="#" title="${targets[4]}">dist</a></th>
-      <th><a href="#" title="${targets[5]}">dchk</a></th>
+      <th><span title="autoreconf or autogen.sh
+Initialize the build system in the local source tree.">auto</span></th>
+      <th><span title="configure
+Configure the build system for the local system.">cfg</span></th>
+      <th><span title="make ${targets[0]}
+Build programs, libraries, documentation, and the like.">all</span></th>
+      <th><span title="make ${targets[1]}
+Install programs, libraries, documentation, and the like.">inst</span></th>
+      <th><span title="make ${targets[2]}
+Run checks on uninstalled software.">chk</span></th>
+      <th><span title="make ${targets[3]}
+Run checks on installed software.">ichk</span></th>
+      <th><span title="make ${targets[4]}
+Create tarball for source code distribution.">dist</span></th>
+      <th><span title="make ${targets[5]}
+Create tarball for source code distribution, running a number of additional checks during a test build.">dchk</span></th>
     </tr>
   </thead>
   <tbody>
