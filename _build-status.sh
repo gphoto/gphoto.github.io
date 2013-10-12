@@ -66,7 +66,12 @@ do
 
     rm -rf "$mod"
 
-    git clone "$clone_url"
+    clone_opts=()
+    if test -f "$my_dir/../$mod/.git/info/exclude"; then
+        clone_opts=("--reference" "$my_dir/../$mod")
+    fi
+
+    git clone "${clone_opts[@]}" "$clone_url"
     cd "$mod"
 
     sha="$(git rev-parse HEAD)"
