@@ -442,8 +442,8 @@ gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tm
   GtkamCamera *c = GTKAM_CAMERA (instance);
                ^
 mv -f .deps/libgtkam_a-gtkam-camera.Tpo .deps/libgtkam_a-gtkam-camera.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-chooser.o -MD -MP -MF .deps/libgtkam_a-gtkam-chooser.Tpo -c -o libgtkam_a-gtkam-chooser.o `test -f 'gtkam-chooser.c' || echo '../../src/'`gtkam-chooser.c
 mv -f .deps/libgtkam_a-gdk-pixbuf-hacks.Tpo .deps/libgtkam_a-gdk-pixbuf-hacks.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-chooser.o -MD -MP -MF .deps/libgtkam_a-gtkam-chooser.Tpo -c -o libgtkam_a-gtkam-chooser.o `test -f 'gtkam-chooser.c' || echo '../../src/'`gtkam-chooser.c
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-clock.o -MD -MP -MF .deps/libgtkam_a-gtkam-clock.Tpo -c -o libgtkam_a-gtkam-clock.o `test -f 'gtkam-clock.c' || echo '../../src/'`gtkam-clock.c
 ../../src/gtkam-cancel.c: In function ‘message_func’:
 ../../src/gtkam-cancel.c:161:15: warning: variable ‘cancel’ set but not used [-Wunused-but-set-variable]
@@ -452,17 +452,14 @@ gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tm
 mv -f .deps/libgtkam_a-gtkam-cancel.Tpo .deps/libgtkam_a-gtkam-cancel.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-close.o -MD -MP -MF .deps/libgtkam_a-gtkam-close.Tpo -c -o libgtkam_a-gtkam-close.o `test -f 'gtkam-close.c' || echo '../../src/'`gtkam-close.c
 mv -f .deps/libgtkam_a-gtkam-chooser.Tpo .deps/libgtkam_a-gtkam-chooser.Po
+mv -f .deps/libgtkam_a-gtkam-clock.Tpo .deps/libgtkam_a-gtkam-clock.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-config.o -MD -MP -MF .deps/libgtkam_a-gtkam-config.Tpo -c -o libgtkam_a-gtkam-config.o `test -f 'gtkam-config.c' || echo '../../src/'`gtkam-config.c
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-context.o -MD -MP -MF .deps/libgtkam_a-gtkam-context.Tpo -c -o libgtkam_a-gtkam-context.o `test -f 'gtkam-context.c' || echo '../../src/'`gtkam-context.c
 ../../src/gtkam-close.c: In function ‘gtkam_close_destroy’:
 ../../src/gtkam-close.c:43:14: warning: variable ‘close’ set but not used [-Wunused-but-set-variable]
   GtkamClose *close = GTKAM_CLOSE (object);
               ^
 mv -f .deps/libgtkam_a-gtkam-close.Tpo .deps/libgtkam_a-gtkam-close.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-context.o -MD -MP -MF .deps/libgtkam_a-gtkam-context.Tpo -c -o libgtkam_a-gtkam-context.o `test -f 'gtkam-context.c' || echo '../../src/'`gtkam-context.c
-mv -f .deps/libgtkam_a-gtkam-clock.Tpo .deps/libgtkam_a-gtkam-clock.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-delete.o -MD -MP -MF .deps/libgtkam_a-gtkam-delete.Tpo -c -o libgtkam_a-gtkam-delete.o `test -f 'gtkam-delete.c' || echo '../../src/'`gtkam-delete.c
-mv -f .deps/libgtkam_a-gtkam-context.Tpo .deps/libgtkam_a-gtkam-context.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-dialog.o -MD -MP -MF .deps/libgtkam_a-gtkam-dialog.Tpo -c -o libgtkam_a-gtkam-dialog.o `test -f 'gtkam-dialog.c' || echo '../../src/'`gtkam-dialog.c
 ../../src/gtkam-config.c: In function ‘adjust_time’:
 ../../src/gtkam-config.c:363:2: warning: pointer targets in passing argument 2 of ‘gtk_calendar_get_date’ differ in signedness [-Wpointer-sign]
   gtk_calendar_get_date (calendar, &tm.tm_year, &tm.tm_mon, &tm.tm_mday);
@@ -495,15 +492,18 @@ In file included from /usr/include/gtk-2.0/gtk/gtk.h:53:0,
 ../../src/gtkam-config.c:221:1: warning: ‘on_config_close_clicked’ defined but not used [-Wunused-function]
  on_config_close_clicked (GtkButton *button, GtkamConfig *config)
  ^
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-delete.o -MD -MP -MF .deps/libgtkam_a-gtkam-delete.Tpo -c -o libgtkam_a-gtkam-delete.o `test -f 'gtkam-delete.c' || echo '../../src/'`gtkam-delete.c
 mv -f .deps/libgtkam_a-gtkam-config.Tpo .deps/libgtkam_a-gtkam-config.Po
+mv -f .deps/libgtkam_a-gtkam-context.Tpo .deps/libgtkam_a-gtkam-context.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-dialog.o -MD -MP -MF .deps/libgtkam_a-gtkam-dialog.Tpo -c -o libgtkam_a-gtkam-dialog.o `test -f 'gtkam-dialog.c' || echo '../../src/'`gtkam-dialog.c
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-error.o -MD -MP -MF .deps/libgtkam_a-gtkam-error.Tpo -c -o libgtkam_a-gtkam-error.o `test -f 'gtkam-error.c' || echo '../../src/'`gtkam-error.c
 ../../src/gtkam-dialog.c: In function ‘gtkam_dialog_destroy’:
 ../../src/gtkam-dialog.c:40:15: warning: variable ‘dialog’ set but not used [-Wunused-but-set-variable]
   GtkamDialog *dialog = GTKAM_DIALOG (object);
                ^
 mv -f .deps/libgtkam_a-gtkam-dialog.Tpo .deps/libgtkam_a-gtkam-dialog.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-exif.o -MD -MP -MF .deps/libgtkam_a-gtkam-exif.Tpo -c -o libgtkam_a-gtkam-exif.o `test -f 'gtkam-exif.c' || echo '../../src/'`gtkam-exif.c
 mv -f .deps/libgtkam_a-gtkam-delete.Tpo .deps/libgtkam_a-gtkam-delete.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-exif.o -MD -MP -MF .deps/libgtkam_a-gtkam-exif.Tpo -c -o libgtkam_a-gtkam-exif.o `test -f 'gtkam-exif.c' || echo '../../src/'`gtkam-exif.c
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-fsel.o -MD -MP -MF .deps/libgtkam_a-gtkam-fsel.Tpo -c -o libgtkam_a-gtkam-fsel.o `test -f 'gtkam-fsel.c' || echo '../../src/'`gtkam-fsel.c
 ../../src/gtkam-error.c: In function ‘gtkam_error_destroy’:
 ../../src/gtkam-error.c:49:14: warning: variable ‘error’ set but not used [-Wunused-but-set-variable]
@@ -515,6 +515,16 @@ gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tm
                                              ^
 mv -f .deps/libgtkam_a-gtkam-error.Tpo .deps/libgtkam_a-gtkam-error.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-info.o -MD -MP -MF .deps/libgtkam_a-gtkam-info.Tpo -c -o libgtkam_a-gtkam-info.o `test -f 'gtkam-info.c' || echo '../../src/'`gtkam-info.c
+../../src/gtkam-fsel.c: In function ‘gtkam_fsel_destroy’:
+../../src/gtkam-fsel.c:60:13: warning: variable ‘fsel’ set but not used [-Wunused-but-set-variable]
+  GtkamFSel *fsel = GTKAM_FSEL (object);
+             ^
+../../src/gtkam-fsel.c: In function ‘gtkam_fsel_new’:
+../../src/gtkam-fsel.c:199:20: warning: variable ‘s’ set but not used [-Wunused-but-set-variable]
+  GtkTreeSelection *s;
+                    ^
+mv -f .deps/libgtkam_a-gtkam-fsel.Tpo .deps/libgtkam_a-gtkam-fsel.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-list.o -MD -MP -MF .deps/libgtkam_a-gtkam-list.Tpo -c -o libgtkam_a-gtkam-list.o `test -f 'gtkam-list.c' || echo '../../src/'`gtkam-list.c
 ../../src/gtkam-exif.c: In function ‘gtkam_exif_destroy’:
 ../../src/gtkam-exif.c:50:13: warning: variable ‘exif’ set but not used [-Wunused-but-set-variable]
   GtkamExif *exif = GTKAM_EXIF (object);
@@ -540,19 +550,7 @@ In file included from /usr/include/libexif-gtk/gtk-exif-browser.h:25:0,
  ExifData *exif_data_new_from_data (const unsigned char *data,
            ^
 mv -f .deps/libgtkam_a-gtkam-exif.Tpo .deps/libgtkam_a-gtkam-exif.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-list.o -MD -MP -MF .deps/libgtkam_a-gtkam-list.Tpo -c -o libgtkam_a-gtkam-list.o `test -f 'gtkam-list.c' || echo '../../src/'`gtkam-list.c
-../../src/gtkam-fsel.c: In function ‘gtkam_fsel_destroy’:
-../../src/gtkam-fsel.c:60:13: warning: variable ‘fsel’ set but not used [-Wunused-but-set-variable]
-  GtkamFSel *fsel = GTKAM_FSEL (object);
-             ^
-../../src/gtkam-fsel.c: In function ‘gtkam_fsel_new’:
-../../src/gtkam-fsel.c:199:20: warning: variable ‘s’ set but not used [-Wunused-but-set-variable]
-  GtkTreeSelection *s;
-                    ^
-mv -f .deps/libgtkam_a-gtkam-fsel.Tpo .deps/libgtkam_a-gtkam-fsel.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-mkdir.o -MD -MP -MF .deps/libgtkam_a-gtkam-mkdir.Tpo -c -o libgtkam_a-gtkam-mkdir.o `test -f 'gtkam-mkdir.c' || echo '../../src/'`gtkam-mkdir.c
-mv -f .deps/libgtkam_a-gtkam-info.Tpo .deps/libgtkam_a-gtkam-info.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-port.o -MD -MP -MF .deps/libgtkam_a-gtkam-port.Tpo -c -o libgtkam_a-gtkam-port.o `test -f 'gtkam-port.c' || echo '../../src/'`gtkam-port.c
 ../../src/gtkam-list.c: In function ‘get_thumbnail_idle’:
 ../../src/gtkam-list.c:336:3: warning: pointer targets in passing argument 2 of ‘gdk_pixbuf_loader_write’ differ in signedness [-Wpointer-sign]
    gdk_pixbuf_loader_write (loader, fd, fs, NULL);
@@ -584,7 +582,8 @@ In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:40:0,
  action_save (gpointer callback_data, guint callback_action, GtkWidget *widget)
  ^
 mv -f .deps/libgtkam_a-gtkam-list.Tpo .deps/libgtkam_a-gtkam-list.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-preview.o -MD -MP -MF .deps/libgtkam_a-gtkam-preview.Tpo -c -o libgtkam_a-gtkam-preview.o `test -f 'gtkam-preview.c' || echo '../../src/'`gtkam-preview.c
+mv -f .deps/libgtkam_a-gtkam-info.Tpo .deps/libgtkam_a-gtkam-info.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-port.o -MD -MP -MF .deps/libgtkam_a-gtkam-port.Tpo -c -o libgtkam_a-gtkam-port.o `test -f 'gtkam-port.c' || echo '../../src/'`gtkam-port.c
 ../../src/gtkam-mkdir.c: In function ‘on_ok_clicked’:
 ../../src/gtkam-mkdir.c:152:20: warning: ‘g_basename’ is deprecated (declared at /usr/include/glib-2.0/glib/gfileutils.h:169): Use 'g_path_get_basename' instead [-Wdeprecated-declarations]
    "folder '%s'..."), g_basename (path), mkdir->priv->path);
@@ -595,6 +594,7 @@ gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tm
 ../../src/gtkam-mkdir.c:186:4: warning: ‘g_basename’ is deprecated (declared at /usr/include/glib-2.0/glib/gfileutils.h:169): Use 'g_path_get_basename' instead [-Wdeprecated-declarations]
     g_basename (path), mkdir->priv->path);
     ^
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-preview.o -MD -MP -MF .deps/libgtkam_a-gtkam-preview.Tpo -c -o libgtkam_a-gtkam-preview.o `test -f 'gtkam-preview.c' || echo '../../src/'`gtkam-preview.c
 mv -f .deps/libgtkam_a-gtkam-mkdir.Tpo .deps/libgtkam_a-gtkam-mkdir.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-save.o -MD -MP -MF .deps/libgtkam_a-gtkam-save.Tpo -c -o libgtkam_a-gtkam-save.o `test -f 'gtkam-save.c' || echo '../../src/'`gtkam-save.c
 ../../src/gtkam-port.c: In function ‘gtkam_port_destroy’:
@@ -602,7 +602,6 @@ gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tm
   GtkamPort *port = GTKAM_PORT (object);
              ^
 mv -f .deps/libgtkam_a-gtkam-port.Tpo .deps/libgtkam_a-gtkam-port.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-status.o -MD -MP -MF .deps/libgtkam_a-gtkam-status.Tpo -c -o libgtkam_a-gtkam-status.o `test -f 'gtkam-status.c' || echo '../../src/'`gtkam-status.c
 ../../src/gtkam-preview.c: In function ‘timeout_func’:
 ../../src/gtkam-preview.c:239:2: warning: pointer targets in passing argument 3 of ‘gp_file_get_data_and_size’ differ in signedness [-Wpointer-sign]
   gp_file_get_data_and_size (file, &data, &size);
@@ -638,6 +637,7 @@ In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:40:0,
 ../../src/gtkam-preview.c:332:2: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
   gdk_pixbuf_unref (scaled);
   ^
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-status.o -MD -MP -MF .deps/libgtkam_a-gtkam-status.Tpo -c -o libgtkam_a-gtkam-status.o `test -f 'gtkam-status.c' || echo '../../src/'`gtkam-status.c
 mv -f .deps/libgtkam_a-gtkam-preview.Tpo .deps/libgtkam_a-gtkam-preview.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-tree.o -MD -MP -MF .deps/libgtkam_a-gtkam-tree.Tpo -c -o libgtkam_a-gtkam-tree.o `test -f 'gtkam-tree.c' || echo '../../src/'`gtkam-tree.c
 ../../src/gtkam-save.c: In function ‘save_file’:
@@ -688,28 +688,13 @@ In file included from /usr/include/gtk-2.0/gtk/gtkfilechooser.h:29:0,
  void    gtk_widget_show    (GtkWidget        *widget);
       ^
 mv -f .deps/libgtkam_a-gtkam-save.Tpo .deps/libgtkam_a-gtkam-save.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-util.o -MD -MP -MF .deps/libgtkam_a-gtkam-util.Tpo -c -o libgtkam_a-gtkam-util.o `test -f 'gtkam-util.c' || echo '../../src/'`gtkam-util.c
 ../../src/gtkam-status.c: In function ‘message_func’:
 ../../src/gtkam-status.c:144:15: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
   GtkamStatus *status = GTKAM_STATUS (data);
                ^
 mv -f .deps/libgtkam_a-gtkam-status.Tpo .deps/libgtkam_a-gtkam-status.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-util.o -MD -MP -MF .deps/libgtkam_a-gtkam-util.Tpo -c -o libgtkam_a-gtkam-util.o `test -f 'gtkam-util.c' || echo '../../src/'`gtkam-util.c
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-viewer.o -MD -MP -MF .deps/libgtkam_a-gtkam-viewer.Tpo -c -o libgtkam_a-gtkam-viewer.o `test -f 'gtkam-viewer.c' || echo '../../src/'`gtkam-viewer.c
-../../src/gtkam-util.c: In function ‘gdk_pixbuf_new_from_camera_file’:
-../../src/gtkam-util.c:41:9: warning: pointer targets in passing argument 2 of ‘gdk_pixbuf_loader_write’ differ in signedness [-Wpointer-sign]
-         if (!gdk_pixbuf_loader_write (loader, data, size, NULL)) {
-         ^
-In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:40:0,
-                 from ../../src/gtkam-util.h:24,
-                 from ../../src/gtkam-util.c:19:
-/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h:93:10: note: expected ‘const guchar *’ but argument is of type ‘const char *’
- gboolean             gdk_pixbuf_loader_write         (GdkPixbufLoader *loader,
-          ^
-../../src/gtkam-util.c:62:17: warning: ‘gdk_pixbuf_ref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:241): Use 'g_object_ref' instead [-Wdeprecated-declarations]
-                 gdk_pixbuf_ref (pixbuf);
-                 ^
-mv -f .deps/libgtkam_a-gtkam-util.Tpo .deps/libgtkam_a-gtkam-util.Po
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-version.o -MD -MP -MF .deps/libgtkam_a-gtkam-version.Tpo -c -o libgtkam_a-gtkam-version.o `test -f 'gtkam-version.c' || echo '../../src/'`gtkam-version.c
 ../../src/gtkam-tree.c: In function ‘on_upload_ok_clicked’:
 ../../src/gtkam-tree.c:422:21: warning: ‘g_basename’ is deprecated (declared at /usr/include/glib-2.0/glib/gfileutils.h:169): Use 'g_path_get_basename' instead [-Wdeprecated-declarations]
     "folder '%s'..."), g_basename (path), folder);
@@ -729,11 +714,24 @@ In file included from ../../src/gtkam-tree.c:29:0:
    g_basename (folder), GTKAM_STATUS (s)->context->context);
    ^
 mv -f .deps/libgtkam_a-gtkam-tree.Tpo .deps/libgtkam_a-gtkam-tree.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-gtkam-version.o -MD -MP -MF .deps/libgtkam_a-gtkam-version.Tpo -c -o libgtkam_a-gtkam-version.o `test -f 'gtkam-version.c' || echo '../../src/'`gtkam-version.c
+../../src/gtkam-util.c: In function ‘gdk_pixbuf_new_from_camera_file’:
+../../src/gtkam-util.c:41:9: warning: pointer targets in passing argument 2 of ‘gdk_pixbuf_loader_write’ differ in signedness [-Wpointer-sign]
+         if (!gdk_pixbuf_loader_write (loader, data, size, NULL)) {
+         ^
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:40:0,
+                 from ../../src/gtkam-util.h:24,
+                 from ../../src/gtkam-util.c:19:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h:93:10: note: expected ‘const guchar *’ but argument is of type ‘const char *’
+ gboolean             gdk_pixbuf_loader_write         (GdkPixbufLoader *loader,
+          ^
+../../src/gtkam-util.c:62:17: warning: ‘gdk_pixbuf_ref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:241): Use 'g_object_ref' instead [-Wdeprecated-declarations]
+                 gdk_pixbuf_ref (pixbuf);
+                 ^
+mv -f .deps/libgtkam_a-gtkam-util.Tpo .deps/libgtkam_a-gtkam-util.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT libgtkam_a-util.o -MD -MP -MF .deps/libgtkam_a-util.Tpo -c -o libgtkam_a-util.o `test -f 'util.c' || echo '../../src/'`util.c
 mv -f .deps/libgtkam_a-gtkam-version.Tpo .deps/libgtkam_a-gtkam-version.Po
-mv -f .deps/libgtkam_a-util.Tpo .deps/libgtkam_a-util.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT gtkam-gtkam-debug.o -MD -MP -MF .deps/gtkam-gtkam-debug.Tpo -c -o gtkam-gtkam-debug.o `test -f 'gtkam-debug.c' || echo '../../src/'`gtkam-debug.c
-gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT gtkam-gtkam-exif.o -MD -MP -MF .deps/gtkam-gtkam-exif.Tpo -c -o gtkam-gtkam-exif.o `test -f 'gtkam-exif.c' || echo '../../src/'`gtkam-exif.c
 ../../src/gtkam-viewer.c: In function ‘show_pixbuf’:
 ../../src/gtkam-viewer.c:153:2: warning: ‘gdk_pixbuf_unref’ is deprecated (declared at /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:243): Use 'g_object_unref' instead [-Wdeprecated-declarations]
   gdk_pixbuf_unref (scaled);
@@ -756,9 +754,38 @@ In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:40:0,
  gboolean             gdk_pixbuf_loader_write         (GdkPixbufLoader *loader,
           ^
 mv -f .deps/libgtkam_a-gtkam-viewer.Tpo .deps/libgtkam_a-gtkam-viewer.Po
+gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT gtkam-gtkam-exif.o -MD -MP -MF .deps/gtkam-gtkam-exif.Tpo -c -o gtkam-gtkam-exif.o `test -f 'gtkam-exif.c' || echo '../../src/'`gtkam-exif.c
+mv -f .deps/libgtkam_a-util.Tpo .deps/libgtkam_a-util.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT gtkam-gtkam-main.o -MD -MP -MF .deps/gtkam-gtkam-main.Tpo -c -o gtkam-gtkam-main.o `test -f 'gtkam-main.c' || echo '../../src/'`gtkam-main.c
 mv -f .deps/gtkam-gtkam-debug.Tpo .deps/gtkam-gtkam-debug.Po
 gcc -DHAVE_CONFIG_H -I. -I../../src -I..   -I../.. -I../../src -DLOCALEDIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale\" -DAPP_DATADIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share\" -DIMAGE_DIR=\"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam\" -Wall -Wmissing-declarations -Wmissing-prototypes -g   -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2    -pthread -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng15 -I/usr/include/libdrm -I/usr/include/harfbuzz       -g -O2 -MT gtkam-main.o -MD -MP -MF .deps/gtkam-main.Tpo -c -o gtkam-main.o `test -f 'main.c' || echo '../../src/'`main.c
+../../src/gtkam-exif.c: In function ‘gtkam_exif_destroy’:
+../../src/gtkam-exif.c:50:13: warning: variable ‘exif’ set but not used [-Wunused-but-set-variable]
+  GtkamExif *exif = GTKAM_EXIF (object);
+             ^
+../../src/gtkam-exif.c: In function ‘gtkam_exif_new’:
+../../src/gtkam-exif.c:161:2: warning: pointer targets in passing argument 3 of ‘gp_file_get_data_and_size’ differ in signedness [-Wpointer-sign]
+  gp_file_get_data_and_size (cfile, &data, &size);
+  ^
+In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-filesys.h:38:0,
+                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:54,
+                 from ../../src/gtkam-camera.h:22,
+                 from ../../src/gtkam-exif.h:22,
+                 from ../../src/gtkam-exif.c:21:
+/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-file.h:131:5: note: expected ‘long unsigned int *’ but argument is of type ‘long int *’
+ int gp_file_get_data_and_size (CameraFile*, const char **data,
+     ^
+../../src/gtkam-exif.c:162:2: warning: pointer targets in passing argument 1 of ‘exif_data_new_from_data’ differ in signedness [-Wpointer-sign]
+  edata = exif_data_new_from_data (data, size);
+  ^
+In file included from /usr/include/libexif-gtk/gtk-exif-browser.h:25:0,
+                 from ../../src/gtkam-exif.c:33:
+/usr/include/libexif/exif-data.h:92:11: note: expected ‘const unsigned char *’ but argument is of type ‘const char *’
+ ExifData *exif_data_new_from_data (const unsigned char *data,
+           ^
+mv -f .deps/gtkam-gtkam-exif.Tpo .deps/gtkam-gtkam-exif.Po
+rm -f libgtkam.a
+ar cru libgtkam.a libgtkam_a-gdk-pixbuf-hacks.o libgtkam_a-gtkam-camera.o libgtkam_a-gtkam-cancel.o libgtkam_a-gtkam-chooser.o libgtkam_a-gtkam-clock.o libgtkam_a-gtkam-close.o libgtkam_a-gtkam-config.o libgtkam_a-gtkam-context.o libgtkam_a-gtkam-delete.o libgtkam_a-gtkam-dialog.o libgtkam_a-gtkam-error.o libgtkam_a-gtkam-exif.o libgtkam_a-gtkam-fsel.o libgtkam_a-gtkam-info.o libgtkam_a-gtkam-list.o libgtkam_a-gtkam-mkdir.o libgtkam_a-gtkam-port.o libgtkam_a-gtkam-preview.o libgtkam_a-gtkam-save.o libgtkam_a-gtkam-status.o libgtkam_a-gtkam-tree.o libgtkam_a-gtkam-util.o libgtkam_a-gtkam-viewer.o libgtkam_a-gtkam-version.o libgtkam_a-util.o 
 ../../src/gtkam-main.c: In function ‘gtkam_main_destroy’:
 ../../src/gtkam-main.c:86:13: warning: variable ‘m’ set but not used [-Wunused-but-set-variable]
   GtkamMain *m = GTKAM_MAIN (object);
@@ -787,35 +814,8 @@ In file included from /usr/include/glib-2.0/glib.h:81:0,
    gdk_pixbuf_unref (pixbuf);
    ^
 mv -f .deps/gtkam-gtkam-main.Tpo .deps/gtkam-gtkam-main.Po
-../../src/gtkam-exif.c: In function ‘gtkam_exif_destroy’:
-../../src/gtkam-exif.c:50:13: warning: variable ‘exif’ set but not used [-Wunused-but-set-variable]
-  GtkamExif *exif = GTKAM_EXIF (object);
-             ^
-../../src/gtkam-exif.c: In function ‘gtkam_exif_new’:
-../../src/gtkam-exif.c:161:2: warning: pointer targets in passing argument 3 of ‘gp_file_get_data_and_size’ differ in signedness [-Wpointer-sign]
-  gp_file_get_data_and_size (cfile, &data, &size);
-  ^
-In file included from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-filesys.h:38:0,
-                 from /tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-camera.h:54,
-                 from ../../src/gtkam-camera.h:22,
-                 from ../../src/gtkam-exif.h:22,
-                 from ../../src/gtkam-exif.c:21:
-/tmp/_build-status-gphoto/PREFIX/include/gphoto2/gphoto2/gphoto2-file.h:131:5: note: expected ‘long unsigned int *’ but argument is of type ‘long int *’
- int gp_file_get_data_and_size (CameraFile*, const char **data,
-     ^
-../../src/gtkam-exif.c:162:2: warning: pointer targets in passing argument 1 of ‘exif_data_new_from_data’ differ in signedness [-Wpointer-sign]
-  edata = exif_data_new_from_data (data, size);
-  ^
-In file included from /usr/include/libexif-gtk/gtk-exif-browser.h:25:0,
-                 from ../../src/gtkam-exif.c:33:
-/usr/include/libexif/exif-data.h:92:11: note: expected ‘const unsigned char *’ but argument is of type ‘const char *’
- ExifData *exif_data_new_from_data (const unsigned char *data,
-           ^
-mv -f .deps/gtkam-gtkam-exif.Tpo .deps/gtkam-gtkam-exif.Po
-rm -f libgtkam.a
-ar cru libgtkam.a libgtkam_a-gdk-pixbuf-hacks.o libgtkam_a-gtkam-camera.o libgtkam_a-gtkam-cancel.o libgtkam_a-gtkam-chooser.o libgtkam_a-gtkam-clock.o libgtkam_a-gtkam-close.o libgtkam_a-gtkam-config.o libgtkam_a-gtkam-context.o libgtkam_a-gtkam-delete.o libgtkam_a-gtkam-dialog.o libgtkam_a-gtkam-error.o libgtkam_a-gtkam-exif.o libgtkam_a-gtkam-fsel.o libgtkam_a-gtkam-info.o libgtkam_a-gtkam-list.o libgtkam_a-gtkam-mkdir.o libgtkam_a-gtkam-port.o libgtkam_a-gtkam-preview.o libgtkam_a-gtkam-save.o libgtkam_a-gtkam-status.o libgtkam_a-gtkam-tree.o libgtkam_a-gtkam-util.o libgtkam_a-gtkam-viewer.o libgtkam_a-gtkam-version.o libgtkam_a-util.o 
-mv -f .deps/gtkam-main.Tpo .deps/gtkam-main.Po
 ranlib libgtkam.a
+mv -f .deps/gtkam-main.Tpo .deps/gtkam-main.Po
 /bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -g  -o gtkam gtkam-gtkam-debug.o gtkam-gtkam-exif.o gtkam-gtkam-main.o gtkam-main.o libgtkam.a -lexif   -lexif-gtk -lm -lexif   -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif    -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0      
 libtool: link: gcc -g -O2 -Wall -g -o gtkam gtkam-gtkam-debug.o gtkam-gtkam-exif.o gtkam-gtkam-main.o gtkam-main.o  libgtkam.a -lexif-gtk -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0 -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
@@ -827,8 +827,8 @@ mv -f .deps/test_cancel-test-cancel.Tpo .deps/test_cancel-test-cancel.Po
 /bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -g  -o test-cancel test_cancel-test-cancel.o ../src/libgtkam.a -lexif   -lexif-gtk -lm -lexif   -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif   -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0     
 mv -f .deps/test_fsel-test-fsel.Tpo .deps/test_fsel-test-fsel.Po
 /bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -g  -o test-fsel test_fsel-test-fsel.o ../src/libgtkam.a -lexif   -lexif-gtk -lm -lexif   -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif   -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0     
-libtool: link: gcc -g -O2 -Wall -g -o test-cancel test_cancel-test-cancel.o  ../src/libgtkam.a -lexif-gtk -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0 -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib
 libtool: link: gcc -g -O2 -Wall -g -o test-fsel test_fsel-test-fsel.o  ../src/libgtkam.a -lexif-gtk -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0 -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib
+libtool: link: gcc -g -O2 -Wall -g -o test-cancel test_cancel-test-cancel.o  ../src/libgtkam.a -lexif-gtk -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -lpthread -lm -lexif -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lglib-2.0 -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/test'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
@@ -973,8 +973,8 @@ make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_bui
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 make[3]: Nothing to be done for `install-exec-am'.
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
- /usr/bin/install -c -m 644 ../../art/gtkam-camera.png '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam'
+ /usr/bin/install -c -m 644 ../../art/gtkam-camera.png '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
  /usr/bin/install -c -m 644 ../../art/gtkam-audio.png ../../art/gtkam-camera.png ../../art/gtkam-folder.png ../../art/gtkam-folder-camera.png ../../art/gtkam-lock.png ../../art/gtkam-new.png '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
@@ -1128,8 +1128,8 @@ make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_buil
 Making install in src
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
- /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin'
 make[3]: Nothing to be done for `install-data-am'.
+ /usr/bin/mkdir -p '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin'
   /bin/sh ../libtool   --mode=install /usr/bin/install -c gtkam '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin'
 libtool: install: /usr/bin/install -c gtkam /tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin/gtkam
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
@@ -1221,7 +1221,6 @@ make[2]: Nothing to be done for `uninstall'.
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/gphoto-m4'
 Making uninstall in art
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
- ( cd '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam' && rm -f gtkam-audio.png gtkam-camera.png gtkam-folder.png gtkam-folder-camera.png gtkam-lock.png gtkam-new.png )
  ( cd '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps' && rm -f gtkam-camera.png )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 Making uninstall in doc
@@ -1303,9 +1302,9 @@ make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_bui
 make[2]: Nothing to be done for `uninstall'.
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/test'
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
+ ( cd '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications' && rm -f gtkam.desktop )
  ( cd '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps' && rm -f gtkam.png )
  ( cd '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/doc/gtkam' && rm -f AUTHORS COPYING NEWS README TODO CHANGES )
- ( cd '/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications' && rm -f gtkam.desktop )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
@@ -1322,18 +1321,18 @@ Making install in art
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 make[3]: Nothing to be done for `install-exec-am'.
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam'
- /usr/bin/install -c -m 644 ../../art/gtkam-camera.png '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
- /usr/bin/install -c -m 644 ../../art/gtkam-audio.png ../../art/gtkam-camera.png ../../art/gtkam-folder.png ../../art/gtkam-folder-camera.png ../../art/gtkam-lock.png ../../art/gtkam-new.png '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
+ /usr/bin/install -c -m 644 ../../art/gtkam-camera.png '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam'
+ /usr/bin/install -c -m 644 ../../art/gtkam-audio.png ../../art/gtkam-camera.png ../../art/gtkam-folder.png ../../art/gtkam-folder-camera.png ../../art/gtkam-lock.png ../../art/gtkam-new.png '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 Making install in doc
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/doc'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/doc'
 make[3]: Nothing to be done for `install-exec-am'.
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/man/man1'
- /usr/bin/install -c -m 644 ../../doc/gtkam.1 '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/man/man1'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/man/man1'
+ /usr/bin/install -c -m 644 ../../doc/gtkam.1 '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/man/man1'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/doc'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/doc'
 Making install in help
@@ -1342,17 +1341,17 @@ Making install in C
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/C'
 make[4]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/C'
 make[4]: Nothing to be done for `install-exec-am'.
-/bin/sh ../../../auto-aux/mkinstalldirs /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures
-mkdir -p -- /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures
-cp ../../../help/C/legal.xml gtkam.xml /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C
+/bin/sh ../../../auto-aux/mkinstalldirs /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures
+mkdir -p -- /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures
+cp ../../../help/C/legal.xml gtkam.xml /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C
 cp: cannot stat ‘gtkam.xml’: No such file or directory
 make[4]: [install-data-local] Error 1 (ignored)
 for file in ../../../help/C/figures/*.png; do \
 	basefile=`echo $file | sed -e  's,^.*/,,'`; \
-	/usr/bin/install -c -m 644 $file /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures/$basefile; \
+	/usr/bin/install -c -m 644 $file /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures/$basefile; \
 done
 if [ -e ../../../help/C/topic.dat ]; then \
-	/usr/bin/install -c -m 644 ../../../help/C/topic.dat /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C; \
+	/usr/bin/install -c -m 644 ../../../help/C/topic.dat /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C; \
 fi
 make[4]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/C'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/C'
@@ -1360,17 +1359,17 @@ Making install in ru
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/ru'
 make[4]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/ru'
 make[4]: Nothing to be done for `install-exec-am'.
-/bin/sh ../../../auto-aux/mkinstalldirs /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures
-mkdir -p -- /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures
-cp ../../../help/ru/legal.xml gtkam.xml /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru
+/bin/sh ../../../auto-aux/mkinstalldirs /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures
+mkdir -p -- /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures
+cp ../../../help/ru/legal.xml gtkam.xml /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru
 cp: cannot stat ‘gtkam.xml’: No such file or directory
 make[4]: [install-data-local] Error 1 (ignored)
 for file in ../../../help/ru/figures/*.png; do \
 	basefile=`echo $file | sed -e  's,^.*/,,'`; \
-	/usr/bin/install -c -m 644 $file /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures/$basefile; \
+	/usr/bin/install -c -m 644 $file /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures/$basefile; \
 done
 if [ -e ../../../help/ru/topic.dat ]; then \
-	/usr/bin/install -c -m 644 ../../../help/ru/topic.dat /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru; \
+	/usr/bin/install -c -m 644 ../../../help/ru/topic.dat /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru; \
 fi
 make[4]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/ru'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/ru'
@@ -1385,15 +1384,15 @@ Making install in omf-install
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/omf-install'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/omf-install'
 make[3]: Nothing to be done for `install-exec-am'.
-/bin/sh ../../auto-aux/mkinstalldirs /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam
-mkdir -p -- /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam
+/bin/sh ../../auto-aux/mkinstalldirs /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam
+mkdir -p -- /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam
 for file in ./*.omf; do \
-	/usr/bin/install -c -m 644 ../../omf-install/$file /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam; \
+	/usr/bin/install -c -m 644 ../../omf-install/$file /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam; \
 done
 /usr/bin/install: cannot stat ‘../../omf-install/./gtkam-C.omf’: No such file or directory
 make[3]: [install-data-local] Error 1 (ignored)
 if test "xfalse " == "xtrue"; then \
-	scrollkeeper-update -p /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/var/scrollkeeper -o /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam ; \
+	scrollkeeper-update -p /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/var/scrollkeeper -o /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam ; \
 fi
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/omf-install'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/omf-install'
@@ -1417,15 +1416,15 @@ Making install in pixmaps
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
 make[3]: Nothing to be done for `install-exec-am'.
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gtkam/pixmaps'
- /usr/bin/install -c -m 644 ../../pixmaps/camera.xpm ../../pixmaps/configure.xpm ../../pixmaps/delete_images.xpm ../../pixmaps/exit.xpm ../../pixmaps/folder.xpm ../../pixmaps/save_current_image.xpm '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gtkam/pixmaps'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gtkam/pixmaps'
+ /usr/bin/install -c -m 644 ../../pixmaps/camera.xpm ../../pixmaps/configure.xpm ../../pixmaps/delete_images.xpm ../../pixmaps/exit.xpm ../../pixmaps/folder.xpm ../../pixmaps/save_current_image.xpm '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gtkam/pixmaps'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
 Making install in po
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/po'
 linguas="be cs da de eo es fr hu id it is ja nb nl pa pl pt_BR pt ru sk sl sv uk vi zh_CN "; \
 for lang in $linguas; do \
-  dir=/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/$lang/LC_MESSAGES; \
+  dir=/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/$lang/LC_MESSAGES; \
   /bin/sh /tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/auto-aux/install-sh -d $dir; \
   if test -r $lang.gmo; then \
     /usr/bin/install -c -m 644 $lang.gmo $dir/gtkam.mo; \
@@ -1449,39 +1448,39 @@ for lang in $linguas; do \
     fi; \
   fi; \
 done
-installing be.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/be/LC_MESSAGES/gtkam.mo
-installing cs.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/cs/LC_MESSAGES/gtkam.mo
-installing da.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/da/LC_MESSAGES/gtkam.mo
-installing de.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/de/LC_MESSAGES/gtkam.mo
-installing eo.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/eo/LC_MESSAGES/gtkam.mo
-installing es.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/es/LC_MESSAGES/gtkam.mo
-installing fr.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/fr/LC_MESSAGES/gtkam.mo
-installing hu.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/hu/LC_MESSAGES/gtkam.mo
-installing id.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/id/LC_MESSAGES/gtkam.mo
-installing it.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/it/LC_MESSAGES/gtkam.mo
-installing is.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/is/LC_MESSAGES/gtkam.mo
-installing ja.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/ja/LC_MESSAGES/gtkam.mo
-installing nb.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/nb/LC_MESSAGES/gtkam.mo
-installing nl.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/nl/LC_MESSAGES/gtkam.mo
-installing pa.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pa/LC_MESSAGES/gtkam.mo
-installing pl.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pl/LC_MESSAGES/gtkam.mo
-installing pt_BR.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pt_BR/LC_MESSAGES/gtkam.mo
-installing pt.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pt/LC_MESSAGES/gtkam.mo
-installing ru.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/ru/LC_MESSAGES/gtkam.mo
-installing sk.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/sk/LC_MESSAGES/gtkam.mo
-installing sl.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/sl/LC_MESSAGES/gtkam.mo
-installing sv.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/sv/LC_MESSAGES/gtkam.mo
-installing uk.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/uk/LC_MESSAGES/gtkam.mo
-installing vi.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/vi/LC_MESSAGES/gtkam.mo
-installing zh_CN.gmo as /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/zh_CN/LC_MESSAGES/gtkam.mo
+installing be.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/be/LC_MESSAGES/gtkam.mo
+installing cs.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/cs/LC_MESSAGES/gtkam.mo
+installing da.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/da/LC_MESSAGES/gtkam.mo
+installing de.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/de/LC_MESSAGES/gtkam.mo
+installing eo.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/eo/LC_MESSAGES/gtkam.mo
+installing es.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/es/LC_MESSAGES/gtkam.mo
+installing fr.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/fr/LC_MESSAGES/gtkam.mo
+installing hu.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/hu/LC_MESSAGES/gtkam.mo
+installing id.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/id/LC_MESSAGES/gtkam.mo
+installing it.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/it/LC_MESSAGES/gtkam.mo
+installing is.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/is/LC_MESSAGES/gtkam.mo
+installing ja.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/ja/LC_MESSAGES/gtkam.mo
+installing nb.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/nb/LC_MESSAGES/gtkam.mo
+installing nl.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/nl/LC_MESSAGES/gtkam.mo
+installing pa.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pa/LC_MESSAGES/gtkam.mo
+installing pl.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pl/LC_MESSAGES/gtkam.mo
+installing pt_BR.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pt_BR/LC_MESSAGES/gtkam.mo
+installing pt.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/pt/LC_MESSAGES/gtkam.mo
+installing ru.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/ru/LC_MESSAGES/gtkam.mo
+installing sk.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/sk/LC_MESSAGES/gtkam.mo
+installing sl.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/sl/LC_MESSAGES/gtkam.mo
+installing sv.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/sv/LC_MESSAGES/gtkam.mo
+installing uk.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/uk/LC_MESSAGES/gtkam.mo
+installing vi.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/vi/LC_MESSAGES/gtkam.mo
+installing zh_CN.gmo as /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/zh_CN/LC_MESSAGES/gtkam.mo
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/po'
 Making install in src
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin'
 make[3]: Nothing to be done for `install-data-am'.
-  /bin/sh ../libtool   --mode=install /usr/bin/install -c gtkam '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin'
-libtool: install: /usr/bin/install -c gtkam /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin/gtkam
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gtkam '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin'
+libtool: install: /usr/bin/install -c gtkam /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin/gtkam
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
 Making install in test
@@ -1494,12 +1493,12 @@ make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_buil
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[3]: Nothing to be done for `install-exec-am'.
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications'
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/doc/gtkam'
- /usr/bin/mkdir -p '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
- /usr/bin/install -c -m 644 ../AUTHORS ../COPYING ../NEWS ../README ../TODO ../CHANGES '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/doc/gtkam'
- /usr/bin/install -c -m 644 ../gtkam.desktop '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications'
- /usr/bin/install -c -m 644 ../gtkam.png '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/doc/gtkam'
+ /usr/bin/mkdir -p '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
+ /usr/bin/install -c -m 644 ../gtkam.desktop '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications'
+ /usr/bin/install -c -m 644 ../AUTHORS ../COPYING ../NEWS ../README ../TODO ../CHANGES '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/doc/gtkam'
+ /usr/bin/install -c -m 644 ../gtkam.png '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
@@ -1510,12 +1509,12 @@ make[2]: Nothing to be done for `uninstall'.
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/gphoto-m4'
 Making uninstall in art
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
- ( cd '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam' && rm -f gtkam-audio.png gtkam-camera.png gtkam-folder.png gtkam-folder-camera.png gtkam-lock.png gtkam-new.png )
- ( cd '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps' && rm -f gtkam-camera.png )
+ ( cd '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/images/gtkam' && rm -f gtkam-audio.png gtkam-camera.png gtkam-folder.png gtkam-folder-camera.png gtkam-lock.png gtkam-new.png )
+ ( cd '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps' && rm -f gtkam-camera.png )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/art'
 Making uninstall in doc
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/doc'
- ( cd '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/man/man1' && rm -f gtkam.1 )
+ ( cd '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/man/man1' && rm -f gtkam.1 )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/doc'
 Making uninstall in help
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help'
@@ -1523,25 +1522,25 @@ Making uninstall in C
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/C'
 for file in ../../../help/C/figures/*.png; do \
 	basefile=`echo $file | sed -e  's,^.*/,,'`; \
-	rm -f /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures/$basefile; \
+	rm -f /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures/$basefile; \
 done
 for file in legal.xml gtkam.xml; do \
-	rm -f /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/$file; \
+	rm -f /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/$file; \
 done
-rmdir /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures
-rmdir /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C
+rmdir /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C/figures
+rmdir /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/C
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/C'
 Making uninstall in ru
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/ru'
 for file in ../../../help/ru/figures/*.png; do \
 	basefile=`echo $file | sed -e  's,^.*/,,'`; \
-	rm -f /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures/$basefile; \
+	rm -f /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures/$basefile; \
 done
 for file in legal.xml gtkam.xml; do \
-	rm -f /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/$file; \
+	rm -f /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/$file; \
 done
-rmdir /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures
-rmdir /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru
+rmdir /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru/figures
+rmdir /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gnome/help/gtkam/ru
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help/ru'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/help'
 make[3]: Nothing to be done for `uninstall-am'.
@@ -1551,11 +1550,11 @@ Making uninstall in omf-install
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/omf-install'
 for file in ./*.omf; do \
 	basefile=`basename $file`; \
-	rm -f /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam/$basefile; \
+	rm -f /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam/$basefile; \
 done
-rmdir /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam
+rmdir /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/omf/gtkam
 if test "xfalse " == "xtrue"; then \
-	scrollkeeper-update -p /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/var/scrollkeeper ; \
+	scrollkeeper-update -p /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/var/scrollkeeper ; \
 fi
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/omf-install'
 Making uninstall in packaging
@@ -1572,29 +1571,29 @@ Making uninstall in pixmaps
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
 make  uninstall-hook
 make[3]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
-cd "/tmp/am-dc-20679/"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gtkam/pixmaps"" && rm -f camera.xpm configure.xpm delete_images.xpm exit.xpm folder.xpm save_current_image.xpm
+cd "/tmp/am-dc-6034/"/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/gtkam/pixmaps"" && rm -f camera.xpm configure.xpm delete_images.xpm exit.xpm folder.xpm save_current_image.xpm
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/pixmaps'
 Making uninstall in po
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/po'
 linguas="be cs da de eo es fr hu id it is ja nb nl pa pl pt_BR pt ru sk sl sv uk vi zh_CN "; \
 for lang in $linguas; do \
-  rm -f /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/$lang/LC_MESSAGES/gtkam.mo; \
-  rm -f /tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/$lang/LC_MESSAGES/gtkam.mo.m; \
+  rm -f /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/$lang/LC_MESSAGES/gtkam.mo; \
+  rm -f /tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/locale/$lang/LC_MESSAGES/gtkam.mo.m; \
 done
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/po'
 Making uninstall in src
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
- ( cd '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin' && rm -f gtkam )
+ ( cd '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/bin' && rm -f gtkam )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'
 Making uninstall in test
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/test'
 make[2]: Nothing to be done for `uninstall'.
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/test'
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
- ( cd '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications' && rm -f gtkam.desktop )
- ( cd '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps' && rm -f gtkam.png )
- ( cd '/tmp/am-dc-20679//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/doc/gtkam' && rm -f AUTHORS COPYING NEWS README TODO CHANGES )
+ ( cd '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/applications' && rm -f gtkam.desktop )
+ ( cd '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/doc/gtkam' && rm -f AUTHORS COPYING NEWS README TODO CHANGES )
+ ( cd '/tmp/am-dc-6034//tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_inst/share/pixmaps' && rm -f gtkam.png )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
 make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build'
@@ -1805,8 +1804,8 @@ rm -f *.o
 rm -f *.lo
 rm -f *.tab.c
 test -z "" || rm -f 
-test . = "../../src" || test -z "" || rm -f 
 rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+test . = "../../src" || test -z "" || rm -f 
 rm -rf ./.deps
 rm -f Makefile
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/gtkam-0.2.0/_build/src'

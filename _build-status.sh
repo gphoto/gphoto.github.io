@@ -77,23 +77,25 @@ do
     sha="$(git rev-parse HEAD)"
     shart="$(git rev-parse HEAD | sed 's/^\(.\{8\}\).*/\1/')"
     tree_url="https://github.com/${github_user}/${mod}/tree/${sha}/"
-    echo "$indent<td class='succ'><a href='$tree_url'>$shart</a></td>" >&3
+    echo "$indent<td class='succ'><a href='$tree_url' title='git clone OK'>$shart</a></td>" >&3
 
     top_srcdir="$PWD"
     if test -f autogen.sh; then
 	log="/dev/build-status/$sha.autogen.log.txt"
 	if ./autogen.sh > "$cwd/$sha.autogen.log.txt" 2>&1; then
-	    echo "$indent<td class='succ'><a href='$log'>autogen</a></td>" >&3
+	    echo "$indent<td class='succ'><a href='$log' title='autogen.sh OK'>OK</a></td>" >&3
 	else
-	    echo "$indent<td class='fail'><a href='$log'>autogen FAIL</a></td>" >&3
+	    echo "$indent<td class='fail'><a href='$log' title='autogen.sh FAIL
+See the linked log file for more details.'>FAIL</a></td>" >&3
 	    skipping=:
 	fi
     else
 	log="/dev/build-status/$sha.autoreconf.log.txt"
 	if autoreconf -vis > "$cwd/$sha.autoreconf.log.txt" 2>&1; then
-	    echo "$indent<td class='succ'><a href='$log'>OK</a></td>" >&3
+	    echo "$indent<td class='succ'><a href='$log' title='autoreconf OK'>OK</a></td>" >&3
 	else
-	    echo "$indent<td class='fail'><a href='$log'>FAIL</a></td>" >&3
+	    echo "$indent<td class='fail'><a href='$log' title='autoreconf FAIL
+See the linked log file for more details.'>FAIL</a></td>" >&3
 	    skipping=:
 	fi
     fi
@@ -102,20 +104,23 @@ do
     cd _b
 
     if "$skipping"; then
-	echo "$indent<td class='fail'>skip</td>" >&3
+	echo "$indent<td class='fail'><span title='configure SKIP
+configure step skipped due to failing of prerequisite step.'>skip</span></td>" >&3
     else
 	log="/dev/build-status/$sha.configure.log.txt"
 	if ../configure --prefix="$cwd/PREFIX" > "$cwd/$sha.configure.log.txt" 2>&1; then
-	    echo "$indent<td class='succ'><a href='$log'>OK</a></td>" >&3
+	    echo "$indent<td class='succ'><a href='$log' title='configure OK'>OK</a></td>" >&3
 	else
-	    echo "$indent<td class='fail'><a href='$log'>FAIL</a></td>" >&3
+	    echo "$indent<td class='fail'><a href='$log' title='configure FAIL
+See the linked log file for more details.'>FAIL</a></td>" >&3
 	    skipping=:
 	fi
     fi
 
     if "$skipping"; then
 	for target in "${targets[@]}"; do
-	    echo "$indent<td class='fail'>skip</td>" >&3
+	    echo "$indent<td class='fail'><span title='make $target SKIP
+make $target step skipped due to failing of prerequisite step(s).'>skip</span></td>" >&3
 	done
     else
 	declare -A skip_target
@@ -124,13 +129,15 @@ do
 	done
 	for target in "${targets[@]}"; do
 	    if "${skip_target[$target]}"; then
-		echo "$indent<td class='fail'>skip</td>" >&3
+		echo "$indent<td class='fail'><span title='make $target SKIP
+make $target step skipped due to failing of prerequisite step(s).'>skip</span></td>" >&3
 	    else
 		log="/dev/build-status/$sha.make-$target.log.txt"
 		if make -j3 "$target" > "$cwd/$sha.make-$target.log.txt" 2>&1; then
-		    echo "$indent<td class='succ'><a href='$log'>OK</a></td>" >&3
+		    echo "$indent<td class='succ'><a href='$log' title='make $target OK'>OK</a></td>" >&3
 		else
-		    echo "$indent<td class='fail'><a href='$log'>FAIL</a></td>" >&3
+		    echo "$indent<td class='fail'><a href='$log' title='make $target FAIL
+See the linked log file for more details.'>FAIL</a></td>" >&3
 		    case "$target" in
 			all)
 			    skip_target[install]=:

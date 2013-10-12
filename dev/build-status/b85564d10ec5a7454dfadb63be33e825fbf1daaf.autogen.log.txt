@@ -101,11 +101,10 @@ intltoolize: enabling shell trace mode
 + egrep intltool-update.in Makefile.am
 + touch intltool-update.in
 + exit 0
-++ sed -e 1q
-++ sed -e 's/^\[\(.*\)\]$/\1/'
 ++ sed -n -e 's/AC_CONFIG_MACRO_DIR(\([^()]*\))/\1/p'
-++ grep '^AC_CONFIG_MACRO_DIR'
 ++ cat configure.ac
+++ sed -e 1q
+++ grep '^AC_CONFIG_MACRO_DIR'
 + m4dir=m4
 + test -n m4
 + rm -f m4/intltool.m4
@@ -154,11 +153,11 @@ intltoolize: enabling shell trace mode
 + egrep intltool-update.in Makefile.am
 + touch intltool-update.in
 + exit 0
+++ sed -e 1q
 ++ sed -e 's/^\[\(.*\)\]$/\1/'
 ++ sed -n -e 's/AC_CONFIG_MACRO_DIR(\([^()]*\))/\1/p'
 ++ grep '^AC_CONFIG_MACRO_DIR'
 ++ cat configure.ac
-++ sed -e 1q
 + m4dir=m4
 + test -n m4
 + rm -f m4/intltool.m4

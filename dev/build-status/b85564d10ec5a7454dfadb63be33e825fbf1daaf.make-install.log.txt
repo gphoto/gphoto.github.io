@@ -165,8 +165,8 @@ make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/po'
 Making install in src
 make[1]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/src'
 make[2]: Entering directory `/tmp/_build-status-gphoto/gtkam/_b/src'
-make[2]: Nothing to be done for `install-data-am'.
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/bin'
+make[2]: Nothing to be done for `install-data-am'.
   /bin/sh ../libtool   --mode=install /usr/bin/install -c gtkam '/tmp/_build-status-gphoto/PREFIX/bin'
 libtool: install: /usr/bin/install -c gtkam /tmp/_build-status-gphoto/PREFIX/bin/gtkam
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b/src'
@@ -184,8 +184,8 @@ make[2]: Nothing to be done for `install-exec-am'.
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/applications'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gtkam'
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
- /usr/bin/install -c -m 644 gtkam.desktop '/tmp/_build-status-gphoto/PREFIX/share/applications'
  /usr/bin/install -c -m 644 ../AUTHORS ../COPYING ../NEWS ../README ../TODO ../CHANGES '/tmp/_build-status-gphoto/PREFIX/share/doc/gtkam'
+ /usr/bin/install -c -m 644 gtkam.desktop '/tmp/_build-status-gphoto/PREFIX/share/applications'
  /usr/bin/install -c -m 644 ../gtkam.png '/tmp/_build-status-gphoto/PREFIX/share/pixmaps'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gtkam/_b'

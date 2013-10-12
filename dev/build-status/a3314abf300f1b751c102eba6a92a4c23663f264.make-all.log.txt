@@ -17,23 +17,23 @@ make[2]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
 gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-actions.o -MD -MP -MF .deps/gphoto2-actions.Tpo -c -o gphoto2-actions.o `test -f 'actions.c' || echo '../../gphoto2/'`actions.c
 gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-foreach.o -MD -MP -MF .deps/gphoto2-foreach.Tpo -c -o gphoto2-foreach.o `test -f 'foreach.c' || echo '../../gphoto2/'`foreach.c
 gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-gp-params.o -MD -MP -MF .deps/gphoto2-gp-params.Tpo -c -o gphoto2-gp-params.o `test -f 'gp-params.c' || echo '../../gphoto2/'`gp-params.c
-mv -f .deps/gphoto2-actions.Tpo .deps/gphoto2-actions.Po
-gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-spawnve.o -MD -MP -MF .deps/gphoto2-spawnve.Tpo -c -o gphoto2-spawnve.o `test -f 'spawnve.c' || echo '../../gphoto2/'`spawnve.c
 ../../gphoto2/gp-params.c: In function ‘ctx_message_func’:
 ../../gphoto2/gp-params.c:231:13: warning: variable ‘c’ set but not used [-Wunused-but-set-variable]
          int c;
              ^
 mv -f .deps/gphoto2-gp-params.Tpo .deps/gphoto2-gp-params.Po
-gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-main.o -MD -MP -MF .deps/gphoto2-main.Tpo -c -o gphoto2-main.o `test -f 'main.c' || echo '../../gphoto2/'`main.c
-mv -f .deps/gphoto2-spawnve.Tpo .deps/gphoto2-spawnve.Po
-gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-version.o -MD -MP -MF .deps/gphoto2-version.Tpo -c -o gphoto2-version.o `test -f 'version.c' || echo '../../gphoto2/'`version.c
+mv -f .deps/gphoto2-actions.Tpo .deps/gphoto2-actions.Po
 mv -f .deps/gphoto2-foreach.Tpo .deps/gphoto2-foreach.Po
-gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-range.o -MD -MP -MF .deps/gphoto2-range.Tpo -c -o gphoto2-range.o `test -f 'range.c' || echo '../../gphoto2/'`range.c
+gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-spawnve.o -MD -MP -MF .deps/gphoto2-spawnve.Tpo -c -o gphoto2-spawnve.o `test -f 'spawnve.c' || echo '../../gphoto2/'`spawnve.c
+gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-main.o -MD -MP -MF .deps/gphoto2-main.Tpo -c -o gphoto2-main.o `test -f 'main.c' || echo '../../gphoto2/'`main.c
+gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-version.o -MD -MP -MF .deps/gphoto2-version.Tpo -c -o gphoto2-version.o `test -f 'version.c' || echo '../../gphoto2/'`version.c
 mv -f .deps/gphoto2-version.Tpo .deps/gphoto2-version.Po
-gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-shell.o -MD -MP -MF .deps/gphoto2-shell.Tpo -c -o gphoto2-shell.o `test -f 'shell.c' || echo '../../gphoto2/'`shell.c
+mv -f .deps/gphoto2-spawnve.Tpo .deps/gphoto2-spawnve.Po
+gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-range.o -MD -MP -MF .deps/gphoto2-range.Tpo -c -o gphoto2-range.o `test -f 'range.c' || echo '../../gphoto2/'`range.c
 mv -f .deps/gphoto2-main.Tpo .deps/gphoto2-main.Po
-mv -f .deps/gphoto2-range.Tpo .deps/gphoto2-range.Po
+gcc -DHAVE_CONFIG_H -I. -I../../gphoto2 -I..  -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE  -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -MT gphoto2-shell.o -MD -MP -MF .deps/gphoto2-shell.Tpo -c -o gphoto2-shell.o `test -f 'shell.c' || echo '../../gphoto2/'`shell.c
 mv -f .deps/gphoto2-shell.Tpo .deps/gphoto2-shell.Po
+mv -f .deps/gphoto2-range.Tpo .deps/gphoto2-range.Po
 /bin/sh ../libtool  --tag=CC   --mode=link gcc -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2   -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE      -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g  -g -o gphoto2   gphoto2-actions.o gphoto2-foreach.o gphoto2-gp-params.o gphoto2-spawnve.o gphoto2-main.o gphoto2-version.o gphoto2-range.o gphoto2-shell.o -L/tmp/_build-status-gphoto/PREFIX/lib -lgphoto2 -lgphoto2_port -lm -lexif     -ljpeg -lpthread -lexif    -lreadline -L/usr/lib64 -lpopt -lm 
 libtool: link: gcc -I../.. -I../../gphoto2 -I/tmp/_build-status-gphoto/PREFIX/include/gphoto2 -DLOCALEDIR=\"/tmp/_build-status-gphoto/PREFIX/share/locale\" -D_GPHOTO2_INTERNAL_CODE -I/usr/include -g -O2 -Wall -Wmissing-declarations -Wmissing-prototypes -g -g -o gphoto2 gphoto2-actions.o gphoto2-foreach.o gphoto2-gp-params.o gphoto2-spawnve.o gphoto2-main.o gphoto2-version.o gphoto2-range.o gphoto2-shell.o  -L/tmp/_build-status-gphoto/PREFIX/lib /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2.so /tmp/_build-status-gphoto/PREFIX/lib/libgphoto2_port.so -lltdl -ljpeg -lpthread -lexif -lreadline -L/usr/lib64 -lpopt -lm -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib -Wl,-rpath -Wl,/tmp/_build-status-gphoto/PREFIX/lib
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/gphoto2'
@@ -75,115 +75,115 @@ test ! -f gphoto2.po || { \
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
 test -z "../../po/az.gmo ../../po/cs.gmo ../../po/da.gmo ../../po/de.gmo ../../po/en_GB.gmo ../../po/es.gmo ../../po/eu.gmo ../../po/fi.gmo ../../po/fr.gmo ../../po/hu.gmo ../../po/id.gmo ../../po/is.gmo ../../po/it.gmo ../../po/ja.gmo ../../po/nl.gmo ../../po/pa.gmo ../../po/pl.gmo ../../po/pt_BR.gmo ../../po/ro.gmo ../../po/ru.gmo ../../po/rw.gmo ../../po/sk.gmo ../../po/sr.gmo ../../po/sv.gmo ../../po/uk.gmo ../../po/vi.gmo ../../po/zh_CN.gmo ../../po/zh_TW.gmo" || make ../../po/az.gmo ../../po/cs.gmo ../../po/da.gmo ../../po/de.gmo ../../po/en_GB.gmo ../../po/es.gmo ../../po/eu.gmo ../../po/fi.gmo ../../po/fr.gmo ../../po/hu.gmo ../../po/id.gmo ../../po/is.gmo ../../po/it.gmo ../../po/ja.gmo ../../po/nl.gmo ../../po/pa.gmo ../../po/pl.gmo ../../po/pt_BR.gmo ../../po/ro.gmo ../../po/ru.gmo ../../po/rw.gmo ../../po/sk.gmo ../../po/sr.gmo ../../po/sv.gmo ../../po/uk.gmo ../../po/vi.gmo ../../po/zh_CN.gmo ../../po/zh_TW.gmo
 make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
-cd ../../po && /usr/bin/msgmerge --update az.po gphoto2.pot
 cd ../../po && /usr/bin/msgmerge --update cs.po gphoto2.pot
 cd ../../po && /usr/bin/msgmerge --update da.po gphoto2.pot
-........................................................................ done.
-.................................................................... done.
+cd ../../po && /usr/bin/msgmerge --update az.po gphoto2.pot
+...................................................................... done.
+.................................................................. done.
 ..................................... done.
 cd ../../po && /usr/bin/msgmerge --update de.po gphoto2.pot
-cd ../../po && /usr/bin/msgmerge --update es.po gphoto2.pot
 cd ../../po && /usr/bin/msgmerge --update en_GB.po gphoto2.pot
-................................. done.
-............cd ../../po && /usr/bin/msgmerge --update eu.po gphoto2.pot
-.............................................................................. done.
-..................................................................................... done.
-................cd ../../po && /usr/bin/msgmerge --update fi.po gphoto2.pot
-......................... done.
-cd ../../po && /usr/bin/msgmerge --update fr.po gphoto2.pot
-............................................................................................. done.
-cd ../../po && /usr/bin/msgmerge --update hu.po gphoto2.pot
-........................ done.
-............cd ../../po && /usr/bin/msgmerge --update id.po gphoto2.pot
-................................................................... done.
-cd ../../po && /usr/bin/msgmerge --update is.po gphoto2.pot
-....................................................................... done.
-.. done.
-cd ../../po && /usr/bin/msgmerge --update it.po gphoto2.pot
-cd ../../po && /usr/bin/msgmerge --update ja.po gphoto2.pot
-...................................cd ../../po && /usr/bin/msgmerge --update nl.po gphoto2.pot
+cd ../../po && /usr/bin/msgmerge --update es.po gphoto2.pot
+............................................................................................................................................................................................... done.
  done.
-.......................................... done.
+cd ../../po && /usr/bin/msgmerge --update eu.po gphoto2.pot
+........cd ../../po && /usr/bin/msgmerge --update fi.po gphoto2.pot
+.........................cd ../../po && /usr/bin/msgmerge --update fr.po gphoto2.pot
+......................... done.
+cd ../../po && /usr/bin/msgmerge --update hu.po gphoto2.pot
+............................................ done.
+....................................................................................................... done.
+............................................... done.
+cd ../../po && /usr/bin/msgmerge --update id.po gphoto2.pot
+cd ../../po && /usr/bin/msgmerge --update is.po gphoto2.pot
+cd ../../po && /usr/bin/msgmerge --update it.po gphoto2.pot
+................................... done.
+................................... done.
+cd ../../po && /usr/bin/msgmerge --update ja.po gphoto2.pot
+................................... done.
+cd ../../po && /usr/bin/msgmerge --update nl.po gphoto2.pot
+......................................... done.
 ................................. done.
-cd ../../po && /usr/bin/msgmerge --update pa.po gphoto2.pot
 cd ../../po && /usr/bin/msgmerge --update pl.po gphoto2.pot
-....................................................................... done.
-................................. done.
-.................................cd ../../po && /usr/bin/msgmerge --update ro.po gphoto2.pot
-........... done.
+cd ../../po && /usr/bin/msgmerge --update pa.po gphoto2.pot
+cd ../../po && /usr/bin/msgmerge --update pt_BR.po gphoto2.pot
+........................................... done.
+....................................................... done.
+.................................................. done.
+cd ../../po && /usr/bin/msgmerge --update ro.po gphoto2.pot
 cd ../../po && /usr/bin/msgmerge --update ru.po gphoto2.pot
-................................. done.
-cd ../../po && /usr/bin/msgmerge --update rw.po gphoto2.pot
-.................................................................... done.
-..................................... done.
-cd ../../po && /usr/bin/msgmerge --update sk.po gphoto2.pot
-cd ../../po && /usr/bin/msgmerge --update sr.po gphoto2.pot
+......................................... done.
+...........cd ../../po && /usr/bin/msgmerge --update sk.po gphoto2.pot
+...................................................cd ../../po && /usr/bin/msgmerge --update rw.po gphoto2.pot
+ done.
+...................................................................... done.
+............................................................... done.
 cd ../../po && /usr/bin/msgmerge --update sv.po gphoto2.pot
-................................................................ done.
-......................................................... done.
-................................................................................................. done.
+....................................................................................... done.
 cd ../../po && /usr/bin/msgmerge --update uk.po gphoto2.pot
+..................................... done.
+.................................. done.
 cd ../../po && /usr/bin/msgmerge --update vi.po gphoto2.pot
 cd ../../po && /usr/bin/msgmerge --update zh_CN.po gphoto2.pot
-.................................................................... done.
-.................................. done.
-.. done.
 cd ../../po && /usr/bin/msgmerge --update zh_TW.po gphoto2.pot
+.................................................................... done.
+.. done.
 ................................... done.
 cd ../../po && rm -f az.gmo && /usr/bin/msgfmt -c --statistics -o az.gmo az.po
 cd ../../po && rm -f cs.gmo && /usr/bin/msgfmt -c --statistics -o cs.gmo cs.po
-cd ../../po && rm -f da.gmo && /usr/bin/msgfmt -c --statistics -o da.gmo da.po
 94 translated messages, 34 fuzzy translations, 200 untranslated messages.
 272 translated messages, 37 fuzzy translations, 19 untranslated messages.
-326 translated messages, 2 fuzzy translations.
+cd ../../po && rm -f da.gmo && /usr/bin/msgfmt -c --statistics -o da.gmo da.po
 cd ../../po && rm -f de.gmo && /usr/bin/msgfmt -c --statistics -o de.gmo de.po
+326 translated messages, 2 fuzzy translations.
+325 translated messages, 2 fuzzy translations, 1 untranslated message.
 cd ../../po && rm -f es.gmo && /usr/bin/msgfmt -c --statistics -o es.gmo es.po
 cd ../../po && rm -f en_GB.gmo && /usr/bin/msgfmt -c --statistics -o en_GB.gmo en_GB.po
-325 translated messages, 2 fuzzy translations, 1 untranslated message.
 166 translated messages, 46 fuzzy translations, 116 untranslated messages.
-cd ../../po && rm -f eu, 46 fuzzy translations, 116 untranslated messages.
-cd ../../po && rm -f fi.gmo && /usr/bin/msgfmt -c --statistics -o fi.gmo fi.po
+166 translated messages, 46 fuzzy translations, 116 untranslated messages.
+cd ../../po && rm -f eu.gmo && /usr/bin/msgfmt -c --statistics -o eu.gmo eu.po
 cd ../../po && rm -f fr.gmo && /usr/bin/msgfmt -c --statistics -o fr.gmo fr.po
 182 translated messages, 66 fuzzy translations, 80 untranslated messages.
-166 translated messages, 46 fuzzy translations, 116 untranslated messages.
-326 translated messages, 2 fuzzy translations.
-cd ../../po && rm -f is.gmo && /usr/bin/msgfmt -c --statistics -o is.gmo is.po
 cd ../../po && rm -f hu.gmo && /usr/bin/msgfmt -c --statistics -o hu.gmo hu.po
+cd ../../po && rm -f fi.gmo && /usr/bin/msgfmt -c --statistics -o fi.gmo fi.po
+326 translated messages, 2 fuzzy translations.
 cd ../../po && rm -f id.gmo && /usr/bin/msgfmt -c --statistics -o id.gmo id.po
-76 translated messages, 2 fuzzy translations, 250 untranslated messages.
 166 translated messages, 46 fuzzy translations, 116 untranslated messages.
+166 translated messages, 46 fuzzy translations, 116 untranslated messages.
+cd ../../po && rm -f is.gmo && /usr/bin/msgfmt -c --statistics -o is.gmo is.po
 325 translated messages, 2 fuzzy translations, 1 untranslated message.
+76 translated messages, 2 fuzzy translations, 250 untranslated messages.
 cd ../../po && rm -f it.gmo && /usr/bin/msgfmt -c --statistics -o it.gmo it.po
 cd ../../po && rm -f ja.gmo && /usr/bin/msgfmt -c --statistics -o ja.gmo ja.po
 cd ../../po && rm -f nl.gmo && /usr/bin/msgfmt -c --statistics -o nl.gmo nl.po
-325 translated messages, 2 fuzzy translations, 1 untranslated message.
-cd ../../po && rm -f pa.gmo && /usr/bin/msgfmt -c --statistics -o pa.gmo pa.po
 301 translated messages, 16 fuzzy translations, 11 untranslated messages.
 328 translated messages.
-196 translated messages, 36 fuzzy translations, 96 untranslated messages.
-cd ../../po && rm -f pt_BR.gmo && /usr/bin/msgfmt -c --statistics -o pt_BR.gmo pt_BR.po
-cd ../../po && rm -f ro.gmo && /usr/bin/msgfmt -c --statistics -o ro.gmo ro.po
+325 translated messages, 2 fuzzy translations, 1 untranslated message.
 cd ../../po && rm -f pl.gmo && /usr/bin/msgfmt -c --statistics -o pl.gmo pl.po
+cd ../../po && rm -f pt_BR.gmo && /usr/bin/msgfmt -c --statistics -o pt_BR.gmo pt_BR.po
+cd ../../po && rm -f pa.gmo && /usr/bin/msgfmt -c --statistics -o pa.gmo pa.po
 328 translated messages.
+196 translated messages, 36 fuzzy translations, 96 untranslated messages.
+cd ../../po && rm -f ro.gmo && /usr/bin/msgfmt -c --statistics -o ro.gmo ro.po
 313 translated messages, 11 fuzzy translations, 4 untranslated messages.
 cd ../../po && rm -f ru.gmo && /usr/bin/msgfmt -c --statistics -o ru.gmo ru.po
-cd ../../po && rm -f rw.gmo && /usr/bin/msgfmt -c --statistics -o rw.gmo rw.po
 250 translated messages, 37 fuzzy translations, 41 untranslated messages.
-17 translated messages, 212 fuzzy translations, 99 untranslated messages.
 328 translated messages.
+cd ../../po && rm -f rw.gmo && /usr/bin/msgfmt -c --statistics -o rw.gmo rw.po
 cd ../../po && rm -f sk.gmo && /usr/bin/msgfmt -c --statistics -o sk.gmo sk.po
 cd ../../po && rm -f sr.gmo && /usr/bin/msgfmt -c --statistics -o sr.gmo sr.po
+17 translated messages, 212 fuzzy translations, 99 untranslated messages.
 182 translated messages, 63 fuzzy translations, 83 untranslated messages.
 cd ../../po && rm -f sv.gmo && /usr/bin/msgfmt -c --statistics -o sv.gmo sv.po
 cd ../../po && rm -f uk.gmo && /usr/bin/msgfmt -c --statistics -o uk.gmo uk.po
 250 translated messages, 37 fuzzy translations, 41 untranslated messages.
 295 translated messages, 18 fuzzy translations, 15 untranslated messages.
-328 translated messages.
 cd ../../po && rm -f vi.gmo && /usr/bin/msgfmt -c --statistics -o vi.gmo vi.po
-cd ../../po && rm -f zh_TW.gmo && /usr/bin/msgfmt -c --statistics -o zh_TW.gmo zh_TW.po
+328 translated messages.
 cd ../../po && rm -f zh_CN.gmo && /usr/bin/msgfmt -c --statistics -o zh_CN.gmo zh_CN.po
-326 translated messages, 2 fuzzy translations.
+cd ../../po && rm -f zh_TW.gmo && /usr/bin/msgfmt -c --statistics -o zh_TW.gmo zh_TW.po
 324 translated messages, 4 fuzzy translations.
+326 translated messages, 2 fuzzy translations.
 326 translated messages, 2 fuzzy translations.
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
 touch stamp-po

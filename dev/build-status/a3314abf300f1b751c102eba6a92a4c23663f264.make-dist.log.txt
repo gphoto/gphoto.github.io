@@ -56,105 +56,105 @@ test ! -f gphoto2.po || { \
 make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
 test -z "az.po-update cs.po-update da.po-update de.po-update en_GB.po-update es.po-update eu.po-update fi.po-update fr.po-update hu.po-update id.po-update is.po-update it.po-update ja.po-update nl.po-update pa.po-update pl.po-update pt_BR.po-update ro.po-update ru.po-update rw.po-update sk.po-update sr.po-update sv.po-update uk.po-update vi.po-update zh_CN.po-update zh_TW.po-update" || make az.po-update cs.po-update da.po-update de.po-update en_GB.po-update es.po-update eu.po-update fi.po-update fr.po-update hu.po-update id.po-update is.po-update it.po-update ja.po-update nl.po-update pa.po-update pl.po-update pt_BR.po-update ro.po-update ru.po-update rw.po-update sk.po-update sr.po-update sv.po-update uk.po-update vi.po-update zh_CN.po-update zh_TW.po-update
 make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
+az:
+cd ../../po && msgmerge az.po gphoto2.pot -o az.new.po
 cs:
 cd ../../po && msgmerge cs.po gphoto2.pot -o cs.new.po
 da:
 cd ../../po && msgmerge da.po gphoto2.pot -o da.new.po
-az:
-cd ../../po && msgmerge az.po gphoto2.pot -o az.new.po
-.................................................................... done.
- done.
+................................. done.
+................................. done.
 ................................. done.
 de:
 cd ../../po && msgmerge de.po gphoto2.pot -o de.new.po
 en_GB:
 cd ../../po && msgmerge en_GB.po gphoto2.pot -o en_GB.new.po
-es:
-cd ../../po && msgmerge es.po gphoto2.pot -o es.new.po
-................................... done.
-................................... done.
 ................................. done.
+.................................es:
+cd ../../po && msgmerge es.po gphoto2.pot -o es.new.po
+ done.
 eu:
-cd ../../po && msgmerge eu.po gphoto2.pot -o eu.new.po
+.....cd ../../po && msgmerge eu.po gphoto2.pot -o eu.new.po
+........................... done.
 fi:
 cd ../../po && msgmerge fi.po gphoto2.pot -o fi.new.po
+................................. done.
 fr:
 cd ../../po && msgmerge fr.po gphoto2.pot -o fr.new.po
-.............................................. done.
+................................. done.
 ................................. done.
 hu:
 cd ../../po && msgmerge hu.po gphoto2.pot -o hu.new.po
-................................. done.
 id:
 cd ../../po && msgmerge id.po gphoto2.pot -o id.new.po
-................................. done.
-is:
+.................................is:
 cd ../../po && msgmerge is.po gphoto2.pot -o is.new.po
-................................. done.
-................................. done.
+....................................... done.
+ done.
 it:
 cd ../../po && msgmerge it.po gphoto2.pot -o it.new.po
 ja:
 cd ../../po && msgmerge ja.po gphoto2.pot -o ja.new.po
-.................................nl:
+................................. done.
+................................... done.
+.................................. done.
+nl:
 cd ../../po && msgmerge nl.po gphoto2.pot -o nl.new.po
-................................. done.
- done.
-................................. done.
-pa:
-cd ../../po && msgmerge pa.po gphoto2.pot -o pa.new.po
 pl:
 cd ../../po && msgmerge pl.po gphoto2.pot -o pl.new.po
-pt_BR:
-cd ../../po && msgmerge pt_BR.po gphoto2.pot -o pt_BR.new.po
+pa:
+cd ../../po && msgmerge pa.po gphoto2.pot -o pa.new.po
 ................................. done.
 .................................................................. done.
  done.
-ro:
-cd ../../po && msgmerge ro.po gphoto2.pot -o ro.new.po
-rw:
-cd ../../po && msgmerge rw.po gphoto2.pot -o rw.new.po
+pt_BR:
+cd ../../po && msgmerge pt_BR.po gphoto2.pot -o pt_BR.new.po
 ru:
 cd ../../po && msgmerge ru.po gphoto2.pot -o ru.new.po
+ro:
+cd ../../po && msgmerge ro.po gphoto2.pot -o ro.new.po
+................................... done.
 ................................. done.
 ................................. done.
-................................. done.
+rw:
+cd ../../po && msgmerge rw.po gphoto2.pot -o rw.new.po
 sk:
 cd ../../po && msgmerge sk.po gphoto2.pot -o sk.new.po
+................................. done.
 ................................. done.
 sr:
 cd ../../po && msgmerge sr.po gphoto2.pot -o sr.new.po
 sv:
 cd ../../po && msgmerge sv.po gphoto2.pot -o sv.new.po
+................................... done.
 uk:
 cd ../../po && msgmerge uk.po gphoto2.pot -o uk.new.po
 ................................. done.
-................................. done.
-................................. done.
 vi:
 cd ../../po && msgmerge vi.po gphoto2.pot -o vi.new.po
-..................................zh_CN:
+................................... done.
+................................. done.
+zh_CN:
 cd ../../po && msgmerge zh_CN.po gphoto2.pot -o zh_CN.new.po
- done.
+................................... done.
 zh_TW:
 cd ../../po && msgmerge zh_TW.po gphoto2.pot -o zh_TW.new.po
-................................. done.
-................................. done.
+.................................... done.
 make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
 make update-gmo
 make[4]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
-cd ../../po && rm -f de.gmo && /usr/bin/msgfmt -c --statistics -o de.gmo de.po
 cd ../../po && rm -f nl.gmo && /usr/bin/msgfmt -c --statistics -o nl.gmo nl.po
 cd ../../po && rm -f pl.gmo && /usr/bin/msgfmt -c --statistics -o pl.gmo pl.po
+cd ../../po && rm -f de.gmo && /usr/bin/msgfmt -c --statistics -o de.gmo de.po
 325 translated messages, 2 fuzzy translations, 1 untranslated message.
-cd ../../po && rm -f ru.gmo && /usr/bin/msgfmt -c --statistics -o ru.gmo ru.po
 328 translated messages.
 328 translated messages.
-328 translated messages.
-cd ../../po && rm -f uk.gmo && /usr/bin/msgfmt -c --statistics -o uk.gmo uk.po
 cd ../../po && rm -f rw.gmo && /usr/bin/msgfmt -c --statistics -o rw.gmo rw.po
-328 translated messages.
+cd ../../po && rm -f ru.gmo && /usr/bin/msgfmt -c --statistics -o ru.gmo ru.po
+cd ../../po && rm -f uk.gmo && /usr/bin/msgfmt -c --statistics -o uk.gmo uk.po
 17 translated messages, 212 fuzzy translations, 99 untranslated messages.
+328 translated messages.
+328 translated messages.
 make[4]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gphoto2/_b/po'
