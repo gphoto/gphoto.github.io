@@ -324,7 +324,7 @@ Running "installcheck" test cases...
 Test case: test-gp.py
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.009s
+Ran 5 tests in 0.010s
 
 OK
 ['2.5.2.1', 'all camlibs', 'gcc', 'ltdl', 'EXIF']
@@ -419,13 +419,13 @@ make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgp
 make[3]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
 make[4]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
 make[4]: Nothing to be done for `install-data-am'.
- /usr/bin/mkdir -p '/tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
- /bin/sh ./libtool   --mode=install /usr/bin/install -c   gphoto2.la '/tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
-libtool: install: /usr/bin/install -c .libs/gphoto2.so /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so
-libtool: install: /usr/bin/install -c .libs/gphoto2.lai /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la
-libtool: install: /usr/bin/install -c .libs/gphoto2.a /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
-libtool: install: chmod 644 /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
-libtool: install: ranlib /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+ /usr/bin/mkdir -p '/tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   gphoto2.la '/tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
+libtool: install: /usr/bin/install -c .libs/gphoto2.so /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so
+libtool: install: /usr/bin/install -c .libs/gphoto2.lai /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la
+libtool: install: /usr/bin/install -c .libs/gphoto2.a /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: install: chmod 644 /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+libtool: install: ranlib /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
 libtool: install: warning: remember to run `libtool --finish /tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages'
 make[4]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
@@ -437,8 +437,8 @@ make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libg
 make[2]: Nothing to be done for `uninstall'.
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build/gphoto-m4'
 make[2]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
- /bin/sh ./libtool   --mode=uninstall rm -f '/tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la'
-libtool: uninstall: rm -f /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-26914//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
+ /bin/sh ./libtool   --mode=uninstall rm -f '/tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la'
+libtool: uninstall: rm -f /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.la /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.so /tmp/am-dc-3389//tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_inst/lib64/python2.7/site-packages/gphoto2.a
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
 make[1]: Entering directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
@@ -482,10 +482,10 @@ rm -f *.o
 rm -f *.lo
 rm -f *.tab.c
 test -z "gp-setup.py setup.py" || rm -f gp-setup.py setup.py
+rm -f ./so_locations
 rm -f libtool config.lt
 test . = ".." || test -z "" || rm -f 
 rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
-rm -f ./so_locations
 rm -f cscope.out cscope.in.out cscope.po.out cscope.files
 make[2]: Leaving directory `/tmp/_build-status-gphoto/libgphoto2-python/_b/libgphoto2-python-2.3.1.4.trunk/_build'
 rm -f config.status config.cache config.log configure.lineno config.status.lineno

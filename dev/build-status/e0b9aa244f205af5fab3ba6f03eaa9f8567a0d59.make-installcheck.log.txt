@@ -7,7 +7,7 @@ Running "installcheck" test cases...
 Test case: test-gp.py
 .....
 ----------------------------------------------------------------------
-Ran 5 tests in 0.010s
+Ran 5 tests in 0.011s
 
 OK
 ['2.5.2.1', 'all camlibs', 'gcc', 'ltdl', 'EXIF']

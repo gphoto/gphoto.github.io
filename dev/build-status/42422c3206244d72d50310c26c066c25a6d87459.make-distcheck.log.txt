@@ -290,9 +290,9 @@ make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_
 make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
 make[3]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
 make[3]: Nothing to be done for `install-data-am'.
- /usr/bin/mkdir -p '/tmp/am-dc-21758//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
-  /bin/sh ./libtool   --mode=install /usr/bin/install -c gphotofs '/tmp/am-dc-21758//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
-libtool: install: /usr/bin/install -c gphotofs /tmp/am-dc-21758//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin/gphotofs
+ /usr/bin/mkdir -p '/tmp/am-dc-29976//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c gphotofs '/tmp/am-dc-29976//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin'
+libtool: install: /usr/bin/install -c gphotofs /tmp/am-dc-29976//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin/gphotofs
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
@@ -302,7 +302,7 @@ make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/
 make[2]: Nothing to be done for `uninstall'.
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
 make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
- ( cd '/tmp/am-dc-21758//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin' && rm -f gphotofs )
+ ( cd '/tmp/am-dc-29976//tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_inst/bin' && rm -f gphotofs )
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
 make[1]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
 make[1]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
@@ -338,20 +338,20 @@ test . = "../../gphoto-m4" || test -z "" || rm -f
 rm -f Makefile
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build/gphoto-m4'
 make[2]: Entering directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
+ rm -f gphotofs
 rm -rf .libs _libs
 rm -f *.o
- rm -f gphotofs
 test -z "" || rm -f 
 rm -f *.lo
-test -z "" || rm -f 
 rm -f *.tab.c
-test -z "test-suite.log" || rm -f test-suite.log
 test -z "" || rm -f 
+test -z "" || rm -f 
+test -z "test-suite.log" || rm -f test-suite.log
 rm -f config.h stamp-h1
 rm -f libtool config.lt
 rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
-rm -f cscope.out cscope.in.out cscope.po.out cscope.files
 test . = ".." || test -z "" || rm -f 
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphotofs/_b/gphotofs-0.5/_build'
 rm -f config.status config.cache config.log configure.lineno config.status.lineno
 rm -rf ./.deps

@@ -80,8 +80,8 @@ make[3]: Nothing to be done for `install-exec-am'.
 /usr/bin/install -c -d /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks
 cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures figures))
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks'
- /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks'
 cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots screenshots))
+ /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/html-nochunks'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/html-nochunks'
 Making install in xhtml-nochunks
@@ -91,8 +91,8 @@ make[3]: Nothing to be done for `install-exec-am'.
 /usr/bin/install -c -d /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks/
 cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks && ( [ -d figures ] || (rm -f figures && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/figures figures))
  /usr/bin/mkdir -p '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks'
- /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks'
 cd /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks && ( [ -d screenshots ] || (rm -f screenshots && ln -s -f /tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/screenshots screenshots))
+ /usr/bin/install -c -m 644 gphoto2.html '/tmp/_build-status-gphoto/PREFIX/share/doc/gphoto2-manual/xhtml-nochunks'
 make[3]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
 make[2]: Leaving directory `/tmp/_build-status-gphoto/gphoto2-manual/_b/src/xhtml-nochunks'
 Making install in txt2
